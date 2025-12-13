@@ -6,7 +6,11 @@ export default defineConfig({
   
   title: "AnyDocs",
   description: "Modern docs, beautifully designed.",
+  head: [
+      ['link', {rel: 'icon', href: '/icon-512.png'}]
+  ],
   themeConfig: {
+    logo: '/icon-512.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -24,7 +28,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/any-docs' }
     ]
   }
 })

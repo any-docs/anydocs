@@ -13,6 +13,9 @@ export default defineConfig({
   themeConfig: {
     siteTitle: 'AnyDocs',
     logo: '/icon-512.png',
+    search: {
+      provider: 'local'
+    },
     editLink: {
       pattern: 'https://github.com/any-docs/anydocs/edit/main/content/:path',
       text: 'Edit this page on GitHub'

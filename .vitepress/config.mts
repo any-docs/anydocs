@@ -4,31 +4,53 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   srcDir: "content",
   
-  title: "AnyDocs",
+  title: "AnyDocs — Your modern and beautiful all-in-one documentation",
   description: "Modern docs, beautifully designed.",
   head: [
       ['link', {rel: 'icon', href: '/icon-512.png'}]
   ],
   themeConfig: {
+    siteTitle: 'AnyDocs',
     logo: '/icon-512.png',
-    // https://vitepress.dev/reference/default-theme-config
+    editLink: {
+      pattern: 'https://github.com/any-docs/anydocs/edit/main/content/:path',
+      text: 'Edit this page on GitHub'
+    },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      {
+        text: 'Docs',
+        items: [
+          {
+            text: 'PHP',
+            link: '/php/introduction'
+          },
+          {
+            text: 'Rust',
+            link: '/rust'
+          },
+          {
+            text: 'Zig',
+            link: '/zig'
+          }
+        ]
+      },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
+    sidebar: {
+      '/php/': [{
+        text: 'Getting Started',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          {text: 'Welcome to PHP', link: '/php/introduction'},
+          {text: 'Installation', link: '/php/installation'}
         ]
-      }
-    ],
+      }]
+    },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/any-docs' }
-    ]
+      { icon: 'github', link: 'https://github.com/any-docs/anydocs' }
+    ],
+    footer: {
+      copyright: 'Copyright © 2025'
+    }
   }
 })

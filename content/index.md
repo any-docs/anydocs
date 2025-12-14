@@ -9,11 +9,13 @@ hero:
 
 features:
   - title: PHP
-    details: "A popular general-purpose scripting language that is especially suited to web development.
-Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world."
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: "A popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world."
+    link: "/php/introduction"
+  - title: "Zig"
+    details: "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal and reusable software." 
+    link: "/zig"
+  - title: "Rust"
+    details: "A language empowering everyone to build reliable and efficient software." 
+    link: "/rust"
 ---
 

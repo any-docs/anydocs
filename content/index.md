@@ -11,11 +11,21 @@ features:
   - title: PHP
     details: "A popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world."
     link: "/php/introduction"
+    icon: 
+      src: '/new-php-logo.png'
+      width: '90.5px'
   - title: "Zig"
     details: "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal and reusable software." 
     link: "/zig"
+    icon:
+      dark: '/zig-logo-light.svg'
+      light: '/zig-logo-dark.svg'
+      width: '137px'
   - title: "Rust"
     details: "A language empowering everyone to build reliable and efficient software." 
     link: "/rust"
+    icon:
+      dark: '/rust-logo-white.webp'
+      light: '/rust-logo-black.webp'
 ---
 

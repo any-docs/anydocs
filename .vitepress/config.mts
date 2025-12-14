@@ -22,7 +22,7 @@ export default defineConfig({
         items: [
           {
             text: 'PHP',
-            link: '/php/introduction'
+            link: '/php/introduction',
           },
           {
             text: 'Rust',
@@ -41,7 +41,8 @@ export default defineConfig({
         text: 'Getting Started',
         items: [
           {text: 'Welcome to PHP', link: '/php/introduction'},
-          {text: 'Installation', link: '/php/installation'}
+          {text: 'Installation', link: '/php/installation'},
+          {text: 'Basic Syntax', link: '/php/basic-syntax'}
         ]
       }]
     },

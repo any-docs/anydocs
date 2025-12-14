@@ -1,5 +1,5 @@
 ---
-title: Welcome to PHP
+title: "What is PHP?"
 lang: en-US
 ---
 
@@ -34,4 +34,3 @@ foreach ($fruits as $fruit) {
 ```
 
 PHP can handle everything from simple contact forms to complex e-commerce systems. It's also free and open-source, with extensive documentation and a large community.
-{{ 1 + 1 }}

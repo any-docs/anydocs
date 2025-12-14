@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import {items as HTMLSidebarItems} from "./sidebars/html";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -21,6 +22,10 @@ export default defineConfig({
         text: 'Docs',
         items: [
           {
+            text: 'HTML',
+            link: '/html/index',
+          },
+          {
             text: 'PHP',
             link: '/php/introduction',
           },
@@ -37,8 +42,9 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/html/': HTMLSidebarItems,
       '/php/': [{
-        text: 'Getting Started',
+        text: 'PHP',
         items: [
           {text: 'Welcome to PHP', link: '/php/introduction'},
           {text: 'Installation', link: '/php/installation'},

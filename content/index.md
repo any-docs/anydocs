@@ -8,6 +8,18 @@ hero:
   tagline: All Your Docs. One Place. Instant Access.
 
 features:
+  - title: CSS
+    details: "A popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world."
+    link: "/php/introduction"
+    icon:
+      src: '/css-logo.png'
+      width: '48px'
+  - title: HTML
+    details: "HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content."
+    link: "/html/index"
+    icon:
+      src: '/html5-logo.png'
+      width: '48px'
   - title: PHP
     details: "A popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world."
     link: "/php/introduction"

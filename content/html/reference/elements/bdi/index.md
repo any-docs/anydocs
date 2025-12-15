@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<bdi>`** [HTML](/en-US/docs/Web/HTML) element tells the browser's bidirectional algorithm to treat the text it contains in isolation from its surrounding text. It's particularly useful when a website dynamically inserts some text and doesn't know the directionality of the text being inserted.
 
-{{InteractiveExample("HTML Demo: &lt;bdi&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <bdi>", "tabbed-standard")}}
 
 ```html interactive-example
 <h1>World wrestling championships</h1>

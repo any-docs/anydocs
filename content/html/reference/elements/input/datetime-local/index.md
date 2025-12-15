@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 {{htmlelement("input")}} elements of type **`datetime-local`** create input controls that let the user easily enter both a date and a time, including the year, month, and day as well as the time in hours and minutes.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;datetime-local&quot;&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <input type='datetime-local'>", "tabbed-shorter")}}
 
 ```html interactive-example
 <label for="meeting-time">Choose a time for your appointment:</label>

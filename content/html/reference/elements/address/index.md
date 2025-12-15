@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<address>`** [HTML](/en-US/docs/Web/HTML) element indicates that the enclosed HTML provides contact information for a person or people, or for an organization.
 
-{{InteractiveExample("HTML Demo: &lt;address&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <address>", "tabbed-standard")}}
 
 ```html interactive-example
 <p>Contact the author of this page:</p>
@@ -88,7 +88,7 @@ Although it renders text with the same default styling as the {{HTMLElement("i")
       <td>
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content"
           >Flow content</a
-        >, but with no nested <code>&#x3C;address></code> element, no heading
+        >, but with no nested <code>&#x3C;address&gt;</code> element, no heading
         content ({{HTMLElement("hgroup")}}, {{HTMLElement("Heading_Elements", "h1")}},
         {{HTMLElement("Heading_Elements", "h2")}}, {{HTMLElement("Heading_Elements", "h3")}},
         {{HTMLElement("Heading_Elements", "h4")}}, {{HTMLElement("Heading_Elements", "h5")}},
@@ -109,12 +109,12 @@ Although it renders text with the same default styling as the {{HTMLElement("i")
         Any element that accepts
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content"
           >flow content</a
-        >, but always excluding <code>&#x3C;address></code> elements (according
+        >, but always excluding <code>&#x3C;address&gt;</code> elements (according
         to the logical principle of symmetry, if
-        <code>&#x3C;address></code> tag, as a parent, can not have nested
-        <code>&#x3C;address></code> element, then the same
-        <code>&#x3C;address></code> content can not have
-        <code>&#x3C;address></code> tag as its parent).
+        <code>&#x3C;address&gt;</code> tag, as a parent, can not have nested
+        <code>&#x3C;address&gt;</code> element, then the same
+        <code>&#x3C;address&gt;</code> content can not have
+        <code>&#x3C;address&gt;</code> tag as its parent).
       </td>
     </tr>
     <tr>

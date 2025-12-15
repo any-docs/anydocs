@@ -10,7 +10,7 @@ The **`<details>`** [HTML](/en-US/docs/Web/HTML) element creates a disclosure wi
 
 A disclosure widget is typically presented onscreen using a small triangle that rotates (or twists) to indicate open/closed state, with a label next to the triangle. The contents of the `<summary>` element are used as the label for the disclosure widget. The contents of the `<details>` provide the {{glossary("accessible description")}} for the `<summary>`.
 
-{{InteractiveExample("HTML Demo: &lt;details&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <details>", "tabbed-shorter")}}
 
 ```html interactive-example
 <details>

@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<rp>`** [HTML](/en-US/docs/Web/HTML) element is used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the {{HTMLElement("ruby") }} element. One `<rp>` element should enclose each of the opening and closing parentheses that wrap the {{HTMLElement("rt")}} element that contains the annotation's text.
 
-{{InteractiveExample("HTML Demo: &lt;rp&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <rp>", "tabbed-shorter")}}
 
 ```html interactive-example
 <ruby>
@@ -90,14 +90,14 @@ body {
       <th scope="row">Tag omission</th>
       <td>
         The end tag can be omitted if the element is immediately followed by an
-        {{HTMLElement("rt")}} or another <code>&#x3C;rp></code> element,
+        {{HTMLElement("rt")}} or another <code>&#x3C;rp&gt;</code> element,
         or if there is no more content in the parent element.
       </td>
     </tr>
     <tr>
       <th scope="row">Permitted parents</th>
       <td>
-        A {{HTMLElement("ruby")}} element. <code>&#x3C;rp></code> must
+        A {{HTMLElement("ruby")}} element. <code>&#x3C;rp&gt;</code> must
         be positioned immediately before or after an
         {{HTMLElement("rt")}} element.
       </td>

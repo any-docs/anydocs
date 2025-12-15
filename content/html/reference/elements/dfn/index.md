@@ -12,7 +12,7 @@ The **`<dfn>`** [HTML](/en-US/docs/Web/HTML) element indicates a term to be defi
 - The {{HTMLElement("dt")}}/{{HTMLElement("dd")}} pairing
 - The nearest [section](/en-US/docs/Web/HTML/Guides/Content_categories#sectioning_content) ancestor of the `<dfn>` element,
 
-{{InteractiveExample("HTML Demo: &lt;dfn&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <dfn>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>
@@ -66,7 +66,7 @@ This example uses a plain `<dfn>` element to identify the location of a term wit
 
 ```html
 <p>
-  The <strong>HTML Definition element (<dfn>&lt;dfn&gt;</dfn>)</strong> is used
+  The <strong>HTML Definition element (<dfn><dfn></dfn>)</strong> is used
   to indicate the term being defined within the context of a definition phrase
   or sentence.
 </p>
@@ -87,7 +87,7 @@ To add links to the definitions, you create the link the same way you always do,
 ```html-nolint
 <p>
   The
-  <strong>HTML Definition element (<dfn id="definition-dfn">&lt;dfn&gt;</dfn>)</strong>
+  <strong>HTML Definition element (<dfn id="definition-dfn"><dfn></dfn>)</strong>
   is used to indicate the term being defined within the context of a definition
   phrase or sentence.
 </p>
@@ -100,7 +100,7 @@ To add links to the definitions, you create the link the same way you always do,
 
 <p>
   Because of all of that, we decided to use the
-  <code><a href="#definition-dfn">&lt;dfn&gt;</a></code> element for this
+  <code>&lt;a href="#definition-dfn"><dfn></a&gt;</code> element for this
   project.
 </p>
 ```

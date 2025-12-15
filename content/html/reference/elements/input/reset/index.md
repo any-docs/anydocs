@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 {{HTMLElement("input")}} elements of type **`reset`** are rendered as buttons, with a default {{domxref("Element/click_event", "click")}} event handler that resets all inputs in the form to their initial values.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;reset&quot;&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <input type='reset'>", "tabbed-standard")}}
 
 ```html interactive-example
 <form>

@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<option>`** [HTML](/en-US/docs/Web/HTML) element is used to define an item contained in a {{HTMLElement("select")}}, an {{HTMLElement("optgroup")}}, or a {{HTMLElement("datalist")}} element. As such, `<option>` can represent menu items in popups and other lists of items in an HTML document.
 
-{{InteractiveExample("HTML Demo: &lt;option&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <option>", "tabbed-standard")}}
 
 ```html interactive-example
 <label for="pet-select">Choose a pet:</label>
@@ -87,7 +87,7 @@ See {{HTMLElement("select")}} for examples.
       <th scope="row">Tag omission</th>
       <td>
         The start tag is mandatory. The end tag is optional if this element is
-        immediately followed by another <code>&#x3C;option></code> element or an
+        immediately followed by another <code>&#x3C;option&gt;</code> element or an
         {{HTMLElement("optgroup")}}, or if the parent element has no
         more content.
       </td>

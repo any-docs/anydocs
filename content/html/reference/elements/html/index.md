@@ -63,8 +63,8 @@ Including a valid `lang` declaration on the `<html>` element also ensures that i
       <th scope="row">Tag omission</th>
       <td>
         The start tag may be omitted if the first thing inside the
-        <code>&#x3C;html></code> element is not a comment.<br>The end tag may
-        be omitted if the <code>&#x3C;html></code> element is not immediately
+        <code>&#x3C;html&gt;</code> element is not a comment.<br>The end tag may
+        be omitted if the <code>&#x3C;html&gt;</code> element is not immediately
         followed by a comment.
       </td>
     </tr>

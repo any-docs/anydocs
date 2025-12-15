@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<ul>`** [HTML](/en-US/docs/Web/HTML) element represents an unordered list of items, typically rendered as a bulleted list.
 
-{{InteractiveExample("HTML Demo: &lt;ul&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <ul>", "tabbed-standard")}}
 
 ```html interactive-example
 <ul>
@@ -143,7 +143,7 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
       <td>
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content"
           >Flow content</a
-        >, and if the <code>&#x3C;ul></code> element's children include at least
+        >, and if the <code>&#x3C;ul&gt;</code> element's children include at least
         one {{HTMLElement("li")}} element,
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#palpable_content"
           >palpable content</a

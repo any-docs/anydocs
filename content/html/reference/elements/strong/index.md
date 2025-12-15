@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<strong>`** [HTML](/en-US/docs/Web/HTML) element indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type.
 
-{{InteractiveExample("HTML Demo: &lt;strong&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <strong>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>

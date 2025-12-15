@@ -53,7 +53,7 @@ The HTML specification defines the following set of standard metadata names:
   - : Controls the HTTP {{httpheader("Referer")}} header of requests sent from the document.
 - [`theme-color`](/en-US/docs/Web/HTML/Reference/Elements/meta/name/theme-color)
   - : Indicates a suggested color that user agents should use to customize the display of the page or of the surrounding user interface.
-    The [`content`](/en-US/docs/Web/HTML/Reference/Attributes/content) attribute contains a valid CSS {{cssxref("&lt;color&gt;")}}.
+    The [`content`](/en-US/docs/Web/HTML/Reference/Attributes/content) attribute contains a valid CSS {{cssxref("<color>")}}.
     The [`media`](/en-US/docs/Web/HTML/Reference/Elements/meta#media) attribute with a valid media query list can be included to set the media that the theme color metadata applies to.
 
 ### Meta names defined in other specifications

@@ -10,7 +10,7 @@ sidebar: htmlsidebar
 
 The browser may opt to provide stepper arrows to let the user increase and decrease the value using their mouse or by tapping with a fingertip.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;number&quot;&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <input type='number'>", "tabbed-shorter")}}
 
 ```html interactive-example
 <label for="tentacles">Number of tentacles (10-100):</label>
@@ -474,7 +474,7 @@ After declaring a few variables, an event listener is added to the `button` to c
     <tr>
       <td><strong>Implicit ARIA Role</strong></td>
       <td>
-        <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/spinbutton_role">spinbutton</a></code>
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/spinbutton_role">spinbutton</a&gt;</code>
       </td>
     </tr>
   </tbody>

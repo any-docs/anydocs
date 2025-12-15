@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<menu>`** [HTML](/en-US/docs/Web/HTML) element is described in the HTML specification as a semantic alternative to {{HTMLElement("ul")}}, but treated by browsers (and exposed through the accessibility tree) as no different than {{HTMLElement("ul")}}. It represents an unordered list of items (which are represented by {{HTMLElement("li")}} elements).
 
-{{InteractiveExample("HTML Demo: &lt;menu&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <menu>", "tabbed-shorter")}}
 
 ```html interactive-example
 <div class="news">

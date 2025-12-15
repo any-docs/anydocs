@@ -6,7 +6,7 @@ The **`<a>`** [HTML](/en-US/docs/Web/HTML) element (or _anchor_ element), with [
 
 Content within each `<a>` _should_ indicate the link's destination. If the `href` attribute is present, pressing the enter key while focused on the `<a>` element will activate it.
 
-{{InteractiveExample("HTML Demo: &lt;a&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <a>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>You can reach Michael at:</p>
@@ -451,7 +451,7 @@ document
 
 ## Security and privacy
 
-`<a>` elements can have consequences for users' security and privacy. See [`Referer` header: privacy and security concerns](/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns) for information.
+`<a>` elements can have consequences for users security and privacy. See [`Referer` header: privacy and security concerns](/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns) for information.
 
 Using `target="_blank"` without [`rel="noreferrer"`](/en-US/docs/Web/HTML/Reference/Attributes/rel/noreferrer) and [`rel="noopener"`](/en-US/docs/Web/HTML/Reference/Attributes/rel/noopener) makes the website vulnerable to {{domxref("window.opener")}} API exploitation attacks, although note that, in newer browser versions setting `target="_blank"` implicitly provides the same protection as setting `rel="noopener"`. See [browser compatibility](#browser_compatibility) for details.
 

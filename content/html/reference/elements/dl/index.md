@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<dl>`** [HTML](/en-US/docs/Web/HTML) element represents a description list. The element encloses a list of groups of terms (specified using the {{HTMLElement("dt")}} element) and descriptions (provided by {{HTMLElement("dd")}} elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).
 
-{{InteractiveExample("HTML Demo: &lt;dl&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <dl>", "tabbed-standard")}}
 
 ```html interactive-example
 <p>Cryptids of Cornwall:</p>
@@ -199,7 +199,7 @@ To change the indentation of a description term, use the [CSS](/en-US/docs/Web/C
       <td>
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content"
           >Flow content</a
-        >, and if the <code>&#x3C;dl></code> element's children include one
+        >, and if the <code>&#x3C;dl&gt;</code> element's children include one
         name-value group, palpable content.
       </td>
     </tr>

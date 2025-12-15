@@ -35,22 +35,22 @@ It is valid for the input types including: {{HTMLElement("input/date", "date")}}
     <tr>
       <td>{{HTMLElement("input/date", "date")}}</td>
       <td><code>yyyy-mm-dd</code></td>
-      <td><code>&#x3C;input type="date" min="2019-12-25" step="1"></code></td>
+      <td><code>&#x3C;input type="date" min="2019-12-25" step="1"&gt;</code></td>
     </tr>
     <tr>
       <td>{{HTMLElement("input/month", "month")}}</td>
       <td><code>yyyy-mm</code></td>
-      <td><code>&#x3C;input type="month" min="2019-12" step="12"></code></td>
+      <td><code>&#x3C;input type="month" min="2019-12" step="12"&gt;</code></td>
     </tr>
     <tr>
       <td>{{HTMLElement("input/week", "week")}}</td>
       <td><code>yyyy-W##</code></td>
-      <td><code>&#x3C;input type="week" min="2019-W23" step=""></code></td>
+      <td><code>&#x3C;input type="week" min="2019-W23" step=""&gt;</code></td>
     </tr>
     <tr>
       <td>{{HTMLElement("input/time", "time")}}</td>
       <td><code>HH:mm</code></td>
-      <td><code>&#x3C;input type="time" min="09:00" step="900"></code></td>
+      <td><code>&#x3C;input type="time" min="09:00" step="900"&gt;</code></td>
     </tr>
     <tr>
       <td>
@@ -58,21 +58,21 @@ It is valid for the input types including: {{HTMLElement("input/date", "date")}}
       </td>
       <td><code>yyyy-mm-ddTHH:mm</code></td>
       <td>
-        <code>&#x3C;input type="datetime-local" min="2019-12-25T19:30"></code>
+        <code>&#x3C;input type="datetime-local" min="2019-12-25T19:30"&gt;</code>
       </td>
     </tr>
     <tr>
       <td>{{HTMLElement("input/number", "number")}}</td>
       <td><a href="/en-US/docs/Web/CSS/Reference/Values/number">&#x3C;number></a></td>
       <td>
-        <code>&#x3C;input type="number" min="0" step="5" max="100"></code>
+        <code>&#x3C;input type="number" min="0" step="5" max="100"&gt;</code>
       </td>
     </tr>
     <tr>
       <td>{{HTMLElement("input/range", "range")}}</td>
       <td><a href="/en-US/docs/Web/CSS/Reference/Values/number">&#x3C;number></a></td>
       <td>
-        <code>&#x3C;input type="range" min="60" step="5" max="100"></code>
+        <code>&#x3C;input type="range" min="60" step="5" max="100"&gt;</code>
       </td>
     </tr>
   </tbody>

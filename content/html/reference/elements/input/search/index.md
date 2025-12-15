@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 {{HTMLElement("input")}} elements of type **`search`** are text fields designed for the user to enter search queries into. These are functionally identical to [`text`](/en-US/docs/Web/HTML/Reference/Elements/input/text) inputs, but may be styled differently by the {{Glossary("user agent")}}.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;search&quot;&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <input type='search'>", "tabbed-standard")}}
 
 ```html interactive-example
 <label for="site-search">Search the site:</label>
@@ -465,8 +465,8 @@ You can see a good example of a search form used in context at our [website-aria
     </tr>
      <tr>
       <td><strong>Implicit ARIA Role</strong></td>
-      <td>with no <code>list</code> attribute: <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/searchbox_role">searchbox</a></code></td>
-      <td>with <code>list</code> attribute: <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role">combobox</a></code></td>
+      <td>with no <code>list</code> attribute: <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/searchbox_role">searchbox</a&gt;</code></td>
+      <td>with <code>list</code> attribute: <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role">combobox</a&gt;</code></td>
     </tr>
   </tbody>
 </table>

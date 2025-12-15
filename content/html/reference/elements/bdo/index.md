@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<bdo>`** [HTML](/en-US/docs/Web/HTML) element overrides the current directionality of text, so that the text within is rendered in a different direction.
 
-{{InteractiveExample("HTML Demo: &lt;bdo&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <bdo>", "tabbed-standard")}}
 
 ```html interactive-example
 <h1>Famous seaside songs</h1>

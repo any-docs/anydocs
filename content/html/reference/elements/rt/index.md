@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<rt>`** [HTML](/en-US/docs/Web/HTML) element specifies the ruby text component of a ruby annotation, which is used to provide pronunciation, translation, or transliteration information for East Asian typography. The `<rt>` element must always be contained within a {{HTMLElement("ruby")}} element.
 
-{{InteractiveExample("HTML Demo: &lt;rt&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <rt>", "tabbed-shorter")}}
 
 ```html interactive-example
 <ruby>
@@ -71,8 +71,8 @@ body {
     <tr>
       <th scope="row">Tag omission</th>
       <td>
-        The end tag may be omitted if the <code>&#x3C;rt></code> element is
-        immediately followed by an <code>&#x3C;rt></code> or
+        The end tag may be omitted if the <code>&#x3C;rt&gt;</code> element is
+        immediately followed by an <code>&#x3C;rt&gt;</code> or
         {{HTMLElement("rp")}} element, or if there is no more content in
         the parent element
       </td>

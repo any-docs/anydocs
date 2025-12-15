@@ -10,7 +10,7 @@ The **`<area>`** [HTML](/en-US/docs/Web/HTML) element defines an area inside an 
 
 This element is used only within a {{HTMLElement("map")}} element.
 
-{{InteractiveExample("HTML Demo: &lt;area&gt;", "tabbed-taller")}}
+{{InteractiveExample("HTML Demo: <area>", "tabbed-taller")}}
 
 ```html interactive-example
 <map name="infographic">
@@ -171,7 +171,7 @@ This element's attributes include the [global attributes](/en-US/docs/Web/HTML/R
     <tr>
       <th scope="row">Permitted parents</th>
       <td>
-        Any element that accepts <a href="/en-US/docs/Web/HTML/Guides/Content_categories#phrasing_content">phrasing content</a>. The <code>&#x3C;area></code> element must have an ancestor {{HTMLElement("map")}}, but it need not be a direct parent.
+        Any element that accepts <a href="/en-US/docs/Web/HTML/Guides/Content_categories#phrasing_content">phrasing content</a>. The <code>&#x3C;area&gt;</code> element must have an ancestor {{HTMLElement("map")}}, but it need not be a direct parent.
       </td>
     </tr>
     <tr>

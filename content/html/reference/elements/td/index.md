@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<td>`** [HTML](/en-US/docs/Web/HTML) element defines a cell of a table that contains data and may be used as a child of the {{HTMLElement("tr")}} element.
 
-{{InteractiveExample("HTML Demo: &lt;td&gt;", "tabbed-taller")}}
+{{InteractiveExample("HTML Demo: <td>", "tabbed-taller")}}
 
 ```html interactive-example
 <table>
@@ -105,7 +105,7 @@ The following attributes are deprecated and should not be used. They are documen
   - : Contains a list of space-separated strings, each corresponding to the `id` attribute of a group of cells that the data cell applies to.
 
 - `bgcolor` {{deprecated_inline}}
-  - : Defines the background color of the data cell. The value is an HTML color; either a [6-digit hexadecimal RGB code](/en-US/docs/Web/CSS/Reference/Values/hex-color), prefixed by a `#`, or a [color keyword](/en-US/docs/Web/CSS/Reference/Values/named-color). Other CSS {{cssxref("color_value", "&lt;color&gt;")}} values are not supported. Use the {{cssxref("background-color")}} CSS property instead, as this attribute is deprecated.
+  - : Defines the background color of the data cell. The value is an HTML color; either a [6-digit hexadecimal RGB code](/en-US/docs/Web/CSS/Reference/Values/hex-color), prefixed by a `#`, or a [color keyword](/en-US/docs/Web/CSS/Reference/Values/named-color). Other CSS {{cssxref("color_value", "<color>")}} values are not supported. Use the {{cssxref("background-color")}} CSS property instead, as this attribute is deprecated.
 
 - `char` {{deprecated_inline}}
   - : Does nothing. It was originally intended to specify the alignment of the content to a character of the data cell. Typical values for this include a period (`.`) when attempting to align numbers or monetary values. If [`align`](#align) is not set to `char`, this attribute is ignored.

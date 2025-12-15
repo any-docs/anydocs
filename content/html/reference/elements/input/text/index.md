@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 {{HTMLElement("input")}} elements of type **`text`** create basic single-line text fields.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;text&quot;&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <input type='text'>", "tabbed-shorter")}}
 
 ```html interactive-example
 <label for="name">Name (4 to 8 characters):</label>
@@ -437,8 +437,8 @@ You can see good examples of text inputs used in context in our [Your first HTML
     <tr>
       <td><strong>Implicit ARIA Role</strong></td>
       <td>with no <code>list</code> attribute:
-                <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a></code></td>
-      <td>with <code>list</code> attribute: <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role">combobox</a></code></td>
+                <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a&gt;</code></td>
+      <td>with <code>list</code> attribute: <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role">combobox</a&gt;</code></td>
     </tr>
   </tbody>
 </table>

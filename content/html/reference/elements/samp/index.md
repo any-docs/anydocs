@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<samp>`** [HTML](/en-US/docs/Web/HTML) element is used to enclose inline text which represents sample (or quoted) output from a computer program. Its contents are typically rendered using the browser's default monospaced font (such as [Courier](<https://en.wikipedia.org/wiki/Courier_(typeface)>) or Lucida Console).
 
-{{InteractiveExample("HTML Demo: &lt;samp&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <samp>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>I was trying to boot my computer, but I got this hilarious message:</p>

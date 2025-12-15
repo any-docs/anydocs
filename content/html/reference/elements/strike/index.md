@@ -22,8 +22,8 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
 ## Examples
 
 ```html
-&lt;strike&gt;: <strike>Today's Special: Salmon</strike> SOLD OUT<br />
-&lt;s&gt;: <s>Today's Special: Salmon</s> SOLD OUT
+<strike>: <strike>Today's Special: Salmon</strike> SOLD OUT<br />
+<s>: <s>Today's Special: Salmon</s> SOLD OUT
 ```
 
 ### Result

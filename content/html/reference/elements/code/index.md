@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<code>`** [HTML](/en-US/docs/Web/HTML) element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code. By default, the content text is displayed using the {{Glossary("user agent", "user agent's")}} default monospace font.
 
-{{InteractiveExample("HTML Demo: &lt;code&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <code>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>

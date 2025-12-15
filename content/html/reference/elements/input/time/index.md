@@ -10,7 +10,7 @@ sidebar: htmlsidebar
 
 While the control's user interface appearance is based on the browser and operating system, the features are the same. The value is always a 24-hour `HH:mm` or `HH:mm:ss` formatted time, with leading zeros, regardless of the UI's input format.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;time&quot;&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <input type='time'>", "tabbed-standard")}}
 
 ```html interactive-example
 <label for="appointment">Choose a time for your meeting:</label>

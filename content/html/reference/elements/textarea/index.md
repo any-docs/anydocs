@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<textarea>`** [HTML](/en-US/docs/Web/HTML) element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.
 
-{{InteractiveExample("HTML Demo: &lt;textarea&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <textarea>", "tabbed-standard")}}
 
 ```html interactive-example
 <label for="story">Tell us your story:</label>

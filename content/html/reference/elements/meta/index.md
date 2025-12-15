@@ -94,23 +94,23 @@ The `content="3;url=https://www.mozilla.org"` attribute will redirect page to `h
       <td>
         <ul>
           <li>
-            <code>&#x3C;meta charset></code>,
-            <code>&#x3C;meta http-equiv></code>: a
+            <code>&#x3C;meta charset&gt;</code>,
+            <code>&#x3C;meta http-equiv&gt;</code>: a
             {{HTMLElement("head")}} element. If the
             <a href="/en-US/docs/Web/HTML/Reference/Elements/meta/http-equiv"><code>http-equiv</code></a> is not an
             encoding declaration, it can also be inside a
             {{HTMLElement("noscript")}} element, itself inside a
-            <code>&#x3C;head></code> element.
+            <code>&#x3C;head&gt;</code> element.
           </li>
           <li>
-            <code>&#x3C;meta name></code>: any element that accepts
+            <code>&#x3C;meta name&gt;</code>: any element that accepts
             <a
               href="/en-US/docs/Web/HTML/Guides/Content_categories#metadata_content"
               >metadata content</a
             >.
           </li>
           <li>
-            <code>&#x3C;meta itemprop></code>: any element that accepts
+            <code>&#x3C;meta itemprop&gt;</code>: any element that accepts
             <a
               href="/en-US/docs/Web/HTML/Guides/Content_categories#metadata_content"
               >metadata content</a

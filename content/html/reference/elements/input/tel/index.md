@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 {{HTMLElement("input")}} elements of type **`tel`** are used to let the user enter and edit a telephone number. Unlike [`<input type="email">`](/en-US/docs/Web/HTML/Reference/Elements/input/email) and [`<input type="url">`](/en-US/docs/Web/HTML/Reference/Elements/input/url), the input value is not automatically validated to a particular format before the form can be submitted, because formats for telephone numbers vary so much around the world.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;tel&quot;&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <input type='tel'>", "tabbed-standard")}}
 
 ```html interactive-example
 <label for="phone">
@@ -527,8 +527,8 @@ input:valid + span::after {
     <tr>
       <td><strong>Implicit ARIA Role</strong></td>
       <td>with no <code>list</code> attribute:
-                <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a></code></td>
-      <td>with <code>list</code> attribute: <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role">combobox</a></code></td>
+                <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a&gt;</code></td>
+      <td>with <code>list</code> attribute: <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role">combobox</a&gt;</code></td>
     </tr>
   </tbody>
 </table>

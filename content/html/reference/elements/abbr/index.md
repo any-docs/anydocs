@@ -12,7 +12,7 @@ When including an abbreviation or acronym, provide a full expansion of the term 
 
 The optional [`title`](/en-US/docs/Web/HTML/Reference/Global_attributes/title) attribute can provide an expansion for the abbreviation or acronym when a full expansion is not present. This provides a hint to user agents on how to announce/display the content while informing all users what the abbreviation means. If present, `title` must contain this full description and nothing else.
 
-{{InteractiveExample("HTML Demo: &lt;abbr&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <abbr>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>

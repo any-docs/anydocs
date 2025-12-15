@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<sub>`** [HTML](/en-US/docs/Web/HTML) element specifies inline text which should be displayed as subscript for solely typographical reasons. Subscripts are typically rendered with a lowered baseline using smaller text.
 
-{{InteractiveExample("HTML Demo: &lt;sub&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <sub>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>

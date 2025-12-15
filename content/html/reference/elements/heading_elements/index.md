@@ -14,7 +14,7 @@ sidebar: htmlsidebar
 
 The **`<h1>`** to **`<h6>`** [HTML](/en-US/docs/Web/HTML) elements represent six levels of section headings. `<h1>` is the highest section level and `<h6>` is the lowest. By default, all heading elements create a [block-level](/en-US/docs/Glossary/Block-level_content) box in the layout, starting on a new line and taking up the full width available in their containing block.
 
-{{InteractiveExample("HTML Demo: &lt;h1-h6&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <h1-h6>", "tabbed-standard")}}
 
 ```html interactive-example
 <h1>Beetles</h1>

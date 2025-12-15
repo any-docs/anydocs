@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<label>`** [HTML](/en-US/docs/Web/HTML) element represents a caption for an item in a user interface.
 
-{{InteractiveExample("HTML Demo: &lt;label&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <label>", "tabbed-shorter")}}
 
 ```html interactive-example
 <div class="preference">

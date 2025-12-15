@@ -48,7 +48,7 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
   <details>
     <summary>
       <code class="name">
-        &lt;<slot name="element-name">NEED NAME</slot>&gt;
+        <<slot name="element-name">NEED NAME</slot>>
       </code>
       <span class="desc"><slot name="description">NEED DESCRIPTION</slot></span>
     </summary>

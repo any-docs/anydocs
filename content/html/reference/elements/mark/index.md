@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<mark>`** [HTML](/en-US/docs/Web/HTML) element represents text which is **marked** or **highlighted** for reference or notation purposes due to the marked passage's relevance in the enclosing context.
 
-{{InteractiveExample("HTML Demo: &lt;mark&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <mark>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>Search results for "salamander":</p>

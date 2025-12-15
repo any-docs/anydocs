@@ -10,7 +10,7 @@ The **`<dt>`** [HTML](/en-US/docs/Web/HTML) element specifies a term in a descri
 
 The subsequent {{HTMLElement("dd")}} (**Description Details**) element provides the definition or other related text associated with the term specified using `<dt>`.
 
-{{InteractiveExample("HTML Demo: &lt;dt&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <dt>", "tabbed-standard")}}
 
 ```html interactive-example
 <p>Please use the following paint colors for the new house:</p>
@@ -77,7 +77,7 @@ For examples, see the [examples provided for the `<dl>` element](/en-US/docs/Web
       <th scope="row">Tag omission</th>
       <td>
         The start tag is required. The end tag may be omitted if this element is
-        immediately followed by another <code>&#x3C;dt></code> element or a
+        immediately followed by another <code>&#x3C;dt&gt;</code> element or a
         {{HTMLElement("dd")}} element, or if there is no more content in
         the parent element.
       </td>

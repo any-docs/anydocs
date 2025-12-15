@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<hgroup>`** [HTML](/en-US/docs/Web/HTML) element represents a heading and related content. It groups a single [`<h1>–<h6>`](/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements) element with one or more [`<p>`](/en-US/docs/Web/HTML/Reference/Elements/p).
 
-{{InteractiveExample("HTML Demo: &lt;hgroup&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <hgroup>", "tabbed-standard")}}
 
 ```html interactive-example
 <hgroup>

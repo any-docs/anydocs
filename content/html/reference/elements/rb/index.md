@@ -78,7 +78,7 @@ See the article about the {{HTMLElement("ruby")}} element for further examples.
         The end tag can be omitted if the element is immediately followed by an
         {{HTMLElement("rt")}}, {{HTMLElement("rtc")}}, or
         {{HTMLElement("rp")}} element or another
-        <code>&#x3C;rb></code> element, or if there is no more content in the
+        <code>&#x3C;rb&gt;</code> element, or if there is no more content in the
         parent element.
       </td>
     </tr>

@@ -10,7 +10,7 @@ sidebar: htmlsidebar
 
 The resulting value includes the year, month, and day, but _not_ the time. The {{HTMLElement("input/time", "time")}} and {{HTMLElement("input/datetime-local", "datetime-local")}} input types support time and date+time input.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;date&quot;&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <input type='date'>", "tabbed-shorter")}}
 
 ```html interactive-example
 <label for="start">Start date:</label>

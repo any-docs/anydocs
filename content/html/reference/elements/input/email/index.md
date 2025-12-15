@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 {{HTMLElement("input")}} elements of type **`email`** are used to let the user enter and edit an email address, or, if the [`multiple`](/en-US/docs/Web/HTML/Reference/Attributes/multiple) attribute is specified, a list of email addresses.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;email&quot;&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <input type='email'>", "tabbed-shorter")}}
 
 ```html interactive-example
 <label for="email">Enter your example.com email:</label>
@@ -408,8 +408,8 @@ As an added touch, the {{HTMLElement("label")}} element is used to establish a l
       <td><strong>Implicit ARIA Role</strong></td>
       <td>
         with no <code>list</code> attribute:
-        <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a></code><br />
-        with <code>list</code> attribute: <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role">combobox</a></code>
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a&gt;</code><br />
+        with <code>list</code> attribute: <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role">combobox</a&gt;</code>
       </td>
     </tr>
   </tbody>

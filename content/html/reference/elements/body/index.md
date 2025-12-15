@@ -149,7 +149,7 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
         The start tag may be omitted if the first thing inside it is not a space
         character, comment, {{HTMLElement("script")}} element or
         {{HTMLElement("style")}} element. The end tag may be omitted if
-        the <code>&#x3C;body></code> element has contents or has a start tag,
+        the <code>&#x3C;body&gt;</code> element has contents or has a start tag,
         and is not immediately followed by a comment.
       </td>
     </tr>
@@ -180,11 +180,11 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
         {{domxref("HTMLBodyElement")}}
         <ul>
           <li>
-            The <code>&#x3C;body></code> element exposes the
+            The <code>&#x3C;body&gt;</code> element exposes the
             {{domxref("HTMLBodyElement")}} interface.
           </li>
           <li>
-            You can access the <code>&#x3C;body></code> element through the
+            You can access the <code>&#x3C;body&gt;</code> element through the
             {{domxref("document.body")}} property.
           </li>
         </ul>

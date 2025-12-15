@@ -10,7 +10,7 @@ The **`<button>`** [HTML](/en-US/docs/Web/HTML) element is an interactive elemen
 
 By default, HTML buttons are presented in a style resembling the platform the {{Glossary("user agent")}} runs on, but you can change buttons' appearance with [CSS](/en-US/docs/Web/CSS).
 
-{{InteractiveExample("HTML Demo: &lt;button&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <button>", "tabbed-shorter")}}
 
 ```html interactive-example
 <button class="favorite styled" type="button">Add to favorites</button>

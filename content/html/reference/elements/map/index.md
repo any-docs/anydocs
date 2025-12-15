@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<map>`** [HTML](/en-US/docs/Web/HTML) element is used with {{HTMLElement("area")}} elements to define an image map (a clickable link area).
 
-{{InteractiveExample("HTML Demo: &lt;map&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <map>", "tabbed-standard")}}
 
 ```html interactive-example
 <map name="infographic">

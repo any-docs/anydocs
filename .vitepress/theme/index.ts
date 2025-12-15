@@ -21,10 +21,13 @@ export default {
         app.config.globalProperties.domxref = glossary;
         app.config.globalProperties.HTTPMethod = glossary;
         app.config.globalProperties.HTMLElement = glossary;
+        app.config.globalProperties.htmlelement = glossary;
         app.config.globalProperties.EmbedLiveSample = glossary;
         app.config.globalProperties.CSSxRef = glossary;
         app.config.globalProperties.RFC = glossary;
         app.config.globalProperties.DOMxRef = glossary;
+        app.config.globalProperties.cssxref = glossary;
+        app.config.globalProperties.EmbedGHLiveSample = glossary;
 
         // You could also register global components here
         // app.component('MyGlobalComponent', MyGlobalComponent);

@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<progress>`** [HTML](/en-US/docs/Web/HTML) element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.
 
-{{InteractiveExample("HTML Demo: &lt;progress&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <progress>", "tabbed-standard")}}
 
 ```html interactive-example
 <label for="file">File progress:</label>
@@ -112,7 +112,7 @@ If the `<progress>` element is describing the loading progress of a section of a
     <tr>
       <th scope="row">Permitted content</th>
       <td>
-        <a href="/en-US/docs/Web/HTML/Guides/Content_categories#phrasing_content">Phrasing content</a>, but there must be no <code>&#x3C;progress></code> element among its
+        <a href="/en-US/docs/Web/HTML/Guides/Content_categories#phrasing_content">Phrasing content</a>, but there must be no <code>&#x3C;progress&gt;</code> element among its
         descendants.
       </td>
     </tr>

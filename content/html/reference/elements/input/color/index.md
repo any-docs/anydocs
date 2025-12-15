@@ -13,7 +13,7 @@ sidebar: htmlsidebar
 
 The element's presentation may vary substantially from one browser and/or platform to another—it might be a basic textual input that automatically validates to ensure that the color information is entered in the proper format, or a platform-standard color picker, or some kind of custom color picker window.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;color&quot;&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <input type='color'>", "tabbed-standard")}}
 
 ```html interactive-example
 <p>Choose your colors:</p>
@@ -204,7 +204,7 @@ The final result looks like this:
     <tr>
       <td><strong><a href="#value">Value</a></strong></td>
       <td>
-        Any CSS {{cssxref("&lt;color&gt;")}} value in any notation.
+        Any CSS {{cssxref("<color>")}} value in any notation.
       </td>
     </tr>
     <tr>
@@ -224,7 +224,7 @@ The final result looks like this:
     <tr>
       <td><strong>IDL attributes</strong></td>
       <td>
-        <a href="/en-US/docs/Web/API/HTMLInputElement/alpha"><code>alpha</a></code>,
+        <a href="/en-US/docs/Web/API/HTMLInputElement/alpha"><code>alpha</a&gt;</code>,
         <a href="/en-US/docs/Web/API/HTMLInputElement/colorSpace"><code>colorSpace</code></a>,
         <a href="/en-US/docs/Web/API/HTMLInputElement/list"><code>list</code></a>, and
         <a href="/en-US/docs/Web/API/HTMLInputElement/value"><code>value</code></a>

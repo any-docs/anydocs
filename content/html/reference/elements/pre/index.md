@@ -16,7 +16,7 @@ Whitespace inside this element is displayed as written, with one exception. If o
 
 By default, `<pre>` is a [block-level](/en-US/docs/Glossary/Block-level_content) element, i.e., its default {{cssxref("display")}} value is `block`.
 
-{{InteractiveExample("HTML Demo: &lt;pre&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <pre>", "tabbed-standard")}}
 
 ```html interactive-example
 <pre>
@@ -71,7 +71,7 @@ A combination of the {{HTMLElement("figure")}} and {{HTMLElement("figcaption")}}
 <figure>
   <pre role="img" aria-label="ASCII COW">
       ___________________________
-  &lt; I'm an expert in my field. &gt;
+  < I'm an expert in my field. >
       ---------------------------
           \   ^__^
            \  (oo)\_______
@@ -116,9 +116,9 @@ In reality, the HTML parser treats most characters as plain text unless in speci
 
 1. First, write the content out, as you would like it to appear in the HTML document.
 2. Replace any ampersands (`&`) with `&amp;`. Do this step first, so that new `&` characters generated in the next step don't get escaped.
-3. Replace any `<` characters with `&lt;`.
+3. Replace any `<` characters with `<`.
 
-This should result in the content being displayed as you intended. The replacement of other HTML syntax characters is optional (like `>` to `&gt;`, `"` to `&quot;`, and `'` to `&apos;`), but will do no harm.
+This should result in the content being displayed as you intended. The replacement of other HTML syntax characters is optional (like `>` to `>`, `"` to `'`, and `'` to `&apos;`), but will do no harm.
 
 #### HTML
 
@@ -126,8 +126,8 @@ This should result in the content being displayed as you intended. The replaceme
 <pre><code>
 let i = 5;
 
-if (i &lt; 10 &amp;&amp; i &gt; 0)
-  return &quot;Single Digit Number&quot;
+if (i < 10 &amp;&amp; i > 0)
+  return 'Single Digit Number'
 </code></pre>
 ```
 

@@ -63,9 +63,9 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
       <th scope="row">Tag omission</th>
       <td>
         The start tag may be omitted if the first thing inside the
-        <code>&#x3C;head></code> element is an element.<br />The end tag may be
+        <code>&#x3C;head&gt;</code> element is an element.<br />The end tag may be
         omitted if the first thing following the
-        <code>&#x3C;head></code> element is not a space character or a comment.
+        <code>&#x3C;head&gt;</code> element is not a space character or a comment.
       </td>
     </tr>
     <tr>

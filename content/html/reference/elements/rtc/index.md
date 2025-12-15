@@ -12,7 +12,7 @@ sidebar: htmlsidebar
 
 The **`<rtc>`** [HTML](/en-US/docs/Web/HTML) element embraces semantic annotations of characters presented in a ruby of {{HTMLElement("rb")}} elements used inside of {{ HTMLElement("ruby") }} element. {{HTMLElement("rb")}} elements can have both pronunciation ({{HTMLElement("rt")}}) and semantic (`<rtc>`) annotations.
 
-{{InteractiveExample("HTML Demo: &lt;rtc&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <rtc>", "tabbed-standard")}}
 
 ```html interactive-example
 <ruby lang="zh-Hant">

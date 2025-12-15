@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<cite>`** [HTML](/en-US/docs/Web/HTML) element is used to mark up the title of a creative work. The reference may be in an abbreviated form according to context-appropriate conventions related to citation metadata.
 
-{{InteractiveExample("HTML Demo: &lt;cite&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <cite>", "tabbed-standard")}}
 
 ```html interactive-example
 <figure>

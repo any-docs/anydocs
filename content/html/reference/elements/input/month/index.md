@@ -9,7 +9,7 @@ sidebar: htmlsidebar
 {{HTMLElement("input")}} elements of type **`month`** create input fields that let the user enter a month and year allowing a month and year to be easily entered.
 The value is a string whose value is in the format `YYYY-MM`, where `YYYY` is the four-digit year and `MM` is the month number.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;month&quot;&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <input type='month'>", "tabbed-shorter")}}
 
 ```html interactive-example
 <label for="start">Start month:</label>

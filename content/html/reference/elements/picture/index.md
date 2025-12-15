@@ -10,7 +10,7 @@ The **`<picture>`** [HTML](/en-US/docs/Web/HTML) element contains zero or more {
 
 The browser will consider each child `<source>` element and choose the best match among them. If no matches are found—or the browser doesn't support the `<picture>` element—the URL of the `<img>` element's [`src`](/en-US/docs/Web/HTML/Reference/Elements/img#src) attribute is selected. The selected image is then presented in the space occupied by the `<img>` element.
 
-{{InteractiveExample("HTML Demo: &lt;picture&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <picture>", "tabbed-standard")}}
 
 ```html interactive-example
 <!--Change the browser window width to see the image change.-->

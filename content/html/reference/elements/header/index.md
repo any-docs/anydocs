@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<header>`** [HTML](/en-US/docs/Web/HTML) element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
 
-{{InteractiveExample("HTML Demo: &lt;header&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <header>", "tabbed-standard")}}
 
 ```html interactive-example
 <header>
@@ -132,7 +132,7 @@ When placed inside an {{HTMLElement('article')}}, {{HTMLElement('main')}}, {{HTM
       <td>
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content"
           >Flow content</a
-        >, but with no <code>&#x3C;header></code> or
+        >, but with no <code>&#x3C;header&gt;</code> or
         {{HTMLElement("footer")}} descendant.
       </td>
     </tr>
@@ -146,7 +146,7 @@ When placed inside an {{HTMLElement('article')}}, {{HTMLElement('main')}}, {{HTM
         Any element that accepts
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content"
           >flow content</a
-        >. Note that a <code>&#x3C;header></code> element must not be a
+        >. Note that a <code>&#x3C;header&gt;</code> element must not be a
         descendant of an {{HTMLElement("address")}},
         {{HTMLElement("footer")}} or another
         <code>&lt;header&gt;</code> element.
@@ -161,11 +161,11 @@ When placed inside an {{HTMLElement('article')}}, {{HTMLElement('main')}}, {{HTM
           >generic</a
         >
         if a descendant of an
-        <code><a href="/en-US/docs/Web/HTML/Reference/Elements/article">article</a></code
-        >, <code><a href="/en-US/docs/Web/HTML/Reference/Elements/aside">aside</a></code
-        >, <code><a href="/en-US/docs/Web/HTML/Reference/Elements/main">main</a></code
-        >, <code><a href="/en-US/docs/Web/HTML/Reference/Elements/nav">nav</a></code> or
-        <code><a href="/en-US/docs/Web/HTML/Reference/Elements/section">section</a></code>
+        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/article">article</a></code
+        >, <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/aside">aside</a></code
+        >, <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/main">main</a></code
+        >, <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/nav">nav</a&gt;</code> or
+        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/section">section</a&gt;</code>
         element, or an element with
         <code
           ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/article_role"

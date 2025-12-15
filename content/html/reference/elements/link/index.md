@@ -9,7 +9,7 @@ sidebar: htmlsidebar
 The **`<link>`** [HTML](/en-US/docs/Web/HTML) element specifies relationships between the current document and an external resource.
 This element is most commonly used to link to {{Glossary("CSS", "stylesheets")}}, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
 
-{{InteractiveExample("HTML Demo: &lt;link&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <link>", "tabbed-shorter")}}
 
 ```html interactive-example
 <link href="/shared-assets/misc/link-element-example.css" rel="stylesheet" />
@@ -100,15 +100,15 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
       <tbody>
         <tr>
           <td>audio</td>
-          <td><code>&#x3C;audio></code> elements</td>
+          <td><code>&#x3C;audio&gt;</code> elements</td>
         </tr>
         <tr>
           <td>document</td>
-          <td><code>&#x3C;iframe></code> and <code>&#x3C;frame></code> elements</td>
+          <td><code>&#x3C;iframe&gt;</code> and <code>&#x3C;frame&gt;</code> elements</td>
         </tr>
         <tr>
           <td>embed</td>
-          <td><code>&#x3C;embed></code> elements</td>
+          <td><code>&#x3C;embed&gt;</code> elements</td>
         </tr>
         <tr>
           <td>fetch</td>
@@ -117,7 +117,7 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
             <div class="notecard note">
               <p>
                 <strong>Note:</strong> This value also requires
-                <code>&#x3C;link></code> to contain the crossorigin attribute, see <a href="/en-US/docs/Web/HTML/Reference/Attributes/rel/preload#cors-enabled_fetches">CORS-enabled fetches</a>.
+                <code>&#x3C;link&gt;</code> to contain the crossorigin attribute, see <a href="/en-US/docs/Web/HTML/Reference/Attributes/rel/preload#cors-enabled_fetches">CORS-enabled fetches</a>.
               </p>
             </div>
           </td>
@@ -129,7 +129,7 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
             <div class="notecard note">
               <p>
                 <strong>Note:</strong> This value also requires
-                <code>&#x3C;link></code> to contain the crossorigin attribute, see <a href="/en-US/docs/Web/HTML/Reference/Attributes/rel/preload#cors-enabled_fetches">CORS-enabled fetches</a>.
+                <code>&#x3C;link&gt;</code> to contain the crossorigin attribute, see <a href="/en-US/docs/Web/HTML/Reference/Attributes/rel/preload#cors-enabled_fetches">CORS-enabled fetches</a>.
               </p>
             </div>
           </td>
@@ -137,35 +137,35 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
         <tr>
           <td>image</td>
           <td>
-            <code>&#x3C;img></code> and <code>&#x3C;picture></code> elements with
-            srcset or imageset attributes, SVG <code>&#x3C;image></code> elements,
+            <code>&#x3C;img&gt;</code> and <code>&#x3C;picture&gt;</code> elements with
+            srcset or imageset attributes, SVG <code>&#x3C;image&gt;</code> elements,
             CSS <code>*-image</code> rules
           </td>
         </tr>
         <tr>
           <td>object</td>
-          <td><code>&#x3C;object></code> elements</td>
+          <td><code>&#x3C;object&gt;</code> elements</td>
         </tr>
         <tr>
           <td>script</td>
           <td>
-            <code>&#x3C;script></code> elements, Worker <code>importScripts</code>
+            <code>&#x3C;script&gt;</code> elements, Worker <code>importScripts</code>
           </td>
         </tr>
         <tr>
           <td>style</td>
           <td>
-            <code>&#x3C;link rel=stylesheet></code> elements, CSS
+            <code>&#x3C;link rel=stylesheet&gt;</code> elements, CSS
             <code>@import</code>
           </td>
         </tr>
         <tr>
           <td>track</td>
-          <td><code>&#x3C;track></code> elements</td>
+          <td><code>&#x3C;track&gt;</code> elements</td>
         </tr>
         <tr>
           <td>video</td>
-          <td><code>&#x3C;video></code> elements</td>
+          <td><code>&#x3C;video&gt;</code> elements</td>
         </tr>
         <tr>
           <td>worker</td>
@@ -402,7 +402,7 @@ the rendering of the page will be blocked till the resource and its critical sub
       </th>
       <td>
         Metadata content.
-        If <code><a href="/en-US/docs/Web/HTML/Reference/Global_attributes/itemprop">itemprop</a></code> is present:
+        If <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Global_attributes/itemprop">itemprop</a&gt;</code> is present:
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content">Flow content</a> and
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#phrasing_content">phrasing content</a>.
       </td>

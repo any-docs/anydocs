@@ -11,7 +11,7 @@ sidebar: htmlsidebar
 The element is presented as a one-line plain text editor control in which the text is obscured so that it cannot be read, usually by replacing each character with a symbol such as the asterisk ("\*") or a dot ("•").
 This character will vary depending on the {{Glossary("user agent")}} and operating system.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;password&quot;&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <input type='password'>", "tabbed-standard")}}
 
 ```html interactive-example
 <div>

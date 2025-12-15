@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 {{HTMLElement("input")}} elements of type **`url`** are used to let the user enter and edit a URL.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;url&quot;&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <input type='url'>", "tabbed-shorter")}}
 
 ```html interactive-example
 <form>
@@ -384,8 +384,8 @@ Check the [Pattern validation](#pattern_validation) and [Using URL inputs](#usin
     <tr>
       <td><strong>Implicit ARIA Role</strong></td>
       <td>with no <code>list</code> attribute:
-                <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a></code></td>
-      <td>with <code>list</code> attribute: <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role">combobox</a></code></td>
+                <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a&gt;</code></td>
+      <td>with <code>list</code> attribute: <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role">combobox</a&gt;</code></td>
     </tr>
   </tbody>
 </table>

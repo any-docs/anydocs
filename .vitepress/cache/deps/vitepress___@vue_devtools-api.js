@@ -673,7 +673,7 @@ function create(options) {
   });
   const nameEl = document.createElement("span");
   nameEl.id = COMPONENT_NAME_ELEMENT_ID;
-  nameEl.innerHTML = `&lt;${options.name}&gt;&nbsp;&nbsp;`;
+  nameEl.innerHTML = `<${options.name}>&nbsp;&nbsp;`;
   const indicatorEl = document.createElement("i");
   indicatorEl.id = INDICATOR_ELEMENT_ID;
   indicatorEl.innerHTML = `${Math.round(options.bounds.width * 100) / 100} x ${Math.round(options.bounds.height * 100) / 100}`;
@@ -695,7 +695,7 @@ function update(options) {
       ...getStyles(options.bounds)
     });
     Object.assign(cardEl.style, { top: options.bounds.top < 35 ? 0 : "-35px" });
-    nameEl.innerHTML = `&lt;${options.name}&gt;&nbsp;&nbsp;`;
+    nameEl.innerHTML = `<${options.name}>&nbsp;&nbsp;`;
     indicatorEl.innerHTML = `${Math.round(options.bounds.width * 100) / 100} x ${Math.round(options.bounds.height * 100) / 100}`;
   }
 }

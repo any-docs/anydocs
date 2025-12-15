@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<section>`** [HTML](/en-US/docs/Web/HTML) element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.
 
-{{InteractiveExample("HTML Demo: &lt;section&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <section>", "tabbed-standard")}}
 
 ```html interactive-example
 <h1>Choosing an Apple</h1>
@@ -151,7 +151,7 @@ Depending on the content, including a heading could also be good for SEO, so it 
         Any element that accepts
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content"
           >flow content</a
-        >. Note that a <code>&#x3C;section></code> element must not be a
+        >. Note that a <code>&#x3C;section&gt;</code> element must not be a
         descendant of an {{HTMLElement("address")}} element.
       </td>
     </tr>

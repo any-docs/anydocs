@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 {{HTMLElement("input")}} elements of type **`button`** are rendered as push buttons, which can be programmed to control custom functionality anywhere on a webpage as required when assigned an event handler function (typically for the {{domxref("Element/click_event", "click")}} event).
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;button&quot;&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <input type='button'>", "tabbed-shorter")}}
 
 ```html interactive-example
 <input class="styled" type="button" value="Add to favorites" />

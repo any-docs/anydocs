@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<li>`** [HTML](/en-US/docs/Web/HTML) element is used to represent an item in a list. It must be contained in a parent element: an ordered list ({{HTMLElement("ol")}}), an unordered list ({{HTMLElement("ul")}}), or a menu ({{HTMLElement("menu")}}). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.
 
-{{InteractiveExample("HTML Demo: &lt;li&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <li>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>Apollo astronauts:</p>
@@ -145,9 +145,9 @@ For more detailed examples, see the {{htmlelement("ol")}} and {{htmlelement("ul"
           ></code
         >
         when child of an
-        <code><a href="/en-US/docs/Web/HTML/Reference/Elements/ol">ol</a></code
-        >, <code><a href="/en-US/docs/Web/HTML/Reference/Elements/ul">ul</a></code> or
-        <code><a href="/en-US/docs/Web/HTML/Reference/Elements/menu">menu</a></code>
+        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/ol">ol</a></code
+        >, <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/ul">ul</a&gt;</code> or
+        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/menu">menu</a&gt;</code>
       </td>
     </tr>
     <tr>

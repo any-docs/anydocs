@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<hr>`** [HTML](/en-US/docs/Web/HTML) element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.
 
-{{InteractiveExample("HTML Demo: &lt;hr&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <hr>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>§1: The first rule of Fight Club is: You do not talk about Fight Club.</p>
@@ -105,7 +105,7 @@ This element's attributes include the [global attributes](/en-US/docs/Web/HTML/R
       <td>
         <ul>
           <li>Any element that accepts <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content">flow content</a></li>
-          <li><a href="/en-US/docs/Web/HTML/Reference/Elements/select"><code>&lt;select></code></a> element</li>
+          <li><a href="/en-US/docs/Web/HTML/Reference/Elements/select"><code>&lt;select&gt;</code></a> element</li>
         </ul>
       </td>
     </tr>

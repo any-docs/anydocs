@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<img>`** [HTML](/en-US/docs/Web/HTML) element embeds an image into the document.
 
-{{InteractiveExample("HTML Demo: &lt;img&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <img>", "tabbed-standard")}}
 
 ```html interactive-example
 <img

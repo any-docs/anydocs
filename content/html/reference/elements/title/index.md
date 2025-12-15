@@ -91,7 +91,7 @@ This example establishes a page whose title (as displayed at the top of the wind
       <th scope="row">Tag omission</th>
       <td>
         Both opening and closing tags are required. Note that leaving off
-        <code>&#x3C;/title></code> should cause the browser to ignore the rest
+        <code>&#x3C;/title&gt;</code> should cause the browser to ignore the rest
         of the page.
       </td>
     </tr>

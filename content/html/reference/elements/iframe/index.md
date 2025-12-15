@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<iframe>`** [HTML](/en-US/docs/Web/HTML) element represents a nested {{Glossary("browsing context")}}, embedding another HTML page into the current one.
 
-{{InteractiveExample("HTML Demo: &lt;iframe&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <iframe>", "tabbed-standard")}}
 
 ```html interactive-example
 <iframe
@@ -262,13 +262,13 @@ Note that when using `srcdoc`, any relative URLs in the embedded content will be
     sandbox
     srcdoc="<p>There are two ways to use the <code>iframe</code> element:</p>
 <ol>
-<li><a href=&quot;about:srcdoc#embed_another&quot;>To embed content from another page</a></li>
-<li><a href=&quot;about:srcdoc#embed_user&quot;>To embed user-generated content</a></li>
+<li><a href='about:srcdoc#embed_another'>To embed content from another page</a></li>
+<li><a href='about:srcdoc#embed_user'>To embed user-generated content</a></li>
 </ol>
-<h2 id=&quot;embed_another&quot;>Embedding content from another page</h2>
+<h2 id='embed_another'>Embedding content from another page</h2>
 <p>Use the <code>src</code> attribute to specify the URL of the page to embed:</p>
-<pre><code>&amp;lt;iframe src=&quot;https://example.org&quot;&amp;gt;&amp;lt;/iframe&amp;gt;</code></pre>
-<h2 id=&quot;embed_user&quot;>Embedding user-generated content</h2>
+<pre><code>&amp;lt;iframe src='https://example.org'&amp;gt;&amp;lt;/iframe&amp;gt;</code></pre>
+<h2 id='embed_user'>Embedding user-generated content</h2>
 <p>Use the <code>srcdoc</code> attribute to specify the content to embed. This post is already an example!</p>
 "
     width="500"
@@ -280,8 +280,8 @@ Note that when using `srcdoc`, any relative URLs in the embedded content will be
 Here's how to write escape sequences when using `srcdoc`:
 
 - First, write the HTML out, escaping anything you would escape in a normal HTML document (such as `<`, `>`, `&`, etc.).
-- `&lt;` and `<` represent the exact same character in the `srcdoc` attribute. Therefore, to make it an actual escape sequence in the HTML document, replace any ampersands (`&`) with `&amp;`. For example, `&lt;` becomes `&amp;lt;`, and `&amp;` becomes `&amp;amp;`.
-- Replace any double quotes (`"`) with `&quot;` to prevent the `srcdoc` attribute from being prematurely terminated (if you use `'` instead, then you should replace `'` with `&apos;` instead). This step happens after the previous one, so `&quot;` generated in this step doesn't become `&amp;quot;`.
+- `<` and `<` represent the exact same character in the `srcdoc` attribute. Therefore, to make it an actual escape sequence in the HTML document, replace any ampersands (`&`) with `&amp;`. For example, `<` becomes `&amp;lt;`, and `&amp;` becomes `&amp;amp;`.
+- Replace any double quotes (`"`) with `'` to prevent the `srcdoc` attribute from being prematurely terminated (if you use `'` instead, then you should replace `'` with `&apos;` instead). This step happens after the previous one, so `'` generated in this step doesn't become `&amp;quot;`.
 
 #### Result
 

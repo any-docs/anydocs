@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<figure>`** [HTML](/en-US/docs/Web/HTML) element represents self-contained content, potentially with an optional caption, which is specified using the {{HTMLElement("figcaption")}} element. The figure, its caption, and its contents are referenced as a single unit.
 
-{{InteractiveExample("HTML Demo: &lt;figure&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <figure>", "tabbed-shorter")}}
 
 ```html interactive-example
 <figure>

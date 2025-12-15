@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<fieldset>`** [HTML](/en-US/docs/Web/HTML) element is used to group several controls as well as labels ({{HTMLElement("label")}}) within a web form.
 
-{{InteractiveExample("HTML Demo: &lt;fieldset&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <fieldset>", "tabbed-standard")}}
 
 ```html interactive-example
 <form>

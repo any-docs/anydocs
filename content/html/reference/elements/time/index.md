@@ -14,7 +14,7 @@ It may represent one of the following:
 - A precise date in the [Gregorian calendar](https://en.wikipedia.org/wiki/Gregorian_calendar) (with optional time and timezone information).
 - [A valid time duration](https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-duration-string).
 
-{{InteractiveExample("HTML Demo: &lt;time&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <time>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>
@@ -62,25 +62,25 @@ The _datetime value_ (the machine-readable value of the datetime) is the value o
   <tbody>
     <tr>
       <td>Valid month string</td>
-      <td><code><em>YYYY</em>-<em>MM</em></code></td>
+      <td><code>&lt;em>YYYY</em>-<em>MM</em&gt;</code></td>
       <td><code>2011-11</code>, <code>2013-05</code></td>
     </tr>
     <tr>
       <td>Valid date string</td>
-      <td><code><em>YYYY</em>-<em>MM</em>-<em>DD</em></code></td>
+      <td><code>&lt;em>YYYY</em>-<em>MM</em>-<em>DD</em&gt;</code></td>
       <td><code>1887-12-01</code></td>
     </tr>
     <tr>
       <td>Valid yearless date string</td>
-      <td><code><em>MM</em>-<em>DD</em></code></td>
+      <td><code>&lt;em>MM</em>-<em>DD</em&gt;</code></td>
       <td><code>11-12</code></td>
     </tr>
     <tr>
       <td>Valid time string</td>
       <td>
-        <code><em>HH</em>:<em>MM</em></code><br />
-        <code><em>HH</em>:<em>MM</em>:<em>SS</em></code><br />
-        <code><em>HH</em>:<em>MM</em>:<em>SS</em>.<em>mmm</em></code>
+        <code>&lt;em>HH</em>:<em>MM</em&gt;</code><br />
+        <code>&lt;em>HH</em>:<em>MM</em>:<em>SS</em&gt;</code><br />
+        <code>&lt;em>HH</em>:<em>MM</em>:<em>SS</em>.<em>mmm</em&gt;</code>
       </td>
       <td>
         <code>23:59</code><br />
@@ -91,12 +91,12 @@ The _datetime value_ (the machine-readable value of the datetime) is the value o
     <tr>
       <td>Valid local date and time string</td>
       <td>
-        <code><em>YYYY</em>-<em>MM</em>-<em>DD</em> <em>HH</em>:<em>MM</em></code><br />
-        <code><em>YYYY</em>-<em>MM</em>-<em>DD</em> <em>HH</em>:<em>MM</em>:<em>SS</em></code><br />
-        <code><em>YYYY</em>-<em>MM</em>-<em>DD</em> <em>HH</em>:<em>MM</em>:<em>SS</em>.<em>mmm</em></code><br />
-        <code><em>YYYY</em>-<em>MM</em>-<em>DD</em>T<em>HH</em>:<em>MM</em></code><br />
-        <code><em>YYYY</em>-<em>MM</em>-<em>DD</em>T<em>HH</em>:<em>MM</em>:<em>SS</em></code><br />
-        <code><em>YYYY</em>-<em>MM</em>-<em>DD</em>T<em>HH</em>:<em>MM</em>:<em>SS</em>.<em>mmm</em></code>
+        <code>&lt;em>YYYY</em>-<em>MM</em>-<em>DD</em> <em>HH</em>:<em>MM</em&gt;</code><br />
+        <code>&lt;em>YYYY</em>-<em>MM</em>-<em>DD</em> <em>HH</em>:<em>MM</em>:<em>SS</em&gt;</code><br />
+        <code>&lt;em>YYYY</em>-<em>MM</em>-<em>DD</em> <em>HH</em>:<em>MM</em>:<em>SS</em>.<em>mmm</em&gt;</code><br />
+        <code>&lt;em>YYYY</em>-<em>MM</em>-<em>DD</em>T<em>HH</em>:<em>MM</em&gt;</code><br />
+        <code>&lt;em>YYYY</em>-<em>MM</em>-<em>DD</em>T<em>HH</em>:<em>MM</em>:<em>SS</em&gt;</code><br />
+        <code>&lt;em>YYYY</em>-<em>MM</em>-<em>DD</em>T<em>HH</em>:<em>MM</em>:<em>SS</em>.<em>mmm</em&gt;</code>
       </td>
       <td>
         <code>2013-12-25 11:12</code><br />
@@ -111,10 +111,10 @@ The _datetime value_ (the machine-readable value of the datetime) is the value o
       <td>Valid time-zone offset string</td>
       <td>
         <code>Z</code><br />
-        <code>+<em>HHMM</em></code><br />
-        <code>+<em>HH</em>:<em>MM</em></code><br />
-        <code>-<em>HHMM</em></code><br />
-        <code>-<em>HH</em>:<em>MM</em></code>
+        <code>+<em>HHMM</em&gt;</code><br />
+        <code>+<em>HH</em>:<em>MM</em&gt;</code><br />
+        <code>-<em>HHMM</em&gt;</code><br />
+        <code>-<em>HH</em>:<em>MM</em&gt;</code>
       </td>
       <td>
         <code>Z</code><br />
@@ -139,12 +139,12 @@ The _datetime value_ (the machine-readable value of the datetime) is the value o
     </tr>
     <tr>
       <td>Valid week string</td>
-      <td><code><em>YYYY</em>-W<em>WW</em></code></td>
+      <td><code>&lt;em>YYYY</em>-W<em>WW</em&gt;</code></td>
       <td><code>2013-W46</code></td>
     </tr>
     <tr>
       <td>Four or more ASCII digits</td>
-      <td><code><em>YYYY</em></code></td>
+      <td><code>&lt;em>YYYY</em&gt;</code></td>
       <td><code>2013</code>, <code>0001</code></td>
     </tr>
     <tr>
@@ -158,7 +158,7 @@ The _datetime value_ (the machine-readable value of the datetime) is the value o
         <code>PT<em>h</em>H<em>m</em>M<em>s</em>.<em>X</em>S</code><br />
         <code>PT<em>h</em>H<em>m</em>M<em>s</em>.<em>XX</em>S</code><br />
         <code>PT<em>h</em>H<em>m</em>M<em>s</em>.<em>XXX</em>S</code><br />
-        <code><em>w</em>w <em>d</em>d <em>h</em>h <em>m</em>m <em>s</em>s</code>
+        <code>&lt;em>w</em>w <em>d</em>d <em>h</em>h <em>m</em>m <em>s</em>s</code>
       </td>
       <td>
         <code>P12DT7H12M13S</code><br />

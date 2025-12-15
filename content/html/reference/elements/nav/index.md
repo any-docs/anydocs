@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<nav>`** [HTML](/en-US/docs/Web/HTML) element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
 
-{{InteractiveExample("HTML Demo: &lt;nav&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <nav>", "tabbed-standard")}}
 
 ```html interactive-example
 <nav class="crumbs">

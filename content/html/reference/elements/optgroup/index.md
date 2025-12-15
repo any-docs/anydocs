@@ -10,7 +10,7 @@ The **`<optgroup>`** [HTML](/en-US/docs/Web/HTML) element creates a grouping of 
 
 In [customizable `<select>` elements](/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select), the {{htmlelement("legend")}} element is allowed as a child of `<optgroup>`, to provide a label that is easy to target and style. This replaces any text set in the `<optgroup>` element's `label` attribute, and it has the same semantics.
 
-{{InteractiveExample("HTML Demo: &lt;optgroup&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <optgroup>", "tabbed-standard")}}
 
 ```html interactive-example
 <label for="dino-select">Choose a dinosaur:</label>
@@ -90,7 +90,7 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
       <th scope="row">Tag omission</th>
       <td>
         The start tag is mandatory. The end tag is optional if this element is
-        immediately followed by another <code>&#x3C;optgroup></code> element, or
+        immediately followed by another <code>&#x3C;optgroup&gt;</code> element, or
         if the parent element has no more content.
       </td>
     </tr>

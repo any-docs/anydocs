@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<source>`** [HTML](/en-US/docs/Web/HTML) element specifies one or more media resources for the {{HTMLElement("picture")}}, {{HTMLElement("audio")}}, and {{HTMLElement("video")}} elements. It is a {{glossary("void element")}}, which means that it has no content and does not require a closing tag. This element is commonly used to offer the same media content in multiple file formats in order to provide compatibility with a broad range of browsers given their differing support for [image file formats](/en-US/docs/Web/Media/Guides/Formats/Image_types) and [media file formats](/en-US/docs/Web/Media/Guides/Formats).
 
-{{InteractiveExample("HTML Demo: &lt;source&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <source>", "tabbed-standard")}}
 
 ```html interactive-example
 <video controls width="250" height="200" muted>

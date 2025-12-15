@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<article>`** [HTML](/en-US/docs/Web/HTML) element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
 
-{{InteractiveExample("HTML Demo: &lt;article&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <article>", "tabbed-standard")}}
 
 ```html interactive-example
 <article class="forecast">
@@ -156,7 +156,7 @@ This element only includes the [global attributes](/en-US/docs/Web/HTML/Referenc
         Any element that accepts
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content"
           >flow content</a
-        >. Note that an <code>&#x3C;article></code> element must not be a
+        >. Note that an <code>&#x3C;article&gt;</code> element must not be a
         descendant of an {{HTMLElement("address")}} element.
       </td>
     </tr>

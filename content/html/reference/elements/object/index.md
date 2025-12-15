@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<object>`** [HTML](/en-US/docs/Web/HTML) element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.
 
-{{InteractiveExample("HTML Demo: &lt;object&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <object>", "tabbed-standard")}}
 
 ```html interactive-example
 <object
@@ -39,7 +39,7 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
 - [`form`](/en-US/docs/Web/HTML/Reference/Attributes/form)
   - : The form element, if any, that the object element is associated with (its _form owner_). The value of the attribute must be an ID of a {{HTMLElement("form")}} element in the same document.
 - `height`
-  - : The height of the displayed resource, as in {{cssxref("&lt;integer&gt;")}} in {{glossary("CSS pixel", "CSS pixels")}}.
+  - : The height of the displayed resource, as in {{cssxref("<integer>")}} in {{glossary("CSS pixel", "CSS pixels")}}.
 - `name`
   - : The name of valid browsing context (HTML5), or the name of the control (HTML 4). The name becomes a property of the {{domxref("Window")}} and {{domxref("Document")}} objects, containing a reference to the embedded window or the element itself.
 - `standby` {{deprecated_inline}}
@@ -49,7 +49,7 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
 - `usemap` {{deprecated_inline}}
   - : A hash-name reference to a {{HTMLElement("map")}} element; that is a '#' followed by the value of a [`name`](/en-US/docs/Web/HTML/Reference/Elements/map#name) of a map element.
 - `width`
-  - : The width of the display resource, as in {{cssxref("&lt;integer&gt;")}} in {{glossary("CSS pixel", "CSS pixels")}}.
+  - : The width of the display resource, as in {{cssxref("<integer>")}} in {{glossary("CSS pixel", "CSS pixels")}}.
 
 ## Examples
 

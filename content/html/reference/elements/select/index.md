@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<select>`** [HTML](/en-US/docs/Web/HTML) element represents a control that provides a menu of options.
 
-{{InteractiveExample("HTML Demo: &lt;select&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <select>", "tabbed-standard")}}
 
 ```html interactive-example
 <label for="pet-select">Choose a pet:</label>

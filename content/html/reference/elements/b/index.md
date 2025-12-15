@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<b>`** [HTML](/en-US/docs/Web/HTML) element is used to draw the reader's attention to the element's contents, which are not otherwise granted special importance. This was formerly known as the Boldface element, and most browsers still draw the text in boldface. However, you should not use `<b>` for styling text or granting importance. If you wish to create boldface text, you should use the CSS {{cssxref("font-weight")}} property. If you wish to indicate an element is of special importance, you should use the {{HTMLElement("strong")}} element.
 
-{{InteractiveExample("HTML Demo: &lt;b&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <b>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>

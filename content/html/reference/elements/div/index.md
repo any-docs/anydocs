@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<div>`** [HTML](/en-US/docs/Web/HTML) element is the generic container for flow content. It has no effect on the content or layout until styled in some way using {{glossary("CSS")}} (e.g., styling is directly applied to it, or some kind of layout model like [Flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) is applied to its parent element).
 
-{{InteractiveExample("HTML Demo: &lt;div&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <div>", "tabbed-standard")}}
 
 ```html interactive-example
 <div class="warning">
@@ -62,7 +62,7 @@ The `<div>` element has [an implicit role of `generic`](https://w3c.github.io/ar
 ```html
 <div>
   <p>
-    Any kind of content here. Such as &lt;p&gt;, &lt;table&gt;. You name it!
+    Any kind of content here. Such as <p>, <table>. You name it!
   </p>
 </div>
 ```

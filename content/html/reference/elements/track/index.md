@@ -14,7 +14,7 @@ The data that is used will either be the track that has been set to be the defau
 
 The tracks are formatted in [WebVTT format](/en-US/docs/Web/API/WebVTT_API) (`.vtt` files) — Web Video Text Tracks.
 
-{{InteractiveExample("HTML Demo: &lt;track&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <track>", "tabbed-standard")}}
 
 ```html interactive-example
 <video controls src="/shared-assets/videos/friday.mp4">

@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<ins>`** [HTML](/en-US/docs/Web/HTML) element represents a range of text that has been added to a document. You can use the {{HTMLElement("del")}} element to similarly represent a range of text that has been deleted from the document.
 
-{{InteractiveExample("HTML Demo: &lt;ins&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <ins>", "tabbed-standard")}}
 
 ```html interactive-example
 <p>&ldquo;You're late!&rdquo;</p>

@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<form>`** [HTML](/en-US/docs/Web/HTML) element represents a document section containing interactive controls for submitting information.
 
-{{InteractiveExample("HTML Demo: &lt;form&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <form>", "tabbed-standard")}}
 
 ```html interactive-example
 <form action="" method="get" class="form-example">
@@ -162,7 +162,7 @@ The following attributes control behavior during form submission.
     <tr>
       <th scope="row">Permitted content</th>
       <td>
-        <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content">Flow content</a>, but not containing <code>&#x3C;form></code> elements
+        <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content">Flow content</a>, but not containing <code>&#x3C;form&gt;</code> elements
       </td>
     </tr>
     <tr>
@@ -179,13 +179,13 @@ The following attributes control behavior during form submission.
     <tr>
       <th scope="row">Implicit ARIA role</th>
       <td>
-        <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/form_role">form</a></code>
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/form_role">form</a&gt;</code>
       </td>
     </tr>
     <tr>
       <th scope="row">Permitted ARIA roles</th>
       <td>
-        <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/search_role">search</a></code>,
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/search_role">search</a&gt;</code>,
         <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/none_role"><code>none</code></a>
          or <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/presentation_role"><code>presentation</code></a>
       </td>

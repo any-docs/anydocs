@@ -10,7 +10,7 @@ sidebar: htmlsidebar
 
 Only one radio button in a given group can be selected at the same time. Radio buttons are typically rendered as small circles, which are filled or highlighted when selected.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;radio&quot;&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <input type='radio'>", "tabbed-standard")}}
 
 ```html interactive-example
 <fieldset>
@@ -330,8 +330,8 @@ Notice that when clicking on a radio button, there's a nice, smooth fade out/in 
     <tr>
       <td><strong>Supported common attributes</strong></td>
       <td>
-        <code><a href="#checked">checked</a></code
-        >, <code><a href="#value">value</a></code> and
+        <code>&lt;a href="#checked">checked</a></code
+        >, <code>&lt;a href="#value">value</a&gt;</code> and
         <code
           ><a href="/en-US/docs/Web/HTML/Reference/Attributes/required">required</a></code
         >
@@ -354,7 +354,7 @@ Notice that when clicking on a radio button, there's a nice, smooth fade out/in 
      <tr>
       <td><strong>Implicit ARIA Role</strong></td>
       <td>
-        <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radio_role">radio</a></code>
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radio_role">radio</a&gt;</code>
       </td>
     </tr>
   </tbody>

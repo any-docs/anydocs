@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<ol>`** [HTML](/en-US/docs/Web/HTML) element represents an ordered list of items — typically rendered as a numbered list.
 
-{{InteractiveExample("HTML Demo: &lt;ol&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <ol>", "tabbed-shorter")}}
 
 ```html interactive-example
 <ol>
@@ -172,7 +172,7 @@ To determine which list to use, try changing the order of the list items; if the
       <td>
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content"
           >Flow content</a
-        >, and if the <code>&#x3C;ol></code> element's children include at least
+        >, and if the <code>&#x3C;ol&gt;</code> element's children include at least
         one {{HTMLElement("li")}} element,
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#palpable_content"
           >palpable content</a

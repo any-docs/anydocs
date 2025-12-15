@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 {{HTMLElement("input")}} elements of type **`image`** are used to create graphical submit buttons, i.e., submit buttons that take the form of an image rather than text.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;image&quot;&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <input type='image'>", "tabbed-standard")}}
 
 ```html interactive-example
 <p>Sign in to your account:</p>

@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<var>`** [HTML](/en-US/docs/Web/HTML) element represents the name of a variable in a mathematical expression or a programming context. It's typically presented using an italicized version of the current typeface, although that behavior is browser-dependent.
 
-{{InteractiveExample("HTML Demo: &lt;var&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <var>", "tabbed-shorter")}}
 
 ```html interactive-example
 <p>

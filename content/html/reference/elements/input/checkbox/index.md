@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 {{htmlelement("input")}} elements of type **`checkbox`** are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners. A checkbox allows you to select single values for submission in a form (or not).
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;checkbox&quot;&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <input type='checkbox'>", "tabbed-standard")}}
 
 ```html interactive-example
 <fieldset>
@@ -67,7 +67,7 @@ In this example, we've got a name of `subscribe`, and a value of `newsletter`. W
 If the `value` attribute was omitted, the default value for the checkbox is `on`, so the submitted data in that case would be `subscribe=on`.
 
 > [!NOTE]
-> If a checkbox is unchecked when its form is submitted, neither the name nor the value is submitted to the server. There is no HTML-only method of representing a checkbox's unchecked state (e.g., `value=unchecked`). If you wanted to submit a default value for the checkbox when it is unchecked, you could include JavaScript to create an {{HTMLElement("input/hidden", '&lt;input type="hidden"&gt;')}} within the form with a value indicating an unchecked state.
+> If a checkbox is unchecked when its form is submitted, neither the name nor the value is submitted to the server. There is no HTML-only method of representing a checkbox's unchecked state (e.g., `value=unchecked`). If you wanted to submit a default value for the checkbox when it is unchecked, you could include JavaScript to create an {{HTMLElement("input/hidden", '<input type="hidden">')}} within the form with a value indicating an unchecked state.
 
 ## Additional attributes
 
@@ -320,14 +320,14 @@ otherCheckbox.addEventListener("change", () => {
     </tr>
     <tr>
       <td><strong>Supported common attributes</strong></td>
-      <td><code><a href="#checked">checked</a></code></td>
+      <td><code>&lt;a href="#checked">checked</a&gt;</code></td>
     </tr>
     <tr>
       <td><strong>IDL attributes</strong></td>
       <td>
-        <code><a href="/en-US/docs/Web/API/HTMLInputElement/checked">checked</a></code>,
-        <code><a href="/en-US/docs/Web/API/HTMLInputElement/indeterminate">indeterminate</a></code> and
-        <code><a href="/en-US/docs/Web/API/HTMLInputElement/value">value</a></code>
+        <code>&lt;a href="/en-US/docs/Web/API/HTMLInputElement/checked">checked</a&gt;</code>,
+        <code>&lt;a href="/en-US/docs/Web/API/HTMLInputElement/indeterminate">indeterminate</a&gt;</code> and
+        <code>&lt;a href="/en-US/docs/Web/API/HTMLInputElement/value">value</a&gt;</code>
       </td>
     </tr>
     <tr>

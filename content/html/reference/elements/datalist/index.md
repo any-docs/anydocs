@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<datalist>`** [HTML](/en-US/docs/Web/HTML) element contains a set of {{HTMLElement("option")}} elements that represent the permissible or recommended options available to choose from within other controls.
 
-{{InteractiveExample("HTML Demo: &lt;datalist&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <datalist>", "tabbed-standard")}}
 
 ```html interactive-example
 <label for="ice-cream-choice">Choose a flavor:</label>

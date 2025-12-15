@@ -74,7 +74,7 @@ The `<noscript>` element represents its children differently depending on if scr
         <a
           href="/en-US/docs/Web/HTML/Guides/Content_categories#transparent_content_model"
           >transparent content</a
-        >, but no <code>&#x3C;noscript></code> element must be among its
+        >, but no <code>&#x3C;noscript&gt;</code> element must be among its
         descendants.<br />Otherwise: flow content or phrasing content.
       </td>
     </tr>
@@ -88,10 +88,10 @@ The `<noscript>` element represents its children differently depending on if scr
         Any element that accepts
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#phrasing_content"
           >phrasing content</a
-        >, if there are no ancestor <code>&#x3C;noscript></code> element, or in
+        >, if there are no ancestor <code>&#x3C;noscript&gt;</code> element, or in
         a {{HTMLElement("head")}} element (but only for an HTML
         document), here again if there are no ancestor
-        <code>&#x3C;noscript></code> element.
+        <code>&#x3C;noscript&gt;</code> element.
       </td>
     </tr>
     <tr>

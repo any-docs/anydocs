@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<input>`** [HTML](/en-US/docs/Web/HTML) element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and {{Glossary("user agent")}}. The `<input>` element is one of the most powerful and complex in all of HTML due to the sheer number of combinations of input types and attributes.
 
-{{InteractiveExample("HTML Demo: &lt;input type=&quot;text&quot;&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <input type='text'>", "tabbed-shorter")}}
 
 ```html interactive-example
 <label for="name">Name (4 to 8 characters):</label>
@@ -735,7 +735,7 @@ Inputs, being replaced elements, have a few features not applicable to non form 
 <table class="no-markdown">
   <caption>
     Pseudo-classes relevant to the
-    <code>&#x3C;input></code>
+    <code>&#x3C;input&gt;</code>
     element:
   </caption>
   <thead>
@@ -773,7 +773,7 @@ Inputs, being replaced elements, have a few features not applicable to non form 
       <td>{{Cssxref(":placeholder-shown")}}</td>
       <td>
         Element that is currently displaying <a href="#placeholder"><code>placeholder</code> text</a>,
-        including <code>&#x3C;input></code> and {{HTMLElement("textarea")}} elements with the <a href="#placeholder"><code>placeholder</code></a> attribute present that has, as yet, no value.
+        including <code>&#x3C;input&gt;</code> and {{HTMLElement("textarea")}} elements with the <a href="#placeholder"><code>placeholder</code></a> attribute present that has, as yet, no value.
       </td>
     </tr>
     <tr>
@@ -841,7 +841,7 @@ Inputs, being replaced elements, have a few features not applicable to non form 
     <tr>
       <td>{{Cssxref(":required")}}</td>
       <td>
-        <code>&#x3C;input></code>, {{HTMLElement("select")}}, or {{HTMLElement("textarea")}} element that has the <a href="#required"><code>required</code></a> attribute set on it.
+        <code>&#x3C;input&gt;</code>, {{HTMLElement("select")}}, or {{HTMLElement("textarea")}} element that has the <a href="#required"><code>required</code></a> attribute set on it.
         Only matches elements that can be required.
         The attribute included on a non-requirable element will not make for a match.
       </td>
@@ -849,7 +849,7 @@ Inputs, being replaced elements, have a few features not applicable to non form 
     <tr>
       <td>{{Cssxref(":optional")}}</td>
       <td>
-        <code>&#x3C;input></code>, {{HTMLElement("select")}}, or
+        <code>&#x3C;input&gt;</code>, {{HTMLElement("select")}}, or
         {{HTMLElement("textarea")}} element that does NOT have the <a href="#required"><code>required</code></a> attribute set on it.
         Does not match elements that can't be required.
       </td>
@@ -857,7 +857,7 @@ Inputs, being replaced elements, have a few features not applicable to non form 
     <tr>
       <td>{{Cssxref(":blank")}}</td>
       <td>
-        <code>&#x3C;input></code> and {{HTMLElement("textarea")}} elements that currently have no value.
+        <code>&#x3C;input&gt;</code> and {{HTMLElement("textarea")}} elements that currently have no value.
       </td>
     </tr>
     <tr>
@@ -1266,11 +1266,11 @@ Interactive elements such as form input should provide an area large enough that
           <li>
             <code>type=button</code>:
             <code
-              ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role">button</a></code>
+              ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role">button</a&gt;</code>
           </li>
           <li>
             <code>type=checkbox</code>:
-            <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role">checkbox</a></code>
+            <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role">checkbox</a&gt;</code>
           </li>
           <li>
             <code>type=email</code>
@@ -1279,7 +1279,7 @@ Interactive elements such as form input should provide an area large enough that
                 with no <code>list</code> attribute:
                 <code
                   ><a
-                    href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a></code>
+                    href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a&gt;</code>
               </li>
               <li>
                 with <code>list</code> attribute: <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role"><code>combobox</code></a>
@@ -1289,7 +1289,7 @@ Interactive elements such as form input should provide an area large enough that
           <li>
             <code>type=image</code>:
             <code
-              ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role">button</a></code>
+              ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role">button</a&gt;</code>
           </li>
           <li>
             <code>type=number</code>: <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/spinbutton_role"><code>spinbutton</code></a>
@@ -1298,7 +1298,7 @@ Interactive elements such as form input should provide an area large enough that
           <li><code>type=range</code>: <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/slider_role"><code>slider</code></a></li>
           <li>
             <code>type=reset</code>:
-            <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role">button</a></code>
+            <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role">button</a&gt;</code>
           </li>
           <li>
             <code>type=search</code>
@@ -1314,14 +1314,14 @@ Interactive elements such as form input should provide an area large enough that
           <li>
             <code>type=submit</code>:
             <code
-              ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role">button</a></code>
+              ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role">button</a&gt;</code>
           </li>
           <li>
             <code>type=tel</code>
             <ul>
               <li>
                 with no <code>list</code> attribute:
-                <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a></code>
+                <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a&gt;</code>
               </li>
               <li>
                 with <code>list</code> attribute: <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role"><code>combobox</code></a>
@@ -1333,7 +1333,7 @@ Interactive elements such as form input should provide an area large enough that
             <ul>
               <li>
                 with no <code>list</code> attribute:
-                <code><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a></code>
+                <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a&gt;</code>
               </li>
               <li>
                 with <code>list</code> attribute: <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role"><code>combobox</code></a>
@@ -1346,7 +1346,7 @@ Interactive elements such as form input should provide an area large enough that
               <li>
                 with no <code>list</code> attribute:
                 <code
-                  ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a ></code>
+                  ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a &gt;</code>
               </li>
               <li>
                 with <code>list</code> attribute: <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role"><code>combobox</code></a>

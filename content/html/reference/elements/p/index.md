@@ -10,7 +10,7 @@ The **`<p>`** [HTML](/en-US/docs/Web/HTML) element represents a paragraph. Parag
 
 Paragraphs are [block-level elements](/en-US/docs/Glossary/Block-level_content), and notably will automatically close if another block-level element is parsed before the closing `</p>` tag. See "Tag omission" below.
 
-{{InteractiveExample("HTML Demo: &lt;p&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <p>", "tabbed-standard")}}
 
 ```html interactive-example
 <p>

@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<dd>`** [HTML](/en-US/docs/Web/HTML) element provides the description, definition, or value for the preceding term ({{HTMLElement("dt")}}) in a description list ({{HTMLElement("dl")}}).
 
-{{InteractiveExample("HTML Demo: &lt;dd&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <dd>", "tabbed-standard")}}
 
 ```html interactive-example
 <p>Cryptids of Cornwall:</p>
@@ -73,7 +73,7 @@ For examples, see the [examples provided for the `<dl>` element](/en-US/docs/Web
       <th scope="row">Tag omission</th>
       <td>
         The start tag is required. The end tag may be omitted if this element is
-        immediately followed by another <code>&#x3C;dd></code> element or a
+        immediately followed by another <code>&#x3C;dd&gt;</code> element or a
         {{HTMLElement("dt")}} element, or if there is no more content in
         the parent element.
       </td>

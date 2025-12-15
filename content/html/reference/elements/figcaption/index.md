@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<figcaption>`** [HTML](/en-US/docs/Web/HTML) element represents a caption or legend describing the rest of the contents of its parent {{HTMLElement("figure")}} element, providing the `<figure>` an {{glossary("accessible name")}}.
 
-{{InteractiveExample("HTML Demo: &lt;figcaption&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <figcaption>", "tabbed-shorter")}}
 
 ```html interactive-example
 <figure>
@@ -79,7 +79,7 @@ Please see the {{HTMLElement("figure")}} page for examples on `<figcaption>`.
       <th scope="row">Permitted parents</th>
       <td>
         A {{HTMLElement("figure")}} element; the
-        <code>&#x3C;figcaption></code> element must be its first or last child.
+        <code>&#x3C;figcaption&gt;</code> element must be its first or last child.
       </td>
     </tr>
     <tr>

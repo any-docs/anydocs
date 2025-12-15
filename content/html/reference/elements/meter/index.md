@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<meter>`** [HTML](/en-US/docs/Web/HTML) element represents either a scalar value within a known range or a fractional value.
 
-{{InteractiveExample("HTML Demo: &lt;meter&gt;", "tabbed-shorter")}}
+{{InteractiveExample("HTML Demo: <meter>", "tabbed-shorter")}}
 
 ```html interactive-example
 <label for="fuel">Fuel level:</label>
@@ -101,7 +101,7 @@ Note that in this example the [`min`](#min) attribute is omitted. This is allowe
       <td>
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#phrasing_content"
           >Phrasing content</a
-        >, but there must be no <code>&#x3C;meter></code> element among its
+        >, but there must be no <code>&#x3C;meter&gt;</code> element among its
         descendants.
       </td>
     </tr>

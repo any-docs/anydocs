@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<aside>`** [HTML](/en-US/docs/Web/HTML) element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
 
-{{InteractiveExample("HTML Demo: &lt;aside&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <aside>", "tabbed-standard")}}
 
 ```html interactive-example
 <p>
@@ -116,7 +116,7 @@ This example uses `<aside>` to mark up a paragraph in an article. The paragraph 
         Any element that accepts
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content"
           >flow content</a
-        >. Note that an <code>&#x3C;aside></code> element must not be a
+        >. Note that an <code>&#x3C;aside&gt;</code> element must not be a
         descendant of an {{HTMLElement("address")}} element.
       </td>
     </tr>

@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 ---
 
 The **`theme-color`** value for the [`name`](/en-US/docs/Web/HTML/Reference/Elements/meta/name) attribute of the {{htmlelement("meta")}} element indicates a suggested color that user agents should use to customize the display of the page or of the surrounding user interface.
-If specified, you define a theme color using a [`content`](/en-US/docs/Web/HTML/Reference/Elements/meta#content) attribute in the `<meta>` element as a CSS {{cssxref("&lt;color&gt;")}} value.
+If specified, you define a theme color using a [`content`](/en-US/docs/Web/HTML/Reference/Elements/meta#content) attribute in the `<meta>` element as a CSS {{cssxref("<color>")}} value.
 
 For example, to indicate that a document should use `cornflowerblue` as a theme color, set the `<meta>` as:
 
@@ -25,7 +25,7 @@ A `<meta name="theme-color">` element has the following additional attributes:
 - [`content`](/en-US/docs/Web/HTML/Reference/Elements/meta#content)
   - : A `<meta>` element with `name=theme-color` must have a `content` attribute that defines the theme color.
     The value of `content` attribute is as follows:
-    - {{cssxref("&lt;color&gt;")}} value
+    - {{cssxref("<color>")}} value
       - : A valid color value, such as hexadecimal, RGB, named color, etc.
 - `media` {{optional_inline}}
   - : Any valid media type or query.

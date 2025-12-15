@@ -33,7 +33,7 @@ export const items = [{
                     text: 'Elements',
                     collapsed: true,
                     items: [
-                        {text: '&lt;a&gt;', link: '/html/reference/elements/a/index'},
+                        {text: '<a>', link: '/html/reference/elements/a/index'},
                         {text: 'Use data attributes', link: '/php/installation'},
                         {text: 'Use cross-origin images', link: '/php/installation'},
                         {text: 'Add a hitmap on top of an image', link: '/php/installation'},

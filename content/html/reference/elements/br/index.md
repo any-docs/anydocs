@@ -8,7 +8,7 @@ sidebar: htmlsidebar
 
 The **`<br>`** [HTML](/en-US/docs/Web/HTML) element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.
 
-{{InteractiveExample("HTML Demo: &lt;br&gt;", "tabbed-standard")}}
+{{InteractiveExample("HTML Demo: <br>", "tabbed-standard")}}
 
 ```html interactive-example
 <p>
@@ -102,7 +102,7 @@ USA<br />
       <th scope="row">Tag omission</th>
       <td>
         Must have a start tag and must not have an end tag. In XHTML documents,
-        write this element as <code>&#x3C;br /></code>.
+        write this element as <code>&#x3C;br /&gt;</code>.
       </td>
     </tr>
     <tr>

@@ -30,22 +30,22 @@ Only values which are a whole number of steps from the step base are valid. The 
     <tr>
       <td>{{HTMLElement("input/date", "date")}}</td>
       <td>1 (day)</td>
-      <td><code>&#x3C;input type="date" min="2019-12-25" step="1"></code></td>
+      <td><code>&#x3C;input type="date" min="2019-12-25" step="1"&gt;</code></td>
     </tr>
     <tr>
       <td>{{HTMLElement("input/month", "month")}}</td>
       <td>1 (month)</td>
-      <td><code>&#x3C;input type="month" min="2019-12" step="12"></code></td>
+      <td><code>&#x3C;input type="month" min="2019-12" step="12"&gt;</code></td>
     </tr>
     <tr>
       <td>{{HTMLElement("input/week", "week")}}</td>
       <td>1 (week)</td>
-      <td><code>&#x3C;input type="week" min="2019-W23" step="2"></code></td>
+      <td><code>&#x3C;input type="week" min="2019-W23" step="2"&gt;</code></td>
     </tr>
     <tr>
       <td>{{HTMLElement("input/time", "time")}}</td>
       <td>60 (seconds)</td>
-      <td><code>&#x3C;input type="time" min="09:00" step="900"></code></td>
+      <td><code>&#x3C;input type="time" min="09:00" step="900"&gt;</code></td>
     </tr>
     <tr>
       <td>
@@ -63,13 +63,13 @@ Only values which are a whole number of steps from the step base are valid. The 
       <td>{{HTMLElement("input/number", "number")}}</td>
       <td>1</td>
       <td>
-        <code>&#x3C;input type="number" min="0" step="0.1" max="10"></code>
+        <code>&#x3C;input type="number" min="0" step="0.1" max="10"&gt;</code>
       </td>
     </tr>
     <tr>
       <td>{{HTMLElement("input/range", "range")}}</td>
       <td>1</td>
-      <td><code>&#x3C;input type="range" min="0" step="2" max="10"></code></td>
+      <td><code>&#x3C;input type="range" min="0" step="2" max="10"&gt;</code></td>
     </tr>
   </tbody>
 </table>

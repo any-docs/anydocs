@@ -204,7 +204,7 @@ The final result looks like this:
     <tr>
       <td><strong><a href="#value">Value</a></strong></td>
       <td>
-        Any CSS {{cssxref("<color>")}} value in any notation.
+        Any CSS <code>&lt;color&gt;</code> value in any notation.
       </td>
     </tr>
     <tr>
@@ -224,7 +224,7 @@ The final result looks like this:
     <tr>
       <td><strong>IDL attributes</strong></td>
       <td>
-        <a href="/en-US/docs/Web/API/HTMLInputElement/alpha"><code>alpha</a&gt;</code>,
+        <a href="/en-US/docs/Web/API/HTMLInputElement/alpha"><code>alpha</code></a>,
         <a href="/en-US/docs/Web/API/HTMLInputElement/colorSpace"><code>colorSpace</code></a>,
         <a href="/en-US/docs/Web/API/HTMLInputElement/list"><code>list</code></a>, and
         <a href="/en-US/docs/Web/API/HTMLInputElement/value"><code>value</code></a>

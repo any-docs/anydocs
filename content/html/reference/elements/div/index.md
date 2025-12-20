@@ -13,7 +13,7 @@ The **`<div>`** [HTML](/en-US/docs/Web/HTML) element is the generic container fo
 ```html interactive-example
 <div class="warning">
   <img
-    src="/shared-assets/images/examples/leopard.jpg"
+    src="/images/examples/leopard.jpg"
     alt="An intimidating leopard." />
   <p>Beware of the leopard</p>
 </div>

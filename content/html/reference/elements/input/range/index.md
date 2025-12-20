@@ -358,7 +358,7 @@ See [Creating vertical form controls](/en-US/docs/Web/CSS/Guides/Writing_modes/V
     <tr>
       <td><strong>Implicit ARIA Role</strong></td>
       <td>
-        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/slider_role">slider</a&gt;</code>
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/slider_role"&gt;slider&lt;/a&gt;</code>
       </td>
     </tr>
   </tbody>

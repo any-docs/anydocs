@@ -62,7 +62,7 @@ The code that starts the download (say, when the user clicks a "Download" button
 
 ```js
 function startDownload() {
-  let imageURL = "https://mdn.github.io/shared-assets/images/examples/mdn.svg";
+  let imageURL = "https://mdn.github.io/images/examples/mdn.svg";
   let imageDescription = "Logo of a dinosaur in front of a map";
 
   downloadedImg = new Image();

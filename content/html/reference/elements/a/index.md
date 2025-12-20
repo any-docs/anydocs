@@ -457,6 +457,7 @@ Using `target="_blank"` without [`rel="noreferrer"`](/en-US/docs/Web/HTML/Refere
 
 ## Technical summary
 
+::: v-pre
 <table class="properties">
   <tbody>
     <tr>
@@ -545,6 +546,7 @@ Using `target="_blank"` without [`rel="noreferrer"`](/en-US/docs/Web/HTML/Refere
     </tr>
   </tbody>
 </table>
+:::
 
 ## Specifications
 

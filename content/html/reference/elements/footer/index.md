@@ -131,12 +131,12 @@ footer {
         <a href="/en-US/docs/Web/HTML/Reference/Elements/nav">nav</a> or
         <a href="/en-US/docs/Web/HTML/Reference/Elements/section">section</a> element, or
         an element with
-        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/article_role">article</a&gt;</code>,
-        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/complementary_role">complementary</a&gt;</code>,
-        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/main_role">main</a&gt;</code>,
-        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/navigation_role">navigation</a&gt;</code>
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/article_role"&gt;article&lt;/a&gt;</code>,
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/complementary_role"&gt;complementary&lt;/a&gt;</code>,
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/main_role"&gt;main&lt;/a&gt;</code>,
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/navigation_role"&gt;navigation&lt;/a&gt;</code>
         or
-        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/region_role">region</a&gt;</code> role
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/region_role"&gt;region&lt;/a&gt;</code> role
       </td>
     </tr>
     <tr>

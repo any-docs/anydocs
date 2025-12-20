@@ -13,7 +13,7 @@ The **`<object>`** [HTML](/en-US/docs/Web/HTML) element represents an external r
 ```html interactive-example
 <object
   type="video/mp4"
-  data="/shared-assets/videos/flower.mp4"
+  data="/videos/flower.mp4"
   width="250"
   height="200"></object>
 ```
@@ -60,11 +60,11 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
 ```html
 <object
   type="video/webm"
-  data="/shared-assets/videos/flower.webm"
+  data="/videos/flower.webm"
   width="600"
   height="140">
   <img
-    src="/shared-assets/images/examples/flowers.jpg"
+    src="/images/examples/flowers.jpg"
     alt="Some beautiful flowers" />
 </object>
 ```

@@ -82,7 +82,7 @@ In addition to the `type` attribute described above, the following attributes ar
     </tr>
     <tr>
       <td rowspan="3">
-        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Attributes/min">min</a&gt;</code>
+        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Attributes/min"&gt;min&lt;/a&gt;</code>
       </td>
       <td><code>range</code>, <code>number</code></td>
       <td>A valid number</td>
@@ -110,7 +110,7 @@ In addition to the `type` attribute described above, the following attributes ar
     </tr>
     <tr>
       <td rowspan="3">
-        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Attributes/max">max</a&gt;</code>
+        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Attributes/max"&gt;max&lt;/a&gt;</code>
       </td>
       <td><code>range</code>, <code>number</code></td>
       <td>A valid number</td>
@@ -169,7 +169,7 @@ In addition to the `type` attribute described above, the following attributes ar
     </tr>
     <tr>
       <td rowspan="5">
-        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Attributes/step">step</a&gt;</code>
+        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Attributes/step"&gt;step&lt;/a&gt;</code>
       </td>
       <td><code>date</code></td>
       <td>An integer number of days</td>

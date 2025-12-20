@@ -328,8 +328,6 @@ input:valid + span::after {
 
 Copy this page's url and paste it in the input field and you will see a green outline and green tick. Enter any other URL that doesn't contain **mozilla.org** or an invalid URL and you will see a red outline and red cross.
 
-{{EmbedLiveSample("url-validation", "40px", , , , , "allow-forms")}}
-
 Check the [Pattern validation](#pattern_validation) and [Using URL inputs](#using_url_inputs) sections for other examples.
 
 ## Technical summary
@@ -384,8 +382,8 @@ Check the [Pattern validation](#pattern_validation) and [Using URL inputs](#usin
     <tr>
       <td><strong>Implicit ARIA Role</strong></td>
       <td>with no <code>list</code> attribute:
-                <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a&gt;</code></td>
-      <td>with <code>list</code> attribute: <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role">combobox</a&gt;</code></td>
+                <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role"&gt;textbox&lt;/a&gt;</code></td>
+      <td>with <code>list</code> attribute: <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role"&gt;combobox&lt;/a&gt;</code></td>
     </tr>
   </tbody>
 </table>

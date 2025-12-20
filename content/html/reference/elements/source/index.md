@@ -12,12 +12,12 @@ The **`<source>`** [HTML](/en-US/docs/Web/HTML) element specifies one or more me
 
 ```html interactive-example
 <video controls width="250" height="200" muted>
-  <source src="/shared-assets/videos/flower.webm" type="video/webm" />
-  <source src="/shared-assets/videos/flower.mp4" type="video/mp4" />
+  <source src="/videos/flower.webm" type="video/webm" />
+  <source src="/videos/flower.mp4" type="video/mp4" />
   Download the
-  <a href="/shared-assets/videos/flower.webm">WEBM</a>
+  <a href="/videos/flower.webm">WEBM</a>
   or
-  <a href="/shared-assets/videos/flower.mp4">MP4</a>
+  <a href="/videos/flower.mp4">MP4</a>
   video.
 </video>
 ```

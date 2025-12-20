@@ -474,7 +474,7 @@ After declaring a few variables, an event listener is added to the `button` to c
     <tr>
       <td><strong>Implicit ARIA Role</strong></td>
       <td>
-        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/spinbutton_role">spinbutton</a&gt;</code>
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/spinbutton_role"&gt;spinbutton&lt;/a&gt;</code>
       </td>
     </tr>
   </tbody>

@@ -17,9 +17,9 @@ The browser will consider each child `<source>` element and choose the best matc
 
 <picture>
   <source
-    srcset="/shared-assets/images/examples/surfer.jpg"
+    srcset="/images/examples/surfer.jpg"
     media="(orientation: portrait)" />
-  <img src="/shared-assets/images/examples/painted-hand.jpg" alt="" />
+  <img src="/images/examples/painted-hand.jpg" alt="" />
 </picture>
 ```
 

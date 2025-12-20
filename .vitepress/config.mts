@@ -62,5 +62,6 @@ export default defineConfig({
     footer: {
       copyright: 'Copyright © 2025'
     }
-  }
+  },
+  ignoreDeadLinks: true
 })

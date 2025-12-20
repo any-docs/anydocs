@@ -1266,11 +1266,11 @@ Interactive elements such as form input should provide an area large enough that
           <li>
             <code>type=button</code>:
             <code
-              ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role">button</a&gt;</code>
+              >&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role"&gt;button&lt;/a&gt;</code>
           </li>
           <li>
             <code>type=checkbox</code>:
-            <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role">checkbox</a&gt;</code>
+            <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role"&gt;checkbox&lt;/a&gt;</code>
           </li>
           <li>
             <code>type=email</code>
@@ -1278,8 +1278,8 @@ Interactive elements such as form input should provide an area large enough that
               <li>
                 with no <code>list</code> attribute:
                 <code
-                  ><a
-                    href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a&gt;</code>
+                  >&lt;a
+                    href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role"&gt;textbox&lt;/a&gt;</code>
               </li>
               <li>
                 with <code>list</code> attribute: <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role"><code>combobox</code></a>
@@ -1289,7 +1289,7 @@ Interactive elements such as form input should provide an area large enough that
           <li>
             <code>type=image</code>:
             <code
-              ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role">button</a&gt;</code>
+              >&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role"&gt;button&lt;/a&gt;</code>
           </li>
           <li>
             <code>type=number</code>: <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/spinbutton_role"><code>spinbutton</code></a>
@@ -1298,7 +1298,7 @@ Interactive elements such as form input should provide an area large enough that
           <li><code>type=range</code>: <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/slider_role"><code>slider</code></a></li>
           <li>
             <code>type=reset</code>:
-            <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role">button</a&gt;</code>
+            <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role"&gt;button&lt;/a&gt;</code>
           </li>
           <li>
             <code>type=search</code>
@@ -1314,14 +1314,14 @@ Interactive elements such as form input should provide an area large enough that
           <li>
             <code>type=submit</code>:
             <code
-              ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role">button</a&gt;</code>
+              >&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role"&gt;button&lt;/a&gt;</code>
           </li>
           <li>
             <code>type=tel</code>
             <ul>
               <li>
                 with no <code>list</code> attribute:
-                <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a&gt;</code>
+                <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role"&gt;textbox&lt;/a&gt;</code>
               </li>
               <li>
                 with <code>list</code> attribute: <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role"><code>combobox</code></a>
@@ -1333,7 +1333,7 @@ Interactive elements such as form input should provide an area large enough that
             <ul>
               <li>
                 with no <code>list</code> attribute:
-                <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a&gt;</code>
+                <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role"&gt;textbox&lt;/a&gt;</code>
               </li>
               <li>
                 with <code>list</code> attribute: <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role"><code>combobox</code></a>
@@ -1346,7 +1346,7 @@ Interactive elements such as form input should provide an area large enough that
               <li>
                 with no <code>list</code> attribute:
                 <code
-                  ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role">textbox</a &gt;</code>
+                  >&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/textbox_role"&gt;textbox&lt;/a&gt;</code>
               </li>
               <li>
                 with <code>list</code> attribute: <a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role"><code>combobox</code></a>

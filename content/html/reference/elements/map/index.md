@@ -30,7 +30,7 @@ The **`<map>`** [HTML](/en-US/docs/Web/HTML) element is used with {{HTMLElement(
 </map>
 <img
   usemap="#infographic"
-  src="/shared-assets/images/examples/mdn-info2.png"
+  src="/images/examples/mdn-info2.png"
   alt="MDN infographic" />
 ```
 

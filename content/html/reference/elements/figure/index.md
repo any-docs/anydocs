@@ -13,7 +13,7 @@ The **`<figure>`** [HTML](/en-US/docs/Web/HTML) element represents self-containe
 ```html interactive-example
 <figure>
   <img
-    src="/shared-assets/images/examples/elephant.jpg"
+    src="/images/examples/elephant.jpg"
     alt="Elephant at sunset" />
   <figcaption>An elephant at sunset</figcaption>
 </figure>

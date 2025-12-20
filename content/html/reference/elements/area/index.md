@@ -42,7 +42,7 @@ This element is used only within a {{HTMLElement("map")}} element.
 </map>
 <img
   usemap="#infographic"
-  src="/shared-assets/images/examples/mdn-info.png"
+  src="/images/examples/mdn-info.png"
   alt="MDN infographic" />
 ```
 

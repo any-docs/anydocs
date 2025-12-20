@@ -145,9 +145,9 @@ For more detailed examples, see the {{htmlelement("ol")}} and {{htmlelement("ul"
           ></code
         >
         when child of an
-        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/ol">ol</a></code
-        >, <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/ul">ul</a&gt;</code> or
-        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/menu">menu</a&gt;</code>
+        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/ol"&gt;ol&lt;/a&gt;</code
+        >, <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/ul"&gt;ul&lt;/a&gt;</code> or
+        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/menu"&gt;menu&lt;/a&gt;</code>
       </td>
     </tr>
     <tr>

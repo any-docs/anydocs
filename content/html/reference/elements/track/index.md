@@ -17,17 +17,17 @@ The tracks are formatted in [WebVTT format](/en-US/docs/Web/API/WebVTT_API) (`.v
 {{InteractiveExample("HTML Demo: <track>", "tabbed-standard")}}
 
 ```html interactive-example
-<video controls src="/shared-assets/videos/friday.mp4">
+<video controls src="/videos/friday.mp4">
   <track
     default
     kind="captions"
     srclang="en"
     label="English"
-    src="/shared-assets/misc/friday.vtt" />
+    src="/misc/friday.vtt" />
   Download the
-  <a href="/shared-assets/videos/friday.mp4">MP4</a>
+  <a href="/videos/friday.mp4">MP4</a>
   video, and
-  <a href="/shared-assets/misc/friday.vtt">subtitles</a>.
+  <a href="/misc/friday.vtt">subtitles</a>.
 </video>
 ```
 

@@ -22,7 +22,7 @@ sidebar: htmlsidebar
   type="image"
   id="image"
   alt="Login"
-  src="/shared-assets/images/examples/login-button.png" />
+  src="/images/examples/login-button.png" />
 ```
 
 ```css interactive-example

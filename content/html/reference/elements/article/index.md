@@ -44,7 +44,7 @@ The **`<article>`** [HTML](/en-US/docs/Web/HTML) element represents a self-conta
 
 .day-forecast {
   background: right/contain content-box border-box no-repeat
-    url("/shared-assets/images/examples/rain.svg") white;
+    url("/images/examples/rain.svg") white;
 }
 
 .day-forecast > h2,

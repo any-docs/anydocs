@@ -330,8 +330,8 @@ Notice that when clicking on a radio button, there's a nice, smooth fade out/in 
     <tr>
       <td><strong>Supported common attributes</strong></td>
       <td>
-        <code>&lt;a href="#checked">checked</a></code
-        >, <code>&lt;a href="#value">value</a&gt;</code> and
+        <code>&lt;a href="#checked"&gt;checked&lt;/a&gt;</code
+        >, <code>&lt;a href="#value"&gt;value&lt;/a&gt;</code> and
         <code
           ><a href="/en-US/docs/Web/HTML/Reference/Attributes/required">required</a></code
         >
@@ -354,7 +354,7 @@ Notice that when clicking on a radio button, there's a nice, smooth fade out/in 
      <tr>
       <td><strong>Implicit ARIA Role</strong></td>
       <td>
-        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radio_role">radio</a&gt;</code>
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radio_role"&gt;radio&lt;/a&gt;</code>
       </td>
     </tr>
   </tbody>

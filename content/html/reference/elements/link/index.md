@@ -12,7 +12,7 @@ This element is most commonly used to link to {{Glossary("CSS", "stylesheets")}}
 {{InteractiveExample("HTML Demo: <link>", "tabbed-shorter")}}
 
 ```html interactive-example
-<link href="/shared-assets/misc/link-element-example.css" rel="stylesheet" />
+<link href="/misc/link-element-example.css" rel="stylesheet" />
 
 <p>This text will be red as defined in the external stylesheet.</p>
 <p style="color: blue">
@@ -402,7 +402,7 @@ the rendering of the page will be blocked till the resource and its critical sub
       </th>
       <td>
         Metadata content.
-        If <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Global_attributes/itemprop">itemprop</a&gt;</code> is present:
+        If <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Global_attributes/itemprop"&gt;itemprop&lt;/a&gt;</code> is present:
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#flow_content">Flow content</a> and
         <a href="/en-US/docs/Web/HTML/Guides/Content_categories#phrasing_content">phrasing content</a>.
       </td>

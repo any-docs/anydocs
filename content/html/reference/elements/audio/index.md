@@ -14,8 +14,8 @@ It can also be the destination for streamed media, using a {{domxref("MediaStrea
 ```html interactive-example
 <figure>
   <figcaption>Listen to the T-Rex:</figcaption>
-  <audio controls src="/shared-assets/audio/t-rex-roar.mp3"></audio>
-  <a href="/shared-assets/audio/t-rex-roar.mp3"> Download audio </a>
+  <audio controls src="/audio/t-rex-roar.mp3"></audio>
+  <a href="/audio/t-rex-roar.mp3"> Download audio </a>
 </figure>
 ```
 

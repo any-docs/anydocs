@@ -100,7 +100,7 @@ To add links to the definitions, you create the link the same way you always do,
 
 <p>
   Because of all of that, we decided to use the
-  <code>&lt;a href="#definition-dfn"><dfn></a&gt;</code> element for this
+  <code>&lt;a href="#definition-dfn"&gt;<dfn>&lt;/a&gt;</code> element for this
   project.
 </p>
 ```

@@ -13,7 +13,7 @@ The **`<img>`** [HTML](/en-US/docs/Web/HTML) element embeds an image into the do
 ```html interactive-example
 <img
   class="fit-picture"
-  src="/shared-assets/images/examples/grapefruit-slice.jpg"
+  src="/images/examples/grapefruit-slice.jpg"
   alt="Grapefruit slice atop a pile of other slices" />
 ```
 
@@ -349,7 +349,7 @@ The value of the `title` attribute is usually presented to the user as a tooltip
 The following example embeds an image into the page and includes alternative text for accessibility.
 
 ```html
-<img src="/shared-assets/images/examples/favicon144.png" alt="MDN" />
+<img src="/images/examples/favicon144.png" alt="MDN" />
 ```
 
 {{ EmbedLiveSample('Alternative_text', '100%', '160') }}
@@ -361,7 +361,7 @@ This example builds upon the previous one, showing how to turn the image into a 
 ```html
 <a href="https://developer.mozilla.org">
   <img
-    src="/shared-assets/images/examples/favicon144.png"
+    src="/images/examples/favicon144.png"
     alt="Visit the MDN site" />
 </a>
 ```
@@ -374,9 +374,9 @@ In this example we include a `srcset` attribute with a reference to a high-resol
 
 ```html
 <img
-  src="/shared-assets/images/examples/favicon72.png"
+  src="/images/examples/favicon72.png"
   alt="MDN"
-  srcset="/shared-assets/images/examples/favicon144.png 2x" />
+  srcset="/images/examples/favicon144.png 2x" />
 ```
 
 {{EmbedLiveSample("Using_the_srcset_attribute", "100%", "160")}}

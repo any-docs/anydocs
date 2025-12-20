@@ -135,7 +135,7 @@ This example demonstrates a page with two search features. The first is a global
     <tr>
       <th scope="row">Implicit ARIA role</th>
       <td>
-        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/search_role">search</a&gt;</code>
+        <code>&lt;a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/search_role"&gt;search&lt;/a&gt;</code>
       </td>
     </tr>
     <tr>

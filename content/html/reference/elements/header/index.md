@@ -30,7 +30,7 @@ The **`<header>`** [HTML](/en-US/docs/Web/HTML) element represents introductory 
 ```css interactive-example
 .logo {
   background: left / cover
-    url("/shared-assets/images/examples/puppy-header.jpg");
+    url("/images/examples/puppy-header.jpg");
   display: flex;
   height: 120px;
   align-items: center;
@@ -161,11 +161,11 @@ When placed inside an {{HTMLElement('article')}}, {{HTMLElement('main')}}, {{HTM
           >generic</a
         >
         if a descendant of an
-        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/article">article</a></code
-        >, <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/aside">aside</a></code
-        >, <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/main">main</a></code
-        >, <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/nav">nav</a&gt;</code> or
-        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/section">section</a&gt;</code>
+        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/article"&gt;article&lt;/a&gt;</code
+        >, <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/aside"&gt;aside&lt;/a&gt;</code
+        >, <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/main"&gt;main&lt;/a&gt;</code
+        >, <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/nav"&gt;nav&lt;/a&gt;</code> or
+        <code>&lt;a href="/en-US/docs/Web/HTML/Reference/Elements/section"&gt;section&lt;/a&gt;</code>
         element, or an element with
         <code
           ><a href="/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/article_role"

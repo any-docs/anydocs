@@ -9,7 +9,7 @@ hero:
 
 features:
   - title: CSS
-    details: "A popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world."
+    details: 'Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.'
     link: "/php/introduction"
     icon:
       src: '/css-logo.png'

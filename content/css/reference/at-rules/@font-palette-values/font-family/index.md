@@ -6,7 +6,7 @@ browser-compat: css.at-rules.font-palette-values.font-family
 sidebar: cssref
 ---
 
-The [@font-palette-values](/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values) [descriptor](/en-US/docs/Glossary/CSS_Descriptor) **`font-family`** is used to specify which font-family palette values are to be applied to. This need to match exactly the values used when setting the CSS [font-family](/en-US/docs/Web/CSS/Reference/Properties/font-family).
+The [@font-palette-values](/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values) [descriptor](/en-US/docs/Glossary/CSS_Descriptor) **`font-family`** is used to specify which font-family palette values are to be applied to. This need to match exactly the values used when setting the CSS [font-family](/css/reference/properties/font-family).
 
 ## Syntax
 
@@ -17,12 +17,12 @@ The [@font-palette-values](/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-
 }
 ```
 
-Other palette values that follow apply only to the specified font family. You can create [@font-palette-values](/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values) for other font families by using the same [&lt;dashed-ident&gt;s](/en-US/docs/Web/CSS/Reference/Values/dashed-ident). This means that if you have multiple Color Fonts and can use the same identifier for each.
+Other palette values that follow apply only to the specified font family. You can create [@font-palette-values](/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values) for other font families by using the same [&lt;dashed-ident&gt;s](/css/reference/values/dashed-ident). This means that if you have multiple Color Fonts and can use the same identifier for each.
 
 ### Values
 
 - `<family-name>`
-  - : Specifies the name of the [font-family](/en-US/docs/Web/CSS/Reference/Properties/font-family).
+  - : Specifies the name of the [font-family](/css/reference/properties/font-family).
 
 ## Formal definition
 
@@ -71,7 +71,7 @@ h2.extra-spicy {
 
 ### Using the same palette identifier for multiple font-families
 
-In this example, two [@font-palette-values](/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values) at-rules are set for two font families, but both the at-rules use the same dashed-ident identifier, `--Dark-Mode`. This helps to set the [font-palette](/en-US/docs/Web/CSS/Reference/Properties/font-palette) property for multiple elements, `h1` and `h2` in this case, at the same time. This can be useful when you want to update font colors to match your site's branding.
+In this example, two [@font-palette-values](/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values) at-rules are set for two font families, but both the at-rules use the same dashed-ident identifier, `--Dark-Mode`. This helps to set the [font-palette](/css/reference/properties/font-palette) property for multiple elements, `h1` and `h2` in this case, at the same time. This can be useful when you want to update font colors to match your site's branding.
 
 ```css
 @font-palette-values --Dark-Mode {

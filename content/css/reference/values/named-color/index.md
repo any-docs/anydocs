@@ -6,7 +6,7 @@ browser-compat: css.types.color.named-color
 sidebar: cssref
 ---
 
-The **`<named-color>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) is the name of a color, such as `red`, `blue`, `black`, or `lightseagreen`. Syntactically, a `<named-color>` is an {{cssxref("ident")}}.
+The **`<named-color>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) is the name of a color, such as `red`, `blue`, `black`, or `lightseagreen`. Syntactically, a `<named-color>` is an {{cssxref("ident")}}.
 
 A `<named-color>` value can be used anywhere a {{cssxref("&lt;color&gt;")}} can be used.
 
@@ -22,7 +22,7 @@ color: transparent;
 
 ### Value
 
-Named colors consists of standard colors, the [`transparent`](#transparent) and [`currentColor`](/en-US/docs/Web/CSS/Reference/Values/color_value#currentcolor_keyword) keywords.
+Named colors consists of standard colors, the [`transparent`](#transparent) and [`currentColor`](/css/reference/values/color_value#currentcolor_keyword) keywords.
 
 #### Standard colors
 

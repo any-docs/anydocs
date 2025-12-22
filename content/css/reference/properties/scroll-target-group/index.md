@@ -262,7 +262,7 @@ Try navigating by activating the links and by scrolling. You'll see that in each
 
 ### CSS carousel with `scroll-target-group` scroll markers
 
-This example shows how to create [CSS carousel](/en-US/docs/Web/CSS/Guides/Overflow/Carousels) scroll markers using `scroll-target-group`. The code for this example is similar to our [Carousel with single pages](/en-US/docs/Web/CSS/Guides/Overflow/Carousels#carousel_with_single_pages) example; we'll just explain the differences below.
+This example shows how to create [CSS carousel](/css/guides/Overflow/Carousels) scroll markers using `scroll-target-group`. The code for this example is similar to our [Carousel with single pages](/css/guides/Overflow/Carousels#carousel_with_single_pages) example; we'll just explain the differences below.
 
 #### HTML
 
@@ -451,5 +451,5 @@ Try navigating in each of these three ways: by activating the scroll marker link
 - {{cssxref("scroll-marker-group")}}
 - {{cssxref("::scroll-marker-group")}} and {{cssxref("::scroll-marker")}} pseudo-elements
 - {{cssxref(":target-current")}}, {{cssxref(":target-before")}}, and {{cssxref(":target-after")}} pseudo-classes
-- [Creating CSS carousels](/en-US/docs/Web/CSS/Guides/Overflow/Carousels)
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
+- [Creating CSS carousels](/css/guides/Overflow/Carousels)
+- [CSS overflow](/css/guides/Overflow) module

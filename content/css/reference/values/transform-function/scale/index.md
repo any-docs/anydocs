@@ -6,7 +6,7 @@ browser-compat: css.types.transform-function.scale
 sidebar: cssref
 ---
 
-The **`scale()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) defines a transformation that resizes an element on the 2D
+The **`scale()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) defines a transformation that resizes an element on the 2D
 plane. Because the amount of scaling is defined by a vector [sx, sy], it can resize the horizontal and vertical dimensions at
 different scales. Its result is a {{cssxref("&lt;transform-function&gt;")}} data type.
 
@@ -48,7 +48,7 @@ in that dimension. The value `1` has no effect.
 
 > [!NOTE]
 > The `scale()` function only scales in 2D. To scale in 3D, use
-> [`scale3d()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/scale3d) instead.
+> [`scale3d()`](/css/reference/values/transform-function/scale3d) instead.
 
 ## Syntax
 
@@ -62,14 +62,14 @@ scale(sx, sy)
 
 - `sx`
   - : A {{cssxref("&lt;number&gt;")}} or {{cssxref("&lt;percentage&gt;")}} representing the abscissa (horizontal, x-component) of the scaling vector.
-- `sy` {{optional_inline}}
+- `sy` <Badge type="info" text="Optional" />
   - : A {{cssxref("&lt;number&gt;")}} or {{cssxref("&lt;percentage&gt;")}} representing the ordinate (vertical, y-component) of the scaling vector.
     If not defined, its default value is `sx`, resulting in a uniform scaling that preserves the element's {{glossary("aspect ratio")}}.
 
 <table class="standard-table">
   <thead>
     <tr>
-      <th scope="col"><a href="/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
+      <th scope="col"><a href="/css/reference/values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
       <th scope="col"><a href="https://en.wikipedia.org/wiki/Homogeneous_coordinates">Homogeneous coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_projective_plane">ℝℙ^2</a></th>
       <th scope="col">Cartesian coordinates on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^3</a></th>
       <th scope="col">Homogeneous coordinates on <a href="https://en.wikipedia.org/wiki/Real_projective_space">ℝℙ^3</a></th>
@@ -115,7 +115,7 @@ migraine. If you need to include such animations on your website, you should pro
 off animations, preferably site-wide.
 
 Also, consider making use of the {{cssxref("@media/prefers-reduced-motion", "prefers-reduced-motion")}} media feature
-— use it to write a [media query](/en-US/docs/Web/CSS/Guides/Media_queries) that will turn off animations if the
+— use it to write a [media query](/css/guides/Media_queries) that will turn off animations if the
 user has reduced animation specified in their system preferences.
 
 Find out more:

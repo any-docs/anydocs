@@ -6,9 +6,9 @@ page-type: guide
 sidebar: cssref
 ---
 
-The [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module details how alignment works in various layout methods; in this guide, we explore how box alignment works in the context of [multi-column layout](/en-US/docs/Web/CSS/Guides/Multicol_layout). As this guide aims to detail things that are specific to both modules, it should be read in conjunction with the [box alignment overview](/en-US/docs/Web/CSS/Guides/Box_alignment/Overview) guide, which details the common features of box alignment across layout methods.
+The [CSS box alignment](/css/guides/Box_alignment) module details how alignment works in various layout methods; in this guide, we explore how box alignment works in the context of [multi-column layout](/css/guides/Multicol_layout). As this guide aims to detail things that are specific to both modules, it should be read in conjunction with the [box alignment overview](/css/guides/Box_alignment/Overview) guide, which details the common features of box alignment across layout methods.
 
-In [multi-column layout](/en-US/docs/Web/CSS/Guides/Multicol_layout/Basic_concepts), the {{glossary("alignment container")}} is the content box of the multicol container. The {{glossary("alignment subject")}} is the column box. The properties which apply to multi-column layouts are detailed below.
+In [multi-column layout](/css/guides/Multicol_layout/Basic_concepts), the {{glossary("alignment container")}} is the content box of the multicol container. The {{glossary("alignment subject")}} is the column box. The properties which apply to multi-column layouts are detailed below.
 
 ## align-content and justify-content
 
@@ -22,8 +22,8 @@ The {{cssxref("column-gap")}} property was originally specified in the multiple-
 
 ## See also
 
-- [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module
-- [Box alignment overview](/en-US/docs/Web/CSS/Guides/Box_alignment/Overview)
-- [Box alignment in flexbox](/en-US/docs/Web/CSS/Guides/Box_alignment/In_flexbox)
-- [Box alignment in grid layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout)
-- [Box alignment for block, absolutely positioned, and table layouts](/en-US/docs/Web/CSS/Guides/Box_alignment/In_block_abspos_tables)
+- [CSS box alignment](/css/guides/Box_alignment) module
+- [Box alignment overview](/css/guides/Box_alignment/Overview)
+- [Box alignment in flexbox](/css/guides/Box_alignment/In_flexbox)
+- [Box alignment in grid layout](/css/guides/Box_alignment/In_grid_layout)
+- [Box alignment for block, absolutely positioned, and table layouts](/css/guides/Box_alignment/In_block_abspos_tables)

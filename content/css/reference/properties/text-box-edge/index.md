@@ -124,7 +124,7 @@ The output is as follows. Note how we've included a top and bottom border on eac
 
 ### Interactive `text-box-edge` value comparison
 
-For a complete interactive `text-box-edge` example, see the [`text-box-trim` page](/en-US/docs/Web/CSS/Reference/Properties/text-box-trim#interactive_text-box-trim_and_text-box-edge_value_comparison).
+For a complete interactive `text-box-edge` example, see the [`text-box-trim` page](/css/reference/properties/text-box-trim#interactive_text-box-trim_and_text-box-edge_value_comparison).
 
 ## Specifications
 
@@ -138,5 +138,5 @@ For a complete interactive `text-box-edge` example, see the [`text-box-trim` pag
 
 - {{cssxref("text-box")}}, {{cssxref("text-box-trim")}}
 - {{cssxref("&lt;text-edge&gt;")}} data type
-- [CSS inline layout](/en-US/docs/Web/CSS/Guides/Inline_layout) module
+- [CSS inline layout](/css/guides/Inline_layout) module
 - [CSS text-box-edge](https://developer.chrome.com/blog/css-text-box-trim) on developer.chrome.com (2025)

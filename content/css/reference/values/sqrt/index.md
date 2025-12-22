@@ -6,7 +6,7 @@ browser-compat: css.types.sqrt
 sidebar: cssref
 ---
 
-The **`sqrt()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) is an exponential function that returns the [square root](https://en.wikipedia.org/wiki/Square_root) of a number.
+The **`sqrt()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) is an exponential function that returns the [square root](https://en.wikipedia.org/wiki/Square_root) of a number.
 
 The function `pow(x, 0.5)` is equivalent to `sqrt(x)`.
 
@@ -57,7 +57,7 @@ This example shows how you can use the `sqrt()` function to calculate sizes.
 
 #### CSS
 
-Here we are using [CSS custom properties](/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties) to define the sizes to be used. First, we declare the first size (`--size-0`), which is then used to calculate the other sizes.
+Here we are using [CSS custom properties](/css/guides/Cascading_variables/Using_custom_properties) to define the sizes to be used. First, we declare the first size (`--size-0`), which is then used to calculate the other sizes.
 
 - `--size-1` is calculated by multiplying the value of `--size-0` (50px) by the square root of 4 (2), which results in 100px.
 - `--size-2` is calculated by multiplying the value of `--size-0` (50px) by the square root of 9 (3), which results in 150px.

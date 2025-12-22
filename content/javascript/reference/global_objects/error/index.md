@@ -51,7 +51,7 @@ Besides the generic `Error` constructor, there are other core error constructors
   - : A non-standard function that creates the {{jsxref("Error/stack", "stack")}} property on the provided object.
 - {{jsxref("Error.isError()")}}
   - : Returns `true` if the argument is an error, or `false` otherwise.
-- `Error.prepareStackTrace()` {{non-standard_inline}} {{optional_inline}}
+- `Error.prepareStackTrace()` {{non-standard_inline}} <Badge type="info" text="Optional" />
   - : A non-standard function that, if provided by user code, is called by the JavaScript engine for thrown exceptions, allowing the user to provide custom formatting for stack traces. See the [V8 Stack Trace API](https://v8.dev/docs/stack-trace-api#customizing-stack-traces) docs.
 
 ## Instance properties

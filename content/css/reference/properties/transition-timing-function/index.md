@@ -6,7 +6,7 @@ browser-compat: css.properties.transition-timing-function
 sidebar: cssref
 ---
 
-The **`transition-timing-function`** [CSS](/en-US/docs/Web/CSS) property sets how intermediate values are calculated for CSS properties being affected by a [transition effect](/en-US/docs/Web/CSS/Guides/Transitions/Using).
+The **`transition-timing-function`** [CSS](/en-US/docs/Web/CSS) property sets how intermediate values are calculated for CSS properties being affected by a [transition effect](/css/guides/Transitions/Using).
 
 {{InteractiveExample("CSS Demo: transition-timing-function")}}
 
@@ -297,9 +297,9 @@ const intervalID = setInterval(updateTransition, 10000);
 
 ## See also
 
-- [Using CSS transitions](/en-US/docs/Web/CSS/Guides/Transitions/Using)
+- [Using CSS transitions](/css/guides/Transitions/Using)
 - {{cssxref("easing-function")}}
-- [CSS easing functions](/en-US/docs/Web/CSS/Guides/Easing_functions) module
+- [CSS easing functions](/css/guides/Easing_functions) module
 - {{cssxref('transition')}}
 - {{cssxref('transition-property')}}
 - {{cssxref('transition-duration')}}

@@ -40,7 +40,7 @@ Allowed values for `timeline-scope` are:
 
 ## Description
 
-The `timeline-scope` property modifies the scope of a named animation timeline. By default, a [named timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#animation_timelines) (i.e., declared using {{cssxref("scroll-timeline-name")}} or {{cssxref("view-timeline-name")}}) can only be set as the controlling timeline of a direct descendant element (i.e., by setting {{cssxref("animation-timeline")}} on it with the timeline name as its value). This is the default "scope" for the timeline.
+The `timeline-scope` property modifies the scope of a named animation timeline. By default, a [named timeline](/css/guides/Scroll-driven_animations/Timelines#animation_timelines) (i.e., declared using {{cssxref("scroll-timeline-name")}} or {{cssxref("view-timeline-name")}}) can only be set as the controlling timeline of a direct descendant element (i.e., by setting {{cssxref("animation-timeline")}} on it with the timeline name as its value). This is the default "scope" for the timeline.
 
 The value of the `timeline-scope` is the name of a timeline defined on a descendant element; this changes the scope of the timeline to include the targeted element and its descendants. In other words, that element on which the `timeline-scope` property is defined, and all of its descendant elements, can be controlled using that timeline.
 
@@ -170,4 +170,4 @@ The key point to note here is that the animated element is not a descendant of t
 - {{cssxref("animation-timeline")}}
 - {{cssxref("scroll-timeline")}}, {{cssxref("scroll-timeline-name")}}
 - {{cssxref("view-timeline")}}, {{cssxref("view-timeline-name")}}
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations)
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations)

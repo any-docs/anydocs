@@ -58,7 +58,7 @@ It is often convenient to use the shorthand property {{CSSxRef("font")}} to set 
 
 You should always include at least one generic family name in a `font-family` list, since there's no guarantee that any given font is available. This lets the browser select an acceptable fallback font when necessary.
 
-The `font-family` property specifies a list of fonts, from highest priority to lowest. Font selection _does not_ stop at the first font in the list that is on the user's system. Rather, font selection is done _one character at a time_, so that if an available font does not have a glyph for a needed character, the latter fonts are tried. When a font is only available in some [styles](/en-US/docs/Web/CSS/Reference/Properties/font-style), [variants](/en-US/docs/Web/CSS/Reference/Properties/font-variant), or [sizes](/en-US/docs/Web/CSS/Reference/Properties/font-size), those properties may also influence which font family is chosen.
+The `font-family` property specifies a list of fonts, from highest priority to lowest. Font selection _does not_ stop at the first font in the list that is on the user's system. Rather, font selection is done _one character at a time_, so that if an available font does not have a glyph for a needed character, the latter fonts are tried. When a font is only available in some [styles](/css/reference/properties/font-style), [variants](/css/reference/properties/font-variant), or [sizes](/css/reference/properties/font-size), those properties may also influence which font family is chosen.
 
 ## Syntax
 

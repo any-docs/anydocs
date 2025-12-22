@@ -28,17 +28,17 @@ for (initialization; condition; afterthought)
   statement
 ```
 
-- `initialization` {{optional_inline}}
+- `initialization` <Badge type="info" text="Optional" />
   - : An expression (including [assignment expressions](/en-US/docs/Web/JavaScript/Reference/Operators/Assignment)) or variable declaration evaluated once before the loop begins. Typically used to initialize a counter variable. This expression may optionally declare new variables with `var` or `let` keywords. Variables declared with `var` are not local to the loop, i.e., they are in the same scope the `for` loop is in. Variables declared with `let` are local to the statement.
 
     The result of this expression is discarded.
 
-- `condition` {{optional_inline}}
+- `condition` <Badge type="info" text="Optional" />
   - : An expression to be evaluated before each loop iteration. If this expression [evaluates to true](/en-US/docs/Glossary/Truthy), `statement` is executed. If the expression [evaluates to false](/en-US/docs/Glossary/Falsy), execution exits the loop and goes to the first statement after the `for` construct.
 
     This conditional test is optional. If omitted, the condition always evaluates to true.
 
-- `afterthought` {{optional_inline}}
+- `afterthought` <Badge type="info" text="Optional" />
   - : An expression to be evaluated at the end of each loop iteration. This occurs before the next evaluation of `condition`. Generally used to update or increment the counter variable.
 - `statement`
   - : A statement that is executed as long as the condition evaluates to true. You can use a [block statement](/en-US/docs/Web/JavaScript/Reference/Statements/block) to execute multiple statements. To execute no statement within the loop, use an [empty statement](/en-US/docs/Web/JavaScript/Reference/Statements/Empty) (`;`).

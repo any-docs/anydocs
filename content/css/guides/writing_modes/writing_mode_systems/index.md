@@ -20,11 +20,11 @@ In an English document, with the text running horizontally left-to-right, or an 
 
 ### Inline and block boxes
 
-The _outer display_ type of boxes in a [normal flowing layout](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model#normal_flow) determines how the box behaves alongside other elements on the page. _Inline boxes_ wrap each line of text and are laid out along the inline dimension.
+The _outer display_ type of boxes in a [normal flowing layout](/css/guides/Display/Visual_formatting_model#normal_flow) determines how the box behaves alongside other elements on the page. _Inline boxes_ wrap each line of text and are laid out along the inline dimension.
 
 _Block boxes_ represent containers on the page that can contain other block and inline elements. They are laid out along the block dimension and will extend in the inline dimension to fill all the space available in their container (provided a specific size is not set in the inline dimension using a property such as {{cssxref("inline-size")}}). Block boxes are only displayed from the top to the bottom of the page if you are using a writing mode that displays text horizontally, such as English.
 
-The [CSS logical properties and values module](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values#properties) defines {{glossary("flow relative values", "flow-relative mappings")}} for many of the {{glossary("physical properties")}} and values in CSS, which is helpful in understanding the [basic concepts of logical properties and values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Basic_concepts).
+The [CSS logical properties and values module](/css/guides/Logical_properties_and_values#properties) defines {{glossary("flow relative values", "flow-relative mappings")}} for many of the {{glossary("physical properties")}} and values in CSS, which is helpful in understanding the [basic concepts of logical properties and values](/css/guides/Logical_properties_and_values/Basic_concepts).
 
 ### Inline base and block flow directions
 
@@ -97,4 +97,4 @@ The `text-orientation` component of the writing mode controls the glyph orientat
 
 ## See also
 
-- [CSS writing modes](/en-US/docs/Web/CSS/Guides/Writing_modes) module
+- [CSS writing modes](/css/guides/Writing_modes) module

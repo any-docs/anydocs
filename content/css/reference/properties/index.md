@@ -10,7 +10,7 @@ spec-urls:
 sidebar: cssref
 ---
 
-A [CSS](/en-US/docs/Web/CSS) **_property_** is a parameter used in a [CSS declaration](/en-US/docs/Web/CSS/Guides/Syntax/Introduction#css_declarations) that lets you style certain aspects of selected elements.
+A [CSS](/en-US/docs/Web/CSS) **_property_** is a parameter used in a [CSS declaration](/css/guides/Syntax/Introduction#css_declarations) that lets you style certain aspects of selected elements.
 For example, the {{CSSxRef("opacity")}} property is used to set the opacity of a selected element, allowing you to control if content behind that element is visible:
 
 ```css
@@ -45,7 +45,7 @@ Standard properties defined by CSS specifications include the following:
 
 ### Misc
 
-- [Custom properties (`--*`): CSS variables](/en-US/docs/Web/CSS/Reference/Properties/--*)
+- [Custom properties (`--*`): CSS variables](/css/reference/properties/--*)
 
 ### A
 
@@ -630,7 +630,7 @@ Non-standard vendor-prefixed properties include:
 
 ## See also
 
-- [CSS syntax](/en-US/docs/Web/CSS/Guides/Syntax/Introduction)
+- [CSS syntax](/css/guides/Syntax/Introduction)
 - [Pseudo-elements](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements)
 - [Firefox (-moz-) vendor-prefixed CSS extensions](/en-US/docs/Web/CSS/Reference/Mozilla_extensions)
 - [WebKit (-webkit-) vendor-prefixed CSS extensions](/en-US/docs/Web/CSS/Reference/Webkit_extensions)

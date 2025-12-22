@@ -20,7 +20,7 @@ When we have a set of items that we want to display horizontally, we may well en
 
 ### Space distributed outside the items
 
-To distribute the space between or around the items, we use the alignment properties in flexbox, and the {{cssxref("justify-content")}} property. You can read more about this property in [Aligning items in a flex container](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items), which deals with aligning items on the main axis.
+To distribute the space between or around the items, we use the alignment properties in flexbox, and the {{cssxref("justify-content")}} property. You can read more about this property in [Aligning items in a flex container](/css/guides/Flexible_box_layout/Aligning_items), which deals with aligning items on the main axis.
 
 In this example, we display the items at their natural size and use `justify-content: space-between` to space the items equally. You can change how the space is distributed using the `space-around` or `space-evenly` values. You could also use `start` to put the space at the end of the items, `end` to place it before them, or `center` to center the navigation items.
 
@@ -63,7 +63,7 @@ nav ul {
 
 ### Space distributed within the items
 
-A different pattern for navigation would be to distribute the available space within the items themselves, rather than create space between them. The {{cssxref("flex")}} properties allow items to grow and shrink in proportion to one another as described in [Controlling ratios of flex items along the main axis](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Controlling_flex_item_ratios).
+A different pattern for navigation would be to distribute the available space within the items themselves, rather than create space between them. The {{cssxref("flex")}} properties allow items to grow and shrink in proportion to one another as described in [Controlling ratios of flex items along the main axis](/css/guides/Flexible_box_layout/Controlling_flex_item_ratios).
 
 If you wanted to respect the size property of your navigation items but have the available space shared out equally among them, you might use `flex: auto`, which is the shorthand for `flex: 1 1 auto` — all items grow and shrink from a flex-basis of `auto`. This would mean that the longer item would have more space because it started from a larger size, even though the same amount of available space is assigned to it as the others.
 
@@ -110,7 +110,7 @@ nav li {
 
 ## Split navigation
 
-Another way to align items on the main axis is to use auto margins. This enables the design pattern of a navigation bar where one group of items are aligned left and another group aligned right. Here we are using the auto margins technique described in [Using auto margins for main axis alignment](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items#using_auto_margins_for_main_axis_alignment).
+Another way to align items on the main axis is to use auto margins. This enables the design pattern of a navigation bar where one group of items are aligned left and another group aligned right. Here we are using the auto margins technique described in [Using auto margins for main axis alignment](/css/guides/Flexible_box_layout/Aligning_items#using_auto_margins_for_main_axis_alignment).
 
 The items are aligned on the main axis with `normal`, which behaves as `start`, as this is the initial behavior of flexbox. The {{cssxref("gap")}} property creates gaps between items. And we are aligning the last item to the right by giving it a `margin-left` value of `auto`. You can move the class from one item to another to change where the split happens.
 
@@ -187,7 +187,7 @@ Click **"Play"** and try changing the alignment, for example aligning the item t
 
 {{EmbedLiveSample("center", "", "320px")}}
 
-With [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) properties, you can vertically center an element inside another without flexbox. In the example above, try removing the flex properties from the box and adding `align-content: center`. Then add `margin: auto` to the element you want to horizontally center.
+With [CSS box alignment](/css/guides/Box_alignment) properties, you can vertically center an element inside another without flexbox. In the example above, try removing the flex properties from the box and adding `align-content: center`. Then add `margin: auto` to the element you want to horizontally center.
 
 ## Card layout pushing footer down
 
@@ -313,7 +313,7 @@ You could also allow both sides to grow and shrink in proportion. If you set bot
 }
 ```
 
-You could also give each side different {{cssxref("flex-grow")}} factors, for example setting the side with the image to `flex: 1` and the content side to `flex: 3`. This will mean they use a `flex-basis` of `0` but distribute that space at different rates according to the `flex-grow` factor you have assigned. The flex properties we use to do this are described in detail in the guide [Controlling ratios of flex items along the main axis](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Controlling_flex_item_ratios).
+You could also give each side different {{cssxref("flex-grow")}} factors, for example setting the side with the image to `flex: 1` and the content side to `flex: 3`. This will mean they use a `flex-basis` of `0` but distribute that space at different rates according to the `flex-grow` factor you have assigned. The flex properties we use to do this are described in detail in the guide [Controlling ratios of flex items along the main axis](/css/guides/Flexible_box_layout/Controlling_flex_item_ratios).
 
 ```css
 .media .content {

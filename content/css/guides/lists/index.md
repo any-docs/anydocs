@@ -11,7 +11,7 @@ The **CSS lists and counters** module enables styling and positioning of list it
 
 A list item's marker, whether a bullet symbol or ordinal counter, is its defining feature. List items are not limited to {{HTMLElement("li")}} elements nested within {{HTMLElement("ol")}} or {{HTMLElement("ul")}} elements. Rather, list items are any element with `display: list-item` set.
 
-This module defines CSS features to set and reset a list's counters, set which [counter-styles](/en-US/docs/Web/CSS/Guides/Counter_styles) or symbols to use as its markers, and position those markers. It also provides developers with the ability to create customized markers.
+This module defines CSS features to set and reset a list's counters, set which [counter-styles](/css/guides/Counter_styles) or symbols to use as its markers, and position those markers. It also provides developers with the ability to create customized markers.
 
 ## Reference
 
@@ -38,21 +38,21 @@ There is also a `marker-side` property, which is yet to be fully defined or impl
 
 ### Data types
 
-- [`<counter>`](/en-US/docs/Web/CSS/Reference/Properties/content#counter)
-- [`<counter-name>`](/en-US/docs/Web/CSS/Reference/Values/counter#counter-name)
-- [`<counter-style>`](/en-US/docs/Web/CSS/Reference/Values/counter#counter-style)
+- [`<counter>`](/css/reference/properties/content#counter)
+- [`<counter-name>`](/css/reference/values/counter#counter-name)
+- [`<counter-style>`](/css/reference/values/counter#counter-style)
 
 ## Guides
 
-- [Consistent list indentation](/en-US/docs/Web/CSS/Guides/Lists/Indenting)
+- [Consistent list indentation](/css/guides/Lists/Indenting)
   - : Explains how to achieve consistent list indentation across different browsers.
 
-- [Using CSS Counters](/en-US/docs/Web/CSS/Guides/Counter_styles/Using_counters)
+- [Using CSS Counters](/css/guides/Counter_styles/Using_counters)
   - : Explains how to use the CSS counter properties to control list counters.
 
 ## Related concepts
 
-- [CSS counter styles](/en-US/docs/Web/CSS/Guides/Counter_styles)
+- [CSS counter styles](/css/guides/Counter_styles)
   - {{cssxref("@counter-style")}} at-rule
   - [`<counter-style-name>`](/en-US/docs/Web/CSS/Reference/At-rules/@counter-style#counter-style-name) data type
   - [`<symbol>`](/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/symbols#values) data type
@@ -68,6 +68,6 @@ There is also a `marker-side` property, which is yet to be fully defined or impl
 
 ## See also
 
-- [CSS counter styles](/en-US/docs/Web/CSS/Guides/Counter_styles) module
-- [CSS pseudo-elements](/en-US/docs/Web/CSS/Guides/Pseudo-elements) module
-- [CSS generated content](/en-US/docs/Web/CSS/Guides/Generated_content) module
+- [CSS counter styles](/css/guides/Counter_styles) module
+- [CSS pseudo-elements](/css/guides/Pseudo-elements) module
+- [CSS generated content](/css/guides/Generated_content) module

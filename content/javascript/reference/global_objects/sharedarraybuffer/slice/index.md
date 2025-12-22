@@ -34,12 +34,12 @@ slice(start, end)
 
 ### Parameters
 
-- `start` {{optional_inline}}
+- `start` <Badge type="info" text="Optional" />
   - : Zero-based index at which to start extraction, [converted to an integer](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#integer_conversion).
     - Negative index counts back from the end of the buffer — if `-buffer.length <= start < 0`, `start + buffer.length` is used.
     - If `start < -buffer.length` or `start` is omitted, `0` is used.
     - If `start >= buffer.length`, an empty buffer is returned.
-- `end` {{optional_inline}}
+- `end` <Badge type="info" text="Optional" />
   - : Zero-based index at which to end extraction, [converted to an integer](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#integer_conversion). `slice()` extracts up to but not including `end`.
     - Negative index counts back from the end of the buffer — if `-buffer.length <= end < 0`, `end + buffer.length` is used.
     - If `end < -buffer.length`, `0` is used.

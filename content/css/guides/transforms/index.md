@@ -711,7 +711,7 @@ The cube in the above example is comprised of six `<div>` elements, all of which
 
 ## Guides
 
-- [Using CSS transforms](/en-US/docs/Web/CSS/Guides/Transforms/Using)
+- [Using CSS transforms](/css/guides/Transforms/Using)
   - : Step-by-step tutorial about how to transform elements styled with CSS.
 - [Coordinate systems](/en-US/docs/Web/API/CSSOM_view_API/Coordinate_systems)
   - : Describes the way pixel locations are defined in the CSS object model.
@@ -761,5 +761,5 @@ The cube in the above example is comprised of six `<div>` elements, all of which
 ## See also
 
 - [Basic SVG transformations](/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Basic_transformations) tutorial
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module
-- [CSS transitions](/en-US/docs/Web/CSS/Guides/Transitions) module
+- [CSS animations](/css/guides/Animations) module
+- [CSS transitions](/css/guides/Transitions) module

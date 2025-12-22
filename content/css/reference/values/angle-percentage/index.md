@@ -6,7 +6,7 @@ browser-compat: css.types.angle-percentage
 sidebar: cssref
 ---
 
-The **`<angle-percentage>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a value that can be either an {{Cssxref("angle")}} or a {{Cssxref("percentage")}}.
+The **`<angle-percentage>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents a value that can be either an {{Cssxref("angle")}} or a {{Cssxref("percentage")}}.
 
 Where an `<angle-percentage>` is specified as an allowable type, this means that the percentage resolves to an angle and therefore can be used in a {{cssxref("calc()")}} expression.
 
@@ -28,6 +28,6 @@ Refer to the documentation for {{Cssxref("angle")}} and {{Cssxref("percentage")}
 
 ## See also
 
-- [CSS data types](/en-US/docs/Web/CSS/Reference/Values/Data_types)
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
-- [`conic-gradient()`](/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient) and [`repeating-conic-gradient()`](/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-conic-gradient)
+- [CSS data types](/css/reference/values/Data_types)
+- [Using CSS gradients](/css/guides/Images/Using_gradients)
+- [`conic-gradient()`](/css/reference/values/gradient/conic-gradient) and [`repeating-conic-gradient()`](/css/reference/values/gradient/repeating-conic-gradient)

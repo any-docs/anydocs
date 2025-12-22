@@ -34,7 +34,7 @@ copyWithin(target, start, end)
   - : Zero-based index at which to copy the sequence to, [converted to an integer](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#integer_conversion). This corresponds to where the element at `start` will be copied to, and all elements between `start` and `end` are copied to succeeding indices.
 - `start`
   - : Zero-based index at which to start copying elements from, [converted to an integer](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#integer_conversion).
-- `end` {{optional_inline}}
+- `end` <Badge type="info" text="Optional" />
   - : Zero-based index at which to end copying elements from, [converted to an integer](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#integer_conversion). `copyWithin()` copies up to but not including `end`.
 
 ### Return value

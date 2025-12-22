@@ -7,7 +7,7 @@ spec-urls: https://drafts.csswg.org/css-values-4/#ratio-value
 sidebar: cssref
 ---
 
-The **`<ratio>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) describes the proportional relationship between two values. It mostly represents the aspect ratio, which relates width to height. For example, the `<ratio>` is used as a value for the `aspect-ratio` media feature in {{cssxref("@media")}} media queries, the `aspect-ratio` size feature in {{cssxref("@container")}} container queries, and as a value for the CSS {{cssxref("aspect-ratio")}} property.
+The **`<ratio>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) describes the proportional relationship between two values. It mostly represents the aspect ratio, which relates width to height. For example, the `<ratio>` is used as a value for the `aspect-ratio` media feature in {{cssxref("@media")}} media queries, the `aspect-ratio` size feature in {{cssxref("@container")}} container queries, and as a value for the CSS {{cssxref("aspect-ratio")}} property.
 
 ## Syntax
 
@@ -72,10 +72,10 @@ Two ratios are compared using the quotients' numeric values. For example, 16/16 
 ## See also
 
 - [`aspect-ratio`](/en-US/docs/Web/CSS/Reference/At-rules/@media/aspect-ratio) media descriptor
-- [Understanding aspect ratios](/en-US/docs/Web/CSS/Guides/Box_sizing/Aspect_ratios)
-- [CSS container queries](/en-US/docs/Web/CSS/Guides/Containment/Container_queries) guide
-- [Using container size and style queries](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries) guide
-- [CSS media queries](/en-US/docs/Web/CSS/Guides/Media_queries) module
-- [CSS containment](/en-US/docs/Web/CSS/Guides/Containment) module
-- [CSS box sizing](/en-US/docs/Web/CSS/Guides/Box_sizing) module
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [Understanding aspect ratios](/css/guides/Box_sizing/Aspect_ratios)
+- [CSS container queries](/css/guides/Containment/Container_queries) guide
+- [Using container size and style queries](/css/guides/Containment/Container_size_and_style_queries) guide
+- [CSS media queries](/css/guides/Media_queries) module
+- [CSS containment](/css/guides/Containment) module
+- [CSS box sizing](/css/guides/Box_sizing) module
+- [CSS values and units](/css/guides/Values_and_units) module

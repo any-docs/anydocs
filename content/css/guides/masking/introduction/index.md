@@ -6,7 +6,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-CSS masking enables you to reveal or hide parts of an element selectively by applying one or more mask images to it. These mask images can be gradients, images, or SVG sources. Unlike [CSS clipping](/en-US/docs/Web/CSS/Guides/Masking/Clipping), which either fully shows or hides areas of an element based on the shape of a single path, masking allows for nuanced transparency and blending effects based on the alpha transparency and, optionally, luminance of the mask images.
+CSS masking enables you to reveal or hide parts of an element selectively by applying one or more mask images to it. These mask images can be gradients, images, or SVG sources. Unlike [CSS clipping](/css/guides/Masking/Clipping), which either fully shows or hides areas of an element based on the shape of a single path, masking allows for nuanced transparency and blending effects based on the alpha transparency and, optionally, luminance of the mask images.
 
 This guide introduces the concept of masking, the various mask image types, and how the luminance and alpha-transparency of the mask impact the portions of the element that are masked (made visible), versus the portions that are clipped (or hidden).
 
@@ -23,7 +23,7 @@ With alpha masks, the color of the mask is irrelevant. Only the opacity of the m
 
 Masks can be defined using CSS gradients, raster images (such as PNGs), and SVG {{svgelement("mask")}} elements. In this guide, we introduce the various mask image types as we discuss [opaqueness and transparency](#opaqueness_versus_transparency), [luminance](#alpha_transparency_versus_luminance), and [masking versus CSS clipping](#svg_mask_as_mask_source).
 
-Each mask layer consists of a {{cssxref("mask-image")}}, which is [positioned](/en-US/docs/Web/CSS/Reference/Properties/mask-position) relative to an origin box. The mask images can be [sized](/en-US/docs/Web/CSS/Reference/Properties/mask-size), [repeated](/en-US/docs/Web/CSS/Reference/Properties/mask-repeat), and [clipped](/en-US/docs/Web/CSS/Reference/Properties/mask-clip). In cases where multiple mask images are declared, the way the [mask layers are composited](/en-US/docs/Web/CSS/Reference/Properties/mask-composite), or combined, can be set. These are discussed in the [masking properties guide](/en-US/docs/Web/CSS/Guides/Masking/Mask_properties).
+Each mask layer consists of a {{cssxref("mask-image")}}, which is [positioned](/css/reference/properties/mask-position) relative to an origin box. The mask images can be [sized](/css/reference/properties/mask-size), [repeated](/css/reference/properties/mask-repeat), and [clipped](/css/reference/properties/mask-clip). In cases where multiple mask images are declared, the way the [mask layers are composited](/css/reference/properties/mask-composite), or combined, can be set. These are discussed in the [masking properties guide](/css/guides/Masking/Mask_properties).
 
 > [!NOTE]
 > All examples will be using the following image as the underlying element upon which masks will be applied:
@@ -293,7 +293,7 @@ If all you need are shapes, clipping may suffice. But if you need fading, variab
 
 ## See also
 
-- [Introduction to CSS clipping](/en-US/docs/Web/CSS/Guides/Masking/Clipping)
-- [CSS `mask` properties](/en-US/docs/Web/CSS/Guides/Masking/Mask_properties)
-- [Declaring multiple masks](/en-US/docs/Web/CSS/Guides/Masking/Multiple_masks)
-- [CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
+- [Introduction to CSS clipping](/css/guides/Masking/Clipping)
+- [CSS `mask` properties](/css/guides/Masking/Mask_properties)
+- [Declaring multiple masks](/css/guides/Masking/Multiple_masks)
+- [CSS masking](/css/guides/Masking) module

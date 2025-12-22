@@ -60,7 +60,7 @@ hwb(from lch(40% 70 240deg) h w calc(b - 30))
 
 This color function in the [`sRGB` color space](/en-US/docs/Glossary/Color_space#srgb) is defined by a {{cssxref("hue")}} angle value, a whiteness value, a blackness value, and, optionally, an alpha value representing the color's transparency.
 
-The angles corresponding to particular hues differ across the sRGB (used by {{CSSXref("color_value/hsl", "hsl()")}} and `hwb()`), CIELAB (used by {{CSSXref("color_value/lch", "lch()")}}), and Oklab (used by {{CSSXref("color_value/oklch", "oklch()")}}) color spaces. `hwb()` is in the same color space as `hsl()`, and therefore has the same hue color angles. See the {{cssxref("hue")}} reference page for more detail and examples, or try changing the hues on the [color picker](/en-US/docs/Web/CSS/Guides/Colors#colors_in_action) to see it in action.
+The angles corresponding to particular hues differ across the sRGB (used by {{CSSXref("color_value/hsl", "hsl()")}} and `hwb()`), CIELAB (used by {{CSSXref("color_value/lch", "lch()")}}), and Oklab (used by {{CSSXref("color_value/oklch", "oklch()")}}) color spaces. `hwb()` is in the same color space as `hsl()`, and therefore has the same hue color angles. See the {{cssxref("hue")}} reference page for more detail and examples, or try changing the hues on the [color picker](/css/guides/Colors#colors_in_action) to see it in action.
 
 An `hwb()` color is fully saturated when its whiteness (`W`) and blackness (`B`) values are both `0`. For any hue value `H`, `hwb(H 0% 0%)` is the same color as `hsl(H 100% 50%)`. Increasing the whiteness value lightens the color. Increasing the blackness darkens the color.
 
@@ -68,7 +68,7 @@ When both the blackness and whiteness are greater than 0, the color gets muted, 
 
 ## Values
 
-Below are descriptions of the allowed values for both absolute and [relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors).
+Below are descriptions of the allowed values for both absolute and [relative colors](/css/guides/Colors/Using_relative_colors).
 
 ### Absolute value syntax
 
@@ -87,11 +87,11 @@ The parameters are as follows:
 - `B`
   - : A {{CSSXref("&lt;percentage&gt;")}} representing the color's blackness or the keyword `none` (equivalent to `0%` in this case) to mix in. `0%` represents no blackness. `100%` represents full blackness if `W` is `0`, otherwise both the `W` and `B` values are normalized.
 
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel. If the `A` channel value is not explicitly specified, it defaults to 100%. If included, the value is preceded by a slash (`/`).
 
 > [!NOTE]
-> See [Missing color components](/en-US/docs/Web/CSS/Reference/Values/color_value#missing_color_components) for more information on the effect of `none`.
+> See [Missing color components](/css/reference/values/color_value#missing_color_components) for more information on the effect of `none`.
 
 > [!NOTE]
 > Absolute `hwb()` colors are serialized to {{CSSXref("color_value/rgb", "rgb()")}} values. The values of the red, green, and blue components may be rounded in serialization.
@@ -116,11 +116,11 @@ The parameters are as follows:
 - `B`
   - : A {{CSSXref("&lt;percentage&gt;")}} representing the color's blackness or the keyword `none` (equivalent to `0%` in this case) to mix in. `0%` represents no blackness. `100%` represents full blackness if `W` is `0`, otherwise both the `W` and `B` values are normalized.
 
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the output color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel. If the `A` channel value is not explicitly specified, it defaults to the alpha channel value of the origin color. If included, the value is preceded by a slash (`/`).
 
 > [!NOTE]
-> To fully enable the representation of the full spectrum of visible colors, the output of relative `hwb()` color functions is serialized to `color(srgb)`. That means that querying the output color value via the {{DOMxRef("HTMLElement.style")}} property or the {{DOMxRef("CSSStyleDeclaration.getPropertyValue()")}} method returns the output color as a [`color(srgb ...)`](/en-US/docs/Web/CSS/Reference/Values/color_value/color) value.
+> To fully enable the representation of the full spectrum of visible colors, the output of relative `hwb()` color functions is serialized to `color(srgb)`. That means that querying the output color value via the {{DOMxRef("HTMLElement.style")}} property or the {{DOMxRef("CSSStyleDeclaration.getPropertyValue()")}} method returns the output color as a [`color(srgb ...)`](/css/reference/values/color_value/color) value.
 
 ### Defining relative color output channel components
 
@@ -198,7 +198,7 @@ hwb(from hsl(0 100% 50%) calc(h + 120) calc(w + 25) calc(b + 10) / calc(alpha - 
 
 This example styles three {{htmlelement("div")}} elements with different background colors. The middle one is given the unmodified `--base-color`, while the left and right ones are given lightened and darkened variants of that `--base-color`.
 
-These variants are defined using relative colors — the `--base-color` [custom property](/en-US/docs/Web/CSS/Reference/Properties/--*) is passed into an `hwb()` function, and the output colors have their white and black channels modified to achieve the desired effect via a `calc()` function. The lightened color has 30% added to the white channel, and the darkened color has 30% added to the black channel.
+These variants are defined using relative colors — the `--base-color` [custom property](/css/reference/properties/--*) is passed into an `hwb()` function, and the output colors have their white and black channels modified to achieve the desired effect via a `calc()` function. The lightened color has 30% added to the white channel, and the darkened color has 30% added to the black channel.
 
 ```html hidden
 <div id="container">
@@ -275,7 +275,7 @@ The output is as follows:
 ## See also
 
 - {{CSSXref("&lt;color&gt;")}}: For a list of all color notations
-- [Color format converter tool](/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter)
-- [Using relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors)
-- [CSS colors](/en-US/docs/Web/CSS/Guides/Colors) module
+- [Color format converter tool](/css/guides/Colors/Color_format_converter)
+- [Using relative colors](/css/guides/Colors/Using_relative_colors)
+- [CSS colors](/css/guides/Colors) module
 - {{cssxref("hue")}}: the data type representing a hue angle of a color

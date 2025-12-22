@@ -6,7 +6,7 @@ browser-compat: css.properties.mask-border-repeat
 sidebar: cssref
 ---
 
-The **`mask-border-repeat`** [CSS](/en-US/docs/Web/CSS) property specifies how the images for the sides and the middle part of the [mask border image](/en-US/docs/Web/CSS/Reference/Properties/mask-border) are scaled and tiled.
+The **`mask-border-repeat`** [CSS](/en-US/docs/Web/CSS) property specifies how the images for the sides and the middle part of the [mask border image](/css/reference/properties/mask-border) are scaled and tiled.
 
 ## Syntax
 

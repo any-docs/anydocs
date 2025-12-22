@@ -6,11 +6,11 @@ page-type: guide
 sidebar: cssref
 ---
 
-Content between column boxes in a multicol layout breaks in the same way that it breaks between pages in paged media. In both contexts, you can control where and how content breaks by using properties of the [CSS fragmentation](/en-US/docs/Web/CSS/Guides/Fragmentation) module. In this guide, we see how fragmentation works in a _multi-column container_ or _multicol container_ for short.
+Content between column boxes in a multicol layout breaks in the same way that it breaks between pages in paged media. In both contexts, you can control where and how content breaks by using properties of the [CSS fragmentation](/css/guides/Fragmentation) module. In this guide, we see how fragmentation works in a _multi-column container_ or _multicol container_ for short.
 
 ## Fragmentation basics
 
-The CSS fragmentation module provides details on how content breaks between the fragmentation containers or _fragmentainers_. The [multi-column layout](/en-US/docs/Web/CSS/Guides/Multicol_layout) module, on the other hand, defines the {{cssxref("break-after")}}, {{cssxref("break-before")}}, and {{cssxref("break-inside")}} properties that provide some control within and between columns. In multicol layout, a column box is a fragment container.
+The CSS fragmentation module provides details on how content breaks between the fragmentation containers or _fragmentainers_. The [multi-column layout](/css/guides/Multicol_layout) module, on the other hand, defines the {{cssxref("break-after")}}, {{cssxref("break-before")}}, and {{cssxref("break-inside")}} properties that provide some control within and between columns. In multicol layout, a column box is a fragment container.
 
 A column box can contain other markup and there are many places where a break would not be ideal. For example, we would generally prefer that the caption of an image not be separated into a new column away from the image it refers to. Also, ending a column with a heading looks strange. The multicol fragmentation properties give us ways to exercise some control over this.
 

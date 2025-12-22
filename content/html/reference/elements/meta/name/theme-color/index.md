@@ -27,7 +27,7 @@ A `<meta name="theme-color">` element has the following additional attributes:
     The value of `content` attribute is as follows:
     - {{cssxref("<color>")}} value
       - : A valid color value, such as hexadecimal, RGB, named color, etc.
-- `media` {{optional_inline}}
+- `media` <Badge type="info" text="Optional" />
   - : Any valid media type or query.
     If provided, the options for the document's theme color defined in the `content` attribute are suggested to the browser when the media query matches.
 

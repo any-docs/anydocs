@@ -12,9 +12,9 @@ Container queries enable you to apply styles to an element based on certain attr
 - Styles applied to the container.
 - The container's scroll-state or that of its scrolling ancestor.
 
-Container queries are an alternative to [media queries](/en-US/docs/Web/CSS/Guides/Media_queries), which apply styles to elements based on viewport size or other device characteristics.
+Container queries are an alternative to [media queries](/css/guides/Media_queries), which apply styles to elements based on viewport size or other device characteristics.
 
-This article provides an introduction to using container queries, specifically focusing on size container queries. Other guides discuss [style](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries#container_style_queries) and [scroll-state](/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries) container queries in detail.
+This article provides an introduction to using container queries, specifically focusing on size container queries. Other guides discuss [style](/css/guides/Containment/Container_size_and_style_queries#container_style_queries) and [scroll-state](/css/guides/Conditional_rules/Container_scroll-state_queries) container queries in detail.
 
 ![Two different query types. First, a media query based on the viewport's width, which is the full width of the browser. Second, a container query based on the width of a container element.](container-query.svg)
 
@@ -26,10 +26,10 @@ To do this, use the {{cssxref("container-type")}} property with a value of `size
 These values have the following effects:
 
 - `size`
-  - : The query will be based on the [inline and block](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Basic_concepts#block_and_inline_dimensions) dimensions of the container.
-    Applies layout, style, and size [containment](/en-US/docs/Web/CSS/Guides/Containment/Using) to the container.
+  - : The query will be based on the [inline and block](/css/guides/Logical_properties_and_values/Basic_concepts#block_and_inline_dimensions) dimensions of the container.
+    Applies layout, style, and size [containment](/css/guides/Containment/Using) to the container.
 - `inline-size`
-  - : The query will be based on the [inline](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Basic_concepts#block_and_inline_dimensions) dimensions of the container.
+  - : The query will be based on the [inline](/css/guides/Logical_properties_and_values/Basic_concepts#block_and_inline_dimensions) dimensions of the container.
     Applies layout, style, and inline-size containment to the element.
 - `normal`
   - : The element is not a query container for any container size queries, but remains a query container for container style queries.
@@ -119,7 +119,7 @@ When applying styles to a container using container queries, you can use contain
 These units specify a length relative to the dimensions of a query container.
 Components that use units of length relative to their container are more flexible to use in different containers without having to recalculate concrete length values.
 
-If no eligible container is available for the query, the container query length unit defaults to the [small viewport unit](/en-US/docs/Web/CSS/Reference/Values/length#small_viewport_units) for that axis (`sv*`).
+If no eligible container is available for the query, the container query length unit defaults to the [small viewport unit](/css/reference/values/length#small_viewport_units) for that axis (`sv*`).
 
 The container query length units are:
 
@@ -140,7 +140,7 @@ The following example uses the `cqi` unit to set the font size of a heading base
 }
 ```
 
-For more information on these units, see the [Container query length units](/en-US/docs/Web/CSS/Reference/Values/length#container_query_length_units) reference.
+For more information on these units, see the [Container query length units](/css/reference/values/length#container_query_length_units) reference.
 
 ## Fallbacks for container queries
 
@@ -166,14 +166,14 @@ If you want to use a single-column layout for devices with a smaller viewport, y
 
 ## See also
 
-- [Media queries](/en-US/docs/Web/CSS/Guides/Media_queries)
+- [Media queries](/css/guides/Media_queries)
 - CSS {{Cssxref("@container")}} at-rule
 - CSS {{Cssxref("contain")}} property
 - CSS {{Cssxref("container")}} shorthand property
 - CSS {{Cssxref("container-name")}} property
 - CSS {{cssxref("content-visibility")}} property
-- [Using container size and style queries](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries)
-- [Using container scroll-state queries](/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries)
+- [Using container size and style queries](/css/guides/Containment/Container_size_and_style_queries)
+- [Using container scroll-state queries](/css/guides/Conditional_rules/Container_scroll-state_queries)
 - [Say Hello to CSS Container Queries](https://ishadeed.com/article/say-hello-to-css-container-queries/) by Ahmad Shadeed
 - [Container Queries: a Quick Start Guide](https://www.oddbird.net/2021/04/05/containerqueries/)
 - [Collection of Container Queries articles](https://github.com/sturobson/Awesome-Container-Queries)

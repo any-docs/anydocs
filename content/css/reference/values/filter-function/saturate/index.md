@@ -6,7 +6,7 @@ browser-compat: css.types.filter-function.saturate
 sidebar: cssref
 ---
 
-The **`saturate()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) super-saturates or desaturates the input image. Its result is a {{cssxref("filter-function")}}.
+The **`saturate()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) super-saturates or desaturates the input image. Its result is a {{cssxref("filter-function")}}.
 
 > [!NOTE]
 > `saturate()` is specified as a matrix operation on the RGB color. It does not actually convert the color to the HSL model, which is a non-linear operation. Therefore, it may not preserve the hue or lightness of the original color.
@@ -47,7 +47,7 @@ saturate(amount)
 
 ### Parameters
 
-- `amount` {{Optional_Inline}}
+- `amount` <Badge type="info" text="Optional" />
   - : The amount of the conversion, specified as a {{cssxref("&lt;number&gt;")}} or a {{cssxref("&lt;percentage&gt;")}}. A value under `100%` desaturates the image, while a value over `100%` super-saturates it. A value of `0%` is completely unsaturated, while a value of `100%` leaves the input unchanged. The initial value for {{Glossary("interpolation")}} is `1`. The default value is `1`.
 
 ## Formal syntax

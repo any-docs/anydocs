@@ -40,7 +40,7 @@ i {
   width: 16px;
   border-radius: 50%;
   animation: falling 3s linear 0s infinite backwards;
-  /* Snowflakes are made with CSS linear gradients (https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Images/Using_gradients) */
+  /* Snowflakes are made with CSS linear gradients (https://developer.mozilla.org/css/guides/Images/Using_gradients) */
   background-image:
     linear-gradient(180deg, transparent 40%, white 40% 60%, transparent 60%),
     linear-gradient(90deg, transparent 40%, white 40% 60%, transparent 60%),
@@ -270,9 +270,9 @@ All animations, even those with 0 seconds duration, throw animation events.
 
 ## Guides
 
-- [Using CSS animations](/en-US/docs/Web/CSS/Guides/Animations/Using)
+- [Using CSS animations](/css/guides/Animations/Using)
   - : Step-by-step tutorial on how to create animations using CSS. This article describes the animation-related CSS properties and at-rule and how they interact with each other.
-- [Animatable CSS properties](/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties)
+- [Animatable CSS properties](/css/guides/Animations/Animatable_properties)
   - : Overview of how different CSS properties can be animated, including their animation types and interpolation methods.
 - [Using the Web Animations API](/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API)
   - : Common animation requirements that can be solved with a few lines of JavaScript.
@@ -290,8 +290,8 @@ All animations, even those with 0 seconds duration, throw animation events.
 
 ## See also
 
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module.
-- Properties in the [transitions](/en-US/docs/Web/CSS/Guides/Transitions) CSS module to trigger animations based on user actions.
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module.
+- Properties in the [transitions](/css/guides/Transitions) CSS module to trigger animations based on user actions.
 - The {{cssxref("interpolate-size")}} property and {{cssxref("calc-size()")}} function for enabling animations to and from [intrinsic size values](/en-US/docs/Glossary/Intrinsic_Size).
 - The {{htmlelement("canvas")}} HTML element along with [canvas API](/en-US/docs/Web/API/Canvas_API) and [WebGL API](/en-US/docs/Web/API/WebGL_API) to draw graphics and animations.
 - The {{domxref("SVGAnimationElement")}} interface for all the animation-related element interfaces, including {{domxref("SVGAnimateElement")}}, {{domxref("SVGSetElement")}}, {{domxref("SVGAnimateColorElement")}}, {{domxref("SVGAnimateMotionElement")}}, and {{domxref("SVGAnimateTransformElement")}}.

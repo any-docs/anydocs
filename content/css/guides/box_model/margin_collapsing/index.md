@@ -6,18 +6,18 @@ page-type: guide
 sidebar: cssref
 ---
 
-The [top](/en-US/docs/Web/CSS/Reference/Properties/margin-top) and [bottom](/en-US/docs/Web/CSS/Reference/Properties/margin-bottom) margins of blocks are sometimes combined (collapsed) into a single margin whose size is the largest of the individual margins (or just one of them, if they are equal), a behavior known as **margin collapsing**. Note that the margins of [floating](/en-US/docs/Web/CSS/Reference/Properties/float) and [absolutely positioned](/en-US/docs/Web/CSS/Reference/Properties/position#types_of_positioning) elements never collapse.
+The [top](/css/reference/properties/margin-top) and [bottom](/css/reference/properties/margin-bottom) margins of blocks are sometimes combined (collapsed) into a single margin whose size is the largest of the individual margins (or just one of them, if they are equal), a behavior known as **margin collapsing**. Note that the margins of [floating](/css/reference/properties/float) and [absolutely positioned](/css/reference/properties/position#types_of_positioning) elements never collapse.
 
 Margin collapsing occurs in three basic cases:
 
 - Adjacent siblings
-  - : The margins of adjacent siblings are collapsed (except when the latter sibling needs to be [cleared](/en-US/docs/Web/CSS/Reference/Properties/clear) past floats).
+  - : The margins of adjacent siblings are collapsed (except when the latter sibling needs to be [cleared](/css/reference/properties/clear) past floats).
 - No content separating parent and descendants
   - : The vertical margins between a parent block and its descendants can collapse. This happens when there is no separating content between them. Specifically, this occurs in two main cases:
-    - The {{cssxref("margin-top")}} of a parent collapses with the {{cssxref("margin-top")}} of its first in-flow descendant unless the parent has a {{cssxref("border-top")}} , {{cssxref("padding-top")}} , contains any inline content (such as text), or has _[clearance](/en-US/docs/Web/CSS/Reference/Properties/clear)_ applied.
+    - The {{cssxref("margin-top")}} of a parent collapses with the {{cssxref("margin-top")}} of its first in-flow descendant unless the parent has a {{cssxref("border-top")}} , {{cssxref("padding-top")}} , contains any inline content (such as text), or has _[clearance](/css/reference/properties/clear)_ applied.
     - The {{cssxref("margin-bottom")}} of a parent collapses with the {{cssxref("margin-bottom")}} of its last in-flow descendant unless the parent has a defined {{cssxref("height")}} or {{cssxref("min-height")}}, a {{cssxref("border-bottom")}}, or {{cssxref("padding-bottom")}}.
 
-    In both cases, creating a new [block formatting context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context) on the parent will also prevent its margins from collapsing with its children.
+    In both cases, creating a new [block formatting context](/css/guides/Display/Block_formatting_context) on the parent will also prevent its margins from collapsing with its children.
 
 - Empty blocks
   - : If there is no border, padding, inline content, {{cssxref("height")}}, or {{cssxref("min-height")}} to separate a block's {{cssxref("margin-top")}} from its {{cssxref("margin-bottom")}}, then its top and bottom margins collapse.
@@ -77,21 +77,21 @@ p {
 
 ## See also
 
-- [CSS box model](/en-US/docs/Web/CSS/Guides/Box_model) module
-- [Introduction to the CSS box model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction)
+- [CSS box model](/css/guides/Box_model) module
+- [Introduction to the CSS box model](/css/guides/Box_model/Introduction)
 - CSS key concepts:
-  - [CSS syntax](/en-US/docs/Web/CSS/Guides/Syntax/Introduction)
-  - [At-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules)
-  - [Comments](/en-US/docs/Web/CSS/Guides/Syntax/Comments)
-  - [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
-  - [Inheritance](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance)
+  - [CSS syntax](/css/guides/Syntax/Introduction)
+  - [At-rules](/css/guides/Syntax/At-rules)
+  - [Comments](/css/guides/Syntax/Comments)
+  - [Specificity](/css/guides/Cascade/Specificity)
+  - [Inheritance](/css/guides/Cascade/Inheritance)
   - [Layout modes](/en-US/docs/Glossary/Layout_mode)
-  - [Visual formatting model](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model)
+  - [Visual formatting model](/css/guides/Display/Visual_formatting_model)
   - Values:
-    - [Initial values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value)
-    - [Computed values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value)
-    - [Used values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value)
-    - [Actual values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#actual_value)
-  - [Value definition syntax](/en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax)
-  - [Shorthand properties](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties)
+    - [Initial values](/css/guides/Cascade/Property_value_processing#initial_value)
+    - [Computed values](/css/guides/Cascade/Property_value_processing#computed_value)
+    - [Used values](/css/guides/Cascade/Property_value_processing#used_value)
+    - [Actual values](/css/guides/Cascade/Property_value_processing#actual_value)
+  - [Value definition syntax](/css/guides/Values_and_units/Value_definition_syntax)
+  - [Shorthand properties](/css/guides/Cascade/Shorthand_properties)
   - {{glossary("Replaced elements")}}

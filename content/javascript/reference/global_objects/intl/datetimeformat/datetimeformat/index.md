@@ -51,7 +51,7 @@ Intl.DateTimeFormat(locales, options)
 
 ### Parameters
 
-- `locales` {{optional_inline}}
+- `locales` <Badge type="info" text="Optional" />
   - : A string with a {{glossary("BCP 47 language tag")}} or an {{jsxref("Intl.Locale")}} instance, or an array of such locale identifiers. The runtime's default locale is used when `undefined` is passed or when none of the specified locale identifiers is supported. For the general form and interpretation of the `locales` argument, see [the parameter description on the `Intl` main page](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#locales_argument).
 
     The following Unicode extension keys are allowed:
@@ -64,7 +64,7 @@ Intl.DateTimeFormat(locales, options)
 
     These keys can also be set with `options` (as listed below). When both are set, the `options` property takes precedence.
 
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object. For ease of reading, the property list is broken into sections based on their purposes, including [locale options](#locale_options), [date-time component options](#date-time_component_options), and [style shortcuts](#style_shortcuts).
 
 #### Locale options

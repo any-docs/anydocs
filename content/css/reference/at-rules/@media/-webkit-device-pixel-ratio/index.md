@@ -18,7 +18,7 @@ The `-webkit-device-pixel-ratio` feature is specified as a {{cssxref("&lt;number
 ### Values
 
 - {{cssxref("&lt;number&gt;")}}
-  - : The number of device pixels used to represent each CSS [`px`](/en-US/docs/Web/CSS/Reference/Values/length#absolute_length_units). Although the value is a `<number>`, and thus doesn't syntactically allow units, its implicit unit is [`dppx`](/en-US/docs/Web/CSS/Reference/Values/resolution#units).
+  - : The number of device pixels used to represent each CSS [`px`](/css/reference/values/length#absolute_length_units). Although the value is a `<number>`, and thus doesn't syntactically allow units, its implicit unit is [`dppx`](/css/reference/values/resolution#units).
 
 ## Implementation
 
@@ -89,7 +89,7 @@ The `-webkit-device-pixel-ratio` feature is specified as a {{cssxref("&lt;number
 
 ## See also
 
-- [Using media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+- [Using media queries](/css/guides/Media_queries/Using)
 - {{cssxref("resolution")}}
 - [`-webkit-transform-2d`](/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-transform-2d)
 - [`-webkit-transform-3d`](/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-transform-3d)

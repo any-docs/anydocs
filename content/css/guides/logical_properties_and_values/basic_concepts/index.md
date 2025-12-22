@@ -6,7 +6,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-The [CSS logical properties and values module](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values#properties) defines flow-relative mappings for many of the {{glossary("physical properties")}} and values in CSS. This article discusses this module, and explains {{glossary("flow relative values")}} and properties.
+The [CSS logical properties and values module](/css/guides/Logical_properties_and_values#properties) defines flow-relative mappings for many of the {{glossary("physical properties")}} and values in CSS. This article discusses this module, and explains {{glossary("flow relative values")}} and properties.
 
 ## Why are logical properties useful
 
@@ -93,7 +93,7 @@ This diagram shows block and inline in a vertical writing mode:
 
 ## See also
 
-- [Box alignment in grid layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout)
-- [Box alignment in flex layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_flexbox)
-- [Flow layout and writing modes](/en-US/docs/Web/CSS/Guides/Display/Flow_layout_and_writing_modes)
+- [Box alignment in grid layout](/css/guides/Box_alignment/In_grid_layout)
+- [Box alignment in flex layout](/css/guides/Box_alignment/In_flexbox)
+- [Flow layout and writing modes](/css/guides/Display/Flow_layout_and_writing_modes)
 - [Understanding logical properties and values](https://www.smashingmagazine.com/2018/03/understanding-logical-properties-values/) on Smashing Magazine (2018)

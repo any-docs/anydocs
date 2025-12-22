@@ -24,7 +24,7 @@ Object(value)
 
 ### Parameters
 
-- `value` {{optional_inline}}
+- `value` <Badge type="info" text="Optional" />
   - : Any value.
 
 ### Return value

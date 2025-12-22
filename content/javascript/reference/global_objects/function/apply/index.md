@@ -36,7 +36,7 @@ apply(thisArg, argsArray)
 
 - `thisArg`
   - : The value of `this` provided for the call to `func`. If the function is not in [strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode), [`null`](/en-US/docs/Web/JavaScript/Reference/Operators/null) and [`undefined`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) will be replaced with the global object, and primitive values will be converted to objects.
-- `argsArray` {{optional_inline}}
+- `argsArray` <Badge type="info" text="Optional" />
   - : An array-like object, specifying the arguments with which `func` should be called, or [`null`](/en-US/docs/Web/JavaScript/Reference/Operators/null) or [`undefined`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) if no arguments should be provided to the function.
 
 ### Return value

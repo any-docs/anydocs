@@ -7,10 +7,10 @@ spec-urls: https://drafts.csswg.org/selectors/
 sidebar: cssref
 ---
 
-**CSS selectors** are patterns used in [CSS rules](/en-US/docs/Web/CSS/Guides/Syntax/Introduction#css_rulesets) to target and select specific elements for styling.
+**CSS selectors** are patterns used in [CSS rules](/css/guides/Syntax/Introduction#css_rulesets) to target and select specific elements for styling.
 
 > [!NOTE]
-> This page is an index of all selectors in CSS. The [CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors) page introduces the module that defines some, but not all, of these selectors.
+> This page is an index of all selectors in CSS. The [CSS selectors](/css/guides/Selectors) page introduces the module that defines some, but not all, of these selectors.
 
 For example, to style paragraphs, you will use the `p` [type selector](/en-US/docs/Web/CSS/Reference/Selectors/Type_selectors) to select all {{HTMLElement("p")}} elements and apply a style to them:
 
@@ -52,11 +52,11 @@ Check the [pseudo-classes](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classe
 
 ## See also
 
-- [CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors) module
-- [CSS selector structure](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure)
+- [CSS selectors](/css/guides/Selectors) module
+- [CSS selector structure](/css/guides/Selectors/Selector_structure)
 - [CSS combinators](/en-US/docs/Web/CSS/Reference/Selectors/Combinators)
 - [Selector list](/en-US/docs/Web/CSS/Reference/Selectors/Selector_list)
-- [Selectors and combinators](/en-US/docs/Web/CSS/Guides/Selectors/Selectors_and_combinators)
-- [CSS pseudo-elements](/en-US/docs/Web/CSS/Guides/Pseudo-elements) module
-- [CSS nesting](/en-US/docs/Web/CSS/Guides/Nesting) module
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
+- [Selectors and combinators](/css/guides/Selectors/Selectors_and_combinators)
+- [CSS pseudo-elements](/css/guides/Pseudo-elements) module
+- [CSS nesting](/css/guides/Nesting) module
+- [Specificity](/css/guides/Cascade/Specificity)

@@ -5,7 +5,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-The CSS 2.1 specification, which details how normal flow behaves, assumes a horizontal writing mode. [Layout](/en-US/docs/Web/CSS/Guides/Display/Block_and_inline_layout) properties should work in the same way in vertical writing modes. In this guide, we look at how flow layout behaves when used with different document writing modes.
+The CSS 2.1 specification, which details how normal flow behaves, assumes a horizontal writing mode. [Layout](/css/guides/Display/Block_and_inline_layout) properties should work in the same way in vertical writing modes. In this guide, we look at how flow layout behaves when used with different document writing modes.
 
 This is not a comprehensive guide to the use of writing modes in CSS, the aim here is to document the areas where flow layout interacts with writing modes in possibly unanticipated ways. The [See also](#see_also) section provides links to more writing modes resources.
 
@@ -177,7 +177,7 @@ body {
 
 {{EmbedLiveSample("inline-change-mode", "", "240px")}}
 
-A block-level box will establish a new [block formatting context (BFC)](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context), meaning that if its inner display type would be `flow`, it will get a computed display type of `flow-root`. This is shown in the next example where the box which displays as `horizontal-tb` contains a float which is contained due to its parent establishing a new BFC.
+A block-level box will establish a new [block formatting context (BFC)](/css/guides/Display/Block_formatting_context), meaning that if its inner display type would be `flow`, it will get a computed display type of `flow-root`. This is shown in the next example where the box which displays as `horizontal-tb` contains a float which is contained due to its parent establishing a new BFC.
 
 ```html live-sample___block-change-mode
 <div class="box">
@@ -317,7 +317,7 @@ body {
 
 {{EmbedLiveSample("inline-size", "", "200px")}}
 
-The [CSS logical properties and values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values) module includes logical versions of the properties that control margins, padding and borders as well as other mappings for things that we have typically used physical directions to specify.
+The [CSS logical properties and values](/css/guides/Logical_properties_and_values) module includes logical versions of the properties that control margins, padding and borders as well as other mappings for things that we have typically used physical directions to specify.
 
 ## Summary
 
@@ -325,6 +325,6 @@ In most cases, flow layout works as expected when changing the writing mode of w
 
 ## See also
 
-- [Writing Modes](/en-US/docs/Web/CSS/Guides/Writing_modes)
+- [Writing Modes](/css/guides/Writing_modes)
 - [Writing modes and CSS layout](https://www.smashingmagazine.com/2019/08/writing-modes-layout/) on Smashing Magazine (2019)
 - [CSS writing modes](https://24ways.org/2016/css-writing-modes/) on 24ways.org (2016)

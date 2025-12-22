@@ -40,7 +40,7 @@ A CSS declaration block is visualized in the diagram below.
 
 If style sheets could only apply a declaration to each element of a Web page, they would be pretty useless. The real goal is to apply different declarations to different parts of the document.
 
-CSS allows this by associating conditions with declarations blocks. Each (valid) declaration block is preceded by one or more comma-separated [**selectors**](/en-US/docs/Web/CSS/Guides/Selectors), which are conditions selecting some elements of the page. A [selector list](/en-US/docs/Web/CSS/Reference/Selectors/Selector_list) and an associated declarations block, together, are called a **ruleset**, or often a **rule**.
+CSS allows this by associating conditions with declarations blocks. Each (valid) declaration block is preceded by one or more comma-separated [**selectors**](/css/guides/Selectors), which are conditions selecting some elements of the page. A [selector list](/en-US/docs/Web/CSS/Reference/Selectors/Selector_list) and an associated declarations block, together, are called a **ruleset**, or often a **rule**.
 
 A CSS ruleset (or rule) is visualized in the diagram below.
 
@@ -63,28 +63,28 @@ A **statement** is a building block that begins with any non-space characters an
 
 There are two kinds of statements:
 
-- **Rulesets** (or _rules_) that, as seen, associate a collection of CSS declarations to a condition described by a [selector](/en-US/docs/Web/CSS/Guides/Selectors).
-- **At-rules** that start with an at sign, `@` (U+0040 COMMERCIAL AT), followed by an identifier and then continuing up to the end of the statement, that is up to the next semicolon (;) outside of a block, or the end of the next block. Each type of [at-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules), defined by the identifier, may have its own internal syntax, and semantics of course. They are used to convey meta-data information (like {{ cssxref("@layer") }} or {{ cssxref("@import") }}), conditional information (like {{ cssxref("@media") }} or {{ cssxref("@document") }}), or descriptive information (like {{ cssxref("@font-face") }}).
+- **Rulesets** (or _rules_) that, as seen, associate a collection of CSS declarations to a condition described by a [selector](/css/guides/Selectors).
+- **At-rules** that start with an at sign, `@` (U+0040 COMMERCIAL AT), followed by an identifier and then continuing up to the end of the statement, that is up to the next semicolon (;) outside of a block, or the end of the next block. Each type of [at-rules](/css/guides/Syntax/At-rules), defined by the identifier, may have its own internal syntax, and semantics of course. They are used to convey meta-data information (like {{ cssxref("@layer") }} or {{ cssxref("@import") }}), conditional information (like {{ cssxref("@media") }} or {{ cssxref("@document") }}), or descriptive information (like {{ cssxref("@font-face") }}).
 
 Any statement which isn't a ruleset or an at-rule is invalid and ignored.
 
 ### Nested statements
 
-There is another group of statements – the **nested statements**. These are statements that can be used in a specific subset of at-rules – the _conditional group rules_. These statements only apply if a specific condition is matched: the `@media` at-rule content is applied only if the device on which the browser runs matches the expressed condition; the `@document` at-rule content is applied only if the current page matches some conditions, and so on. In CSS1 and CSS2.1, only _rulesets_ could be used inside conditional group rules. That was very restrictive and this restriction was lifted in [_CSS Conditionals Level 3_](/en-US/docs/Web/CSS/Guides/Conditional_rules). Now, though still experimental and not supported by every browser, conditional group rules can contain a wider range of content: rulesets but also some, but not all, at-rules.
+There is another group of statements – the **nested statements**. These are statements that can be used in a specific subset of at-rules – the _conditional group rules_. These statements only apply if a specific condition is matched: the `@media` at-rule content is applied only if the device on which the browser runs matches the expressed condition; the `@document` at-rule content is applied only if the current page matches some conditions, and so on. In CSS1 and CSS2.1, only _rulesets_ could be used inside conditional group rules. That was very restrictive and this restriction was lifted in [_CSS Conditionals Level 3_](/css/guides/Conditional_rules). Now, though still experimental and not supported by every browser, conditional group rules can contain a wider range of content: rulesets but also some, but not all, at-rules.
 
 ## See also
 
-- [CSS syntax](/en-US/docs/Web/CSS/Guides/Syntax) module
-- [Selectors and combinators](/en-US/docs/Web/CSS/Guides/Selectors/Selectors_and_combinators)
-- [Selector structure](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure)
-- [Error handling](/en-US/docs/Web/CSS/Guides/Syntax/Error_handling)
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
-- [Inheritance](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance)
-- [Cascade](/en-US/docs/Web/CSS/Guides/Cascade/Introduction)
-- [Value definition syntax](/en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax)
+- [CSS syntax](/css/guides/Syntax) module
+- [Selectors and combinators](/css/guides/Selectors/Selectors_and_combinators)
+- [Selector structure](/css/guides/Selectors/Selector_structure)
+- [Error handling](/css/guides/Syntax/Error_handling)
+- [Specificity](/css/guides/Cascade/Specificity)
+- [Inheritance](/css/guides/Cascade/Inheritance)
+- [Cascade](/css/guides/Cascade/Introduction)
+- [Value definition syntax](/css/guides/Values_and_units/Value_definition_syntax)
 - Values
-  - [Initial values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value)
-  - [Computed values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value)
-  - [Used values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value)
-  - [Actual values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#actual_value)
-- [Shorthand properties](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties)
+  - [Initial values](/css/guides/Cascade/Property_value_processing#initial_value)
+  - [Computed values](/css/guides/Cascade/Property_value_processing#computed_value)
+  - [Used values](/css/guides/Cascade/Property_value_processing#used_value)
+  - [Actual values](/css/guides/Cascade/Property_value_processing#actual_value)
+- [Shorthand properties](/css/guides/Cascade/Shorthand_properties)

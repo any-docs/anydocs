@@ -19,7 +19,7 @@ For elements with an inline formatting context:
 
 > "In an inline formatting context, boxes are laid out horizontally, one after the other, beginning at the top of a containing block. Horizontal margins, borders, and padding are respected between these boxes. The boxes may be aligned vertically in different ways: their bottoms or tops may be aligned, or the baselines of text within them may be aligned. The rectangular area that contains the boxes that form a line is called a line box." - 9.4.2
 
-Note that the CSS 2.1 specification describes documents as being in a horizontal, top-to-bottom writing mode. For example, by describing the vertical distance between block boxes. The behavior on block and inline elements is the same when working in a vertical writing mode; we explore this in our [Flow layout and writing modes](/en-US/docs/Web/CSS/Guides/Display/Flow_layout_and_writing_modes) guide.
+Note that the CSS 2.1 specification describes documents as being in a horizontal, top-to-bottom writing mode. For example, by describing the vertical distance between block boxes. The behavior on block and inline elements is the same when working in a vertical writing mode; we explore this in our [Flow layout and writing modes](/css/guides/Display/Flow_layout_and_writing_modes) guide.
 
 ## Elements participating in a block formatting context
 
@@ -152,7 +152,7 @@ p {
 
 {{EmbedLiveSample("normal-flow-collapsing", "", "230px")}}
 
-You can read more about margin collapsing in our article [Mastering Margin Collapsing](/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing).
+You can read more about margin collapsing in our article [Mastering Margin Collapsing](/css/guides/Box_model/Margin_collapsing).
 
 > [!NOTE]
 > If you are not sure whether margins are collapsing, check the Box Model values in your browser DevTools. This will give you the actual size of the margin which can help you to identify what is happening.
@@ -195,7 +195,7 @@ strong {
 
 {{EmbedLiveSample("line-box")}}
 
-Find out more about how block and inline boxes behave in our guide to the [visual formatting model](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model).
+Find out more about how block and inline boxes behave in our guide to the [visual formatting model](/css/guides/Display/Visual_formatting_model).
 
 ## The display property and flow layout
 
@@ -259,7 +259,7 @@ In this guide, we have looked at how elements display in normal flow, as block a
 
 ## See also
 
-- [CSS Basic Box Model](/en-US/docs/Web/CSS/Guides/Box_model)
+- [CSS Basic Box Model](/css/guides/Box_model)
 - [Learn: Normal Flow](/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction#normal_layout_flow)
 - [Inline-level elements](/en-US/docs/Glossary/Inline-level_content)
 - [Block-level elements](/en-US/docs/Glossary/Block-level_content)

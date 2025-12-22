@@ -87,7 +87,7 @@ The rendered size of the mask image is computed as follows:
 
 - If both components of `mask-size` are specified and are not `auto`, the mask image renders at the specified size.
 - If the `mask-size` is `contain` or `cover`, the image is rendered by preserving its aspect ratio at the largest size contained within or covering the mask positioning area. If the image has no intrinsic proportion, such as with gradients, then it is rendered at the size of the mask positioning area.
-- If the `mask-size` is `auto` (which resolves to `auto auto`), it is rendered at the size at which the mask would be displayed if no CSS were applied to change the rendering; this is its {{glossary("intrinsic size")}}. If it has no intrinsic dimensions and no intrinsic proportion, as is the case with [CSS gradients](/en-US/docs/Web/CSS/Reference/Values/gradient), it is rendered at the size of the mask positioning area, defined by the {{cssxref("mask-origin")}} (which defaults to `border-box`).
+- If the `mask-size` is `auto` (which resolves to `auto auto`), it is rendered at the size at which the mask would be displayed if no CSS were applied to change the rendering; this is its {{glossary("intrinsic size")}}. If it has no intrinsic dimensions and no intrinsic proportion, as is the case with [CSS gradients](/css/reference/values/gradient), it is rendered at the size of the mask positioning area, defined by the {{cssxref("mask-origin")}} (which defaults to `border-box`).
   If the mask source has no dimensions but has a proportion (aspect-ratio), a value of `auto` will render it as if `contain` had been specified instead. If the image has one intrinsic dimension and a proportion, it is rendered at the size determined by that one dimension and the proportion. If the image has one intrinsic dimension but no proportion, it's rendered using the intrinsic dimension and the corresponding dimension of the mask positioning area.
 - If `mask-size` has one `auto` component and one non-`auto` component, which applies to all single-value values, the aspect ratio is maintained if the mask source has an intrinsic proportion. If there are no intrinsic proportions, the `auto` value is assumed to be the dimension of the mask positioning area.
 
@@ -204,7 +204,7 @@ The `mask-size` of two of the `<div>` elements is set to one of the property's k
 }
 ```
 
-The property values is displayed using [generated content](/en-US/docs/Web/CSS/Guides/Generated_content).
+The property values is displayed using [generated content](/css/guides/Generated_content).
 
 ```css
 section::before {
@@ -230,7 +230,7 @@ section {
 
 {{EmbedLiveSample("Cover and contain", "", "430px")}}
 
-With `auto`, the star is displayed at its intrinsic `100px` by `100px` size. With `cover`, the star grows to be `400px` tall, covering the entire origin box. With `contain`, the star grows until one dimension equals the same dimension of the [origin box](/en-US/docs/Web/CSS/Reference/Properties/mask-origin), meaning that the star is as large as it can be (`200px` wide) but still contained by it.
+With `auto`, the star is displayed at its intrinsic `100px` by `100px` size. With `cover`, the star grows to be `400px` tall, covering the entire origin box. With `contain`, the star grows until one dimension equals the same dimension of the [origin box](/css/reference/properties/mask-origin), meaning that the star is as large as it can be (`200px` wide) but still contained by it.
 
 ### When the mask is larger than the container
 
@@ -316,7 +316,7 @@ The `contain` value contains the mask within the origin box. The `cover` value c
 - {{cssxref("mask-border")}}
 - {{cssxref("background-size")}}
 - {{cssxref("mask-border-width")}}
-- [Introduction to CSS masking](/en-US/docs/Web/CSS/Guides/Masking/Introduction)
-- [CSS `mask` properties](/en-US/docs/Web/CSS/Guides/Masking/Mask_properties)
-- [Declaring multiple masks](/en-US/docs/Web/CSS/Guides/Masking/Multiple_masks)
-- [CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
+- [Introduction to CSS masking](/css/guides/Masking/Introduction)
+- [CSS `mask` properties](/css/guides/Masking/Mask_properties)
+- [Declaring multiple masks](/css/guides/Masking/Multiple_masks)
+- [CSS masking](/css/guides/Masking) module

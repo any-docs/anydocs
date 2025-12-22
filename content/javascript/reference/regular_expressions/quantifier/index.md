@@ -39,7 +39,7 @@ atom{min,max}?
   - : A non-negative integer. The number of times the atom should be repeated.
 - `min`
   - : A non-negative integer. The minimum number of times the atom can be repeated.
-- `max` {{optional_inline}}
+- `max` <Badge type="info" text="Optional" />
   - : A non-negative integer. The maximum number of times the atom can be repeated. If omitted, the atom can be repeated as many times as needed.
 
 ## Description

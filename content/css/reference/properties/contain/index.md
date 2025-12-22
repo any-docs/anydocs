@@ -138,9 +138,9 @@ Using the `contain` property is useful on pages with groups of elements that are
 > [!NOTE]
 > Using `layout`, `paint`, `strict` or `content` values for this property creates:
 >
-> 1. A new [containing block](/en-US/docs/Web/CSS/Guides/Display/Containing_block) (for the descendants whose {{cssxref("position")}} property is `absolute` or `fixed`).
-> 2. A new [stacking context](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context).
-> 3. A new [block formatting context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context).
+> 1. A new [containing block](/css/guides/Display/Containing_block) (for the descendants whose {{cssxref("position")}} property is `absolute` or `fixed`).
+> 2. A new [stacking context](/css/guides/Positioned_layout/Stacking_context).
+> 3. A new [block formatting context](/css/guides/Display/Block_formatting_context).
 
 ## Formal definition
 
@@ -261,7 +261,7 @@ This impacts performance and interferes with the rest of the page layout.
 
 ### Style containment
 
-Style containment scopes [counters](/en-US/docs/Web/CSS/Guides/Counter_styles/Using_counters) and [quotes](/en-US/docs/Web/CSS/Reference/Properties/quotes) to the contained element.
+Style containment scopes [counters](/css/guides/Counter_styles/Using_counters) and [quotes](/css/reference/properties/quotes) to the contained element.
 For CSS counters, the {{cssxref("counter-increment")}} and {{cssxref("counter-set")}} properties are scoped to the element as if the element is at the root of the document.
 
 #### Containment and counters
@@ -353,7 +353,7 @@ Because of containment, the first closing quote ignores the inner span and uses 
 
 ## See also
 
-- [CSS containment](/en-US/docs/Web/CSS/Guides/Containment)
-- [CSS container queries](/en-US/docs/Web/CSS/Guides/Containment/Container_queries)
+- [CSS containment](/css/guides/Containment)
+- [CSS container queries](/css/guides/Containment/Container_queries)
 - CSS {{cssxref("content-visibility")}} property
 - CSS {{cssxref("position")}} property

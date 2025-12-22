@@ -76,8 +76,8 @@ Currently, no browsers support this feature.
 
 ## See also
 
-- [Using Media Queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+- [Using Media Queries](/css/guides/Media_queries/Using)
 - [@media](/en-US/docs/Web/CSS/Reference/At-rules/@media)
-- [CSS round display](/en-US/docs/Web/CSS/Guides/Round_display) module
-- [Using environment variables](/en-US/docs/Web/CSS/Guides/Environment_variables/Using)
-- [CSS environment variables](/en-US/docs/Web/CSS/Guides/Environment_variables) module
+- [CSS round display](/css/guides/Round_display) module
+- [Using environment variables](/css/guides/Environment_variables/Using)
+- [CSS environment variables](/css/guides/Environment_variables) module

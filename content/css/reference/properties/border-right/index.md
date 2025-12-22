@@ -6,7 +6,7 @@ browser-compat: css.properties.border-right
 sidebar: cssref
 ---
 
-The **`border-right`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property sets all the properties of an element's right [border](/en-US/docs/Web/CSS/Reference/Properties/border).
+The **`border-right`** [shorthand](/css/guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property sets all the properties of an element's right [border](/css/reference/properties/border).
 
 {{InteractiveExample("CSS Demo: border-right")}}
 

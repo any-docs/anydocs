@@ -41,7 +41,7 @@ Symbol(description)
 
 ### Parameters
 
-- `description` {{optional_inline}}
+- `description` <Badge type="info" text="Optional" />
   - : A string. A description of the symbol which can be used for debugging but not to
     access the symbol itself.
 

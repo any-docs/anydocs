@@ -33,9 +33,9 @@ new ArrayBuffer(length, options)
 
 - `length`
   - : The size, in bytes, of the array buffer to create.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object, which can contain the following properties:
-    - `maxByteLength` {{optional_inline}}
+    - `maxByteLength` <Badge type="info" text="Optional" />
       - : The maximum size, in bytes, that the array buffer can be resized to.
 
 ### Return value

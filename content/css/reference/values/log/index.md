@@ -6,7 +6,7 @@ browser-compat: css.types.log
 sidebar: cssref
 ---
 
-The **`log()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) is an exponential function that returns the logarithm of a number.
+The **`log()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) is an exponential function that returns the logarithm of a number.
 
 [Logarithm](https://en.wikipedia.org/wiki/Logarithm) is the inverse of exponentiation. It is the number that a fixed base has to be raised to in order to yield the number passed as the first parameter.
 
@@ -45,7 +45,7 @@ The natural logarithm (base `e`) of `value`, when `base` is not defined.
 
 ### Using the `log()` function on a logarithmic scale
 
-This example illustrates how the `log()` function can be used to visualize data values by using a [logarithmic scale](https://en.wikipedia.org/wiki/Logarithmic_scale). The width of each bar in this example is relative to its data value on a logarithmic scale with base 10. On each element, its value is assigned to a [CSS custom property](/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties) named `--value`, which is then used by the `.bar` class to calculate its width.
+This example illustrates how the `log()` function can be used to visualize data values by using a [logarithmic scale](https://en.wikipedia.org/wiki/Logarithmic_scale). The width of each bar in this example is relative to its data value on a logarithmic scale with base 10. On each element, its value is assigned to a [CSS custom property](/css/guides/Cascading_variables/Using_custom_properties) named `--value`, which is then used by the `.bar` class to calculate its width.
 
 #### HTML
 

@@ -97,7 +97,7 @@ The `text-decoration-line` property is specified as `none`, or **one or more** s
 - `line-through`
   - : Each line of text has a decorative line going through its middle.
 - `blink`
-  - : The text blinks (alternates between visible and invisible). Conforming user agents may not blink the text. This value is **deprecated** in favor of [CSS animations](/en-US/docs/Web/CSS/Reference/Properties/animation).
+  - : The text blinks (alternates between visible and invisible). Conforming user agents may not blink the text. This value is **deprecated** in favor of [CSS animations](/css/reference/properties/animation).
 - `spelling-error`
   - : Each line of text uses the user agents' method of highlighting spelling mistakes, which is a dotted red line in most browsers.
 - `grammar-error`

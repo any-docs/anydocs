@@ -6,7 +6,7 @@ browser-compat: css.properties.baseline-source
 sidebar: cssref
 ---
 
-The **`baseline-source`** [CSS](/en-US/docs/Web/CSS) property defines which [baseline](/en-US/docs/Web/CSS/Reference/Values/baseline-position) to use when inline-level boxes have multiple possible baselines, such as multi-line [inline blocks](/en-US/docs/Web/CSS/Guides/Display/Block_and_inline_layout) or inline [flex containers](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts#the_flex_container).
+The **`baseline-source`** [CSS](/en-US/docs/Web/CSS) property defines which [baseline](/css/reference/values/baseline-position) to use when inline-level boxes have multiple possible baselines, such as multi-line [inline blocks](/css/guides/Display/Block_and_inline_layout) or inline [flex containers](/css/guides/Flexible_box_layout/Basic_concepts#the_flex_container).
 The values allow for choosing between aligning to the box's first baseline, last baseline, or letting the browser decide automatically based on the box type.
 
 ## Syntax
@@ -28,7 +28,7 @@ baseline-source: unset;
 ### Values
 
 - `auto`
-  - : Specifies [`last baseline`](/en-US/docs/Web/CSS/Reference/Values/baseline-position#last_baseline) alignment for inline-block, [`first baseline`](/en-US/docs/Web/CSS/Reference/Values/baseline-position#first_baseline) alignment for everything else.
+  - : Specifies [`last baseline`](/css/reference/values/baseline-position#last_baseline) alignment for inline-block, [`first baseline`](/css/reference/values/baseline-position#first_baseline) alignment for everything else.
 - `first`
   - : Specifies `first baseline` alignment.
 - `last`
@@ -132,4 +132,4 @@ We set the `.first` box to use the first baseline, the `.auto` box uses the defa
 ## See also
 
 - {{cssxref("vertical-align")}} property
-- [CSS box alignment overview](/en-US/docs/Web/CSS/Guides/Box_alignment/Overview)
+- [CSS box alignment overview](/css/guides/Box_alignment/Overview)

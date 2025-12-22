@@ -5,9 +5,9 @@ page-type: guide
 sidebar: cssref
 ---
 
-[Container queries](/en-US/docs/Web/CSS/Guides/Containment/Container_queries) enable you to apply styles to elements nested within a specific container based on the features of that container. The query returns true or false depending on whether the query condition is true for the container.
+[Container queries](/css/guides/Containment/Container_queries) enable you to apply styles to elements nested within a specific container based on the features of that container. The query returns true or false depending on whether the query condition is true for the container.
 
-Container queries are similar to [media queries](/en-US/docs/Web/CSS/Guides/Media_queries). The {{cssxref("@media")}} at-rule enables applying styles to elements based on viewport size or other device characteristics. Similarly, the {{cssxref("@container")}} at-rule enables applying styles to elements based on a containing element's size or other style features, rather than the viewport's. Container queries have the same syntax rules and logical operators as media queries.
+Container queries are similar to [media queries](/css/guides/Media_queries). The {{cssxref("@media")}} at-rule enables applying styles to elements based on viewport size or other device characteristics. Similarly, the {{cssxref("@container")}} at-rule enables applying styles to elements based on a containing element's size or other style features, rather than the viewport's. Container queries have the same syntax rules and logical operators as media queries.
 
 ```css
 @container <container-condition># {
@@ -21,9 +21,9 @@ There are three types of container queries:
   - : Size queries enable applying styles to elements based on the current [size](/en-US/docs/Web/CSS/Reference/At-rules/@container#descriptors) of a containing element, including the orientation and {{glossary("aspect ratio")}}. The containing elements need to be explicitly declared as _size query containers_.
 
 - **Container style queries**
-  - : Style queries enable applying styles to elements based on a containing element's style features. Any non-empty element can be a style query container. Currently, the only style feature supported by style queries is CSS [custom properties](/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties). In this case, the query returns true or false depending on the computed value of the containing element's custom properties. When container style queries are fully supported, they will enable you to apply styles to any element's descendants based on any property, declaration, or computed value — for example if the container is `display: inline flex` or has a non-transparent background color.
+  - : Style queries enable applying styles to elements based on a containing element's style features. Any non-empty element can be a style query container. Currently, the only style feature supported by style queries is CSS [custom properties](/css/guides/Cascading_variables/Using_custom_properties). In this case, the query returns true or false depending on the computed value of the containing element's custom properties. When container style queries are fully supported, they will enable you to apply styles to any element's descendants based on any property, declaration, or computed value — for example if the container is `display: inline flex` or has a non-transparent background color.
 
-- **[Container scroll-state queries](/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries)**
+- **[Container scroll-state queries](/css/guides/Conditional_rules/Container_scroll-state_queries)**
   - : Scroll-state queries allow you to selectively apply CSS rules to a container's descendants based on scroll-state conditions, such as whether the queried element is partially scrolled or whether the container is snapped to a scroll snap container. The containing elements need to be explicitly declared as _scroll-state query containers_.
 
 In this guide, we learn the basics of container queries by looking at:
@@ -32,7 +32,7 @@ In this guide, we learn the basics of container queries by looking at:
 2. [naming containers](#naming_containers) to limit their scope, and
 3. using the `style()` functional notation within the {{cssxref("@container")}} at rule's `<container-condition>` to create [style queries with custom properties](#style_queries_for_custom_properties).
 
-Scroll-state queries are discussed in [Using container scroll-state queries](/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries).
+Scroll-state queries are discussed in [Using container scroll-state queries](/css/guides/Conditional_rules/Container_scroll-state_queries).
 
 ## Container size queries
 
@@ -50,7 +50,7 @@ Elements are declared as _size query containers_ by setting their {{cssxref("con
 }
 ```
 
-Declaring size query containers adds [containment](/en-US/docs/Web/CSS/Guides/Containment/Using) to them. This is a performance necessity — querying the size of every element in the DOM, all the time, would be bad for performance and user experience. Additionally, if a descendant style changed the size of the container element, an infinite loop could occur.
+Declaring size query containers adds [containment](/css/guides/Containment/Using) to them. This is a performance necessity — querying the size of every element in the DOM, all the time, would be bad for performance and user experience. Additionally, if a descendant style changed the size of the container element, an infinite loop could occur.
 
 In a container size query, the `<container-condition>` includes one or more `<size-query>`s. Each size query includes a size feature name, a comparison operator, and a value. The size features that can be queried are limited to `width`, `height`, `inline-size`, `block-size`, `aspect-ratio`, and `orientation`. The boolean syntax and logic combining one or more `<size-query>`s is the same as for {{cssxref("@media")}} size feature queries.
 
@@ -116,7 +116,7 @@ With container queries, we are not limited to size queries! You can also query a
 
 ## Container style queries
 
-A _container style query_ is a `@container` query that evaluates computed styles of the container element as defined in one or more `style()` functional notations. The boolean syntax and logic used to combine style features into a style query are the same as in [CSS feature queries](/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries). The only difference is the function name — `style()` within a `<style-feature>` as opposed to `supports()` within a `<support-condition>`:
+A _container style query_ is a `@container` query that evaluates computed styles of the container element as defined in one or more `style()` functional notations. The boolean syntax and logic used to combine style features into a style query are the same as in [CSS feature queries](/css/guides/Conditional_rules/Using_feature_queries). The only difference is the function name — `style()` within a `<style-feature>` as opposed to `supports()` within a `<support-condition>`:
 
 ```css
 @container style(<style-feature>),
@@ -127,7 +127,7 @@ A _container style query_ is a `@container` query that evaluates computed styles
 }
 ```
 
-The parameter of each `style()` function is a single **`<style-feature>`**. Per the CSS containment specification, a `<style-feature>` can be a valid CSS [declaration](/en-US/docs/Web/CSS/Guides/Syntax/Introduction#css_declarations), a CSS property, or a [`<custom-property-name>`](/en-US/docs/Web/CSS/Reference/Values/var#values). The only style feature currently supported is custom properties, with or without a value. See the [browser compatibility table for `@container`](/en-US/docs/Web/CSS/Reference/At-rules/@container#browser_compatibility).
+The parameter of each `style()` function is a single **`<style-feature>`**. Per the CSS containment specification, a `<style-feature>` can be a valid CSS [declaration](/css/guides/Syntax/Introduction#css_declarations), a CSS property, or a [`<custom-property-name>`](/css/reference/values/var#values). The only style feature currently supported is custom properties, with or without a value. See the [browser compatibility table for `@container`](/en-US/docs/Web/CSS/Reference/At-rules/@container#browser_compatibility).
 
 If the `<style-feature>` includes a value, the style query evaluates to true if the computed value of the custom property (or, in the future, the CSS declaration) passed as the `style()` argument is true for the container being queried. Otherwise, it resolves to false.
 A style feature without a value evaluates to true if the computed value is different from the [initial value](#registered_properties) for the given property.
@@ -166,7 +166,7 @@ Now, let's dive in and take a look at the different `<style-feature>` types.
 
 ### Style queries for custom properties
 
-Style queries for custom properties allow you to query the [custom properties](/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties), also called "CSS variables", of a parent element. They are included within a `<style-query>` just as you would include any regular CSS property within a feature query: either with or without a value.
+Style queries for custom properties allow you to query the [custom properties](/css/guides/Cascading_variables/Using_custom_properties), also called "CSS variables", of a parent element. They are included within a `<style-query>` just as you would include any regular CSS property within a feature query: either with or without a value.
 
 #### Standalone custom property queries
 
@@ -223,7 +223,7 @@ If a style query includes a value for the custom property, the element's compute
 }
 ```
 
-This container style query matches any element that has `blue` as the [computed value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value) of the `--accent-color` custom property.
+This container style query matches any element that has `blue` as the [computed value](/css/guides/Cascade/Property_value_processing#computed_value) of the `--accent-color` custom property.
 
 In this case, other color values equivalent to sRGB `blue` (such as the hexadecimal code `#0000ff`) will match only if the `--accent-color` property was defined as a color with `@property` or `CSS.registerProperty()`, for example:
 
@@ -345,7 +345,7 @@ The second style query states that when `--theme` is equivalent to `red`, the `<
 
 Try entering different color values into the text box. You may notice that values that are sRGB equivalents of `red` will make the `<output>` red — as it matches `style(--theme: red)` — while removing the outline, because `style(--theme)` returns false if the element's value for `--theme` is the same as the initial value for `--theme` defined by the `@property` at-rule. Any non-red sRGB valid color value, including `currentColor` or `hsl(180 100% 50%)`, etc., makes the first style query return true; they are values that are different from the `initial-value`.
 
-Because we set `syntax: "<color>";`, the CSS variable can only be assigned valid `<color>` values. Valid values for the {{cssxref("color")}} property that aren't value `<color>` values, such as `unset` or `inherit`, are [invalid](/en-US/docs/Web/CSS/Guides/Syntax/Error_handling) for this custom property, and will be ignored.
+Because we set `syntax: "<color>";`, the CSS variable can only be assigned valid `<color>` values. Valid values for the {{cssxref("color")}} property that aren't value `<color>` values, such as `unset` or `inherit`, are [invalid](/css/guides/Syntax/Error_handling) for this custom property, and will be ignored.
 
 If you enter `unset` or `gibberish`, the JavaScript updates the `style` on the {{HTMLElement("body")}} to `--theme: unset` or `--theme: gibberish`. Neither of these are colors. Both are invalid and ignored. This means the initial value is inherited and unchanged, with `style(--theme)` returning false and `style(--theme: red)` returning true.
 
@@ -407,12 +407,12 @@ These features are not yet supported in any browser.
 
 ## See also
 
-- [Media queries](/en-US/docs/Web/CSS/Guides/Media_queries)
+- [Media queries](/css/guides/Media_queries)
 - CSS {{Cssxref("@container")}} at-rule
 - CSS {{Cssxref("contain")}} property
 - CSS {{Cssxref("container")}} shorthand property
 - CSS {{Cssxref("container-name")}} property
-- [Using container scroll-state queries](/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries)
-- [Understanding `aspect-ratio`](/en-US/docs/Web/CSS/Guides/Box_sizing/Aspect_ratios)
+- [Using container scroll-state queries](/css/guides/Conditional_rules/Container_scroll-state_queries)
+- [Understanding `aspect-ratio`](/css/guides/Box_sizing/Aspect_ratios)
 - [Getting Started with Style Queries](https://developer.chrome.com/docs/css-ui/style-queries) (2022)
 - [Style queries](https://una.im/style-queries/) via una.im (2022)

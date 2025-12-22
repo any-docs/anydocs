@@ -89,7 +89,7 @@ The `box-sizing` property is specified as a single keyword chosen from the list 
 
 ## Description
 
-By default in the [CSS box model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction), the `width` and `height` you assign to an element is applied only to the element's content box. If the element has any border or padding, this is then added to the `width` and `height` to arrive at the size of the box that's rendered on the screen. This means that when you set `width` and `height`, you have to adjust the value you give to allow for any border or padding that may be added. For example, if you have four boxes with `width: 25%;`, if any has left or right padding or a left or right border, they will not by default fit on one line within the constraints of the parent container.
+By default in the [CSS box model](/css/guides/Box_model/Introduction), the `width` and `height` you assign to an element is applied only to the element's content box. If the element has any border or padding, this is then added to the `width` and `height` to arrive at the size of the box that's rendered on the screen. This means that when you set `width` and `height`, you have to adjust the value you give to allow for any border or padding that may be added. For example, if you have four boxes with `width: 25%;`, if any has left or right padding or a left or right border, they will not by default fit on one line within the constraints of the parent container.
 
 The `box-sizing` property can be used to adjust this behavior:
 
@@ -165,4 +165,4 @@ div {
 
 ## See also
 
-- [CSS box model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction)
+- [CSS box model](/css/guides/Box_model/Introduction)

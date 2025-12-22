@@ -9,7 +9,7 @@ sidebar: cssref
 **Specificity** is the algorithm used by browsers to determine the [CSS declaration](/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS#css_syntax_basics) that is the most relevant to an element, which in turn, determines the property value to apply to the element. The specificity algorithm calculates the weight of a [CSS selector](/en-US/docs/Web/CSS/Reference#selectors) to determine which rule from competing CSS declarations gets applied to an element.
 
 > [!NOTE]
-> Browsers consider specificity **after** determining [cascade origin and importance](/en-US/docs/Web/CSS/Guides/Cascade/Introduction). In other words, for competing property declarations, specificity is relevant and compared only between selectors from the one [cascade origin and layer](/en-US/docs/Web/CSS/Reference/At-rules/@layer) that has precedence for the property. [Scoping proximity](/en-US/docs/Web/CSS/Reference/At-rules/@scope#how_scope_conflicts_are_resolved) and order of appearance become relevant when the selector specificities of the competing declarations in the cascade layer with precedence are equal.
+> Browsers consider specificity **after** determining [cascade origin and importance](/css/guides/Cascade/Introduction). In other words, for competing property declarations, specificity is relevant and compared only between selectors from the one [cascade origin and layer](/en-US/docs/Web/CSS/Reference/At-rules/@layer) that has precedence for the property. [Scoping proximity](/en-US/docs/Web/CSS/Reference/At-rules/@scope#how_scope_conflicts_are_resolved) and order of appearance become relevant when the selector specificities of the competing declarations in the cascade layer with precedence are equal.
 
 ## How is specificity calculated?
 
@@ -168,7 +168,7 @@ div:not(.inner, #fakeId) p {
 
 In the above CSS code block, we have included `#fakeId` in the selectors. This `#fakeId` adds `1-0-0` to the specificity weight of each paragraph.
 
-When creating complex selector lists with [CSS nesting](/en-US/docs/Web/CSS/Guides/Nesting) this behaves in exactly the same way as the `:is()` pseudo-class.
+When creating complex selector lists with [CSS nesting](/css/guides/Nesting) this behaves in exactly the same way as the `:is()` pseudo-class.
 
 ```css
 p,
@@ -213,7 +213,7 @@ Make sure to include a comment with every inclusion of the important flag so cod
 
 ### The `!important` exception
 
-CSS declarations marked as important override any other declarations within the same cascade layer and origin. Although technically, [`!important`](/en-US/docs/Web/CSS/Reference/Values/important) has nothing to do with specificity, it interacts directly with specificity and the cascade. It reverses the [cascade](/en-US/docs/Web/CSS/Guides/Cascade/Introduction) order of stylesheets.
+CSS declarations marked as important override any other declarations within the same cascade layer and origin. Although technically, [`!important`](/css/reference/values/important) has nothing to do with specificity, it interacts directly with specificity and the cascade. It reverses the [cascade](/css/guides/Cascade/Introduction) order of stylesheets.
 
 If declarations from the same origin and cascade layer conflict and one property value has the `!important` flag set, the important declaration is applied no matter the specificity. When conflicting declarations from the same origin and cascade layer with the `!important` flag are applied to the same element, the declaration with a greater specificity is applied.
 
@@ -460,7 +460,7 @@ When multiple declarations have equal specificity, the last declaration found in
 
 A few things to remember about specificity:
 
-1. Specificity only applies when the same element is targeted by multiple declarations in the same cascade layer or origin. Specificity only matters for declarations of the same importance and same origin and [cascade layer](/en-US/docs/Web/CSS/Reference/At-rules/@layer). If matching selectors are in different origins, the [cascade](/en-US/docs/Web/CSS/Guides/Cascade/Introduction) determines which declaration takes precedence.
+1. Specificity only applies when the same element is targeted by multiple declarations in the same cascade layer or origin. Specificity only matters for declarations of the same importance and same origin and [cascade layer](/en-US/docs/Web/CSS/Reference/At-rules/@layer). If matching selectors are in different origins, the [cascade](/css/guides/Cascade/Introduction) determines which declaration takes precedence.
 
 2. When two selectors in the same cascade layer and origin have the same specificity, scoping proximity is then calculated; the ruleset with the lowest scoping proximity wins. See [How `@scope` conflicts are resolved](/en-US/docs/Web/CSS/Reference/At-rules/@scope#how_scope_conflicts_are_resolved) for more details and an example.
 
@@ -476,17 +476,17 @@ A few things to remember about specificity:
 
 ## See also
 
-- [CSS cascading and inheritance](/en-US/docs/Web/CSS/Guides/Cascade) module
+- [CSS cascading and inheritance](/css/guides/Cascade) module
 - [Learn: Handling conflicts](/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts#specificity_2)
 - [Learn: Cascade layers](/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers)
-- [CSS syntax](/en-US/docs/Web/CSS/Guides/Syntax) module
-- [Introduction to CSS syntax: declarations, rulesets, and statements](/en-US/docs/Web/CSS/Guides/Syntax/Introduction)
-- [CSS error handling](/en-US/docs/Web/CSS/Guides/Syntax/Error_handling)
-- [At-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules)
-- [Inheritance](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance)
-- Values: [initial](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value), [computed](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value), [used](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value), and [actual](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#actual_value)
-- [Value definition syntax](/en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax)
-- [CSS nesting](/en-US/docs/Web/CSS/Guides/Nesting) module
+- [CSS syntax](/css/guides/Syntax) module
+- [Introduction to CSS syntax: declarations, rulesets, and statements](/css/guides/Syntax/Introduction)
+- [CSS error handling](/css/guides/Syntax/Error_handling)
+- [At-rules](/css/guides/Syntax/At-rules)
+- [Inheritance](/css/guides/Cascade/Inheritance)
+- Values: [initial](/css/guides/Cascade/Property_value_processing#initial_value), [computed](/css/guides/Cascade/Property_value_processing#computed_value), [used](/css/guides/Cascade/Property_value_processing#used_value), and [actual](/css/guides/Cascade/Property_value_processing#actual_value)
+- [Value definition syntax](/css/guides/Values_and_units/Value_definition_syntax)
+- [CSS nesting](/css/guides/Nesting) module
 - [Specificity Calculator](https://specificity.keegan.st/) by Keegan Street: An interactive website to test and understand your own CSS rules
 - [SpeciFISHity](https://specifishity.com/) on specifishity.com: A fun way to learn about CSS specificity
 - [_ID-CLASS-TYPE_ exercise](https://estelle.github.io/CSS/selectors/exercises/specificity.html): A specificity quiz by Estelle Weyl

@@ -20,9 +20,9 @@ toZonedDateTime(timeZone, options)
 
 - `timeZone`
   - : Either a string or a {{jsxref("Temporal.ZonedDateTime")}} instance representing the time zone to use. If a `Temporal.ZonedDateTime` instance, its time zone is used. If a string, it can be a named time zone identifier, an offset time zone identifier, or a date-time string containing a time zone identifier or an offset (see [time zones and offsets](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime#time_zones_and_offsets) for more information).
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the following property:
-    - `disambiguation` {{optional_inline}}
+    - `disambiguation` <Badge type="info" text="Optional" />
       - : A string specifying what to do when this plain time corresponds to zero or more than one instants in the time zone, usually because of daylight saving time shifts. Possible values are `"compatible"`, `"earlier"`, `"later"`, and `"reject"`. Defaults to `"compatible"`. For more information about these values, see [ambiguity and gaps from local time to UTC time](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime#ambiguity_and_gaps_from_local_time_to_utc_time).
 
 ### Return value

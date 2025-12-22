@@ -177,4 +177,4 @@ row-gap: unset;
 
 - {{CSSxRef("column-gap")}}
 - {{CSSxRef("gap")}}
-- [Basic concepts of grid layout: gutters](/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts#gutters)
+- [Basic concepts of grid layout: gutters](/css/guides/Grid_layout/Basic_concepts#gutters)

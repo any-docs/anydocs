@@ -33,7 +33,7 @@ yield* expression
 
 ### Parameters
 
-- `expression` {{optional_inline}}
+- `expression` <Badge type="info" text="Optional" />
   - : An iterable object.
 
 ### Return value

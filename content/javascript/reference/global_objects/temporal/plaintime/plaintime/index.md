@@ -27,17 +27,17 @@ new Temporal.PlainTime(hour, minute, second, millisecond, microsecond, nanosecon
 
 ### Parameters
 
-- `hour` {{optional_inline}}
+- `hour` <Badge type="info" text="Optional" />
   - : A number, truncated to an integer, representing the hour component.
-- `minute` {{optional_inline}}
+- `minute` <Badge type="info" text="Optional" />
   - : A number, truncated to an integer, representing the minute component.
-- `second` {{optional_inline}}
+- `second` <Badge type="info" text="Optional" />
   - : A number, truncated to an integer, representing the second component.
-- `millisecond` {{optional_inline}}
+- `millisecond` <Badge type="info" text="Optional" />
   - : A number, truncated to an integer, representing the millisecond component.
-- `microsecond` {{optional_inline}}
+- `microsecond` <Badge type="info" text="Optional" />
   - : A number, truncated to an integer, representing the microsecond component.
-- `nanosecond` {{optional_inline}}
+- `nanosecond` <Badge type="info" text="Optional" />
   - : A number, truncated to an integer, representing the nanosecond component.
 
 ### Return value

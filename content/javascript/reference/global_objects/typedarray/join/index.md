@@ -33,7 +33,7 @@ join(separator)
 
 ### Parameters
 
-- `separator` {{optional_inline}}
+- `separator` <Badge type="info" text="Optional" />
   - : A string to separate each pair of adjacent elements of the typed array. If omitted, the typed array elements are separated with a comma (",").
 
 ### Return value

@@ -7,7 +7,7 @@ spec-urls: https://drafts.csswg.org/css-env-1
 sidebar: cssref
 ---
 
-The **CSS environment variables** module defines the concept of environment variables and the {{cssxref("env")}} function. Environment variables work similarly to [custom properties](/en-US/docs/Web/CSS/Reference/Properties/--*) and the {{cssxref("var")}} function, except that they are globally defined; they are global variables scoped to the entire document. They are user agent values, provided by the browser or operating system, you can access using the {{cssxref("env")}} function enabling you to adapt your styles to the user's device or context.
+The **CSS environment variables** module defines the concept of environment variables and the {{cssxref("env")}} function. Environment variables work similarly to [custom properties](/css/reference/properties/--*) and the {{cssxref("var")}} function, except that they are globally defined; they are global variables scoped to the entire document. They are user agent values, provided by the browser or operating system, you can access using the {{cssxref("env")}} function enabling you to adapt your styles to the user's device or context.
 
 Environment variables provide values that can be used on the page based on information the user agent has access to, such as the size of the titlebar, dynamic keyboard, and safe area insets. Safe area insets define a rectangle that is guaranteed to be visible on non-rectangular displays, based on its distance from the edges of the viewport. You can include the user-agent sizes in your styles, enabling you to modify the layout of essential content based on the available space inside the safe area rectangle, next to a visible dynamic keyboard, or adjacent to a visible title bar.
 
@@ -19,17 +19,17 @@ Environment variables provide values that can be used on the page based on infor
 
 ### Data types
 
-- [`<environment-variable-name>`](/en-US/docs/Web/CSS/Guides/Environment_variables/Using#browser-defined_environment_variables)
+- [`<environment-variable-name>`](/css/guides/Environment_variables/Using#browser-defined_environment_variables)
 
 ## Guides
 
-- [Using environment variables](/en-US/docs/Web/CSS/Guides/Environment_variables/Using)
+- [Using environment variables](/css/guides/Environment_variables/Using)
   - : An overview of what environment variables are, browser-defined environment variables, and how to use the `env()` function.
 
 ## Related concepts
 
-- [CSS media queries](/en-US/docs/Web/CSS/Guides/Media_queries) module
-- [custom properties](/en-US/docs/Web/CSS/Reference/Properties/--*)
+- [CSS media queries](/css/guides/Media_queries) module
+- [custom properties](/css/reference/properties/--*)
 - {{cssxref("var")}}
 - {{domxref("VirtualKeyboard")}} interface
 - [`display_override`](/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/display_override) manifest field
@@ -41,6 +41,6 @@ Environment variables provide values that can be used on the page based on infor
 
 ## See also
 
-- [CSS value functions](/en-US/docs/Web/CSS/Reference/Values/Functions) guide
-- [CSS properties and values API](/en-US/docs/Web/CSS/Guides/Properties_and_values_API) module
-- [CSS custom properties for cascading variables](/en-US/docs/Web/CSS/Guides/Cascading_variables) module
+- [CSS value functions](/css/reference/values/Functions) guide
+- [CSS properties and values API](/css/guides/Properties_and_values_API) module
+- [CSS custom properties for cascading variables](/css/guides/Cascading_variables) module

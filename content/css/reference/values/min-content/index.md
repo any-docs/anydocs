@@ -98,4 +98,4 @@ grid-template-columns: 200px 1fr min-content;
 ## See also
 
 - Related sizing keywords: {{cssxref("max-content")}}, {{cssxref("fit-content")}}
-- [CSS box sizing](/en-US/docs/Web/CSS/Guides/Box_sizing) module
+- [CSS box sizing](/css/guides/Box_sizing) module

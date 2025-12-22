@@ -6,7 +6,7 @@ browser-compat: css.properties.border-right-color
 sidebar: cssref
 ---
 
-The **`border-right-color`** [CSS](/en-US/docs/Web/CSS) property sets the color of an element's right [border](/en-US/docs/Web/CSS/Reference/Properties/border). It can also be set with the shorthand CSS properties {{cssxref("border-color")}} or {{cssxref("border-right")}}.
+The **`border-right-color`** [CSS](/en-US/docs/Web/CSS) property sets the color of an element's right [border](/css/reference/properties/border). It can also be set with the shorthand CSS properties {{cssxref("border-color")}} or {{cssxref("border-right")}}.
 
 {{InteractiveExample("CSS Demo: border-right-color")}}
 
@@ -129,4 +129,4 @@ The `border-right-color` property is specified as a single value.
 - The border-related CSS shorthand properties: {{cssxref("border")}}, {{cssxref("border-right")}}, and {{cssxref("border-color")}}.
 - The color-related CSS properties for the other borders: {{cssxref("border-left-color")}}, {{cssxref("border-bottom-color")}}, and {{cssxref("border-top-color")}}.
 - The other border-related CSS properties applying to the same border: {{cssxref("border-right-style")}} and {{cssxref("border-right-width")}}.
-- The default [`currentColor`](/en-US/docs/Web/CSS/Reference/Values/color_value#currentcolor_keyword) color value.
+- The default [`currentColor`](/css/reference/values/color_value#currentcolor_keyword) color value.

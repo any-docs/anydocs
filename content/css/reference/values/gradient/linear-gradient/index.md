@@ -6,7 +6,7 @@ browser-compat: css.types.gradient.linear-gradient
 sidebar: cssref
 ---
 
-The **`linear-gradient()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the {{cssxref("gradient")}} data type, which is a special kind of {{cssxref("image")}}.
+The **`linear-gradient()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the {{cssxref("gradient")}} data type, which is a special kind of {{cssxref("image")}}.
 
 {{InteractiveExample("CSS Demo: linear-gradient()")}}
 
@@ -107,7 +107,7 @@ linear-gradient(45deg, red 0 50%, blue 50% 100%)
 
 ## Description
 
-As with any gradient, a linear gradient has [no intrinsic dimensions](/en-US/docs/Web/CSS/Reference/Values/image#description); i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element it applies to.
+As with any gradient, a linear gradient has [no intrinsic dimensions](/css/reference/values/image#description); i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element it applies to.
 
 To create a linear gradient that repeats to fill its container, use the {{cssxref("gradient/repeating-linear-gradient", "repeating-linear-gradient()")}} function instead.
 
@@ -228,7 +228,7 @@ div {
 }
 ```
 
-In this example for interpolation, [hsl](/en-US/docs/Web/CSS/Reference/Values/color_value/hsl) color system is being used and [hue](/en-US/docs/Web/CSS/Reference/Values/hue) is being interpolated.
+In this example for interpolation, [hsl](/css/reference/values/color_value/hsl) color system is being used and [hue](/css/reference/values/hue) is being interpolated.
 
 ```css
 .shorter {
@@ -240,7 +240,7 @@ In this example for interpolation, [hsl](/en-US/docs/Web/CSS/Reference/Values/co
 }
 ```
 
-The box on the top uses [shorter interpolation](/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method#shorter), meaning color goes straight from red to blue using the shorter arc on [color wheel](/en-US/docs/Glossary/Color_wheel). The box on the bottom uses [longer interpolation](/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method#longer), meaning the color goes from red to blue using the longer arc, traversing through greens, yellows, and oranges.
+The box on the top uses [shorter interpolation](/css/reference/values/hue-interpolation-method#shorter), meaning color goes straight from red to blue using the shorter arc on [color wheel](/en-US/docs/Glossary/Color_wheel). The box on the bottom uses [longer interpolation](/css/reference/values/hue-interpolation-method#longer), meaning the color goes from red to blue using the longer arc, traversing through greens, yellows, and oranges.
 
 {{EmbedLiveSample("Interpolating with hue", 120, 120)}}
 
@@ -272,7 +272,7 @@ body {
 
 ### More linear-gradient examples
 
-Please see [using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients) for more examples.
+Please see [using CSS gradients](/css/guides/Images/Using_gradients) for more examples.
 
 ## Specifications
 
@@ -284,9 +284,9 @@ Please see [using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradien
 
 ## See also
 
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
+- [Using CSS gradients](/css/guides/Images/Using_gradients)
 - Other gradient functions: {{cssxref("gradient/repeating-linear-gradient", "repeating-linear-gradient()")}}, {{cssxref("gradient/radial-gradient", "radial-gradient()")}}, {{cssxref("gradient/repeating-radial-gradient", "repeating-radial-gradient()")}}, {{cssxref("gradient/conic-gradient", "conic-gradient()")}}, {{cssxref("gradient/repeating-conic-gradient", "repeating-conic-gradient()")}}
 - {{cssxref("hue-interpolation-method")}}
 - {{cssxref("color-interpolation-method")}}
 - {{cssxref("image")}}
-- [CSS images module](/en-US/docs/Web/CSS/Guides/Images)
+- [CSS images module](/css/guides/Images)

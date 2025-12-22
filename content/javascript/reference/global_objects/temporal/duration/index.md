@@ -18,7 +18,7 @@ The **`Temporal.Duration`** object represents a difference between two time poin
 ±P nY nM nW nD T nH nM nS
 ```
 
-- `±` {{optional_inline}}
+- `±` <Badge type="info" text="Optional" />
   - : An optional sign character (`+` or `-`), which represents positive or negative duration. Default is positive.
 - `P`
   - : A literal character `P` or `p` that stands for "period".

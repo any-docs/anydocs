@@ -9,7 +9,7 @@ browser-compat: css.at-rules.custom-media
 
 {{CSSRef}}{{SeeCompatTable}}
 
-The **`@custom-media`** CSS [at-rule](/en-US/docs/Web/CSS/Reference/At-rules) defines aliases for long or complex [media queries](/en-US/docs/Web/CSS/Guides/Media_queries). Instead of repeating the same hardcoded `<media-query-list>` in multiple {{cssxref("@media")}} at-rules, it can be defined once in a `@custom-media` at-rule and referenced throughout the stylesheet whenever needed.
+The **`@custom-media`** CSS [at-rule](/en-US/docs/Web/CSS/Reference/At-rules) defines aliases for long or complex [media queries](/css/guides/Media_queries). Instead of repeating the same hardcoded `<media-query-list>` in multiple {{cssxref("@media")}} at-rules, it can be defined once in a `@custom-media` at-rule and referenced throughout the stylesheet whenever needed.
 
 ## Syntax
 
@@ -236,4 +236,4 @@ The initial definition of `--mobile-breakpoint` is overridden and therefore igno
 - CSS {{cssxref("@media")}} at-rule
 - CSS {{cssxref("@import")}} at-rule
 - [Responsive design](/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design)
-- [CSS media queries](/en-US/docs/Web/CSS/Guides/Media_queries) module
+- [CSS media queries](/css/guides/Media_queries) module

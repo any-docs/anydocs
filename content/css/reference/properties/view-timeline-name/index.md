@@ -6,7 +6,7 @@ browser-compat: css.properties.view-timeline-name
 sidebar: cssref
 ---
 
-The **`view-timeline-name`** [CSS](/en-US/docs/Web/CSS) property specifies the names of one or more [named view progress timelines](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#named_view_progress_timeline) associated with the element.
+The **`view-timeline-name`** [CSS](/en-US/docs/Web/CSS) property specifies the names of one or more [named view progress timelines](/css/guides/Scroll-driven_animations/Timelines#named_view_progress_timeline) associated with the element.
 
 ## Syntax
 
@@ -37,9 +37,9 @@ view-timeline-name: unset;
 
 ## Description
 
-The `view-timeline-name` property is used to set the name of a [view progress timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#view_progress_timelines). A view progress timeline is progressed through based on the change in visibility of an element, called the _subject_, inside a scrollable element, called the _scroller_. The `view-timeline-name` property is set on the subject. You can also set `view-timeline-name` by using the {{cssxref("view-timeline")}} shorthand property.
+The `view-timeline-name` property is used to set the name of a [view progress timeline](/css/guides/Scroll-driven_animations/Timelines#view_progress_timelines). A view progress timeline is progressed through based on the change in visibility of an element, called the _subject_, inside a scrollable element, called the _scroller_. The `view-timeline-name` property is set on the subject. You can also set `view-timeline-name` by using the {{cssxref("view-timeline")}} shorthand property.
 
-If the subject's named scroller element does not overflow its container in the [axis dimension](/en-US/docs/Web/CSS/Reference/Properties/view-timeline-axis) or if the overflow is hidden or clipped, no scroll progress timeline will be created.
+If the subject's named scroller element does not overflow its container in the [axis dimension](/css/reference/properties/view-timeline-axis) or if the overflow is hidden or clipped, no scroll progress timeline will be created.
 
 Once created, the `<dashed-ident>` name values specified can be referenced in {{cssxref("animation-timeline")}} declarations to indicate the element that will be animated as the timeline progresses.
 
@@ -189,6 +189,6 @@ Scroll to see the subject element being animated.
 
 - {{cssxref("animation-timeline")}}
 - {{cssxref("view-timeline")}}
-- [Scroll-driven animation timelines](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines)
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module
+- [Scroll-driven animation timelines](/css/guides/Scroll-driven_animations/Timelines)
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module
+- [CSS animations](/css/guides/Animations) module

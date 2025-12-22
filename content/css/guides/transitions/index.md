@@ -47,11 +47,11 @@ In certain cases, there is no originating "from" value for a transition. For exa
 
 ## Guides
 
-- [Using CSS transitions](/en-US/docs/Web/CSS/Guides/Transitions/Using)
+- [Using CSS transitions](/css/guides/Transitions/Using)
   - : Step-by-step tutorial explaining how to create transitions using CSS. This article describes each relevant CSS property and explains how they interact with each other.
-- [Animating `display`](/en-US/docs/Web/CSS/Reference/Properties/display#animating_display)
+- [Animating `display`](/css/reference/properties/display#animating_display)
   - : Transitioning to and from the `none` value of the discretely animated {{cssxref("display")}} property.
-- [Transitioning a popover](/en-US/docs/Web/CSS/Reference/Properties/overlay#transitioning_a_popover) and [transitioning a `<dialog>`](/en-US/docs/Web/HTML/Reference/Elements/dialog#transitioning_dialog_elements)
+- [Transitioning a popover](/css/reference/properties/overlay#transitioning_a_popover) and [transitioning a `<dialog>`](/en-US/docs/Web/HTML/Reference/Elements/dialog#transitioning_dialog_elements)
   - : Examples of transitioning from {{cssxref("@starting-style")}} to final {{cssxref(":popover-open")}} and {{cssxref(":open")}} pseudo-class styles.
 
 ## Related concepts
@@ -60,10 +60,10 @@ In certain cases, there is no originating "from" value for a transition. For exa
 - {{cssxref("calc-size()")}} function
 - {{Glossary("Intrinsic size")}} glossary term
 
-- [CSS easing functions](/en-US/docs/Web/CSS/Guides/Easing_functions) module:
+- [CSS easing functions](/css/guides/Easing_functions) module:
   - {{cssxref("easing-function")}} data-type
 
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module:
+- [CSS animations](/css/guides/Animations) module:
   - {{cssxref("animation")}} shorthand
   - {{cssxref("animation-delay")}}
   - {{cssxref("animation-direction")}}
@@ -74,13 +74,13 @@ In certain cases, there is no originating "from" value for a transition. For exa
   - {{cssxref("animation-play-state")}}
   - {{cssxref("animation-timing-function")}}
 
-- [CSS transforms](/en-US/docs/Web/CSS/Guides/Transforms) module:
+- [CSS transforms](/css/guides/Transforms) module:
   - {{cssxref("transform")}}
   - {{cssxref("transform-box")}}
   - {{cssxref("transform-origin")}}
   - {{cssxref("transform-style")}}
 
-- [CSS scroll snap](/en-US/docs/Web/CSS/Guides/Scroll_snap) module:
+- [CSS scroll snap](/css/guides/Scroll_snap) module:
   - {{cssxref("scroll-snap-type")}}
   - {{cssxref("scroll-padding")}}
   - {{cssxref("scroll-snap-align")}}

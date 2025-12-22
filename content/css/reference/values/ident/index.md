@@ -6,7 +6,7 @@ spec-urls: https://drafts.csswg.org/css-values/#typedef-ident
 sidebar: cssref
 ---
 
-The **`<ident>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) denotes an arbitrary string used as an {{glossary("identifier")}}.
+The **`<ident>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) denotes an arbitrary string used as an {{glossary("identifier")}}.
 
 ## Syntax
 
@@ -70,5 +70,5 @@ _As this type is not a real type but a convenience type used to simplify the def
 
 ## See also
 
-- [&lt;custom-ident&gt;](/en-US/docs/Web/CSS/Reference/Values/custom-ident)
-- [&lt;dashed-ident&gt;](/en-US/docs/Web/CSS/Reference/Values/dashed-ident)
+- [&lt;custom-ident&gt;](/css/reference/values/custom-ident)
+- [&lt;dashed-ident&gt;](/css/reference/values/dashed-ident)

@@ -6,7 +6,7 @@ browser-compat: css.types.abs
 sidebar: cssref
 ---
 
-The **`abs()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) returns the absolute value of the argument, as the same type as the input.
+The **`abs()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) returns the absolute value of the argument, as the same type as the input.
 
 ## Syntax
 

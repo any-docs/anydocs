@@ -34,7 +34,7 @@ setUTCSeconds(secondsValue, msValue)
 
 - `secondsValue`
   - : An integer between 0 and 59 representing the seconds.
-- `msValue` {{optional_inline}}
+- `msValue` <Badge type="info" text="Optional" />
   - : An integer between 0 and 999 representing the milliseconds.
 
 ### Return value

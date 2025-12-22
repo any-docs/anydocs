@@ -6,7 +6,7 @@ browser-compat: css.types.resolution
 sidebar: cssref
 ---
 
-The **`<resolution>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types), used for describing [resolutions](/en-US/docs/Web/CSS/Reference/At-rules/@media/resolution) in [media queries](/en-US/docs/Web/CSS/Guides/Media_queries), denotes the pixel density of an output device, i.e., its resolution.
+The **`<resolution>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types), used for describing [resolutions](/en-US/docs/Web/CSS/Reference/At-rules/@media/resolution) in [media queries](/css/guides/Media_queries), denotes the pixel density of an output device, i.e., its resolution.
 
 On screens, the units are related to _CSS_ inches, centimeters, or pixels, not physical values.
 
@@ -21,7 +21,7 @@ The `<resolution>` data type consists of a strictly positive {{cssxref("&lt;numb
 - `dpcm`
   - : Represents the number of [dots per centimeter](https://en.wikipedia.org/wiki/Dots_per_inch). As 1 inch is 2.54 cm, `1dpcm ≈ 2.54dpi`.
 - `dppx`
-  - : Represents the number of dots per [`px`](/en-US/docs/Web/CSS/Reference/Values/length#px) unit. Due to the 1:96 fixed ratio of CSS `in` to CSS `px`, `1dppx` is equivalent to `96dpi`, which corresponds to the default resolution of images displayed in CSS as defined by {{cssxref("image-resolution")}}.
+  - : Represents the number of dots per [`px`](/css/reference/values/length#px) unit. Due to the 1:96 fixed ratio of CSS `in` to CSS `px`, `1dppx` is equivalent to `96dpi`, which corresponds to the default resolution of images displayed in CSS as defined by {{cssxref("image-resolution")}}.
 - `x`
   - : Alias for `dppx`.
 
@@ -78,4 +78,4 @@ ten dpi    The number must use digits only.
 
 - [resolution](/en-US/docs/Web/CSS/Reference/At-rules/@media/resolution) media feature
 - The {{cssxref("image-resolution")}} property
-- [Using @media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+- [Using @media queries](/css/guides/Media_queries/Using)

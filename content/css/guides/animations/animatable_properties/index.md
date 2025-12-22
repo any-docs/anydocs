@@ -6,7 +6,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-[CSS Animations](/en-US/docs/Web/CSS/Guides/Animations) and [Transitions](/en-US/docs/Web/CSS/Guides/Transitions) rely on the concept of **animatable** properties, and all CSS properties are animatable unless otherwise specified. Each property's _animation type_ determines how values [combine](https://drafts.csswg.org/css-values/#combining-values) - interpolate, add, or accumulate - for this property. Transitions only involve interpolation, whereas animations may use all three combination methods.
+[CSS Animations](/css/guides/Animations) and [Transitions](/css/guides/Transitions) rely on the concept of **animatable** properties, and all CSS properties are animatable unless otherwise specified. Each property's _animation type_ determines how values [combine](https://drafts.csswg.org/css-values/#combining-values) - interpolate, add, or accumulate - for this property. Transitions only involve interpolation, whereas animations may use all three combination methods.
 
 > [!NOTE]
 > The animation type for each CSS property is listed in its "Formal definition" table (E.g., {{CSSXref("color", "", "#formal_definition")}}).
@@ -47,6 +47,6 @@ For unregistered custom properties, the animation type is discrete.
 
 - {{cssxref("transition-behavior")}}
 - {{cssxref("@starting-style")}}
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module
-- [Using CSS Animations](/en-US/docs/Web/CSS/Guides/Animations/Using)
-- [Using CSS Transitions](/en-US/docs/Web/CSS/Guides/Transitions/Using)
+- [CSS animations](/css/guides/Animations) module
+- [Using CSS Animations](/css/guides/Animations/Using)
+- [Using CSS Transitions](/css/guides/Transitions/Using)

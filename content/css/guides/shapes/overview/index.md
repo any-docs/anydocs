@@ -6,7 +6,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-The [CSS Shapes module](/en-US/docs/Web/CSS/Guides/Shapes) describes geometric shapes in CSS. This article provides an overview of how you can use shapes to wrap text around floated elements that are not necessarily rectangular.
+The [CSS Shapes module](/css/guides/Shapes) describes geometric shapes in CSS. This article provides an overview of how you can use shapes to wrap text around floated elements that are not necessarily rectangular.
 
 When you float an item left, text will wrap around the right and bottom of the item in a rectangular fashion. With CSS shapes you can, for example, apply a circle shape, and the text will wrap around the line of the circle.
 
@@ -77,7 +77,7 @@ Three of these functions only define rectangles. With the `inset()` function, yo
 
 We have already seen how `circle()` creates a circular shape. An `ellipse()` is essentially a squashed circle. If none of these basic shapes do the trick you can create more complex shapes using the `polygon()` function, which allows the definition of a series of lines. The `path()` and `shape()` functions can be used to create ANY shape via a series of line, curve, and move commands.
 
-In our [Guide to Basic Shapes](/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside) we explore each of the possible Basic Shapes and how to create them.
+In our [Guide to Basic Shapes](/css/guides/Shapes/Using_shape-outside) we explore each of the possible Basic Shapes and how to create them.
 
 ### Shapes from the box value
 
@@ -126,7 +126,7 @@ body {
 
 {{EmbedLiveSample("box", "", "320px")}}
 
-To explore the box values in more detail, see our guide covering [Shapes from box values](/en-US/docs/Web/CSS/Guides/Shapes/From_box_values).
+To explore the box values in more detail, see our guide covering [Shapes from box values](/css/guides/Shapes/From_box_values).
 
 ### Shapes from images
 
@@ -218,7 +218,7 @@ body {
 
 {{EmbedLiveSample("threshold", "", "280px")}}
 
-To learn more about creating shapes from images, see the [Shapes from images](/en-US/docs/Web/CSS/Guides/Shapes/From_images) guide.
+To learn more about creating shapes from images, see the [Shapes from images](/css/guides/Shapes/From_images) guide.
 
 ## The `shape-margin` property
 
@@ -345,4 +345,4 @@ There is a [Shape Path Editor](https://firefox-source-docs.mozilla.org/devtools-
 
 ## More CSS Shapes Features
 
-In this guide, we discussed wrapping text around floated shapes. See the [CSS shapes module](/en-US/docs/Web/CSS/Guides/Shapes) for links to all the module features plus additional related features. This includes all the shape functions and relevant guides.
+In this guide, we discussed wrapping text around floated shapes. See the [CSS shapes module](/css/guides/Shapes) for links to all the module features plus additional related features. This includes all the shape functions and relevant guides.

@@ -6,7 +6,7 @@ browser-compat: css.properties.mask-border-outset
 sidebar: cssref
 ---
 
-The **`mask-border-outset`** [CSS](/en-US/docs/Web/CSS) property specifies the distance by which an element's [mask border](/en-US/docs/Web/CSS/Reference/Properties/mask-border) is set out from its border box.
+The **`mask-border-outset`** [CSS](/en-US/docs/Web/CSS) property specifies the distance by which an element's [mask border](/css/reference/properties/mask-border) is set out from its border box.
 
 ## Syntax
 

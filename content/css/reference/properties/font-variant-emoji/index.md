@@ -138,10 +138,10 @@ This example shows how you can render an emoji in its `text` or `emoji` presenta
 
 ## See also
 
-- [font-variant](/en-US/docs/Web/CSS/Reference/Properties/font-variant)
-- [font-variant-alternates](/en-US/docs/Web/CSS/Reference/Properties/font-variant-alternates)
-- [font-variant-caps](/en-US/docs/Web/CSS/Reference/Properties/font-variant-caps)
-- [font-variant-east-asian](/en-US/docs/Web/CSS/Reference/Properties/font-variant-east-asian)
-- [font-variant-ligatures](/en-US/docs/Web/CSS/Reference/Properties/font-variant-ligatures)
-- [font-variant-numeric](/en-US/docs/Web/CSS/Reference/Properties/font-variant-numeric)
+- [font-variant](/css/reference/properties/font-variant)
+- [font-variant-alternates](/css/reference/properties/font-variant-alternates)
+- [font-variant-caps](/css/reference/properties/font-variant-caps)
+- [font-variant-east-asian](/css/reference/properties/font-variant-east-asian)
+- [font-variant-ligatures](/css/reference/properties/font-variant-ligatures)
+- [font-variant-numeric](/css/reference/properties/font-variant-numeric)
 - [Emojis and accessibility: How to use them properly](https://uxdesign.cc/emojis-in-accessibility-how-to-use-them-properly-66b73986b803)

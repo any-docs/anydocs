@@ -22,15 +22,15 @@ Uint8Array.fromBase64(string, options)
 
 - `string`
   - : A base64 string encoding bytes to convert to a `Uint8Array`. The string must only contain characters in the base64 alphabet, which includes A–Z, a–z, 0–9, and two special characters, which are either `+` and `/` (if using `alphabet: "base64"` in `options`) or `-` and `_` (if using `alphabet: "base64url"` in `options`). It may have padding `=` characters at the end. Any ASCII white space characters within the string are ignored.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object customizing the base64 string interpretation process. It can contain the following properties:
-    - `alphabet` {{optional_inline}}
+    - `alphabet` <Badge type="info" text="Optional" />
       - : A string specifying the base64 alphabet to use. It can be one of the following:
         - `"base64"` (default)
           - : Accept input encoded with the standard base64 alphabet, which uses `+` and `/`.
         - `"base64url"`
           - : Accept input encoded with the URL-safe base64 alphabet, which uses `-` and `_`.
-    - `lastChunkHandling` {{optional_inline}}
+    - `lastChunkHandling` <Badge type="info" text="Optional" />
       - : A string specifying how to handle the last chunk of the base64 string. Because every 4 characters in base64 encodes 3 bytes, the string is separated into chunks of 4 characters. If the last chunk has fewer than 4 characters, it needs to be handled differently. It can be one of the following:
         - `"loose"` (default)
           - : The last chunk can either be 2 or 3 base64 characters, or exactly 4 characters long with padding `=` characters. The last chunk is decoded and appended to the result.

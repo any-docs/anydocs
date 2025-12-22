@@ -33,13 +33,13 @@ JSON.parse(text, reviver)
 
 - `text`
   - : The string to parse as JSON. See the {{jsxref("JSON")}} object for a description of JSON syntax.
-- `reviver` {{optional_inline}}
+- `reviver` <Badge type="info" text="Optional" />
   - : If a function, this prescribes how each value originally produced by parsing is transformed before being returned. Non-callable values are ignored. The function is called with the following arguments:
     - `key`
       - : The key associated with the value.
     - `value`
       - : The value produced by parsing.
-    - `context` {{optional_inline}}
+    - `context` <Badge type="info" text="Optional" />
       - : A context object that holds state relevant to the current expression being revived. It is a new object for each invocation of the reviver function. It is only passed when reviving primitive values, but not when `value` is an object or array. It contains the following property:
         - `source`
           - : The original JSON string representing this value.

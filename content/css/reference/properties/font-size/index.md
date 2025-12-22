@@ -80,10 +80,10 @@ font-size: unset;
 ### Values
 
 - `xx-small`, `x-small`, `small`, `medium`, `large`, `x-large`, `xx-large`, `xxx-large`
-  - : [Absolute-size](/en-US/docs/Web/CSS/Reference/Values/absolute-size) keywords, based on the user's default font size (which is `medium`).
+  - : [Absolute-size](/css/reference/values/absolute-size) keywords, based on the user's default font size (which is `medium`).
 
 - `larger`, `smaller`
-  - : [Relative-size](/en-US/docs/Web/CSS/Reference/Values/relative-size) keywords. The font will be larger or smaller relative to the parent element's font size, roughly by the ratio used to separate the absolute-size keywords above.
+  - : [Relative-size](/css/reference/values/relative-size) keywords. The font will be larger or smaller relative to the parent element's font size, roughly by the ratio used to separate the absolute-size keywords above.
 
 - {{cssxref("&lt;length&gt;")}}
   - : A positive {{cssxref("&lt;length&gt;")}} value. For most font-relative units (such as `em` and `ex`), the font size is relative to the parent element's font size.
@@ -97,7 +97,7 @@ font-size: unset;
 
 - `math`
   - : [Scaling rules](https://w3c.github.io/mathml-core/#the-math-script-level-property) are applied when determining the computed value of the `font-size` property for math elements relative to the `font-size` of the containing parent.
-    See the [math-depth](/en-US/docs/Web/CSS/Reference/Properties/math-depth) property for more information.
+    See the [math-depth](/css/reference/properties/math-depth) property for more information.
 
 ## Description
 

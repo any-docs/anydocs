@@ -14,7 +14,7 @@ The inline formatting context is part of the visual rendering of a web page. Inl
 - In a horizontal writing mode, boxes are laid out horizontally, starting on the left.
 - In a vertical writing mode they would be laid out vertically starting at the top.
 
-In the example below, the two {{HTMLElement("div")}} elements with the black borders are part of a [block formatting context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context), while inside each box, the words participate in an inline formatting context. The words in the horizontal writing mode run horizontally, while words in the vertical writing mode run vertically.
+In the example below, the two {{HTMLElement("div")}} elements with the black borders are part of a [block formatting context](/css/guides/Display/Block_formatting_context), while inside each box, the words participate in an inline formatting context. The words in the horizontal writing mode run horizontally, while words in the vertical writing mode run vertically.
 
 ```html live-sample___inline
 <div class="example horizontal">One Two Three</div>
@@ -107,7 +107,7 @@ span {
 {{EmbedLiveSample("mbp", "", "340px")}}
 
 > [!NOTE]
-> I am using the logical, flow-relative properties — {{cssxref("padding-inline-start")}} rather than {{cssxref("padding-left")}} — so that they work in the inline dimension whether the text is horizontal or vertical. Read more about these properties in [Logical Properties and Values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values).
+> I am using the logical, flow-relative properties — {{cssxref("padding-inline-start")}} rather than {{cssxref("padding-left")}} — so that they work in the inline dimension whether the text is horizontal or vertical. Read more about these properties in [Logical Properties and Values](/css/guides/Logical_properties_and_values).
 
 ## Alignment in the block direction
 
@@ -226,5 +226,5 @@ body {
 
 ## See also
 
-- [Block formatting context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context)
-- [Visual formatting model](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model)
+- [Block formatting context](/css/guides/Display/Block_formatting_context)
+- [Visual formatting model](/css/guides/Display/Visual_formatting_model)

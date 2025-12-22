@@ -31,7 +31,7 @@ The sub-properties of the {{cssxref("animation")}} property are:
 - {{cssxref("animation-fill-mode")}}
   - : Specifies how an animation applies styles to its target before and after it runs.
     > [!NOTE]
-    > In the case of animation [forwards](/en-US/docs/Web/CSS/Reference/Properties/animation-fill-mode#forwards) fill mode, animated properties behave as if included in a set {{cssxref("will-change")}} property value. If a new stacking context was created during the animation, the target element retains the stacking context after the animation has finished.
+    > In the case of animation [forwards](/css/reference/properties/animation-fill-mode#forwards) fill mode, animated properties behave as if included in a set {{cssxref("will-change")}} property value. If a new stacking context was created during the animation, the target element retains the stacking context after the animation has finished.
 - {{cssxref("animation-iteration-count")}}
   - : Specifies the number of times an animation should repeat.
 - {{cssxref("animation-name")}}
@@ -401,7 +401,7 @@ And here's the live output.
 
 This example demonstrates how {{cssxref("display")}} and {{cssxref("content-visibility")}} can be animated. This behavior is useful for creating entry/exit animations where you want to for example remove a container from the DOM with `display: none`, but have it fade out smoothly with {{cssxref("opacity")}} rather than disappearing immediately.
 
-Supporting browsers animate `display` and `content-visibility` with a variation on the [discrete animation type](/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties#discrete). This generally means that properties will flip between two values 50% of the way through animating between the two.
+Supporting browsers animate `display` and `content-visibility` with a variation on the [discrete animation type](/css/guides/Animations/Animatable_properties#discrete). This generally means that properties will flip between two values 50% of the way through animating between the two.
 
 There is an exception, however, which is when animating to/from `display: none` or `content-visibility: hidden` to a visible value. In this case, the browser will flip between the two values so that the animated content is shown for the entire animation duration.
 
@@ -521,7 +521,7 @@ The code renders as follows:
 
 ## See also
 
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module
+- [CSS animations](/css/guides/Animations) module
 - {{domxref("AnimationEvent", "AnimationEvent")}}
-- [Using CSS transitions](/en-US/docs/Web/CSS/Guides/Transitions/Using)
+- [Using CSS transitions](/css/guides/Transitions/Using)
 - [Using the Web Animations API](/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API)

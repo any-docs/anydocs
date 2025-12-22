@@ -23,9 +23,9 @@ Temporal.PlainDateTime.from(info, options)
     - A {{jsxref("Temporal.PlainDateTime")}} instance, which creates a copy of the instance.
     - An [RFC 9557](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime#rfc_9557_format) string containing a date, optionally a time, and optionally a calendar.
     - An object containing properties that are recognized by either {{jsxref("Temporal/PlainDate/from", "Temporal.PlainDate.from()")}} (`calendar`, `era`, `eraYear`, `year`, `month`, `monthCode`, `day`) or {{jsxref("Temporal/PlainTime/from", "Temporal.PlainTime.from()")}} (`hour`, `minute`, `second`, `millisecond`, `microsecond`, `nanosecond`). The info should explicitly specify a year (as `year` or `era` and `eraYear`), a month (as `month` or `monthCode`), and a day; others are optional and will be set to their default values.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the following property:
-    - `overflow` {{optional_inline}}
+    - `overflow` <Badge type="info" text="Optional" />
       - : A string specifying the behavior when a date component is out of range (when using the object `info`). Possible values are:
         - `"constrain"` (default)
           - : The date component is [clamped](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate#invalid_date_clamping) to the valid range.

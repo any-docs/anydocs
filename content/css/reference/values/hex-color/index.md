@@ -6,7 +6,7 @@ browser-compat: css.types.color.rgb_hexadecimal_notation
 sidebar: cssref
 ---
 
-The **`<hex-color>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) is a notation for describing the _hexadecimal color syntax_ of an [sRGB](/en-US/docs/Glossary/RGB) color using its primary color components (red, green, blue) written as hexadecimal numbers, as well as its transparency.
+The **`<hex-color>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) is a notation for describing the _hexadecimal color syntax_ of an [sRGB](/en-US/docs/Glossary/RGB) color using its primary color components (red, green, blue) written as hexadecimal numbers, as well as its transparency.
 
 A `<hex-color>` value can be used everywhere where a {{cssxref("&lt;color&gt;")}} can be used.
 
@@ -27,7 +27,7 @@ A `<hex-color>` value can be used everywhere where a {{cssxref("&lt;color&gt;")}
   - : The _green_ component of the color, as a case-insensitive hexadecimal number between `0` and `ff` (255). If there is only one number, it is duplicated: `c` means `cc`.
 - `B` or `BB`
   - : The _blue_ component of the color, as a case-insensitive hexadecimal number between `0` and `ff` (255). If there is only one number, it is duplicated: `9` means `99`.
-- `A` or `AA` {{optional_inline}}
+- `A` or `AA` <Badge type="info" text="Optional" />
   - : The _alpha_ component of the color, indicating its transparency, as a case-insensitive hexadecimal number between `0` and `ff` (255). If there is only one number, it is duplicated: `e` means `ee`. `0`, or `00`, represents a fully transparent color, and `f`, or `ff`, a fully opaque one.
 
 > [!NOTE]
@@ -113,5 +113,5 @@ div {
 
 - {{cssxref("&lt;color&gt;")}} data type
 - {{cssxref("named-color")}} data-type
-- [`rgb()`](/en-US/docs/Web/CSS/Reference/Values/color_value/rgb) color function
-- [CSS color](/en-US/docs/Web/CSS/Guides/Colors) module
+- [`rgb()`](/css/reference/values/color_value/rgb) color function
+- [CSS color](/css/guides/Colors) module

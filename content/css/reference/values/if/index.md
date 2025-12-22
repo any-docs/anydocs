@@ -10,7 +10,7 @@ sidebar: cssref
 
 {{SeeCompatTable}}
 
-The **`if()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) allows different values to be set for a property depending on the result of a conditional test. The test can be based on a [style query](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries#container_style_queries), a [media query](/en-US/docs/Web/CSS/Guides/Media_queries/Using), or a [feature query](/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries).
+The **`if()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) allows different values to be set for a property depending on the result of a conditional test. The test can be based on a [style query](/css/guides/Containment/Container_size_and_style_queries#container_style_queries), a [media query](/css/guides/Media_queries/Using), or a [feature query](/css/guides/Conditional_rules/Using_feature_queries).
 
 ## Syntax
 
@@ -60,7 +60,7 @@ The parameter is a semi-colon–separated list of `<if-branch>`es. Each `<if-bra
 - `<if-condition>`
   - : An `<if-test>` or the `else` keyword.
     - `<if-test>`
-      - : A [style query](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries#container_style_queries), [media query](/en-US/docs/Web/CSS/Guides/Media_queries/Using), or [feature query](/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries).
+      - : A [style query](/css/guides/Containment/Container_size_and_style_queries#container_style_queries), [media query](/css/guides/Media_queries/Using), or [feature query](/css/guides/Conditional_rules/Using_feature_queries).
 
     - `else`
       - : A keyword representing an `<if-condition>` that always evaluates to true.
@@ -82,7 +82,7 @@ The return value is calculated as follows:
 
 1. The `<if-condition>` expressions are evaluated, in the order they appear in the function.
 2. The first `<if-condition>` that evaluates to `true` has its associated `<value>` returned.
-3. If no `<if-condition>` evaluates to `true`, the function returns a {{glossary("guaranteed_invalid_value", "&lt;guaranteed-invalid&gt:")}}. This behaves as invalid or `false` if the `if()` function is used in a value statement that has a fallback, such as a [custom property](/en-US/docs/Web/CSS/Reference/Properties/--*) or an {{cssxref("anchor()")}} function.
+3. If no `<if-condition>` evaluates to `true`, the function returns a {{glossary("guaranteed_invalid_value", "&lt;guaranteed-invalid&gt:")}}. This behaves as invalid or `false` if the `if()` function is used in a value statement that has a fallback, such as a [custom property](/css/reference/properties/--*) or an {{cssxref("anchor()")}} function.
 
 For example:
 
@@ -96,7 +96,7 @@ div {
 }
 ```
 
-In this case, we are setting a different {{cssxref("linear-gradient()")}} as the {{cssxref("background-image")}} on {{htmlelement("div")}} elements, depending on whether a `--scheme` [custom property](/en-US/docs/Web/CSS/Reference/Properties/--*) is set to `ice` or `fire`. If `--scheme` doesn't exist, or it exists and is set to any other value, the `else` value comes into play, and the `background-image` property is set to `none`.
+In this case, we are setting a different {{cssxref("linear-gradient()")}} as the {{cssxref("background-image")}} on {{htmlelement("div")}} elements, depending on whether a `--scheme` [custom property](/css/reference/properties/--*) is set to `ice` or `fire`. If `--scheme` doesn't exist, or it exists and is set to any other value, the `else` value comes into play, and the `background-image` property is set to `none`.
 
 > [!NOTE]
 > Each condition must be separated from its associated value with a colon, and each `<if-condition> : <value>` pair must be separated with a semi-colon. The semi-colon is optional for the last `<if-condition> : <value>` pair.
@@ -150,7 +150,7 @@ An `<if-test>` accepts one of three query types. This section looks at each one 
 
 #### Style queries
 
-A [style query](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries#container_style_queries) `<if-test>` allows you to test whether a particular property value is set on an element, and apply a value to a different property as a result. We walked through several style query examples earlier on; let's look at another example:
+A [style query](/css/guides/Containment/Container_size_and_style_queries#container_style_queries) `<if-test>` allows you to test whether a particular property value is set on an element, and apply a value to a different property as a result. We walked through several style query examples earlier on; let's look at another example:
 
 ```css
 background-image: if(
@@ -191,7 +191,7 @@ if(
 
 #### Media queries
 
-A [media query](/en-US/docs/Web/CSS/Guides/Media_queries/Using) `<if-test>` can be used to set a value for a property depending on whether a media query test returns true.
+A [media query](/css/guides/Media_queries/Using) `<if-test>` can be used to set a value for a property depending on whether a media query test returns true.
 
 You can use media types. For example, the following `<if-test> : <value>` pair returns a value of `white` on print media, while the `else` clause causes `#eeeeee` to be returned on non-print media.
 
@@ -234,7 +234,7 @@ When you want to set multiple declarations or rules based on one media query, a 
 
 #### Feature queries
 
-A [feature query](/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries) `<if-test>` can be used to set a value for a property depending on whether the browser supports a particular property value.
+A [feature query](/css/guides/Conditional_rules/Using_feature_queries) `<if-test>` can be used to set a value for a property depending on whether the browser supports a particular property value.
 
 For example, the following returns an {{cssxref("color_value/lch()")}} color if `lch()` colors are supported, or an {{cssxref("color_value/rgb()")}} color if not:
 
@@ -362,7 +362,7 @@ Our HTML features a {{htmlelement("section")}} element with two {{htmlelement("a
 
 #### CSS
 
-In our CSS, we first target the `<section>` element, laying it out with [flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) and setting a {{cssxref("gap")}} between the two child `<article>` elements. We then use an `if()` function with an [`orientation`](/en-US/docs/Web/CSS/Reference/At-rules/@media/orientation) media query `<if-test>` to set the value of the {{cssxref("flex-direction")}} property to `row` if the document is in landscape orientation, or `column` if it is in portrait orientation. This lays out the `article` elements side-by-side in wide screens, and top-to-bottom in narrow screens.
+In our CSS, we first target the `<section>` element, laying it out with [flexbox](/css/guides/Flexible_box_layout) and setting a {{cssxref("gap")}} between the two child `<article>` elements. We then use an `if()` function with an [`orientation`](/en-US/docs/Web/CSS/Reference/At-rules/@media/orientation) media query `<if-test>` to set the value of the {{cssxref("flex-direction")}} property to `row` if the document is in landscape orientation, or `column` if it is in portrait orientation. This lays out the `article` elements side-by-side in wide screens, and top-to-bottom in narrow screens.
 
 ```css hidden live-sample___basic
 html {
@@ -397,7 +397,7 @@ section {
 }
 ```
 
-Next, we target the `<h2>` element's {{cssxref("::before")}} pseudo-element, setting its {{cssxref("content")}} property to an apple emoji, but only if `--show-apple: true` is set (we did this earlier with an inline {{htmlelement("style")}} in our HTML). We achieve this using an `if()` function with a [style query](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries#style_queries_for_custom_properties) `<if-test>`:
+Next, we target the `<h2>` element's {{cssxref("::before")}} pseudo-element, setting its {{cssxref("content")}} property to an apple emoji, but only if `--show-apple: true` is set (we did this earlier with an inline {{htmlelement("style")}} in our HTML). We achieve this using an `if()` function with a [style query](/css/guides/Containment/Container_size_and_style_queries#style_queries_for_custom_properties) `<if-test>`:
 
 ```css live-sample___basic
 h2::before {
@@ -605,7 +605,7 @@ Try selecting different color scheme values to see the effect on the look and fe
 
 ## See also
 
-- [Container style queries](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries#container_style_queries)
-- [Media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
-- [Feature queries](/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries)
-- [CSS values and units module](/en-US/docs/Web/CSS/Guides/Values_and_units)
+- [Container style queries](/css/guides/Containment/Container_size_and_style_queries#container_style_queries)
+- [Media queries](/css/guides/Media_queries/Using)
+- [Feature queries](/css/guides/Conditional_rules/Using_feature_queries)
+- [CSS values and units module](/css/guides/Values_and_units)

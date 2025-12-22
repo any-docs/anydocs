@@ -6,7 +6,7 @@ browser-compat: css.types.transform-function.skew
 sidebar: cssref
 ---
 
-The **`skew()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) defines a transformation that skews an element on the 2D
+The **`skew()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) defines a transformation that skews an element on the 2D
 plane. Its result is a {{cssxref("&lt;transform-function&gt;")}} data type.
 
 {{InteractiveExample("CSS Demo: skew()")}}
@@ -56,13 +56,13 @@ skew(ax, ay)
 
 - `ax`
   - : Is an {{cssxref("angle")}} representing the angle to use to distort the element along the x-axis.
-- `ay` {{optional_inline}}
+- `ay` <Badge type="info" text="Optional" />
   - : Is an {{cssxref("angle")}} representing the angle to use to distort the element along the y-axis. If not defined, its default value is `0`, resulting in a purely horizontal skewing.
 
 <table class="standard-table">
   <thead>
     <tr>
-      <th scope="col"><a href="/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
+      <th scope="col"><a href="/css/reference/values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
       <th scope="col"><a href="https://en.wikipedia.org/wiki/Homogeneous_coordinates">Homogeneous coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_projective_plane">ℝℙ^2</a></th>
       <th scope="col">Cartesian coordinates on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^3</a></th>
       <th scope="col">Homogeneous coordinates on <a href="https://en.wikipedia.org/wiki/Real_projective_space">ℝℙ^3</a></th>
@@ -179,8 +179,8 @@ div {
 
 - {{cssxref("transform")}}
 - {{cssxref("&lt;transform-function&gt;")}}
-- [skewX()](/en-US/docs/Web/CSS/Reference/Values/transform-function/skewX)
-- [skewY()](/en-US/docs/Web/CSS/Reference/Values/transform-function/skewY)
+- [skewX()](/css/reference/values/transform-function/skewX)
+- [skewY()](/css/reference/values/transform-function/skewY)
 - Individual transform properties:
   - {{cssxref("translate")}}
   - {{cssxref("scale")}}

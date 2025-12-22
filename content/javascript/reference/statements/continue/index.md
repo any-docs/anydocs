@@ -31,7 +31,7 @@ continue;
 continue label;
 ```
 
-- `label` {{optional_inline}}
+- `label` <Badge type="info" text="Optional" />
   - : Identifier associated with the label of the statement.
 
 ## Description

@@ -6,7 +6,7 @@ browser-compat: css.types.gradient.conic-gradient
 sidebar: cssref
 ---
 
-The **`conic-gradient()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) creates an image consisting of a gradient with color transitions rotated around a center point (rather than radiating from the center). Example conic gradients include pie charts and {{glossary("color wheel", "color wheels")}}. The result of the `conic-gradient()` function is an object of the {{cssxref("gradient")}} data type, which is a special kind of {{cssxref("image")}}.
+The **`conic-gradient()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) creates an image consisting of a gradient with color transitions rotated around a center point (rather than radiating from the center). Example conic gradients include pie charts and {{glossary("color wheel", "color wheels")}}. The result of the `conic-gradient()` function is an object of the {{cssxref("gradient")}} data type, which is a special kind of {{cssxref("image")}}.
 
 {{InteractiveExample("CSS Demo: conic-gradient()")}}
 
@@ -97,11 +97,11 @@ conic-gradient(
   - : An {{Glossary("interpolation")}} hint defining how the gradient progresses between adjacent color stops. The length defines at which point between two color stops the gradient color should reach the midpoint of the color transition. If omitted, the midpoint of the color transition is the midpoint between two color stops.
 
 > [!NOTE]
-> Rendering of color stops in conic gradients follows the same rules as [color stops in linear gradients](/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient#composition_of_a_linear_gradient).
+> Rendering of color stops in conic gradients follows the same rules as [color stops in linear gradients](/css/reference/values/gradient/linear-gradient#composition_of_a_linear_gradient).
 
 ## Description
 
-As with any gradient, a conic gradient has [no intrinsic dimensions](/en-US/docs/Web/CSS/Reference/Values/image#description); i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element it applies to, or the size of the `<image>` if it is set to something other than the element size.
+As with any gradient, a conic gradient has [no intrinsic dimensions](/css/reference/values/image#description); i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element it applies to, or the size of the `<image>` if it is set to something other than the element size.
 
 To create a conic gradient that repeats so as to fill a 360 degree rotation, use the {{CSSxRef("gradient/repeating-conic-gradient", "repeating-conic-gradient()")}} function instead.
 
@@ -116,7 +116,7 @@ The conic-gradient syntax is similar to the radial-gradient syntax, but the colo
 
 ![color stops along the circumference of a conic gradient and the axis of a radial gradient.](screenshot_2018-11-29_21.09.19.png)
 
-A conic gradient is specified by indicating a rotation angle, the center of the gradient, and then specifying a list of color-stops. Unlike linear and radial gradients, whose color-stops are placed by specifying a {{cssxref("length")}}, the color-stops of a conic gradient are specified with an [angle](/en-US/docs/Web/CSS/Reference/Values/angle). Units include `deg` for degrees, `grad` for gradians, `rad` for radians, and `turn` for turns. There are 360 degrees, 400 gradians, 2π radians, and 1 turn in a circle. Browsers supporting conic gradients also accept percent values, with 100% equaling 360 degrees, but this is not in the specification.
+A conic gradient is specified by indicating a rotation angle, the center of the gradient, and then specifying a list of color-stops. Unlike linear and radial gradients, whose color-stops are placed by specifying a {{cssxref("length")}}, the color-stops of a conic gradient are specified with an [angle](/css/reference/values/angle). Units include `deg` for degrees, `grad` for gradians, `rad` for radians, and `turn` for turns. There are 360 degrees, 400 gradians, 2π radians, and 1 turn in a circle. Browsers supporting conic gradients also accept percent values, with 100% equaling 360 degrees, but this is not in the specification.
 
 Similar to radial gradients, the conic gradient syntax provides for positioning the center of the gradient anywhere within, or even outside, the image. The values for the position are similar to the syntax for 2-value background-position.
 
@@ -294,7 +294,7 @@ div {
 }
 ```
 
-In this example for interpolation [hsl](/en-US/docs/Web/CSS/Reference/Values/color_value/hsl) color system is being used and [hue](/en-US/docs/Web/CSS/Reference/Values/hue) is being interpolated.
+In this example for interpolation [hsl](/css/reference/values/color_value/hsl) color system is being used and [hue](/css/reference/values/hue) is being interpolated.
 
 ```css
 .shorter {
@@ -306,13 +306,13 @@ In this example for interpolation [hsl](/en-US/docs/Web/CSS/Reference/Values/col
 }
 ```
 
-The box on the left uses [shorter interpolation](/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method#shorter), meaning color goes straight from red to blue using the shorter arc on the [color wheel](/en-US/docs/Glossary/Color_wheel). The box on the right uses [longer interpolation](/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method#longer), meaning the color goes from red to blue using the longer arc, traversing through greens, yellows, and oranges.
+The box on the left uses [shorter interpolation](/css/reference/values/hue-interpolation-method#shorter), meaning color goes straight from red to blue using the shorter arc on the [color wheel](/en-US/docs/Glossary/Color_wheel). The box on the right uses [longer interpolation](/css/reference/values/hue-interpolation-method#longer), meaning the color goes from red to blue using the longer arc, traversing through greens, yellows, and oranges.
 
 {{EmbedLiveSample("Interpolating with hue", 240, 200)}}
 
 ### More conic-gradient examples
 
-Please see [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients) for more examples.
+Please see [Using CSS gradients](/css/guides/Images/Using_gradients) for more examples.
 
 ## Specifications
 
@@ -324,7 +324,7 @@ Please see [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradien
 
 ## See also
 
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
+- [Using CSS gradients](/css/guides/Images/Using_gradients)
 - Other gradient functions: {{cssxref("gradient/repeating-conic-gradient", "repeating-conic-gradient()")}}, {{cssxref("gradient/linear-gradient", "linear-gradient()")}}, {{cssxref("gradient/repeating-linear-gradient", "repeating-linear-gradient()")}}, {{cssxref("gradient/radial-gradient", "radial-gradient()")}}, {{cssxref("gradient/repeating-radial-gradient", "repeating-radial-gradient()")}}
 - {{cssxref("hue-interpolation-method")}}
 - {{cssxref("color-interpolation-method")}}

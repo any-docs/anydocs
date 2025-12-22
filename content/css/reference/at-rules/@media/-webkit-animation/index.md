@@ -12,7 +12,7 @@ sidebar: cssref
 {{Non-standard_header}}{{Deprecated_Header}}
 
 > [!NOTE]
-> All browsers support the [`animation`](/en-US/docs/Web/CSS/Reference/Properties/animation#browser_compatibility) property without vendor prefixes. Only WebKit (Safari), and not Chromium, based browsers supports the `-webkit-animation` media feature. No browsers support `animation`, without the prefix, as a media query. Use the [`@supports (animation)`](/en-US/docs/Web/CSS/Reference/At-rules/@supports) feature query instead.
+> All browsers support the [`animation`](/css/reference/properties/animation#browser_compatibility) property without vendor prefixes. Only WebKit (Safari), and not Chromium, based browsers supports the `-webkit-animation` media feature. No browsers support `animation`, without the prefix, as a media query. Use the [`@supports (animation)`](/en-US/docs/Web/CSS/Reference/At-rules/@supports) feature query instead.
 
 The **`-webkit-animation`** Boolean [CSS](/en-US/docs/Web/CSS) [media feature](/en-US/docs/Web/CSS/Reference/At-rules/@media#media_features) is a [WebKit extension](/en-US/docs/Web/CSS/Reference/Webkit_extensions) whose value is `true` if vendor-prefixed CSS {{cssxref("animation")}}s are supported.
 
@@ -56,6 +56,6 @@ Not part of any standard.
 - [`-webkit-transform-2d`](/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-transform-2d)
 - [`-webkit-transition`](/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-transition)
 - [Test page at quirksmode.org](https://www.quirksmode.org/css/tests/mediaqueries/animation.html)
-- {{cssxref("animation")}} and [using CSS animations](/en-US/docs/Web/CSS/Guides/Animations/Using)
-- {{cssxref("@media")}} and [Using media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
-- {{cssxref("@supports")}} and [using feature queries](/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries)
+- {{cssxref("animation")}} and [using CSS animations](/css/guides/Animations/Using)
+- {{cssxref("@media")}} and [Using media queries](/css/guides/Media_queries/Using)
+- {{cssxref("@supports")}} and [using feature queries](/css/guides/Conditional_rules/Using_feature_queries)

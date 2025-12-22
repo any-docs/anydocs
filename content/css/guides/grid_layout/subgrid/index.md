@@ -6,17 +6,17 @@ browser-compat: css.properties.grid-template-columns.subgrid
 sidebar: cssref
 ---
 
-The [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) module includes a `subgrid` value for {{cssxref("grid-template-columns")}} and {{cssxref("grid-template-rows")}}. This guide details what subgrid does and gives some use cases and design patterns that the feature solves.
+The [CSS grid layout](/css/guides/Grid_layout) module includes a `subgrid` value for {{cssxref("grid-template-columns")}} and {{cssxref("grid-template-rows")}}. This guide details what subgrid does and gives some use cases and design patterns that the feature solves.
 
 ## Introduction to subgrid
 
-When you add [`display: grid`](/en-US/docs/Web/CSS/Reference/Properties/display) to a grid container, only the direct children become grid items, which can then be placed on the grid you created. The children of these items display in normal flow.
+When you add [`display: grid`](/css/reference/properties/display) to a grid container, only the direct children become grid items, which can then be placed on the grid you created. The children of these items display in normal flow.
 
 You can "nest" grids by making a grid item a grid container. These grids, however, are independent of the parent grid and of each other, meaning that they do not take their track sizing from the parent grid. This makes it difficult to line nested grid items up with the main grid.
 
 If you set the value `subgrid` on `grid-template-columns`, `grid-template-rows` or both, instead of creating a new track listing, the nested grid uses the tracks defined on the parent.
 
-For example, if you use `grid-template-columns: subgrid` and the nested grid spans three column tracks of the parent, the nested grid will have three column tracks of the same size as the parent grid. While [gaps](/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts#gutters) are inherited, they can be overridden with a different {{cssxref("gap")}} value. [Line names](/en-US/docs/Web/CSS/Guides/Grid_layout/Named_grid_lines) can be passed from the parent into the subgrid, and the subgrid can also declare its own line names.
+For example, if you use `grid-template-columns: subgrid` and the nested grid spans three column tracks of the parent, the nested grid will have three column tracks of the same size as the parent grid. While [gaps](/css/guides/Grid_layout/Basic_concepts#gutters) are inherited, they can be overridden with a different {{cssxref("gap")}} value. [Line names](/css/guides/Grid_layout/Named_grid_lines) can be passed from the parent into the subgrid, and the subgrid can also declare its own line names.
 
 ## Subgrid for columns
 
@@ -409,7 +409,7 @@ If you inspect this in your developer tools grid inspector, you will note that t
 
 ## Named grid lines
 
-When using CSS grid, you can [name lines on your grid](/en-US/docs/Web/CSS/Guides/Grid_layout/Named_grid_lines) and then position items based on those names rather than the line number. The line names on the parent grid are passed into the subgrid, and you can place items using them. In the example below, the named lines of the parent `col-start` and `col-end` are used to place the subitem.
+When using CSS grid, you can [name lines on your grid](/css/guides/Grid_layout/Named_grid_lines) and then position items based on those names rather than the line number. The line names on the parent grid are passed into the subgrid, and you can place items using them. In the example below, the named lines of the parent `col-start` and `col-end` are used to place the subitem.
 
 ```html live-sample___line-names
 <div class="grid">

@@ -6,7 +6,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-Any [at-rule](/en-US/docs/Web/CSS/Guides/Syntax/At-rules) whose body contains style rules can be nested inside another style rule using CSS nesting. Style rules nested inside at-rules take their nesting selector definition from the nearest ancestor style rule. Properties can be directly included inside a nested at-rule, acting as if they were nested in a `& {...}` block.
+Any [at-rule](/css/guides/Syntax/At-rules) whose body contains style rules can be nested inside another style rule using CSS nesting. Style rules nested inside at-rules take their nesting selector definition from the nearest ancestor style rule. Properties can be directly included inside a nested at-rule, acting as if they were nested in a `& {...}` block.
 
 ## at-rules that can be nested
 
@@ -145,8 +145,8 @@ Here the `.foo` selector assigns its rules to the **base** `@layer`. The nested 
 
 ## See also
 
-- [CSS Nesting](/en-US/docs/Web/CSS/Guides/Nesting) module
+- [CSS Nesting](/css/guides/Nesting) module
 - [`&` nesting selector](/en-US/docs/Web/CSS/Reference/Selectors/Nesting_selector)
-- [Using CSS nesting](/en-US/docs/Web/CSS/Guides/Nesting/Using)
-- [Nesting and specificity](/en-US/docs/Web/CSS/Guides/Nesting/Nesting_and_specificity)
-- [Nesting container queries](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries#nested_queries)
+- [Using CSS nesting](/css/guides/Nesting/Using)
+- [Nesting and specificity](/css/guides/Nesting/Nesting_and_specificity)
+- [Nesting container queries](/css/guides/Containment/Container_size_and_style_queries#nested_queries)

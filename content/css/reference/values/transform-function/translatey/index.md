@@ -6,7 +6,7 @@ browser-compat: css.types.transform-function.translateY
 sidebar: cssref
 ---
 
-The **`translateY()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) repositions an element vertically on the 2D plane. Its result
+The **`translateY()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) repositions an element vertically on the 2D plane. Its result
 is a {{cssxref("&lt;transform-function&gt;")}} data type.
 
 {{InteractiveExample("CSS Demo: translateY()")}}
@@ -70,13 +70,13 @@ transform: translateY(50%);
 
 - `<length-percentage>`
   - : The value is a {{cssxref("&lt;length&gt;")}} or {{cssxref("&lt;percentage&gt;")}} representing the ordinate (vertical, y-coordinate) of the
-    translating vector [0, ty]. In [Cartesian coordinate system](/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates) it represents shift along y-axis. A percentage value refers to the height of the reference box defined by the
+    translating vector [0, ty]. In [Cartesian coordinate system](/css/reference/values/transform-function#cartesian_coordinates) it represents shift along y-axis. A percentage value refers to the height of the reference box defined by the
     {{cssxref("transform-box")}} property.
 
 <table class="standard-table">
   <thead>
     <tr>
-      <th scope="col"><a href="/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
+      <th scope="col"><a href="/css/reference/values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
       <th scope="col"><a href="https://en.wikipedia.org/wiki/Homogeneous_coordinates">Homogeneous coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_projective_plane">ℝℙ^2</a></th>
       <th scope="col">Cartesian coordinates on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^3</a></th>
       <th scope="col">Homogeneous coordinates on <a href="https://en.wikipedia.org/wiki/Real_projective_space">ℝℙ^3</a></th>

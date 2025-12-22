@@ -37,7 +37,7 @@ The specification also defines the `initial-letter-align`, `initial-letter-wrap`
 
 ## Guides
 
-- [Inline formatting context](/en-US/docs/Web/CSS/Guides/Inline_layout/Inline_formatting_context)
+- [Inline formatting context](/css/guides/Inline_layout/Inline_formatting_context)
   - : Explains the inline formatting context.
 
 ## Related concepts
@@ -55,6 +55,6 @@ The specification also defines the `initial-letter-align`, `initial-letter-wrap`
 
 ## See also
 
-- [CSS text](/en-US/docs/Web/CSS/Guides/Text) module
-- [CSS fonts](/en-US/docs/Web/CSS/Guides/Fonts) module
-- [CSS writing modes](/en-US/docs/Web/CSS/Guides/Writing_modes) module
+- [CSS text](/css/guides/Text) module
+- [CSS fonts](/css/guides/Fonts) module
+- [CSS writing modes](/css/guides/Writing_modes) module

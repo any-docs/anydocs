@@ -20,7 +20,7 @@ Error.captureStackTrace(object, constructor)
 
 - `object`
   - : The object on which to add the `stack` property.
-- `constructor` {{optional_inline}}
+- `constructor` <Badge type="info" text="Optional" />
   - : A function, typically the constructor where the `object` was created. When collecting the stack trace, all frames above the topmost call to this function, including that call, are left out of the stack trace.
 
 ### Return value

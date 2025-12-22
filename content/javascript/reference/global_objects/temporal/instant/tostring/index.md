@@ -18,15 +18,15 @@ toString(options)
 
 ### Parameters
 
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing some or all of the following properties (in the order they are retrieved and validated):
-    - `fractionalSecondDigits` {{optional_inline}}
+    - `fractionalSecondDigits` <Badge type="info" text="Optional" />
       - : Either an integer from 0 to 9, or the string `"auto"`. The default is `"auto"`. If `"auto"`, then trailing zeros are removed from the fractional seconds. Otherwise, the fractional part of the second component contains this many digits, padded with zeros or rounded as necessary.
-    - `roundingMode` {{optional_inline}}
+    - `roundingMode` <Badge type="info" text="Optional" />
       - : A string specifying how to round off fractional second digits beyond `fractionalSecondDigits`. See [`Intl.NumberFormat()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat#roundingmode). Defaults to `"trunc"`.
-    - `smallestUnit` {{optional_inline}}
+    - `smallestUnit` <Badge type="info" text="Optional" />
       - : A string specifying the smallest unit to include in the output. Possible values are `"minute"`, `"second"`, `"millisecond"`, `"microsecond"`, and `"nanosecond"`, or their plural forms, which (except `"minute"`) are equivalent to `fractionalSecondDigits` values of `0`, `3`, `6`, `9`, respectively. If specified, then `fractionalSecondDigits` is ignored.
-    - `timeZone` {{optional_inline}}
+    - `timeZone` <Badge type="info" text="Optional" />
       - : Either a string or a {{jsxref("Temporal.ZonedDateTime")}} instance representing the time zone to use. If a `Temporal.ZonedDateTime` instance, its time zone is used. If a string, it can be a named time zone identifier, an offset time zone identifier, or a date-time string containing a time zone identifier or an offset (see [time zones and offsets](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime#time_zones_and_offsets) for more information). Defaults to `"UTC"`.
 
 ### Return value

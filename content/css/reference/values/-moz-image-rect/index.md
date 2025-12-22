@@ -36,7 +36,7 @@ The **`-moz-image-rect`** value for [CSS](/en-US/docs/Web/CSS) {{CSSxRef("backgr
 
 This property allows you to, for example, use different parts of one larger image as backgrounds in different parts of your content.
 
-The syntax for the rectangle is similar to the [`rect()`](/en-US/docs/Web/CSS/Reference/Values/shape#syntax) function generating a {{CSSxRef("&lt;shape&gt;")}} CSS type. All four values are relative to the upper left corner of the image.
+The syntax for the rectangle is similar to the [`rect()`](/css/reference/values/shape#syntax) function generating a {{CSSxRef("&lt;shape&gt;")}} CSS type. All four values are relative to the upper left corner of the image.
 
 ## Examples
 
@@ -168,4 +168,4 @@ Not part of any standard.
 ## See also
 
 - [Mozilla CSS extensions](/en-US/docs/Web/CSS/Reference/Mozilla_extensions)
-- [CSS Backgrounds and Borders module](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders)
+- [CSS Backgrounds and Borders module](/css/guides/Backgrounds_and_borders)

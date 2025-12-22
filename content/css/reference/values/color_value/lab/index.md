@@ -29,7 +29,7 @@ lab(from hsl(180 100% 50%) calc(l - 10) a b)
 
 ### Values
 
-Below are descriptions of the allowed values for both absolute and [relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors).
+Below are descriptions of the allowed values for both absolute and [relative colors](/css/guides/Colors/Using_relative_colors).
 
 #### Absolute value syntax
 
@@ -45,11 +45,11 @@ The parameters are as follows:
   - : A {{CSSXref("&lt;number&gt;")}} between `-125` and `125`, a {{CSSXref("&lt;percentage&gt;")}} between `-100%` and `100%`, or the keyword `none` (equivalent to `0%` in this case). This value specifies the color's distance along the `a` axis, which defines how green (moving towards `-125`) or red (moving towards `+125`) the color is. Note that these values are signed (allowing both positive and negative values) and theoretically unbounded, meaning that you can set values outside the `±125` (`±100%`) limits. In practice, values cannot exceed `±160`.
 - `b`
   - : A {{CSSXref("&lt;number&gt;")}} between `-125` and `125`, a {{CSSXref("&lt;percentage&gt;")}} between `-100%` and `100%`, or the keyword `none` (equivalent to `0%` in this case). This value specifies the color's distance along the `b` axis, which defines how blue (moving towards `-125`) or yellow ( moving towards `+125`) the color is. Note that these values are signed (allowing both positive and negative values) and theoretically unbounded, meaning that you can set values outside the `±125` (`±100%`) limits. In practice, values cannot exceed `±160`.
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel. If the `A` channel value is not explicitly specified, it defaults to 100%. If included, the value is preceded by a slash (`/`).
 
 > [!NOTE]
-> See [Missing color components](/en-US/docs/Web/CSS/Reference/Values/color_value#missing_color_components) for more information on the effect of `none`.
+> See [Missing color components](/css/reference/values/color_value#missing_color_components) for more information on the effect of `none`.
 
 #### Relative value syntax
 
@@ -67,7 +67,7 @@ The parameters are as follows:
   - : A {{CSSXref("&lt;number&gt;")}} between `-125` and `125`, a {{CSSXref("&lt;percentage&gt;")}} between `-100%` and `100%`, or the keyword `none` (equivalent to `0%` in this case). This value represents the output color's distance along the `a` axis, which defines how green (moving towards `-125`) or red (moving towards `+125`) the color is. Note that these values are signed (allowing both positive and negative values) and theoretically unbounded, meaning that you can set values outside the `±125` (`±100%`) limits. In practice, values cannot exceed `±160`.
 - `b`
   - : A {{CSSXref("&lt;number&gt;")}} between `-125` and `125`, a {{CSSXref("&lt;percentage&gt;")}} between `-100%` and `100%`, or the keyword `none` (equivalent to `0%` in this case). This value represents the output color's distance along the `b` axis, which defines how blue (moving towards `-125`) or yellow (moving towards `+125`) the color is. Note that these values are signed (allowing both positive and negative values) and theoretically unbounded, meaning that you can set values outside the `±125` (`±100%`) limits. In practice, values cannot exceed `±160`.
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the output color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel. If the `A` channel value is not explicitly specified, it defaults to the alpha channel value of the origin color. If included, the value is preceded by a slash (`/`).
 
 > [!NOTE]
@@ -416,7 +416,7 @@ div {
 
 This example styles three {{htmlelement("div")}} elements with different background colors. The middle one is given the unmodified `--base-color`, while the left and right ones are given lightened and darkened variants of that `--base-color`.
 
-These variants are defined using relative colors — the `--base-color` [custom property](/en-US/docs/Web/CSS/Reference/Properties/--*) is passed into a `lab()` function, and the output colors have their lightness channel modified to achieve the desired effect via a `calc()` function. The lightened color has 15% added to the lightness channel, and the darkened color has 15% subtracted from the lightness channel.
+These variants are defined using relative colors — the `--base-color` [custom property](/css/reference/properties/--*) is passed into a `lab()` function, and the output colors have their lightness channel modified to achieve the desired effect via a `calc()` function. The lightened color has 15% added to the lightness channel, and the darkened color has 15% subtracted from the lightness channel.
 
 ```html hidden
 <div id="container">
@@ -478,8 +478,8 @@ The output is as follows:
 ## See also
 
 - {{cssxref("&lt;color&gt;")}} data type
-- [`<color-function>`](/en-US/docs/Web/CSS/Guides/Colors#functions) data type
-- [Using relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors)
-- [CSS colors](/en-US/docs/Web/CSS/Guides/Colors) module
+- [`<color-function>`](/css/guides/Colors#functions) data type
+- [Using relative colors](/css/guides/Colors/Using_relative_colors)
+- [CSS colors](/css/guides/Colors) module
 - [LCH colors in CSS: what, why, and how?](https://lea.verou.me/blog/2020/04/lch-colors-in-css-what-why-and-how/) by Lea Verou (2020)
 - [Safari Technology Preview 122 release notes](https://webkit.org/blog/11577/release-notes-for-safari-technology-preview-122/): includes `lab()` and {{cssxref("color_value/lch",'lch()')}} colors

@@ -6,7 +6,7 @@ browser-compat: css.properties.contain-intrinsic-size
 sidebar: cssref
 ---
 
-The **`contain-intrinsic-size`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) sets the size of an element that a browser will use for layout when the element is subject to [size containment](/en-US/docs/Web/CSS/Guides/Containment/Using#size_containment).
+The **`contain-intrinsic-size`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/css/guides/Cascade/Shorthand_properties) sets the size of an element that a browser will use for layout when the element is subject to [size containment](/css/guides/Containment/Using#size_containment).
 
 ## Constituent properties
 
@@ -62,14 +62,14 @@ If two `auto [<length> | none]` pairs are specified, the first pair applies to t
 
 ## Description
 
-The property is commonly applied alongside elements that can trigger size containment, such as [`contain: size`](/en-US/docs/Web/CSS/Reference/Properties/contain) and {{cssxref("content-visibility")}}.
+The property is commonly applied alongside elements that can trigger size containment, such as [`contain: size`](/css/reference/properties/contain) and {{cssxref("content-visibility")}}.
 
 Size containment allows a user agent to lay out an element as though it had a fixed size, preventing unnecessary reflows by avoiding the re-rendering of child elements to determine the actual size (thereby improving user experience).
 By default, size containment treats elements as though they had no contents, and may collapse the layout in the same way as if the contents had no width or height.
 The `contain-intrinsic-size` property allows authors to specify an appropriate value to be used as the size for layout.
 
 The `auto <length>` value allows the size of the element to be stored if the element is ever "normally rendered" (with its child elements), and then used instead of the specified length when the element is skipping its contents.
-This allows offscreen elements with [`content-visibility: auto`](/en-US/docs/Web/CSS/Reference/Properties/content-visibility) to benefit from size containment without developers having to be as precise in their estimates of element size.
+This allows offscreen elements with [`content-visibility: auto`](/css/reference/properties/content-visibility) to benefit from size containment without developers having to be as precise in their estimates of element size.
 The remembered value is not used if the child elements are being rendered (if size containment is enabled, the `<length>` will be used).
 
 In grid and multi column layouts, an explicit size is treated differently than implicit content-based height.
@@ -360,6 +360,6 @@ However if the content is hidden, having a `contain-intrinsic-size` of `none` co
 
 - {{CSSxRef("contain-intrinsic-block-size")}}
 - {{CSSxRef("contain-intrinsic-inline-size")}}
-- [Using CSS containment](/en-US/docs/Web/CSS/Guides/Containment/Using)
-- [CSS containment](/en-US/docs/Web/CSS/Guides/Containment) module
+- [Using CSS containment](/css/guides/Containment/Using)
+- [CSS containment](/css/guides/Containment) module
 - [`content-visibility`: the new CSS property that boosts your rendering performance](https://web.dev/articles/content-visibility) via web.dev (2020)

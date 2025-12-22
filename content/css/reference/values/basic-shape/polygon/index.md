@@ -6,7 +6,7 @@ browser-compat: css.types.basic-shape.polygon
 sidebar: cssref
 ---
 
-The **`polygon()`** [CSS](/en-US/docs/Web/CSS) function is one of the {{cssxref("basic-shape")}} [data types](/en-US/docs/Web/CSS/Reference/Values/Data_types). It's used to draw a [polygon](https://en.wikipedia.org/wiki/Polygon) by providing one or more pairs of coordinates, each of which represents a vertex of the shape.
+The **`polygon()`** [CSS](/en-US/docs/Web/CSS) function is one of the {{cssxref("basic-shape")}} [data types](/css/reference/values/Data_types). It's used to draw a [polygon](https://en.wikipedia.org/wiki/Polygon) by providing one or more pairs of coordinates, each of which represents a vertex of the shape.
 
 {{InteractiveExample("CSS Demo: polygon()")}}
 
@@ -66,10 +66,10 @@ Note: The SVG [`<polygon>`](/en-US/docs/Web/SVG/Reference/Element/polygon) eleme
 
 ### Parameters
 
-- [`<fill-rule>`](/en-US/docs/Web/SVG/Reference/Attribute/fill-rule) {{optional_inline}}
+- [`<fill-rule>`](/en-US/docs/Web/SVG/Reference/Attribute/fill-rule) <Badge type="info" text="Optional" />
   - : An optional value of `nonzero` (the default when omitted) or `evenodd`, which specifies the filling rule.
 - {{cssxref("length-percentage")}}
-  - : Each vertex of the polygon is represented by a pair of `<length-percentage>` values, which give the x/y coordinates of the vertex relative to the shape's [reference box](/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside#the_reference_box).
+  - : Each vertex of the polygon is represented by a pair of `<length-percentage>` values, which give the x/y coordinates of the vertex relative to the shape's [reference box](/css/guides/Shapes/Using_shape-outside#the_reference_box).
 
 ### Return value
 
@@ -194,4 +194,4 @@ p {
 ## See also
 
 - Properties that use this data type: {{cssxref("clip-path")}}, {{cssxref("shape-outside")}}
-- [Guide to Basic Shapes](/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside)
+- [Guide to Basic Shapes](/css/guides/Shapes/Using_shape-outside)

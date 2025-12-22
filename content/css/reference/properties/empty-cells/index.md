@@ -157,4 +157,4 @@ th {
 
 - {{cssxref("border-collapse")}}
 - [Learn: Styling tables](/en-US/docs/Learn_web_development/Core/Styling_basics/Tables)
-- [CSS table](/en-US/docs/Web/CSS/Guides/Table) module
+- [CSS table](/css/guides/Table) module

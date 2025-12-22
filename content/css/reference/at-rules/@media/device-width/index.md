@@ -40,5 +40,5 @@ The `device-width` feature is specified as a {{cssxref("&lt;length&gt;")}} value
 
 ## See also
 
-- [Using Media Queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+- [Using Media Queries](/css/guides/Media_queries/Using)
 - [@media](/en-US/docs/Web/CSS/Reference/At-rules/@media)

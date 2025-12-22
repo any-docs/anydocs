@@ -20,13 +20,13 @@ A `PlainMonthDay` is essentially the month-day part of a {{jsxref("Temporal.Plai
 YYYY-MM-DD [u-ca=calendar_id]
 ```
 
-- `YYYY` {{optional_inline}}
+- `YYYY` <Badge type="info" text="Optional" />
   - : Either a four-digit number, or a six-digit number with a `+` or `-` sign. It is required for non-ISO calendars, and optional otherwise. If omitted, you can either replace `YYYY-` with `--` (so the string looks like `--MM-DD` or `--MMDD`), or omit the `YYYY-` part entirely (so the string looks like `MM-DD` or `MMDD`). Note that the reference year actually stored may be different from the one you provide, but the represented month-day is the same. See {{jsxref("Temporal/PlainMonthDay/from", "Temporal.PlainMonthDay.from()")}} for more information.
 - `MM`
   - : A two-digit number from `01` to `12`.
 - `DD`
   - : A two-digit number from `01` to `31`. The `YYYY`, `MM`, and `DD` components can be separated by `-` or nothing.
-- `[u-ca=calendar_id]` {{optional_inline}}
+- `[u-ca=calendar_id]` <Badge type="info" text="Optional" />
   - : Replace `calendar_id` with the calendar to use. See [`Intl.supportedValuesOf()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_calendar_types) for a list of commonly supported calendar types. Defaults to `[u-ca=iso8601]`. May have a _critical flag_ by prefixing the key with `!`: e.g., `[!u-ca=iso8601]`. This flag generally tells other systems that it cannot be ignored if they don't support it. The `Temporal` parser will throw an error if the annotations contain two or more calendar annotations and one of them is critical. Note that the `YYYY-MM-DD` is always interpreted as an ISO 8601 calendar date and then converted to the specified calendar.
 
 As an input, you may optionally include the time, offset, and time zone identifier, in the same format as [`PlainDateTime`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime#rfc_9557_format), but they will be ignored. Other annotations in the `[key=value]` format are also ignored, and they must not have the critical flag.

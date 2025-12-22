@@ -6,7 +6,7 @@ browser-compat: css.types.filter-function.grayscale
 sidebar: cssref
 ---
 
-The **`grayscale()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) converts the input image to grayscale. Its result is a {{cssxref("filter-function")}}.
+The **`grayscale()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) converts the input image to grayscale. Its result is a {{cssxref("filter-function")}}.
 
 {{InteractiveExample("CSS Demo: grayscale()")}}
 
@@ -44,7 +44,7 @@ grayscale(amount)
 
 ### Parameters
 
-- `amount` {{Optional_Inline}}
+- `amount` <Badge type="info" text="Optional" />
   - : Amount of the input image that is converted to grayscale. It is specified as a {{cssxref("&lt;number&gt;")}} or a {{cssxref("&lt;percentage&gt;")}}. A value of `100%` changes the input completely to grayscale, while a value of `0%` leaves the input unchanged. Values between `0%` and `100%` have linear multipliers on the effect. The initial value used for {{Glossary("interpolation")}} is `0`. The default value is `1`.
 
 ## Formal syntax

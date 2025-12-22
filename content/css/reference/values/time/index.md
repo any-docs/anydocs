@@ -6,7 +6,7 @@ browser-compat: css.types.time
 sidebar: cssref
 ---
 
-The **`<time>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a time value expressed in seconds or milliseconds. It is used in {{cssxref("animation")}}, {{cssxref("transition")}}, and related properties.
+The **`<time>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents a time value expressed in seconds or milliseconds. It is used in {{cssxref("animation")}}, {{cssxref("transition")}}, and related properties.
 
 ## Syntax
 
@@ -57,4 +57,4 @@ The `<time>` data type consists of a {{cssxref("&lt;number&gt;")}} followed by o
 ## See also
 
 - {{cssxref("&lt;time-percentage&gt;")}}
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS values and units](/css/guides/Values_and_units) module

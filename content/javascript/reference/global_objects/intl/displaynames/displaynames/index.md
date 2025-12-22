@@ -39,19 +39,19 @@ new Intl.DisplayNames(locales, options)
   - : A string with a {{glossary("BCP 47 language tag")}} or an {{jsxref("Intl.Locale")}} instance, or an array of such locale identifiers. The runtime's default locale is used when `undefined` is passed or when none of the specified locale identifiers is supported. For the general form and interpretation of the `locales` argument, see [the parameter description on the `Intl` main page](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#locales_argument).
 - `options`
   - : An object containing the following properties, in the order they are retrieved:
-    - `localeMatcher` {{optional_inline}}
+    - `localeMatcher` <Badge type="info" text="Optional" />
       - : The locale matching algorithm to use. Possible values are `"lookup"` and `"best fit"`; the default is `"best fit"`. For information about this option, see [Locale identification and negotiation](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#locale_identification_and_negotiation).
-    - `style` {{optional_inline}}
+    - `style` <Badge type="info" text="Optional" />
       - : The formatting style to use. Possible values are `"narrow"`, `"short"`, and `"long"`; the default is `"long"`.
     - `type`
       - : The type of display names to return from [`of()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/of). Possible values are `"language"`, `"region"`, `"script"`, `"currency"`, `"calendar"`, and `"dateTimeField"`.
-    - `fallback` {{optional_inline}}
+    - `fallback` <Badge type="info" text="Optional" />
       - : What to return from `of()` if the input is structurally valid but there's no matching display name. Possible values are:
         - `"code"` (default)
           - : Return the input code itself.
         - `"none"`
           - : Return `undefined`.
-    - `languageDisplay` {{optional_inline}}
+    - `languageDisplay` <Badge type="info" text="Optional" />
       - : How language names should be displayed. Only usable along with `type: "language"`. Possible values are:
         - `"dialect"` (default)
           - : Display special regional dialects using their own name. E.g. `"nl-BE"` will be displayed as `"Flemish"`.

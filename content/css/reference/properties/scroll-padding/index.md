@@ -6,7 +6,7 @@ browser-compat: css.properties.scroll-padding
 sidebar: cssref
 ---
 
-The **`scroll-padding`** [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) sets scroll padding on all sides of an element at once, much like the {{cssxref("padding")}} property does for padding on an element.
+The **`scroll-padding`** [shorthand property](/css/guides/Cascade/Shorthand_properties) sets scroll padding on all sides of an element at once, much like the {{cssxref("padding")}} property does for padding on an element.
 
 {{InteractiveExample("CSS Demo: scroll-padding")}}
 
@@ -125,5 +125,5 @@ scroll-padding: unset;
 
 ## See also
 
-- [CSS scroll snap](/en-US/docs/Web/CSS/Guides/Scroll_snap)
+- [CSS scroll snap](/css/guides/Scroll_snap)
 - [Well-controlled scrolling with CSS scroll snap](https://web.dev/articles/css-scroll-snap)

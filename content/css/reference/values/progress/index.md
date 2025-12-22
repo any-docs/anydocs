@@ -7,7 +7,7 @@ browser-compat: css.types.progress
 
 {{CSSRef}}
 
-The **`progress()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) returns a {{cssxref("&lt;number>")}} value representing the position of one value (the progress value) relative to two other values (the progress start and end values).
+The **`progress()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) returns a {{cssxref("&lt;number>")}} value representing the position of one value (the progress value) relative to two other values (the progress start and end values).
 
 ## Syntax
 
@@ -97,11 +97,11 @@ progress(3em, 0, 100)
 
 ### Creating unitless values
 
-The `progress()` function outputs unitless values, therefore it can be used for the purpose of removing units from values in the same manner as the [`tan(atan2())` hack](https://dev.to/janeori/css-type-casting-to-numeric-tanatan2-scalars-582j). Note however that, due to the updates in behavior around [CSS typed arithmetic](/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic), this can also be achieved via simple division.
+The `progress()` function outputs unitless values, therefore it can be used for the purpose of removing units from values in the same manner as the [`tan(atan2())` hack](https://dev.to/janeori/css-type-casting-to-numeric-tanatan2-scalars-582j). Note however that, due to the updates in behavior around [CSS typed arithmetic](/css/guides/Values_and_units/Using_typed_arithmetic), this can also be achieved via simple division.
 
 ### Combining `progress()` with other functions and custom properties
 
-Because `progress()` only ever returns a unitless value between `0` and `1`, it is common to combine it with another math function such as {{cssxref("calc()")}} to output the value and units you want. You can also use [CSS custom properties](/en-US/docs/Web/CSS/Reference/Properties/--*) inside `progress()` functions — this makes sense, as you'll often want to set the same values in multiple places, and/or base them on custom properties set via JavaScript.
+Because `progress()` only ever returns a unitless value between `0` and `1`, it is common to combine it with another math function such as {{cssxref("calc()")}} to output the value and units you want. You can also use [CSS custom properties](/css/reference/properties/--*) inside `progress()` functions — this makes sense, as you'll often want to set the same values in multiple places, and/or base them on custom properties set via JavaScript.
 
 The following example calculates what percentage the viewport width is between a minimum width of `320px` and a maximum width of `1200px`. The `calc()` function is used to multiply the `progress()` return value by `600px` to convert it into a pixel value that will half of the viewport width's progress value between `320px` and `1200px`.
 
@@ -126,7 +126,7 @@ width: calc(
 
 It is possible to use `progress()` functions to calculate individual values inside other functions and component values inside shorthand property values, provided your functions return valid types for those values.
 
-This can result in some complex expressions. For example, here we are calculating the first two channels of an [`rgb()`](/en-US/docs/Web/CSS/Reference/Values/color_value/rgb) color proportionate to the same width proportion as before:
+This can result in some complex expressions. For example, here we are calculating the first two channels of an [`rgb()`](/css/reference/values/color_value/rgb) color proportionate to the same width proportion as before:
 
 ```css
 background-color: rgb(
@@ -276,7 +276,7 @@ With this set up, we can now set some property values based on the `--container-
 
 The following section explains just the CSS relevant to how we've used the `progress()` function in the demo. For the full CSS, see the [CSS source](https://github.com/mdn/dom-examples/blob/main/css-progress/index.css).
 
-We first center the `<article>` inside the `<body>` using [flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout), then set some custom properties on it to represent the `min-width` and `max-width` values we will use elsewhere. We then target the `<article>` element, giving it {{cssxref("min-width")}} and {{cssxref("max-width")}} values equal to the custom properties we set earlier. We set its {{cssxref("position")}} to `relative` so we can position its content relative to it, then give it a percentage {{cssxref("width")}}, fixed {{cssxref("height")}}, and {{cssxref("border")}}.
+We first center the `<article>` inside the `<body>` using [flexbox](/css/guides/Flexible_box_layout), then set some custom properties on it to represent the `min-width` and `max-width` values we will use elsewhere. We then target the `<article>` element, giving it {{cssxref("min-width")}} and {{cssxref("max-width")}} values equal to the custom properties we set earlier. We set its {{cssxref("position")}} to `relative` so we can position its content relative to it, then give it a percentage {{cssxref("width")}}, fixed {{cssxref("height")}}, and {{cssxref("border")}}.
 
 ```css
 body {
@@ -391,7 +391,7 @@ We position the `content` `<section>` absolutely so it sits over the top of the 
 
 ## See also
 
-- [CSS values and units module](/en-US/docs/Web/CSS/Guides/Values_and_units)
-- [Container style queries](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries#container_style_queries)
-- [Media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
-- [Feature queries](/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries)
+- [CSS values and units module](/css/guides/Values_and_units)
+- [Container style queries](/css/guides/Containment/Container_size_and_style_queries#container_style_queries)
+- [Media queries](/css/guides/Media_queries/Using)
+- [Feature queries](/css/guides/Conditional_rules/Using_feature_queries)

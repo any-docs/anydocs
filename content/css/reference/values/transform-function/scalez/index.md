@@ -6,7 +6,7 @@ browser-compat: css.types.transform-function.scaleZ
 sidebar: cssref
 ---
 
-The **`scaleZ()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) defines a transformation that resizes an element along the
+The **`scaleZ()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) defines a transformation that resizes an element along the
 z-axis. Its result is a {{cssxref("&lt;transform-function&gt;")}} data type.
 
 {{InteractiveExample("CSS Demo: scaleZ()")}}
@@ -102,8 +102,8 @@ scale factor is 1, in which case the function is the identity transform. The sca
 of the element are not conserved. `scaleZ(-1)` defines an [axial symmetry](https://en.wikipedia.org/wiki/Axial_symmetry), with the z-axis passing through the origin
 (as specified by the {{cssxref("transform-origin")}} property).
 
-In the above interactive examples, [`perspective: 550px;`](/en-US/docs/Web/CSS/Reference/Properties/perspective) (to
-create a 3D space) and [`transform-style: preserve-3d;`](/en-US/docs/Web/CSS/Reference/Properties/transform-style)
+In the above interactive examples, [`perspective: 550px;`](/css/reference/properties/perspective) (to
+create a 3D space) and [`transform-style: preserve-3d;`](/css/reference/properties/transform-style)
 (so the children, the 6 sides of the cube, are also positioned in the 3D space), have been set on the cube.
 
 > [!NOTE]
@@ -125,7 +125,7 @@ scaleZ(s)
 <table class="standard-table">
   <thead>
     <tr>
-      <th scope="col"><a href="/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
+      <th scope="col"><a href="/css/reference/values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
       <th scope="col"><a href="https://en.wikipedia.org/wiki/Homogeneous_coordinates">Homogeneous coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_projective_plane">ℝℙ^2</a></th>
       <th scope="col">Cartesian coordinates on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^3</a></th>
       <th scope="col">Homogeneous coordinates on <a href="https://en.wikipedia.org/wiki/Real_projective_space">ℝℙ^3</a></th>
@@ -200,8 +200,8 @@ div {
 
 ## See also
 
-- [`scaleX()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/scaleX)
-- [`scaleY()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/scaleY)
+- [`scaleX()`](/css/reference/values/transform-function/scaleX)
+- [`scaleY()`](/css/reference/values/transform-function/scaleY)
 - {{cssxref("transform")}}
 - {{cssxref("&lt;transform-function&gt;")}}
 - {{cssxref("transform-origin")}}

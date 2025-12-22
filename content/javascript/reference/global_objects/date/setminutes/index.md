@@ -36,9 +36,9 @@ setMinutes(minutesValue, secondsValue, msValue)
 
 - `minutesValue`
   - : An integer between 0 and 59 representing the minutes.
-- `secondsValue` {{optional_inline}}
+- `secondsValue` <Badge type="info" text="Optional" />
   - : An integer between 0 and 59 representing the seconds. If you specify `secondsValue`, you must also specify `minutesValue`.
-- `msValue` {{optional_inline}}
+- `msValue` <Badge type="info" text="Optional" />
   - : An integer between 0 and 999 representing the milliseconds. If you specify `msValue`, you must also specify `minutesValue` and `secondsValue`.
 
 ### Return value

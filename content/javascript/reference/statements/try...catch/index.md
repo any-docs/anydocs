@@ -36,7 +36,7 @@ try {
   - : The statements to be executed.
 - `catchStatements`
   - : Statement that is executed if an exception is thrown in the `try` block.
-- `exceptionVar` {{optional_inline}}
+- `exceptionVar` <Badge type="info" text="Optional" />
   - : An optional [identifier or pattern](#catch_binding) to hold the caught exception for the associated `catch` block. If the `catch` block does not use the exception's value, you can omit the `exceptionVar` and its surrounding parentheses.
 - `finallyStatements`
   - : Statements that are executed before control flow exits the `try...catch...finally` construct. These statements execute regardless of whether an exception was thrown or caught.

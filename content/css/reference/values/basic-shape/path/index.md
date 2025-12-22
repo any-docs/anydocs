@@ -6,9 +6,9 @@ browser-compat: css.types.basic-shape.path
 sidebar: cssref
 ---
 
-The **`path()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) accepts an [SVG path](/en-US/docs/Web/SVG/Reference/Element/path) string, and is used in the [CSS shapes](/en-US/docs/Web/CSS/Guides/Shapes) and [CSS motion path](/en-US/docs/Web/CSS/Guides/Motion_path) modules to enable a shape to be drawn. The `path()` function is a {{cssxref("basic-shape")}} data type value. It can be used in the CSS {{cssxref("offset-path")}} and {{cssxref("clip-path")}} properties and in the SVG [`d`](/en-US/docs/Web/SVG/Reference/Attribute/d) attribute.
+The **`path()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) accepts an [SVG path](/en-US/docs/Web/SVG/Reference/Element/path) string, and is used in the [CSS shapes](/css/guides/Shapes) and [CSS motion path](/css/guides/Motion_path) modules to enable a shape to be drawn. The `path()` function is a {{cssxref("basic-shape")}} data type value. It can be used in the CSS {{cssxref("offset-path")}} and {{cssxref("clip-path")}} properties and in the SVG [`d`](/en-US/docs/Web/SVG/Reference/Attribute/d) attribute.
 
-There are some limitations to using the `path()` function. The path has to be defined as a single string, so a custom path can't be created using variables ([`var()`](/en-US/docs/Web/CSS/Reference/Values/var) functions). Also, all the lengths in the path are implicitly defined in [pixel](/en-US/docs/Web/CSS/Guides/Values_and_units/Numeric_data_types#absolute_length_units) (`px`) units; other units can't be used. The [`shape()`](/en-US/docs/Web/CSS/Reference/Values/basic-shape/shape) function offers more flexibility than the `path()` function.
+There are some limitations to using the `path()` function. The path has to be defined as a single string, so a custom path can't be created using variables ([`var()`](/css/reference/values/var) functions). Also, all the lengths in the path are implicitly defined in [pixel](/css/guides/Values_and_units/Numeric_data_types#absolute_length_units) (`px`) units; other units can't be used. The [`shape()`](/css/reference/values/basic-shape/shape) function offers more flexibility than the `path()` function.
 
 {{InteractiveExample("CSS Demo: path()")}}
 
@@ -58,7 +58,7 @@ path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80")
 
 ### Parameters
 
-- [`<fill-rule>`](/en-US/docs/Web/SVG/Reference/Attribute/fill-rule) {{optional_inline}}
+- [`<fill-rule>`](/en-US/docs/Web/SVG/Reference/Attribute/fill-rule) <Badge type="info" text="Optional" />
   - : Defines what parts of the path are inside the shape. The possible values include:
     - `nonzero`: A point is considered inside the shape if a ray drawn from the point crosses more left-to-right than right-to-left path segments, resulting in a non-zero count. This is the default value when `<fill-rule>` is omitted.
 
@@ -179,6 +179,6 @@ svg {
 ## See also
 
 - {{cssxref("&lt;shape-outside&gt;")}}
-- [CSS shapes](/en-US/docs/Web/CSS/Guides/Shapes) module
-- [Overview of CSS shapes](/en-US/docs/Web/CSS/Guides/Shapes/Overview)
+- [CSS shapes](/css/guides/Shapes) module
+- [Overview of CSS shapes](/css/guides/Shapes/Overview)
 - [The SVG `path` syntax: an illustrated guide](https://css-tricks.com/svg-path-syntax-illustrated-guide/) via CSS-tricks (2021)

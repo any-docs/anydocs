@@ -6,7 +6,7 @@ browser-compat: css.properties.mask-border-width
 sidebar: cssref
 ---
 
-The **`mask-border-width`** [CSS](/en-US/docs/Web/CSS) property sets the width of an element's [mask border](/en-US/docs/Web/CSS/Reference/Properties/mask-border).
+The **`mask-border-width`** [CSS](/en-US/docs/Web/CSS) property sets the width of an element's [mask border](/css/reference/properties/mask-border).
 
 ## Syntax
 

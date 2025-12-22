@@ -13,7 +13,7 @@ These selectors can be combined into a comma-separated [selector list](#selector
 
 ## Simple selector
 
-A **simple selector** is a selector with a single component, such as a single type selector, attribute selector, or pseudo-class, that's not used in combination with or contains any other selector component or combinator. A given element is said to match a simple selector when that simple selector accurately describes the element. Any selector that contains a single [basic selector](/en-US/docs/Web/CSS/Guides/Selectors/Selectors_and_combinators#basic_selectors), [attribute selector](/en-US/docs/Web/CSS/Reference/Selectors/Attribute_selectors), [pseudo-class](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes), or [pseudo-element](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements) selector is a simple selector.
+A **simple selector** is a selector with a single component, such as a single type selector, attribute selector, or pseudo-class, that's not used in combination with or contains any other selector component or combinator. A given element is said to match a simple selector when that simple selector accurately describes the element. Any selector that contains a single [basic selector](/css/guides/Selectors/Selectors_and_combinators#basic_selectors), [attribute selector](/en-US/docs/Web/CSS/Reference/Selectors/Attribute_selectors), [pseudo-class](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes), or [pseudo-element](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements) selector is a simple selector.
 
 ```css
 #myId {
@@ -25,7 +25,7 @@ A **simple selector** is a selector with a single component, such as a single ty
 
 ## Compound selector
 
-A **compound selector** is a sequence of [simple selectors](#simple_selector) that are not separated by a [combinator](/en-US/docs/Web/CSS/Guides/Selectors/Selectors_and_combinators#combinators). A compound selector represents a set of simultaneous conditions on a single element. A given element is said to match a compound selector when the element matches all the simple selectors in the compound selector.
+A **compound selector** is a sequence of [simple selectors](#simple_selector) that are not separated by a [combinator](/css/guides/Selectors/Selectors_and_combinators#combinators). A compound selector represents a set of simultaneous conditions on a single element. A given element is said to match a compound selector when the element matches all the simple selectors in the compound selector.
 
 ```css
 a#selected {
@@ -98,9 +98,9 @@ dt:has(+ img) ~ dd {
 
 ## See also
 
-- [CSS selectors and combinators](/en-US/docs/Web/CSS/Guides/Selectors/Selectors_and_combinators)
+- [CSS selectors and combinators](/css/guides/Selectors/Selectors_and_combinators)
 - [Forgiving selector list](/en-US/docs/Web/CSS/Reference/Selectors/Selector_list#forgiving_selector_list)
 - {{DOMXref("Document.querySelector()")}}
 - {{DOMXref("Document.querySelectorAll()")}}
-- [CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors) module
-- [CSS pseudo-elements](/en-US/docs/Web/CSS/Guides/Pseudo-elements) module
+- [CSS selectors](/css/guides/Selectors) module
+- [CSS pseudo-elements](/css/guides/Pseudo-elements) module

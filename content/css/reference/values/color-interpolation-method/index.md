@@ -9,7 +9,7 @@ spec-urls: https://drafts.csswg.org/css-color/#interpolation-space
 sidebar: cssref
 ---
 
-The **`<color-interpolation-method>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents the [color space](/en-US/docs/Glossary/Color_space) used for interpolation between {{CSSXref("&lt;color&gt;")}} values. It can be used to override the default interpolation color space for color-related functional notations such as {{CSSXref("color_value/color-mix", "color-mix()")}} and {{CSSXref("gradient/linear-gradient", "linear-gradient()")}}.
+The **`<color-interpolation-method>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents the [color space](/en-US/docs/Glossary/Color_space) used for interpolation between {{CSSXref("&lt;color&gt;")}} values. It can be used to override the default interpolation color space for color-related functional notations such as {{CSSXref("color_value/color-mix", "color-mix()")}} and {{CSSXref("gradient/linear-gradient", "linear-gradient()")}}.
 
 When interpolating `<color>` values, the interpolation color space defaults to Oklab.
 
@@ -31,11 +31,11 @@ in <polar-color-space>[ <hue-interpolation method>]
 - `<polar-color-space>`
   - : One of the keywords `hsl`, `hwb`, `lch`, or `oklch`.
 
-- {{CSSXref("&lt;hue-interpolation-method&gt;")}} {{optional_inline}}
+- {{CSSXref("&lt;hue-interpolation-method&gt;")}} <Badge type="info" text="Optional" />
   - : The algorithm for hue interpolation. It defaults to `shorter hue`.
 
 - `<custom-color-space>`
-  - : A [`<dashed-ident>`](/en-US/docs/Web/CSS/Reference/Values/dashed-ident#using_with_color-profile) referring to a custom [@color profile](/en-US/docs/Web/CSS/Reference/At-rules/@color-profile).
+  - : A [`<dashed-ident>`](/css/reference/values/dashed-ident#using_with_color-profile) referring to a custom [@color profile](/en-US/docs/Web/CSS/Reference/At-rules/@color-profile).
 
 ## Formal syntax
 
@@ -83,7 +83,7 @@ The following example shows the effect of using different interpolation color sp
 ### Color interpolation in repeating gradients
 
 The following example shows how to specify a color space when interpolating colors in repeating gradients.
-Three boxes show different types of repeating gradients using the [`repeating-conic-gradient()`](/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-conic-gradient), [`repeating-linear-gradient()`](/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-linear-gradient), and [`repeating-radial-gradient()`](/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-radial-gradient) functions.
+Three boxes show different types of repeating gradients using the [`repeating-conic-gradient()`](/css/reference/values/gradient/repeating-conic-gradient), [`repeating-linear-gradient()`](/css/reference/values/gradient/repeating-linear-gradient), and [`repeating-radial-gradient()`](/css/reference/values/gradient/repeating-radial-gradient) functions.
 The first box uses the Lab color space to interpolate between two color values.
 The second and third boxes use OkLCh and additionally provide a {{cssxref("hue-interpolation-method")}} to specify how to interpolate between hue values.
 

@@ -10,7 +10,7 @@ sidebar: cssref
 
 {{SeeCompatTable}}
 
-The **`palette-mix()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) can be used to create a new {{cssxref("font-palette")}} value by blending together two `font-palette` values by specified percentages and color interpolation methods.
+The **`palette-mix()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) can be used to create a new {{cssxref("font-palette")}} value by blending together two `font-palette` values by specified percentages and color interpolation methods.
 
 ## Syntax
 
@@ -44,7 +44,7 @@ palette-mix(method, palette1 [p1], palette2 [p2])
   - : A {{cssxref("&lt;color-interpolation-method&gt;")}} specifying the interpolation color space.
 - `palette1`, `palette2`
   - : The {{cssxref("font-palette")}} values to blend together. These can be _any_ `font-palette` values, including `palette-mix()` functions, `normal`, `dark`, and `light`.
-- `p1`, `p2` {{optional_inline}}
+- `p1`, `p2` <Badge type="info" text="Optional" />
   - : {{cssxref("&lt;percentage&gt;")}} values between `0%` and `100%` specifying the amount of each palette to mix. They are normalized as follows:
     - If both `p1` and `p2` are omitted, then `p1 = p2 = 50%`.
     - If `p1` is omitted, then `p1 = 100% - p2`.
@@ -128,5 +128,5 @@ The output looks like this:
 - {{cssxref("font-palette")}}
 - {{cssxref("@font-palette-values", "@font-palette-values")}}
 - {{cssxref("color_value/color-mix", "color-mix()")}}
-- [CSS color values](/en-US/docs/Web/CSS/Guides/Colors/Color_values) guide
+- [CSS color values](/css/guides/Colors/Color_values) guide
 - {{glossary("Color space")}}

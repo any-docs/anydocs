@@ -31,25 +31,25 @@ new Temporal.Duration(years, months, weeks, days, hours, minutes, seconds, milli
 
 ### Parameters
 
-- `years` {{optional_inline}}
+- `years` <Badge type="info" text="Optional" />
   - : Number of years, or `undefined` (which is treated as `0`).
-- `months` {{optional_inline}}
+- `months` <Badge type="info" text="Optional" />
   - : Number of months, or `undefined` (which is treated as `0`).
-- `weeks` {{optional_inline}}
+- `weeks` <Badge type="info" text="Optional" />
   - : Number of weeks, or `undefined` (which is treated as `0`).
-- `days` {{optional_inline}}
+- `days` <Badge type="info" text="Optional" />
   - : Number of days, or `undefined` (which is treated as `0`).
-- `hours` {{optional_inline}}
+- `hours` <Badge type="info" text="Optional" />
   - : Number of hours, or `undefined` (which is treated as `0`).
-- `minutes` {{optional_inline}}
+- `minutes` <Badge type="info" text="Optional" />
   - : Number of minutes, or `undefined` (which is treated as `0`).
-- `seconds` {{optional_inline}}
+- `seconds` <Badge type="info" text="Optional" />
   - : Number of seconds, or `undefined` (which is treated as `0`).
-- `milliseconds` {{optional_inline}}
+- `milliseconds` <Badge type="info" text="Optional" />
   - : Number of milliseconds, or `undefined` (which is treated as `0`).
-- `microseconds` {{optional_inline}}
+- `microseconds` <Badge type="info" text="Optional" />
   - : Number of microseconds, or `undefined` (which is treated as `0`).
-- `nanoseconds` {{optional_inline}}
+- `nanoseconds` <Badge type="info" text="Optional" />
   - : Number of nanoseconds, or `undefined` (which is treated as `0`).
 
 ### Return value

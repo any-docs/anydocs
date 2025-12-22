@@ -6,7 +6,7 @@ browser-compat: css.types.transform-function.translate3d
 sidebar: cssref
 ---
 
-The **`translate3d()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) repositions an element in 3D space. Its result is a
+The **`translate3d()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) repositions an element in 3D space. Its result is a
 {{cssxref("&lt;transform-function&gt;")}} data type.
 
 {{InteractiveExample("CSS Demo: translate3d()")}}
@@ -121,7 +121,7 @@ translate3d(tx, ty, tz)
 <table class="standard-table">
   <thead>
     <tr>
-      <th scope="col"><a href="/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
+      <th scope="col"><a href="/css/reference/values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
       <th scope="col"><a href="https://en.wikipedia.org/wiki/Homogeneous_coordinates">Homogeneous coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_projective_plane">ℝℙ^2</a></th>
       <th scope="col">Cartesian coordinates on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^3</a></th>
       <th scope="col">Homogeneous coordinates on <a href="https://en.wikipedia.org/wiki/Real_projective_space">ℝℙ^3</a></th>

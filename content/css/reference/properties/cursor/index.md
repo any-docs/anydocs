@@ -102,11 +102,11 @@ Each `<url>` may be optionally followed by a pair of space-separated numbers, wh
 
 ### Values
 
-- `<url>` {{optional_inline}}
+- `<url>` <Badge type="info" text="Optional" />
   - : A `url()` or a comma separated list `url(), url(), …`, pointing to an image file.
     More than one {{cssxref("url_value", "&lt;url&gt;")}} may be provided as fallbacks, in case some cursor image types are not supported.
     A non-URL fallback (one or more of the keyword values) _must_ be at the end of the fallback list.
-- `<x>`, `<y>` {{optional_inline}}
+- `<x>`, `<y>` <Badge type="info" text="Optional" />
   - : Optional x- and y-coordinates indicating the cursor hotspot; the precise position within the cursor that is being pointed to.
 
     The numbers are in units of image pixels.

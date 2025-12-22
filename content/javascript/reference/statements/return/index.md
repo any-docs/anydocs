@@ -32,7 +32,7 @@ return;
 return expression;
 ```
 
-- `expression` {{optional_inline}}
+- `expression` <Badge type="info" text="Optional" />
   - : The expression whose value is to be returned. If omitted, `undefined` is returned.
 
 ## Description

@@ -6,7 +6,7 @@ browser-compat: css.types.gradient.repeating-linear-gradient
 sidebar: cssref
 ---
 
-The **`repeating-linear-gradient()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) creates an image consisting of repeating linear gradients. It is similar to {{cssxref("gradient/linear-gradient", "linear-gradient()")}} and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. The function's result is an object of the {{cssxref("gradient")}} data type, which is a special kind of {{cssxref("image")}}.
+The **`repeating-linear-gradient()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) creates an image consisting of repeating linear gradients. It is similar to {{cssxref("gradient/linear-gradient", "linear-gradient()")}} and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. The function's result is an object of the {{cssxref("gradient")}} data type, which is a special kind of {{cssxref("image")}}.
 
 {{InteractiveExample("CSS Demo: repeating-linear-gradient()")}}
 
@@ -43,7 +43,7 @@ background:
 
 The length of the gradient that repeats is the distance between the first and last color stop. If the first color does not have a color-stop-length, the color-stop-length defaults to 0. With each repetition, the positions of the color stops are shifted by a multiple of the length of the basic linear gradient. Thus, the position of each ending color stop coincides with a starting color stop; if the color values are different, this will result in a sharp visual transition. This can be altered with repeating the first color again as the last color.
 
-As with any gradient, a repeating linear gradient has [no intrinsic dimensions](/en-US/docs/Web/CSS/Reference/Values/image#description); i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element it applies to.
+As with any gradient, a repeating linear gradient has [no intrinsic dimensions](/css/reference/values/image#description); i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element it applies to.
 
 Because `<gradient>`s belong to the `<image>` data type, they can only be used where `<image>`s can be used. For this reason, `repeating-linear-gradient()` won't work on {{Cssxref("background-color")}} and other properties that use the {{cssxref("&lt;color&gt;")}} data type.
 
@@ -94,7 +94,7 @@ repeating-linear-gradient(in hsl longer hue, blue, red 50px)
   - : The color-hint is an interpolation hint defining how the gradient progresses between adjacent color stops. The length defines at which point between two color stops the gradient color should reach the midpoint of the color transition. If omitted, the midpoint of the color transition is the midpoint between two color stops.
 
 > [!NOTE]
-> Rendering of color stops in repeating linear gradients follows the same rules as [color stops in linear gradients](/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient#composition_of_a_linear_gradient).
+> Rendering of color stops in repeating linear gradients follows the same rules as [color stops in linear gradients](/css/reference/values/gradient/linear-gradient#composition_of_a_linear_gradient).
 
 ## Formal syntax
 
@@ -188,7 +188,7 @@ div {
 }
 ```
 
-In this example for interpolation, [hsl](/en-US/docs/Web/CSS/Reference/Values/color_value/hsl) color system is being used and [hue](/en-US/docs/Web/CSS/Reference/Values/hue) is being interpolated.
+In this example for interpolation, [hsl](/css/reference/values/color_value/hsl) color system is being used and [hue](/css/reference/values/hue) is being interpolated.
 
 ```css
 .shorter {
@@ -208,12 +208,12 @@ In this example for interpolation, [hsl](/en-US/docs/Web/CSS/Reference/Values/co
 }
 ```
 
-The box on the top uses [shorter interpolation](/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method#shorter), meaning the color goes from red to blue using the shorter arc on the [color wheel](/en-US/docs/Glossary/Color_wheel). The box on the bottom uses [longer interpolation](/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method#longer), meaning the color goes from red to blue using the longer arc, traversing through greens, yellows, and oranges.
+The box on the top uses [shorter interpolation](/css/reference/values/hue-interpolation-method#shorter), meaning the color goes from red to blue using the shorter arc on the [color wheel](/en-US/docs/Glossary/Color_wheel). The box on the bottom uses [longer interpolation](/css/reference/values/hue-interpolation-method#longer), meaning the color goes from red to blue using the longer arc, traversing through greens, yellows, and oranges.
 
 {{EmbedLiveSample("Interpolating with hue", 120, 120)}}
 
 > [!NOTE]
-> Please see [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients) for more examples.
+> Please see [Using CSS gradients](/css/guides/Images/Using_gradients) for more examples.
 
 ## Specifications
 
@@ -225,7 +225,7 @@ The box on the top uses [shorter interpolation](/en-US/docs/Web/CSS/Reference/Va
 
 ## See also
 
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
+- [Using CSS gradients](/css/guides/Images/Using_gradients)
 - Other gradient functions: {{cssxref("gradient/linear-gradient", "linear-gradient()")}}, {{cssxref("gradient/radial-gradient", "radial-gradient()")}}, {{cssxref("gradient/repeating-radial-gradient", "repeating-radial-gradient()")}}, {{cssxref("gradient/conic-gradient", "conic-gradient()")}}, {{cssxref("gradient/repeating-conic-gradient", "repeating-conic-gradient()")}}
 - {{cssxref("hue-interpolation-method")}}
 - {{cssxref("color-interpolation-method")}}

@@ -40,8 +40,8 @@ This module defines the overscroll behavior, enabling you to specify the actions
 ## Related concepts
 
 - [`scrollbar`](/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/scrollbar_role) ARIA role
-- [Containing block](/en-US/docs/Web/CSS/Guides/Display/Containing_block) concept
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module:
+- [Containing block](/css/guides/Display/Containing_block) concept
+- [CSS overflow](/css/guides/Overflow) module:
   - {{cssxref("overflow")}} shorthand property
     - {{Cssxref("overflow-x")}}
     - {{Cssxref("overflow-y")}}
@@ -52,14 +52,14 @@ This module defines the overscroll behavior, enabling you to specify the actions
   - {{CSSxRef("text-overflow")}} property
 - {{Glossary("Scroll_container", "Scroll container")}} and [scrollport](/en-US/docs/Glossary/Scroll_container#scrollport) glossary terms
 
-- [CSS scroll snap](/en-US/docs/Web/CSS/Guides/Scroll_snap) module:
+- [CSS scroll snap](/css/guides/Scroll_snap) module:
   - {{cssxref("scroll-padding")}} shorthand property
   - {{cssxref("scroll-snap-type")}} property
   - {{cssxref("scroll-margin")}} shorthand property
   - {{cssxref("scroll-snap-stop")}} property
   - {{cssxref("scroll-snap-align")}} property
 
-- [CSSOM view](/en-US/docs/Web/CSS/Guides/CSSOM_view) module:
+- [CSSOM view](/css/guides/CSSOM_view) module:
   - {{domxref("Element.getBoundingClientRect()")}} method
   - {{domxref("Element.scroll()")}} method
   - {{domxref("Element.scrollBy()")}} method
@@ -73,7 +73,7 @@ This module defines the overscroll behavior, enabling you to specify the actions
 
 ## See also
 
-- [CSS scroll anchoring](/en-US/docs/Web/CSS/Guides/Scroll_anchoring) module
-- [CSS scroll snap](/en-US/docs/Web/CSS/Guides/Scroll_snap) module
-- [CSS box model](/en-US/docs/Web/CSS/Guides/Box_model) module
-- [CSS logical properties and values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values) module
+- [CSS scroll anchoring](/css/guides/Scroll_anchoring) module
+- [CSS scroll snap](/css/guides/Scroll_snap) module
+- [CSS box model](/css/guides/Box_model) module
+- [CSS logical properties and values](/css/guides/Logical_properties_and_values) module

@@ -6,7 +6,7 @@ spec-urls: https://drafts.csswg.org/css-values/#typedef-frequency-percentage
 sidebar: cssref
 ---
 
-The **`<frequency-percentage>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a value that can be either a {{Cssxref("frequency")}} or a {{Cssxref("percentage")}}. Frequency values, e.g., the pitch of a speaking voice, are not currently used in any CSS properties.
+The **`<frequency-percentage>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents a value that can be either a {{Cssxref("frequency")}} or a {{Cssxref("percentage")}}. Frequency values, e.g., the pitch of a speaking voice, are not currently used in any CSS properties.
 
 ## Syntax
 
@@ -16,7 +16,7 @@ The value of a `<frequency-percentage>` is either a {{Cssxref("frequency")}} or 
 
 ### Use in calc()
 
-Where a `<frequency-percentage>` is specified as an allowable type, this means that the percentage resolves to a frequency and therefore can be used in a [`calc()`](/en-US/docs/Web/CSS/Reference/Values/calc) expression.
+Where a `<frequency-percentage>` is specified as an allowable type, this means that the percentage resolves to a frequency and therefore can be used in a [`calc()`](/css/reference/values/calc) expression.
 
 ## Formal syntax
 
@@ -66,8 +66,8 @@ Currently, no browsers support this feature.
 
 ## See also
 
-- [CSS data types](/en-US/docs/Web/CSS/Reference/Values/Data_types)
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS data types](/css/reference/values/Data_types)
+- [CSS values and units](/css/guides/Values_and_units) module
 - Related CSS data types:
   - {{cssxref("frequency", "&lt;frequency&gt;")}}
   - {{cssxref("percentage", "&lt;percentage&gt;")}}

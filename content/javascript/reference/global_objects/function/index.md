@@ -26,7 +26,7 @@ These properties are defined on `Function.prototype` and shared by all `Function
 
 These properties are own properties of each `Function` instance.
 
-- {{jsxref("Function/displayName", "displayName")}} {{non-standard_inline}} {{optional_inline}}
+- {{jsxref("Function/displayName", "displayName")}} {{non-standard_inline}} <Badge type="info" text="Optional" />
   - : The display name of the function.
 - {{jsxref("Function/length", "length")}}
   - : Specifies the number of arguments expected by the function.

@@ -62,7 +62,7 @@ The HTML for the example is shown below.
 
 #### CSS
 
-The CSS for the container sets it as the source of a scroll timeline named `--square-timeline` using the `scroll-timeline-name` property. No [scrollbar axis](/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-axis) is defined here because the vertical axis will be used by default.
+The CSS for the container sets it as the source of a scroll timeline named `--square-timeline` using the `scroll-timeline-name` property. No [scrollbar axis](/css/reference/properties/scroll-timeline-axis) is defined here because the vertical axis will be used by default.
 
 The height of the container is set to `300px`, and the container is also set to create a vertical scrollbar if it overflows (the CSS `height` rule on the `stretcher` element below does make the content overflow its container).
 
@@ -128,4 +128,4 @@ Scroll the vertical bar to see the square animate as you scroll.
 - {{cssxref("animation-timeline")}}
 - {{cssxref("scroll-timeline")}}, {{cssxref("scroll-timeline-axis")}}
 - {{cssxref("timeline-scope")}}
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations)
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations)

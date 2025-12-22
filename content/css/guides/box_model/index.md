@@ -7,15 +7,15 @@ spec-urls: https://drafts.csswg.org/css-box-4/
 sidebar: cssref
 ---
 
-The **CSS box model** module defines the `margin` and `padding` properties, which along with the [height](/en-US/docs/Web/CSS/Guides/Box_sizing), [width](/en-US/docs/Web/CSS/Guides/Box_sizing) and [border properties](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders), make up the CSS [box model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction).
+The **CSS box model** module defines the `margin` and `padding` properties, which along with the [height](/css/guides/Box_sizing), [width](/css/guides/Box_sizing) and [border properties](/css/guides/Backgrounds_and_borders), make up the CSS [box model](/css/guides/Box_model/Introduction).
 
-Every visible element on a webpage is a box laid out according to the [visual formatting model](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model). CSS properties define their size, position, and stacking level, with the box model properties (and others) defining the extrinsic size of each box, and the space around them.
+Every visible element on a webpage is a box laid out according to the [visual formatting model](/css/guides/Display/Visual_formatting_model). CSS properties define their size, position, and stacking level, with the box model properties (and others) defining the extrinsic size of each box, and the space around them.
 
 Each box has a rectangular content area, inside which any text, images, and other content is displayed. The content may be surrounded by padding, a border, and a margin, on one or more sides. The padding is around the content, the border is around the padding, and the margin sits outside the border. The box model describes how these features — the content, padding, border, and margin — work together to create a box as displayed by CSS.
 
 ![The components of the CSS box model](boxmodel.png)
 
-The CSS box model module defines physical (or "page relative") properties such as `margin-top` and `padding-top`. Flow-relative properties such as `margin-block-start` and `margin-inline-start` (which relate to text direction) are defined in [Logical Properties and Values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values). The box model module is extended by the [CSS box sizing module](/en-US/docs/Web/CSS/Guides/Box_sizing), which introduces the {{glossary("intrinsic size")}} value and enables defining {{glossary("aspect ratio")}} for elements that are auto-sized in at least one dimension.
+The CSS box model module defines physical (or "page relative") properties such as `margin-top` and `padding-top`. Flow-relative properties such as `margin-block-start` and `margin-inline-start` (which relate to text direction) are defined in [Logical Properties and Values](/css/guides/Logical_properties_and_values). The box model module is extended by the [CSS box sizing module](/css/guides/Box_sizing), which introduces the {{glossary("intrinsic size")}} value and enables defining {{glossary("aspect ratio")}} for elements that are auto-sized in at least one dimension.
 
 ## Reference
 
@@ -36,32 +36,32 @@ The CSS box model module defines physical (or "page relative") properties such a
 ### Data types
 
 - {{cssxref("box-edge")}}
-  - [`<visual-box>`](/en-US/docs/Web/CSS/Reference/Values/box-edge#visual-box)
-  - [`<layout-box>`](/en-US/docs/Web/CSS/Reference/Values/box-edge#layout-box)
-  - [`<paint-box>`](/en-US/docs/Web/CSS/Reference/Values/box-edge#paint-box)
-  - [`<coord-box>`](/en-US/docs/Web/CSS/Reference/Values/box-edge#coord-box)
-  - [`<geometry-box>`](/en-US/docs/Web/CSS/Reference/Values/box-edge#geometry-box)
+  - [`<visual-box>`](/css/reference/values/box-edge#visual-box)
+  - [`<layout-box>`](/css/reference/values/box-edge#layout-box)
+  - [`<paint-box>`](/css/reference/values/box-edge#paint-box)
+  - [`<coord-box>`](/css/reference/values/box-edge#coord-box)
+  - [`<geometry-box>`](/css/reference/values/box-edge#geometry-box)
 
 ## Guides
 
-- [Introduction to the CSS box model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction)
+- [Introduction to the CSS box model](/css/guides/Box_model/Introduction)
   - : Explains one of the fundamental concepts of CSS: the box model. This model defines how CSS lays out elements, including their content, padding, border, and margin areas.
 
-- [Mastering margin collapsing](/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing)
+- [Mastering margin collapsing](/css/guides/Box_model/Margin_collapsing)
   - : Sometimes, two adjacent margins are collapsed into one. This article describes the rules that govern when and why this happens, and how to control it.
 
-- [Visual formatting model](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model)
+- [Visual formatting model](/css/guides/Display/Visual_formatting_model)
   - : Explains the visual formatting model.
 
 ## Related concepts
 
-- [CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) module
+- [CSS backgrounds and borders](/css/guides/Backgrounds_and_borders) module
   - {{cssxref("border-width")}} shorthand
   - {{cssxref("border-bottom-width")}}
   - {{cssxref("border-left-width")}}
   - {{cssxref("border-right-width")}}
   - {{cssxref("border-top-width")}}
-- [CSS logical properties](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values) module
+- [CSS logical properties](/css/guides/Logical_properties_and_values) module
   - {{CSSxRef("block-size")}}
   - {{CSSxRef("inline-size")}}
   - {{CSSxRef("max-block-size")}}
@@ -93,7 +93,7 @@ The CSS box model module defines physical (or "page relative") properties such a
   - {{CSSxRef("border-inline-start")}}
   - {{CSSxRef("border-inline-start-width")}}
   - {{CSSxRef("border-inline-width")}}
-- [CSS box sizing](/en-US/docs/Web/CSS/Guides/Box_sizing) module
+- [CSS box sizing](/css/guides/Box_sizing) module
   - {{cssxref("aspect-ratio")}}
   - {{cssxref("box-sizing")}}
   - {{cssxref("contain-intrinsic-block-size")}}
@@ -107,7 +107,7 @@ The CSS box model module defines physical (or "page relative") properties such a
   - {{cssxref("min-height")}}
   - {{cssxref("min-width")}}
   - {{cssxref("width")}}
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
+- [CSS overflow](/css/guides/Overflow) module
   - {{CSSxRef("overflow")}} shorthand
   - {{CSSxRef("overflow-block")}}
   - {{CSSxRef("overflow-clip-margin")}}
@@ -122,10 +122,10 @@ The CSS box model module defines physical (or "page relative") properties such a
 
 ## See also
 
-- [CSS display](/en-US/docs/Web/CSS/Guides/Display) module
-- [CSS flex layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module
-- [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) module
-- [CSS table](/en-US/docs/Web/CSS/Guides/Table) module
-- [CSS positioned layout](/en-US/docs/Web/CSS/Guides/Positioned_layout) module
-- [CSS fragmentation](/en-US/docs/Web/CSS/Guides/Fragmentation) module
-- [Understanding aspect ratios](/en-US/docs/Web/CSS/Guides/Box_sizing/Aspect_ratios)
+- [CSS display](/css/guides/Display) module
+- [CSS flex layout](/css/guides/Flexible_box_layout) module
+- [CSS grid layout](/css/guides/Grid_layout) module
+- [CSS table](/css/guides/Table) module
+- [CSS positioned layout](/css/guides/Positioned_layout) module
+- [CSS fragmentation](/css/guides/Fragmentation) module
+- [Understanding aspect ratios](/css/guides/Box_sizing/Aspect_ratios)

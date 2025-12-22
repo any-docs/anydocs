@@ -52,7 +52,7 @@ Sometimes it's useful to be able to style a host from inside the shadow tree con
 
 - {{Glossary("Shadow tree")}} glossary term
 - {{Glossary("DOM")}} glossary term
-- [Compound selector](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#compound_selector) term
+- [Compound selector](/css/guides/Selectors/Selector_structure#compound_selector) term
 - [Selector list](/en-US/docs/Web/CSS/Reference/Selectors/Selector_list) term
 
 - [Web components](/en-US/docs/Web/API/Web_components) interfaces, properties, and methods
@@ -66,7 +66,7 @@ Sometimes it's useful to be able to style a host from inside the shadow tree con
   - {{DOMxRef("ShadowRoot")}} interface
 
 > [!NOTE]
-> Despite the name, the {{CSSXref(":scope")}} pseudo-class, which represents elements that are a reference point (or scope) for selectors to match against, is defined in the [Selectors](/en-US/docs/Web/CSS/Guides/Selectors) module. It is otherwise unrelated to the CSS scoping module, which is focused on scoping as it pertains to the Shadow DOM scoping mechanism.
+> Despite the name, the {{CSSXref(":scope")}} pseudo-class, which represents elements that are a reference point (or scope) for selectors to match against, is defined in the [Selectors](/css/guides/Selectors) module. It is otherwise unrelated to the CSS scoping module, which is focused on scoping as it pertains to the Shadow DOM scoping mechanism.
 
 ## Specifications
 
@@ -74,9 +74,9 @@ Sometimes it's useful to be able to style a host from inside the shadow tree con
 
 ## See also
 
-- [CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors) module
-- [CSS pseudo elements](/en-US/docs/Web/CSS/Guides/Pseudo-elements) module
-- [CSS namespaces](/en-US/docs/Web/CSS/Guides/Namespaces) module
-- [CSS shadow-parts](/en-US/docs/Web/CSS/Guides/Shadow_parts) module
+- [CSS selectors](/css/guides/Selectors) module
+- [CSS pseudo elements](/css/guides/Pseudo-elements) module
+- [CSS namespaces](/css/guides/Namespaces) module
+- [CSS shadow-parts](/css/guides/Shadow_parts) module
 - [Template, slot, and shadow](https://web.dev/learn/html/template/) on web.dev (2023)
 - [Custom element best practices](https://web.dev/articles/custom-elements-best-practices) on web.dev (2019)

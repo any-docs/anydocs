@@ -36,5 +36,5 @@ selector1 combinator selector2 {
 
 ## See also
 
-- [CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors) module
-- [Selectors and combinators](/en-US/docs/Web/CSS/Guides/Selectors/Selectors_and_combinators)
+- [CSS selectors](/css/guides/Selectors) module
+- [Selectors and combinators](/css/guides/Selectors/Selectors_and_combinators)

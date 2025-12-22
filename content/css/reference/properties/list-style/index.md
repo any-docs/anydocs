@@ -6,7 +6,7 @@ browser-compat: css.properties.list-style
 sidebar: cssref
 ---
 
-The **`list-style`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) allows you to set all the list style properties at once.
+The **`list-style`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/css/guides/Cascade/Shorthand_properties) allows you to set all the list style properties at once.
 
 {{InteractiveExample("CSS Demo: list-style")}}
 
@@ -159,7 +159,7 @@ To ensure lists are announced as lists, include [`role="list"`](/en-US/docs/Web/
 </ul>
 ```
 
-If an ARIA `role` is not an option for your code, CSS can be used instead. Adding non-empty [pseudo-content](/en-US/docs/Web/CSS/Reference/Properties/content) such as text or images before each list item can restore list semantics, but impacts the visual appearance. Safari determines if the added pseudo-content suffices as accessible content, restoring list semantics if so. Generally, Safari considers text and images as sufficient, which is why the `content: "+ ";` shown below works (but requires additional styling to not affect the design).
+If an ARIA `role` is not an option for your code, CSS can be used instead. Adding non-empty [pseudo-content](/css/reference/properties/content) such as text or images before each list item can restore list semantics, but impacts the visual appearance. Safari determines if the added pseudo-content suffices as accessible content, restoring list semantics if so. Generally, Safari considers text and images as sufficient, which is why the `content: "+ ";` shown below works (but requires additional styling to not affect the design).
 
 ```css
 ul {
@@ -229,5 +229,5 @@ List 2
 
 - Component properties: {{Cssxref("list-style-type")}}, {{Cssxref("list-style-image")}}, and {{Cssxref("list-style-position")}}
 - {{Cssxref("::marker")}} pseudo-element
-- [CSS lists and counters](/en-US/docs/Web/CSS/Guides/Lists) module
-- [CSS counter styles](/en-US/docs/Web/CSS/Guides/Counter_styles) module
+- [CSS lists and counters](/css/guides/Lists) module
+- [CSS counter styles](/css/guides/Counter_styles) module

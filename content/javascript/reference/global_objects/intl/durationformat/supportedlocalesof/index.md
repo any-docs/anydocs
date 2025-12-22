@@ -20,7 +20,7 @@ Intl.DurationFormat.supportedLocalesOf(locales, options)
 
 - `locales`
   - : A string with a {{glossary("BCP 47 language tag")}}, or an array of such strings. For the general form and interpretation of the `locales` argument, see [the parameter description on the `Intl` main page](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#locales_argument).
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object that may have the following property:
     - `localeMatcher`
       - : The locale matching algorithm to use. Possible values are `"lookup"` and `"best fit"`; the default is `"best fit"`. For information about this option, see the {{jsxref("Intl", "Intl", "#locale_identification_and_negotiation", 1)}} page.

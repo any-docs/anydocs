@@ -6,7 +6,7 @@ browser-compat: css.types.image.image-set
 sidebar: cssref
 ---
 
-The **`image-set()`** [CSS](/en-US/docs/Web/CSS) [functional](/en-US/docs/Web/CSS/Reference/Values/Functions) notation is a method of letting the browser pick the most appropriate CSS image from a given set, primarily for high pixel density screens.
+The **`image-set()`** [CSS](/en-US/docs/Web/CSS) [functional](/css/reference/values/Functions) notation is a method of letting the browser pick the most appropriate CSS image from a given set, primarily for high pixel density screens.
 
 Resolution and bandwidth differ by device and network access. The `image-set()` function delivers the most appropriate image resolution for a user's device, providing a set of image options — each with an associated resolution declaration — from which the browser picks the most appropriate for the device and settings. Resolution can be used as a proxy for filesize — a user agent on a slow mobile connection with a high-resolution screen may prefer to receive lower-resolution images rather than waiting for a higher resolution image to load.
 
@@ -45,9 +45,9 @@ image-set(
   - : The {{cssxref("image")}} can be any image type except for an image set. The `image-set()` function may not be nested inside another `image-set()` function.
 - `<string>`
   - : A URL to an image.
-- `<resolution>` {{optional_inline}}
+- `<resolution>` <Badge type="info" text="Optional" />
   - : {{cssxref("resolution")}} units include `x` or `dppx`, for dots per pixel unit, `dpi`, for dots per inch, and `dpcm` for dots per centimeter. Every image within an `image-set()` must have a unique resolution.
-- `type(<string>)` {{optional_inline}}
+- `type(<string>)` <Badge type="info" text="Optional" />
   - : A valid MIME type string, for example "image/jpeg".
 
 ## Formal syntax

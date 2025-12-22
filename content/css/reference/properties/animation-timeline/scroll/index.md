@@ -6,7 +6,7 @@ browser-compat: css.properties.animation-timeline.scroll
 sidebar: cssref
 ---
 
-The **`scroll()`** [CSS function](/en-US/docs/Web/CSS/Reference/Values/Functions) can be used with the {{cssxref("animation-timeline")}} property to create an [anonymous scroll progress timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#anonymous_scroll_progress_timelines), defining the scroller and axis of the timeline.
+The **`scroll()`** [CSS function](/css/reference/values/Functions) can be used with the {{cssxref("animation-timeline")}} property to create an [anonymous scroll progress timeline](/css/guides/Scroll-driven_animations/Timelines#anonymous_scroll_progress_timelines), defining the scroller and axis of the timeline.
 
 ## Syntax
 
@@ -61,7 +61,7 @@ animation-timeline: scroll(block nearest);
 animation-timeline: scroll(nearest block);
 ```
 
-The scroll progress timeline is progressed through by scrolling the scroller horizontally or vertically, depending on the `<axis>` and [writing mode](/en-US/docs/Web/CSS/Guides/Writing_modes/Writing_mode_systems). If the indicated axis does not contain a scrollbar, then the animation timeline will be inactive.
+The scroll progress timeline is progressed through by scrolling the scroller horizontally or vertically, depending on the `<axis>` and [writing mode](/css/guides/Writing_modes/Writing_mode_systems). If the indicated axis does not contain a scrollbar, then the animation timeline will be inactive.
 
 ## Formal syntax
 
@@ -164,8 +164,8 @@ Scroll to see the square element being animated.
 
 ## See also
 
-- [Using CSS animations](/en-US/docs/Web/CSS/Guides/Animations/Using)
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module
+- [Using CSS animations](/css/guides/Animations/Using)
+- [CSS animations](/css/guides/Animations) module
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module
 - {{domxref("ScrollTimeline")}}
 - [Web Animations API](/en-US/docs/Web/API/Web_Animations_API)

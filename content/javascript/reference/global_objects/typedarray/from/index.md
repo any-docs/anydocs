@@ -47,13 +47,13 @@ Where `TypedArray` is one of:
 
 - `arrayLike`
   - : An iterable or array-like object to convert to a typed array.
-- `mapFn` {{optional_inline}}
+- `mapFn` <Badge type="info" text="Optional" />
   - : A function to call on every element of the typed array. If provided, every value to be added to the array is first passed through this function, and `mapFn`'s return value is added to the typed array instead. The function is called with the following arguments:
     - `element`
       - : The current element being processed in the typed array.
     - `index`
       - : The index of the current element being processed in the typed array.
-- `thisArg` {{optional_inline}}
+- `thisArg` <Badge type="info" text="Optional" />
   - : Value to use as `this` when executing `mapFn`.
 
 ### Return value

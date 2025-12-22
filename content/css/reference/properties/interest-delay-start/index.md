@@ -102,7 +102,7 @@ Now check the checkbox and try the same actions again. This time, the popover sh
 
 In this example, we show how to remove the `interest-delay-start` from multiple interest invoker elements after interest has been shown on one of them.
 
-This is a useful technique. Having a popover appear as soon as interest is shown on any invoker would create a distracting and annoying user experience, which is why browsers add a small delay by default (see the [`interest-delay` description](/en-US/docs/Web/CSS/Reference/Properties/interest-delay#description) for more details). However, once users have shown interest in an invoker, it is convenient to allow them to move between other invokers quickly without delay.
+This is a useful technique. Having a popover appear as soon as interest is shown on any invoker would create a distracting and annoying user experience, which is why browsers add a small delay by default (see the [`interest-delay` description](/css/reference/properties/interest-delay#description) for more details). However, once users have shown interest in an invoker, it is convenient to allow them to move between other invokers quickly without delay.
 
 #### HTML
 
@@ -160,4 +160,4 @@ Try showing interest in any button and notice how, when you then immediately sho
 - {{cssxref("interest-delay-end")}}, {{cssxref("interest-delay")}}
 - [Popover API](/en-US/docs/Web/API/Popover_API)
 - [Using interest invokers](/en-US/docs/Web/API/Popover_API/Using_interest_invokers)
-- [CSS basic user interface](/en-US/docs/Web/CSS/Guides/Basic_user_interface) module
+- [CSS basic user interface](/css/guides/Basic_user_interface) module

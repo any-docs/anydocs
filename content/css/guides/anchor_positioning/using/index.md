@@ -10,7 +10,7 @@ The **CSS anchor positioning** module defines features that allow you to tether 
 
 CSS anchor positioning also provides CSS-only mechanisms for specifying multiple alternative positions for an anchor-positioned element. For example, if a tooltip is anchored to a form field but the tooltip would otherwise be rendered offscreen in its default position settings, the browser can try rendering it in a different suggested position so it is placed onscreen, or, alternatively, hide it altogether if desired.
 
-This article explains the fundamental anchor positioning concepts, and how to use the module's association, positioning, and sizing features at a basic level. We've included links to reference pages with additional examples and syntax details for each concept discussed below. For information on specifying alternative positions and hiding anchor-positioned elements, see the [Fallback options and conditional hiding for overflow](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding) guide.
+This article explains the fundamental anchor positioning concepts, and how to use the module's association, positioning, and sizing features at a basic level. We've included links to reference pages with additional examples and syntax details for each concept discussed below. For information on specifying alternative positions and hiding anchor-positioned elements, see the [Fallback options and conditional hiding for overflow](/css/guides/Anchor_positioning/Try_options_hiding) guide.
 
 ## Fundamental concepts
 
@@ -25,7 +25,7 @@ Modern interfaces frequently call for some content — often reusable and dynami
 
 The location of positioned elements relative to their anchor element needs to be maintained and adjusted as the anchor element moves or otherwise changes configuration (e.g., by scrolling, changing the viewport size, drag and drop, etc.). For example, if an element such as a form field gets close to the edge of the viewport, its tooltip may end up offscreen. Generally, you want to bind the tooltip to its form control and ensure the tooltip is kept fully visible on-screen as long as the form field is visible, automatically moving the tooltip if needed. You may have noticed this as the default behavior in your operating system when you right-click (<kbd>Ctrl</kbd> + click) context menus on your desktop or laptop.
 
-Historically, associating an element with another element and dynamically changing a positioned element's location and size based on an anchor's position required JavaScript, which added complexity and performance issues. It also wasn't guaranteed to work in all situations. The features defined in the [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning) module enable implementing such use cases performantly and declaratively with CSS (and HTML) instead of JavaScript.
+Historically, associating an element with another element and dynamically changing a positioned element's location and size based on an anchor's position required JavaScript, which added complexity and performance issues. It also wasn't guaranteed to work in all situations. The features defined in the [CSS anchor positioning](/css/guides/Anchor_positioning) module enable implementing such use cases performantly and declaratively with CSS (and HTML) instead of JavaScript.
 
 ## Associating anchor and positioned elements
 
@@ -124,16 +124,16 @@ For example, to stop a customizable `<select>` element's picker from being ancho
 As we saw above, associating a positioned element with an anchor is not really much use on its own. Our goal is to place the positioned element relative to its associated anchor element. This is done either by setting a [CSS `anchor()` function](#using_inset_properties_with_anchor_function_values) value on an [inset property](/en-US/docs/Glossary/Inset_properties), [specifying a `position-area`](#setting_a_position-area), or centering the positioned element with the [`anchor-center` placement value](#centering_on_the_anchor_using_anchor-center).
 
 > [!NOTE]
-> CSS anchor positioning also provides mechanisms for specifying fallback positions if the positioned element's default position causes it to overflow the viewport. See the [Fallback options and conditional hiding](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding) guide for details.
+> CSS anchor positioning also provides mechanisms for specifying fallback positions if the positioned element's default position causes it to overflow the viewport. See the [Fallback options and conditional hiding](/css/guides/Anchor_positioning/Try_options_hiding) guide for details.
 
 > [!NOTE]
-> The anchor element must be a visible DOM node for the association and positioning to work. If it is hidden (for example via [`display: none`](/en-US/docs/Web/CSS/Reference/Properties/display#none)), the positioned element will be positioned relative to its nearest positioned ancestor. We discuss how to hide an anchor-positioned element when its anchor disappears in [Conditional hiding using `position-visibility`](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding#conditionally_hiding_anchor-positioned_elements).
+> The anchor element must be a visible DOM node for the association and positioning to work. If it is hidden (for example via [`display: none`](/css/reference/properties/display#none)), the positioned element will be positioned relative to its nearest positioned ancestor. We discuss how to hide an anchor-positioned element when its anchor disappears in [Conditional hiding using `position-visibility`](/css/guides/Anchor_positioning/Try_options_hiding#conditionally_hiding_anchor-positioned_elements).
 
 ### Using inset properties with `anchor()` function values
 
 Conventional absolutely and fixed positioned elements are explicitly positioned by setting {{cssxref("length")}} or {{cssxref("percentage")}} values on {{glossary("inset properties")}}. With `position: absolute`, this inset position value is an absolute distance relative to the edges of the nearest positioned ancestor. With `position: fixed`, the inset position value is an absolute distance relative to the viewport.
 
-CSS anchor positioning changes this paradigm, enabling anchor-positioned elements to be placed relative to the edges of their associated anchor(s). The module defines the [`anchor()`](/en-US/docs/Web/CSS/Reference/Values/anchor) function, which is a valid value for each of the inset properties. When used, the function sets the inset position value as an absolute distance relative to the anchor element by defining the anchor element, the side of the anchor element the positioned element is being positioned relative to, and the distance from that side.
+CSS anchor positioning changes this paradigm, enabling anchor-positioned elements to be placed relative to the edges of their associated anchor(s). The module defines the [`anchor()`](/css/reference/values/anchor) function, which is a valid value for each of the inset properties. When used, the function sets the inset position value as an absolute distance relative to the anchor element by defining the anchor element, the side of the anchor element the positioned element is being positioned relative to, and the distance from that side.
 
 The function components look like this:
 
@@ -144,10 +144,10 @@ anchor(<anchor-name> <anchor-side>, <fallback>)
 - `<anchor-name>`
   - : The {{cssxref("anchor-name")}} property value of the anchor element you want to position the element's side relative to. This is a `<dashed-ident>` value. If omitted, the element's **default anchor** is used. This is the anchor referenced in its {{cssxref("position-anchor")}} property, or associated with the element via the non-standard [`anchor`](/en-US/docs/Web/HTML/Reference/Global_attributes/anchor) HTML attribute.
     > [!NOTE]
-    > Specifying an `<anchor-name>` positions the element relative to that anchor, but does not provide element association. While you can position an element's sides relative to multiple anchors by specifying [different `<anchor-name>` values](/en-US/docs/Web/CSS/Reference/Values/anchor#positioning_an_element_relative_to_multiple_anchors) inside different `anchor()` functions on the same element, the positioned element is only associated with a single anchor.
+    > Specifying an `<anchor-name>` positions the element relative to that anchor, but does not provide element association. While you can position an element's sides relative to multiple anchors by specifying [different `<anchor-name>` values](/css/reference/values/anchor#positioning_an_element_relative_to_multiple_anchors) inside different `anchor()` functions on the same element, the positioned element is only associated with a single anchor.
 
-- [`<anchor-side>`](/en-US/docs/Web/CSS/Reference/Values/anchor#anchor-side)
-  - : Specifies the position relative to a side, or sides, of the anchor. Valid values include the `center` of the anchor, physical (`top`, `left`, etc.) or logical (`start`, `self-end`, etc.) sides of the anchor, or a `<percentage>` between the start (`0%`) and end (`100%`) of the axis of the inset property `anchor()` is set on. If a value is used that is not [compatible](/en-US/docs/Web/CSS/Reference/Values/anchor#compatibility_of_inset_properties_and_anchor-side_values) with the inset property on which the `anchor()` function is set, the fallback value is used.
+- [`<anchor-side>`](/css/reference/values/anchor#anchor-side)
+  - : Specifies the position relative to a side, or sides, of the anchor. Valid values include the `center` of the anchor, physical (`top`, `left`, etc.) or logical (`start`, `self-end`, etc.) sides of the anchor, or a `<percentage>` between the start (`0%`) and end (`100%`) of the axis of the inset property `anchor()` is set on. If a value is used that is not [compatible](/css/reference/values/anchor#compatibility_of_inset_properties_and_anchor-side_values) with the inset property on which the `anchor()` function is set, the fallback value is used.
 
 - `<fallback>`
   - : A {{cssxref("length-percentage")}} defining the distance to use as a fallback value if the element is not absolutely or fixed positioned, if the `<anchor-side>` value used is not compatible with the inset property on which the `anchor()` function is set, or if the anchor element doesn't exist.
@@ -282,7 +282,7 @@ The grid tiles are broken up into rows and columns:
 - The three rows are represented by the physical values `top`, `center`, and `bottom`. They also have logical equivalents such as `start`, `center`, and `end`, and coordinate equivalents such as `y-start`, `center`, and `y-end`.
 - The three columns are represented by the physical values `left`, `center`, and `right`. They also have logical equivalents such as `start`, `center`, and `end`, and coordinate equivalents such as `x-start`, `center`, and `x-end`.
 
-The dimensions of the center tile are defined by the [containing block](/en-US/docs/Web/CSS/Guides/Display/Containing_block) of the anchor element, while the distance between the center tile and the grid's outer edge is defined by the positioned element's containing block.
+The dimensions of the center tile are defined by the [containing block](/css/guides/Display/Containing_block) of the anchor element, while the distance between the center tile and the grid's outer edge is defined by the positioned element's containing block.
 
 `position-area` property values are composed of one or two values based on the row and column values described above, with spanning options available to define the region of the grid where the element should positioned.
 
@@ -306,7 +306,7 @@ If you only specify one value, the effect is different depending on which value 
 - A value of `center` acts as if both values are set to `center` (so, `center center`).
 
 > [!NOTE]
-> See the [`<position-area>`](/en-US/docs/Web/CSS/Reference/Values/position-area_value) value reference page for a detailed description of all the available values. Mixing a logical value with a physical value will invalidate the declaration.
+> See the [`<position-area>`](/css/reference/values/position-area_value) value reference page for a detailed description of all the available values. Mixing a logical value with a physical value will invalidate the declaration.
 
 Let's demonstrate some of these values; this example uses the same HTML and base CSS styles as the previous example, except that we've included a {{htmlelement("select")}} element to enable changing the positioned element's `position-area` value.
 
@@ -445,7 +445,7 @@ Try selecting new `position-area` values from the `<select>` menu to see the eff
 
 In the above example, we did not explicitly size the positioned element in either dimension. We deliberately omitted sizing to allow you to observe the behavior this causes.
 
-When a positioned element is placed into `position-area` grid cells without explicit sizing, it aligns with the grid area specified and behaves as if {{cssxref("width")}} were set to {{cssxref("max-content")}}. It is sized according to its [containing block](/en-US/docs/Web/CSS/Guides/Display/Containing_block) size, which is the width of its content. This size was imposed by setting `position: fixed`. Auto-sized absolutely and fixed-positioned elements are automatically sized, stretching as wide as needed to fit the text content, while constrained by the edge of the viewport. In this case, when placed on the left side of the grid with any `left` or `inline-start` value, the text wraps. If the anchored element's `max-content` size is narrower or shorter than its anchor, they won't grow to match the size of the anchor.
+When a positioned element is placed into `position-area` grid cells without explicit sizing, it aligns with the grid area specified and behaves as if {{cssxref("width")}} were set to {{cssxref("max-content")}}. It is sized according to its [containing block](/css/guides/Display/Containing_block) size, which is the width of its content. This size was imposed by setting `position: fixed`. Auto-sized absolutely and fixed-positioned elements are automatically sized, stretching as wide as needed to fit the text content, while constrained by the edge of the viewport. In this case, when placed on the left side of the grid with any `left` or `inline-start` value, the text wraps. If the anchored element's `max-content` size is narrower or shorter than its anchor, they won't grow to match the size of the anchor.
 
 If the positioned element is centered vertically, such as with `position-area: bottom center`, it will align with the grid cell specified and the width will be the same as the anchor element. In this case, its minimum height is the anchor element's containing block size. It will not overflow, as the `min-width` is {{cssxref("min-content")}}, meaning it will be at least as wide as its longest word.
 
@@ -529,7 +529,7 @@ This centers the anchor-positioned element at the bottom of its anchor:
 
 ## Sizing elements based on anchor size
 
-As well as positioning an element relative to its anchor's position, you can also size an element relative to its anchor's size using the [`anchor-size()`](/en-US/docs/Web/CSS/Reference/Values/anchor-size) function within a sizing property value.
+As well as positioning an element relative to its anchor's position, you can also size an element relative to its anchor's size using the [`anchor-size()`](/css/reference/values/anchor-size) function within a sizing property value.
 
 Sizing properties that can accept an `anchor-size()` value include:
 
@@ -554,7 +554,7 @@ anchor-size(<anchor-name> <anchor-size>, <length-percentage>)
 
 - `<anchor-name>`
   - : The `<dashed-ident>` name set as the value of the {{cssxref("anchor-name")}} property of the anchor element you want to size the element relative to. If omitted, the element's **default anchor**, which is the anchor referenced in the {{cssxref("position-anchor")}} property, is used.
-- [`<anchor-size>`](/en-US/docs/Web/CSS/Reference/Values/anchor-size#anchor-size)
+- [`<anchor-size>`](/css/reference/values/anchor-size#anchor-size)
   - : Specifies the dimension of the anchor element that the positioned element will be sized relative to. This can be expressed using physical (`width` or `height`) or logical (`inline`, `block`, `self-inline`, or `self-block`) values.
 - {{cssxref("length-percentage")}}
   - : Specifies the size to use as a fallback value if the element is not absolutely or fixed positioned, or the anchor element doesn't exist.
@@ -674,20 +674,20 @@ You can also use `anchor-size()` in physical and logical inset and margin proper
 
 ### Setting element position based on anchor size
 
-You can use the [`anchor-size()`](/en-US/docs/Web/CSS/Reference/Values/anchor-size) function within an [inset property](/en-US/docs/Glossary/Inset_properties) value to position elements based on their anchor element's size, for example:
+You can use the [`anchor-size()`](/css/reference/values/anchor-size) function within an [inset property](/en-US/docs/Glossary/Inset_properties) value to position elements based on their anchor element's size, for example:
 
 ```css
 left: anchor-size(width);
 inset-inline-end: anchor-size(--my-anchor height, 100px);
 ```
 
-This doesn't position an element relative to the position of its anchor like the [`anchor()`](/en-US/docs/Web/CSS/Reference/Values/anchor) function or {{cssxref("position-area")}} property do (see [Positioning elements relative to their anchor](#positioning_elements_relative_to_their_anchor), above); the element won't change its position when its anchor does. Instead, the element will be positioned according to the normal rules of [`absolute`](/en-US/docs/Web/CSS/Reference/Properties/position#absolute) or [`fixed`](/en-US/docs/Web/CSS/Reference/Properties/position#fixed) positioning.
+This doesn't position an element relative to the position of its anchor like the [`anchor()`](/css/reference/values/anchor) function or {{cssxref("position-area")}} property do (see [Positioning elements relative to their anchor](#positioning_elements_relative_to_their_anchor), above); the element won't change its position when its anchor does. Instead, the element will be positioned according to the normal rules of [`absolute`](/css/reference/properties/position#absolute) or [`fixed`](/css/reference/properties/position#fixed) positioning.
 
 This can be useful in some situations. For example, if your anchor element can only move vertically, and always remains next to the edge of its closest positioned ancestor horizontally, you could use `left: anchor-size(width)` to cause the anchor-positioned element to always be positioned to the right of its anchor, even if the anchor width changes.
 
 ### Setting element margin based on anchor size
 
-You can use the [`anchor-size()`](/en-US/docs/Web/CSS/Reference/Values/anchor-size) function within a `margin-*` property value to set element margins based on their anchor element's size, for example:
+You can use the [`anchor-size()`](/css/reference/values/anchor-size) function within a `margin-*` property value to set element margins based on their anchor element's size, for example:
 
 ```css
 margin-left: calc(anchor-size(width) / 4);
@@ -804,8 +804,8 @@ Try tabbing to the anchor or hovering over it with the mouse pointer, and note h
 
 ## See also
 
-- [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning) module
-- [Fallback options and conditional hiding for overflow](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding) guide
+- [CSS anchor positioning](/css/guides/Anchor_positioning) module
+- [Fallback options and conditional hiding for overflow](/css/guides/Anchor_positioning/Try_options_hiding) guide
 - [Learn: Positioning](/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning)
-- [CSS logical properties and values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values) module
+- [CSS logical properties and values](/css/guides/Logical_properties_and_values) module
 - [Learn: Sizing items in CSS](/en-US/docs/Learn_web_development/Core/Styling_basics/Sizing)

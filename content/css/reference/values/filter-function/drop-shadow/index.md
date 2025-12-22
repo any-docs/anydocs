@@ -6,7 +6,7 @@ browser-compat: css.types.filter-function.drop-shadow
 sidebar: cssref
 ---
 
-The **`drop-shadow()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) applies a drop shadow effect to the input image. Its result is a {{cssxref("filter-function")}}.
+The **`drop-shadow()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) applies a drop shadow effect to the input image. Its result is a {{cssxref("filter-function")}}.
 
 {{InteractiveExample("CSS Demo: drop-shadow()")}}
 
@@ -68,7 +68,7 @@ The `drop-shadow()` function accepts a parameter of type `<shadow>` (defined in 
 
 ### Parameters
 
-- `<color>` {{optional_inline}}
+- `<color>` <Badge type="info" text="Optional" />
   - : Specifies the color for the shadow. If not specified, the value of the {{cssxref("color")}} property defined in the parent element is used.
 
 - `<length>`
@@ -156,5 +156,5 @@ In the absence of a `<color>` value in the `drop-shadow()` function in the first
 - {{cssxref("backdrop-filter")}}
 - {{cssxref("box-shadow")}}
 - {{cssxref("text-shadow")}}
-- [Introduction to text shadows](/en-US/docs/Web/CSS/Guides/Text_decoration/Text_shadows)
-- [CSS filter effects](/en-US/docs/Web/CSS/Guides/Filter_effects) module
+- [Introduction to text shadows](/css/guides/Text_decoration/Text_shadows)
+- [CSS filter effects](/css/guides/Filter_effects) module

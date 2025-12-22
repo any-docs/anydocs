@@ -9,7 +9,7 @@ Have you ever hovered over a black-and-white or sepia image and the full-color i
 
 ## Advantages of using CSS filter effects
 
-The [Filter effects](/en-US/docs/Web/CSS/Guides/Filter_effects) module in CSS provides properties and functions that let you apply the visual effects described above without using Photoshop or sending extra HTTP requests. The only software required is the user's browser. Moreover, unlike pre-set image effects, CSS filter effects are responsive and animatable.
+The [Filter effects](/css/guides/Filter_effects) module in CSS provides properties and functions that let you apply the visual effects described above without using Photoshop or sending extra HTTP requests. The only software required is the user's browser. Moreover, unlike pre-set image effects, CSS filter effects are responsive and animatable.
 
 The CSS filter effects module provides the {{cssxref("filter")}} and {{cssxref("backdrop-filter")}} properties that you can use to impact the rendering of text, images, backgrounds, and borders, or any element on which you apply these properties. This module also defines the {{cssxref("filter-function")}} data type that lets you add graphical effects such as blurring or color shifting. Using the filter functions, you can not only alter the appearance of an element but also reference an SVG filter using a filter that you create.
 
@@ -56,7 +56,7 @@ The `filter` and `backdrop-filter` properties accept a filter function list, whi
 
 If you hover over the sepia image below, you'll see the full-color image come into view instantly.
 
-The image is set to be sepia by specifying the value of the `filter` property as the [`sepia()`](/en-US/docs/Web/CSS/Reference/Values/filter-function/sepia) filter function. The filter is removed on {{cssxref(":hover")}} and {{cssxref(":focus")}} by setting `filter: none`.
+The image is set to be sepia by specifying the value of the `filter` property as the [`sepia()`](/css/reference/values/filter-function/sepia) filter function. The filter is removed on {{cssxref(":hover")}} and {{cssxref(":focus")}} by setting `filter: none`.
 
 ```html
 <img tabindex="0" alt="Four trans-people, circa 1912" src="activists.jpg" />
@@ -87,7 +87,7 @@ img {
 
 While generally applied to images, the `filter` and `backdrop-filter` properties can be applied to any element or pseudo-element.
 
-In this example, a glow effect is added using a [`drop-shadow()`](/en-US/docs/Web/CSS/Reference/Values/filter-function/drop-shadow) filter with a `3px` blur and `0` offset.
+In this example, a glow effect is added using a [`drop-shadow()`](/css/reference/values/filter-function/drop-shadow) filter with a `3px` blur and `0` offset.
 
 ```css
 h1 {
@@ -113,7 +113,7 @@ h1 {
 
 While the sepia `filter` example included only a single filter function, you can set multiple filters. The `filter` and `backdrop-filter` properties accept a space-separated list of filters, which are applied in the order declared.
 
-This example applies two filters — [`hue-rotate()`](/en-US/docs/Web/CSS/Reference/Values/filter-function/hue-rotate) and [`blur()`](/en-US/docs/Web/CSS/Reference/Values/filter-function/blur) — via the `backdrop-filter` property. The backdrop, the area behind the {{HTMLElement("p")}} element, has a color shift and a blur applied.
+This example applies two filters — [`hue-rotate()`](/css/reference/values/filter-function/hue-rotate) and [`blur()`](/css/reference/values/filter-function/blur) — via the `backdrop-filter` property. The backdrop, the area behind the {{HTMLElement("p")}} element, has a color shift and a blur applied.
 
 ```css
 .container {
@@ -152,7 +152,7 @@ p {
 
 ### Applying repeated filters
 
-As filters are applied in sequential order, you can use filter functions more than once. In this example, the [`drop-shadow()`](/en-US/docs/Web/CSS/Reference/Values/filter-function/drop-shadow) filter has been used four times, each time with a different `<shadow>` value.
+As filters are applied in sequential order, you can use filter functions more than once. In this example, the [`drop-shadow()`](/css/reference/values/filter-function/drop-shadow) filter has been used four times, each time with a different `<shadow>` value.
 
 ```html
 <img src="mandala.svg" alt="Colorful mandala" role="img" />
@@ -217,7 +217,7 @@ The same filters are applied to both the lines of text but in a different order.
 No filter effect is applied to the third line to show the original effect as a comparison. So the third line stays as `midnightblue` or `#191970`. The `hue-rotate(180deg)` filter changes the text in the first two lines to `#252500`.
 
 > [!NOTE]
-> The hexadecimal rgb color `#191970` is equal to `hsl(240deg 63.5% 26.9%)`, while `#252500` is `hsl(60deg 100% 7.3%)`. The [color rotation takes place in the sRGB color space](/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation), which is why the hue has been changed as expected while not maintaining the same values for saturation and lightness.
+> The hexadecimal rgb color `#191970` is equal to `hsl(240deg 63.5% 26.9%)`, while `#252500` is `hsl(60deg 100% 7.3%)`. The [color rotation takes place in the sRGB color space](/css/reference/values/color_value#interpolation), which is why the hue has been changed as expected while not maintaining the same values for saturation and lightness.
 
 ## Using SVG filters
 
@@ -324,6 +324,6 @@ td {
 
 - {{cssxref("mask")}}
 - {{cssxref("background-blend-mode")}}, {{cssxref("mix-blend-mode")}}
-- [CSS filter effects](/en-US/docs/Web/CSS/Guides/Filter_effects)
+- [CSS filter effects](/css/guides/Filter_effects)
 - SVG {{SVGElement("filter")}} element, SVG {{SVGAttr("filter")}} attribute in [SVG](/en-US/docs/Web/SVG)
 - [Applying SVG effects to HTML content](/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content)

@@ -22,7 +22,7 @@ since(other, options)
 
 - `other`
   - : A string, an object, or a {{jsxref("Temporal.PlainYearMonth")}} instance representing a year-month to subtract from this year-month. It is converted to a `Temporal.PlainYearMonth` object using the same algorithm as {{jsxref("Temporal/PlainYearMonth/from", "Temporal.PlainYearMonth.from()")}}. It must have the same calendar as `this`.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the options for {{jsxref("Temporal/Duration/round", "Temporal.Duration.prototype.round()")}}, which includes `largestUnit`, `roundingIncrement`, `roundingMode`, and `smallestUnit`. `largestUnit` and `smallestUnit` only accept the units: `"years"`, `"months"`, or their singular forms. For `largestUnit`, the default value `"auto"` means `"years"`. For `smallestUnit`, the default value is `"months"`. The current date is used as the `relativeTo` option.
 
 ### Return value

@@ -47,5 +47,5 @@ The `dynamic-range` feature is specified as a keyword value chosen from the list
 
 ## See also
 
-- [Using Media Queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+- [Using Media Queries](/css/guides/Media_queries/Using)
 - [@media](/en-US/docs/Web/CSS/Reference/At-rules/@media)

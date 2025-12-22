@@ -6,9 +6,9 @@ browser-compat: css.types.global_keywords.initial
 sidebar: cssref
 ---
 
-The **`initial`** [CSS](/en-US/docs/Web/CSS) keyword applies the [initial (or default) value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value) of a property to an element. It can be applied to any CSS property, including the CSS shorthand property {{cssxref("all")}}. With `all` set to `initial`, all CSS properties can be restored to their respective initial values in one go instead of restoring each one separately.
+The **`initial`** [CSS](/en-US/docs/Web/CSS) keyword applies the [initial (or default) value](/css/guides/Cascade/Property_value_processing#initial_value) of a property to an element. It can be applied to any CSS property, including the CSS shorthand property {{cssxref("all")}}. With `all` set to `initial`, all CSS properties can be restored to their respective initial values in one go instead of restoring each one separately.
 
-On [inherited properties](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance#inherited_properties), the initial value may be unexpected. You should consider using the {{cssxref("inherit")}}, {{cssxref("unset")}}, {{cssxref("revert")}}, or {{cssxref("revert-layer")}} keywords instead.
+On [inherited properties](/css/guides/Cascade/Inheritance#inherited_properties), the initial value may be unexpected. You should consider using the {{cssxref("inherit")}}, {{cssxref("unset")}}, {{cssxref("revert")}}, or {{cssxref("revert-layer")}} keywords instead.
 
 ## Examples
 
@@ -40,7 +40,7 @@ em {
 
 {{EmbedLiveSample('Using_initial_to_reset_color_for_an_element')}}
 
-With the `initial` keyword in this example, `color` value on the `em` element is restored to the initial value of [`color`](/en-US/docs/Web/CSS/Reference/Properties/color#formal_definition), as defined in the specification.
+With the `initial` keyword in this example, `color` value on the `em` element is restored to the initial value of [`color`](/css/reference/properties/color#formal_definition), as defined in the specification.
 
 ## Specifications
 

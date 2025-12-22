@@ -23,7 +23,7 @@ Temporal.PlainMonthDay.from(info, options)
     - A {{jsxref("Temporal.PlainMonthDay")}} instance, which creates a copy of the instance.
     - An [RFC 9557](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay#rfc_9557_format) string containing a date and optionally a calendar. If the calendar is not `iso8601`, a year is required.
     - An object containing the following properties (in the order they are retrieved and validated):
-      - `calendar` {{optional_inline}}
+      - `calendar` <Badge type="info" text="Optional" />
         - : A string that corresponds to the {{jsxref("Temporal/PlainMonthDay/calendarId", "calendarId")}} property. Defaults to `"iso8601"`. All other properties are interpreted in this calendar system (unlike the {{jsxref("Temporal/PlainMonthDay/PlainMonthDay", "Temporal.PlainMonthDay()")}} constructor, which interprets the values in the ISO calendar system). See [`Intl.supportedValuesOf()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_calendar_types) for a list of commonly supported calendar types.
       - `day`
         - : An integer that corresponds to the {{jsxref("Temporal/PlainMonthDay/day", "day")}} property. Must be positive regardless of the `overflow` option.
@@ -36,9 +36,9 @@ Temporal.PlainMonthDay.from(info, options)
       - `year`
         - : An integer used to disambiguate `month` if provided, because for some calendars, the same `month` can mean different `monthCode` in different years. See {{jsxref("Temporal/PlainDate/year", "year")}} of `PlainDate`. If a year is provided, then the `overflow` option validates the month-day in the given year, not just any year. If `month` is specified, at least one of `eraYear` (together with `era`) or `year` must be provided. If all of `era`, `eraYear`, and `year` are provided, they must be consistent.
 
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the following property:
-    - `overflow` {{optional_inline}}
+    - `overflow` <Badge type="info" text="Optional" />
       - : A string specifying the behavior when a date component is out of range (when using the object `info`). Possible values are:
         - `"constrain"` (default)
           - : The date component is [clamped](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate#invalid_date_clamping) to the valid range.

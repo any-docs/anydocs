@@ -10,10 +10,10 @@ spec-urls:
 sidebar: cssref
 ---
 
-**CSS values** are the values that can be assigned to CSS properties. These include keywords, [data types](/en-US/docs/Web/CSS/Reference/Values/Data_types), and [functions](/en-US/docs/Web/CSS/Reference/Values/Functions).
+**CSS values** are the values that can be assigned to CSS properties. These include keywords, [data types](/css/reference/values/Data_types), and [functions](/css/reference/values/Functions).
 
 > [!NOTE]
-> This page is an index of all value features in CSS. The [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) page introduces the module that defines some, but not all, of these values.
+> This page is an index of all value features in CSS. The [CSS values and units](/css/guides/Values_and_units) page introduces the module that defines some, but not all, of these values.
 
 ## Index of keywords
 
@@ -33,7 +33,7 @@ sidebar: cssref
 
 ## See also
 
-- [CSS data types](/en-US/docs/Web/CSS/Reference/Values/Data_types)
-- [CSS value functions](/en-US/docs/Web/CSS/Reference/Values/Functions)
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
-- [CSS syntax](/en-US/docs/Web/CSS/Guides/Syntax) module
+- [CSS data types](/css/reference/values/Data_types)
+- [CSS value functions](/css/reference/values/Functions)
+- [CSS values and units](/css/guides/Values_and_units) module
+- [CSS syntax](/css/guides/Syntax) module

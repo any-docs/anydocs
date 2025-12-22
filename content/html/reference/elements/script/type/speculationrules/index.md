@@ -69,9 +69,9 @@ A `<script type="speculationrules">` element must contain a valid JSON structure
 
 The JSON structure contains one or more fields at the top level, each one representing an action to define speculation rules for. At present the supported actions are:
 
-- `"prefetch"` {{optional_inline}} {{experimental_inline}}
+- `"prefetch"` <Badge type="info" text="Optional" /> {{experimental_inline}}
   - : Rules for potential future navigations that should have their associated document response body downloaded, leading to significant performance improvements when those documents are navigated to. Note that none of the subresources referenced by the page are downloaded.
-- `"prerender"` {{optional_inline}} {{experimental_inline}}
+- `"prerender"` <Badge type="info" text="Optional" /> {{experimental_inline}}
   - : Rules for potential future navigations that should have their associated documents fully downloaded, rendered, and loaded into an invisible tab. This includes loading all subresources, running all JavaScript, and even loading subresources and performing data fetches started by JavaScript. When those documents are navigated to, navigations will be instant, leading to major performance improvements.
 
 > [!NOTE]
@@ -102,7 +102,7 @@ Each object can contain the following properties:
     - `"relative_to"`
       - : In the case of an `"href_matches"` condition, this can specify where you want that condition to be matched relative to. This works in exactly the same way as the [rule-level `"relative_to"` key](#relative_to_2), except that it only affects a single `"href_matches"` condition inside a `"where"` key.
     - `"selector_matches"`
-      - : A string containing a [CSS selector](/en-US/docs/Web/CSS/Guides/Selectors), or an array containing multiple CSS selectors. Links in the document matched by those selectors will have the rule applied.
+      - : A string containing a [CSS selector](/css/guides/Selectors), or an array containing multiple CSS selectors. Links in the document matched by those selectors will have the rule applied.
     - `"and"`
       - : An array containing one or more objects containing conditions (`"href_matches"`, `"selector_matches"`, `"and"`, `"not"`, or `"or"`), all of which must match for the rule to be applied to them.
     - `"not"`

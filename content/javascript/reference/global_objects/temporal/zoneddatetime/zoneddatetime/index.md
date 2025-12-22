@@ -30,7 +30,7 @@ new Temporal.ZonedDateTime(epochNanoseconds, timeZone, calendar)
   - : A [BigInt](/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt) that corresponds to the {{jsxref("Temporal/ZonedDateTime/epochNanoseconds", "epochNanoseconds")}} property.
 - `timeZone`
   - : A string that corresponds to the {{jsxref("Temporal/ZonedDateTime/timeZoneId", "timeZoneId")}} property. Unlike all other `Temporal` APIs, it must be a valid time zone identifier (either named or offset) as-is, and cannot be a `Temporal.ZonedDateTime` instance or a date-time string.
-- `calendar` {{optional_inline}}
+- `calendar` <Badge type="info" text="Optional" />
   - : A string that corresponds to the {{jsxref("Temporal/ZonedDateTime/calendarId", "calendarId")}} property. See [`Intl.supportedValuesOf()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_calendar_types) for a list of commonly supported calendar types. Defaults to `"iso8601"`.
 
 ### Return value

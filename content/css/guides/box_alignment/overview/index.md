@@ -6,9 +6,9 @@ page-type: guide
 sidebar: cssref
 ---
 
-The [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module specifies CSS features that relate to the alignment of boxes in the various CSS box layout models. The module aims to create a consistent method of alignment across all of CSS. The CSS box alignment properties provide full horizontal and vertical alignment capabilities.
+The [CSS box alignment](/css/guides/Box_alignment) module specifies CSS features that relate to the alignment of boxes in the various CSS box layout models. The module aims to create a consistent method of alignment across all of CSS. The CSS box alignment properties provide full horizontal and vertical alignment capabilities.
 
-This guide details the general concepts found in this module. Additional guides provide more information on box alignment in [flexbox](/en-US/docs/Web/CSS/Guides/Box_alignment/In_flexbox), [grid layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout), [multiple-column layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_multi-column_layout), and [block, absolutely positioned and table layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_block_abspos_tables). Alignment of text is covered by the [CSS text](/en-US/docs/Web/CSS/Guides/Text) and [CSS inline layout](/en-US/docs/Web/CSS/Guides/Inline_layout) modules.
+This guide details the general concepts found in this module. Additional guides provide more information on box alignment in [flexbox](/css/guides/Box_alignment/In_flexbox), [grid layout](/css/guides/Box_alignment/In_grid_layout), [multiple-column layout](/css/guides/Box_alignment/In_multi-column_layout), and [block, absolutely positioned and table layout](/css/guides/Box_alignment/In_block_abspos_tables). Alignment of text is covered by the [CSS text](/css/guides/Text) and [CSS inline layout](/css/guides/Inline_layout) modules.
 
 ## Key concepts and terminology
 
@@ -113,7 +113,7 @@ For these keywords to take effect, space is required along the dimension in whic
 
 ### Basic examples
 
-The following examples demonstrate how some of the box alignment properties are applied in [Grid](/en-US/docs/Web/CSS/Guides/Grid_layout) and [Flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout).
+The following examples demonstrate how some of the box alignment properties are applied in [Grid](/css/guides/Grid_layout) and [Flexbox](/css/guides/Flexible_box_layout).
 
 #### CSS grid layout alignment example
 
@@ -273,17 +273,17 @@ Be aware that other things may increase the visual gap displayed, for example us
 
 As the CSS box alignment properties are implemented differently depending on the specification they interact with, refer to the following guides for details of how to use the alignment properties with each layout type:
 
-- [Box alignment in flexbox](/en-US/docs/Web/CSS/Guides/Box_alignment/In_flexbox)
-- [Box alignment in CSS grid layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout)
-- [Box alignment in multiple-column layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_multi-column_layout)
-- [Box alignment for block, absolutely positioned and table layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_block_abspos_tables)
+- [Box alignment in flexbox](/css/guides/Box_alignment/In_flexbox)
+- [Box alignment in CSS grid layout](/css/guides/Box_alignment/In_grid_layout)
+- [Box alignment in multiple-column layout](/css/guides/Box_alignment/In_multi-column_layout)
+- [Box alignment for block, absolutely positioned and table layout](/css/guides/Box_alignment/In_block_abspos_tables)
 
 ## See also
 
-- [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module
-- [Box alignment in grid layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout)
-- [CSS display](/en-US/docs/Web/CSS/Guides/Display) module
-- [CSS flex layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module
-- [Basic concepts of flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts)
-- [Aligning items in a flex container](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items)
-- [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) module
+- [CSS box alignment](/css/guides/Box_alignment) module
+- [Box alignment in grid layout](/css/guides/Box_alignment/In_grid_layout)
+- [CSS display](/css/guides/Display) module
+- [CSS flex layout](/css/guides/Flexible_box_layout) module
+- [Basic concepts of flexbox](/css/guides/Flexible_box_layout/Basic_concepts)
+- [Aligning items in a flex container](/css/guides/Flexible_box_layout/Aligning_items)
+- [CSS grid layout](/css/guides/Grid_layout) module

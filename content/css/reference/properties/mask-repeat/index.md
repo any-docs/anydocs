@@ -52,7 +52,7 @@ with the first `<repeat-style>` value being the horizontal repetition value and 
 The `<repeat-style>` values include:
 
 - `repeat`
-  - : The image is repeated as much as needed to cover the whole mask painting area. Mask images along the edges are clipped when the size of the [mask origin box](/en-US/docs/Web/CSS/Reference/Properties/mask-origin) is not an exact multiple of the mask image's size.
+  - : The image is repeated as much as needed to cover the whole mask painting area. Mask images along the edges are clipped when the size of the [mask origin box](/css/reference/properties/mask-origin) is not an exact multiple of the mask image's size.
 
 - `space`
   - : The mask image is repeated as many times as possible without clipping. If the element's origin size is at least twice the size as the mask image's size in the associated dimension, the {{cssxref("mask-position")}} property is ignored and the first and last images are positioned at the edges of the mask origin container. If the mask origin box is not an exact multiple of the mask image's size, whitespace is distributed evenly between the repeated mask images.
@@ -120,7 +120,7 @@ Each `mask-repeat` value in this comma-separated list applies to a separate mask
 
 ### Sizing and positioning
 
-The `mask-repeat` property value defines how mask images are tiled after they have been [sized](/en-US/docs/Web/CSS/Reference/Properties/mask-size) and [positioned](/en-US/docs/Web/CSS/Reference/Properties/mask-position). The first (and possibly only) mask-image repetition is positioned by the {{cssxref("mask-position")}} property, which defaults to `0% 0%`, the top-left corner of the origin box. The size is defined by the {{cssxref("mask-size")}} property, which defaults to `auto`. The positions of the repeated masks are based on this initial mask instance.
+The `mask-repeat` property value defines how mask images are tiled after they have been [sized](/css/reference/properties/mask-size) and [positioned](/css/reference/properties/mask-position). The first (and possibly only) mask-image repetition is positioned by the {{cssxref("mask-position")}} property, which defaults to `0% 0%`, the top-left corner of the origin box. The size is defined by the {{cssxref("mask-size")}} property, which defaults to `auto`. The positions of the repeated masks are based on this initial mask instance.
 
 ### Clipping
 
@@ -323,7 +323,7 @@ section {
 
 {{EmbedLiveSample("The shorthand values", "", "450px")}}
 
-The first (and, in the case of `no-repeat`, only) mask star is [sized](/en-US/docs/Web/CSS/Reference/Properties/mask-size) to be 50px by 50px, and [positioned](/en-US/docs/Web/CSS/Reference/Properties/mask-position) at the bottom-right of the painting area, with repeated stars placed above and/or to the left of it with any clipping occurring on the top and left of the top-most and left-most stars. Note that all the stars are the same size and shape, except for `round`, where all the masks shrank to 45px x 45px to fit four complete masks in each direction. Had the container been 174px, there would have been three stars in each direction, instead of four, and each star would have been stretched.
+The first (and, in the case of `no-repeat`, only) mask star is [sized](/css/reference/properties/mask-size) to be 50px by 50px, and [positioned](/css/reference/properties/mask-position) at the bottom-right of the painting area, with repeated stars placed above and/or to the left of it with any clipping occurring on the top and left of the top-most and left-most stars. Note that all the stars are the same size and shape, except for `round`, where all the masks shrank to 45px x 45px to fit four complete masks in each direction. Had the container been 174px, there would have been three stars in each direction, instead of four, and each star would have been stretched.
 
 ### Multiple mask images and repeats
 
@@ -360,7 +360,7 @@ Each image is matched with a corresponding repeat style. As there are more `mask
 
 - {{cssxref("background-repeat")}}
 - {{cssxref("mask-border-repeat")}}
-- [Introduction to CSS masking](/en-US/docs/Web/CSS/Guides/Masking/Introduction)
-- [CSS `mask` properties](/en-US/docs/Web/CSS/Guides/Masking/Mask_properties)
-- [Declaring multiple masks](/en-US/docs/Web/CSS/Guides/Masking/Multiple_masks)
-- [CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
+- [Introduction to CSS masking](/css/guides/Masking/Introduction)
+- [CSS `mask` properties](/css/guides/Masking/Mask_properties)
+- [Declaring multiple masks](/css/guides/Masking/Multiple_masks)
+- [CSS masking](/css/guides/Masking) module

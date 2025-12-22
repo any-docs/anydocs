@@ -6,7 +6,7 @@ browser-compat: css.types.text-edge
 sidebar: cssref
 ---
 
-The **`<text-edge>`** {{glossary("enumerated")}} [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) defines keywords that specify font metrics representing specific regions on a font's block-start edge and block-end edge. Each keyword specifies a position of a font's over and/or under edge.
+The **`<text-edge>`** {{glossary("enumerated")}} [data type](/css/reference/values/Data_types) defines keywords that specify font metrics representing specific regions on a font's block-start edge and block-end edge. Each keyword specifies a position of a font's over and/or under edge.
 
 The `<text-edge>` values are used in the {{cssxref("text-box-edge")}} property to specify an amount of space to trim from the block-start and block-end edge of a text element's block container.
 
@@ -46,7 +46,7 @@ The `<text-edge>` data type is composed of one or two keywords representing spec
 
 ## Examples
 
-See [`text-box-edge` examples](/en-US/docs/Web/CSS/Reference/Properties/text-box-edge#examples)
+See [`text-box-edge` examples](/css/reference/properties/text-box-edge#examples)
 
 ## Specifications
 
@@ -59,4 +59,4 @@ See [`text-box-edge` examples](/en-US/docs/Web/CSS/Reference/Properties/text-box
 ## See also
 
 - {{cssxref("text-box")}}, {{cssxref("text-box-edge")}}, {{cssxref("text-box-trim")}}
-- [CSS inline layout](/en-US/docs/Web/CSS/Guides/Inline_layout) module
+- [CSS inline layout](/css/guides/Inline_layout) module

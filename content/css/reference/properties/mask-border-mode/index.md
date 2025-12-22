@@ -6,7 +6,7 @@ spec-urls: https://drafts.fxtf.org/css-masking-1/#the-mask-border-mode
 sidebar: cssref
 ---
 
-The **`mask-border-mode`** [CSS](/en-US/docs/Web/CSS) property specifies the blending mode used in a [mask border](/en-US/docs/Web/CSS/Reference/Properties/mask-border).
+The **`mask-border-mode`** [CSS](/en-US/docs/Web/CSS) property specifies the blending mode used in a [mask border](/css/reference/properties/mask-border).
 
 ## Syntax
 
@@ -50,11 +50,11 @@ Currently, no browsers support this feature.
 
 - {{cssxref("mask-mode")}}
 - {{cssxref("mask-type")}}
-- [Alpha transparency versus luminance](/en-US/docs/Web/CSS/Guides/Masking/Introduction#alpha_transparency_versus_luminance)
+- [Alpha transparency versus luminance](/css/guides/Masking/Introduction#alpha_transparency_versus_luminance)
 - {{cssxref("mask-border")}} shorthand
 - {{cssxref("mask-border-outset")}}
 - {{cssxref("mask-border-repeat")}}
 - {{cssxref("mask-border-source")}}
 - {{cssxref("mask-border-width")}}
 - {{cssxref("mask-mode")}}
-- [CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
+- [CSS masking](/css/guides/Masking) module

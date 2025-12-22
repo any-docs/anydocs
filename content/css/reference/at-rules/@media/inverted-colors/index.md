@@ -86,5 +86,5 @@ p {
 ## See also
 
 - [@media](/en-US/docs/Web/CSS/Reference/At-rules/@media)
-- [CSS media queries](/en-US/docs/Web/CSS/Guides/Media_queries) module
-- [Using media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+- [CSS media queries](/css/guides/Media_queries) module
+- [Using media queries](/css/guides/Media_queries/Using)

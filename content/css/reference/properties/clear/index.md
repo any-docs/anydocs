@@ -6,7 +6,7 @@ browser-compat: css.properties.clear
 sidebar: cssref
 ---
 
-The **`clear`** [CSS](/en-US/docs/Web/CSS) property sets whether an element must be moved below (cleared) [floating](/en-US/docs/Web/CSS/Reference/Properties/float) elements that precede it. The `clear` property applies to floating and non-floating elements.
+The **`clear`** [CSS](/en-US/docs/Web/CSS) property sets whether an element must be moved below (cleared) [floating](/css/reference/properties/float) elements that precede it. The `clear` property applies to floating and non-floating elements.
 
 {{InteractiveExample("CSS Demo: clear")}}
 
@@ -101,14 +101,14 @@ clear: unset;
 
 ## Description
 
-When applied to non-floating blocks, it moves the [border edge](/en-US/docs/Web/CSS/Guides/Box_model/Introduction#border_area) of the element down until it is below the [margin edge](/en-US/docs/Web/CSS/Guides/Box_model/Introduction#margin_area) of all relevant floats. The non-floated block's top margin collapses.
+When applied to non-floating blocks, it moves the [border edge](/css/guides/Box_model/Introduction#border_area) of the element down until it is below the [margin edge](/css/guides/Box_model/Introduction#margin_area) of all relevant floats. The non-floated block's top margin collapses.
 
 Vertical margins between two floated elements on the other hand will not collapse. When applied to floating elements, the margin edge of the bottom element is moved below the margin edge of all relevant floats. This affects the position of later floats, since later floats cannot be positioned higher than earlier ones.
 
-The floats that are relevant to be cleared are the earlier floats within the same [block formatting context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context).
+The floats that are relevant to be cleared are the earlier floats within the same [block formatting context](/css/guides/Display/Block_formatting_context).
 
 > [!NOTE]
-> If an element contains only floated elements, its height collapses to nothing. If you want it to always be able to resize, so that it contains floating elements inside it, set the value of the element's {{cssxref("display")}} property to [`flow-root`](/en-US/docs/Web/CSS/Reference/Properties/display#flow-root).
+> If an element contains only floated elements, its height collapses to nothing. If you want it to always be able to resize, so that it contains floating elements inside it, set the value of the element's {{cssxref("display")}} property to [`flow-root`](/css/reference/properties/display#flow-root).
 >
 > ```css
 > #container {
@@ -278,4 +278,4 @@ p {
 
 ## See also
 
-- [CSS basic box model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction)
+- [CSS basic box model](/css/guides/Box_model/Introduction)

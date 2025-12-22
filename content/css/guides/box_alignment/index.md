@@ -13,7 +13,7 @@ The module details alignment terminology, enabling alignment properties to be us
 
 Alignment is linked to writing modes in that when we align an item we do not consider whether we are aligning it to the physical dimensions of top, right, bottom, and left. Instead, we describe alignment in terms of the start and end of the particular dimension we are working with. This ensures that alignment works in the same way whichever writing mode the document has.
 
-The alignment of text and inline-level content is defined in [CSS text module](/en-US/docs/Web/CSS/Guides/Text) and [CSS inline module](/en-US/docs/Web/CSS/Guides/Inline_layout), respectively.
+The alignment of text and inline-level content is defined in [CSS text module](/css/guides/Text) and [CSS inline module](/css/guides/Inline_layout), respectively.
 
 ## Reference
 
@@ -44,26 +44,26 @@ The alignment of text and inline-level content is defined in [CSS text module](/
 
 - {{Glossary("Alignment container")}}
 - {{Glossary("Alignment subject")}}
-- [Baseline alignment](/en-US/docs/Web/CSS/Guides/Box_alignment/Overview#baseline_alignment)
-- [Distributed alignment](/en-US/docs/Web/CSS/Guides/Box_alignment/Overview#distributed_alignment)
+- [Baseline alignment](/css/guides/Box_alignment/Overview#baseline_alignment)
+- [Distributed alignment](/css/guides/Box_alignment/Overview#distributed_alignment)
 - {{Glossary("Fallback alignment")}}
-- [Positional alignment](/en-US/docs/Web/CSS/Guides/Box_alignment/Overview#positional_alignment)
+- [Positional alignment](/css/guides/Box_alignment/Overview#positional_alignment)
 
 ## Guides
 
-- [Box alignment overview](/en-US/docs/Web/CSS/Guides/Box_alignment/Overview)
+- [Box alignment overview](/css/guides/Box_alignment/Overview)
   - : Overview of the general concepts found in the CSS box alignment module.
 
-- [Box alignment in flexbox](/en-US/docs/Web/CSS/Guides/Box_alignment/In_flexbox)
+- [Box alignment in flexbox](/css/guides/Box_alignment/In_flexbox)
   - : How box alignment works in the context of flexbox.
 
-- [Box alignment in CSS grid layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout)
+- [Box alignment in CSS grid layout](/css/guides/Box_alignment/In_grid_layout)
   - : How box alignment works in the context of grid layout.
 
-- [Box alignment in multiple-column layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_multi-column_layout)
+- [Box alignment in multiple-column layout](/css/guides/Box_alignment/In_multi-column_layout)
   - : How box alignment works in the context of multi-column layout.
 
-- [Box alignment for block, absolutely positioned and table layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_block_abspos_tables)
+- [Box alignment for block, absolutely positioned and table layout](/css/guides/Box_alignment/In_block_abspos_tables)
   - : How box alignment works in the context of block layout, including floated, positioned, and table elements.
 
 ## Related concepts
@@ -81,9 +81,9 @@ The alignment of text and inline-level content is defined in [CSS text module](/
 
 ## See also
 
-- [Basic concepts of flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts)
-- [Aligning items in a flex container](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items)
-- [Box alignment in grid layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout)
-- [CSS display](/en-US/docs/Web/CSS/Guides/Display) module
-- [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module
-- [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) module
+- [Basic concepts of flexbox](/css/guides/Flexible_box_layout/Basic_concepts)
+- [Aligning items in a flex container](/css/guides/Flexible_box_layout/Aligning_items)
+- [Box alignment in grid layout](/css/guides/Box_alignment/In_grid_layout)
+- [CSS display](/css/guides/Display) module
+- [CSS flexible box layout](/css/guides/Flexible_box_layout) module
+- [CSS grid layout](/css/guides/Grid_layout) module

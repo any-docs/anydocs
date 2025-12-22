@@ -6,7 +6,7 @@ spec-urls: https://drafts.csswg.org/css-box-4/#keywords
 sidebar: cssref
 ---
 
-The **`<box-edge>`** value types represent a [box edge](/en-US/docs/Web/CSS/Guides/Box_model/Introduction) keyword, such as [`content-box`](#content-box) and [`border-box`](#border-box). The box-edge keywords are used to define different aspects of an element's box model and how elements are positioned and rendered on screen.
+The **`<box-edge>`** value types represent a [box edge](/css/guides/Box_model/Introduction) keyword, such as [`content-box`](#content-box) and [`border-box`](#border-box). The box-edge keywords are used to define different aspects of an element's box model and how elements are positioned and rendered on screen.
 
 The box-edge keywords are the components of, but not limited to, the data types `<visual-box>`, `<layout-box>`, `<paint-box>`, `<coord-box>`, and `<geometry-box>`. These types are applied to properties such as {{cssxref("transform-box")}} and {{cssxref("background-clip")}}.
 
@@ -37,7 +37,7 @@ A `<box-edge>` can be of the type `<visual-box>`, `<layout-box>`, `<paint-box>`,
   - : Refers to the coordinate box used for positioning and sizing an element within its parent container. It is used to control how content flows around the edges of the box. It excludes the margin area. This value type is used for the {{cssxref("offset-path")}} property.
 
 - `<geometry-box>`
-  - : Defines the reference box for a [basic shape](/en-US/docs/Web/CSS/Reference/Values/basic-shape), or if specified by itself, causes the edges of the specified box, including any corner shaping (such as a {{cssxref("border-radius")}}), to be the clipping path. This value type is used for the {{cssxref("clip-path")}}, {{cssxref("mask-clip")}}, and {{cssxref("mask-origin")}} properties and the SVG {{SVGAttr("clip-path")}} attribute.
+  - : Defines the reference box for a [basic shape](/css/reference/values/basic-shape), or if specified by itself, causes the edges of the specified box, including any corner shaping (such as a {{cssxref("border-radius")}}), to be the clipping path. This value type is used for the {{cssxref("clip-path")}}, {{cssxref("mask-clip")}}, and {{cssxref("mask-origin")}} properties and the SVG {{SVGAttr("clip-path")}} attribute.
 
 ### Keywords
 
@@ -72,4 +72,4 @@ The `<box-edge>` keywords are defined as follows:
 
 ## See also
 
-- [CSS box model](/en-US/docs/Web/CSS/Guides/Box_model) module
+- [CSS box model](/css/guides/Box_model) module

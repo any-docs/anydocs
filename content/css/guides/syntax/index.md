@@ -9,7 +9,7 @@ sidebar: cssref
 
 The **CSS syntax** module describes, in general terms, the structure and syntax of cascading stylesheets, or CSS. It defines CSS as the language for describing the rendering of structured documents (such as HTML and XML), on the web and elsewhere.
 
-This module doesn't define any properties, [data types](/en-US/docs/Web/CSS/Reference/Values/Data_types), [functions](/en-US/docs/Web/CSS/Reference/Values/Functions), or [at-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules). Rather, it elaborates on how all of these features should be defined and how user agents should parse CSS.
+This module doesn't define any properties, [data types](/css/reference/values/Data_types), [functions](/css/reference/values/Functions), or [at-rules](/css/guides/Syntax/At-rules). Rather, it elaborates on how all of these features should be defined and how user agents should parse CSS.
 
 ## Reference
 
@@ -23,12 +23,12 @@ This module doesn't define any properties, [data types](/en-US/docs/Web/CSS/Refe
 ### Key concepts
 
 - {{cssxref("at-rule")}}
-- [character escaping](/en-US/docs/Web/CSS/Reference/Values/custom-ident#escaping_characters)
-- [CSS comments](/en-US/docs/Web/CSS/Guides/Syntax/Comments)
+- [character escaping](/css/reference/values/custom-ident#escaping_characters)
+- [CSS comments](/css/guides/Syntax/Comments)
 - [CSS declaration](/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration)
 - [CSS declaration block](/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration_Block)
-- [CSS function](/en-US/docs/Web/CSS/Reference/Values/Functions)
-- [Invalid](/en-US/docs/Web/CSS/Guides/Syntax/Error_handling)
+- [CSS function](/css/reference/values/Functions)
+- [Invalid](/css/guides/Syntax/Error_handling)
 - [Style rule](/en-US/docs/Web/API/CSSStyleRule)
 
 ### Glossary terms
@@ -40,13 +40,13 @@ This module doesn't define any properties, [data types](/en-US/docs/Web/CSS/Refe
 
 ## Guides
 
-- [Introduction to CSS syntax: declarations, rulesets, and statements](/en-US/docs/Web/CSS/Guides/Syntax/Introduction)
+- [Introduction to CSS syntax: declarations, rulesets, and statements](/css/guides/Syntax/Introduction)
   - : Explains the overall CSS syntax and how declarations, declaration blocks, rulesets, and statements form the style rules.
 
-- [Value definition syntax](/en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax)
+- [Value definition syntax](/css/guides/Values_and_units/Value_definition_syntax)
   - : Explains the formal grammar for defining valid values for CSS properties and functions, along with semantic constraints. A guide for understanding CSS component value types, combinators, and multipliers.
 
-- [CSS error handling](/en-US/docs/Web/CSS/Guides/Syntax/Error_handling)
+- [CSS error handling](/css/guides/Syntax/Error_handling)
   - : Overview of how browsers handle invalid CSS.
 
 - [Learn CSS first steps: CSS syntax](/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS#css_syntax_basics)
@@ -54,27 +54,27 @@ This module doesn't define any properties, [data types](/en-US/docs/Web/CSS/Refe
 
 ## Related concepts
 
-[CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors) module:
+[CSS selectors](/css/guides/Selectors) module:
 
-- [CSS specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
+- [CSS specificity](/css/guides/Cascade/Specificity)
 
-[CSS cascading and inheritance](/en-US/docs/Web/CSS/Guides/Cascade) module:
+[CSS cascading and inheritance](/css/guides/Cascade) module:
 
 - {{cssxref("@import")}} at-rule
 - {{cssxref("important")}} flag
-- [Initial values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value)
-- [Computed values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value)
-- [Used values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value)
-- [Actual values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#actual_value)
-- [CSS inheritance](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance)
+- [Initial values](/css/guides/Cascade/Property_value_processing#initial_value)
+- [Computed values](/css/guides/Cascade/Property_value_processing#computed_value)
+- [Used values](/css/guides/Cascade/Property_value_processing#used_value)
+- [Actual values](/css/guides/Cascade/Property_value_processing#actual_value)
+- [CSS inheritance](/css/guides/Cascade/Inheritance)
 - {{Glossary("Property/CSS", "CSS property")}}
 
-[CSS custom properties for cascading variables](/en-US/docs/Web/CSS/Guides/Cascading_variables) module:
+[CSS custom properties for cascading variables](/css/guides/Cascading_variables) module:
 
-- [custom property (`--*`)](/en-US/docs/Web/CSS/Reference/Properties/--*)
+- [custom property (`--*`)](/css/reference/properties/--*)
 - {{cssxref("var")}} function
 
-[CSS conditional rules](/en-US/docs/Web/CSS/Guides/Conditional_rules) module:
+[CSS conditional rules](/css/guides/Conditional_rules) module:
 
 - {{cssxref("@media")}} at-rule
 - {{cssxref("@supports")}} at-rule
@@ -99,5 +99,5 @@ This module doesn't define any properties, [data types](/en-US/docs/Web/CSS/Refe
 ## See also
 
 - [CSS at-rule functions](/en-US/docs/Web/CSS/Reference/At-rules/At-rule_functions)
-- [CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors) module
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS selectors](/css/guides/Selectors) module
+- [CSS values and units](/css/guides/Values_and_units) module

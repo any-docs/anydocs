@@ -30,16 +30,16 @@ ReferenceError(message, fileName, lineNumber)
 
 ### Parameters
 
-- `message` {{optional_inline}}
+- `message` <Badge type="info" text="Optional" />
   - : Human-readable description of the error.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object that has the following properties:
-    - `cause` {{optional_inline}}
+    - `cause` <Badge type="info" text="Optional" />
       - : A property indicating the specific cause of the error.
         When catching and re-throwing an error with a more-specific or useful error message, this property can be used to pass the original error.
-- `fileName` {{optional_inline}} {{non-standard_inline}}
+- `fileName` <Badge type="info" text="Optional" /> {{non-standard_inline}}
   - : The name of the file containing the code that caused the exception.
-- `lineNumber` {{optional_inline}} {{non-standard_inline}}
+- `lineNumber` <Badge type="info" text="Optional" /> {{non-standard_inline}}
   - : The line number of the code that caused the exception
 
 ## Examples

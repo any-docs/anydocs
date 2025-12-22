@@ -42,9 +42,9 @@ The specification also defines the `hyphenate-limit-last`, `hyphenate-limit-line
 
 ## Guides
 
-- [Wrapping and breaking text](/en-US/docs/Web/CSS/Guides/Text/Wrapping_breaking_text)
+- [Wrapping and breaking text](/css/guides/Text/Wrapping_breaking_text)
   - : A guide to the various ways in which overflowing text can be managed in CSS.
-- [Handling whitespace](/en-US/docs/Web/CSS/Guides/Text/Whitespace)
+- [Handling whitespace](/css/guides/Text/Whitespace)
   - : A guide introducing the various CSS properties that control the rendering of whitespace in the DOM, exploring the pitfalls and their mitigations.
 
 ## Related concepts
@@ -79,8 +79,8 @@ The specification also defines the `hyphenate-limit-last`, `hyphenate-limit-line
 
 ## See also
 
-- [CSS writing modes](/en-US/docs/Web/CSS/Guides/Writing_modes) module
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
-- [CSS fonts](/en-US/docs/Web/CSS/Guides/Fonts) module
-- [CSS ruby layout](/en-US/docs/Web/CSS/Guides/Ruby_layout) module
-- [CSS text decoration](/en-US/docs/Web/CSS/Guides/Text_decoration) module
+- [CSS writing modes](/css/guides/Writing_modes) module
+- [CSS overflow](/css/guides/Overflow) module
+- [CSS fonts](/css/guides/Fonts) module
+- [CSS ruby layout](/css/guides/Ruby_layout) module
+- [CSS text decoration](/css/guides/Text_decoration) module

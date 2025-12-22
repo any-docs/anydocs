@@ -161,7 +161,7 @@ Additionally, if a spanning element appears later in the content, it can cause u
 
 A balanced set of columns is where all columns have approximately the same amount of content. Filling and balancing are relevant when the amount of content does not match the amount of space provided, such as when a {{CSSXref("height")}} is declared on the container.
 
-The initial value for {{cssxref("column-fill")}} is `balance`. The value of `balance` means all columns are as balanced as possible. In fragmented contexts, such as [paged media](/en-US/docs/Web/CSS/Guides/Paged_media), only the last fragment is balanced. This means that on the last page, the final set of column boxes is balanced.
+The initial value for {{cssxref("column-fill")}} is `balance`. The value of `balance` means all columns are as balanced as possible. In fragmented contexts, such as [paged media](/css/guides/Paged_media), only the last fragment is balanced. This means that on the last page, the final set of column boxes is balanced.
 
 The other balancing value, `balance-all`, balances all columns in fragmented contexts.
 
@@ -244,4 +244,4 @@ img {
 
 ## Next steps
 
-In the next guide, you will learn [how multicol handles overflow](/en-US/docs/Web/CSS/Guides/Multicol_layout/Handling_overflow) within columns and when there are more columns than can fit in the container.
+In the next guide, you will learn [how multicol handles overflow](/css/guides/Multicol_layout/Handling_overflow) within columns and when there are more columns than can fit in the container.

@@ -6,7 +6,7 @@ browser-compat: css.types.filter-function.invert
 sidebar: cssref
 ---
 
-The **`invert()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) inverts the color samples in the input image. Its result is a {{cssxref("filter-function")}}.
+The **`invert()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) inverts the color samples in the input image. Its result is a {{cssxref("filter-function")}}.
 
 {{InteractiveExample("CSS Demo: invert()")}}
 
@@ -58,7 +58,7 @@ invert(60%)
 
 ### Parameters
 
-- {{cssxref("&lt;number&gt;")}} or {{cssxref("&lt;percentage&gt;")}} {{Optional_Inline}}
+- {{cssxref("&lt;number&gt;")}} or {{cssxref("&lt;percentage&gt;")}} <Badge type="info" text="Optional" />
   - : Specifies the amount of the conversion. A value of `100%` is completely inverted, while a value of `0%` leaves the input unchanged. Values between `0%` and `100%` are linear multipliers on the effect. The initial value for {{Glossary("interpolation")}} is `0`. The default value is `1`.
 
 ## Formal syntax

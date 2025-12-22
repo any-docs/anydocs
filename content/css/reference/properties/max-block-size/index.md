@@ -12,7 +12,7 @@ The other dimension's maximum length is specified using the {{cssxref("max-inlin
 
 This is useful because the `max-width` is always used for horizontal sizes and `max-height` is always used for vertical sizes, and if you need to set lengths based on the size of your text content, you need to be able to do so with the writing direction in mind.
 
-Any time you would normally use `max-height` or `max-width`, you should instead use `max-block-size` to set the maximum "height" of the content (even though this may not be a vertical value) and `max-inline-size` to set the maximum "width" of the content (although this may instead be vertical rather than horizontal). See [`writing-mode` examples](/en-US/docs/Web/CSS/Reference/Properties/writing-mode#examples), which show the different writing modes in action.
+Any time you would normally use `max-height` or `max-width`, you should instead use `max-block-size` to set the maximum "height" of the content (even though this may not be a vertical value) and `max-inline-size` to set the maximum "width" of the content (although this may instead be vertical rather than horizontal). See [`writing-mode` examples](/css/reference/properties/writing-mode#examples), which show the different writing modes in action.
 
 {{InteractiveExample("CSS Demo: max-block-size")}}
 
@@ -97,8 +97,8 @@ The `max-block-size` property's value can be any value that's legal for the {{cs
 - {{cssxref("min-content")}}
   - : The intrinsic minimum `max-block-size`.
 - {{cssxref("fit-content")}}
-  - : Use the available space, but not more than [max-content](/en-US/docs/Web/CSS/Reference/Values/max-content), i.e., `min(max-content, max(min-content, stretch))`.
-- [`fit-content(<length-percentage>)`](/en-US/docs/Web/CSS/Reference/Values/fit-content_function)
+  - : Use the available space, but not more than [max-content](/css/reference/values/max-content), i.e., `min(max-content, max(min-content, stretch))`.
+- [`fit-content(<length-percentage>)`](/css/reference/values/fit-content_function)
   - : Uses the `fit-content` formula with the available space replaced by the specified argument, i.e., `min(max-content, max(min-content, argument))`.
 
 ### How writing-mode affects directionality

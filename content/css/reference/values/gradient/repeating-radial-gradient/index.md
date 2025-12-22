@@ -6,7 +6,7 @@ browser-compat: css.types.gradient.repeating-radial-gradient
 sidebar: cssref
 ---
 
-The **`repeating-radial-gradient()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) creates an image consisting of repeating gradients that radiate from an origin. It is similar to {{cssxref("gradient/radial-gradient", "radial-gradient()")}} and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container, similar to {{cssxref("gradient/repeating-linear-gradient", "repeating-linear-gradient()")}}. The function's result is an object of the {{cssxref("gradient")}} data type, which is a special kind of {{cssxref("image")}}.
+The **`repeating-radial-gradient()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) creates an image consisting of repeating gradients that radiate from an origin. It is similar to {{cssxref("gradient/radial-gradient", "radial-gradient()")}} and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container, similar to {{cssxref("gradient/repeating-linear-gradient", "repeating-linear-gradient()")}}. The function's result is an object of the {{cssxref("gradient")}} data type, which is a special kind of {{cssxref("image")}}.
 
 {{InteractiveExample("CSS Demo: repeating-radial-gradient()")}}
 
@@ -42,7 +42,7 @@ background: repeating-radial-gradient(
 
 With each repetition, the positions of the color stops are shifted by a multiple of the dimensions of the basic radial gradient (the distance between the last color stop and the first). Thus, the position of each ending color stop coincides with a starting color stop; if the color values are different, this will result in a sharp visual transition, which can be mitigated by repeating the first color as the last color.
 
-As with any gradient, a repeating radial gradient has [no intrinsic dimensions](/en-US/docs/Web/CSS/Reference/Values/image#description); i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element it applies to.
+As with any gradient, a repeating radial gradient has [no intrinsic dimensions](/css/reference/values/image#description); i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element it applies to.
 
 Because `<gradient>`s belong to the `<image>` data type, they can only be used where `<image>`s can be used. For this reason, `repeating-radial-gradient()` won't work on {{cssxref("background-color")}} and other properties that use the {{cssxref("&lt;color&gt;")}} data type.
 
@@ -177,7 +177,7 @@ div {
 }
 ```
 
-In this example for interpolation, [hsl](/en-US/docs/Web/CSS/Reference/Values/color_value/hsl) color system is being used and [hue](/en-US/docs/Web/CSS/Reference/Values/hue) is being interpolated.
+In this example for interpolation, [hsl](/css/reference/values/color_value/hsl) color system is being used and [hue](/css/reference/values/hue) is being interpolated.
 
 ```css
 .shorter {
@@ -197,12 +197,12 @@ In this example for interpolation, [hsl](/en-US/docs/Web/CSS/Reference/Values/co
 }
 ```
 
-The box on the left uses [shorter interpolation](/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method#shorter), meaning the color goes from red to blue using the shorter arc on [color wheel](/en-US/docs/Glossary/Color_wheel). The box on the right uses [longer interpolation](/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method#longer), meaning the color goes from red to blue using the longer arc, traversing through greens, yellows, and oranges.
+The box on the left uses [shorter interpolation](/css/reference/values/hue-interpolation-method#shorter), meaning the color goes from red to blue using the shorter arc on [color wheel](/en-US/docs/Glossary/Color_wheel). The box on the right uses [longer interpolation](/css/reference/values/hue-interpolation-method#longer), meaning the color goes from red to blue using the longer arc, traversing through greens, yellows, and oranges.
 
 {{EmbedLiveSample("Interpolating with hue", 240, 200)}}
 
 > [!NOTE]
-> Please see [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients) for more examples.
+> Please see [Using CSS gradients](/css/guides/Images/Using_gradients) for more examples.
 
 ## Specifications
 
@@ -214,7 +214,7 @@ The box on the left uses [shorter interpolation](/en-US/docs/Web/CSS/Reference/V
 
 ## See also
 
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
+- [Using CSS gradients](/css/guides/Images/Using_gradients)
 - Other gradient functions: {{cssxref("gradient/radial-gradient", "radial-gradient()")}}, {{cssxref("gradient/linear-gradient", "linear-gradient()")}}, {{cssxref("gradient/repeating-linear-gradient", "repeating-linear-gradient()")}}, {{cssxref("gradient/conic-gradient", "conic-gradient()")}}, {{cssxref("gradient/repeating-conic-gradient", "repeating-conic-gradient()")}}
 - {{cssxref("hue-interpolation-method")}}
 - {{cssxref("color-interpolation-method")}}

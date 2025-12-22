@@ -28,11 +28,11 @@ AggregateError(errors, message, options)
 
 - `errors`
   - : An iterable of errors, may not actually be {{jsxref("Error")}} instances.
-- `message` {{optional_inline}}
+- `message` <Badge type="info" text="Optional" />
   - : An optional human-readable description of the aggregate error.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object that has the following properties:
-    - `cause` {{optional_inline}}
+    - `cause` <Badge type="info" text="Optional" />
       - : A property indicating the specific cause of the error.
         When catching and re-throwing an error with a more-specific or useful error message, this property can be used to pass the original error.
 

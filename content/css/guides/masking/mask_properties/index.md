@@ -8,7 +8,7 @@ sidebar: cssref
 
 CSS masking is a technique that enables you to define visible portions of an element by applying a mask, which selectively reveals or hides parts of the element based on the alpha channels, and optionally colors, of the applied mask images.
 
-The [introductory guide to masking](/en-US/docs/Web/CSS/Guides/Masking) introduces the different types of mask images and their modes. The guide to [declaring multiple masks](/en-US/docs/Web/CSS/Guides/Masking/Multiple_masks) discusses the [mask layers](/en-US/docs/Web/CSS/Guides/Masking/Multiple_masks#understanding_mask_layers) and the {{cssxref("mask")}} shorthand property, providing a brief introduction to the shorthand's component properties. In this guide, we explore these component properties in greater detail and look at how they interact. We also explain how, in cases where multiple mask images are declared, the [mask layers are composited](#the_mask-composite_property), or combined.
+The [introductory guide to masking](/css/guides/Masking) introduces the different types of mask images and their modes. The guide to [declaring multiple masks](/css/guides/Masking/Multiple_masks) discusses the [mask layers](/css/guides/Masking/Multiple_masks#understanding_mask_layers) and the {{cssxref("mask")}} shorthand property, providing a brief introduction to the shorthand's component properties. In this guide, we explore these component properties in greater detail and look at how they interact. We also explain how, in cases where multiple mask images are declared, the [mask layers are composited](#the_mask-composite_property), or combined.
 
 CSS masks are composed of one or more mask layers, with a mask layer created for every value in the comma-separated list of `mask` or `mask-image` values, whether the values are images, mask sources, or the keyword `none`. Every {{cssxref("mask-image")}} is [positioned](#the_mask-position_property) relative to an [origin](#the_mask-origin_property) box. The mask images can be [sized](#the_mask-size_property), [repeated](#the_mask-repeat_property), and [clipped](#the_mask-clip_property), then composited together with previous layers to create the final visual mask on the element.
 
@@ -17,7 +17,7 @@ CSS masks are composed of one or more mask layers, with a mask layer created for
 The minimum requirement to create a mask is a {{cssxref("mask-image")}} property set to a value other than `none`.
 The keyword `none` within a list of mask sources creates a mask layer. However, if `none` is the only value of the `mask-image` property, no masking occurs.
 
-The mask image can be a [CSS gradient](/en-US/docs/Web/CSS/Guides/Images/Using_gradients), an [imported image](/en-US/docs/Web/CSS/Guides/Masking/Introduction#with_imported_images) (such as a PNG, SVG, etc.), or an SVG {{svgelement("mask")}} element.
+The mask image can be a [CSS gradient](/css/guides/Images/Using_gradients), an [imported image](/css/guides/Masking/Introduction#with_imported_images) (such as a PNG, SVG, etc.), or an SVG {{svgelement("mask")}} element.
 
 In this example, we create five mask layers, including an imported image, two gradients, a layer with no image, and an SVG `<mask>` source as the mask image.
 
@@ -54,7 +54,7 @@ If a `mask-*` property has a single value, this value applies to all the layers.
 
 In this case, every odd layer will be repeated along the x-axis while every even layer is repeated along the y-axis. The first and fourth layer images will be centered, while the second and fifth will be positioned in the top left corner. The `none` means the fifth layer's `#svg-mask` image will be repeated along the x-axis starting at the top left corner.
 
-Learn more about [mask layers and the `none` keyword](/en-US/docs/Web/CSS/Guides/Masking/Multiple_masks#mask_layers_and_the_none_keyword).
+Learn more about [mask layers and the `none` keyword](/css/guides/Masking/Multiple_masks#mask_layers_and_the_none_keyword).
 
 ## The `mask-mode` property
 
@@ -66,7 +66,7 @@ Each mask is either an `alpha` or a `luminance` mask.
 
 With `alpha` masks, the alpha-transparency of each mask pixel is important. Wherever the mask is opaque, the corresponding parts of the element will be visible. Wherever the mask is transparent, the corresponding parts of the element will be hidden. Wherever the mask is semi-opaque, the element will be equally semi-opaque. The color of the mask doesn't matter, just the alpha-transparency of the colors.
 
-With `luminance` masks, both the [brightness of mask's colors](/en-US/docs/Web/CSS/Guides/Masking/Introduction#alpha_transparency_versus_luminance) and the alpha channel determine the opaqueness of the masked areas.
+With `luminance` masks, both the [brightness of mask's colors](/css/guides/Masking/Introduction#alpha_transparency_versus_luminance) and the alpha channel determine the opaqueness of the masked areas.
 
 > [!NOTE]
 > All subsequent examples use the following image as a `background-image` on an element to which masks will be applied:
@@ -115,7 +115,7 @@ div {
 }
 ```
 
-We declare a [`repeating-linear-gradient`](/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-linear-gradient) with red, transparent, and semi-transparent red diagonal stripes. This gradient is used as our mask and, for the last container, as the background image:
+We declare a [`repeating-linear-gradient`](/css/reference/values/gradient/repeating-linear-gradient) with red, transparent, and semi-transparent red diagonal stripes. This gradient is used as our mask and, for the last container, as the background image:
 
 ```css live-sample___mode
 img {
@@ -150,7 +150,7 @@ We set different values for the `mask-mode` property for each image:
 
 {{EmbedLiveSample("mode", "", "270px")}}
 
-In the `alpha` case, only the transparency of the gradient's colors matter. Where the gradient is opaque red, the image is opaque. Where the gradient is transparent, the image is hidden. Where the gradient is 50% opaque, the image is 50% opaque. In the `luminance` case, the color's brightness matters! See [Alpha transparency versus luminance](/en-US/docs/Web/CSS/Guides/Masking/Introduction#alpha_transparency_versus_luminance) to learn about the equation that uses the color's R, G, B, and A channels to determine the opacity of the mask.
+In the `alpha` case, only the transparency of the gradient's colors matter. Where the gradient is opaque red, the image is opaque. Where the gradient is transparent, the image is hidden. Where the gradient is 50% opaque, the image is 50% opaque. In the `luminance` case, the color's brightness matters! See [Alpha transparency versus luminance](/css/guides/Masking/Introduction#alpha_transparency_versus_luminance) to learn about the equation that uses the color's R, G, B, and A channels to determine the opacity of the mask.
 
 ### The `mask-mode` default value: `match-source`
 
@@ -184,11 +184,11 @@ or, using the `mask` shorthand:
 
 The first mask layer, `url("alphaImage.png")`, references an image. As this isn't a `<mask>` element within an `<svg>`, the `mask-mode` resolves to `alpha`, with the opaque parts of this image making the corresponding parts of the element visible, while the transparent or semi-transparent parts are invisible or partially visible.
 
-The `linear-gradient(to right, black, transparent)` is the second mask layer and `radial-gradient(circle, white 50%, transparent 75%)` is the third. Again, these aren't `<mask>` elements, so the `match-source` value resolves to `alpha`. The masking effect of these layers is determined by the [opaqueness of the gradient mask](/en-US/docs/Web/CSS/Guides/Masking/Introduction#opaqueness_versus_transparency) by default.
+The `linear-gradient(to right, black, transparent)` is the second mask layer and `radial-gradient(circle, white 50%, transparent 75%)` is the third. Again, these aren't `<mask>` elements, so the `match-source` value resolves to `alpha`. The masking effect of these layers is determined by the [opaqueness of the gradient mask](/css/guides/Masking/Introduction#opaqueness_versus_transparency) by default.
 
 The fourth mask layer has `none` declared, meaning the mask for this layer is transparent black. The `.masked-element` class sets `mask-mode: match-source;`. Had `mask-mode` instead been a comma-separated list of five different values, the fourth value would have applied to this `none` layer, allowing the fifth value to apply to the fifth layer.
 
-The fifth mask layer is comprised of an SVG {{svgelement("mask")}} element that has `svg-mask` as its [`id`](/en-US/docs/Web/HTML/Reference/Global_attributes/id). While the default mask mode of the other layers is `alpha`, the default [mask type of SVG `<mask>` elements](/en-US/docs/Web/CSS/Guides/Masking/Introduction#svg_mask_as_mask_source) is the `mask-type` value, or, if not set, the `mask-type` attribute. If that isn't defined either, the value defaults to `luminance`. In other words, the masking effect of the `<mask>` is determined by both the brightness and transparency of the `<mask>` element's colors.
+The fifth mask layer is comprised of an SVG {{svgelement("mask")}} element that has `svg-mask` as its [`id`](/en-US/docs/Web/HTML/Reference/Global_attributes/id). While the default mask mode of the other layers is `alpha`, the default [mask type of SVG `<mask>` elements](/css/guides/Masking/Introduction#svg_mask_as_mask_source) is the `mask-type` value, or, if not set, the `mask-type` attribute. If that isn't defined either, the value defaults to `luminance`. In other words, the masking effect of the `<mask>` is determined by both the brightness and transparency of the `<mask>` element's colors.
 
 If we don't declare the `mask-mode` property at all, and allow it default to `match-source` for each mask layer, the result in this `.masked-element` case would resolve to:
 
@@ -216,7 +216,7 @@ or, using the `mask` shorthand:
 
 ## The `mask-position` property
 
-Analogous to the {{cssxref("background-position")}} property, the {{cssxref("mask-position")}} property sets the initial position of the mask image relative to the mask layer's origin box, defined by [the `mask-origin` property](#the_mask-origin_property). The syntax follows the [`background-position`'s `<position>` syntax](/en-US/docs/Web/CSS/Reference/Properties/background-position#position), with the value being one, two, or four {{cssxref("&lt;position&gt;")}} values, defining one to two relative or absolute position offsets.
+Analogous to the {{cssxref("background-position")}} property, the {{cssxref("mask-position")}} property sets the initial position of the mask image relative to the mask layer's origin box, defined by [the `mask-origin` property](#the_mask-origin_property). The syntax follows the [`background-position`'s `<position>` syntax](/css/reference/properties/background-position#position), with the value being one, two, or four {{cssxref("&lt;position&gt;")}} values, defining one to two relative or absolute position offsets.
 
 ### One-value syntax
 
@@ -244,7 +244,7 @@ In the two `<length-percentage>` syntax, the origin sides are `top` and `left`, 
 
 ### Percentage values
 
-When offsetting using percentage values, the mask's dimension is subtracted from the element's dimension, just as is done with [percentage offsets with `background-position`](/en-US/docs/Web/CSS/Reference/Properties/background-position#regarding_percentages).
+When offsetting using percentage values, the mask's dimension is subtracted from the element's dimension, just as is done with [percentage offsets with `background-position`](/css/reference/properties/background-position#regarding_percentages).
 
 ### Positioning repeating mask images
 
@@ -541,7 +541,7 @@ or, expanding on the example using the `mask` shorthand:
 }
 ```
 
-In the `mask` shorthand, if only one [`<geometry-box>`](/en-US/docs/Web/CSS/Reference/Properties/clip-path#geometry-box) value is given, it sets both the `mask-origin` and `mask-clip` property values. If two `<geometry-box>` values are present, the first defines the `mask-origin` and the second defines the `mask-clip`.
+In the `mask` shorthand, if only one [`<geometry-box>`](/css/reference/properties/clip-path#geometry-box) value is given, it sets both the `mask-origin` and `mask-clip` property values. If two `<geometry-box>` values are present, the first defines the `mask-origin` and the second defines the `mask-clip`.
 
 For mask layer images that do not reference an SVG {{svgelement("mask")}} element, the `mask-clip` property defines whether the mask painting area, or the area affected by the mask, is the border, padding, or content box. The painted content of the element will be restricted to this area.
 
@@ -623,7 +623,7 @@ The default value of `mask-size` is `auto`, rendering the mask at its {{glossary
 
 Like with all longhand components of shorthand property, if the {{cssxref("mask")}} shorthand property is set and the value of the `mask-size` property is not defined within any mask layer, the `mask-size` value is reset to its initial value of `auto` for those mask layers.
 
-If the image has no intrinsic proportion, for example in the case of a [CSS gradient](/en-US/docs/Web/CSS/Reference/Values/gradient), the default `auto` is the entirety of the mask positioning area as set by [the `mask-origin` property](#the_mask-origin_property).
+If the image has no intrinsic proportion, for example in the case of a [CSS gradient](/css/reference/values/gradient), the default `auto` is the entirety of the mask positioning area as set by [the `mask-origin` property](#the_mask-origin_property).
 
 Continuing with the `masked-element` example, if we don't explicitly set the `mask-size` property, it will default to `auto` for each layer, as if we had set the following:
 
@@ -659,7 +659,7 @@ or, expanding on the example using the `mask` shorthand, with the `mask-size` co
 
 The {{cssxref("mask-repeat")}} property defines how mask images are repeated, or tiled, after the initial mask image has been sized and positioned. The `mask-repeat` property defines if and how that mask image is repeated along the horizontal and vertical axes. In most of the previous examples, you may have noticed the star mask repeated along the X and Y axes. This is because `repeat` is the default value.
 
-The `mask-repeat` property is analogous to the {{cssxref("background-repeat")}} property, accepting the same [`<repeat-style>`](/en-US/docs/Web/CSS/Reference/Properties/mask-repeat#values) values. As is the case with `background-repeat`, the first (and possibly only) mask-image repetition is positioned by [the `*-position` property](#the_mask-position_property) and sized by [the `*-size` property](#the_mask-size_property). The positions of the repeated background or mask images are based on this initial image instance.
+The `mask-repeat` property is analogous to the {{cssxref("background-repeat")}} property, accepting the same [`<repeat-style>`](/css/reference/properties/mask-repeat#values) values. As is the case with `background-repeat`, the first (and possibly only) mask-image repetition is positioned by [the `*-position` property](#the_mask-position_property) and sized by [the `*-size` property](#the_mask-size_property). The positions of the repeated background or mask images are based on this initial image instance.
 
 Continuing with the `masked-element` example, if we don't explicitly set the `mask-repeat` property, it will default to `repeat` for each layer, as if we had set the following:
 
@@ -872,6 +872,6 @@ Like we saw with all the other component properties, we could have used the `mas
 
 ## See also
 
-- [Introduction to CSS masking](/en-US/docs/Web/CSS/Guides/Masking/Introduction)
-- [Introduction to CSS clipping](/en-US/docs/Web/CSS/Guides/Masking/Clipping)
-- [CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
+- [Introduction to CSS masking](/css/guides/Masking/Introduction)
+- [Introduction to CSS clipping](/css/guides/Masking/Clipping)
+- [CSS masking](/css/guides/Masking) module

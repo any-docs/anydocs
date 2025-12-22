@@ -28,7 +28,7 @@ oklch(from var(--color) l c h / calc(alpha - 0.1))
 
 ### Values
 
-Below are descriptions of the allowed values for both absolute and [relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors).
+Below are descriptions of the allowed values for both absolute and [relative colors](/css/guides/Colors/Using_relative_colors).
 
 > [!NOTE]
 > Usually when percentage values have a numeric equivalent in CSS, `100%` is equal to the number `1`.
@@ -57,11 +57,11 @@ The parameters are as follows:
     > [!NOTE]
     > The angles corresponding to particular hues differ across the sRGB (used by {{CSSXref("color_value/hsl", "hsl()")}} and {{CSSXref("color_value/hwb", "hwb()")}}), CIELAB (used by {{CSSXref("color_value/lch", "lch()")}}), and Oklab (used by `oklch()`) color spaces. See the [Hues in `oklch()`](#hues_in_oklch) example below and the {{cssxref("hue")}} reference page for more details and examples.
 
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel. If the `A` channel value is not explicitly specified, it defaults to 100%. If included, the value is preceded by a slash (`/`).
 
 > [!NOTE]
-> See [Missing color components](/en-US/docs/Web/CSS/Reference/Values/color_value#missing_color_components) for more information on the effect of `none`.
+> See [Missing color components](/css/reference/values/color_value#missing_color_components) for more information on the effect of `none`.
 
 #### Relative value syntax
 
@@ -83,7 +83,7 @@ The parameters are as follows:
 - `H`
   - : A {{CSSXref("&lt;number&gt;")}}, an {{cssxref("angle")}}, or the keyword `none` (equivalent to `0deg` in this case) representing the output color's {{cssxref("hue")}} angle. See a [sample of different hues](#result_3) in the [Examples](#examples) section below.
 
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the output color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel. If the `A` channel value is not explicitly specified, it defaults to the alpha channel value of the origin color. If included, the value is preceded by a slash (`/`).
 
 #### Defining relative color output channel components
@@ -488,7 +488,7 @@ div {
 
 This example styles three {{htmlelement("div")}} elements with different background colors. The middle one is given the unmodified `--base-color`, while the left and right ones are given lightened and darkened variants of that `--base-color`.
 
-These variants are defined using relative colors — the `--base-color` [custom property](/en-US/docs/Web/CSS/Reference/Properties/--*) is passed into an `oklch()` function, and the output colors have their lightness channel modified to achieve the desired effect via a `calc()` function. The lightened color has `0.15` (15%) added to the lightness channel, and the darkened color has `0.15` (15%) subtracted from the lightness channel.
+These variants are defined using relative colors — the `--base-color` [custom property](/css/reference/properties/--*) is passed into an `oklch()` function, and the output colors have their lightness channel modified to achieve the desired effect via a `calc()` function. The lightened color has `0.15` (15%) added to the lightness channel, and the darkened color has `0.15` (15%) subtracted from the lightness channel.
 
 ```html hidden
 <div id="container">
@@ -548,9 +548,9 @@ The output is as follows:
 
 ## See also
 
-- [List of all color notations](/en-US/docs/Web/CSS/Reference/Values/color_value)
-- [Using relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors)
-- [CSS colors](/en-US/docs/Web/CSS/Guides/Colors) module
+- [List of all color notations](/css/reference/values/color_value)
+- [Using relative colors](/css/guides/Colors/Using_relative_colors)
+- [CSS colors](/css/guides/Colors) module
 - {{cssxref("hue")}} data type
 - {{cssxref("color_value/lch","lch()")}} and {{cssxref("color_value/oklab","oklab()")}} color functions
 - [Interactive post on OkLCh color space](https://abhisaha.com/blog/interactive-post-oklch-color-space) (2024)

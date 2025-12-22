@@ -41,7 +41,7 @@ forEach(callbackFn, thisArg)
       - : Key of each iteration. This is always the same as `value`.
     - `set`
       - : The set being iterated.
-- `thisArg` {{optional_inline}}
+- `thisArg` <Badge type="info" text="Optional" />
   - : A value to use as `this` when executing `callbackFn`.
 
 ### Return value

@@ -26,7 +26,7 @@ Atomics.notify(typedArray, index, count)
   - : An {{jsxref("Int32Array")}} or {{jsxref("BigInt64Array")}} that views a {{jsxref("SharedArrayBuffer")}}.
 - `index`
   - : The position in the `typedArray` to wake up on.
-- `count` {{optional_inline}}
+- `count` <Badge type="info" text="Optional" />
   - : The number of sleeping agents to notify. Defaults to {{jsxref("Infinity")}}.
 
 ### Return value

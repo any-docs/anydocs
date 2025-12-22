@@ -34,9 +34,9 @@ Temporal.PlainTime.from(info, options)
 
       They are truncated to be integers. Out-of-range values are handled by the `overflow` option.
 
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the following property:
-    - `overflow` {{optional_inline}}
+    - `overflow` <Badge type="info" text="Optional" />
       - : A string specifying the behavior when a time component is out of range (when using the object `info`). Possible values are:
         - `"constrain"` (default)
           - : The time component is clamped to the valid range.

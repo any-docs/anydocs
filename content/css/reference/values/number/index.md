@@ -6,7 +6,7 @@ browser-compat: css.types.number
 sidebar: cssref
 ---
 
-The **`<number>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a number, being either an integer, a number with a fractional component, or a base-ten exponent in scientific notation.
+The **`<number>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents a number, being either an integer, a number with a fractional component, or a base-ten exponent in scientific notation.
 
 ## Syntax
 
@@ -16,7 +16,7 @@ As with integers, the first character of the number can be immediately preceded 
 
 ## Interpolation
 
-When animated, values of the `<number>` CSS data type are interpolated as real, floating-point numbers. The speed of the interpolation is determined by the [easing function](/en-US/docs/Web/CSS/Reference/Values/easing-function) associated with the animation.
+When animated, values of the `<number>` CSS data type are interpolated as real, floating-point numbers. The speed of the interpolation is determined by the [easing function](/css/reference/values/easing-function) associated with the animation.
 
 ## Examples
 
@@ -54,4 +54,4 @@ When animated, values of the `<number>` CSS data type are interpolated as real, 
 
 - {{CSSxRef("integer")}}
 - {{CSSxRef("ratio")}}
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS values and units](/css/guides/Values_and_units) module

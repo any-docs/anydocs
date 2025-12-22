@@ -178,5 +178,5 @@ Using the `flex-direction` property with values of `row-reverse` or `column-reve
 ## See also
 
 - CSS {{CSSXRef("flex-flow")}} shorthand property for the CSS `flex-direction` and {{CSSXRef("flex-wrap")}} properties.
-- [Basic concepts of flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts)
-- [Ordering flex items](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Ordering_items)
+- [Basic concepts of flexbox](/css/guides/Flexible_box_layout/Basic_concepts)
+- [Ordering flex items](/css/guides/Flexible_box_layout/Ordering_items)

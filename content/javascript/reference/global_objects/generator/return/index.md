@@ -20,7 +20,7 @@ generatorInstance.return(value)
 
 ### Parameters
 
-- `value` {{optional_inline}}
+- `value` <Badge type="info" text="Optional" />
   - : The value to return.
 
 ### Return value

@@ -21,11 +21,11 @@ The [type selector](/en-US/docs/Web/CSS/Reference/Selectors/Type_selectors) sele
 
 The [class selector](/en-US/docs/Web/CSS/Reference/Selectors/Class_selectors) selects all elements that have the given `class` attribute denoted by the class name prefixed with a period (`.`). For example, `.index` will match any element that has `class="index"`. The [ID selector](/en-US/docs/Web/CSS/Reference/Selectors/ID_selectors) selects an element based on the value of its `id` attribute. The selector is the `id` prefixed with a "number sign" (U+0023, `#`). For example, `#toc` will match the element that has `id="toc"`. Both [`class`](/en-US/docs/Web/HTML/Reference/Global_attributes/class) and [`id`](/en-US/docs/Web/HTML/Reference/Global_attributes/id) are global attributes. There should be only one element with a given `id` in a document; but if there is more than one, the ID selector will match all the elements with that `id`.
 
-When combining a type or universal selector with a class or id selector to create a [compound selector](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#compound_selector), the type or universal selector must precede the class or id.
+When combining a type or universal selector with a class or id selector to create a [compound selector](/css/guides/Selectors/Selector_structure#compound_selector), the type or universal selector must precede the class or id.
 
 #### CSS
 
-In this example, we declare four [simple selectors](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#simple_selector) and one [compound selector](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#compound_selector) using the four basic selector types, as described above.
+In this example, we declare four [simple selectors](/css/guides/Selectors/Selector_structure#simple_selector) and one [compound selector](/css/guides/Selectors/Selector_structure#compound_selector) using the four basic selector types, as described above.
 
 ```css
 * {
@@ -58,7 +58,7 @@ p.myClass#myId {
 
 ## Combinators
 
-Using CSS combinators, we can combine selectors to select DOM nodes based on their relationship to other elements within the document node tree. This combining of selectors with combinators creates [complex selectors](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#complex_selector).
+Using CSS combinators, we can combine selectors to select DOM nodes based on their relationship to other elements within the document node tree. This combining of selectors with combinators creates [complex selectors](/css/guides/Selectors/Selector_structure#complex_selector).
 
 ### Descendant combinator
 
@@ -86,7 +86,7 @@ The [namespace separator](/en-US/docs/Web/CSS/Reference/Selectors/Namespace_sepa
 
 #### CSS
 
-In this example, we declare five [relative selectors](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#relative_selector) using [simple selectors](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#simple_selector) combined with combinators.
+In this example, we declare five [relative selectors](/css/guides/Selectors/Selector_structure#relative_selector) using [simple selectors](/css/guides/Selectors/Selector_structure#simple_selector) combined with combinators.
 
 ```css
 h2 + p ~ p {
@@ -130,7 +130,7 @@ h2 + p + p {
 
 ### Creating complex selectors with CSS nesting
 
-The above complex selectors can also be defined using simple selectors, combinators, and [CSS nesting](/en-US/docs/Web/CSS/Guides/Nesting), with or without the [`&` nesting selector](/en-US/docs/Web/CSS/Reference/Selectors/Nesting_selector).
+The above complex selectors can also be defined using simple selectors, combinators, and [CSS nesting](/css/guides/Nesting), with or without the [`&` nesting selector](/en-US/docs/Web/CSS/Reference/Selectors/Nesting_selector).
 
 #### CSS
 
@@ -195,16 +195,16 @@ The case sensitivity of the attribute depends on the language. Generally, in HTM
 
 ## Pseudo-class selectors
 
-The [CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors) module defines over 60 [pseudo-classes](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes). Pseudo-classes are [simple selectors](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#simple_selector), prefixed with a colon (`:`), that allow the selection of elements based on state information that is not contained in the document tree. {{CSSxRef("pseudo-classes")}} can be used to style an element based on its _state_.
-For example, the {{cssxref(":target")}} simple selector targets element of a URL containing a fragment identifier, and the [`a:visited`](/en-US/docs/Web/CSS/Reference/Selectors/:visited) [compound selector](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#compound_selector) matches all {{HTMLElement("a")}} elements that have been visited by a user.
+The [CSS selectors](/css/guides/Selectors) module defines over 60 [pseudo-classes](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes). Pseudo-classes are [simple selectors](/css/guides/Selectors/Selector_structure#simple_selector), prefixed with a colon (`:`), that allow the selection of elements based on state information that is not contained in the document tree. {{CSSxRef("pseudo-classes")}} can be used to style an element based on its _state_.
+For example, the {{cssxref(":target")}} simple selector targets element of a URL containing a fragment identifier, and the [`a:visited`](/en-US/docs/Web/CSS/Reference/Selectors/:visited) [compound selector](/css/guides/Selectors/Selector_structure#compound_selector) matches all {{HTMLElement("a")}} elements that have been visited by a user.
 
 The pseudo-classes can be categorized as [element display state](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes#element_display_state_pseudo-classes), [input](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes#input_pseudo-classes), [linguistic](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes#linguistic_pseudo-classes), [location](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes#location_pseudo-classes), [resource state](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes#resource_state_pseudo-classes), [time-dimensional](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes#time-dimensional_pseudo-classes), [tree-structural](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes#tree-structural_pseudo-classes), [user action](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes#user_action_pseudo-classes), and [functional](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes#functional_pseudo-classes).
 
-Multiple pseudo-classes can be combined to create [compound selectors](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#compound_selector). When combining a pseudo-class into a compound selector with a type or universal selector, the pseudo-class must follow the type selector or universal selector, if present.
+Multiple pseudo-classes can be combined to create [compound selectors](/css/guides/Selectors/Selector_structure#compound_selector). When combining a pseudo-class into a compound selector with a type or universal selector, the pseudo-class must follow the type selector or universal selector, if present.
 
 ## Pseudo-element selectors
 
-Not all CSS selectors are defined in the [CSS selectors module](/en-US/docs/Web/CSS). CSS pseudo-element selectors are defined in the [CSS pseudo-elements](/en-US/docs/Web/CSS/Guides/Pseudo-elements) module.
+Not all CSS selectors are defined in the [CSS selectors module](/en-US/docs/Web/CSS). CSS pseudo-element selectors are defined in the [CSS pseudo-elements](/css/guides/Pseudo-elements) module.
 
 CSS [pseudo-elements](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements), prefixed with two colons (`::`), represent entities that are not included in HTML. For example, the simple {{cssxref("::marker")}} selector selects list item bullets, and the compound selector [`p::first-line`](/en-US/docs/Web/CSS/Reference/Selectors/::first-line) matches the first line of all {{HTMLElement("p")}} elements.
 
@@ -217,6 +217,6 @@ See the [pseudo-classes](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes#
 ## See also
 
 - [Selector list](/en-US/docs/Web/CSS/Reference/Selectors/Selector_list)
-- [CSS selector structure](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure)
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
-- [CSS nesting module](/en-US/docs/Web/CSS/Guides/Nesting)
+- [CSS selector structure](/css/guides/Selectors/Selector_structure)
+- [Specificity](/css/guides/Cascade/Specificity)
+- [CSS nesting module](/css/guides/Nesting)

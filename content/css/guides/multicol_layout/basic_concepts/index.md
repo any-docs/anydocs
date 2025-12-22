@@ -10,9 +10,9 @@ Multi-column layout, usually referred to as multicol layout, is a specification 
 
 ## Key properties
 
-Multicol layout is unlike any of the other layout methods in CSS; it fragments the content, including all descendant elements, into columns. This happens in the same way that content is fragmented into pages when we work with [CSS paged media](/en-US/docs/Web/CSS/Guides/Paged_media) by creating a print stylesheet.
+Multicol layout is unlike any of the other layout methods in CSS; it fragments the content, including all descendant elements, into columns. This happens in the same way that content is fragmented into pages when we work with [CSS paged media](/css/guides/Paged_media) by creating a print stylesheet.
 
-In this and subsequent guides, we will be discussing the following properties defined in the [CSS multi-column layout](/en-US/docs/Web/CSS/Guides/Multicol_layout) module:
+In this and subsequent guides, we will be discussing the following properties defined in the [CSS multi-column layout](/css/guides/Multicol_layout) module:
 
 - {{cssxref("column-width")}}
 - {{cssxref("column-count")}}
@@ -72,7 +72,7 @@ body {
 
 {{EmbedLiveSample("column-count", "", "280px")}}
 
-In the above example, the content is wrapped within the paragraph `<p>` tags with the default styling. Therefore, there is a margin above each paragraph. You can see how this margin causes the first line of text to be pushed down. This is because a multicol container creates a [block formatting context (BFC)](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context) because of which margins on child elements do not collapse with any margin on the container.
+In the above example, the content is wrapped within the paragraph `<p>` tags with the default styling. Therefore, there is a margin above each paragraph. You can see how this margin causes the first line of text to be pushed down. This is because a multicol container creates a [block formatting context (BFC)](/css/guides/Display/Block_formatting_context) because of which margins on child elements do not collapse with any margin on the container.
 
 ### Specifying the width of columns
 
@@ -189,4 +189,4 @@ This CSS would give the same result as [the third example](#specifying_both_numb
 
 ## Next steps
 
-In this guide, we've learned the basic use of multi-column layout. In the next guide, we will look at how much we can [style the columns themselves](/en-US/docs/Web/CSS/Guides/Multicol_layout/Styling_columns).
+In this guide, we've learned the basic use of multi-column layout. In the next guide, we will look at how much we can [style the columns themselves](/css/guides/Multicol_layout/Styling_columns).

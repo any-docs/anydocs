@@ -6,7 +6,7 @@ browser-compat: css.types.easing-function.steps
 sidebar: cssref
 ---
 
-The **`steps()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) defines a transition that divides the input time into a specified number of intervals that are equal in length. This subclass of step functions are sometimes also called _staircase functions_.
+The **`steps()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) defines a transition that divides the input time into a specified number of intervals that are equal in length. This subclass of step functions are sometimes also called _staircase functions_.
 
 ## Syntax
 
@@ -107,5 +107,5 @@ steps(0, jump-none)
 ## See also
 
 - Other easing functions: {{cssxref("easing-function/cubic-bezier", "cubic-bezier()")}} and {{cssxref("easing-function/linear", "linear()")}}
-- [CSS easing functions](/en-US/docs/Web/CSS/Guides/Easing_functions) module
+- [CSS easing functions](/css/guides/Easing_functions) module
 - [Step function](https://en.wikipedia.org/wiki/Step_function) on Wikipedia

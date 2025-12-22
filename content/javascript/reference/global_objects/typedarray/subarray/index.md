@@ -34,10 +34,10 @@ subarray(begin, end)
 
 ### Parameters
 
-- `begin` {{optional_inline}}
+- `begin` <Badge type="info" text="Optional" />
   - : Element to begin at. The offset is inclusive. The whole array will be included in
     the new view if this value is not specified.
-- `end` {{optional_inline}}
+- `end` <Badge type="info" text="Optional" />
   - : Element to end at. The offset is exclusive. If not specified, all elements from the
     one specified by `begin` to the end of the array are included in
     the new view.

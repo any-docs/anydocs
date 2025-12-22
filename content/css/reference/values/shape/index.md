@@ -10,7 +10,7 @@ sidebar: cssref
 
 {{deprecated_header}}
 
-The **`<shape>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) defines the specific form (shape) of a region. The region represents the part of an element to which the {{cssxref("clip")}} property applies.
+The **`<shape>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) defines the specific form (shape) of a region. The region represents the part of an element to which the {{cssxref("clip")}} property applies.
 
 > [!NOTE]
 > `<shape>` and `rect()` work in conjunction with {{cssxref("clip")}}, which has been deprecated in favor of {{cssxref("clip-path")}}. When possible, use `clip-path` and the {{cssxref("basic-shape")}} data type instead.
@@ -40,7 +40,7 @@ rect(top, right, bottom, left)
 
 ## Interpolation
 
-When animated, values of the `<shape>` data type are interpolated over their `top`, `right`, `bottom`, and `left` components, each treated as a real, floating-point number. The speed of the interpolation is determined by the [easing function](/en-US/docs/Web/CSS/Reference/Values/easing-function) associated with the animation.
+When animated, values of the `<shape>` data type are interpolated over their `top`, `right`, `bottom`, and `left` components, each treated as a real, floating-point number. The speed of the interpolation is determined by the [easing function](/css/reference/values/easing-function) associated with the animation.
 
 ## Example
 

@@ -18,8 +18,8 @@ A block formatting context is created by at least one of the following:
 - Table captions (elements with {{cssxref("display", "display: table-caption")}}, which is the default for HTML table captions).
 - Anonymous table cells implicitly created by the elements with {{cssxref("display", "display: table")}}, `table-row`, `table-row-group`, `table-header-group`, `table-footer-group` (which is the default for HTML tables, table rows, table bodies, table headers, and table footers, respectively), or `inline-table`.
 - Elements with {{cssxref("display", "display: flow-root")}}.
-- Flex items (direct children of the element with {{cssxref("display", "display: flex")}} or `inline-flex`) if they are neither [flex](/en-US/docs/Glossary/Flex_Container) nor [grid](/en-US/docs/Glossary/Grid_Container) nor [table](/en-US/docs/Web/CSS/Guides/Table) containers themselves.
-- Grid items (direct children of the element with {{cssxref("display", "display: grid")}} or `inline-grid`) if they are neither [flex](/en-US/docs/Glossary/Flex_Container) nor [grid](/en-US/docs/Glossary/Grid_Container) nor [table](/en-US/docs/Web/CSS/Guides/Table) containers themselves.
+- Flex items (direct children of the element with {{cssxref("display", "display: flex")}} or `inline-flex`) if they are neither [flex](/en-US/docs/Glossary/Flex_Container) nor [grid](/en-US/docs/Glossary/Grid_Container) nor [table](/css/guides/Table) containers themselves.
+- Grid items (direct children of the element with {{cssxref("display", "display: grid")}} or `inline-grid`) if they are neither [flex](/en-US/docs/Glossary/Flex_Container) nor [grid](/en-US/docs/Glossary/Grid_Container) nor [table](/css/guides/Table) containers themselves.
 - Block elements where {{ cssxref("overflow") }} has a value other than `visible` and `clip`.
 - Elements with {{cssxref("contain", "contain: layout")}}, `content`, or `paint`.
 - Multicol containers (elements where {{ cssxref("column-count") }} or {{ cssxref("column-width") }} isn't `auto`, including elements with `column-count: 1`).
@@ -29,7 +29,7 @@ Formatting contexts affect layout because an element that establishes a new bloc
 
 - contain internal floats.
 - exclude external floats.
-- suppress [margin collapsing](/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing).
+- suppress [margin collapsing](/css/guides/Box_model/Margin_collapsing).
 
 Flex and grid containers, defined by setting an element's ({{ cssxref("display") }} to `flex`, `grid`, `inline-flex`, or `inline-grid`, establishes a new flex or grid formatting context. These are similar to block formatting context except there are no floating children available inside a flex or grid container, but these formatting contexts do exclude external floats and suppress margin collapsing.
 
@@ -39,7 +39,7 @@ Let's have a look at a couple of these in order to see the effect creating a new
 
 ### Contain internal floats
 
-In the following example, we have float content that is the same height as the content alongside it. We have a floated element inside a `<div>` with a `border` applied. The content of that `<div>` has floated alongside the floated element. As the content of the float is taller than the content alongside it, the border of the `<div>` now runs through the float. As explained in the [guide to in flow and out of flow elements](/en-US/docs/Web/CSS/Guides/Display/In_flow_and_out_of_flow), the float has been taken out of flow so the `background` and `border` of the `<div>` only contain the content and not the float.
+In the following example, we have float content that is the same height as the content alongside it. We have a floated element inside a `<div>` with a `border` applied. The content of that `<div>` has floated alongside the floated element. As the content of the float is taller than the content alongside it, the border of the `<div>` now runs through the float. As explained in the [guide to in flow and out of flow elements](/css/guides/Display/In_flow_and_out_of_flow), the float has been taken out of flow so the `background` and `border` of the `<div>` only contain the content and not the float.
 
 **using `overflow: auto`**
 
@@ -162,7 +162,7 @@ section {
 
 ### Prevent margin collapsing
 
-You can create a new BFC to avoid [margin collapsing](/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing) between two neighbor elements.
+You can create a new BFC to avoid [margin collapsing](/css/guides/Box_model/Margin_collapsing) between two neighbor elements.
 
 #### Margin collapsing example
 
@@ -231,13 +231,13 @@ In this example, we wrap the second `<div>` in an outer `<div>`, and create a ne
 
 ## See also
 
-- [CSS syntax](/en-US/docs/Web/CSS/Guides/Syntax/Introduction)
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
-- [Inheritance](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance)
-- [Box model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction)
+- [CSS syntax](/css/guides/Syntax/Introduction)
+- [Specificity](/css/guides/Cascade/Specificity)
+- [Inheritance](/css/guides/Cascade/Inheritance)
+- [Box model](/css/guides/Box_model/Introduction)
 - [Layout modes](/en-US/docs/Glossary/Layout_mode)
-- [Visual formatting models](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model)
-- [Margin collapsing](/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing)
-- [Initial](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value), [computed](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value), [used values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value), and [actual](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#actual_value) values
-- [Value definition syntax](/en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax)
+- [Visual formatting models](/css/guides/Display/Visual_formatting_model)
+- [Margin collapsing](/css/guides/Box_model/Margin_collapsing)
+- [Initial](/css/guides/Cascade/Property_value_processing#initial_value), [computed](/css/guides/Cascade/Property_value_processing#computed_value), [used values](/css/guides/Cascade/Property_value_processing#used_value), and [actual](/css/guides/Cascade/Property_value_processing#actual_value) values
+- [Value definition syntax](/css/guides/Values_and_units/Value_definition_syntax)
 - {{glossary("Replaced elements")}}

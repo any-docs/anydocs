@@ -12,7 +12,7 @@ When the {{cssxref("z-index")}} property is not specified on any element, elemen
 2. Descendant non-positioned elements, in order of appearance in the HTML.
 3. Descendant positioned elements, in order of appearance in the HTML.
 
-See [types of positioning](/en-US/docs/Web/CSS/Reference/Properties/position#types_of_positioning) for an explanation of positioned and non-positioned elements.
+See [types of positioning](/css/reference/properties/position#types_of_positioning) for an explanation of positioned and non-positioned elements.
 
 Keep in mind, when the {{cssxref("order")}} property alters rendering from the _order of appearance in the HTML_ within {{cssxref("flex")}} containers, it similarly affects the order for stacking context.
 
@@ -110,8 +110,8 @@ div {
 
 ## See also
 
-- [Understanding z-index](/en-US/docs/Web/CSS/Guides/Positioned_layout/Understanding_z-index)
-- [Using z-index](/en-US/docs/Web/CSS/Guides/Positioned_layout/Using_z-index)
-- [Stacking context](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context)
-- [Stacking floating elements](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_floating_elements)
-- [CSS positioned layout](/en-US/docs/Web/CSS/Guides/Positioned_layout) module
+- [Understanding z-index](/css/guides/Positioned_layout/Understanding_z-index)
+- [Using z-index](/css/guides/Positioned_layout/Using_z-index)
+- [Stacking context](/css/guides/Positioned_layout/Stacking_context)
+- [Stacking floating elements](/css/guides/Positioned_layout/Stacking_floating_elements)
+- [CSS positioned layout](/css/guides/Positioned_layout) module

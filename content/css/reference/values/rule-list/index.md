@@ -6,7 +6,7 @@ spec-urls: https://drafts.csswg.org/css-syntax-3/#typedef-rule-list
 sidebar: cssref
 ---
 
-The **`<rule-list>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a sequence of **zero or more CSS rules**. It is used to define places in CSS where multiple rules may appear, such as the top level of a stylesheet or inside grouping at-rules like `@media` or `@supports`.
+The **`<rule-list>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents a sequence of **zero or more CSS rules**. It is used to define places in CSS where multiple rules may appear, such as the top level of a stylesheet or inside grouping at-rules like `@media` or `@supports`.
 
 A `<rule-list>` is not written directly. Instead, it describes how the CSS parser collects and interprets rules inside a block or stylesheet.
 

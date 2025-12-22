@@ -75,7 +75,7 @@ hsl(120deg, 75%, 25%, 0.8)
 
 ### Values
 
-Below are descriptions of the allowed values for both absolute and [relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors).
+Below are descriptions of the allowed values for both absolute and [relative colors](/css/guides/Colors/Using_relative_colors).
 
 #### Absolute value syntax
 
@@ -95,11 +95,11 @@ The parameters are as follows:
   - : A {{CSSXref("&lt;percentage&gt;")}} or the keyword `none` (equivalent to `0%` in this case). This value represents the color's saturation. Here `100%` is completely saturated, while `0%` is completely unsaturated (gray).
 - `L`
   - : A {{CSSXref("&lt;percentage&gt;")}} or the keyword `none` (equivalent to `0%` in this case). This value represents the color's lightness. Here `100%` is white, `0%` is black, and `50%` is "normal".
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel. If the `A` channel value is not explicitly specified, it defaults to 100%. If included, the value is preceded by a slash (`/`).
 
 > [!NOTE]
-> See [Missing color components](/en-US/docs/Web/CSS/Reference/Values/color_value#missing_color_components) for more information on the effect of `none`.
+> See [Missing color components](/css/reference/values/color_value#missing_color_components) for more information on the effect of `none`.
 
 > [!NOTE]
 > Absolute `hsl()` colors are serialized to {{CSSXref("color_value/rgb", "rgb()")}} values. The values of the red, green, and blue components may be rounded in serialization.
@@ -120,11 +120,11 @@ The parameters are as follows:
   - : A {{CSSXref("&lt;percentage&gt;")}} or the keyword `none` (equivalent to `0%` in this case). This represents the saturation of the output color. Here `100%` is completely saturated, while `0%` is completely unsaturated (gray).
 - `L`
   - : A {{CSSXref("&lt;percentage&gt;")}} or the keyword `none` (equivalent to `0%` in this case). This represents the lightness of the output color. Here `100%` is white, `0%` is black, and `50%` is "normal".
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the output color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel. If the `A` channel value is not explicitly specified, it defaults to the alpha channel value of the origin color. If included, the value is preceded by a slash (`/`).
 
 > [!NOTE]
-> To fully enable the representation of the full spectrum of visible colors, the output of relative `hsl()` color functions is serialized to `color(srgb)`. That means that querying the output color value via the {{DOMxRef("HTMLElement.style")}} property or the {{DOMxRef("CSSStyleDeclaration.getPropertyValue()")}} method returns the output color as a [`color(srgb ...)`](/en-US/docs/Web/CSS/Reference/Values/color_value/color) value.
+> To fully enable the representation of the full spectrum of visible colors, the output of relative `hsl()` color functions is serialized to `color(srgb)`. That means that querying the output color value via the {{DOMxRef("HTMLElement.style")}} property or the {{DOMxRef("CSSStyleDeclaration.getPropertyValue()")}} method returns the output color as a [`color(srgb ...)`](/css/reference/values/color_value/color) value.
 
 #### Defining relative color output channel components
 
@@ -200,7 +200,7 @@ hsl(from rgb(255 0 0 / 0.8) calc(h + 60) calc(s - 20) calc(l - 10) / calc(alpha 
 
 ### Using hsl() with conic-gradient()
 
-The `hsl()` function works well with [`conic-gradient()`](/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient) as both deal with angles.
+The `hsl()` function works well with [`conic-gradient()`](/css/reference/values/gradient/conic-gradient) as both deal with angles.
 
 ```html hidden
 <div></div>
@@ -235,7 +235,7 @@ div {
 
 This example styles three {{htmlelement("div")}} elements with different background colors. The middle one is given the unmodified `--base-color`, while the left and right ones are given lightened and darkened variants of that `--base-color`.
 
-These variants are defined using relative colors — the `--base-color` [custom property](/en-US/docs/Web/CSS/Reference/Properties/--*) is passed into an `hsl()` function, and the output color has its lightness channel modified to achieve the desired effect via a `calc()` function, while the hue and saturation are left unchanged. The lightened color has 20% added to the lightness channel, and the darkened color has 20% subtracted from it.
+These variants are defined using relative colors — the `--base-color` [custom property](/css/reference/properties/--*) is passed into an `hsl()` function, and the output color has its lightness channel modified to achieve the desired effect via a `calc()` function, while the hue and saturation are left unchanged. The lightened color has 20% added to the lightness channel, and the darkened color has 20% subtracted from it.
 
 ```html hidden
 <div id="container">
@@ -398,10 +398,10 @@ div.legacyHSLA {
 ## See also
 
 - {{cssxref("hue")}} data type
-- [`lch()`](/en-US/docs/Web/CSS/Reference/Values/color_value/lch) and [`hwb()`](/en-US/docs/Web/CSS/Reference/Values/color_value/hwb) color functions
-- [Hue interpolation in `color-mix()`](/en-US/docs/Web/CSS/Reference/Values/color_value/color-mix#using_hue_interpolation_in_color-mix)
-- [List of all color notations](/en-US/docs/Web/CSS/Reference/Values/color_value)
-- [Color format converter tool](/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter)
-- [Using relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors)
-- [CSS colors](/en-US/docs/Web/CSS/Guides/Colors) module
+- [`lch()`](/css/reference/values/color_value/lch) and [`hwb()`](/css/reference/values/color_value/hwb) color functions
+- [Hue interpolation in `color-mix()`](/css/reference/values/color_value/color-mix#using_hue_interpolation_in_color-mix)
+- [List of all color notations](/css/reference/values/color_value)
+- [Color format converter tool](/css/guides/Colors/Color_format_converter)
+- [Using relative colors](/css/guides/Colors/Using_relative_colors)
+- [CSS colors](/css/guides/Colors) module
 - [Color picker tool](https://apps.colorjs.io/picker/) by Lea Verou

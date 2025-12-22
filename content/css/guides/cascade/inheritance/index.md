@@ -10,14 +10,14 @@ In CSS, **inheritance** controls what happens when no value is specified for a p
 
 CSS properties can be categorized in two types:
 
-- **inherited properties**, which by default are set to the [computed value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value) of the parent element
-- **non-inherited properties**, which by default are set to [initial value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value) of the property
+- **inherited properties**, which by default are set to the [computed value](/css/guides/Cascade/Property_value_processing#computed_value) of the parent element
+- **non-inherited properties**, which by default are set to [initial value](/css/guides/Cascade/Property_value_processing#initial_value) of the property
 
 Refer to [any CSS property](/en-US/docs/Web/CSS/Reference#index) definition to see whether a specific property inherits by default ("Inherited: yes") or not ("Inherited: no").
 
 ## Inherited properties
 
-When no value for an **inherited property** has been specified on an element, the element gets the [computed value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value) of that property on its parent element. Only the root element of the document gets the [initial value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value) given in the property's summary.
+When no value for an **inherited property** has been specified on an element, the element gets the [computed value](/css/guides/Cascade/Property_value_processing#computed_value) of that property on its parent element. Only the root element of the document gets the [initial value](/css/guides/Cascade/Property_value_processing#initial_value) given in the property's summary.
 
 A typical example of an inherited property is the {{cssxref("color")}} property. Consider the following style rules and the markup:
 
@@ -37,7 +37,7 @@ The words "emphasized text" will appear green, since the `em` element has inheri
 
 ## Non-inherited properties
 
-When no value for a **non-inherited property** has been specified on an element, the element gets the [initial value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value) of that property (as specified in the property's summary).
+When no value for a **non-inherited property** has been specified on an element, the element gets the [initial value](/css/guides/Cascade/Property_value_processing#initial_value) of that property (as specified in the property's summary).
 
 A typical example of a non-inherited property is the {{ Cssxref("border") }} property. Consider the following style rules and the markup:
 
@@ -100,13 +100,13 @@ We can see here another border around the word "emphasized text".
 ## See also
 
 - CSS values for controlling inheritance: {{cssxref("inherit")}}, {{cssxref("initial")}}, {{cssxref("revert")}}, {{cssxref("revert-layer")}}, and {{cssxref("unset")}}
-- [CSS cascading and inheritance](/en-US/docs/Web/CSS/Guides/Cascade) module
-- [CSS error handling](/en-US/docs/Web/CSS/Guides/Syntax/Error_handling)
-- [Introduction to the CSS cascade](/en-US/docs/Web/CSS/Guides/Cascade/Introduction)
+- [CSS cascading and inheritance](/css/guides/Cascade) module
+- [CSS error handling](/css/guides/Syntax/Error_handling)
+- [Introduction to the CSS cascade](/css/guides/Cascade/Introduction)
 - [Learn: Handling conflicts](/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts)
 - [Learn: Cascade layers](/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers)
-- [Introduction to CSS syntax: declarations, rulesets, and statements](/en-US/docs/Web/CSS/Guides/Syntax/Introduction)
-- [At-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules)
-- Values: [initial](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value), [computed](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value), [used](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value), and [actual](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#actual_value)
-- [Value definition syntax](/en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax)
-- [CSS nesting](/en-US/docs/Web/CSS/Guides/Nesting) module
+- [Introduction to CSS syntax: declarations, rulesets, and statements](/css/guides/Syntax/Introduction)
+- [At-rules](/css/guides/Syntax/At-rules)
+- Values: [initial](/css/guides/Cascade/Property_value_processing#initial_value), [computed](/css/guides/Cascade/Property_value_processing#computed_value), [used](/css/guides/Cascade/Property_value_processing#used_value), and [actual](/css/guides/Cascade/Property_value_processing#actual_value)
+- [Value definition syntax](/css/guides/Values_and_units/Value_definition_syntax)
+- [CSS nesting](/css/guides/Nesting) module

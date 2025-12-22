@@ -6,7 +6,7 @@ spec-urls: https://drafts.csswg.org/css-images-4/#funcdef-image
 sidebar: cssref
 ---
 
-The **`image()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) defines an {{cssxref("image")}} in a similar fashion to the {{CSSxRef("url_function", "url()")}} function, but with added functionality including specifying the image's directionality, displaying just a part of that image defined by a media fragment, and specifying a solid color as a fallback in case none of the specified images are able to be rendered.
+The **`image()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) defines an {{cssxref("image")}} in a similar fashion to the {{CSSxRef("url_function", "url()")}} function, but with added functionality including specifying the image's directionality, displaying just a part of that image defined by a media fragment, and specifying a solid color as a fallback in case none of the specified images are able to be rendered.
 
 > [!NOTE]
 > The CSS `image()` function should not confused with {{DOMxRef("HTMLImageElement/Image", '<code>Image()</code>, the <code>HTMLImageElement</code> constructor', '', 1)}}.
@@ -34,11 +34,11 @@ image(rgb(0 0 255 / 0.5)), url("bg-image.png");
 
 ### Values
 
-- `image-tags` {{optional_inline}}
+- `image-tags` <Badge type="info" text="Optional" />
   - : The directionality of the image, either `ltr` for left-to-right or `rtl` for right-to-left.
-- `image-src` {{Optional_Inline}}
+- `image-src` <Badge type="info" text="Optional" />
   - : Zero or more {{cssxref("url_value", "&lt;url&gt;")}}s or {{CSSxRef("&lt;string&gt;")}}s specifying the image sources, with optional image fragment identifiers.
-- `color` {{optional_inline}}
+- `color` <Badge type="info" text="Optional" />
   - : A color, specifying a solid background color to use as a fallback if no `image-src` is found, supported, or declared.
 
 ### Bi-directional awareness
@@ -170,4 +170,4 @@ Currently, no browsers support this feature.
 - {{cssxref("gradient")}}
 - {{CSSxRef("image/image-set", "image-set()")}}
 - {{cssxref("cross-fade()")}}
-- [CSS images](/en-US/docs/Web/CSS/Guides/Images) module
+- [CSS images](/css/guides/Images) module

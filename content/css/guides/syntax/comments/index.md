@@ -48,6 +48,6 @@ The `/* */` comment syntax is used for both single and multiline comments. There
 
 ## See also
 
-- [CSS syntax](/en-US/docs/Web/CSS/Guides/Syntax) module
-- [Syntax](/en-US/docs/Web/CSS/Guides/Syntax/Introduction) guide
-- [CSS error handling](/en-US/docs/Web/CSS/Guides/Syntax/Error_handling)
+- [CSS syntax](/css/guides/Syntax) module
+- [Syntax](/css/guides/Syntax/Introduction) guide
+- [CSS error handling](/css/guides/Syntax/Error_handling)

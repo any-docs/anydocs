@@ -37,11 +37,11 @@ mask-origin: unset;
 The `mask-origin` property is a comma-separated list of `<coord-box>` keyword values, including:
 
 - `content-box`
-  - : The position is relative to the [content box](/en-US/docs/Web/CSS/Guides/Shapes/From_box_values#content-box).
+  - : The position is relative to the [content box](/css/guides/Shapes/From_box_values#content-box).
 - `padding-box`
-  - : The position is relative to the [padding box](/en-US/docs/Web/CSS/Guides/Shapes/From_box_values#padding-box).
+  - : The position is relative to the [padding box](/css/guides/Shapes/From_box_values#padding-box).
 - `border-box`
-  - : The position is relative to the [border box](/en-US/docs/Web/CSS/Guides/Shapes/From_box_values#border-box).
+  - : The position is relative to the [border box](/css/guides/Shapes/From_box_values#border-box).
 - `fill-box`
   - : The position is relative to the object bounding box.
 - `stroke-box`
@@ -228,7 +228,7 @@ We have three `mask-image` values, but only two `mask-origin` values. This means
 - {{cssxref("mask-repeat")}}
 - {{cssxref("mask-size")}}
 - {{cssxref("mask")}} shorthand
-- [Introduction to CSS masking](/en-US/docs/Web/CSS/Guides/Masking/Introduction)
-- [CSS `mask` properties](/en-US/docs/Web/CSS/Guides/Masking/Mask_properties)
-- [Declaring multiple masks](/en-US/docs/Web/CSS/Guides/Masking/Multiple_masks)
-- [CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
+- [Introduction to CSS masking](/css/guides/Masking/Introduction)
+- [CSS `mask` properties](/css/guides/Masking/Mask_properties)
+- [Declaring multiple masks](/css/guides/Masking/Multiple_masks)
+- [CSS masking](/css/guides/Masking) module

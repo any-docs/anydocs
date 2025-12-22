@@ -6,7 +6,7 @@ browser-compat: css.types.basic-shape
 sidebar: cssref
 ---
 
-The **`<basic-shape>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a shape used in the {{cssxref("clip-path")}}, {{cssxref("shape-outside")}}, and {{cssxref("offset-path")}} properties.
+The **`<basic-shape>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents a shape used in the {{cssxref("clip-path")}}, {{cssxref("shape-outside")}}, and {{cssxref("offset-path")}} properties.
 
 {{InteractiveExample("CSS Demo: &lt;basic-shape&gt;")}}
 
@@ -88,7 +88,7 @@ The parameters common across the syntax of some basic shape functions include:
 
 The `<basic-shape-rect>` type, a subset of the `<basic-shape>` type, represents the basic-shape functions limited to creating rectangles, including {{cssxref("basic-shape/inset","inset()")}}, {{cssxref("basic-shape/rect","rect()")}}, and {{cssxref("basic-shape/xywh","xywh()")}}.
 
-The [`polygon()`](/en-US/docs/Web/CSS/Reference/Values/basic-shape/polygon), [`path()`](/en-US/docs/Web/CSS/Reference/Values/basic-shape/path), and [`shape()`](/en-US/docs/Web/CSS/Reference/Values/basic-shape/shape) functions can also be used to create rectangles, but are not limited to only four-sided, right-angled shapes.
+The [`polygon()`](/css/reference/values/basic-shape/polygon), [`path()`](/css/reference/values/basic-shape/path), and [`shape()`](/css/reference/values/basic-shape/shape) functions can also be used to create rectangles, but are not limited to only four-sided, right-angled shapes.
 
 #### Syntax for rectangles by container insets
 
@@ -174,7 +174,7 @@ The `from <coordinate-pair>` parameter represents the starting point for the fir
 
 When creating a shape, the reference box is defined by the property that uses `<basic-shape>` values. The coordinate system for the shape has its origin at the top-left corner of the element's margin box by default, with the x-axis running to the right and the y-axis running downwards. All the lengths expressed in percentages are resolved from the dimensions of the reference box.
 
-The default reference box is the [`margin-box`](/en-US/docs/Web/CSS/Reference/Values/box-edge#margin-box), as demonstrated in the image below. The image shows a circle created using `shape-outside: circle(50%)`, highlighting the different parts of the box model as seen in a browser's Developer Tools. The shape here is defined with reference to the margin-box.
+The default reference box is the [`margin-box`](/css/reference/values/box-edge#margin-box), as demonstrated in the image below. The image shows a circle created using `shape-outside: circle(50%)`, highlighting the different parts of the box model as seen in a browser's Developer Tools. The shape here is defined with reference to the margin-box.
 
 ![An image showing a circle inspected with the Firefox DevTools Shape Inspector. The different parts of the box model are highlighted.](shapes-reference-box.png)
 
@@ -184,7 +184,7 @@ The values in a `<basic-shape>` function are computed as specified, with the fol
 
 - For any omitted values, their defaults are used.
 - A {{cssxref("position_value", "&lt;position&gt;")}} value in `circle()` or `ellipse()` is computed as a pair of offsets from the top left corner of the reference box: the first offset is horizontal, and the second is vertical. Each offset is specified as a {{cssxref("length-percentage")}} value.
-- A [`<border-radius>`](/en-US/docs/Web/CSS/Reference/Properties/border-radius) value in `inset()` is expanded into a list of eight values, each either a {{cssxref("length")}} or a {{cssxref("percentage")}}.
+- A [`<border-radius>`](/css/reference/properties/border-radius) value in `inset()` is expanded into a list of eight values, each either a {{cssxref("length")}} or a {{cssxref("percentage")}}.
 - {{cssxref("basic-shape/inset","inset()")}}, {{cssxref("basic-shape/rect","rect()")}}, and {{cssxref("basic-shape/xywh","xywh()")}} functions compute to the equivalent `inset()` function.
 
 ### Interpolation of basic shapes
@@ -288,8 +288,8 @@ div {
 
 - Properties that use this data type: {{cssxref("clip-path")}}, {{cssxref("offset-path")}}, {{cssxref("shape-outside")}}
 - SVG shape elements: {{SVGElement("circle")}}, {{SVGElement("ellipse")}}, {{SVGElement("line")}}, {{SVGElement("polygon")}}, {{SVGElement("polyline")}}, {{SVGElement("rect")}}
-- [Overview of CSS shapes](/en-US/docs/Web/CSS/Guides/Shapes/Overview)
-- [CSS shapes](/en-US/docs/Web/CSS/Guides/Shapes) module
-- [Introduction to CSS masking](/en-US/docs/Web/CSS/Guides/Masking/Introduction)
-- [CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
+- [Overview of CSS shapes](/css/guides/Shapes/Overview)
+- [CSS shapes](/css/guides/Shapes) module
+- [Introduction to CSS masking](/css/guides/Masking/Introduction)
+- [CSS masking](/css/guides/Masking) module
 - [Edit shape paths in Firefox developer tools](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/edit_css_shapes/index.html)

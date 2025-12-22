@@ -43,7 +43,7 @@ normalize(form)
 
 ### Parameters
 
-- `form` {{optional_inline}}
+- `form` <Badge type="info" text="Optional" />
   - : One of `"NFC"`, `"NFD"`, `"NFKC"`, or
     `"NFKD"`, specifying the Unicode Normalization Form. If omitted or
     {{jsxref("undefined")}}, `"NFC"` is used.

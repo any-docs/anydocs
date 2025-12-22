@@ -20,15 +20,15 @@ toBase64(options)
 
 ### Parameters
 
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object customizing the base64 string format. It can contain the following properties:
-    - `alphabet` {{optional_inline}}
+    - `alphabet` <Badge type="info" text="Optional" />
       - : A string specifying the base64 alphabet to use. It can be one of the following:
         - `"base64"` (default)
           - : Encode input with the standard base64 alphabet, which uses `+` and `/`.
         - `"base64url"`
           - : Encode input with the URL-safe base64 alphabet, which uses `-` and `_`.
-    - `omitPadding` {{optional_inline}}
+    - `omitPadding` <Badge type="info" text="Optional" />
       - : A boolean specifying whether to omit padding characters (`=`) at the end of the base64 string. The default is `false`.
 
 ### Return value

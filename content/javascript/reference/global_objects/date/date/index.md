@@ -80,15 +80,15 @@ Similarly, if any parameter underflows, it "borrows" from the higher positions. 
   - : Integer value representing the year. Values from `0` to `99` map to the years `1900` to `1999`. All other values are the actual year. See the [example](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date#interpretation_of_two-digit_years).
 - `monthIndex`
   - : Integer value representing the month, beginning with `0` for January to `11` for December.
-- `day` {{optional_inline}}
+- `day` <Badge type="info" text="Optional" />
   - : Integer value representing the day of the month. Defaults to `1`.
-- `hours` {{optional_inline}}
+- `hours` <Badge type="info" text="Optional" />
   - : Integer value between `0` and `23` representing the hour of the day. Defaults to `0`.
-- `minutes` {{optional_inline}}
+- `minutes` <Badge type="info" text="Optional" />
   - : Integer value representing the minute segment of a time. Defaults to `0`.
-- `seconds` {{optional_inline}}
+- `seconds` <Badge type="info" text="Optional" />
   - : Integer value representing the second segment of a time. Defaults to `0`.
-- `milliseconds` {{optional_inline}}
+- `milliseconds` <Badge type="info" text="Optional" />
   - : Integer value representing the millisecond segment of a time. Defaults to `0`.
 
 ### Return value

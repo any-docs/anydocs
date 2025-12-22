@@ -32,6 +32,6 @@ The box at the bottom-right contains the CSS for the element and any `::before` 
 ## See also
 
 - Other tools:
-  - [Border-image generator](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator)
-  - [Border-radius generator](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator)
-- [CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) module
+  - [Border-image generator](/css/guides/Backgrounds_and_borders/Border-image_generator)
+  - [Border-radius generator](/css/guides/Backgrounds_and_borders/Border-radius_generator)
+- [CSS backgrounds and borders](/css/guides/Backgrounds_and_borders) module

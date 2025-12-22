@@ -39,7 +39,7 @@ substr(start, length)
 
 - `start`
   - : The index of the first character to include in the returned substring.
-- `length` {{optional_inline}}
+- `length` <Badge type="info" text="Optional" />
   - : The number of characters to extract.
 
 ### Return value

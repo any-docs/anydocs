@@ -6,7 +6,7 @@ browser-compat: css.types.counter
 sidebar: cssref
 ---
 
-The **`counter()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) returns a string representing the current value of the named counter, if there is one.
+The **`counter()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) returns a string representing the current value of the named counter, if there is one.
 
 The `counter()` function is generally used within [pseudo-element](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements) through the {{cssxref("content")}} property but, theoretically, it can be used wherever a {{cssxref("string")}} value is supported.
 
@@ -47,7 +47,7 @@ counter(counter-name);
 counter(counter-name, upper-roman)
 ```
 
-[Counters](/en-US/docs/Web/CSS/Guides/Counter_styles/Using_counters) have no visible effect by themselves.
+[Counters](/css/guides/Counter_styles/Using_counters) have no visible effect by themselves.
 The `counter()` and {{cssxref("counters()")}} functions are what make counters useful by returning developer-defined strings (or images).
 
 ### Values
@@ -57,7 +57,7 @@ The `counter()` function accepts up to two parameters. The first parameter is th
 - `<counter-name>`
   - : A {{cssxref("&lt;custom-ident&gt;")}} identifying the counter, which is the same case-sensitive name used with the {{cssxref("counter-reset")}} and {{cssxref("counter-increment")}} property values. The counter name cannot start with two dashes and can't be `none`, `unset`, `initial`, or `inherit`.
 - `<counter-style>`
-  - : A {{cssxref("&lt;list-style-type&gt;")}} name, {{cssxref("&lt;@counter-style&gt;")}} name or {{cssxref("symbols()")}} function, where a counter style name is a `numeric`, `alphabetic`, or `symbolic` predefined counter style, a complex longhand east Asian or Ethiopic predefined counter style, or other [predefined counter style](/en-US/docs/Web/CSS/Guides/Counter_styles). If omitted, the counter-style defaults to `decimal`.
+  - : A {{cssxref("&lt;list-style-type&gt;")}} name, {{cssxref("&lt;@counter-style&gt;")}} name or {{cssxref("symbols()")}} function, where a counter style name is a `numeric`, `alphabetic`, or `symbolic` predefined counter style, a complex longhand east Asian or Ethiopic predefined counter style, or other [predefined counter style](/css/guides/Counter_styles). If omitted, the counter-style defaults to `decimal`.
 
 > [!NOTE]
 > To join the counter values when nesting counters, use the {{cssxref("counters()")}} function, which provides an additional {{cssxref("string")}} parameter.
@@ -153,12 +153,12 @@ li::after {
 
 ## See also
 
-- [Using CSS Counters](/en-US/docs/Web/CSS/Guides/Counter_styles/Using_counters)
+- [Using CSS Counters](/css/guides/Counter_styles/Using_counters)
 - {{cssxref("counter-reset")}}
 - {{cssxref("counter-set")}}
 - {{cssxref("counter-increment")}}
 - {{cssxref("@counter-style")}}
-- CSS [`counters()`](/en-US/docs/Web/CSS/Reference/Values/counters) function
-- [CSS lists and counters](/en-US/docs/Web/CSS/Guides/Lists) module
-- [CSS counter styles](/en-US/docs/Web/CSS/Guides/Counter_styles) module
-- [CSS generated content](/en-US/docs/Web/CSS/Guides/Generated_content) module
+- CSS [`counters()`](/css/reference/values/counters) function
+- [CSS lists and counters](/css/guides/Lists) module
+- [CSS counter styles](/css/guides/Counter_styles) module
+- [CSS generated content](/css/guides/Generated_content) module

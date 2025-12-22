@@ -18,9 +18,9 @@ toString(options)
 
 ### Parameters
 
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the following property:
-    - `calendarName` {{optional_inline}}
+    - `calendarName` <Badge type="info" text="Optional" />
       - : Whether to show the calendar annotation (`[u-ca=calendar_id]`) in the return value. Possible values are:
         - `"auto"` (default)
           - : Include the calendar annotation if the calendar is not `"iso8601"`.
@@ -30,11 +30,11 @@ toString(options)
           - : Never include the calendar annotation. This makes the returned string not recoverable to the same {{jsxref("Temporal.PlainDateTime")}} instance, although the date value still remains the same.
         - `"critical"`
           - : Always include the calendar annotation, and add a critical flag: `[!u-ca=calendar_id]`. Useful when sending the string to certain systems, but not useful for Temporal itself.
-    - `fractionalSecondDigits` {{optional_inline}}
+    - `fractionalSecondDigits` <Badge type="info" text="Optional" />
       - : Either an integer from 0 to 9, or the string `"auto"`. The default is `"auto"`. If `"auto"`, then trailing zeros are removed from the fractional seconds. Otherwise, the fractional part of the second component contains this many digits, padded with zeros or rounded as necessary.
-    - `roundingMode` {{optional_inline}}
+    - `roundingMode` <Badge type="info" text="Optional" />
       - : A string specifying how to round off fractional second digits beyond `fractionalSecondDigits`. See [`Intl.NumberFormat()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat#roundingmode). Defaults to `"trunc"`.
-    - `smallestUnit` {{optional_inline}}
+    - `smallestUnit` <Badge type="info" text="Optional" />
       - : A string specifying the smallest unit to include in the output. Possible values are `"minute"`, `"second"`, `"millisecond"`, `"microsecond"`, and `"nanosecond"`, or their plural forms, which (except `"minute"`) are equivalent to `fractionalSecondDigits` values of `0`, `3`, `6`, `9`, respectively. If specified, then `fractionalSecondDigits` is ignored.
 
 ### Return value

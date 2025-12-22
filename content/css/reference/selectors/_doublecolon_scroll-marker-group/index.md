@@ -35,7 +35,7 @@ When a scroll marker group container is created on a scroll container using the 
 
 ## Examples
 
-See [Creating CSS carousels](/en-US/docs/Web/CSS/Guides/Overflow/Carousels) for other examples that use the `::scroll-marker` pseudo-element.
+See [Creating CSS carousels](/css/guides/Overflow/Carousels) for other examples that use the `::scroll-marker` pseudo-element.
 
 ### Creating carousel scroll markers
 
@@ -150,7 +150,7 @@ li::scroll-marker:target-current {
 
 ### Positioning the scroll marker group container with anchor positioning
 
-This example extends the previous one, demonstrating the use of [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning) to position the scroll marker group container relative to the carousel.
+This example extends the previous one, demonstrating the use of [CSS anchor positioning](/css/guides/Anchor_positioning) to position the scroll marker group container relative to the carousel.
 
 #### CSS
 
@@ -195,7 +195,7 @@ ul::scroll-marker-group {
 - {{cssxref(":target-current")}}
 - {{cssxref(":target-before")}}
 - {{cssxref(":target-after")}}
-- [Creating CSS carousels](/en-US/docs/Web/CSS/Guides/Overflow/Carousels)
-- [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning) module
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
+- [Creating CSS carousels](/css/guides/Overflow/Carousels)
+- [CSS anchor positioning](/css/guides/Anchor_positioning) module
+- [CSS overflow](/css/guides/Overflow) module
 - [CSS Carousel Gallery](https://chrome.dev/carousel/) via chrome.dev (2025)

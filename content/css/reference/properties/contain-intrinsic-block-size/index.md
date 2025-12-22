@@ -6,9 +6,9 @@ browser-compat: css.properties.contain-intrinsic-block-size
 sidebar: cssref
 ---
 
-The **`contain-intrinsic-block-size`** [CSS](/en-US/docs/Web/CSS) [logical property](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values) defines the block size of an element that a browser can use for layout when the element is subject to [size containment](/en-US/docs/Web/CSS/Guides/Containment/Using#size_containment).
+The **`contain-intrinsic-block-size`** [CSS](/en-US/docs/Web/CSS) [logical property](/css/guides/Logical_properties_and_values) defines the block size of an element that a browser can use for layout when the element is subject to [size containment](/css/guides/Containment/Using#size_containment).
 
-Block size is the size of an element in the dimension perpendicular to the flow of text within a line. In a horizontal [writing mode](/en-US/docs/Web/CSS/Reference/Properties/writing-mode) like standard English, block size is the vertical dimension (height); in a vertical writing mode, block size is the horizontal dimension.
+Block size is the size of an element in the dimension perpendicular to the flow of text within a line. In a horizontal [writing mode](/css/reference/properties/writing-mode) like standard English, block size is the vertical dimension (height); in a vertical writing mode, block size is the horizontal dimension.
 
 ## Syntax
 
@@ -45,7 +45,7 @@ The following values can be specified for the intrinsic block size of an element
 
 ## Description
 
-The property is commonly applied alongside elements that can trigger size containment, such as [`contain: size`](/en-US/docs/Web/CSS/Reference/Properties/contain) and {{cssxref("content-visibility")}}.
+The property is commonly applied alongside elements that can trigger size containment, such as [`contain: size`](/css/reference/properties/contain) and {{cssxref("content-visibility")}}.
 
 Size containment allows a user agent to lay out an element as though it had a fixed size.
 This prevents unnecessary reflows by avoiding the re-rendering of child elements to determine the actual size (thereby improving user experience).
@@ -53,7 +53,7 @@ By default, size containment treats elements as though they had no contents and 
 The `contain-intrinsic-block-size` property allows authors to specify an appropriate value to be used as the block-size for layout.
 
 The `auto <length>` value allows the block-size of an element to be stored if the element is ever "normally rendered" (with its child elements) and then used instead of the specified value when the element does not have any content.
-This allows offscreen elements with [`content-visibility: auto`](/en-US/docs/Web/CSS/Reference/Properties/content-visibility) to benefit from size containment without developers having to be precise in their estimates of element size.
+This allows offscreen elements with [`content-visibility: auto`](/css/reference/properties/content-visibility) to benefit from size containment without developers having to be precise in their estimates of element size.
 The remembered value is not used if the child elements are being rendered; if size containment is enabled, the `<length>` value will be used.
 
 ## Formal definition

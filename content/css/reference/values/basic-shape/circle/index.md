@@ -6,7 +6,7 @@ browser-compat: css.types.basic-shape.circle
 sidebar: cssref
 ---
 
-The **`circle()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) defines a circle using a radius and a position. It is one of the {{cssxref("basic-shape")}} data types.
+The **`circle()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) defines a circle using a radius and a position. It is one of the {{cssxref("basic-shape")}} data types.
 
 {{InteractiveExample("CSS Demo: circle()")}}
 
@@ -119,4 +119,4 @@ img {
 ## See also
 
 - Properties that use this data type: {{cssxref("clip-path")}}, {{cssxref("shape-outside")}}
-- [Guide to Basic Shapes](/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside)
+- [Guide to Basic Shapes](/css/guides/Shapes/Using_shape-outside)

@@ -38,6 +38,6 @@ The following keyword values are represented by the `<content-distribution>` gra
 
 - Properties that use this data type: {{cssxref("align-content")}}, {{cssxref("justify-content")}}, {{cssxref("place-content")}}
 - Other box alignment data types: {{cssxref("baseline-position")}}, {{cssxref("content-position")}}, {{cssxref("overflow-position")}}, and {{cssxref("self-position")}}
-- [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module
-- [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module
-- [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) module
+- [CSS box alignment](/css/guides/Box_alignment) module
+- [CSS flexible box layout](/css/guides/Flexible_box_layout) module
+- [CSS grid layout](/css/guides/Grid_layout) module

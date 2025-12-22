@@ -6,7 +6,7 @@ browser-compat: css.types.transform-function.rotate3d
 sidebar: cssref
 ---
 
-The **`rotate3d()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) defines a transformation that rotates an element around a
+The **`rotate3d()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) defines a transformation that rotates an element around a
 fixed axis in 3D space, without deforming it. Its result is a {{cssxref("&lt;transform-function&gt;")}} data type.
 
 {{InteractiveExample("CSS Demo: rotate3d()")}}
@@ -129,7 +129,7 @@ rotate3d(x, y, z, a)
 <table class="standard-table">
   <tbody>
     <tr>
-      <th scope="col"><a href="/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
+      <th scope="col"><a href="/css/reference/values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
       <td rowspan="2">
         This transformation applies to the 3D space and can't be represented on the plane.
       </td>

@@ -22,8 +22,8 @@ A stacking context is formed, anywhere in the document, by any element in the fo
 - Root element of the document (`<html>`).
 - Element with a {{cssxref("position")}} value `absolute` or `relative` and {{cssxref("z-index")}} value other than `auto`.
 - Element with a {{cssxref("position")}} value `fixed` or `sticky`.
-- Element with a {{cssxref("container-type")}} value `size` or `inline-size` set (See [container queries](/en-US/docs/Web/CSS/Guides/Containment/Container_queries)).
-- Element that is a [flex item](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts) with a {{cssxref("z-index")}} value other than `auto`.
+- Element with a {{cssxref("container-type")}} value `size` or `inline-size` set (See [container queries](/css/guides/Containment/Container_queries)).
+- Element that is a [flex item](/css/guides/Flexible_box_layout/Basic_concepts) with a {{cssxref("z-index")}} value other than `auto`.
 - Element that is a [grid item]() with {{cssxref("z-index")}} value other than `auto`.
 - Element with an {{cssxref("opacity")}} value less than `1`.
 - Element with a {{cssxref("mix-blend-mode")}} value other than `normal`.
@@ -42,13 +42,13 @@ A stacking context is formed, anywhere in the document, by any element in the fo
 - Element with a {{cssxref("will-change")}} value specifying any property that would create a stacking context on non-initial value.
 - Element with a {{cssxref("contain")}} value of `layout` or `paint`, or a composite value that includes either of these values (i.e., `contain: strict`, `contain: content`).
 - Element placed into the [top layer](/en-US/docs/Glossary/Top_layer) and its corresponding {{cssxref("::backdrop")}}. Examples include [fullscreen](/en-US/docs/Web/API/Fullscreen_API) and [popover](/en-US/docs/Web/API/Popover_API) elements.
-- Element that has had stacking context-creating properties (such as `opacity`) animated using {{cssxref("@keyframes")}}, with {{cssxref("animation-fill-mode")}} set to [`forwards`](/en-US/docs/Web/CSS/Reference/Properties/animation-fill-mode#forwards).
+- Element that has had stacking context-creating properties (such as `opacity`) animated using {{cssxref("@keyframes")}}, with {{cssxref("animation-fill-mode")}} set to [`forwards`](/css/reference/properties/animation-fill-mode#forwards).
 
 ## Nested stacking contexts
 
 Stacking contexts can be contained in other stacking contexts, and they can together create a hierarchy of stacking contexts.
 
-The root element of a document is a stacking context which, in most cases, contains nested stacking contexts, many of which will contain additional stacking contexts. Within each stacking context, child elements are stacked according to the same rules explained in [Using `z-index`](/en-US/docs/Web/CSS/Guides/Positioned_layout/Using_z-index). Importantly, the `z-index` values of its child stacking contexts only have meaning within its parent's stacking context. Stacking contexts are treated atomically as a single unit in the parent stacking context.
+The root element of a document is a stacking context which, in most cases, contains nested stacking contexts, many of which will contain additional stacking contexts. Within each stacking context, child elements are stacked according to the same rules explained in [Using `z-index`](/css/guides/Positioned_layout/Using_z-index). Importantly, the `z-index` values of its child stacking contexts only have meaning within its parent's stacking context. Stacking contexts are treated atomically as a single unit in the parent stacking context.
 
 To figure out the _rendering order_ of stacked elements along the z-axis, think of each index value as a "version number" of sorts, where child elements represent minor version numbers underneath their parent's major version number.
 
@@ -188,7 +188,7 @@ article {
 }
 ```
 
-The CSS properties for colors, fonts, alignment, and [box-model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction) have been hidden for brevity.
+The CSS properties for colors, fonts, alignment, and [box-model](/css/guides/Box_model/Introduction) have been hidden for brevity.
 
 {{ EmbedLiveSample('Nested stacking contexts', '100%', '396') }}
 
@@ -229,13 +229,13 @@ In our example (sorted according to the final rendering order):
 
 ## Additional examples
 
-Additional examples include a [2-level hierarchy with `z-index` on the last level](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context/Example_1), a [2-level HTML hierarchy, `z-index` on all levels](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context/Example_2), and a [3-level HTML hierarchy, `z-index` on the second level](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context/Example_3).
+Additional examples include a [2-level hierarchy with `z-index` on the last level](/css/guides/Positioned_layout/Stacking_context/Example_1), a [2-level HTML hierarchy, `z-index` on all levels](/css/guides/Positioned_layout/Stacking_context/Example_2), and a [3-level HTML hierarchy, `z-index` on the second level](/css/guides/Positioned_layout/Stacking_context/Example_3).
 
 ## See also
 
-- [Understanding z-index](/en-US/docs/Web/CSS/Guides/Positioned_layout/Understanding_z-index)
-- [Stacking without the `z-index` property](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_without_z-index)
-- [Stacking floating elements](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_floating_elements)
-- [Using z-index](/en-US/docs/Web/CSS/Guides/Positioned_layout/Using_z-index)
+- [Understanding z-index](/css/guides/Positioned_layout/Understanding_z-index)
+- [Stacking without the `z-index` property](/css/guides/Positioned_layout/Stacking_without_z-index)
+- [Stacking floating elements](/css/guides/Positioned_layout/Stacking_floating_elements)
+- [Using z-index](/css/guides/Positioned_layout/Using_z-index)
 - {{glossary("Top layer")}}
-- [CSS positioned layout](/en-US/docs/Web/CSS/Guides/Positioned_layout) module
+- [CSS positioned layout](/css/guides/Positioned_layout) module

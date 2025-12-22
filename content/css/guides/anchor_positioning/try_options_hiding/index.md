@@ -6,14 +6,14 @@ page-type: guide
 sidebar: cssref
 ---
 
-When using [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning), an important consideration is ensuring that anchor-positioned elements always appear in a convenient place for the user to interact with them, if at all possible, regardless of where the anchor is positioned. For example, when you scroll the page, anchors and their associated positioned elements will move toward the edge of the viewport. When a positioned element starts to overflow the viewport, you will want to change its position to put it back on the screen again, for example on the opposite side of the anchor.
+When using [CSS anchor positioning](/css/guides/Anchor_positioning), an important consideration is ensuring that anchor-positioned elements always appear in a convenient place for the user to interact with them, if at all possible, regardless of where the anchor is positioned. For example, when you scroll the page, anchors and their associated positioned elements will move toward the edge of the viewport. When a positioned element starts to overflow the viewport, you will want to change its position to put it back on the screen again, for example on the opposite side of the anchor.
 
 Alternatively, in some situations it may be preferable to just hide overflowing positioned elements — for example, if their anchors are off-screen their content might not make sense.
 
 This guide explains how to use CSS anchor positioning mechanisms to manage these issues — **position-try fallback options** and **conditional hiding**. Position-try fallback options provide alternative positions for the browser to try placing positioned elements in as they start to overflow, to keep them on-screen. Conditional hiding allows conditions to be specified under which the anchor or a positioned element will be hidden.
 
 > [!NOTE]
-> For information on the basic fundamentals of CSS anchor positioning, see [Using CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using).
+> For information on the basic fundamentals of CSS anchor positioning, see [Using CSS anchor positioning](/css/guides/Anchor_positioning/Using).
 
 ## Feature summary
 
@@ -33,7 +33,7 @@ In some situations, anchor-positioned content does not make sense if the anchor 
 
 ## Predefined fallback options
 
-The predefined fallback option values of the `position-try-fallbacks` property (defined as [`<try-tactic>`](/en-US/docs/Web/CSS/Reference/Properties/position-try-fallbacks#try-tactic)s in the spec) will "flip" the position of the anchor-positioned element across one or both axes if the element would otherwise overflow.
+The predefined fallback option values of the `position-try-fallbacks` property (defined as [`<try-tactic>`](/css/reference/properties/position-try-fallbacks#try-tactic)s in the spec) will "flip" the position of the anchor-positioned element across one or both axes if the element would otherwise overflow.
 
 The element can be set to flip across the block axis (`flip-block`), the inline axis (`flip-inline`), or diagonally across an imaginary line drawn from a corner of the anchor through its center to its opposite corner (`flip-start`). These three values flip the element, mirroring its position on an opposite side for the first two values, and an adjacent side for `flip-start`. For example, if an element positioned `10px` above its anchor starts to overflow at the top of the anchor, the `flip-block` value would flip the positioned element to be 10px below its anchor.
 
@@ -266,7 +266,7 @@ The `descriptor-list` defines the property values for that individual custom try
 - {{cssxref("position-area")}}
 - [Inset properties](/en-US/docs/Glossary/Inset_properties)
 - Margin properties (e.g., {{cssxref("margin-left")}}, {{cssxref("margin-block-start")}})
-- [self-alignment](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using#centering_on_the_anchor_using_anchor-center) properties
+- [self-alignment](/css/guides/Anchor_positioning/Using#centering_on_the_anchor_using_anchor-center) properties
 - Sizing properties ({{cssxref("width")}}, {{cssxref("block-size")}}, etc.)
 - {{cssxref("position-anchor")}}
 
@@ -592,8 +592,8 @@ Scroll down the page and note how the positioned element is hidden once it reach
 
 ## See also
 
-- [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning) module
-- [Using CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using)
+- [CSS anchor positioning](/css/guides/Anchor_positioning) module
+- [Using CSS anchor positioning](/css/guides/Anchor_positioning/Using)
 - [Learn: CSS positioning](/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning)
-- [CSS logical properties and values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values) module
+- [CSS logical properties and values](/css/guides/Logical_properties_and_values) module
 - [Learn: Sizing items in CSS](/en-US/docs/Learn_web_development/Core/Styling_basics/Sizing)

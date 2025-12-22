@@ -126,6 +126,6 @@ for (let i = 0; i < textNode.textContent.length; i++) {
 
 ## See also
 
-- [CSS custom highlight API](/en-US/docs/Web/CSS/Guides/Custom_highlight_API) module
+- [CSS custom highlight API](/css/guides/Custom_highlight_API) module
 - [CSS custom highlight](/en-US/docs/Web/API/CSS_Custom_Highlight_API) API
-- [CSS pseudo-elements](/en-US/docs/Web/CSS/Guides/Pseudo-elements) module
+- [CSS pseudo-elements](/css/guides/Pseudo-elements) module

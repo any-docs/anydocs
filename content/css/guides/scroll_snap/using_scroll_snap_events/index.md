@@ -5,7 +5,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-The [CSS scroll snap](/en-US/docs/Web/CSS/Guides/Scroll_snap) module defines two **scroll snap events**: {{domxref("Element/scrollsnapchanging_event", "scrollsnapchanging")}} and {{domxref("Element/scrollsnapchange_event", "scrollsnapchange")}}. These enable running JavaScript in response to the browser determining that new [scroll snap targets](/en-US/docs/Web/CSS/Guides/Scroll_snap/Basic_concepts) are pending and selected, respectively.
+The [CSS scroll snap](/css/guides/Scroll_snap) module defines two **scroll snap events**: {{domxref("Element/scrollsnapchanging_event", "scrollsnapchanging")}} and {{domxref("Element/scrollsnapchange_event", "scrollsnapchange")}}. These enable running JavaScript in response to the browser determining that new [scroll snap targets](/css/guides/Scroll_snap/Basic_concepts) are pending and selected, respectively.
 
 This guide provides an overview of these events, along with complete examples.
 
@@ -307,7 +307,7 @@ h2 {
 
 The CSS for this example is similar to the CSS in the previous example. The most significant differences are as follows.
 
-First let's look at the `<main>` element styling. We want the `<section>` elements to be laid out as a grid, so we use [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) to specify that we want them displayed in seven columns, using a {{cssxref("grid-template-columns")}} value of `repeat(7, 1fr)`. We also specify the space around the `<section>` elements by setting `padding` and {{cssxref("gap")}} on the `<main>` element rather than `margin` on the `<section>` elements.
+First let's look at the `<main>` element styling. We want the `<section>` elements to be laid out as a grid, so we use [CSS grid layout](/css/guides/Grid_layout) to specify that we want them displayed in seven columns, using a {{cssxref("grid-template-columns")}} value of `repeat(7, 1fr)`. We also specify the space around the `<section>` elements by setting `padding` and {{cssxref("gap")}} on the `<main>` element rather than `margin` on the `<section>` elements.
 
 Finally, since we are scrolling in both directions in this example, we set {{cssxref("scroll-snap-type")}} to `both mandatory` so that snap targets in the block direction _and_ inline direction will always be snapped to.
 
@@ -525,5 +525,5 @@ window.addEventListener("scrollsnapchange", (event) => {
 - {{domxref("Element/scrollsnapchanging_event", "scrollsnapchanging")}} event
 - {{domxref("Element/scrollsnapchange_event", "scrollsnapchange")}} event
 - {{domxref("SnapEvent")}}
-- [CSS scroll snap](/en-US/docs/Web/CSS/Guides/Scroll_snap) module
+- [CSS scroll snap](/css/guides/Scroll_snap) module
 - [Scroll Snap Events](https://developer.chrome.com/blog/scroll-snap-events) on developer.chrome.com (2024)

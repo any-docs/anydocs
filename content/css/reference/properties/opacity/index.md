@@ -71,7 +71,7 @@ opacity: unset;
 
 `opacity` applies to the element as a whole, including its contents, even though the value is not inherited by child elements. Thus, the element and its children all have the same opacity relative to the element's background, even if they have different opacities relative to one another.
 
-To change the opacity of a background only, use the {{cssxref("background")}} property with a [color value](/en-US/docs/Web/CSS/Reference/Values/color_value) that allows for an alpha channel. For example:
+To change the opacity of a background only, use the {{cssxref("background")}} property with a [color value](/css/reference/values/color_value) that allows for an alpha channel. For example:
 
 ```css
 background: rgb(0 0 0 / 40%);
@@ -79,13 +79,13 @@ background: rgb(0 0 0 / 40%);
 
 When `opacity` value is set to `0`, the element and all of its children appear invisible, but they are still part of the DOM. That means they still register [pointer events](/en-US/docs/Web/API/Pointer_events) and, if the elements are in a tabbing order, they do get focus. For good usability, make sure to make such elements visible when they receive user interactions or use the CSS {{cssxref("pointer-events")}} property to disable pointer events and take the element out of the tab order by disabling with the `disabled` attribute or setting [`tab-index="-1"`](/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex) for non-form-related interactive elements.
 
-Using `opacity` with a value other than `1` places the element in a new [stacking context](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context).
+Using `opacity` with a value other than `1` places the element in a new [stacking context](/css/guides/Positioned_layout/Stacking_context).
 
 Opacity alone should not be used to provide information to screen readers. Use the HTML [`hidden`](/en-US/docs/Web/HTML/Reference/Global_attributes/hidden) attribute, CSS {{cssxref("visibility")}}, or CSS {{cssxref("display")}} style properties. It's best to avoid using [`aria-hidden`](/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-hidden) attribute, but if the element is hidden with opacity, then hide it from screen readers as well.
 
 ### Transitioning opacity
 
-When [transitioning](/en-US/docs/Web/CSS/Guides/Transitions) the opacity of elements as you add them to the page when content was formerly hidden with [`visibility: hidden`](/en-US/docs/Web/CSS/Reference/Properties/visibility#hidden), [`display: none`](/en-US/docs/Web/CSS/Reference/Properties/display#none), or [`content-visibility: hidden`](/en-US/docs/Web/CSS/Reference/Properties/content-visibility#hidden), you need to include both a {{cssxref("@starting-style")}} and [`transition-behavior: allow-discrete`](/en-US/docs/Web/CSS/Reference/Properties/transition-behavior#allow-discrete):
+When [transitioning](/css/guides/Transitions) the opacity of elements as you add them to the page when content was formerly hidden with [`visibility: hidden`](/css/reference/properties/visibility#hidden), [`display: none`](/css/reference/properties/display#none), or [`content-visibility: hidden`](/css/reference/properties/content-visibility#hidden), you need to include both a {{cssxref("@starting-style")}} and [`transition-behavior: allow-discrete`](/css/reference/properties/transition-behavior#allow-discrete):
 
 ```css
 .card {
@@ -114,7 +114,7 @@ Setting `transition-behavior: allow-discrete` is required to transition to `disp
 
 If text opacity is adjusted, it is important to ensure that the contrast ratio between the color of the text and the background the text is placed over is high enough that people experiencing low vision conditions will be able to read the content of the page.
 
-Color contrast ratio is determined by comparing the luminosity of the opacity-adjusted text and background color values. In order to meet current [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/), a ratio of 4.5:1 is required for text content and 3:1 for larger text such as headings. Large text is defined as 18.66px and [bold](/en-US/docs/Web/CSS/Reference/Properties/font-weight) or larger, or 24px or larger.
+Color contrast ratio is determined by comparing the luminosity of the opacity-adjusted text and background color values. In order to meet current [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/), a ratio of 4.5:1 is required for text content and 3:1 for larger text such as headings. Large text is defined as 18.66px and [bold](/css/reference/properties/font-weight) or larger, or 24px or larger.
 
 - [WebAIM: Color Contrast Checker](https://webaim.org/resources/contrastchecker/)
 - [MDN Understanding WCAG, Guideline 1.4 explanations](/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable#guideline_1.4_make_it_easier_for_users_to_see_and_hear_content_including_separating_foreground_from_background)
@@ -239,5 +239,5 @@ To style elements based on user's operating systems transparency preferences, us
 ## See also
 
 - [`prefers-reduced-transparency`](/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-transparency) media query
-- [CSS color](/en-US/docs/Web/CSS/Guides/Colors) module
+- [CSS color](/css/guides/Colors) module
 - SVG {{SVGAttr("opacity")}} attribute

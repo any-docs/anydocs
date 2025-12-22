@@ -6,7 +6,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-The properties in the [CSS scroll snap](/en-US/docs/Web/CSS/Guides/Scroll_snap) module enable you to define how scrolling snaps to specific points as a user scrolls through a document.
+The properties in the [CSS scroll snap](/css/guides/Scroll_snap) module enable you to define how scrolling snaps to specific points as a user scrolls through a document.
 
 The [scroll snap](/en-US/docs/Glossary/Scroll_snap) feature lets you define the snap positions where a [scroll container](/en-US/docs/Glossary/Scroll_container)'s scrollport may end or "snap to" after a scrolling operation has completed.
 
@@ -282,7 +282,7 @@ body {
 
 {{EmbedLiveSample("scroll-padding", "", "350px")}}
 
-This is potentially useful if you have a [fixed](/en-US/docs/Web/CSS/Reference/Properties/position#fixed_positioning) element such as a navigation bar, which could end up overlapping scrolled content. By using `scroll-padding`, you can reserve space for the fixed element, as shown in the example below, where the `<h1>` element remains on screen as the content scrolls beneath it. Without padding, the heading would overlap some of the content when snapping happens.
+This is potentially useful if you have a [fixed](/css/reference/properties/position#fixed_positioning) element such as a navigation bar, which could end up overlapping scrolled content. By using `scroll-padding`, you can reserve space for the fixed element, as shown in the example below, where the `<h1>` element remains on screen as the content scrolls beneath it. Without padding, the heading would overlap some of the content when snapping happens.
 
 ```html hidden live-sample___scroll-padding-sticky
 <article class="scroller">
@@ -410,7 +410,7 @@ With this property definition, you can ensure that users see each section of the
 
 ## See also
 
-- [CSS scroll snap](/en-US/docs/Web/CSS/Guides/Scroll_snap) module
+- [CSS scroll snap](/css/guides/Scroll_snap) module
 - [Well-controlled scrolling with CSS scroll snap](https://web.dev/articles/css-scroll-snap) on web.dev (2021)
 - [Practical CSS scroll snapping](https://css-tricks.com/practical-css-scroll-snapping/) on CSS-Tricks (2020)
 - [CSS scroll snap](https://12daysofweb.dev/2022/css-scroll-snap/) on 12 Days of Web (2019)

@@ -6,7 +6,7 @@ browser-compat: css.types.basic-shape.shape
 sidebar: cssref
 ---
 
-The **`shape()`** [CSS function](/en-US/docs/Web/CSS/Reference/Values/Functions) is used to define a shape for the {{cssxref("clip-path")}} and {{cssxref("offset-path")}} properties. It combines an initial starting point with a series of shape commands that define the path of the shape. The `shape()` function is a member of the {{cssxref("basic-shape")}} data type.
+The **`shape()`** [CSS function](/css/reference/values/Functions) is used to define a shape for the {{cssxref("clip-path")}} and {{cssxref("offset-path")}} properties. It combines an initial starting point with a series of shape commands that define the path of the shape. The `shape()` function is a member of the {{cssxref("basic-shape")}} data type.
 
 ## Syntax
 
@@ -57,7 +57,7 @@ clip-path: shape(
 
 ### Parameters
 
-- [`<fill-rule>`](/en-US/docs/Web/SVG/Reference/Attribute/fill-rule) {{optional_inline}}
+- [`<fill-rule>`](/en-US/docs/Web/SVG/Reference/Attribute/fill-rule) <Badge type="info" text="Optional" />
   - : Specifies how overlapping regions of a shape should be filled. The possible values include:
     - `nonzero`: A point is considered inside the shape if a ray drawn from the point crosses more left-to-right than right-to-left path segments, resulting in a non-zero count. This is the default value when `<fill-rule>` is omitted.
 
@@ -67,7 +67,7 @@ clip-path: shape(
     > `<fill-rule>` is not supported in {{cssxref("offset-path")}} and using it invalidates the property.
 
 - `from <coordinate-pair>`
-  - : Defines the starting point of the first `<shape-command>` as a pair of coordinates that are measured from the top-left corner of the [reference box](/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside#the_reference_box). The coordinates are specified as space-separated `<x> <y>` {{cssxref("&lt;length-percentage&gt;")}} values representing the left offset and top offset, respectively. Percentage values are relative to the width and height of the element's reference box, respectively. Add a comma after this parameter.
+  - : Defines the starting point of the first `<shape-command>` as a pair of coordinates that are measured from the top-left corner of the [reference box](/css/guides/Shapes/Using_shape-outside#the_reference_box). The coordinates are specified as space-separated `<x> <y>` {{cssxref("&lt;length-percentage&gt;")}} values representing the left offset and top offset, respectively. Percentage values are relative to the width and height of the element's reference box, respectively. Add a comma after this parameter.
 
 - `<shape-command>`
   - : Specifies a list of one or more comma-separated commands that define the shape, using syntax similar to [SVG path commands](/en-US/docs/Web/SVG/Reference/Attribute/d#path_commands). Commands include `<move-command>`, `<line-command>`, `<hv-line-command>`, `<curve-command>`, `<smooth-command>`, `<arc-command>`, and `close`. Each command's starting point is the previous command's ending point, with the first point of the shape defined by the [`from <coordinate-pair>`](#from_coordinate-pair) parameter.
@@ -454,6 +454,6 @@ The third shape (`shape3`) draws one quadratic Bézier curve and one cubic Bézi
 
 - {{cssxref("clip-path")}}
 - {{cssxref("offset-path")}}
-- [CSS shapes](/en-US/docs/Web/CSS/Guides/Shapes) module
-- [Overview of shapes](/en-US/docs/Web/CSS/Guides/Shapes/Overview) guide
-- [Basic shapes](/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside) guide
+- [CSS shapes](/css/guides/Shapes) module
+- [Overview of shapes](/css/guides/Shapes/Overview) guide
+- [Basic shapes](/css/guides/Shapes/Using_shape-outside) guide

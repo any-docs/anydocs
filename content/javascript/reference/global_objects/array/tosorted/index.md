@@ -18,7 +18,7 @@ toSorted(compareFn)
 
 ### Parameters
 
-- `compareFn` {{optional_inline}}
+- `compareFn` <Badge type="info" text="Optional" />
   - : A function that determines the order of the elements. If omitted, the array elements are converted to strings, then sorted according to each character's Unicode code point value. See {{jsxref("Array/sort", "sort()")}} for more information.
 
 ### Return value

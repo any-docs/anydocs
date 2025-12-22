@@ -6,7 +6,7 @@ browser-compat: css.properties.border-inline
 sidebar: cssref
 ---
 
-The **`border-inline`** [CSS](/en-US/docs/Web/CSS) property is a [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) for setting the individual logical inline border property values in a single place in the style sheet.
+The **`border-inline`** [CSS](/en-US/docs/Web/CSS) property is a [shorthand property](/css/guides/Cascade/Shorthand_properties) for setting the individual logical inline border property values in a single place in the style sheet.
 
 {{InteractiveExample("CSS Demo: border-inline")}}
 
@@ -134,6 +134,6 @@ div {
 
 ## See also
 
-- [CSS Logical Properties and Values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values)
+- [CSS Logical Properties and Values](/css/guides/Logical_properties_and_values)
 - This property maps to one of the physical border properties: {{cssxref("border-top")}}, {{cssxref("border-right")}}, {{cssxref("border-bottom")}}, or {{cssxref("border-left")}}.
 - {{cssxref("writing-mode")}}, {{cssxref("direction")}}, {{cssxref("text-orientation")}}

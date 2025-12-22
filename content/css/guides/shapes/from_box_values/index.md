@@ -6,7 +6,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-A straightforward way to create a shape is to use a value from the [CSS box model](/en-US/docs/Web/CSS/Guides/Box_model) module. This article explains how to do this.
+A straightforward way to create a shape is to use a value from the [CSS box model](/css/guides/Box_model) module. This article explains how to do this.
 
 The {{cssxref("box-edge")}} box values allowable as a shape value are:
 
@@ -242,4 +242,4 @@ body {
 
 {{EmbedLiveSample("bottom-margin-box", "", "240px")}}
 
-For more complex shapes, you will need to use one of the [basic shapes](/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside) as a value, or define your shape from an image as covered in other guides in this section.
+For more complex shapes, you will need to use one of the [basic shapes](/css/guides/Shapes/Using_shape-outside) as a value, or define your shape from an image as covered in other guides in this section.

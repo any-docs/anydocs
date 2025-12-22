@@ -6,7 +6,7 @@ browser-compat: css.properties.container
 sidebar: cssref
 ---
 
-The **container** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property establishes the element as a query container and specifies the name and type of the [containment context](/en-US/docs/Web/CSS/Guides/Containment/Container_queries#naming_containment_contexts) used in a [container query](/en-US/docs/Web/CSS/Guides/Containment/Container_queries).
+The **container** [shorthand](/css/guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property establishes the element as a query container and specifies the name and type of the [containment context](/css/guides/Containment/Container_queries#naming_containment_contexts) used in a [container query](/css/guides/Containment/Container_queries).
 
 ## Constituent properties
 
@@ -99,8 +99,8 @@ You can then target that container by name using the {{cssxref("@container")}} a
 
 ## See also
 
-- [CSS container queries](/en-US/docs/Web/CSS/Guides/Containment/Container_queries)
-- [Using container size and style queries](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries)
+- [CSS container queries](/css/guides/Containment/Container_queries)
+- [Using container size and style queries](/css/guides/Containment/Container_size_and_style_queries)
 - {{Cssxref("@container")}} at-rule
 - CSS {{Cssxref("contain")}} property
 - CSS {{Cssxref("container-type")}} property

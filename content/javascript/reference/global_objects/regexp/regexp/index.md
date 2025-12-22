@@ -44,7 +44,7 @@ RegExp(pattern, flags)
 - `pattern`
   - : The text of the regular expression. This can also be another `RegExp` object.
 
-- `flags` {{optional_inline}}
+- `flags` <Badge type="info" text="Optional" />
   - : If specified, `flags` is a string that contains the flags to add. Alternatively, if a `RegExp` object is supplied for the `pattern`, the `flags` string will replace any of that object's flags (and `lastIndex` will be reset to `0`).
 
     `flags` may contain any combination of the following characters:

@@ -6,7 +6,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-[**CSS media queries**](/en-US/docs/Web/CSS/Guides/Media_queries) can be used to help users with disabilities better experience your website.
+[**CSS media queries**](/css/guides/Media_queries) can be used to help users with disabilities better experience your website.
 
 ## Reduced Motion
 

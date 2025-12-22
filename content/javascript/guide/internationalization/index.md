@@ -39,9 +39,9 @@ The general signature of the constructor is:
 new Intl.SomeObject(locales, options)
 ```
 
-- `locales` {{optional_inline}}
+- `locales` <Badge type="info" text="Optional" />
   - : A string with a {{glossary("BCP 47 language tag")}} or an {{jsxref("Intl.Locale")}} instance, or an array of such locale identifiers. The runtime's default locale is used when `undefined` is passed or when none of the specified locale identifiers is supported. For the general form and interpretation of the `locales` argument, see [the parameter description on the `Intl` main page](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#locales_argument).
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing properties that customize specific aspects of the operation, which is key to understanding how to use each `Intl` object.
 
 ## Locale information

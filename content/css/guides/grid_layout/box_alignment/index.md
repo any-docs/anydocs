@@ -6,7 +6,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-[CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) implements [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment), which is the same standard [flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) uses for aligning items in its flex container. The alignment module details how alignment should work in all the layout methods.
+[CSS grid layout](/css/guides/Grid_layout) implements [CSS box alignment](/css/guides/Box_alignment), which is the same standard [flexbox](/css/guides/Flexible_box_layout) uses for aligning items in its flex container. The alignment module details how alignment should work in all the layout methods.
 
 In this guide, we look at how the box alignment properties are used to align items in grid layout.
 
@@ -257,7 +257,7 @@ Once again, the default is `stretch` other than for items with an intrinsic aspe
 As with `align-self` and `align-items`, you can apply `justify-items` to the grid container to set a `justify-self` value for all the grid items within the container.
 
 > [!NOTE]
-> The `justify-self` and `justify-items` properties are not implemented in flexbox. This is due to the one-dimensional nature of [flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout), and that there may be multiple items along the axis, making it impossible to justify a single item. To align items along the main, inline axis in flexbox you use the {{cssxref("justify-content")}} property.
+> The `justify-self` and `justify-items` properties are not implemented in flexbox. This is due to the one-dimensional nature of [flexbox](/css/guides/Flexible_box_layout), and that there may be multiple items along the axis, making it impossible to justify a single item. To align items along the main, inline axis in flexbox you use the {{cssxref("justify-content")}} property.
 
 ### Shorthand properties
 
@@ -684,14 +684,14 @@ All these examples were in English, a left-to-right language. This means that ou
 
 CSS grid layout and CSS box alignment work with writing modes in CSS. When displaying a right to left language, such as Arabic, the start of the grid is the top right, so the default of `justify-content: start` would be for grid tracks to start on the right-hand side of the grid.
 
-Setting {{glossary("physical properties")}}, such as setting auto margins using {{cssxref("margin-right")}} or {{cssxref("margin-left")}}, or absolutely positioning items using the {{cssxref("top")}}, {{cssxref("right")}}, {{cssxref("bottom")}}, and {{cssxref("left")}} offsets, does not honor writing modes. In the [grids, logical values, and writing modes](/en-US/docs/Web/CSS/Guides/Grid_layout/Logical_values_and_writing_modes) guide, we will look further into this interaction between CSS grid layout, box alignment and writing modes. This will be important to understand, if you develop sites that are then displayed in multiple languages, or if you want to mix languages or writing modes in a design.
+Setting {{glossary("physical properties")}}, such as setting auto margins using {{cssxref("margin-right")}} or {{cssxref("margin-left")}}, or absolutely positioning items using the {{cssxref("top")}}, {{cssxref("right")}}, {{cssxref("bottom")}}, and {{cssxref("left")}} offsets, does not honor writing modes. In the [grids, logical values, and writing modes](/css/guides/Grid_layout/Logical_values_and_writing_modes) guide, we will look further into this interaction between CSS grid layout, box alignment and writing modes. This will be important to understand, if you develop sites that are then displayed in multiple languages, or if you want to mix languages or writing modes in a design.
 
 ## See also
 
-- [Basic concepts of grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts)
-- [Relationship of grid layout with other layout methods](/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods)
-- [Grid layout using line-based placement](/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement)
-- [Grid template areas](/en-US/docs/Web/CSS/Guides/Grid_layout/Grid_template_areas)
-- [Grid layout using named grid lines](/en-US/docs/Web/CSS/Guides/Grid_layout/Named_grid_lines)
-- [Auto-placement in grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout/Auto-placement)
-- [Box alignment in CSS grid layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout)
+- [Basic concepts of grid layout](/css/guides/Grid_layout/Basic_concepts)
+- [Relationship of grid layout with other layout methods](/css/guides/Grid_layout/Relationship_with_other_layout_methods)
+- [Grid layout using line-based placement](/css/guides/Grid_layout/Line-based_placement)
+- [Grid template areas](/css/guides/Grid_layout/Grid_template_areas)
+- [Grid layout using named grid lines](/css/guides/Grid_layout/Named_grid_lines)
+- [Auto-placement in grid layout](/css/guides/Grid_layout/Auto-placement)
+- [Box alignment in CSS grid layout](/css/guides/Box_alignment/In_grid_layout)

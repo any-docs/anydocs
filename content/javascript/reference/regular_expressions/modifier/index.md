@@ -20,9 +20,9 @@ A **modifier** overrides [flag](/en-US/docs/Web/JavaScript/Reference/Regular_exp
 
 ### Parameters
 
-- `flags1` {{optional_inline}}
+- `flags1` <Badge type="info" text="Optional" />
   - : A string of flags to enable. Can contain any combination of `i`, `m`, and `s`.
-- `flags2` {{optional_inline}}
+- `flags2` <Badge type="info" text="Optional" />
   - : A string of flags to disable. Can contain any combination of `i`, `m`, and `s`, but must not contain any flags included in `flags1`.
 - `pattern`
   - : A pattern consisting of anything you may use in a regex literal, including a [disjunction](/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Disjunction).

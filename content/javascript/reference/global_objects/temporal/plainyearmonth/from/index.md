@@ -23,7 +23,7 @@ Temporal.PlainYearMonth.from(info, options)
     - A {{jsxref("Temporal.PlainYearMonth")}} instance, which creates a copy of the instance.
     - An [RFC 9557](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth#rfc_9557_format) string containing a date and optionally a calendar. If the calendar is not `iso8601`, a day is required.
     - An object containing the following properties (in the order they are retrieved and validated):
-      - `calendar` {{optional_inline}}
+      - `calendar` <Badge type="info" text="Optional" />
         - : A string that corresponds to the {{jsxref("Temporal/PlainYearMonth/calendarId", "calendarId")}} property. See [`Intl.supportedValuesOf()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_calendar_types) for a list of commonly supported calendar types. Defaults to `"iso8601"`. All other properties are interpreted in this calendar system (unlike the {{jsxref("Temporal/PlainYearMonth/PlainYearMonth", "Temporal.PlainYearMonth()")}} constructor, which interprets the values in the ISO calendar system).
       - `era` and `eraYear`
         - : A string and an integer that correspond to the {{jsxref("Temporal/PlainYearMonth/era", "era")}} and {{jsxref("Temporal/PlainYearMonth/eraYear", "eraYear")}} properties. Are only used if the calendar system has eras. `era` and `eraYear` must be provided simultaneously. If they are not provided, then `year` must be provided. If all of `era`, `eraYear`, and `year` are provided, they must be consistent.
@@ -34,9 +34,9 @@ Temporal.PlainYearMonth.from(info, options)
       - `year`
         - : Corresponds to the {{jsxref("Temporal/PlainYearMonth/year", "year")}} property.
 
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the following property:
-    - `overflow` {{optional_inline}}
+    - `overflow` <Badge type="info" text="Optional" />
       - : A string specifying the behavior when a date component is out of range (when using the object `info`). Possible values are:
         - `"constrain"` (default)
           - : The date component is [clamped](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate#invalid_date_clamping) to the valid range.

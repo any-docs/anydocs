@@ -90,6 +90,6 @@ This example shows turning off synthesis of the small-caps typeface by the brows
 
 ## See also
 
-- [font-synthesis](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis) shorthand, [font-synthesis-style](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-style), [font-synthesis-weight](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-weight)
+- [font-synthesis](/css/reference/properties/font-synthesis) shorthand, [font-synthesis-style](/css/reference/properties/font-synthesis-style), [font-synthesis-weight](/css/reference/properties/font-synthesis-weight)
 - {{cssxref("font-style")}}, {{cssxref("font-variant")}}, {{cssxref("font-variant-caps")}}, {{cssxref("font-weight")}}
 - [CanvasRenderingContext2D: fontVariantCaps property](/en-US/docs/Web/API/CanvasRenderingContext2D/fontVariantCaps)

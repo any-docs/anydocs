@@ -21,7 +21,7 @@ next(value)
 
 ### Parameters
 
-- `value` {{optional_inline}}
+- `value` <Badge type="info" text="Optional" />
   - : The value to send to the generator.
 
     The value will be assigned as a result of a `yield` expression. For

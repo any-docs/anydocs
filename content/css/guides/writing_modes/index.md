@@ -37,14 +37,14 @@ The CSS writing module addresses the orientations of all writing modes. Other mo
 
 ## Guides
 
-- [Creating vertical form controls](/en-US/docs/Web/CSS/Guides/Writing_modes/Vertical_controls)
+- [Creating vertical form controls](/css/guides/Writing_modes/Vertical_controls)
   - : The article explains how to use the CSS {{cssxref("writing-mode")}} and {{cssxref("direction")}} properties to create and configure vertical form controls.
-- [Introduction to writing mode systems](/en-US/docs/Web/CSS/Guides/Writing_modes/Writing_mode_systems)
+- [Introduction to writing mode systems](/css/guides/Writing_modes/Writing_mode_systems)
   - : A brief overview of writing mode systems and their directionalities.
 
 ## Related concepts
 
-[CSS text](/en-US/docs/Web/CSS/Guides/Text) module
+[CSS text](/css/guides/Text) module
 
 - {{cssxref("hanging-punctuation")}}
 - {{cssxref("hyphens")}}
@@ -58,7 +58,7 @@ The CSS writing module addresses the orientations of all writing modes. Other mo
 - {{cssxref("word-break")}}
 - {{cssxref("word-spacing")}}
 
-[CSS inline layout](/en-US/docs/Web/CSS/Guides/Inline_layout) module
+[CSS inline layout](/css/guides/Inline_layout) module
 
 - {{cssxref("alignment-baseline")}}
 - {{cssxref("dominant-baseline")}}
@@ -68,21 +68,21 @@ The CSS writing module addresses the orientations of all writing modes. Other mo
 - {{cssxref("text-box")}} shorthand
 - {{cssxref("text-edge")}}
 
-[CSS logical properties and values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values) module
+[CSS logical properties and values](/css/guides/Logical_properties_and_values) module
 
 - {{glossary("Flow relative values")}}
 - {{glossary("Inset properties")}}
 - {{glossary("Logical properties")}}
 - {{glossary("Physical properties")}}
 
-[CSS display](/en-US/docs/Web/CSS/Guides/Display) module
+[CSS display](/css/guides/Display) module
 
 - {{cssxref("display")}}
 
 - {{CSSxRef("&lt;display-internal&gt;")}}
-- [Visual formatting model](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model)
+- [Visual formatting model](/css/guides/Display/Visual_formatting_model)
 
-[CSS generated content](/en-US/docs/Web/CSS/Guides/Generated_content)
+[CSS generated content](/css/guides/Generated_content)
 
 - {{CSSxRef("quotes")}}
 
@@ -114,11 +114,11 @@ The CSS writing module addresses the orientations of all writing modes. Other mo
 
 ## See also
 
-- [CSS fonts](/en-US/docs/Web/CSS/Guides/Fonts) module
-- [CSS ruby layout](/en-US/docs/Web/CSS/Guides/Ruby_layout) module
-- [CSS text decoration](/en-US/docs/Web/CSS/Guides/Text_decoration) module
-- [CSS counter styles](/en-US/docs/Web/CSS/Guides/Counter_styles) module
-- [CSS lists](/en-US/docs/Web/CSS/Guides/Lists) module
-- [CSS containment](/en-US/docs/Web/CSS/Guides/Containment) module: {{CSSxRef("contain-intrinsic-block-size")}} and {{CSSxRef("contain-intrinsic-inline-size")}}
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module: {{CSSxRef("overflow-block")}} and {{CSSxRef("overflow-inline")}}
-- [CSS overscroll behavior](/en-US/docs/Web/CSS/Guides/Overscroll_behavior) module: {{CSSxRef("overscroll-behavior-block")}} and {{CSSxRef("overscroll-behavior-inline")}}
+- [CSS fonts](/css/guides/Fonts) module
+- [CSS ruby layout](/css/guides/Ruby_layout) module
+- [CSS text decoration](/css/guides/Text_decoration) module
+- [CSS counter styles](/css/guides/Counter_styles) module
+- [CSS lists](/css/guides/Lists) module
+- [CSS containment](/css/guides/Containment) module: {{CSSxRef("contain-intrinsic-block-size")}} and {{CSSxRef("contain-intrinsic-inline-size")}}
+- [CSS overflow](/css/guides/Overflow) module: {{CSSxRef("overflow-block")}} and {{CSSxRef("overflow-inline")}}
+- [CSS overscroll behavior](/css/guides/Overscroll_behavior) module: {{CSSxRef("overscroll-behavior-block")}} and {{CSSxRef("overscroll-behavior-inline")}}

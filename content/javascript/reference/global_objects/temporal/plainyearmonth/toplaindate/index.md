@@ -17,7 +17,7 @@ toPlainDate(dayInfo)
 
 ### Parameters
 
-- `dayInfo` {{optional_inline}}
+- `dayInfo` <Badge type="info" text="Optional" />
   - : An object representing the day component of the resulting `PlainDate`, containing the following property:
     - `day`
       - : Corresponds to the {{jsxref("Temporal/PlainDate/day", "day")}} property.

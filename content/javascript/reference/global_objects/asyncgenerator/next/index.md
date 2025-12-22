@@ -18,7 +18,7 @@ next(value)
 
 ### Parameters
 
-- `value` {{optional_inline}}
+- `value` <Badge type="info" text="Optional" />
   - : An optional value used to modify the internal state of the generator. A value passed to the `next()` method will be received by `yield`
 
 ### Return value

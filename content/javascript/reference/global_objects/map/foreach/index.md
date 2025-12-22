@@ -45,7 +45,7 @@ forEach(callbackFn, thisArg)
       - : Key of each iteration.
     - `map`
       - : The map being iterated.
-- `thisArg` {{optional_inline}}
+- `thisArg` <Badge type="info" text="Optional" />
   - : A value to use as `this` when executing `callbackFn`.
 
 ### Return value

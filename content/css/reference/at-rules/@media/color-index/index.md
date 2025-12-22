@@ -68,5 +68,5 @@ This HTML will apply a special stylesheet for devices that have at least 256 col
 
 ## See also
 
-- [Using Media Queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+- [Using Media Queries](/css/guides/Media_queries/Using)
 - [@media](/en-US/docs/Web/CSS/Reference/At-rules/@media)

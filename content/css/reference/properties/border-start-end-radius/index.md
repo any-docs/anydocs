@@ -6,7 +6,7 @@ browser-compat: css.properties.border-start-end-radius
 sidebar: cssref
 ---
 
-The **`border-start-end-radius`** [CSS](/en-US/docs/Web/CSS) property defines a logical border radius on an element, which maps to a physical border radius depending on the element's {{cssxref("writing-mode")}}, {{cssxref("direction")}}, and {{cssxref("text-orientation")}}. This is useful when building styles to work regardless of the [text orientation](/en-US/docs/Web/CSS/Reference/Properties/text-orientation) and [writing mode](/en-US/docs/Web/CSS/Guides/Writing_modes).
+The **`border-start-end-radius`** [CSS](/en-US/docs/Web/CSS) property defines a logical border radius on an element, which maps to a physical border radius depending on the element's {{cssxref("writing-mode")}}, {{cssxref("direction")}}, and {{cssxref("text-orientation")}}. This is useful when building styles to work regardless of the [text orientation](/css/reference/properties/text-orientation) and [writing mode](/css/guides/Writing_modes).
 
 This property affects the corner between the block-start and the inline-end sides of the element. For instance, in a `horizontal-tb` writing mode with `ltr` direction, it corresponds to the {{CSSxRef("border-top-right-radius")}} property.
 
@@ -128,6 +128,6 @@ div {
 
 ## See also
 
-- [CSS Logical Properties and Values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values)
+- [CSS Logical Properties and Values](/css/guides/Logical_properties_and_values)
 - The mapped physical property: {{CSSxRef("border-bottom-left-radius")}}
 - {{CSSxRef("writing-mode")}}, {{CSSxRef("direction")}}, {{CSSxRef("text-orientation")}}

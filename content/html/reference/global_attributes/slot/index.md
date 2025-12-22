@@ -25,5 +25,5 @@ For examples, see our [Using templates and slots](/en-US/docs/Web/API/Web_compon
 - HTML {{HTMLElement("slot")}} element
 - HTML {{HTMLElement("template")}} element
 - CSS {{CSSXref("::slotted")}} pseudo-element
-- [CSS scoping](/en-US/docs/Web/CSS/Guides/Scoping) module
+- [CSS scoping](/css/guides/Scoping) module
 - [Web components](/en-US/docs/Web/API/Web_components)

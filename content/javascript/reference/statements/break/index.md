@@ -31,7 +31,7 @@ break;
 break label;
 ```
 
-- `label` {{optional_inline}}
+- `label` <Badge type="info" text="Optional" />
   - : Identifier associated with the label of the statement to break to. If the `break` statement is not nested within a loop or {{jsxref("Statements/switch", "switch")}}, then the label identifier is required.
 
 ## Description

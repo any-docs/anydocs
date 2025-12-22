@@ -6,11 +6,11 @@ page-type: guide
 sidebar: cssref
 ---
 
-[CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) is designed to work alongside other parts of CSS, as part of a complete system for doing the layout. This guide explains how grid layout fits together with other techniques.
+[CSS grid layout](/css/guides/Grid_layout) is designed to work alongside other parts of CSS, as part of a complete system for doing the layout. This guide explains how grid layout fits together with other techniques.
 
 ## Grid and flexbox
 
-The basic difference between CSS grid layout and [CSS flexbox layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) is that flexbox was designed for layout in one dimension - either a row _or_ a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. The two specifications both use [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) features. If you have already learned how to use flexbox, the similarities should help you get to grips with grid.
+The basic difference between CSS grid layout and [CSS flexbox layout](/css/guides/Flexible_box_layout) is that flexbox was designed for layout in one dimension - either a row _or_ a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. The two specifications both use [CSS box alignment](/css/guides/Box_alignment) features. If you have already learned how to use flexbox, the similarities should help you get to grips with grid.
 
 ### One-dimensional versus two-dimensional layout
 
@@ -125,9 +125,9 @@ If you are using flexbox and find yourself disabling some of the flexibility, yo
 
 ### Box alignment
 
-Most grid alignment features were originally defined is the [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout). These features provided proper alignment control for the first time and enabled centering a box on the page. Flex items can stretch to the height of the flex container, meaning that equal height columns were possible. These properties are now defined in the [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module, and are used in multiple layout modes, including grid layout.
+Most grid alignment features were originally defined is the [CSS flexible box layout](/css/guides/Flexible_box_layout). These features provided proper alignment control for the first time and enabled centering a box on the page. Flex items can stretch to the height of the flex container, meaning that equal height columns were possible. These properties are now defined in the [CSS box alignment](/css/guides/Box_alignment) module, and are used in multiple layout modes, including grid layout.
 
-We will be taking a proper look at [Aligning items in CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment) later. For now, here is a comparison between examples of flexbox and grid.
+We will be taking a proper look at [Aligning items in CSS grid layout](/css/guides/Grid_layout/Box_alignment) later. For now, here is a comparison between examples of flexbox and grid.
 
 In the first example, which uses flexbox, we have a container with three items inside. The container's {{cssxref("min-height")}} is set, so it defines the height of the flex container. We have set {{cssxref("align-items")}} on the flex container to `flex-end` so the items will line up at the end of the flex container. We have also set the {{cssxref("align-self")}} property on `box1` so it will override the default and stretch to the height of the container and on `box2` so it aligns to the start of the flex container.
 
@@ -322,11 +322,11 @@ With grid layout, we can create a grid with a dynamic number of flexible tracks 
 
 ## Grid and absolutely positioned elements
 
-Grid interacts with [absolutely positioned](/en-US/docs/Web/CSS/Reference/Properties/position#absolute_positioning) elements, which can be useful if you want to position an item inside a grid or grid area. The specification defines the behavior when a grid container is a containing block and a parent of the absolutely positioned item.
+Grid interacts with [absolutely positioned](/css/reference/properties/position#absolute_positioning) elements, which can be useful if you want to position an item inside a grid or grid area. The specification defines the behavior when a grid container is a containing block and a parent of the absolutely positioned item.
 
 ### A grid container as containing block
 
-To make the grid container a [containing block](/en-US/docs/Web/CSS/Guides/Display/Containing_block), you need to add the {{cssxref("position")}} property to the container with a value of `relative`, just as you would make a containing block for any other absolutely positioned items. Once you have done this, if you give a grid item `position: absolute` it will take as its containing block the grid container or, if the item also has a grid position, the area of the grid it is placed into.
+To make the grid container a [containing block](/css/guides/Display/Containing_block), you need to add the {{cssxref("position")}} property to the container with a value of `relative`, just as you would make a containing block for any other absolutely positioned items. Once you have done this, if you give a grid item `position: absolute` it will take as its containing block the grid container or, if the item also has a grid position, the area of the grid it is placed into.
 
 In the below example we have a wrapper containing four child items. Item three is absolutely positioned and also placed on the grid using line-based placement. The grid container has `position: relative` and so becomes the positioning context of this item.
 
@@ -467,7 +467,7 @@ We have given `.box3` position relative and then positioned the sub-item with th
 
 ## Grid and display: contents
 
-A final interaction worth noting is the interaction between CSS grid layout and `display: contents`, defined in the [CSS display](/en-US/docs/Web/CSS/Guides/Display) module. When the {{cssxref("display")}} property is set to `contents`, the element itself does not generate any boxes, but its children and pseudo-elements still generate boxes as normal. This means that, for the purposes of box generation and layout, the element is treated as if it had been replaced with its children and pseudo-elements in the document tree.
+A final interaction worth noting is the interaction between CSS grid layout and `display: contents`, defined in the [CSS display](/css/guides/Display) module. When the {{cssxref("display")}} property is set to `contents`, the element itself does not generate any boxes, but its children and pseudo-elements still generate boxes as normal. This means that, for the purposes of box generation and layout, the element is treated as if it had been replaced with its children and pseudo-elements in the document tree.
 
 If you set an item to `display: contents`, the box it would normally create disappears and the boxes of the child elements appear as if they have risen up a level. This means that children of a grid item can become grid items. Sound odd? Here is an example.
 
@@ -595,4 +595,4 @@ As you can see from this guide, CSS grid layout is just one part of your toolkit
 ## See also
 
 - [Flexbox guides](/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox)
-- [Multiple-column layout guides](/en-US/docs/Web/CSS/Guides/Multicol_layout)
+- [Multiple-column layout guides](/css/guides/Multicol_layout)

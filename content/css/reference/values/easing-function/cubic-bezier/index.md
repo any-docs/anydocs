@@ -6,7 +6,7 @@ browser-compat: css.types.easing-function.cubic-bezier
 sidebar: cssref
 ---
 
-The **`cubic-bezier()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) creates a smooth transition using a cubic [Bézier curve](/en-US/docs/Glossary/Bezier_curve).
+The **`cubic-bezier()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) creates a smooth transition using a cubic [Bézier curve](/en-US/docs/Glossary/Bezier_curve).
 As an {{cssxref("easing-function")}}, it can be used to smooth out the start and end of the {{Glossary("interpolation")}}.
 
 ## Syntax
@@ -141,5 +141,5 @@ cubic-bezier(-1.9, 0.3, -0.2, 2.1)
 ## See also
 
 - Other easing functions: {{cssxref("easing-function/linear", "linear()")}} and {{cssxref("easing-function/steps", "steps()")}}
-- [CSS easing functions](/en-US/docs/Web/CSS/Guides/Easing_functions) module
+- [CSS easing functions](/css/guides/Easing_functions) module
 - [cubic-bezier.com](https://cubic-bezier.com/) by Lea Verou

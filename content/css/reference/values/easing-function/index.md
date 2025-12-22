@@ -6,9 +6,9 @@ browser-compat: css.types.easing-function
 sidebar: cssref
 ---
 
-The **`<easing-function>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a mathematical function that describes the rate at which a value changes.
+The **`<easing-function>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents a mathematical function that describes the rate at which a value changes.
 
-This transition between two values may be applied in different situations. It may be used to describe how fast values change during animations. This lets you vary the animation's speed over the course of its duration. You can specify an easing function for CSS [transition](/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function) and [animation](/en-US/docs/Web/CSS/Reference/Properties/animation-timing-function) properties.
+This transition between two values may be applied in different situations. It may be used to describe how fast values change during animations. This lets you vary the animation's speed over the course of its duration. You can specify an easing function for CSS [transition](/css/reference/properties/transition-timing-function) and [animation](/css/reference/properties/animation-timing-function) properties.
 
 ## Syntax
 
@@ -216,8 +216,8 @@ selectElem.addEventListener("change", () => {
 
 ## See also
 
-- [CSS easing functions](/en-US/docs/Web/CSS/Guides/Easing_functions) module
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module
-- [CSS transitions](/en-US/docs/Web/CSS/Guides/Transitions) module
+- [CSS easing functions](/css/guides/Easing_functions) module
+- [CSS animations](/css/guides/Animations) module
+- [CSS transitions](/css/guides/Transitions) module
 - [`linear()` easing generator](https://linear-easing-generator.netlify.app/) by Jake Archibald
 - [cubic-bezier.com](https://cubic-bezier.com/) by Lea Verou

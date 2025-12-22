@@ -25,9 +25,9 @@ Functional notation: `device-cmyk(C M Y K[ / A])`
 - `C`, `M`, `Y`, `K`
   - : Each a {{CSSXref("number")}} between `0` and `1`, a {{CSSXref("percentage")}} between `0%` and `100%`, or the keyword `none` providing the cyan, magenta, yellow, and black components of CMYK color.
     > [!NOTE]
-    > See [Missing color components](/en-US/docs/Web/CSS/Reference/Values/color_value#missing_color_components) for more information on the effect of `none`.
+    > See [Missing color components](/css/reference/values/color_value#missing_color_components) for more information on the effect of `none`.
 
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel.
 
 ## Formal syntax
@@ -44,5 +44,5 @@ Currently, no browsers support this feature.
 
 ## See also
 
-- [CSS colors](/en-US/docs/Web/CSS/Guides/Colors) module
+- [CSS colors](/css/guides/Colors) module
 - {{cssxref("@page")}}

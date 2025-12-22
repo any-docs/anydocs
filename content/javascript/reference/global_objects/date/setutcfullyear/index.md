@@ -38,9 +38,9 @@ setUTCFullYear(yearValue, monthValue, dateValue)
 
 - `yearValue`
   - : An integer representing the year. For example, 1995.
-- `monthValue` {{optional_inline}}
+- `monthValue` <Badge type="info" text="Optional" />
   - : An integer representing the month: 0 for January, 1 for February, and so on.
-- `dateValue` {{optional_inline}}
+- `dateValue` <Badge type="info" text="Optional" />
   - : An integer between 1 and 31 representing the day of the month. If you specify `dateValue`, you must also specify `monthValue`.
 
 ### Return value

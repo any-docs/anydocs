@@ -6,7 +6,7 @@ browser-compat: css.types.basic-shape.ellipse
 sidebar: cssref
 ---
 
-The **`ellipse()`** [CSS](/en-US/docs/Web/CSS) function is one of the {{cssxref("basic-shape")}} [data types](/en-US/docs/Web/CSS/Reference/Values/Data_types).
+The **`ellipse()`** [CSS](/en-US/docs/Web/CSS) function is one of the {{cssxref("basic-shape")}} [data types](/css/reference/values/Data_types).
 
 {{InteractiveExample("CSS Demo: ellipse()")}}
 
@@ -155,4 +155,4 @@ body {
 ## See also
 
 - Properties that use this data type: {{cssxref("clip-path")}}, {{cssxref("shape-outside")}}
-- [Guide to Basic Shapes](/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside)
+- [Guide to Basic Shapes](/css/guides/Shapes/Using_shape-outside)

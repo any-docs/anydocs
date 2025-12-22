@@ -39,7 +39,7 @@ Reflect.get(target, propertyKey, receiver)
   - : The target object on which to get the property.
 - `propertyKey`
   - : The name of the property to get.
-- `receiver` {{optional_inline}}
+- `receiver` <Badge type="info" text="Optional" />
   - : The value of `this` provided for the call to `target` if a getter is encountered.
 
 ### Return value

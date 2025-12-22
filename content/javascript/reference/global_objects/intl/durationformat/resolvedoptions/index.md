@@ -31,7 +31,7 @@ A new object with properties reflecting the options computed during the initiali
   - : The value provided for this property in the `options` argument, with default filled in as needed. It is either `"long"`, `"short"`, `"narrow"`, or `"digital"`. The default is `"short"`.
 - `years`, `yearsDisplay`, `months`, `monthsDisplay`, `weeks`, `weeksDisplay`, `days`, `daysDisplay`, `hours`, `hoursDisplay`, `minutes`, `minutesDisplay`, `seconds`, `secondsDisplay`, `milliseconds`, `millisecondsDisplay`, `nanoseconds`, `nanosecondsDisplay`
   - : The values provided for these properties in the `options` argument, with defaults filled in as needed. For the valid values and defaults for each, see the [`options`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat/DurationFormat#options) argument of the constructor.
-- `fractionalDigits` {{optional_inline}}
+- `fractionalDigits` <Badge type="info" text="Optional" />
   - : The value provided for this property in the `options` argument. It is only present if specified in `options`. It is an integer from 0 to 9, inclusive.
 
 ## Examples

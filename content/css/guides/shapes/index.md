@@ -13,7 +13,7 @@ The **CSS shapes** module describes geometric shapes. It also defines CSS proper
 
 The specification defines several ways to create shapes. Content can be wrapped around or within a shape rather than following the default rectangle shape of the element's box.
 
-Shapes define geometries that can be used as CSS values. This module provides functions for creating ellipses, polygons, and arbitrary geometries. Other CSS modules can make use of shapes defined in this specification, including [CSS motion path](/en-US/docs/Web/CSS/Guides/Motion_path) and [CSS masking](/en-US/docs/Web/CSS/Guides/Masking).
+Shapes define geometries that can be used as CSS values. This module provides functions for creating ellipses, polygons, and arbitrary geometries. Other CSS modules can make use of shapes defined in this specification, including [CSS motion path](/css/guides/Motion_path) and [CSS masking](/css/guides/Masking).
 
 ## CSS shapes in action
 
@@ -77,26 +77,26 @@ The CSS shapes module also introduces the `shape-inside` and `shape-padding` pro
 
 ### Terms
 
-- [Reference box](/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside#the_reference_box)
+- [Reference box](/css/guides/Shapes/Using_shape-outside#the_reference_box)
 
 ## Guides
 
-- [Overview of shapes](/en-US/docs/Web/CSS/Guides/Shapes/Overview)
+- [Overview of shapes](/css/guides/Shapes/Overview)
   - : Defining basic shapes with the `shape-margin` and `clip-path` properties, and debugging basic shapes with
     Developer Tools.
 
-- [Shapes from box values](/en-US/docs/Web/CSS/Guides/Shapes/From_box_values)
+- [Shapes from box values](/css/guides/Shapes/From_box_values)
   - : Using `border-radius` curvatures and CSS box model values to create shapes.
 
-- [Basic shapes with `shape-outside`](/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside)
+- [Basic shapes with `shape-outside`](/css/guides/Shapes/Using_shape-outside)
   - : Creating rectangles, circles, ellipses, and polygons with CSS shapes, the reference box, and the `shape-outside` property.
 
-- [Shapes from images](/en-US/docs/Web/CSS/Guides/Shapes/From_images)
+- [Shapes from images](/css/guides/Shapes/From_images)
   - : Creating shapes from semi-transparent image files and CSS Gradients.
 
 ## Related concepts
 
-[CSS motion path](/en-US/docs/Web/CSS/Guides/Motion_path) module
+[CSS motion path](/css/guides/Motion_path) module
 
 - {{cssxref("offset")}}
 - {{cssxref("offset-anchor")}}
@@ -106,7 +106,7 @@ The CSS shapes module also introduces the `shape-inside` and `shape-padding` pro
 - {{cssxref("offset-rotate")}}
 - {{cssxref("ray")}} function
 
-[CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
+[CSS masking](/css/guides/Masking) module
 
 - {{cssxref("clip")}}
 - {{cssxref("clip-path")}}
@@ -115,11 +115,11 @@ The CSS shapes module also introduces the `shape-inside` and `shape-padding` pro
 - {{cssxref("mask-origin")}}
 - {{cssxref("mask-position")}}
 
-[CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) module
+[CSS backgrounds and borders](/css/guides/Backgrounds_and_borders) module
 
 - {{cssxref("border-radius")}} shorthand
 
-[CSS box model](/en-US/docs/Web/CSS/Guides/Box_model) module
+[CSS box model](/css/guides/Box_model) module
 
 - {{cssxref("box-edge")}} data type
 
@@ -129,7 +129,7 @@ The CSS shapes module also introduces the `shape-inside` and `shape-padding` pro
 
 ## See also
 
-- [Shape generator](/en-US/docs/Web/CSS/Guides/Shapes/Shape_generator)
+- [Shape generator](/css/guides/Shapes/Shape_generator)
 - [CSS Shapes resources](https://codepen.io/KristopherVanSant/post/css-shapes-resources)
 - [CSS Shapes 101](https://alistapart.com/article/css-shapes-101/) via alistapart.com (2014)
 - [Creating non-rectangular layouts with CSS Shapes](https://www.sarasoueidan.com/blog/css-shapes/) via sarasoueidan.com (2013)

@@ -6,7 +6,7 @@ browser-compat: css.types.clamp
 sidebar: cssref
 ---
 
-The **`clamp()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) clamps a value within a range of values between a defined minimum bound and a maximum bound. The function takes three parameters: a minimum value, a preferred value, and a maximum allowed value.
+The **`clamp()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) clamps a value within a range of values between a defined minimum bound and a maximum bound. The function takes three parameters: a minimum value, a preferred value, and a maximum allowed value.
 
 {{InteractiveExample("CSS Demo: clamp()")}}
 
@@ -92,7 +92,7 @@ The example adjusts the sizes of page elements in three ways:
 - the font size of paragraph text
 - the font size of heading text
 
-In all three cases, the page uses a combination of a viewport-relative units ([`vw`](/en-US/docs/Web/CSS/Reference/Values/length#vw) and {{cssxref("percentage")}}), to set a size that varies with the viewport width, and a value that is not viewport relative ([`rem`](/en-US/docs/Web/CSS/Reference/Values/length#rem) and [`px`](/en-US/docs/Web/CSS/Reference/Values/length#px)) to implement minimum and/or maximum sizes.
+In all three cases, the page uses a combination of a viewport-relative units ([`vw`](/css/reference/values/length#vw) and {{cssxref("percentage")}}), to set a size that varies with the viewport width, and a value that is not viewport relative ([`rem`](/css/reference/values/length#rem) and [`px`](/css/reference/values/length#px)) to implement minimum and/or maximum sizes.
 
 The example is at <https://mdn.github.io/css-examples/min-max-clamp/>. Open it in a new window and try adjusting the window width.
 

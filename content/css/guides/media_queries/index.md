@@ -16,9 +16,9 @@ Media queries are a key component of [responsive design](/en-US/docs/Learn_web_d
 
 Other common examples include increasing the font size and hiding navigation menus when printing a page, adjusting the padding between paragraphs when a page is viewed in portrait or landscape mode, or increasing the size of buttons to provide a larger hit area on touchscreens.
 
-In [CSS](/en-US/docs/Web/CSS), use the {{cssxref("@media")}} [at-rule](/en-US/docs/Web/CSS/Guides/Syntax/At-rules) to conditionally apply part of a style sheet based on the result of a media query. To conditionally apply an entire style sheet, use {{cssxref("@import")}}.
+In [CSS](/en-US/docs/Web/CSS), use the {{cssxref("@media")}} [at-rule](/css/guides/Syntax/At-rules) to conditionally apply part of a style sheet based on the result of a media query. To conditionally apply an entire style sheet, use {{cssxref("@import")}}.
 
-When designing reusable HTML components, you may also use [container queries](/en-US/docs/Web/CSS/Guides/Containment/Container_queries), which allow you to apply styles based on the size of a containing element rather than the viewport or other device characteristics.
+When designing reusable HTML components, you may also use [container queries](/css/guides/Containment/Container_queries), which allow you to apply styles based on the size of a containing element rather than the viewport or other device characteristics.
 
 ## Reference
 
@@ -81,19 +81,19 @@ The CSS media queries level 5 module also introduces the `environment-blending`,
 
 ## Guides
 
-- [Using media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+- [Using media queries](/css/guides/Media_queries/Using)
   - : Introduces media queries, their syntax, and the operators and media features used to construct media query expressions.
 
 - [Learn: Media query fundamentals](/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries)
   - : Introduction to media queries and approaches for using them to create responsive designs.
 
-- [Testing media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Testing)
+- [Testing media queries](/css/guides/Media_queries/Testing)
   - : Describes how to use media queries in your JavaScript code to determine the state of a device, and to set up listeners that notify your code when the results of media queries change (such as when the user rotates the screen or resizes the browser).
 
-- [Using media queries for accessibility](/en-US/docs/Web/CSS/Guides/Media_queries/Using_for_accessibility)
+- [Using media queries for accessibility](/css/guides/Media_queries/Using_for_accessibility)
   - : Learn how media queries can help users understand your website better.
 
-- [Printing](/en-US/docs/Web/CSS/Guides/Media_queries/Printing)
+- [Printing](/css/guides/Media_queries/Printing)
   - : Tips and techniques for helping improve web content printer output.
 
 - [Responsive images](/en-US/docs/Web/HTML/Guides/Responsive_images)
@@ -101,16 +101,16 @@ The CSS media queries level 5 module also introduces the `environment-blending`,
 
 ## Related concepts
 
-- [CSS containment](/en-US/docs/Web/CSS/Guides/Containment) module
+- [CSS containment](/css/guides/Containment) module
   - {{cssxref("@container")}} at-rule
-  - [Using container queries](/en-US/docs/Web/CSS/Guides/Containment/Container_queries)
-  - [Using size and style container queries](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries)
-- [CSS conditional rules](/en-US/docs/Web/CSS/Guides/Conditional_rules) module
+  - [Using container queries](/css/guides/Containment/Container_queries)
+  - [Using size and style container queries](/css/guides/Containment/Container_size_and_style_queries)
+- [CSS conditional rules](/css/guides/Conditional_rules) module
   - {{cssxref("@supports")}} at-rule
-  - [Using feature queries](/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries)
-- [CSS environment variables](/en-US/docs/Web/CSS/Guides/Environment_variables)
+  - [Using feature queries](/css/guides/Conditional_rules/Using_feature_queries)
+- [CSS environment variables](/css/guides/Environment_variables)
   - {{cssxref("env()")}} function
-- [CSS paged media](/en-US/docs/Web/CSS/Guides/Paged_media) module
+- [CSS paged media](/css/guides/Paged_media) module
   - {{cssxref("@page")}} at-rule
 - [CSS object model](/en-US/docs/Web/API/CSS_Object_Model) module
   - {{DOMxRef("MediaQueryList")}} interface
@@ -134,7 +134,7 @@ The CSS media queries level 5 module also introduces the `environment-blending`,
 
 ## See also
 
-- [Container queries](/en-US/docs/Web/CSS/Guides/Containment/Container_queries)
+- [Container queries](/css/guides/Containment/Container_queries)
 - [Using the `srcset` and `sizes` attributes](/en-US/docs/Web/HTML/Reference/Elements/img#using_the_srcset_and_sizes_attributes)
-- [CSS paged media](/en-US/docs/Web/CSS/Guides/Paged_media)
+- [CSS paged media](/css/guides/Paged_media)
 - Use {{cssxref("@supports")}} to apply styles that depend on browser support for various CSS technologies.

@@ -37,7 +37,7 @@ sort(compareFn)
 
 ### Parameters
 
-- `compareFn` {{optional_inline}}
+- `compareFn` <Badge type="info" text="Optional" />
   - : A function that determines the order of the elements. The function is called with the following arguments:
     - `a`
       - : The first element for comparison. Will never be `undefined`.

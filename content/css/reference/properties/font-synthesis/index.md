@@ -6,7 +6,7 @@ browser-compat: css.properties.font-synthesis
 sidebar: cssref
 ---
 
-The **`font-synthesis`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property lets you specify whether or not the browser may synthesize the bold, italic, small-caps, and/or subscript and superscript typefaces when they are missing in the specified font-family.
+The **`font-synthesis`** [shorthand](/css/guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property lets you specify whether or not the browser may synthesize the bold, italic, small-caps, and/or subscript and superscript typefaces when they are missing in the specified font-family.
 
 {{InteractiveExample("CSS Demo: font-synthesis")}}
 
@@ -95,10 +95,10 @@ font-synthesis: position;
 
 This property is a shorthand for the following CSS properties:
 
-- [font-synthesis-weight](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-weight)
-- [font-synthesis-style](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-style)
-- [font-synthesis-small-caps](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-small-caps)
-- [font-synthesis-position](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-position)
+- [font-synthesis-weight](/css/reference/properties/font-synthesis-weight)
+- [font-synthesis-style](/css/reference/properties/font-synthesis-style)
+- [font-synthesis-small-caps](/css/reference/properties/font-synthesis-small-caps)
+- [font-synthesis-position](/css/reference/properties/font-synthesis-position)
 
 ## Syntax
 
@@ -146,7 +146,7 @@ For example, using the [:lang()](/en-US/docs/Web/CSS/Reference/Selectors/:lang) 
 
 The table below shows how a value of the shorthand `font-synthesis` property maps to the constituent longhand properties.
 
-| font-synthesis value               | [font-synthesis-weight](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-weight) value | [font-synthesis-style](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-style) value | [font-synthesis-small-caps](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-small-caps) value | [font-synthesis-position](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-position) value |
+| font-synthesis value               | [font-synthesis-weight](/css/reference/properties/font-synthesis-weight) value | [font-synthesis-style](/css/reference/properties/font-synthesis-style) value | [font-synthesis-small-caps](/css/reference/properties/font-synthesis-small-caps) value | [font-synthesis-position](/css/reference/properties/font-synthesis-position) value |
 | :--------------------------------- | :-------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
 | `none`                             | `none`                                                                                        | `none`                                                                                      | `none`                                                                                                | `none`                                                                                            |
 | `weight`                           | `auto`                                                                                        | `none`                                                                                      | `none`                                                                                                | `none`                                                                                            |

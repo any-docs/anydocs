@@ -22,7 +22,7 @@ register(target, heldValue, unregisterToken)
   - : The target value to register.
 - `heldValue`
   - : The value to pass to the finalizer for this `target`. This cannot be the `target` itself but can be anything else, including functions and primitives.
-- `unregisterToken` {{optional_inline}}
+- `unregisterToken` <Badge type="info" text="Optional" />
   - : A token that may be used with the `unregister` method later to unregister the target value. If provided (and not `undefined`), this must be an object or a [non-registered symbol](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#shared_symbols_in_the_global_symbol_registry). If not provided, the target cannot be unregistered.
 
 ### Return value

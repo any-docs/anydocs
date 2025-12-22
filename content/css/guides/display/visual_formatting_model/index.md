@@ -5,7 +5,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-In CSS, the **visual formatting model** describes how user agents take the document tree, and process and display it for visual media. This includes {{glossary("continuous media")}} such as a computer screen and [paged media](/en-US/docs/Web/CSS/Guides/Paged_media) such as a book or document printed by browser print functions. Most of the information applies equally to continuous and paged media.
+In CSS, the **visual formatting model** describes how user agents take the document tree, and process and display it for visual media. This includes {{glossary("continuous media")}} such as a computer screen and [paged media](/css/guides/Paged_media) such as a book or document printed by browser print functions. Most of the information applies equally to continuous and paged media.
 
 In the visual formatting model, each element in the document tree generates zero or more boxes according to the box model. The layout of these boxes is governed by:
 
@@ -28,7 +28,7 @@ If the viewport is smaller than the size of the document then the user agent nee
 
 **Box generation** is the part of the CSS visual formatting model that creates boxes from the document's elements. Generated boxes are of different types, which affect their visual formatting. The type of the box generated depends on the value of the CSS {{cssxref("display")}} property.
 
-Initially defined in CSS2, the `display` property was extended in the [CSS display](/en-US/docs/Web/CSS/Guides/Display), [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout), [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout), and [CSS ruby layout](/en-US/docs/Web/CSS/Guides/Ruby_layout) modules. In addition, some of the terminologies around the display have been updated and clarified in the years since CSS2.
+Initially defined in CSS2, the `display` property was extended in the [CSS display](/css/guides/Display), [CSS flexible box layout](/css/guides/Flexible_box_layout), [CSS grid layout](/css/guides/Grid_layout), and [CSS ruby layout](/css/guides/Ruby_layout) modules. In addition, some of the terminologies around the display have been updated and clarified in the years since CSS2.
 
 CSS takes your source document and renders it onto a canvas. To do this, it generates an intermediary structure, the **box tree**, which represents the formatting structure of the rendered document. Each box in the box tree represents its corresponding element (or pseudo-element) in space and/or time on the canvas, while each text run in the box tree likewise represents the contents of its corresponding text nodes.
 
@@ -103,7 +103,7 @@ Something to consider about these anonymous boxes is that they inherit styles fr
 
 **Inline anonymous boxes** are created when a string is split by an inline element, for example, a sentence that includes a section wrapped with `<em></em>`. This splits the sentence into three inline boxes — an anonymous inline box before the emphasized section, the section wrapped in the `<em>` element, then a final anonymous inline box. As with the anonymous block boxes, these anonymous inline boxes cannot be styled independently in the way the `<em>` can; they just inherit the styles of their container.
 
-Other formatting contexts also create anonymous boxes. [Grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) behaves in the same way as the [flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) example above, turning strings of text into a grid item with an anonymous box. [Multiple-column](/en-US/docs/Web/CSS/Guides/Multicol_layout) layout creates anonymous column boxes around the columns; these also cannot be styled or otherwise targeted. [Table layout](/en-US/docs/Web/CSS/Guides/Table) will add anonymous boxes to create a proper table structure — for example adding an anonymous table row — if there was no box with `display: table-row`.
+Other formatting contexts also create anonymous boxes. [Grid layout](/css/guides/Grid_layout) behaves in the same way as the [flexbox](/css/guides/Flexible_box_layout) example above, turning strings of text into a grid item with an anonymous box. [Multiple-column](/css/guides/Multicol_layout) layout creates anonymous column boxes around the columns; these also cannot be styled or otherwise targeted. [Table layout](/css/guides/Table) will add anonymous boxes to create a proper table structure — for example adding an anonymous table row — if there was no box with `display: table-row`.
 
 ### Line boxes
 
@@ -148,7 +148,7 @@ In CSS, a box may be laid out according to three positioning schemes — **norma
 
 In CSS, the normal flow includes block-level formatting of block boxes, inline-level formatting of inline boxes, and also includes relative and sticky positioning of block-level and inline-level boxes.
 
-Read more about [flow layout](/en-US/docs/Web/CSS/Guides/Display/Flow_layout) in CSS.
+Read more about [flow layout](/css/guides/Display/Flow_layout) in CSS.
 
 ### Floats
 
@@ -158,11 +158,11 @@ Find out more about [floats](/en-US/docs/Learn_web_development/Core/CSS_layout/F
 
 ### Absolute positioning
 
-In the absolute positioning model (which also includes `fixed` positioning), a box is removed from the normal flow entirely and assigned a position relative to a containing block (which is the viewport in the case of fixed positioning) or to one or more anchor elements in [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning).
+In the absolute positioning model (which also includes `fixed` positioning), a box is removed from the normal flow entirely and assigned a position relative to a containing block (which is the viewport in the case of fixed positioning) or to one or more anchor elements in [CSS anchor positioning](/css/guides/Anchor_positioning).
 
 An element is called **out of flow** if it is floated, absolutely positioned, or is the root element. An element is called **in-flow** if it is not out of the flow.
 
-Read about [CSS positioned layout](/en-US/docs/Web/CSS/Guides/Positioned_layout).
+Read about [CSS positioned layout](/css/guides/Positioned_layout).
 
 ## Formatting contexts and the display property
 
@@ -170,23 +170,23 @@ Boxes can be described as having an **outer display type**, which is `block` or 
 
 Boxes also have an inner display type, dictating how their children behave. For normal block and inline layout, or normal flow, this display type is `flow`. This means that the child elements will also be either `block` or `inline`.
 
-However, the inner display type might be something like `grid` or `flex`, in which case the direct children will display as a grid, or flex items. In such a case the element is described as creating a grid or flex [formatting context](/en-US/docs/Web/CSS/Guides/Display/Formatting_contexts). In many ways, this is similar to a block formatting context, however, the children behave as flex or grid items rather than items in normal flow.
+However, the inner display type might be something like `grid` or `flex`, in which case the direct children will display as a grid, or flex items. In such a case the element is described as creating a grid or flex [formatting context](/css/guides/Display/Formatting_contexts). In many ways, this is similar to a block formatting context, however, the children behave as flex or grid items rather than items in normal flow.
 
 The interactions between block-level and inline-level boxes are described in the {{cssxref("display")}} property reference.
 
 In addition, the references for specific values of display explain how these formatting contexts work in terms of box layout.
 
-- [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) module
-- [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module
-- [CSS multi-column layout](/en-US/docs/Web/CSS/Guides/Multicol_layout) module
-- [CSS table](/en-US/docs/Web/CSS/Guides/Table) module
-- [CSS lists and counters](/en-US/docs/Web/CSS/Guides/Lists) module
+- [CSS grid layout](/css/guides/Grid_layout) module
+- [CSS flexible box layout](/css/guides/Flexible_box_layout) module
+- [CSS multi-column layout](/css/guides/Multicol_layout) module
+- [CSS table](/css/guides/Table) module
+- [CSS lists and counters](/css/guides/Lists) module
 
 ### Independent formatting contexts
 
 Elements either participate in the formatting context of their containing block or establish an independent formatting context. A grid container, for example, establishes a new **grid formatting context** for its children.
 
-**Independent formatting contexts** contain floats, and margins do not collapse across formatting context boundaries. Therefore, creating a new block formatting context can ensure that floats and margins remain inside a box. To do this, add `display: flow-root` to the box on which you wish to create a new [block formatting context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context).
+**Independent formatting contexts** contain floats, and margins do not collapse across formatting context boundaries. Therefore, creating a new block formatting context can ensure that floats and margins remain inside a box. To do this, add `display: flow-root` to the box on which you wish to create a new [block formatting context](/css/guides/Display/Block_formatting_context).
 
 The following example shows the effect of `display: flow-root`. The box with the black background appears to wrap around the floated item and text. If you remove `display: flow-root`, the floated item will poke out of the bottom of the box as it is no longer contained.
 
@@ -248,15 +248,15 @@ A block box is a block-level box that is also a block container. As described in
 
 ## See also
 
-- [CSS syntax](/en-US/docs/Web/CSS/Guides/Syntax/Introduction) guide
-- [Comments](/en-US/docs/Web/CSS/Guides/Syntax/Comments)
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
-- [Inheritance](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance)
-- [Stacking context](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context)
-- [Block formatting context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context)
-- [Box model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction)
+- [CSS syntax](/css/guides/Syntax/Introduction) guide
+- [Comments](/css/guides/Syntax/Comments)
+- [Specificity](/css/guides/Cascade/Specificity)
+- [Inheritance](/css/guides/Cascade/Inheritance)
+- [Stacking context](/css/guides/Positioned_layout/Stacking_context)
+- [Block formatting context](/css/guides/Display/Block_formatting_context)
+- [Box model](/css/guides/Box_model/Introduction)
 - [Layout modes](/en-US/docs/Glossary/Layout_mode)
-- [Margin collapsing](/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing)
+- [Margin collapsing](/css/guides/Box_model/Margin_collapsing)
 - {{glossary("Replaced elements")}}
 - {{DOMxRef("VisualViewport")}} interface
 - {{glossary("Scroll container")}}

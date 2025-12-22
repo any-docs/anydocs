@@ -27,7 +27,7 @@ toSpliced(start, skipCount, item1, item2, /* …, */ itemN)
     - If `start < -array.length` or `start` is omitted, `0` is used.
     - If `start >= array.length`, no element will be deleted, but the method will behave as an adding function, adding as many elements as provided.
 
-- `skipCount` {{optional_inline}}
+- `skipCount` <Badge type="info" text="Optional" />
   - : An integer indicating the number of elements in the array to remove (or, to skip) from `start`.
 
     If `skipCount` is omitted, or if its value is greater than or equal to the number of elements after the position specified by `start`, then all the elements from `start` to the end of the array will be deleted. However, if you wish to pass any `itemN` parameter, you should pass `Infinity` as `skipCount` to delete all elements after `start`, because an explicit `undefined` gets [converted](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#integer_conversion) to `0`.
@@ -35,7 +35,7 @@ toSpliced(start, skipCount, item1, item2, /* …, */ itemN)
     If `skipCount` is `0` or negative, no elements are removed.
     In this case, you should specify at least one new element (see below).
 
-- `item1`, …, `itemN` {{optional_inline}}
+- `item1`, …, `itemN` <Badge type="info" text="Optional" />
   - : The elements to add to the array, beginning from `start`.
 
     If you do not specify any elements, `toSpliced()` will only remove elements from the array.

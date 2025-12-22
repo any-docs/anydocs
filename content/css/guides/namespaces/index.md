@@ -58,6 +58,6 @@ The `@namespace` rule is used for declaring a default namespace and for binding 
 
 - [`<a>`](/en-US/docs/Web/SVG/Reference/Element/a#example) SVG element
 - {{cssxref("url_value", "&lt;url&gt;")}} data type
-- [CSS at-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules)
+- [CSS at-rules](/css/guides/Syntax/At-rules)
 - [CSS at-rule functions](/en-US/docs/Web/CSS/Reference/At-rules/At-rule_functions)
-- [CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors)
+- [CSS selectors](/css/guides/Selectors)

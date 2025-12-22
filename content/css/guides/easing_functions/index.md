@@ -24,9 +24,9 @@ Alternatively, you may want an animation to move forward in distinct steps, to c
 ### data types
 
 - {{cssxref("easing-function")}}
-- [`<linear-easing-function>`](/en-US/docs/Web/CSS/Reference/Values/easing-function#linear-easing-function)
-- [`<cubic-bezier-easing-function>`](/en-US/docs/Web/CSS/Reference/Values/easing-function#cubic-bezier-easing-function)
-- [`<step-easing-function>`](/en-US/docs/Web/CSS/Reference/Values/easing-function#step-easing-function)
+- [`<linear-easing-function>`](/css/reference/values/easing-function#linear-easing-function)
+- [`<cubic-bezier-easing-function>`](/css/reference/values/easing-function#cubic-bezier-easing-function)
+- [`<step-easing-function>`](/css/reference/values/easing-function#step-easing-function)
 
 ### Terms and glossary definitions
 
@@ -35,16 +35,16 @@ Alternatively, you may want an animation to move forward in distinct steps, to c
 
 ## Guides
 
-- [CSS value functions: easing functions](/en-US/docs/Web/CSS/Reference/Values/Functions#easing_functions)
+- [CSS value functions: easing functions](/css/reference/values/Functions#easing_functions)
   - : The CSS statements that invoke special data processing or calculations to return a CSS value for a CSS property.
 
 ## Related concepts
 
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module
+- [CSS animations](/css/guides/Animations) module
   - {{cssxref("animation-timing-function")}}
   - {{cssxref("animation")}} shorthand
 
-- [CSS transitions](/en-US/docs/Web/CSS/Guides/Transitions) module
+- [CSS transitions](/css/guides/Transitions) module
   - {{cssxref("transition-timing-function")}}
   - {{cssxref("transition")}} shorthand
 
@@ -54,5 +54,5 @@ Alternatively, you may want an animation to move forward in distinct steps, to c
 
 ## See also
 
-- [CSS value functions](/en-US/docs/Web/CSS/Reference/Values/Functions)
+- [CSS value functions](/css/reference/values/Functions)
 - {{cssxref("will-change")}} CSS property

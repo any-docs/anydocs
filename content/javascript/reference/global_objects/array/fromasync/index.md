@@ -21,13 +21,13 @@ Array.fromAsync(items, mapFn, thisArg)
 
 - `items`
   - : An async iterable, iterable, or array-like object to convert to an array.
-- `mapFn` {{optional_inline}}
+- `mapFn` <Badge type="info" text="Optional" />
   - : A function to call on every element of the array. If provided, every value to be added to the array is first passed through this function, and `mapFn`'s return value is added to the array instead (after being [awaited](/en-US/docs/Web/JavaScript/Reference/Operators/await)). The function is called with the following arguments:
     - `element`
       - : The current element being processed in the array. If `items` is a sync iterable or array-like object, then all elements are first [awaited](/en-US/docs/Web/JavaScript/Reference/Operators/await), and `element` will never be a [thenable](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#thenables). If `items` is an async iterable, then each yielded value is passed as-is.
     - `index`
       - : The index of the current element being processed in the array.
-- `thisArg` {{optional_inline}}
+- `thisArg` <Badge type="info" text="Optional" />
   - : Value to use as `this` when executing `mapFn`.
 
 ### Return value

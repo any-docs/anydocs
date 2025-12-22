@@ -10,7 +10,7 @@ spec-urls:
 sidebar: cssref
 ---
 
-The **`<custom-ident>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) denotes an arbitrary user-defined string used as an {{glossary("identifier")}}. It is case-sensitive, and certain values are forbidden in various contexts to prevent ambiguity.
+The **`<custom-ident>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) denotes an arbitrary user-defined string used as an {{glossary("identifier")}}. It is case-sensitive, and certain values are forbidden in various contexts to prevent ambiguity.
 
 ## Syntax
 
@@ -155,5 +155,5 @@ _As this type is not a real type but a convenience type used to simplify the des
 
 ## See also
 
-- [&lt;ident&gt;](/en-US/docs/Web/CSS/Reference/Values/ident)
-- [&lt;dashed-ident&gt;](/en-US/docs/Web/CSS/Reference/Values/dashed-ident)
+- [&lt;ident&gt;](/css/reference/values/ident)
+- [&lt;dashed-ident&gt;](/css/reference/values/dashed-ident)

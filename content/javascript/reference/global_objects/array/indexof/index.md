@@ -37,7 +37,7 @@ indexOf(searchElement, fromIndex)
 
 - `searchElement`
   - : Element to locate in the array.
-- `fromIndex` {{optional_inline}}
+- `fromIndex` <Badge type="info" text="Optional" />
   - : Zero-based index at which to start searching, [converted to an integer](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#integer_conversion).
     - Negative index counts back from the end of the array — if `-array.length <= fromIndex < 0`, `fromIndex + array.length` is used. Note, the array is still searched from front to back in this case.
     - If `fromIndex < -array.length` or `fromIndex` is omitted, `0` is used, causing the entire array to be searched.

@@ -7,6 +7,8 @@ spec-urls: https://drafts.csswg.org/css-anchor-position-1/
 sidebar: cssref
 ---
 
+# CSS anchor positioning
+
 The **CSS anchor positioning** module defines features that allow you to tether elements together. Certain elements are defined as **anchor elements**; **anchor-positioned elements** can then have their size and position set based on the size and location of the anchor elements to which they are bound.
 
 In addition, the specification provides CSS-only mechanisms to:
@@ -18,33 +20,33 @@ In addition, the specification provides CSS-only mechanisms to:
 
 ### Properties
 
-- {{cssxref("anchor-name")}}
-- {{cssxref("position-anchor")}}
-- {{cssxref("position-area")}}
-- {{cssxref("position-try-fallbacks")}}
-- {{cssxref("position-try-order")}}
-- {{cssxref("position-try")}} shorthand
-- {{cssxref("position-visibility")}}
+- [anchor-name](/css/reference/properties/anchor-name)
+- [position-anchor](/css/reference/properties/position-anchor)
+- [position-area](/css/reference/properties/position-area)
+- [position-try-fallbacks](/css/reference/properties/position-try-fallbacks)
+- [position-try-order](/css/reference/properties/position-try-order)
+- [position-try](/css/reference/properties/position-try) shorthand
+- [position-visibility](/css/reference/properties/position-visibility)
 
 The CSS anchor positioning module also introduces the `anchor-scope` property. Currently, no browsers support this feature.
 
 ### At-rules and descriptors
 
-- {{cssxref("@position-try")}}
+- [@position-try](/css/reference/at-rules/@position-try)
 
 ### Functions
 
-- [`anchor()`](/en-US/docs/Web/CSS/Reference/Values/anchor)
-- [`anchor-size()`](/en-US/docs/Web/CSS/Reference/Values/anchor-size)
+- [`anchor()`](/css/reference/values/anchor)
+- [`anchor-size()`](/css/reference/values/anchor-size)
 
 ### Data types and values
 
-- [`anchor-center`](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using#centering_on_the_anchor_using_anchor-center)
-- [`<anchor-side>`](/en-US/docs/Web/CSS/Reference/Values/anchor#anchor-side)
-- [`<anchor-size>`](/en-US/docs/Web/CSS/Reference/Values/anchor-size#anchor-size)
-- [`<position-area>`](/en-US/docs/Web/CSS/Reference/Values/position-area_value)
-- [`<try-size>`](/en-US/docs/Web/CSS/Reference/Properties/position-try-order#try-size)
-- [`<try-tactic>`](/en-US/docs/Web/CSS/Reference/Properties/position-try-fallbacks#try-tactic)
+- [`anchor-center`](/css/guides/anchor_positioning/using#centering-on-the-anchor-using-anchor-center)
+- [`<anchor-side>`](/css/reference/values/anchor#anchor-side)
+- [`<anchor-size>`](/css/reference/values/anchor-size#anchor-size)
+- [`<position-area>`](/css/reference/values/position-area_value)
+- [`<try-size>`](/css/reference/properties/position-try-order#try-size)
+- [`<try-tactic>`](/css/reference/properties/position-try-fallbacks#try-tactic)
 
 ### HTML attributes
 
@@ -58,15 +60,15 @@ The CSS anchor positioning module also introduces the `anchor-scope` property. C
 
 ## Guides
 
-- [Using CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using)
+- [Using CSS anchor positioning](/css/guides/Anchor_positioning/Using)
   - : An introductory guide to fundamental anchor positioning concepts, including associating, positioning, and sizing elements relative to their anchor.
 
-- [Fallback options and conditional hiding for overflow](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding)
+- [Fallback options and conditional hiding for overflow](/css/guides/Anchor_positioning/Try_options_hiding)
   - : A guide to the mechanisms CSS anchor positioning provides to prevent anchor-positioned elements from overflowing their containing elements or the viewport, including position try fallback options and conditionally hiding elements.
 
 ## Related concepts
 
-- [CSS logical properties and values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values) module:
+- [CSS logical properties and values](/css/guides/Logical_properties_and_values) module:
   - {{cssxref("inset-block-start")}}
   - {{cssxref("inset-block-end")}}
   - {{cssxref("inset-inline-start")}}
@@ -87,12 +89,12 @@ The CSS anchor positioning module also introduces the `anchor-scope` property. C
   - {{cssxref("margin-inline-end")}}
   - {{cssxref("margin-inline-start")}}
   - [Inset properties](/en-US/docs/Glossary/Inset_properties) glossary term
-- [CSS positioned layout](/en-US/docs/Web/CSS/Guides/Positioned_layout) module:
+- [CSS positioned layout](/css/guides/Positioned_layout) module:
   - {{cssxref("top")}}
   - {{cssxref("left")}}
   - {{cssxref("bottom")}}
   - {{cssxref("right")}}
-- [CSS box model](/en-US/docs/Web/CSS/Guides/Box_model) module:
+- [CSS box model](/css/guides/Box_model) module:
   - {{cssxref("width")}}
   - {{cssxref("height")}}
   - {{cssxref("min-width")}}
@@ -104,7 +106,7 @@ The CSS anchor positioning module also introduces the `anchor-scope` property. C
   - {{cssxref("margin-left")}}
   - {{cssxref("margin-right")}}
   - {{cssxref("margin-top")}}
-- [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module:
+- [CSS box alignment](/css/guides/Box_alignment) module:
   - {{cssxref("align-items")}}
   - {{cssxref("align-self")}}
   - {{cssxref("justify-items")}}
@@ -118,7 +120,7 @@ The CSS anchor positioning module also introduces the `anchor-scope` property. C
 
 ## See also
 
-- [CSS scroll anchoring](/en-US/docs/Web/CSS/Guides/Scroll_anchoring) module
+- [CSS scroll anchoring](/css/guides/Scroll_anchoring) module
 - [Learn: CSS positioning](/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning)
-- [CSS logical properties and values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values) module
+- [CSS logical properties and values](/css/guides/Logical_properties_and_values) module
 - [Learn: Sizing items in CSS](/en-US/docs/Learn_web_development/Core/Styling_basics/Sizing)

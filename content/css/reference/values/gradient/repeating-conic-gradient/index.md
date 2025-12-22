@@ -6,7 +6,7 @@ browser-compat: css.types.gradient.repeating-conic-gradient
 sidebar: cssref
 ---
 
-The **`repeating-conic-gradient()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) creates an image consisting of a repeating gradient (rather than a [single gradient](/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient)) with color transitions rotated around a center point (rather than [radiating from the center](/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-radial-gradient)).
+The **`repeating-conic-gradient()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) creates an image consisting of a repeating gradient (rather than a [single gradient](/css/reference/values/gradient/conic-gradient)) with color transitions rotated around a center point (rather than [radiating from the center](/css/reference/values/gradient/repeating-radial-gradient)).
 
 {{InteractiveExample("CSS Demo: repeating-conic-gradient()")}}
 
@@ -58,14 +58,14 @@ repeating-conic-gradient(in hsl shorter hue, red, blue 90deg, green 180deg)
 - {{cssxref("angle")}}
   - : Preceded by the `from` keyterm, and taking an angle as its value, defines the gradient rotation in clockwise direction.
 - `<position>`
-  - : Using the same length, order and keyterm values as the [background-position](/en-US/docs/Web/CSS/Reference/Properties/background-position) property, the position defines center of the gradient. If omitted, the default value is `center`, meaning the gradient will be centered.
+  - : Using the same length, order and keyterm values as the [background-position](/css/reference/properties/background-position) property, the position defines center of the gradient. If omitted, the default value is `center`, meaning the gradient will be centered.
 - `<angular-color-stop>`
   - : A color-stop's {{CSSxRef("&lt;color&gt;")}} value, followed by one or two optional stop positions, (an {{cssxref("angle")}} along the gradient's circumference axis). The last color stop minus the first color-stop angle defines the size of the repeating gradient.
 - `<color-hint>`
   - : An {{Glossary("interpolation")}} hint defining how the gradient progresses between adjacent color stops. The length defines at which point between two color stops the gradient color should reach the midpoint of the color transition. If omitted, the midpoint of the color transition is the midpoint between two color stops.
 
 > [!NOTE]
-> Rendering of color stops in repeating conic gradients follows the same rules as [color stops in linear gradients](/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient#composition_of_a_linear_gradient).
+> Rendering of color stops in repeating conic gradients follows the same rules as [color stops in linear gradients](/css/reference/values/gradient/linear-gradient#composition_of_a_linear_gradient).
 
 ## Description
 
@@ -73,7 +73,7 @@ Example repeating conic gradients include starbursts. The result of the `repeati
 
 If neither the first nor the last color stops include a color stop angle greater than 0deg or less than 360 degrees respectively, the conic-gradient will not repeat.
 
-As with any gradient, a repeating-conic gradient has [no intrinsic dimensions](/en-US/docs/Web/CSS/Reference/Values/image#description); i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element it applies to, or the size the `<image>` is set to if it's set to something other than the element's size.
+As with any gradient, a repeating-conic gradient has [no intrinsic dimensions](/css/reference/values/image#description); i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element it applies to, or the size the `<image>` is set to if it's set to something other than the element's size.
 
 Because `<gradient>`s belong to the `<image>` data type, they can only be used where `<image>`s can be used. For this reason, `repeating-conic-gradient()` won't work on {{CSSxRef("background-color")}} and other properties that use the {{CSSxRef("&lt;color&gt;")}} data type.
 
@@ -215,7 +215,7 @@ div {
 }
 ```
 
-In this example for interpolation, [hsl](/en-US/docs/Web/CSS/Reference/Values/color_value/hsl) color system is being used and [hue](/en-US/docs/Web/CSS/Reference/Values/hue) is being interpolated.
+In this example for interpolation, [hsl](/css/reference/values/color_value/hsl) color system is being used and [hue](/css/reference/values/hue) is being interpolated.
 
 ```css
 .shorter {
@@ -235,13 +235,13 @@ In this example for interpolation, [hsl](/en-US/docs/Web/CSS/Reference/Values/co
 }
 ```
 
-The box on the left uses [shorter interpolation](/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method#shorter), meaning color goes straight from red to blue using the shorter arc on the [color wheel](/en-US/docs/Glossary/Color_wheel). The box on the right uses [longer interpolation](/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method#longer), meaning the color goes from red to blue using the longer arc, traversing through greens, yellows, and oranges.
+The box on the left uses [shorter interpolation](/css/reference/values/hue-interpolation-method#shorter), meaning color goes straight from red to blue using the shorter arc on the [color wheel](/en-US/docs/Glossary/Color_wheel). The box on the right uses [longer interpolation](/css/reference/values/hue-interpolation-method#longer), meaning the color goes from red to blue using the longer arc, traversing through greens, yellows, and oranges.
 
 {{EmbedLiveSample("Interpolating with hue", 240, 200)}}
 
 ### More repeating-conic-gradient examples
 
-Please see [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients) for more examples.
+Please see [Using CSS gradients](/css/guides/Images/Using_gradients) for more examples.
 
 ## Specifications
 
@@ -253,7 +253,7 @@ Please see [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradien
 
 ## See also
 
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
+- [Using CSS gradients](/css/guides/Images/Using_gradients)
 - Other gradient functions: {{cssxref("gradient/conic-gradient", "conic-gradient()")}}, {{cssxref("gradient/linear-gradient", "linear-gradient()")}}, {{cssxref("gradient/repeating-linear-gradient", "repeating-linear-gradient()")}}, {{cssxref("gradient/radial-gradient", "radial-gradient()")}}, {{cssxref("gradient/repeating-radial-gradient", "repeating-radial-gradient()")}}
 - {{cssxref("hue-interpolation-method")}}
 - {{cssxref("color-interpolation-method")}}

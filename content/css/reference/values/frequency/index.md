@@ -6,7 +6,7 @@ spec-urls: https://drafts.csswg.org/css-values/#frequency-value
 sidebar: cssref
 ---
 
-The **`<frequency>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.
+The **`<frequency>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.
 
 ## Syntax
 
@@ -53,4 +53,4 @@ Currently, no browsers support this feature.
 ## See also
 
 - {{cssxref("&lt;frequency-percentage&gt;")}}
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS values and units](/css/guides/Values_and_units) module

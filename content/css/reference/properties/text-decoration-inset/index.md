@@ -239,4 +239,4 @@ Note how the `auto` value insets the text decoration subtly on both sides, creat
 ## See also
 
 - {{cssxref("text-decoration")}}
-- The [CSS text decoration](/en-US/docs/Web/CSS/Guides/Text_decoration) module
+- The [CSS text decoration](/css/guides/Text_decoration) module

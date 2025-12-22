@@ -35,7 +35,7 @@ toPrecision(precision)
 
 ### Parameters
 
-- `precision` {{optional_inline}}
+- `precision` <Badge type="info" text="Optional" />
   - : An integer specifying the number of significant digits.
 
 ### Return value

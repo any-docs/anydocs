@@ -28,7 +28,7 @@ color(from #123456 xyz calc(x + 0.75) y calc(z - 0.35))
 
 ### Values
 
-Below are descriptions of the allowed values for both absolute and [relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors).
+Below are descriptions of the allowed values for both absolute and [relative colors](/css/guides/Colors/Using_relative_colors).
 
 #### Absolute value syntax
 
@@ -44,11 +44,11 @@ The parameters are as follows:
 - `c1`, `c2`, `c3`
   - : Each value can be written as a {{CSSXref("number")}}, a {{CSSXref("percentage")}}, or the keyword `none` (equivalent to `0` in this case). These values represent the component values for the colorspace. When using a `<number>` value, generally, `0` to `1` represents the bounds of the color space. Values outside of that range are permitted but will be out of {{glossary("gamut")}} for the given color space. When using a percentage value, `100%` represents `1` and `0%` represents `0`.
 
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel. If the `A` channel value is not explicitly specified, it defaults to 100%. If included, the value is preceded by a slash (`/`).
 
 > [!NOTE]
-> See [Missing color components](/en-US/docs/Web/CSS/Reference/Values/color_value#missing_color_components) for more information on the effect of `none`.
+> See [Missing color components](/css/reference/values/color_value#missing_color_components) for more information on the effect of `none`.
 
 #### Relative value syntax
 
@@ -64,7 +64,7 @@ The parameters are as follows:
   - : An {{CSSXref("&lt;ident&gt;")}} denoting the {{glossary("color space")}} of the output color, generally one of the predefined color spaces: `srgb`, `srgb-linear`, `display-p3`, `a98-rgb`, `prophoto-rgb`, `rec2020`, `xyz`, `xyz-d50`, or `xyz-d65`.
 - `c1`, `c2`, `c3`
   - : Each value can be written as a {{CSSXref("number")}}, a {{CSSXref("percentage")}}, or the keyword `none` (equivalent to `0` in this case). These values represent the component values for the output color. When using a `<number>` value, generally `0` to `1` represents the bounds of the color space. Values outside of that range are permitted but will be out of {{glossary("gamut")}} for the given color space. Generally, when using a percentage value, `100%` represents `1` and `0%` represents `0`.
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the output color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel. If the `A` channel value is not explicitly specified, it defaults to the alpha channel value of the origin color. If included, the value is preceded by a slash (`/`).
 
 #### Defining relative color output channel components
@@ -299,7 +299,7 @@ div {
 
 This example styles three {{htmlelement("div")}} elements with different background colors. The middle one is given the unmodified `--base-color`, while the left and right ones are given lightened and darkened variants of that `--base-color`.
 
-These variants are defined using relative colors — the `--base-color` [custom property](/en-US/docs/Web/CSS/Reference/Properties/--*) is passed into a `color()` function, and the output colors have their `g` and `b` channels modified to achieve the desired effect via `calc()` functions. The lightened color has 15% added to those channels, and the darkened color has 15% subtracted from those channels.
+These variants are defined using relative colors — the `--base-color` [custom property](/css/reference/properties/--*) is passed into a `color()` function, and the output colors have their `g` and `b` channels modified to achieve the desired effect via `calc()` functions. The lightened color has 15% added to those channels, and the darkened color has 15% subtracted from those channels.
 
 ```html hidden
 <div id="container">
@@ -381,9 +381,9 @@ The output is as follows:
 ## See also
 
 - {{CSSXref("color")}} property
-- [The `<color>` data type](/en-US/docs/Web/CSS/Reference/Values/color_value) for a list of all color notations
-- [Using relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors)
-- [Color_format_converter tool](/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter)
-- [CSS colors](/en-US/docs/Web/CSS/Guides/Colors) module
+- [The `<color>` data type](/css/reference/values/color_value) for a list of all color notations
+- [Using relative colors](/css/guides/Colors/Using_relative_colors)
+- [Color_format_converter tool](/css/guides/Colors/Color_format_converter)
+- [CSS colors](/css/guides/Colors) module
 - [`color-gamut`](/en-US/docs/Web/CSS/Reference/At-rules/@media/color-gamut) media feature
 - [Wide Gamut Color in CSS with Display-p3](https://webkit.org/blog/10042/wide-gamut-color-in-css-with-display-p3/)

@@ -6,7 +6,7 @@ browser-compat: css.types.length-percentage
 sidebar: cssref
 ---
 
-The **`<length-percentage>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a value that can be either a {{Cssxref("length")}} or a {{Cssxref("percentage")}}.
+The **`<length-percentage>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents a value that can be either a {{Cssxref("length")}} or a {{Cssxref("percentage")}}.
 
 ## Syntax
 
@@ -77,4 +77,4 @@ width: calc(100% - 200px);
 
 - {{cssxref("&lt;percentage&gt;")}}
 - {{cssxref("&lt;length&gt;")}}
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS values and units](/css/guides/Values_and_units) module

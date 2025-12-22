@@ -6,7 +6,7 @@ browser-compat: css.properties.transition-behavior
 sidebar: cssref
 ---
 
-The **`transition-behavior`** [CSS](/en-US/docs/Web/CSS) property specifies whether transitions will be started for properties whose animation behavior is [discrete](/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties#discrete).
+The **`transition-behavior`** [CSS](/en-US/docs/Web/CSS) property specifies whether transitions will be started for properties whose animation behavior is [discrete](/css/guides/Animations/Animatable_properties#discrete).
 
 ## Syntax
 
@@ -86,7 +86,7 @@ So for example:
 
 ### Transitioning a popover
 
-In this example, a [popover](/en-US/docs/Web/API/Popover_API) is animated as it [transitions](/en-US/docs/Web/CSS/Guides/Transitions) from hidden to shown and back again.
+In this example, a [popover](/en-US/docs/Web/API/Popover_API) is animated as it [transitions](/css/guides/Transitions) from hidden to shown and back again.
 
 #### HTML
 
@@ -148,7 +148,7 @@ html {
 
 The two properties we want to animate are {{cssxref("opacity")}} and {{cssxref("transform")}}: we want the popover to fade in and out while growing and shrinking in the horizontal direction. We set a starting state for these properties on the default hidden state of the popover element (selected via `[popover]`), and an end state on the open state of the popover (selected via the {{cssxref(":popover-open")}} pseudo-class). We then set a {{cssxref("transition")}} property to animate between the two.
 
-Because the animated element is being promoted to the [top layer](/en-US/docs/Glossary/Top_layer) when shown and removed from the top layer when hidden — which also means that its hidden state has [`display: none`](/en-US/docs/Web/CSS/Reference/Properties/display) set on it — the following properties are added to the list of transitioned elements to get the animation working in both directions. In both cases, `transition-behavior: allow-discrete` is set in the shorthand to enable discrete animation.
+Because the animated element is being promoted to the [top layer](/en-US/docs/Glossary/Top_layer) when shown and removed from the top layer when hidden — which also means that its hidden state has [`display: none`](/css/reference/properties/display) set on it — the following properties are added to the list of transitioned elements to get the animation working in both directions. In both cases, `transition-behavior: allow-discrete` is set in the shorthand to enable discrete animation.
 
 - `display`: Required so that the animated element is visible (set to `display: block`) throughout both the entry and exit animation. Without this, the exit animation would not be visible; in effect, the popover would just disappear.
 - {{cssxref("overlay")}}: Required to make sure that the removal of the element from the top layer is deferred until the animation has been completed. This doesn't make a huge difference for basic animations such as this one, but in more complex cases not doing this can result in the element being removed from the overlay too quickly, meaning the animation is not smooth or effective.
@@ -178,5 +178,5 @@ The code renders as follows:
 
 - {{cssxref("overlay")}}
 - {{cssxref("@starting-style")}}
-- [CSS transitions](/en-US/docs/Web/CSS/Guides/Transitions) module
+- [CSS transitions](/css/guides/Transitions) module
 - [Four new CSS features for smooth entry and exit animations](https://developer.chrome.com/blog/entry-exit-animations/) on developer.chrome.com (2023)

@@ -193,4 +193,4 @@ The specification also lists an additional value, `manual`, which is not current
 - {{cssxref("white-space")}}
 - {{cssxref("hyphens")}}
 - {{cssxref("line-break")}}
-- [Guide to wrapping and breaking text](/en-US/docs/Web/CSS/Guides/Text/Wrapping_breaking_text)
+- [Guide to wrapping and breaking text](/css/guides/Text/Wrapping_breaking_text)

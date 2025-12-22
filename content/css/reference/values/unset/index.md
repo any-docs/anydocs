@@ -6,7 +6,7 @@ browser-compat: css.types.global_keywords.unset
 sidebar: cssref
 ---
 
-The **`unset`** [CSS](/en-US/docs/Web/CSS) keyword resets a property to its inherited value if the property naturally inherits from its parent, and to its [initial value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value) if not. In other words, it behaves like the {{cssxref("inherit")}} keyword in the first case, when the property is an [inherited property](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance#inherited_properties), and like the {{cssxref("initial")}} keyword in the second case, when the property is a [non-inherited property](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance#non-inherited_properties).
+The **`unset`** [CSS](/en-US/docs/Web/CSS) keyword resets a property to its inherited value if the property naturally inherits from its parent, and to its [initial value](/css/guides/Cascade/Property_value_processing#initial_value) if not. In other words, it behaves like the {{cssxref("inherit")}} keyword in the first case, when the property is an [inherited property](/css/guides/Cascade/Inheritance#inherited_properties), and like the {{cssxref("initial")}} keyword in the second case, when the property is a [non-inherited property](/css/guides/Cascade/Inheritance#non-inherited_properties).
 
 **`unset`** can be applied to any CSS property, including the CSS shorthand property {{cssxref("all")}}.
 
@@ -14,7 +14,7 @@ The **`unset`** [CSS](/en-US/docs/Web/CSS) keyword resets a property to its inhe
 
 ### Color
 
-[`color`](/en-US/docs/Web/CSS/Reference/Properties/color#formal_definition) is an inherited property.
+[`color`](/css/reference/properties/color#formal_definition) is an inherited property.
 
 #### HTML
 
@@ -54,7 +54,7 @@ p {
 
 ### Border
 
-[`border`](/en-US/docs/Web/CSS/Reference/Properties/border#formal_definition) is a non-inherited property.
+[`border`](/css/reference/properties/border#formal_definition) is a non-inherited property.
 
 #### HTML
 

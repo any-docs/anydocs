@@ -6,7 +6,7 @@ browser-compat: css.properties.scroll-timeline-axis
 sidebar: cssref
 ---
 
-The **`scroll-timeline-axis`** [CSS](/en-US/docs/Web/CSS) property is used to specify the scrollbar direction that will be used to provide the [timeline for a scroll driven animation](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines), which is progressed through by scrolling a scrollable element (_scroller_).
+The **`scroll-timeline-axis`** [CSS](/en-US/docs/Web/CSS) property is used to specify the scrollbar direction that will be used to provide the [timeline for a scroll driven animation](/css/guides/Scroll-driven_animations/Timelines), which is progressed through by scrolling a scrollable element (_scroller_).
 
 ## Syntax
 
@@ -34,7 +34,7 @@ scroll-timeline-axis: unset;
 
 ## Description
 
-The `scroll-timeline-axis` property specifies which scrollbar will be used to provide the timeline for a [scroll progress timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines) animation. The value is the `<axis>` of the scrollbar. The `scroll-timeline` property is set on the scroller that will provide the timeline.
+The `scroll-timeline-axis` property specifies which scrollbar will be used to provide the timeline for a [scroll progress timeline](/css/guides/Scroll-driven_animations/Timelines) animation. The value is the `<axis>` of the scrollbar. The `scroll-timeline` property is set on the scroller that will provide the timeline.
 
 If the scroller element does not overflow its container in the axis dimension or if the overflow is hidden or clipped, no scroll progress timeline will be created.
 
@@ -155,5 +155,5 @@ Scroll the horizontal bar at the bottom to see the square animate as you scroll.
 - {{cssxref("animation-timeline")}}
 - {{cssxref("scroll-timeline")}}
 - {{cssxref("scroll-timeline-name")}}
-- [Scroll-driven animation timelines](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines)
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module
+- [Scroll-driven animation timelines](/css/guides/Scroll-driven_animations/Timelines)
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module

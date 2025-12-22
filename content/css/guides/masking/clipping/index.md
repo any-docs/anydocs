@@ -36,13 +36,13 @@ With the `clip-path` property, you can make complex shapes by clipping an elemen
 
 ### Values of the `clip-path` property
 
-To visually clip an element, the `clip-path` property is set to either a [`<geometry-box>`](/en-US/docs/Web/CSS/Reference/Properties/clip-path#geometry-box), a {{cssxref("url_value", "url")}} to a {{svgElement("clipPath")}} clip source, or a {{cssxref("basic-shape")}} created with [shape function](/en-US/docs/Web/CSS/Reference/Values/Functions#shape_functions).
+To visually clip an element, the `clip-path` property is set to either a [`<geometry-box>`](/css/reference/properties/clip-path#geometry-box), a {{cssxref("url_value", "url")}} to a {{svgElement("clipPath")}} clip source, or a {{cssxref("basic-shape")}} created with [shape function](/css/reference/values/Functions#shape_functions).
 
 ### Geometry boxes
 
 The `clip-path` hides everything outside of the clipped region. The most basic clipping is done via a geometry box. You can clip an element based on it's margin, border, padding, or content. The effects of these visual box values can achieved via other CSS properties, such as setting the {{cssxref("border-color")}} to transparent and the {{cssxref("background-origin")}} to the desired visual box. We're looking at these values mostly because these values are using in conjunction with the shape functions, which we'll look at later, to define the origin of the shape clip path.
 
-[Understanding the reference box](/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside#the_reference_box) used by CSS shapes is important when using `clip-path`, especially with [basic shapes](#clipping_to_basic_shapes), as the reference box defines a shape's coordinate system.
+[Understanding the reference box](/css/guides/Shapes/Using_shape-outside#the_reference_box) used by CSS shapes is important when using `clip-path`, especially with [basic shapes](#clipping_to_basic_shapes), as the reference box defines a shape's coordinate system.
 
 #### Visual box values
 
@@ -233,9 +233,9 @@ body:has([value="content-box"]:checked) {
 
 {{ EmbedLiveSample('shape origin', 230, 420) }}
 
-For another example, see [`clip-path` shapes and geometry boxes](/en-US/docs/Web/CSS/Reference/Properties/clip-path#shapes_and_geometry_boxes).
+For another example, see [`clip-path` shapes and geometry boxes](/css/reference/properties/clip-path#shapes_and_geometry_boxes).
 
-Even values like `clip-path: margin-box` can be useful. In addition to creative visuals made by placing the clip-path's edge at the margin-box edge, any computed value for `clip-path`, other than `none`, results in the creation of a new [stacking context](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context) the same way that CSS {{cssxref("opacity")}} does for values other than `1`.
+Even values like `clip-path: margin-box` can be useful. In addition to creative visuals made by placing the clip-path's edge at the margin-box edge, any computed value for `clip-path`, other than `none`, results in the creation of a new [stacking context](/css/guides/Positioned_layout/Stacking_context) the same way that CSS {{cssxref("opacity")}} does for values other than `1`.
 
 ## Clipping to basic shapes
 
@@ -544,9 +544,9 @@ In addition to applying the same shape for both the `clip-shape` and `shape-outs
 - {{cssxref("basic-shape")}}
 - {{cssxref("shape-image-threshold")}}
 - {{cssxref("shape-margin")}}
-- [Overview of shapes](/en-US/docs/Web/CSS/Guides/Shapes/Overview)
-- [Introduction to CSS masking](/en-US/docs/Web/CSS/Guides/Masking/Introduction)
-- [CSS `mask` properties](/en-US/docs/Web/CSS/Guides/Masking/Mask_properties)
-- [Declaring multiple masks](/en-US/docs/Web/CSS/Guides/Masking/Multiple_masks)
-- [CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
-- [CSS shapes](/en-US/docs/Web/CSS/Guides/Shapes) module
+- [Overview of shapes](/css/guides/Shapes/Overview)
+- [Introduction to CSS masking](/css/guides/Masking/Introduction)
+- [CSS `mask` properties](/css/guides/Masking/Mask_properties)
+- [Declaring multiple masks](/css/guides/Masking/Multiple_masks)
+- [CSS masking](/css/guides/Masking) module
+- [CSS shapes](/css/guides/Shapes) module

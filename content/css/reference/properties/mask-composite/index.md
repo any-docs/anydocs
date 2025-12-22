@@ -95,7 +95,7 @@ div {
 
 ### Value comparison
 
-This example demonstrates the `mask-composite` property's four `<compositing-operator>` keyword values, along with comparing the effects of [`alpha` and `luminance`](/en-US/docs/Web/CSS/Reference/Properties/mask-type) mask modes.
+This example demonstrates the `mask-composite` property's four `<compositing-operator>` keyword values, along with comparing the effects of [`alpha` and `luminance`](/css/reference/properties/mask-type) mask modes.
 
 #### HTML
 
@@ -303,7 +303,7 @@ body > img {
 - {{cssxref("mask")}} shorthand
 - {{cssxref("mask-type")}}
 - {{cssxref("mask-mode")}}
-- [Introduction to CSS masking](/en-US/docs/Web/CSS/Guides/Masking/Introduction)
-- [CSS `mask` properties](/en-US/docs/Web/CSS/Guides/Masking/Mask_properties)
-- [Declaring multiple masks](/en-US/docs/Web/CSS/Guides/Masking/Multiple_masks)
-- [CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
+- [Introduction to CSS masking](/css/guides/Masking/Introduction)
+- [CSS `mask` properties](/css/guides/Masking/Mask_properties)
+- [Declaring multiple masks](/css/guides/Masking/Multiple_masks)
+- [CSS masking](/css/guides/Masking) module

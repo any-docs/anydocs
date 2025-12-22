@@ -22,9 +22,9 @@ subtract(duration, options)
 
 - `duration`
   - : A string, an object, or a {{jsxref("Temporal.Duration")}} instance representing a duration to subtract from this year-month. It is converted to a `Temporal.Duration` object using the same algorithm as {{jsxref("Temporal/Duration/from", "Temporal.Duration.from()")}}.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the following property:
-    - `overflow` {{optional_inline}}
+    - `overflow` <Badge type="info" text="Optional" />
       - : A string specifying the behavior when a date component is out of range. Possible values are:
         - `"constrain"` (default)
           - : The date component is [clamped](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate#invalid_date_clamping) to the valid range.

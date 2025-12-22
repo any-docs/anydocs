@@ -95,7 +95,7 @@ input {
 
 In these color swatches, the {{cssxref("background-color")}} is set using the {{cssxref("color_value/hsl", "hsl()")}} {{cssxref("&lt;color&gt;")}} function as `hsl(var(--hue) 50% 50%)`.
 Each color swatch increments the {{cssxref("hue")}} value by 10 degrees like `calc(var(--hue) + 10)`, `calc(var(--hue) + 20)` etc.
-As the slider's value changes from 0 up to 360, the value of the `--hue` [custom property](/en-US/docs/Web/CSS/Reference/Properties/--*) is updated using {{cssxref("calc")}}, and the background color of each box inside the grid is updated, also.
+As the slider's value changes from 0 up to 360, the value of the `--hue` [custom property](/css/reference/properties/--*) is updated using {{cssxref("calc")}}, and the background color of each box inside the grid is updated, also.
 
 ## Reference
 
@@ -109,15 +109,15 @@ As the slider's value changes from 0 up to 360, the value of the `--hue` [custom
 
 ## Guides
 
-- [Using CSS custom properties (variables)](/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties)
+- [Using CSS custom properties (variables)](/css/guides/Cascading_variables/Using_custom_properties)
   - : Explains how to use custom properties in CSS and JavaScript, with hints on handling undefined and invalid values, fallbacks, and inheritance.
 
-- [Invalid custom properties](/en-US/docs/Web/CSS/Guides/Syntax/Error_handling#invalid_custom_properties)
+- [Invalid custom properties](/css/guides/Syntax/Error_handling#invalid_custom_properties)
   - : Explains how browsers handle property values when a custom property's value is an invalid data type for that property.
 
 ## Related concepts
 
-- [CSS Properties and Values API](/en-US/docs/Web/CSS/Guides/Properties_and_values_API) module
+- [CSS Properties and Values API](/css/guides/Properties_and_values_API) module
   - {{cssxref("@property")}} at-rule
   - [`CSS.registerProperty()`](/en-US/docs/Web/API/CSS/registerProperty_static) method
 
@@ -127,7 +127,7 @@ As the slider's value changes from 0 up to 360, the value of the `--hue` [custom
 
 ## See also
 
-- [CSS cascading and inheritance](/en-US/docs/Web/CSS/Guides/Cascade) module
-- [CSS `env()`](/en-US/docs/Web/CSS/Reference/Values/env) function
-- [CSS `calc()`](/en-US/docs/Web/CSS/Reference/Values/calc) function
+- [CSS cascading and inheritance](/css/guides/Cascade) module
+- [CSS `env()`](/css/reference/values/env) function
+- [CSS `calc()`](/css/reference/values/calc) function
 - [`getPropertyValue()`](/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyValue) method

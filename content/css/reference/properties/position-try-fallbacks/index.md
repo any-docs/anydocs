@@ -56,7 +56,7 @@ The `position-try-fallbacks` property may be specified as either the keyword val
 
 - `none`
   - : The default value. There are no position try fallback options set.
-- `<try-tactic>`
+#### `<try-tactic>`
   - : Predefined fallback options move the positioned element by taking its computed position and transforming it across a particular axis of the anchor, mirroring any margin offsets. Possible values are:
     - `flip-block`
       - : Flips the element's position along the block axis.
@@ -64,9 +64,9 @@ The `position-try-fallbacks` property may be specified as either the keyword val
       - : Flips the element's position along the inline axis.
     - `flip-start`
       - : Flips both the inline and block axis values, swapping the `start` properties with each other, and the `end` properties with each other.
-- {{cssxref("position-area")}} value
-  - : Positions the element relative to the edges of its associated anchor element by placing the positioned element on one or more tiles of an implicit 3x3 [position area grid](/en-US/docs/Web/CSS/Reference/Properties/position-area#description) based on the specified {{cssxref("position-area_value","&lt;position-area>")}} value; the effect is the same as a custom {{cssxref("@position-try")}} fallback option containing only a {{cssxref("position-area")}} descriptor.
-- {{cssxref("dashed-ident")}}
+- [`position-area`](/css/reference/properties/position-area) value
+  - : Positions the element relative to the edges of its associated anchor element by placing the positioned element on one or more tiles of an implicit 3x3 [position area grid](/css/reference/properties/position-area#description) based on the specified {{cssxref("position-area_value","<position-area>")}} value; the effect is the same as a custom {{cssxref("@position-try")}} fallback option containing only a {{cssxref("position-area")}} descriptor.
+- [`<dashed-ident>`](/css/reference/values/dashed-ident)
   - : Adds a custom {{cssxref("@position-try")}} option to the fallback options list, the identifying name of which matches the specified `dashed-ident`. If no custom position option exists with that name, the option is ignored.
 
 > [!NOTE]
@@ -83,7 +83,7 @@ If no option can be found that will place the positioned element completely on-s
 > [!NOTE]
 > In some situations you might want to just hide overflowing positioned elements, which can be achieved using the {{cssxref("position-visibility")}} property. In most cases however it is better to keep them on-screen and usable.
 
-For detailed information on anchor features and position try fallback usage, see the [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning) module landing page and the [Fallback options and conditional hiding for overflow](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding) guide.
+For detailed information on anchor features and position try fallback usage, see the [CSS anchor positioning](/css/guides/Anchor_positioning) module landing page and the [Fallback options and conditional hiding for overflow](/css/guides/Anchor_positioning/Try_options_hiding) guide.
 
 ### Predefined &lt;try-tactic&gt; values
 
@@ -368,7 +368,7 @@ See the {{cssxref("@position-try")}} reference page.
 - {{cssxref("position-try-order")}}
 - {{cssxref("@position-try")}} at-rule
 - {{cssxref("position-area")}}
-- [`<position-area>`](/en-US/docs/Web/CSS/Reference/Values/position-area_value) value
-- [Fallback options and conditional hiding for overflow](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding) guide
-- [Using CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using) guide
-- [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning) module
+- [`<position-area>`](/css/reference/values/position-area_value) value
+- [Fallback options and conditional hiding for overflow](/css/guides/Anchor_positioning/Try_options_hiding) guide
+- [Using CSS anchor positioning](/css/guides/Anchor_positioning/Using) guide
+- [CSS anchor positioning](/css/guides/Anchor_positioning) module

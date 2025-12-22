@@ -161,8 +161,8 @@ The 20% opacity threshold for treating gradient pixels as part of the shape is t
 
 ## See also
 
-- [CSS Shapes](/en-US/docs/Web/CSS/Guides/Shapes)
-- [Overview of CSS Shapes](/en-US/docs/Web/CSS/Guides/Shapes/Overview)
+- [CSS Shapes](/css/guides/Shapes)
+- [Overview of CSS Shapes](/css/guides/Shapes/Overview)
 - {{cssxref("basic-shape")}}
 - {{cssxref("shape-outside")}}
 - {{cssxref("shape-margin")}}

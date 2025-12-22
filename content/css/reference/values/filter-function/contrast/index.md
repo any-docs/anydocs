@@ -6,7 +6,7 @@ browser-compat: css.types.filter-function.contrast
 sidebar: cssref
 ---
 
-The **`contrast()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) adjusts the contrast of the input image. Its result is a {{cssxref("filter-function")}}.
+The **`contrast()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) adjusts the contrast of the input image. Its result is a {{cssxref("filter-function")}}.
 
 {{InteractiveExample("CSS Demo: contrast()")}}
 
@@ -44,7 +44,7 @@ contrast(amount)
 
 ### Values
 
-- `amount` {{Optional_Inline}}
+- `amount` <Badge type="info" text="Optional" />
   - : The contrast of the result, specified as a {{cssxref("&lt;number&gt;")}} or a {{cssxref("&lt;percentage&gt;")}}. A value under `100%` decreases the contrast, while a value over `100%` increases it. A value of `0` or `0%` will create an image that is completely gray, while a value of `1` or `100%` leaves the input unchanged. Negative values are not allowed. The initial value for {{Glossary("interpolation")}} is `1`. The default value is `1`.
 
 The following are pairs of equivalent values:
@@ -244,7 +244,7 @@ svg:not(:root) {
 
 ## See also
 
-- [CSS filter effects](/en-US/docs/Web/CSS/Guides/Filter_effects) module
+- [CSS filter effects](/css/guides/Filter_effects) module
 - The other {{cssxref("filter-function")}} functions available to be used in values of the {{cssxref("filter")}} and {{cssxref("backdrop-filter")}} properties include:
   - {{cssxref("filter-function/blur", "blur()")}}
   - {{cssxref("filter-function/brightness", "brightness()")}}

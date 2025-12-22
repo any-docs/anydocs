@@ -167,7 +167,7 @@ changeButton.addEventListener("click", change);
 
 ## See also
 
-- [Using CSS transitions](/en-US/docs/Web/CSS/Guides/Transitions/Using)
+- [Using CSS transitions](/css/guides/Transitions/Using)
 - {{cssxref('transition')}}
 - {{cssxref('transition-property')}}
 - {{cssxref('transition-timing-function')}}

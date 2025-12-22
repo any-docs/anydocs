@@ -291,7 +291,7 @@ The following is a "formal" definition of the import map JSON representation.
 
 The import map must be a valid JSON object that can define any of the optional keys `imports`, `scopes` and `integrity`. Each key's value must be an object, which may be empty.
 
-- `imports` {{optional_inline}}
+- `imports` <Badge type="info" text="Optional" />
   - : The value is a [module specifier map](#module_specifier_map), which provides the mappings between module specifier text that might appear in an `import` statement or `import()` operator, and the text that will replace it when the specifier is resolved.
 
     This is the fallback map that is searched for matching module specifiers if no `scopes` path URLs match, or if module specifier maps in matching `scopes` paths do not contain a key that matches the module specifier.
@@ -305,14 +305,14 @@ The import map must be a valid JSON object that can define any of the optional k
           A key with a trailing `/` can be used as a prefix for when mapping (or remapping) modules addresses.
         - The object properties' ordering is irrelevant: if multiple keys can match the module specifier, the most specific key is used (in other words, a specifier "olive/branch/" would match before "olive/").
 
-- `integrity` {{optional_inline}}
+- `integrity` <Badge type="info" text="Optional" />
   - : Defines a valid JSON object where the _keys_ are strings containing valid absolute or relative URLs (starting with `/`, `./`, or `../`),
     and the corresponding _values_ are valid [integrity metadata](/en-US/docs/Web/Security/Defenses/Subresource_Integrity#using_subresource_integrity).
 
     If the URL of a script importing or preloading a module matches a key in the `integrity` object, the corresponding integrity metadata is applied to the script's fetch options,
     unless they already have integrity metadata attached to them.
 
-- `scopes` {{optional_inline}}
+- `scopes` <Badge type="info" text="Optional" />
   - : Scopes define path-specific [module specifier maps](#module_specifier_map), allowing the choice of map to depend on the path of the code importing the module.
 
     The scopes object is a valid JSON object where each property is a `<scope key>`, which is a URL path, with a corresponding value that is a `<module specifier map>`.

@@ -51,4 +51,4 @@ The **CSS font loading** module describes events and interfaces used for dynamic
 
 ## See also
 
-- [CSS fonts](/en-US/docs/Web/CSS/Guides/Fonts) module
+- [CSS fonts](/css/guides/Fonts) module

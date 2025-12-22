@@ -230,4 +230,4 @@ p {
 - {{cssxref("font-variant-east-asian")}}
 - {{cssxref("font-variant-numeric")}}
 - {{cssxref("font-variant-position")}}
-- [CSS fonts module](/en-US/docs/Web/CSS/Guides/Fonts)
+- [CSS fonts module](/css/guides/Fonts)

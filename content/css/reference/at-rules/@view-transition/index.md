@@ -6,7 +6,7 @@ browser-compat: css.at-rules.view-transition
 sidebar: cssref
 ---
 
-The **`@view-transition`** [CSS](/en-US/docs/Web/CSS) [at-rule](/en-US/docs/Web/CSS/Guides/Syntax/At-rules) is used to opt in the current and destination documents to undergo a [view transition](/en-US/docs/Web/API/View_Transition_API), in the case of a cross-document navigation.
+The **`@view-transition`** [CSS](/en-US/docs/Web/CSS) [at-rule](/css/guides/Syntax/At-rules) is used to opt in the current and destination documents to undergo a [view transition](/en-US/docs/Web/API/View_Transition_API), in the case of a cross-document navigation.
 
 For a cross-document view transition to work, the current and destination documents of the navigation need to be on the same origin.
 
@@ -121,5 +121,5 @@ See [Using types with cross-document view transitions via `@view-transition`](/e
 - {{cssxref("::view-transition-image-pair()")}}
 - [View Transition API](/en-US/docs/Web/API/View_Transition_API)
 - [Using view transition types](/en-US/docs/Web/API/View_Transition_API/Using_types)
-- [CSS at-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules)
+- [CSS at-rules](/css/guides/Syntax/At-rules)
 - [CSS at-rule functions](/en-US/docs/Web/CSS/Reference/At-rules/At-rule_functions)

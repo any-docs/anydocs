@@ -22,9 +22,9 @@ Temporal.Duration.compare(duration1, duration2, options)
   - : A string, an object, or a {{jsxref("Temporal.Duration")}} instance representing the first duration to compare. It is converted to a `Temporal.Duration` object using the same algorithm as {{jsxref("Temporal/Duration/from", "Temporal.Duration.from()")}}.
 - `duration2`
   - : The second duration to compare, converted to a `Temporal.Duration` object using the same algorithm as `duration1`.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the following property:
-    - `relativeTo` {{optional_inline}}
+    - `relativeTo` <Badge type="info" text="Optional" />
       - : A zoned or plain date(time) that provides the time and calendar information to resolve [calendar durations](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration#calendar_durations) (see the link for the general interpretation of this option). Required if either `duration1` or `duration2` is a calendar duration (unless they are equal component-wise, in which case `0` is returned without computations).
 
 ### Return value

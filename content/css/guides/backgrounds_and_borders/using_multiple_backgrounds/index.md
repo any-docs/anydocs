@@ -11,7 +11,7 @@ Multiple backgrounds are specified as a comma-separated list, such as `backgroun
 
 ## Example
 
-In this example, three backgrounds are stacked: the Firefox logo, an image of bubbles, and a [linear gradient](/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient):
+In this example, three backgrounds are stacked: the Firefox logo, an image of bubbles, and a [linear gradient](/css/reference/values/gradient/linear-gradient):
 
 ### HTML
 
@@ -44,5 +44,5 @@ As you can see here, the Firefox logo (listed first within {{ cssxref("backgroun
 
 ## See also
 
-- [CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) module
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
+- [CSS backgrounds and borders](/css/guides/Backgrounds_and_borders) module
+- [Using CSS gradients](/css/guides/Images/Using_gradients)

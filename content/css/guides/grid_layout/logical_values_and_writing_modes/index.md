@@ -78,13 +78,13 @@ This is a basic demonstration of the problems that can arise when using physical
 
 ## Block and Inline
 
-When using logical rather than physical properties, we don't see the world as left to right, and top to bottom. We have a different reference point. This is where understanding the _block_ and _inline_ axes, introduced in the [grid alignment guide](/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment), becomes very useful. If you think about layout in terms of block and inline, the way things work in CSS grid layout makes a lot of sense.
+When using logical rather than physical properties, we don't see the world as left to right, and top to bottom. We have a different reference point. This is where understanding the _block_ and _inline_ axes, introduced in the [grid alignment guide](/css/guides/Grid_layout/Box_alignment), becomes very useful. If you think about layout in terms of block and inline, the way things work in CSS grid layout makes a lot of sense.
 
 ![An image showing the default direction of the block and inline axes.](8-horizontal-tb.png)
 
 ## CSS writing modes
 
-The [CSS writing modes](/en-US/docs/Web/CSS/Guides/Writing_modes) module specifies how writing modes work in CSS. These features are not just for supporting languages with a different writing mode to English; they can also be used for creative purposes. The examples in this section make use of the {{cssxref("writing-mode")}} property to make changes to the writing mode applied to our grid, demonstrating how logical values work in the process.
+The [CSS writing modes](/css/guides/Writing_modes) module specifies how writing modes work in CSS. These features are not just for supporting languages with a different writing mode to English; they can also be used for creative purposes. The examples in this section make use of the {{cssxref("writing-mode")}} property to make changes to the writing mode applied to our grid, demonstrating how logical values work in the process.
 
 ### `writing-mode`
 
@@ -420,7 +420,7 @@ If we add the {{cssxref("direction")}} property with a value of `rtl` to the gri
 
 {{ EmbedLiveSample('Line-based_placement_with_right_to_left_text', '500', '240') }}
 
-If you are switching the direction of your text, either for entire pages or for parts of pages, and are using lines, you may want to [name your lines](/en-US/docs/Web/CSS/Guides/Grid_layout/Named_grid_lines) to avoid the layout completely switching direction. For some things, for example, where a grid contains text content, this switching may be exactly what you want. For other uses it may not.
+If you are switching the direction of your text, either for entire pages or for parts of pages, and are using lines, you may want to [name your lines](/css/guides/Grid_layout/Named_grid_lines) to avoid the layout completely switching direction. For some things, for example, where a grid contains text content, this switching may be exactly what you want. For other uses it may not.
 
 ### The strange order of values in the `grid-area` property
 
@@ -506,6 +506,6 @@ nav a {
 
 ## Physical values and logical properties
 
-If you combine logical grid properties with physical properties, remember that physical properties will not change according to writing mode. In our [Aligning items in CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment) guide, we use auto margins to push one item away from the others; this employs physical properties. There are logical property equivalents for most physical properties, which respect writing modes in the same way as grid placement and alignment properties and values.
+If you combine logical grid properties with physical properties, remember that physical properties will not change according to writing mode. In our [Aligning items in CSS grid layout](/css/guides/Grid_layout/Box_alignment) guide, we use auto margins to push one item away from the others; this employs physical properties. There are logical property equivalents for most physical properties, which respect writing modes in the same way as grid placement and alignment properties and values.
 
-Similarly, when using absolute positioning within a grid area, you can use logical {{glossary("inset properties")}} to place items inside the grid area. When mixing logical and physical properties or values, be aware of the tension between them. For example, you may need to change your CSS to cope with a switch from `ltr` to `rtl`. Your understanding of block and inline through grid will help you to understand [CSS logical properties and values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values).
+Similarly, when using absolute positioning within a grid area, you can use logical {{glossary("inset properties")}} to place items inside the grid area. When mixing logical and physical properties or values, be aware of the tension between them. For example, you may need to change your CSS to cope with a switch from `ltr` to `rtl`. Your understanding of block and inline through grid will help you to understand [CSS logical properties and values](/css/guides/Logical_properties_and_values).

@@ -21,16 +21,16 @@ CSS nesting helps with the readability, modularity, and maintainability of CSS s
 
 ## Guides
 
-- [Using CSS nesting](/en-US/docs/Web/CSS/Guides/Nesting/Using)
+- [Using CSS nesting](/css/guides/Nesting/Using)
   - : Explains how to use CSS nesting.
-- [CSS nesting at-rules](/en-US/docs/Web/CSS/Guides/Nesting/At-rules)
+- [CSS nesting at-rules](/css/guides/Nesting/At-rules)
   - : Explains how to nest at-rules.
-- [CSS nesting and specificity](/en-US/docs/Web/CSS/Guides/Nesting/Nesting_and_specificity)
+- [CSS nesting and specificity](/css/guides/Nesting/Nesting_and_specificity)
   - : Explains the differences in specificity when nesting CSS.
 
 ## Related concepts
 
-- [Selectors and combinators](/en-US/docs/Web/CSS/Guides/Selectors/Selectors_and_combinators)
+- [Selectors and combinators](/css/guides/Selectors/Selectors_and_combinators)
 - [Pseudo-classes](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes)
 - [CSS preprocessor](/en-US/docs/Glossary/CSS_preprocessor)
 
@@ -40,6 +40,6 @@ CSS nesting helps with the readability, modularity, and maintainability of CSS s
 
 ## See also
 
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
-- [CSS cascading and inheritance module](/en-US/docs/Web/CSS/Guides/Cascade)
-- [CSS selectors module](/en-US/docs/Web/CSS/Guides/Selectors)
+- [Specificity](/css/guides/Cascade/Specificity)
+- [CSS cascading and inheritance module](/css/guides/Cascade)
+- [CSS selectors module](/css/guides/Selectors)

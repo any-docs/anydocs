@@ -6,7 +6,7 @@ browser-compat: css.at-rules.starting-style
 sidebar: cssref
 ---
 
-The **`@starting-style`** [CSS](/en-US/docs/Web/CSS) [at-rule](/en-US/docs/Web/CSS/Guides/Syntax/At-rules) is used to define starting values for properties set on an element that you want to transition from when the element receives its first style update, i.e., when an element is first displayed on a previously loaded page.
+The **`@starting-style`** [CSS](/en-US/docs/Web/CSS) [at-rule](/css/guides/Syntax/At-rules) is used to define starting values for properties set on an element that you want to transition from when the element receives its first style update, i.e., when an element is first displayed on a previously loaded page.
 
 ## Syntax
 
@@ -35,12 +35,12 @@ The `@starting-style` at rule can be used in two ways:
 
 ## Description
 
-To avoid unexpected behavior, [CSS transitions](/en-US/docs/Web/CSS/Guides/Transitions) are by default not triggered on an element's initial style update, or when its {{CSSxRef("display")}} type changes from `none` to another value. To enable first-style transitions, `@starting-style` rules are needed. They provide starting styles for elements that do not have a previous state, defining the property values to transition from.
+To avoid unexpected behavior, [CSS transitions](/css/guides/Transitions) are by default not triggered on an element's initial style update, or when its {{CSSxRef("display")}} type changes from `none` to another value. To enable first-style transitions, `@starting-style` rules are needed. They provide starting styles for elements that do not have a previous state, defining the property values to transition from.
 
 `@starting-style` is especially useful when creating entry and exit transitions for elements displayed in the {{glossary("top layer")}} (such as [popovers](/en-US/docs/Web/API/Popover_API) and modal {{htmlelement("dialog")}}s), elements that are changing to and from `display: none`, and elements when first added to or removed from the DOM.
 
 > [!NOTE]
-> `@starting-style` is only relevant to CSS transitions. When using [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) to implement such effects, `@starting-style` is not needed. See [Using CSS animations](/en-US/docs/Web/CSS/Guides/Animations/Using) for an example.
+> `@starting-style` is only relevant to CSS transitions. When using [CSS animations](/css/guides/Animations) to implement such effects, `@starting-style` is not needed. See [Using CSS animations](/css/guides/Animations/Using) for an example.
 
 There are two ways to use `@starting-style`: as a standalone rule or nested within a ruleset.
 
@@ -65,7 +65,7 @@ To specify the starting values of the popover's properties that will be animated
 ```
 
 > [!NOTE]
-> The `@starting-style` at-rule and the "original rule" have the same [specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity). To ensure that starting styles get applied, include the `@starting-style` at-rule _after_ the "original rule". If you specify the `@starting-style` at-rule before the "original rule", the original styles will override the starting styles.
+> The `@starting-style` at-rule and the "original rule" have the same [specificity](/css/guides/Cascade/Specificity). To ensure that starting styles get applied, include the `@starting-style` at-rule _after_ the "original rule". If you specify the `@starting-style` at-rule before the "original rule", the original styles will override the starting styles.
 
 To specify the starting style for the popover using the nested method, you can nest the `@starting-style` block inside the "original rule":
 
@@ -209,7 +209,7 @@ The code renders as follows:
 
 ### Animating a popover
 
-In this example, a [popover](/en-US/docs/Web/API/Popover_API) is animated using [CSS transitions](/en-US/docs/Web/CSS/Guides/Transitions). Basic entry and exit animations are provided using the {{CSSxRef("transition")}} property.
+In this example, a [popover](/en-US/docs/Web/API/Popover_API) is animated using [CSS transitions](/css/guides/Transitions). Basic entry and exit animations are provided using the {{CSSxRef("transition")}} property.
 
 #### HTML
 
@@ -442,7 +442,7 @@ To animate the {{cssxref("opacity")}} and {{cssxref("scale")}} of each `<div>` a
 
 - Specify the ending state of the properties we want to transition on the `div { ... }` rule.
 - Specify the starting state from which to transition the properties inside a `@starting-style` block.
-- Specify the exit animation inside the `.fade-out` rule — this is the class that the JavaScript assigns to the `<div>` elements when their close buttons are pressed. Besides setting the `opacity` and `scale` ending states, we also set [`display: none`](/en-US/docs/Web/CSS/Reference/Properties/display) on the `<div>`s — we want them to become immediately unavailable when removed from the UI.
+- Specify the exit animation inside the `.fade-out` rule — this is the class that the JavaScript assigns to the `<div>` elements when their close buttons are pressed. Besides setting the `opacity` and `scale` ending states, we also set [`display: none`](/css/reference/properties/display) on the `<div>`s — we want them to become immediately unavailable when removed from the UI.
 - Specify the {{cssxref("transition")}} list inside the `div { ... }` rule to animate `opacity`, `scale`, and `display`. Note that for `display`, the {{cssxref("transition-behavior", "transition-behavior: allow-discrete")}} value is also set in the shorthand so that it will animate.
 
 #### Result
@@ -461,7 +461,7 @@ The final result looks like this:
 
 ## See also
 
-- [CSS transitions](/en-US/docs/Web/CSS/Guides/Transitions) module
+- [CSS transitions](/css/guides/Transitions) module
 - {{cssxref("overlay")}}
 - {{cssxref("transition-behavior")}}
 - {{domxref("CSSStartingStyleRule")}}

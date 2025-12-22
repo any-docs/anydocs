@@ -6,7 +6,7 @@ browser-compat: css.properties.border-image-source
 sidebar: cssref
 ---
 
-The **`border-image-source`** [CSS](/en-US/docs/Web/CSS) property sets the source image used to create an element's [border image](/en-US/docs/Web/CSS/Reference/Properties/border-image).
+The **`border-image-source`** [CSS](/en-US/docs/Web/CSS) property sets the source image used to create an element's [border image](/css/reference/properties/border-image).
 
 The {{cssxref("border-image-slice")}} property is used to divide the source image into regions, which are then dynamically applied to the final border image.
 

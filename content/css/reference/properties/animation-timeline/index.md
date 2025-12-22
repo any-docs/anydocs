@@ -66,22 +66,22 @@ The following types of timelines can be set via `animation-timeline`:
 
 - {{domxref("DocumentTimeline")}}
   - : The default document timeline, which is progressed through by the passing of time since the document was first loaded in the browser. This is the timeline traditionally associated with CSS animations and is selected with a value of `auto`, or by not specifying an `animation-timeline` value at all, as this is the default value.
-- [Scroll progress timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#scroll_progress_timelines)
+- [Scroll progress timeline](/css/guides/Scroll-driven_animations/Timelines#scroll_progress_timelines)
   - : The animation is progressed through by scrolling a scrollable element, or _scroller_, horizontally or vertically. The element that provides the scroll progress timeline can be specified in two ways:
-    - [Named scroll progress timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#named_scroll_progress_timelines)
+    - [Named scroll progress timeline](/css/guides/Scroll-driven_animations/Timelines#named_scroll_progress_timelines)
       - : The scroller is explicitly named by setting the {{cssxref("scroll-timeline-name")}} property (or the {{cssxref("scroll-timeline")}} shorthand property) to a {{cssxref("dashed-ident")}}; that `<dashed-ident>` name is then set as the value of the `animation-timeline` property.
-    - [Anonymous scroll progress timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#anonymous_scroll_progress_timelines)
+    - [Anonymous scroll progress timeline](/css/guides/Scroll-driven_animations/Timelines#anonymous_scroll_progress_timelines)
       - : The `animation-timeline` property of the element to animate is set to the {{cssxref("animation-timeline/scroll", "scroll()")}} function. The function's two optional parameters define the scroller providing the scroll progress timeline and the scroll axis to be used.
-- [View progress timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#view_progress_timelines)
+- [View progress timeline](/css/guides/Scroll-driven_animations/Timelines#view_progress_timelines)
   - : A keyframe animation is progressed through based on the change in visibility of an element inside a scroller; this element is known as the _subject_. By default, the timeline is at `0%` when the element first becomes visible at one edge of the scroller, and is at `100%` when its end edge exits the scroller's opposite edge. A view progress timeline can be specified in two ways:
-    - [Named view progress timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#named_view_progress_timeline)
+    - [Named view progress timeline](/css/guides/Scroll-driven_animations/Timelines#named_view_progress_timeline)
       - : The subject is explicitly named by setting the {{cssxref("view-timeline-name")}} property (or the {{cssxref("view-timeline")}} shorthand property) to a `<dashed-ident>`. When you set the `animation-timeline` property of the element to animate to that `<dashed-ident>`, the subject's visibility controls the progression of the element's animation. Note that the element to animate does not have to be the same as the subject.
-    - [Anonymous view progress timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#anonymous_view_progress_timeline_the_view_function)
+    - [Anonymous view progress timeline](/css/guides/Scroll-driven_animations/Timelines#anonymous_view_progress_timeline_the_view_function)
       - : The `animation-timeline` property of the element to animate is set to a {{cssxref("animation-timeline/view", "view()")}} function, causing it to be animated based on its visibility within the scrollport of its nearest parent scroller.
 - No timeline
   - : All animation timelines can be removed by selecting a value of `none`. When `animation-timeline: none` is set, no animation will occur as there is no timeline to follow.
 
-The `animation-timeline` property is included in the {{cssxref("animation")}} shorthand as a reset-only value. This means that including `animation` resets a previously-declared `animation-timeline` value to `auto`. As this component of the shorthand is reset-only, a specific value cannot be set via `animation`. When creating [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines), you need to declare `animation-timeline` after declaring any `animation` shorthand for it to take effect.
+The `animation-timeline` property is included in the {{cssxref("animation")}} shorthand as a reset-only value. This means that including `animation` resets a previously-declared `animation-timeline` value to `auto`. As this component of the shorthand is reset-only, a specific value cannot be set via `animation`. When creating [CSS scroll-driven animations](/css/guides/Scroll-driven_animations/Timelines), you need to declare `animation-timeline` after declaring any `animation` shorthand for it to take effect.
 
 If you specify multiple comma-separated values, each `animation-timeline` value is applied to a single animation in the order in which the {{cssxref("animation-name")}} values appear. If the number of values in the `animation-timeline` declaration is greater than the number of `animation-name` values, the excess timeline values are ignored. If there are fewer `animation-timeline` values than `animation-name` values, the `animation-timeline` values are repeated, in order, until every `animation-name` has an associated timeline.
 
@@ -121,7 +121,7 @@ We have an {{htmlelement("article")}} with three {{htmlelement("section")}} chil
 
 #### CSS
 
-We use [flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) to set the three sections side-by-side. We use [generated content](/en-US/docs/Web/CSS/Guides/Generated_content) to display the `id`. We style all elements the same, applying the `rotate` {{cssxref("@keyframes")}} animation that rotates the element by 1 full turn. Using the {{cssxref("animation")}} shorthand, we declare infinite, 2-second, linearly progressing iterations of the `rotate` animation, alternating the direction of each animation.
+We use [flexible box layout](/css/guides/Flexible_box_layout) to set the three sections side-by-side. We use [generated content](/css/guides/Generated_content) to display the `id`. We style all elements the same, applying the `rotate` {{cssxref("@keyframes")}} animation that rotates the element by 1 full turn. Using the {{cssxref("animation")}} shorthand, we declare infinite, 2-second, linearly progressing iterations of the `rotate` animation, alternating the direction of each animation.
 
 ```css
 article {
@@ -223,7 +223,7 @@ Our scroll progress timeline, defined using the {{cssxref("scroll-timeline-name"
 }
 ```
 
-The CSS below defines a square that rotates in alternate directions according to the timeline provided by the `animation-timeline` property, which is set to the `--square-timeline` timeline named above. The animation is set two occur twice, in alternating directions, as it passes through the viewport. We added [notched corners](/en-US/docs/Web/CSS/Reference/Properties/corner-shape) to make the animation effect more apparent.
+The CSS below defines a square that rotates in alternate directions according to the timeline provided by the `animation-timeline` property, which is set to the `--square-timeline` timeline named above. The animation is set two occur twice, in alternating directions, as it passes through the viewport. We added [notched corners](/css/reference/properties/corner-shape) to make the animation effect more apparent.
 
 ```css live-sample___named_scroll live-sample___anonymous_scroll
 #shape {
@@ -441,6 +441,6 @@ The `parent` element only becomes visible when that parent is visible, meaning t
 - {{cssxref("scroll-timeline-name")}}, {{cssxref("scroll-timeline-axis")}}, {{cssxref("scroll-timeline")}}
 - {{cssxref("view-timeline-name")}}, {{cssxref("view-timeline-axis")}}, {{cssxref("view-timeline")}}, {{cssxref("view-timeline-inset")}}
 - {{domxref("AnimationTimeline")}}
-- [Guide: Using CSS animations](/en-US/docs/Web/CSS/Guides/Animations/Using)
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module
+- [Guide: Using CSS animations](/css/guides/Animations/Using)
+- [CSS animations](/css/guides/Animations) module
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module

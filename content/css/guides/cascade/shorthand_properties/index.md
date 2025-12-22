@@ -167,7 +167,7 @@ Just like margins and paddings, the inset values are ordered clockwise - top, ri
 
 CSS provides a universal shorthand property, {{cssxref("all")}}, which applies its value to every property in the document. Its purpose is to change the properties' inheritance model.
 
-See [Handling conflicts](/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts) or [Introducing the CSS Cascade](/en-US/docs/Web/CSS/Guides/Cascade/Introduction) for more information about how inheritance works in CSS.
+See [Handling conflicts](/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts) or [Introducing the CSS Cascade](/css/guides/Cascade/Introduction) for more information about how inheritance works in CSS.
 
 ## Shorthand properties
 
@@ -245,14 +245,14 @@ See [Handling conflicts](/en-US/docs/Learn_web_development/Core/Styling_basics/H
 
 ## See also
 
-- [CSS cascading and inheritance](/en-US/docs/Web/CSS/Guides/Cascade) module
-- [Introduction to CSS syntax: declarations, rulesets, and statements](/en-US/docs/Web/CSS/Guides/Syntax/Introduction)
-- [At-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules)
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
-- [Inheritance](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance)
-- [Introduction to the CSS cascade](/en-US/docs/Web/CSS/Guides/Cascade/Introduction)
+- [CSS cascading and inheritance](/css/guides/Cascade) module
+- [Introduction to CSS syntax: declarations, rulesets, and statements](/css/guides/Syntax/Introduction)
+- [At-rules](/css/guides/Syntax/At-rules)
+- [Specificity](/css/guides/Cascade/Specificity)
+- [Inheritance](/css/guides/Cascade/Inheritance)
+- [Introduction to the CSS cascade](/css/guides/Cascade/Introduction)
 - [Learn: Handling conflicts](/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts)
 - [Learn: Cascade layers](/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers)
-- [Visual formatting models](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model)
-- Values: [initial](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value), [computed](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value), [used](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value), and [actual](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#actual_value)
-- [Value definition syntax](/en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax)
+- [Visual formatting models](/css/guides/Display/Visual_formatting_model)
+- Values: [initial](/css/guides/Cascade/Property_value_processing#initial_value), [computed](/css/guides/Cascade/Property_value_processing#computed_value), [used](/css/guides/Cascade/Property_value_processing#used_value), and [actual](/css/guides/Cascade/Property_value_processing#actual_value)
+- [Value definition syntax](/css/guides/Values_and_units/Value_definition_syntax)

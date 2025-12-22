@@ -7,7 +7,7 @@ spec-urls: https://drafts.csswg.org/css-backgrounds/#typedef-line-style
 sidebar: cssref
 ---
 
-The **`<line-style>`** {{glossary("enumerated")}} value type represents keyword values that define the style of a line, or the lack of a line. The `<line-style>` keyword values are used in the following longhand and shorthand [border](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) and [column](/en-US/docs/Web/CSS/Guides/Multicol_layout) properties:
+The **`<line-style>`** {{glossary("enumerated")}} value type represents keyword values that define the style of a line, or the lack of a line. The `<line-style>` keyword values are used in the following longhand and shorthand [border](/css/guides/Backgrounds_and_borders) and [column](/css/guides/Multicol_layout) properties:
 
 - {{cssxref("border")}}, {{cssxref("border-style")}}
 - {{cssxref("border-block")}}, {{cssxref("border-block-style")}}
@@ -208,7 +208,7 @@ This example demonstrates line-style and color choice. With some `<line-style>` 
 
 #### CSS
 
-The four sides of each `<div>` have a different `<line-style>` value, and each list item has a different {{cssxref("color_value", "&lt;color>")}} value. We use [generated content](/en-US/docs/Web/CSS/Reference/Properties/content) to display the CSS declared inline.
+The four sides of each `<div>` have a different `<line-style>` value, and each list item has a different {{cssxref("color_value", "&lt;color>")}} value. We use [generated content](/css/reference/properties/content) to display the CSS declared inline.
 
 ```css hidden live-sample___line_style_colors
 body {
@@ -267,6 +267,6 @@ Notice that the almost-black color of `#000001` may be different from the actual
 
 ## See also
 
-- [CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) module
-- [CSS basic user interface](/en-US/docs/Web/CSS/Guides/Basic_user_interface) module
-- [CSS multi-column layout](/en-US/docs/Web/CSS/Guides/Multicol_layout) module
+- [CSS backgrounds and borders](/css/guides/Backgrounds_and_borders) module
+- [CSS basic user interface](/css/guides/Basic_user_interface) module
+- [CSS multi-column layout](/css/guides/Multicol_layout) module

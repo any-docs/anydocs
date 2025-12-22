@@ -6,7 +6,7 @@ page-type: landing-page
 sidebar: cssref
 ---
 
-**CSS value functions** are statements that invoke special data processing or calculations to return a [CSS](/en-US/docs/Web/CSS) [value](/en-US/docs/Web/CSS/Guides/Values_and_units) for a CSS property. CSS value functions represent more complex [data types](/en-US/docs/Web/CSS/Reference/Values/Data_types) and they may take some input arguments to calculate the return value.
+**CSS value functions** are statements that invoke special data processing or calculations to return a [CSS](/en-US/docs/Web/CSS) [value](/css/guides/Values_and_units) for a CSS property. CSS value functions represent more complex [data types](/css/reference/values/Data_types) and they may take some input arguments to calculate the return value.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ Functions can take multiple arguments, which are formatted similarly to CSS prop
 
 ## Transform functions
 
-The {{CSSxRef("&lt;transform-function&gt;")}} CSS [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represent appearance transformation. It is used as a value of {{CSSxRef("transform")}} property.
+The {{CSSxRef("&lt;transform-function&gt;")}} CSS [data type](/css/reference/values/Data_types) represent appearance transformation. It is used as a value of {{CSSxRef("transform")}} property.
 
 ### Translate functions
 
@@ -91,7 +91,7 @@ The {{CSSxRef("&lt;transform-function&gt;")}} CSS [data type](/en-US/docs/Web/CS
 
 The math functions allow CSS numeric values to be written as mathematical expressions.
 
-Each of the pages below contains detailed information about a math function's syntax, browser compatibility data, examples, and more. For a holistic introduction to CSS math functions, see [Using CSS math functions](/en-US/docs/Web/CSS/Guides/Values_and_units/Using_math_functions).
+Each of the pages below contains detailed information about a math function's syntax, browser compatibility data, examples, and more. For a holistic introduction to CSS math functions, see [Using CSS math functions](/css/guides/Values_and_units/Using_math_functions).
 
 ### Basic arithmetic
 
@@ -159,7 +159,7 @@ Each of the pages below contains detailed information about a math function's sy
 
 ## Filter functions
 
-The {{cssxref("filter-function")}} CSS [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a graphical effect that can change the appearance of an input image. It is used in the {{CSSxRef("filter")}} and {{CSSxRef("backdrop-filter")}} properties.
+The {{cssxref("filter-function")}} CSS [data type](/css/reference/values/Data_types) represents a graphical effect that can change the appearance of an input image. It is used in the {{CSSxRef("filter")}} and {{CSSxRef("backdrop-filter")}} properties.
 
 - {{CSSxRef("filter-function/blur", "blur()")}}
   - : Increases the image gaussian blur.
@@ -184,7 +184,7 @@ The {{cssxref("filter-function")}} CSS [data type](/en-US/docs/Web/CSS/Reference
 
 ## Color functions
 
-The {{CSSxRef("color_value","&lt;color&gt;")}} CSS [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) specifies different color representations.
+The {{CSSxRef("color_value","&lt;color&gt;")}} CSS [data type](/css/reference/values/Data_types) specifies different color representations.
 
 - {{CSSxRef("color_value/rgb", "rgb()")}}
   - : Defines a given color according to its red, green, blue and alpha (transparency) components.
@@ -215,7 +215,7 @@ The {{CSSxRef("color_value","&lt;color&gt;")}} CSS [data type](/en-US/docs/Web/C
 
 ## Image functions
 
-The {{cssxref("image")}} CSS [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) provides graphical representation of images or gradients.
+The {{cssxref("image")}} CSS [data type](/css/reference/values/Data_types) provides graphical representation of images or gradients.
 
 ### Gradient functions
 
@@ -260,7 +260,7 @@ CSS counter functions are generally used with the {{CSSxRef("content")}} propert
 
 ### Basic shapes
 
-The {{cssxref("basic-shape")}} CSS [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a graphical shape. It is used in the {{CSSxRef("clip-path")}}, {{CSSxRef("offset-path")}}, and {{CSSxRef("shape-outside")}} properties.
+The {{cssxref("basic-shape")}} CSS [data type](/css/reference/values/Data_types) represents a graphical shape. It is used in the {{CSSxRef("clip-path")}}, {{CSSxRef("offset-path")}}, and {{CSSxRef("shape-outside")}} properties.
 
 - {{CSSxRef("basic-shape/circle","circle()")}}
   - : Defines a circle shape.
@@ -284,7 +284,7 @@ The {{cssxref("basic-shape")}} CSS [data type](/en-US/docs/Web/CSS/Reference/Val
 - {{cssxref("ray()")}}
   - : Valid with {{cssxref("offset-path")}}; defines the line segment an animated element can follow.
 - {{CSSxRef("superellipse()")}}
-  - : Defines the curvature of an ellipse; can be used to specify a {{cssxref("corner-shape-value")}}, which is used with {{cssxref("corner-shape")}} and its [constituent](/en-US/docs/Web/CSS/Reference/Properties/corner-shape#constituent_properties) and [related](/en-US/docs/Web/CSS/Reference/Properties/corner-shape#properties_that_follow_the_corner_shape) properties.
+  - : Defines the curvature of an ellipse; can be used to specify a {{cssxref("corner-shape-value")}}, which is used with {{cssxref("corner-shape")}} and its [constituent](/css/reference/properties/corner-shape#constituent_properties) and [related](/css/reference/properties/corner-shape#properties_that_follow_the_corner_shape) properties.
 
 ## Reference functions
 
@@ -295,7 +295,7 @@ The following functions are used as a value of properties to reference a value d
 - {{cssxref("env()")}}
   - : Uses the user-agent defined as environment variable.
 - {{cssxref("if()")}}
-  - : Conditionally sets a property value depending on the result of a [style query](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries#container_style_queries), [media query](/en-US/docs/Web/CSS/Guides/Media_queries/Using), or [feature query](/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries).
+  - : Conditionally sets a property value depending on the result of a [style query](/css/guides/Containment/Container_size_and_style_queries#container_style_queries), [media query](/css/guides/Media_queries/Using), or [feature query](/css/guides/Conditional_rules/Using_feature_queries).
 - {{cssxref("url_function", "url()")}}
   - : Uses a file from the specified URL.
 - {{cssxref("var()")}}
@@ -303,7 +303,7 @@ The following functions are used as a value of properties to reference a value d
 
 ## Grid functions
 
-The following functions are used to define a [CSS grid](/en-US/docs/Web/CSS/Guides/Grid_layout):
+The following functions are used to define a [CSS grid](/css/guides/Grid_layout):
 
 - {{cssxref("fit-content()")}}
   - : Clamps a given size to an available size according to the formula `min(maximum size, max(minimum size, argument))`.
@@ -331,7 +331,7 @@ CSS font functions are used with the {{CSSxRef("font-variant-alternates")}} prop
 
 ## Easing functions
 
-The {{cssxref("easing-function")}} CSS [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a mathematical function. It is used in transition and animation properties:
+The {{cssxref("easing-function")}} CSS [data type](/css/reference/values/Data_types) represents a mathematical function. It is used in transition and animation properties:
 
 - {{cssxref("easing-function/linear", "linear()")}}
   - : Easing function that interpolates linearly between its points.
@@ -484,5 +484,5 @@ The following functions return an integer value based on the DOM tree, rather th
 
 ## See also
 
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS values and units](/css/guides/Values_and_units) module
 - [Learn: Values and units](/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units)

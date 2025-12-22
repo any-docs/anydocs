@@ -29,7 +29,7 @@ If a node doesn't seem to be an appropriate anchor, you can exclude it using {{c
 
 ## What if I need to disable it?
 
-The [CSS scroll anchoring module](/en-US/docs/Web/CSS/Guides/Scroll_anchoring) provides the {{cssxref("overflow-anchor")}} property, which can be used to disable scroll anchoring on all or part of the document. It's essentially a way to opt out of the behavior.
+The [CSS scroll anchoring module](/css/guides/Scroll_anchoring) provides the {{cssxref("overflow-anchor")}} property, which can be used to disable scroll anchoring on all or part of the document. It's essentially a way to opt out of the behavior.
 
 The only possible values are `auto` or `none`:
 

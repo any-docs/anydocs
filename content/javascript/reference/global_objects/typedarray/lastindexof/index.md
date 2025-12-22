@@ -32,7 +32,7 @@ lastIndexOf(searchElement, fromIndex)
 
 - `searchElement`
   - : Element to locate in the typed array.
-- `fromIndex` {{optional_inline}}
+- `fromIndex` <Badge type="info" text="Optional" />
   - : Zero-based index at which to start searching backwards, [converted to an integer](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#integer_conversion).
 
 ### Return value

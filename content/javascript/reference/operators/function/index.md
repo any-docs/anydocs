@@ -50,11 +50,11 @@ function name(param0, param1, /* …, */ paramN) {
 
 ### Parameters
 
-- `name` {{optional_inline}}
+- `name` <Badge type="info" text="Optional" />
   - : The function name. Can be omitted, in which case the function is _anonymous_. The name is only local to the function body.
-- `paramN` {{optional_inline}}
+- `paramN` <Badge type="info" text="Optional" />
   - : The name of a formal parameter for the function. For the parameters' syntax, see the [Functions reference](/en-US/docs/Web/JavaScript/Guide/Functions#function_parameters).
-- `statements` {{optional_inline}}
+- `statements` <Badge type="info" text="Optional" />
   - : The statements which comprise the body of the function.
 
 ## Description

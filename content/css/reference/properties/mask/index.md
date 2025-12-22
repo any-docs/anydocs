@@ -6,7 +6,7 @@ browser-compat: css.properties.mask
 sidebar: cssref
 ---
 
-The **`mask`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) hides an element (partially or fully) by masking or clipping a specified area of the image. It is a shorthand for all the [`mask-*`](#constituent_properties) properties. The property accepts one or more comma-separated values, where each value corresponds to a [`<mask-layer>`](#mask-layer).
+The **`mask`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/css/guides/Cascade/Shorthand_properties) hides an element (partially or fully) by masking or clipping a specified area of the image. It is a shorthand for all the [`mask-*`](#constituent_properties) properties. The property accepts one or more comma-separated values, where each value corresponds to a [`<mask-layer>`](#mask-layer).
 
 ## Constituent properties
 
@@ -190,9 +190,9 @@ div {
 
 - {{CSSxRef("clip-path")}}
 - {{CSSxRef("filter")}}
-- [Introduction to CSS masking](/en-US/docs/Web/CSS/Guides/Masking/Introduction)
-- [CSS `mask` properties](/en-US/docs/Web/CSS/Guides/Masking/Mask_properties)
-- [Declaring multiple masks](/en-US/docs/Web/CSS/Guides/Masking/Multiple_masks)
-- [CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
+- [Introduction to CSS masking](/css/guides/Masking/Introduction)
+- [CSS `mask` properties](/css/guides/Masking/Mask_properties)
+- [Declaring multiple masks](/css/guides/Masking/Multiple_masks)
+- [CSS masking](/css/guides/Masking) module
 - SVG {{SVGAttr("mask")}} attribute
 - [Applying SVG effects to HTML content](/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content)

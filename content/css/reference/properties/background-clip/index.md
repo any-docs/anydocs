@@ -171,4 +171,4 @@ p {
 
 - The {{cssxref("clip-path")}} property creates a clipping region that defines what part of an _entire element_ should be displayed.
 - Background properties: {{cssxref("background")}}, {{cssxref("background-color")}}, {{cssxref("background-image")}}, {{cssxref("background-origin")}}
-- [Introduction to the CSS box model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction)
+- [Introduction to the CSS box model](/css/guides/Box_model/Introduction)

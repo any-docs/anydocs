@@ -22,15 +22,15 @@ round(options)
   - : A string representing the [`smallestUnit`](#smallestunit_2) option. This is a convenience overload, so `round(smallestUnit)` is equivalent to `round({ smallestUnit })`, where `smallestUnit` is a string.
 - `options`
   - : An object containing some or all of the following properties (in the order they are retrieved and validated):
-    - `largestUnit` {{optional_inline}}
+    - `largestUnit` <Badge type="info" text="Optional" />
       - : Any of the temporal units: `"years"`, `"months"`, `"weeks"`, `"days"`, `"hours"`, `"minutes"`, `"seconds"`, `"milliseconds"`, `"microseconds"`, `"nanoseconds"`, or their singular forms, or the value `"auto"` which means the largest non-zero component of this duration or `smallestUnit`, whichever is greater. Defaults to `"auto"`. The result will not contain units larger than this; for example, if the largest unit is `"minutes"`, then "1 hour 30 minutes" will become "90 minutes".
-    - `relativeTo` {{optional_inline}}
+    - `relativeTo` <Badge type="info" text="Optional" />
       - : A zoned or plain date(time) that provides the time and calendar information to resolve [calendar durations](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration#calendar_durations) (see the link for the general interpretation of this option). Required if either `this` or `other` is a calendar duration, or `smallestUnit` is a calendar unit.
-    - `roundingIncrement` {{optional_inline}}
+    - `roundingIncrement` <Badge type="info" text="Optional" />
       - : A number (truncated to an integer) representing the rounding increment in the given `smallestUnit`. Defaults to `1`. Must be in the inclusive range of 1 to 1e9. If the smallest unit is hours, minutes, seconds, milliseconds, microseconds, or nanoseconds, the increment must be a divisor of the maximum value of the unit; for example, if the unit is hours, the increment must be a divisor of 24 and must not be 24 itself, which means it can be 1, 2, 3, 4, 6, 8, or 12.
-    - `roundingMode` {{optional_inline}}
+    - `roundingMode` <Badge type="info" text="Optional" />
       - : A string representing the rounding mode specifying to round up or down in various scenarios. See [`Intl.NumberFormat()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat#roundingmode). Defaults to `"halfExpand"`.
-    - `smallestUnit` {{optional_inline}}
+    - `smallestUnit` <Badge type="info" text="Optional" />
       - : Any of the temporal units: `"years"`, `"months"`, `"weeks"`, `"days"`, `"hours"`, `"minutes"`, `"seconds"`, `"milliseconds"`, `"microseconds"`, `"nanoseconds"`, or their singular forms. Defaults to `"nanoseconds"`. For units larger than `"nanoseconds"`, fractional parts of the `smallestUnit` will be rounded according to the `roundingIncrement` and `roundingMode` settings. Must be smaller or equal to `largestUnit`. At least one of `smallestUnit` and `largestUnit` must be provided.
 
 ### Return value

@@ -18,9 +18,9 @@ toString(options)
 
 ### Parameters
 
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the following property:
-    - `calendarName` {{optional_inline}}
+    - `calendarName` <Badge type="info" text="Optional" />
       - : Whether to show the calendar annotation (`[u-ca=calendar_id]`) in the return value. Possible values are:
         - `"auto"` (default)
           - : Include the calendar annotation if the calendar is not `"iso8601"`. The reference year is included if the calendar is not `"iso8601"`.

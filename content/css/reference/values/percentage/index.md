@@ -6,7 +6,7 @@ browser-compat: css.types.percentage
 sidebar: cssref
 ---
 
-The **`<percentage>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as {{CSSxRef("width")}}, {{CSSxRef("height")}}, {{CSSxRef("margin")}}, {{CSSxRef("padding")}}, and {{CSSxRef("font-size")}}.
+The **`<percentage>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as {{CSSxRef("width")}}, {{CSSxRef("height")}}, {{CSSxRef("margin")}}, {{CSSxRef("padding")}}, and {{CSSxRef("font-size")}}.
 
 > [!NOTE]
 > Only calculated values can be inherited. Thus, even if a percentage value is used on the parent property, a real value (such as a width in pixels for a {{CSSxRef("&lt;length&gt;")}} value) will be accessible on the inherited property, not the percentage value.
@@ -17,7 +17,7 @@ The `<percentage>` data type consists of a {{CSSxRef("&lt;number&gt;")}} followe
 
 ## Interpolation
 
-When animated, values of the `<percentage>` data type are {{Glossary("interpolation", "interpolated")}} as real, floating-point numbers. The speed of the interpolation is determined by the [easing function](/en-US/docs/Web/CSS/Reference/Values/easing-function) associated with the animation.
+When animated, values of the `<percentage>` data type are {{Glossary("interpolation", "interpolated")}} as real, floating-point numbers. The speed of the interpolation is determined by the [easing function](/css/reference/values/easing-function) associated with the animation.
 
 ## Examples
 
@@ -87,4 +87,4 @@ When animated, values of the `<percentage>` data type are {{Glossary("interpolat
 ## See also
 
 - {{cssxref("&lt;length-percentage&gt;")}}
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS values and units](/css/guides/Values_and_units) module

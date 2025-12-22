@@ -9,9 +9,9 @@ sidebar: cssref
 With [CSS](/en-US/docs/Web/CSS), there are lots of ways to add color to your [HTML](/en-US/docs/Web/HTML) [elements](/en-US/docs/Web/HTML/Reference/Elements) to create the look you want. This guide is a primer introducing how CSS can be used to apply colors to HTML elements. This guide includes [lists of the CSS properties that set color in their values](#properties_that_can_have_color) and how to use colors both [in stylesheets](#specifying_colors_as_values_in_stylesheets) and [in other ways](#other_ways_to_use_color).
 
 > [!NOTE]
-> It is important to [use colors wisely](/en-US/docs/Web/CSS/Guides/Colors/Using_color_wisely). Always select appropriate colors, ensuring the contrast between text and the background is sufficient to ensure legibility, and always keep the needs of people with differing visual capabilities in mind.
+> It is important to [use colors wisely](/css/guides/Colors/Using_color_wisely). Always select appropriate colors, ensuring the contrast between text and the background is sufficient to ensure legibility, and always keep the needs of people with differing visual capabilities in mind.
 
-To learn more about CSS colors as a data type, see the [CSS `<color>` data type](/en-US/docs/Web/CSS/Reference/Values/color_value) reference and the [CSS color values guide](/en-US/docs/Web/CSS/Guides/Colors/Color_values).
+To learn more about CSS colors as a data type, see the [CSS `<color>` data type](/css/reference/values/color_value) reference and the [CSS color values guide](/css/guides/Colors/Color_values).
 
 ## Properties that can have color
 
@@ -33,7 +33,7 @@ Whenever an element is rendered, these properties are used to determine the colo
   - : Configures a shadow effect to apply to text. Among the options for the shadow is the shadow's base color (which is then blurred and blended with the background based on the other parameters). See [Text drop shadows](/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals#text_drop_shadows) to learn more.
 
 - {{cssxref("text-decoration-color")}}
-  - : The default text decorations (such as underlines, strikethroughs, etc.) color is [`currentColor`](/en-US/docs/Web/CSS/Reference/Values/color_value#currentcolor_keyword). This keyword represents the current value of the `color` property. However, you can override that value and use a different color for them with the `text-decoration-color` property.
+  - : The default text decorations (such as underlines, strikethroughs, etc.) color is [`currentColor`](/css/reference/values/color_value#currentcolor_keyword). This keyword represents the current value of the `color` property. However, you can override that value and use a different color for them with the `text-decoration-color` property.
 
 - {{cssxref("text-emphasis-color")}}
   - : The color to use when rendering emphasis symbols adjacent to each character in the text. This is used primarily when drawing text for East Asian languages.
@@ -55,7 +55,7 @@ Every element is a box with some sort of content, and has a background and a bor
   - : Configures inset shadow and drop shadow effects on the box. Among the options for each shadow is the shadow's base color (which is then blurred and blended with any background based on the other parameters).
 
 - {{cssxref("column-rule-color")}}
-  - : The color to use when drawing the line separating columns of text when using [CSS multi-column layout](/en-US/docs/Web/CSS/Guides/Multicol_layout).
+  - : The color to use when drawing the line separating columns of text when using [CSS multi-column layout](/css/guides/Multicol_layout).
 
 - {{cssxref("outline-color")}}
   - : The color to use when drawing an outline around the outside of the element. This outline is different from the border in that it doesn't get space set aside for it in the document. Outlines do not participate in the [box model](/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model), overlapping other content. Outlines are generally used as focus indicators, indicating which element currently has focus and will receive keyboard input events.
@@ -64,7 +64,7 @@ Every element is a box with some sort of content, and has a background and a bor
 
 Any element can have a border drawn around it. A basic element border is a line drawn around the edges of the element's content. See [The box model](/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model) to learn about the relationship between elements and their borders, and the article [Styling borders using CSS](/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders) to learn more about applying styles to borders.
 
-You can use the {{cssxref("border")}} shorthand property, which lets you configure everything about the border in one shot (including non-color features of borders, such as its [width](/en-US/docs/Web/CSS/Reference/Properties/border-width), [style](/en-US/docs/Web/CSS/Reference/Properties/border-style) (solid, dashed, etc.), and so forth.
+You can use the {{cssxref("border")}} shorthand property, which lets you configure everything about the border in one shot (including non-color features of borders, such as its [width](/css/reference/properties/border-width), [style](/css/reference/properties/border-style) (solid, dashed, etc.), and so forth.
 
 - {{cssxref("border-color")}} shorthand
   - : Specifies a single color to use for every side of the element's border.
@@ -108,7 +108,7 @@ Here we have a wrapper {{HTMLElement("div")}} containing two child `<div>`s, eac
 Let's look at the CSS that creates the above result a piece at a time.
 
 > [!NOTE]
-> We are using multiple [different CSS color value types](/en-US/docs/Web/CSS/Guides/Colors/Color_values) in this example to demonstrate their use. This is not recommended for production code. When writing CSS, use the most intuitive value type for you and your team.
+> We are using multiple [different CSS color value types](/css/guides/Colors/Color_values) in this example to demonstrate their use. This is not recommended for production code. When writing CSS, use the most intuitive value type for you and your team.
 
 ```css
 .wrapper {
@@ -131,7 +131,7 @@ div {
 
 The `.wrapper` class is used to assign styles to the {{HTMLElement("div")}} that encloses all of our other content. This establishes the height of the container using {{cssxref("height")}}, allowing the width of this block-level element to default to 100% of its parent. Setting the {{cssxref("display")}} to `flex` and adding a `10px` {{cssxref("gap")}} creates a flex container to lay out the children side by side with a gap between all the container's children. We use {{cssxref("flex")}} to let the flex children grow to fill the container; it doesn't effect the flex container itself.
 
-Of more interest to our discussion here is the use of the {{cssxref("border")}} property to establish a border around the outside edge of the element. This border is a solid line, 6 pixels wide, in the [named color](/en-US/docs/Web/CSS/Reference/Values/named-color) `mediumturquoise`.
+Of more interest to our discussion here is the use of the {{cssxref("border")}} property to establish a border around the outside edge of the element. This border is a solid line, 6 pixels wide, in the [named color](/css/reference/values/named-color) `mediumturquoise`.
 
 Within our wrapper, we have a left box and a right box.
 
@@ -164,7 +164,7 @@ The `.boxLeft` class, used to style the box on the left, sets up the color of th
 > [!NOTE]
 > We included the `text-decoration-*` styles separately because Safari doesn't support {{cssxref("text-decoration")}} as a shorthand property.
 
-Finally, the `.boxRight` class sets several styles on the box that's drawn to the right. Then the following colors are established (using five different ways of declaring [color values](/en-US/docs/Web/CSS/Guides/Colors/Color_values)):
+Finally, the `.boxRight` class sets several styles on the box that's drawn to the right. Then the following colors are established (using five different ways of declaring [color values](/css/guides/Colors/Color_values)):
 
 - The `background-color` is set using {{CSSXref("color_value/hwb", "hwb()")}} functional notation — `hwb(270deg 63% 13%)`. This is a medium purple color.
 - The box's `outline` is used to specify that the box should be enclosed in a four-pixel thick dashed line whose color is a somewhat deeper purple using the six-digit {{cssxref("hex-color")}} `#6e1478`.
@@ -191,7 +191,7 @@ CSS isn't the only web technology that supports color. Other examples include:
 ## See also
 
 - {{cssxref("&lt;color&gt;")}} data type
-- [CSS color values](/en-US/docs/Web/CSS/Guides/Colors/Color_values) guide
-- [Using color wisely](/en-US/docs/Web/CSS/Guides/Colors/Using_color_wisely)
-- [CSS color module](/en-US/docs/Web/CSS/Guides/Colors)
+- [CSS color values](/css/guides/Colors/Color_values) guide
+- [Using color wisely](/css/guides/Colors/Using_color_wisely)
+- [CSS color module](/css/guides/Colors)
 - [Drawing graphics](/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics)

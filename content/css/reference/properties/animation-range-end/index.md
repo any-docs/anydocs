@@ -47,7 +47,7 @@ The `animation-range-end` property specifies the end of the animation's attachme
 
 The property value can be `normal`, a `<length-percentage>`, or a {{cssxref("timeline-range-name")}} with an optional `<length-percentage>`. If the `<timeline-range-name>` value does not include a `<length-percentage>`, the percentage defaults to `100%`.
 
-The `animation-range-end` property is included in the {{cssxref("animation")}} shorthand as a reset-only value. This means that using the `animation` shorthand resets any previously declared `animation-range-end` value to `normal`; the shorthand cannot be used to set a new `animation-range-end` value. When creating [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations), you should declare `animation-range-end` _after_ declaring any `animation` shorthand to avoid resetting the value to `normal`.
+The `animation-range-end` property is included in the {{cssxref("animation")}} shorthand as a reset-only value. This means that using the `animation` shorthand resets any previously declared `animation-range-end` value to `normal`; the shorthand cannot be used to set a new `animation-range-end` value. When creating [CSS scroll-driven animations](/css/guides/Scroll-driven_animations), you should declare `animation-range-end` _after_ declaring any `animation` shorthand to avoid resetting the value to `normal`.
 
 The `animation-range-end` property, along with the {{cssxref("animation-range-start")}} property, can also be set by using the {{cssxref("animation-range")}} shorthand.
 
@@ -225,6 +225,6 @@ Scroll to see the element animate. Then toggle the checkbox at the end of the bl
 - {{cssxref("animation-range-start")}}
 - {{cssxref("view-timeline-inset")}}
 - {{domxref("Element.animate()")}} `rangeStart` property
-- [Scroll-driven animation timelines](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines)
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module
+- [Scroll-driven animation timelines](/css/guides/Scroll-driven_animations/Timelines)
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module
 - [View progress timeline: Ranges and animation progress visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/)

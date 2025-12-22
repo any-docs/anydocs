@@ -22,9 +22,9 @@ with(info, options)
 
 - `info`
   - : An object containing at least one of the properties recognized by {{jsxref("Temporal/PlainYearMonth/from", "Temporal.PlainYearMonth.from()")}} (except `calendar`): `era` and `eraYear`, `month`, `monthCode`, `year`. Unspecified properties use the values from the original year-month. You only need to provide one of `month` or `monthCode`, and one of `era` and `eraYear` or `year`, and the other will be updated accordingly.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the following property:
-    - `overflow` {{optional_inline}}
+    - `overflow` <Badge type="info" text="Optional" />
       - : A string specifying the behavior when a date component is out of range. Possible values are:
         - `"constrain"` (default)
           - : The date component is [clamped](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate#invalid_date_clamping) to the valid range.

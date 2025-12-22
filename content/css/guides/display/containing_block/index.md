@@ -5,7 +5,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-The size and position of an element are often impacted by its **containing block**. Most often, the containing block is the [content area](/en-US/docs/Web/CSS/Guides/Box_model/Introduction#content_area) of an element's nearest [block-level](/en-US/docs/Glossary/Block-level_content) ancestor, but this is not always the case. In this article, we examine the factors that determine an element's containing block.
+The size and position of an element are often impacted by its **containing block**. Most often, the containing block is the [content area](/css/guides/Box_model/Introduction#content_area) of an element's nearest [block-level](/en-US/docs/Glossary/Block-level_content) ancestor, but this is not always the case. In this article, we examine the factors that determine an element's containing block.
 
 When a user agent (such as your browser) lays out a document, it generates a box for every element. Each box is divided into four areas:
 
@@ -256,13 +256,13 @@ p {
 - {{cssxref("box-sizing")}} property
 - {{cssxref("min-content")}} and {{cssxref("max-content")}} size values
 - [Learn: sizing items in CSS](/en-US/docs/Learn_web_development/Core/Styling_basics/Sizing)
-- [Box model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction)
-- [CSS box model](/en-US/docs/Web/CSS/Guides/Box_model) module
+- [Box model](/css/guides/Box_model/Introduction)
+- [CSS box model](/css/guides/Box_model) module
 - [Layout modes](/en-US/docs/Glossary/Layout_mode)
-- [Visual formatting models](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model)
-- [Block formatting context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context)
-- [Stacking context](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context)
-- [Margin collapsing](/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing)
-- [Initial](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value), [computed](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value), [used](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value), and [actual](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#actual_value) values
+- [Visual formatting models](/css/guides/Display/Visual_formatting_model)
+- [Block formatting context](/css/guides/Display/Block_formatting_context)
+- [Stacking context](/css/guides/Positioned_layout/Stacking_context)
+- [Margin collapsing](/css/guides/Box_model/Margin_collapsing)
+- [Initial](/css/guides/Cascade/Property_value_processing#initial_value), [computed](/css/guides/Cascade/Property_value_processing#computed_value), [used](/css/guides/Cascade/Property_value_processing#used_value), and [actual](/css/guides/Cascade/Property_value_processing#actual_value) values
 - {{glossary("Replaced elements")}}
 - {{glossary("Intrinsic size")}}

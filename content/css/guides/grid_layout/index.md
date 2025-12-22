@@ -122,53 +122,53 @@ This sample animation uses {{cssxref("display")}}, {{cssxref("grid-template-colu
 
 ## Guides
 
-- [Basic concepts of grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts)
+- [Basic concepts of grid layout](/css/guides/Grid_layout/Basic_concepts)
   - : An overview of the various features provided in the CSS grid layout module.
 
-- [Relationship of grid layout with other layout methods](/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods)
+- [Relationship of grid layout with other layout methods](/css/guides/Grid_layout/Relationship_with_other_layout_methods)
   - : How grid layout fits together with other CSS features including flexbox, absolutely positioned elements, and `display: contents`.
 
-- [Grid layout using line-based placement](/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement)
+- [Grid layout using line-based placement](/css/guides/Grid_layout/Line-based_placement)
   - : Grid lines and how to position items against those lines, including the `grid-area` properties, negative line numbers, spanning multiple cells, and creating grid gutters.
 
-- [Grid template areas](/en-US/docs/Web/CSS/Guides/Grid_layout/Grid_template_areas)
+- [Grid template areas](/css/guides/Grid_layout/Grid_template_areas)
   - : Placing grid items using named template areas.
 
-- [Grid layout using named grid lines](/en-US/docs/Web/CSS/Guides/Grid_layout/Named_grid_lines)
+- [Grid layout using named grid lines](/css/guides/Grid_layout/Named_grid_lines)
   - : Combining names and track sizes; placing grid items by defining named grid lined and template areas.
 
-- [Auto-placement in grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout/Auto-placement)
+- [Auto-placement in grid layout](/css/guides/Grid_layout/Auto-placement)
   - : How grid positions items that don't have any placement properties declared.
 
-- [Aligning items in CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment)
+- [Aligning items in CSS grid layout](/css/guides/Grid_layout/Box_alignment)
   - : Aligning, justifying, and centering grid items along the two axes of a grid layout.
 
-- [Grids, logical values, and writing modes](/en-US/docs/Web/CSS/Guides/Grid_layout/Logical_values_and_writing_modes)
+- [Grids, logical values, and writing modes](/css/guides/Grid_layout/Logical_values_and_writing_modes)
   - : A look at the interaction between CSS grid layout, box alignment and writing modes, along with CSS logical and physical properties and values.
 
-- [Grid layout and accessibility](/en-US/docs/Web/CSS/Guides/Grid_layout/Accessibility)
+- [Grid layout and accessibility](/css/guides/Grid_layout/Accessibility)
   - : A look at how CSS grid layout can both help and harm accessibility.
 
-- [Realizing common layouts using grids](/en-US/docs/Web/CSS/Guides/Grid_layout/Common_grid_layouts)
+- [Realizing common layouts using grids](/css/guides/Grid_layout/Common_grid_layouts)
   - : A few different layouts demonstrating different techniques you can use when designing with CSS grid layouts, including using {{cssxref("grid-template-areas")}}, a 12-column flexible grid system, and a product listing using auto-placement.
 
-- [Subgrid](/en-US/docs/Web/CSS/Guides/Grid_layout/Subgrid)
+- [Subgrid](/css/guides/Grid_layout/Subgrid)
   - : What subgrid does with use cases and design patterns that subgrid solves.
 
-- [Masonry layout](/en-US/docs/Web/CSS/Guides/Grid_layout/Masonry_layout)
+- [Masonry layout](/css/guides/Grid_layout/Masonry_layout)
   - : Details what masonry layout is and it is used.
 
-- [Box alignment in CSS grid layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout)
+- [Box alignment in CSS grid layout](/css/guides/Box_alignment/In_grid_layout)
   - : How box alignment works in the context of grid layout.
 
 ## Related features
 
-[CSS display](/en-US/docs/Web/CSS/Guides/Display) module
+[CSS display](/css/guides/Display) module
 
 - {{CSSxRef("display")}}
 - {{CSSxRef("order")}}
 
-[CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module
+[CSS box alignment](/css/guides/Box_alignment) module
 
 - {{cssxref("align-content")}}
 - {{cssxref("align-items")}}
@@ -183,7 +183,7 @@ This sample animation uses {{cssxref("display")}}, {{cssxref("grid-template-colu
 - {{cssxref("place-self")}}
 - {{cssxref("row-gap")}}
 
-[CSS box sizing](/en-US/docs/Web/CSS/Guides/Box_sizing) module
+[CSS box sizing](/css/guides/Box_sizing) module
 
 - {{cssxref("aspect-ratio")}}
 - {{cssxref("box-sizing")}}
@@ -205,8 +205,8 @@ This sample animation uses {{cssxref("display")}}, {{cssxref("grid-template-colu
 
 ## See also
 
-- [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module
-- [CSS display](/en-US/docs/Web/CSS/Guides/Display) module
+- [CSS flexible box layout](/css/guides/Flexible_box_layout) module
+- [CSS display](/css/guides/Display) module
 - [Grid by example](https://gridbyexample.com/)
 - [CSS grid reference](https://tympanus.net/codrops/css_reference/grid/) via Codrops
 - [Firefox DevTools: grid inspector](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_grid_layouts/index.html)

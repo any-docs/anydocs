@@ -6,7 +6,7 @@ spec-urls: https://drafts.csswg.org/css-values/#url-value
 sidebar: cssref
 ---
 
-The **`<url>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) is a pointer to a resource. The resource could be an image, a video, a CSS file, a font file, an SVG feature etc.
+The **`<url>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) is a pointer to a resource. The resource could be an image, a video, a CSS file, a font file, an SVG feature etc.
 
 ## Syntax
 
@@ -18,11 +18,11 @@ The **`<url>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Refer
 
 The value is either of the following:
 
-- [`<url()>`](/en-US/docs/Web/CSS/Reference/Values/url_function)
+- [`<url()>`](/css/reference/values/url_function)
   - : The `url()` function accepts only a URL literal string (with or without quotes).
 
 > [!NOTE]
-> The specification defines an alternative function called `src()` that accepts a URL string or a [CSS variable](/en-US/docs/Web/CSS/Reference/Values/var). But no web browser has implemented the function yet.
+> The specification defines an alternative function called `src()` that accepts a URL string or a [CSS variable](/css/reference/values/var). But no web browser has implemented the function yet.
 
 ## Specifications
 

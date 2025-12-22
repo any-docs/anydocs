@@ -6,7 +6,7 @@ browser-compat: css.properties.animation-timeline.view
 sidebar: cssref
 ---
 
-The **`view()`** [CSS function](/en-US/docs/Web/CSS/Reference/Values/Functions) is used with the {{cssxref("animation-timeline")}} property to create an [anonymous view progress timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#anonymous_view_progress_timeline_the_view_function) based on when an element comes into view inside its nearest {{glossary("scroll container")}}. You can adjust the tracking axis and the optional insets to control when the element is considered "in view".
+The **`view()`** [CSS function](/css/reference/values/Functions) is used with the {{cssxref("animation-timeline")}} property to create an [anonymous view progress timeline](/css/guides/Scroll-driven_animations/Timelines#anonymous_view_progress_timeline_the_view_function) based on when an element comes into view inside its nearest {{glossary("scroll container")}}. You can adjust the tracking axis and the optional insets to control when the element is considered "in view".
 
 ## Syntax
 
@@ -217,9 +217,9 @@ Scroll to see the element with the `subject` class animate as it enters and leav
 ## See also
 
 - {{cssxref("animation-timeline")}}
-- [Scroll-driven animation timelines](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines)
-- [Using CSS animations](/en-US/docs/Web/CSS/Guides/Animations/Using)
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module
+- [Scroll-driven animation timelines](/css/guides/Scroll-driven_animations/Timelines)
+- [Using CSS animations](/css/guides/Animations/Using)
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module
+- [CSS animations](/css/guides/Animations) module
 - {{domxref("ViewTimeline")}}
 - [Web Animations API](/en-US/docs/Web/API/Web_Animations_API)

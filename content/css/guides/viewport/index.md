@@ -28,15 +28,15 @@ The {{glossary("viewport")}} initial containing block for continuous media has t
 ### Glossary terms and definitions
 
 - {{glossary("Viewport")}}
-- [Actual viewport](/en-US/docs/Web/CSS/Guides/CSSOM_view/Viewport_concepts#actual_viewport)
-- [Initial viewport](/en-US/docs/Web/CSS/Guides/CSSOM_view/Viewport_concepts#initial_viewport)
+- [Actual viewport](/css/guides/CSSOM_view/Viewport_concepts#actual_viewport)
+- [Initial viewport](/css/guides/CSSOM_view/Viewport_concepts#initial_viewport)
 
 ## Guides
 
-- [Viewport concepts](/en-US/docs/Web/CSS/Guides/CSSOM_view/Viewport_concepts)
+- [Viewport concepts](/css/guides/CSSOM_view/Viewport_concepts)
   - : The concept of the viewport — what it is, its impact in terms of CSS, SVG, and mobile devices — and the difference between the visual viewport and the layout viewport.
 
-- [Using environment variables](/en-US/docs/Web/CSS/Guides/Environment_variables/Using)
+- [Using environment variables](/css/guides/Environment_variables/Using)
   - : An overview of what environment variables are, browser-defined environment variables, and how to use the `env()` function.
 
 - [Using the Viewport Segments API](/en-US/docs/Web/API/Viewport_segments_API/Using)
@@ -44,14 +44,14 @@ The {{glossary("viewport")}} initial containing block for continuous media has t
 
 ## Related concepts
 
-- [CSS media queries](/en-US/docs/Web/CSS/Guides/Media_queries) module
+- [CSS media queries](/css/guides/Media_queries) module
   - {{cssxref("@media")}}
   - {{cssxref("@media/horizontal-viewport-segments", "horizontal-viewport-segments")}} descriptor
   - {{cssxref("@media/vertical-viewport-segments", "vertical-viewport-segments")}} descriptor
 
-- [CSS environment variables](/en-US/docs/Web/CSS/Guides/Environment_variables)
+- [CSS environment variables](/css/guides/Environment_variables)
   - {{cssxref("env()")}}
-  - [`<environment-variable-name>`](/en-US/docs/Web/CSS/Guides/Environment_variables/Using#browser-defined_environment_variables)
+  - [`<environment-variable-name>`](/css/guides/Environment_variables/Using#browser-defined_environment_variables)
 
 - [Device Posture API](/en-US/docs/Web/API/Device_Posture_API)
 
@@ -61,4 +61,4 @@ The {{glossary("viewport")}} initial containing block for continuous media has t
 
 ## See also
 
-- [CSSOM view](/en-US/docs/Web/CSS/Guides/CSSOM_view) module
+- [CSSOM view](/css/guides/CSSOM_view) module

@@ -40,10 +40,10 @@ new DataView(buffer, byteOffset, byteLength)
 - `buffer`
   - : An existing {{jsxref("ArrayBuffer")}} or {{jsxref("SharedArrayBuffer")}} to use as
     the storage backing the new `DataView` object.
-- `byteOffset` {{optional_inline}}
+- `byteOffset` <Badge type="info" text="Optional" />
   - : The offset, in bytes, to the first byte in the above buffer for the new view to
     reference. If unspecified, the buffer view starts with the first byte.
-- `byteLength` {{optional_inline}}
+- `byteLength` <Badge type="info" text="Optional" />
   - : The number of elements in the byte array. If unspecified, the view's length will
     match the buffer's length.
 

@@ -7,9 +7,9 @@ spec-urls: https://drafts.csswg.org/scroll-animations/#typedef-axis
 sidebar: cssref
 ---
 
-The **`<axis>`** {{glossary("enumerated")}} data type specifies the scrolling direction of the {{glossary("scroll container")}} controlling a [scroll timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines).
+The **`<axis>`** {{glossary("enumerated")}} data type specifies the scrolling direction of the {{glossary("scroll container")}} controlling a [scroll timeline](/css/guides/Scroll-driven_animations/Timelines).
 
-The `<axis>` keyword values are used in the following [CSS functions](/en-US/docs/Web/CSS/Reference/Values/Functions) and properties:
+The `<axis>` keyword values are used in the following [CSS functions](/css/reference/values/Functions) and properties:
 
 - {{cssxref("scroll-timeline-axis")}}
 - {{cssxref("scroll-timeline")}} shorthand
@@ -45,5 +45,5 @@ Valid `<axis>` values:
 ## See also
 
 - {{cssxref("animation-timeline")}}
-- [Scroll-driven animation timelines](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines) guide
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module
+- [Scroll-driven animation timelines](/css/guides/Scroll-driven_animations/Timelines) guide
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module

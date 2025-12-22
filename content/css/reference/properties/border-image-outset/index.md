@@ -6,7 +6,7 @@ browser-compat: css.properties.border-image-outset
 sidebar: cssref
 ---
 
-The **`border-image-outset`** [CSS](/en-US/docs/Web/CSS) property sets the distance by which an element's [border image](/en-US/docs/Web/CSS/Reference/Properties/border-image) is set out from its border box.
+The **`border-image-outset`** [CSS](/en-US/docs/Web/CSS) property sets the distance by which an element's [border image](/css/reference/properties/border-image) is set out from its border box.
 
 The parts of the border image that are rendered outside the element's border box with `border-image-outset` do not trigger overflow scrollbars and don't capture mouse events.
 
@@ -136,6 +136,6 @@ The `border-image-outset` property may be specified as one, two, three, or four 
 
 ## See also
 
-- [Backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders)
+- [Backgrounds and borders](/css/guides/Backgrounds_and_borders)
 - [Learn CSS: Backgrounds and borders](/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders)
 - [Border images in CSS: A key focus area for Interop 2023](/en-US/blog/border-images-interop-2023/) on MDN blog (2023)

@@ -49,11 +49,11 @@ To cancel a previously-made association between an anchor-positioned element and
 
 To tether a positioned element to its anchor, it must be placed relative to an anchor element using an anchor positioning feature, such as the {{cssxref("anchor()")}} function (set as a value on {{glossary("inset properties")}}) or the {{cssxref("position-area")}} property.
 
-If the associated anchor is hidden, for example with {{cssxref("display", "display: none")}} or {{cssxref("visibility", "visibility: hidden")}}, or if it is part of the [skipped contents](/en-US/docs/Web/CSS/Guides/Containment/Using#skips_its_contents) of another element due to it having {{cssxref("content-visibility", "content-visibility: hidden")}} set on it, the anchor positioned element will not be displayed.
+If the associated anchor is hidden, for example with {{cssxref("display", "display: none")}} or {{cssxref("visibility", "visibility: hidden")}}, or if it is part of the [skipped contents](/css/guides/Containment/Using#skips_its_contents) of another element due to it having {{cssxref("content-visibility", "content-visibility: hidden")}} set on it, the anchor positioned element will not be displayed.
 
 The `position-anchor` property is supported on all elements that are positioned, including [pseudo-elements](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements) like {{cssxref("::before")}} and {{cssxref("::after")}}. Pseudo elements are implicitly anchored to the same element as the pseudo-element's originating element, unless otherwise specified.
 
-For more information on anchor features and usage, see the [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning) module landing page and the [Using CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using) guide.
+For more information on anchor features and usage, see the [CSS anchor positioning](/css/guides/Anchor_positioning) module landing page and the [Using CSS anchor positioning](/css/guides/Anchor_positioning/Using) guide.
 
 ## Formal definition
 
@@ -65,7 +65,7 @@ For more information on anchor features and usage, see the [CSS anchor positioni
 
 ## Examples
 
-See the `anchor-name` documentation for [basic usage](/en-US/docs/Web/CSS/Reference/Properties/anchor-name#basic_usage) and additional [`position-anchor` examples](/en-US/docs/Web/CSS/Reference/Properties/anchor-name#examples).
+See the `anchor-name` documentation for [basic usage](/css/reference/properties/anchor-name#basic_usage) and additional [`position-anchor` examples](/css/reference/properties/anchor-name#examples).
 
 ### Using a slider thumb as an anchor
 
@@ -305,5 +305,5 @@ Select different values from the drop-down menus to change the anchors that the 
 
 - {{cssxref("anchor-name")}}
 - HTML [`anchor`](/en-US/docs/Web/HTML/Reference/Global_attributes/anchor) attribute
-- [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning) module
-- [Using CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using) guide
+- [CSS anchor positioning](/css/guides/Anchor_positioning) module
+- [Using CSS anchor positioning](/css/guides/Anchor_positioning/Using) guide

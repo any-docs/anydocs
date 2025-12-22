@@ -38,7 +38,7 @@ The `font-size-adjust` property takes as its value the keyword `none`, one (`<nu
 
 - `none`
   - : No adjustment is applied to the `font-size` value for the fallback font.
-- `<font-metric>` {{optional_inline}}
+- `<font-metric>` <Badge type="info" text="Optional" />
   - : Specifies the first-choice font metric to use for adjusting the font size of the fallback font. This parameter accepts one of the keywords listed below. It is an optional parameter, and `ex-height` is used if no `<font-metric>` is specified.
     - `ex-height`
       - : Uses the ratio of x-height (height of lowercase "x" in a font) to font size (aspect value) to adjust the fallback font size. This keyword value is used to normalize lowercase letters across fonts.

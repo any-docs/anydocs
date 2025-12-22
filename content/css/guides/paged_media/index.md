@@ -9,9 +9,9 @@ sidebar: cssref
 
 The **CSS paged media** module defines the properties that control the presentation of content for print or any other media that splits content into discrete pages. It allows you to set page breaks, control printable areas, and style left and right pages differently.
 
-The CSS paged media module specifies how pages are generated and laid out to hold fragmented content in a paged presentation, including content that is printed or represented as a print preview. The module defines functionality for controlling page margins, size, orientation, and headers and footers. It extends [generated content](/en-US/docs/Web/CSS/Guides/Generated_content) to provide functionality for generating page numbers and running headers and footers.
+The CSS paged media module specifies how pages are generated and laid out to hold fragmented content in a paged presentation, including content that is printed or represented as a print preview. The module defines functionality for controlling page margins, size, orientation, and headers and footers. It extends [generated content](/css/guides/Generated_content) to provide functionality for generating page numbers and running headers and footers.
 
-The process of paginating content into generated pages and controlling breaks inside elements is covered in the [CSS fragmentation module](/en-US/docs/Web/CSS/Guides/Fragmentation).
+The process of paginating content into generated pages and controlling breaks inside elements is covered in the [CSS fragmentation module](/css/guides/Fragmentation).
 
 ## Reference
 
@@ -24,7 +24,7 @@ The process of paginating content into generated pages and controlling breaks in
 - {{cssxref("@page")}}
   - {{cssxref("@page/page-orientation", "page-orientation")}} descriptor
   - {{cssxref("@page/size", "size")}} descriptor
-  - [Margin descriptors](/en-US/docs/Web/CSS/Reference/Properties/margin)
+  - [Margin descriptors](/css/reference/properties/margin)
 - [Margin at-rules](/en-US/docs/Web/CSS/Reference/At-rules/@page#margin_at-rules)
 
 The CSS paged media module also introduces the `bleeds` and `marks` descriptors of the `@page` at-rule. Currently, no browsers support these features.
@@ -38,12 +38,12 @@ The CSS paged media module also introduces the `bleeds` and `marks` descriptors 
 
 ## Guides
 
-- [Printing](/en-US/docs/Web/CSS/Guides/Media_queries/Printing)
+- [Printing](/css/guides/Media_queries/Printing)
   - : Tips and techniques for helping improve web content printer output.
 
 ## Related concepts
 
-- [CSS fragmentation](/en-US/docs/Web/CSS/Guides/Fragmentation) module
+- [CSS fragmentation](/css/guides/Fragmentation) module
   - {{cssxref("break-after")}} property
   - {{cssxref("break-before")}} property
   - {{cssxref("break-inside")}} property
@@ -56,5 +56,5 @@ The CSS paged media module also introduces the `bleeds` and `marks` descriptors 
 
 ## See also
 
-- [CSS fragmentation](/en-US/docs/Web/CSS/Guides/Fragmentation) module
-- [CSS media queries](/en-US/docs/Web/CSS/Guides/Media_queries) module
+- [CSS fragmentation](/css/guides/Fragmentation) module
+- [CSS media queries](/css/guides/Media_queries) module

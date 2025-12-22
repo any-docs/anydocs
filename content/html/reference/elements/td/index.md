@@ -96,7 +96,7 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Reference/Glo
 The following attributes are deprecated and should not be used. They are documented below for reference when updating existing code and for historical interest only.
 
 - `abbr` {{deprecated_inline}}
-  - : Contains a short abbreviated description of the data cell's content. Some user-agents, such as speech readers, may present this description before the content itself. Put the abbreviated content inside the cell and place the (longer) description in the [`title`](/en-US/docs/Web/HTML/Reference/Global_attributes/title) attribute, as this attribute is deprecated. Or, preferably, include the content within the data cell, and use CSS to [visually clip overflowing text](/en-US/docs/Web/CSS/Reference/Properties/text-overflow).
+  - : Contains a short abbreviated description of the data cell's content. Some user-agents, such as speech readers, may present this description before the content itself. Put the abbreviated content inside the cell and place the (longer) description in the [`title`](/en-US/docs/Web/HTML/Reference/Global_attributes/title) attribute, as this attribute is deprecated. Or, preferably, include the content within the data cell, and use CSS to [visually clip overflowing text](/css/reference/properties/text-overflow).
 
 - `align` {{deprecated_inline}}
   - : Specifies the horizontal alignment of the data cell. The possible {{Glossary("enumerated")}} values are `left`, `center`, `right`, `justify`, and `char`. When supported, the `char` value aligns the textual content on the character defined in the [`char`](#char) attribute and the offset defined by the [`charoff`](#charoff) attribute. Use the {{cssxref("text-align")}} CSS property instead, as this attribute is deprecated.
@@ -105,7 +105,7 @@ The following attributes are deprecated and should not be used. They are documen
   - : Contains a list of space-separated strings, each corresponding to the `id` attribute of a group of cells that the data cell applies to.
 
 - `bgcolor` {{deprecated_inline}}
-  - : Defines the background color of the data cell. The value is an HTML color; either a [6-digit hexadecimal RGB code](/en-US/docs/Web/CSS/Reference/Values/hex-color), prefixed by a `#`, or a [color keyword](/en-US/docs/Web/CSS/Reference/Values/named-color). Other CSS {{cssxref("color_value", "<color>")}} values are not supported. Use the {{cssxref("background-color")}} CSS property instead, as this attribute is deprecated.
+  - : Defines the background color of the data cell. The value is an HTML color; either a [6-digit hexadecimal RGB code](/css/reference/values/hex-color), prefixed by a `#`, or a [color keyword](/css/reference/values/named-color). Other CSS {{cssxref("color_value", "<color>")}} values are not supported. Use the {{cssxref("background-color")}} CSS property instead, as this attribute is deprecated.
 
 - `char` {{deprecated_inline}}
   - : Does nothing. It was originally intended to specify the alignment of the content to a character of the data cell. Typical values for this include a period (`.`) when attempting to align numbers or monetary values. If [`align`](#align) is not set to `char`, this attribute is ignored.

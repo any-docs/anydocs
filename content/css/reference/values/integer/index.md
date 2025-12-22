@@ -6,7 +6,7 @@ browser-compat: css.types.integer
 sidebar: cssref
 ---
 
-The **`<integer>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) is a special type of {{cssxref("number")}} that represents a positive or negative whole number. Integers can be used in numerous CSS properties and descriptors, such as the {{cssxref("column-count")}}, {{cssxref("counter-increment")}}, {{cssxref("grid-column")}}, {{cssxref("grid-row")}}, and {{cssxref("z-index")}} properties and the {{cssxref("@counter-style/range", "range")}} descriptor.
+The **`<integer>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) is a special type of {{cssxref("number")}} that represents a positive or negative whole number. Integers can be used in numerous CSS properties and descriptors, such as the {{cssxref("column-count")}}, {{cssxref("counter-increment")}}, {{cssxref("grid-column")}}, {{cssxref("grid-row")}}, and {{cssxref("z-index")}} properties and the {{cssxref("@counter-style/range", "range")}} descriptor.
 
 ## Syntax
 
@@ -17,7 +17,7 @@ The `<integer>` data type consists of one or several decimal digits, 0 through 9
 
 ## Interpolation
 
-When animated, values of the `<integer>` data type are {{Glossary("interpolation", "interpolated")}} using discrete, whole steps. The calculation is done as if they were real, floating-point numbers; the discrete value is obtained using the [floor function](https://en.wikipedia.org/wiki/Floor_function). The speed of the interpolation is determined by the [easing function](/en-US/docs/Web/CSS/Reference/Values/easing-function) associated with the animation.
+When animated, values of the `<integer>` data type are {{Glossary("interpolation", "interpolated")}} using discrete, whole steps. The calculation is done as if they were real, floating-point numbers; the discrete value is obtained using the [floor function](https://en.wikipedia.org/wiki/Floor_function). The speed of the interpolation is determined by the [easing function](/css/reference/values/easing-function) associated with the animation.
 
 ## Examples
 

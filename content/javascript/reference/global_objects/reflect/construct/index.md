@@ -40,7 +40,7 @@ Reflect.construct(target, argumentsList, newTarget)
   - : The target function to call.
 - `argumentsList`
   - : An [array-like object](/en-US/docs/Web/JavaScript/Guide/Indexed_collections#working_with_array-like_objects) specifying the arguments with which `target` should be called.
-- `newTarget` {{optional_inline}}
+- `newTarget` <Badge type="info" text="Optional" />
   - : The value of the [`new.target`](/en-US/docs/Web/JavaScript/Reference/Operators/new.target) expression inside `target`. Defaults to `target`. Generally ([see example](#changing_new.target)), `target` specifies the _logic_ to initialize the object, while `newTarget.prototype` specifies the _prototype_ of the constructed object.
 
 ### Return value

@@ -111,5 +111,5 @@ scroll-margin-left: unset;
 
 ## See also
 
-- [CSS scroll snap](/en-US/docs/Web/CSS/Guides/Scroll_snap)
+- [CSS scroll snap](/css/guides/Scroll_snap)
 - [Well-controlled scrolling with CSS scroll snap](https://web.dev/articles/css-scroll-snap)

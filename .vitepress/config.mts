@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import {items as HTMLSidebarItems} from "./sidebars/html";
+import {items as CSSSidebarItems} from "./sidebars/css";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -53,6 +54,7 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/css/': CSSSidebarItems,
       '/html/': HTMLSidebarItems,
       '/php/': [{
         text: 'PHP',

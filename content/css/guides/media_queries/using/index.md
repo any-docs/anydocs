@@ -9,9 +9,9 @@ sidebar: cssref
 
 Media queries are used for the following:
 
-- To conditionally apply styles with the [CSS](/en-US/docs/Web/CSS) {{cssxref("@media")}}, {{cssxref("@custom-media")}} and {{cssxref("@import")}} [at-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules).
+- To conditionally apply styles with the [CSS](/en-US/docs/Web/CSS) {{cssxref("@media")}}, {{cssxref("@custom-media")}} and {{cssxref("@import")}} [at-rules](/css/guides/Syntax/At-rules).
 - To target specific media for the {{HTMLElement("style")}}, {{HTMLElement("link")}}, {{HTMLElement("source")}}, and other [HTML](/en-US/docs/Web/HTML) elements with the `media=` or `sizes="` attributes.
-- To [test and monitor media states](/en-US/docs/Web/CSS/Guides/Media_queries/Testing) using the {{domxref("Window.matchMedia()")}} and {{domxref("EventTarget.addEventListener()")}} methods.
+- To [test and monitor media states](/css/guides/Media_queries/Testing) using the {{domxref("Window.matchMedia()")}} and {{domxref("EventTarget.addEventListener()")}} methods.
 
 > [!NOTE]
 > The examples on this page use CSS's `@media` for illustrative purposes, but the basic syntax remains the same for all types of media queries.
@@ -318,8 +318,8 @@ For example, the following queries are both valid:
 ## See also
 
 - [@media](/en-US/docs/Web/CSS/Reference/At-rules/@media)
-- [Container queries](/en-US/docs/Web/CSS/Guides/Containment/Container_queries)
-- [Testing media queries programmatically](/en-US/docs/Web/CSS/Guides/Media_queries/Testing)
+- [Container queries](/css/guides/Containment/Container_queries)
+- [Testing media queries programmatically](/css/guides/Media_queries/Testing)
 - [CSS Animations Between Media Queries](https://davidwalsh.name/animate-media-queries)
 - [Extended Mozilla media features](/en-US/docs/Web/CSS/Reference/Mozilla_extensions#media_features)
 - [Extended WebKit media features](/en-US/docs/Web/CSS/Reference/Webkit_extensions#media_features)

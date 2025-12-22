@@ -6,7 +6,7 @@ browser-compat: css.types.image.paint
 sidebar: cssref
 ---
 
-The **`paint()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) defines an {{cssxref("image")}} value generated with a PaintWorklet.
+The **`paint()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) defines an {{cssxref("image")}} value generated with a PaintWorklet.
 
 ## Syntax
 
@@ -18,7 +18,7 @@ where:
 
 - _workletName_
   - : The name of the registered worklet.
-- _parameters_ {{optional_inline}}
+- _parameters_ <Badge type="info" text="Optional" />
   - : Optional additional parameters to pass to the paintWorklet
 
 ## Formal syntax

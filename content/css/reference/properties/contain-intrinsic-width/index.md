@@ -6,7 +6,7 @@ browser-compat: css.properties.contain-intrinsic-width
 sidebar: cssref
 ---
 
-The **`contain-intrinsic-width`** [CSS](/en-US/docs/Web/CSS) property sets the width of an element that a browser will use for layout when the element is subject to [size containment](/en-US/docs/Web/CSS/Guides/Containment/Using#size_containment).
+The **`contain-intrinsic-width`** [CSS](/en-US/docs/Web/CSS) property sets the width of an element that a browser will use for layout when the element is subject to [size containment](/css/guides/Containment/Using#size_containment).
 
 ## Syntax
 
@@ -42,14 +42,14 @@ The following values may be specified for an element.
 
 ## Description
 
-The property is commonly applied alongside elements that can trigger size containment, such as [`contain: size`](/en-US/docs/Web/CSS/Reference/Properties/contain) and {{cssxref("content-visibility")}}, and may also be set using the {{cssxref("contain-intrinsic-size")}} [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties).
+The property is commonly applied alongside elements that can trigger size containment, such as [`contain: size`](/css/reference/properties/contain) and {{cssxref("content-visibility")}}, and may also be set using the {{cssxref("contain-intrinsic-size")}} [shorthand property](/css/guides/Cascade/Shorthand_properties).
 
 Size containment allows a user agent to lay out an element as though it had a fixed size, preventing unnecessary reflows by avoiding the re-rendering of child elements to determine the actual size (thereby improving user experience).
 By default, size containment treats elements as though they had no contents, and may collapse the layout in the same way as if the contents had no width or height.
 The `contain-intrinsic-width` property allows authors to specify an appropriate value to be used as the width for layout.
 
 The `auto <length>` value allows the width of the element to be stored if the element is ever "normally rendered" (with its child elements), and then used instead of the specified width when the element is skipping its contents.
-This allows offscreen elements with [`content-visibility: auto`](/en-US/docs/Web/CSS/Reference/Properties/content-visibility) to benefit from size containment without developers having to be as precise in their estimates of element size.
+This allows offscreen elements with [`content-visibility: auto`](/css/reference/properties/content-visibility) to benefit from size containment without developers having to be as precise in their estimates of element size.
 The remembered value is not used if the child elements are being rendered (if size containment is enabled, the `<length>` will be used).
 
 ## Formal definition

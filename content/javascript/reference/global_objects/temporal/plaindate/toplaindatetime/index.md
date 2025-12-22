@@ -18,7 +18,7 @@ toPlainDateTime(plainTime)
 
 ### Parameters
 
-- `plainTime` {{optional_inline}}
+- `plainTime` <Badge type="info" text="Optional" />
   - : A string, an object, or a {{jsxref("Temporal.PlainTime")}} instance representing the time component of the resulting `PlainDateTime`. It is converted to a `Temporal.PlainTime` object using the same algorithm as {{jsxref("Temporal/PlainTime/from", "Temporal.PlainTime.from()")}}. Defaults to `"00:00:00"`.
 
 ### Return value

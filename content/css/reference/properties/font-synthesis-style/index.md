@@ -179,5 +179,5 @@ p {
 
 ## See also
 
-- [font-synthesis](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis) shorthand, [font-synthesis-small-caps](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-small-caps), [font-synthesis-weight](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-weight)
+- [font-synthesis](/css/reference/properties/font-synthesis) shorthand, [font-synthesis-small-caps](/css/reference/properties/font-synthesis-small-caps), [font-synthesis-weight](/css/reference/properties/font-synthesis-weight)
 - {{cssxref("font-style")}}, {{cssxref("font-variant")}}, {{cssxref("font-weight")}}

@@ -5,7 +5,7 @@ page-type: how-to
 sidebar: cssref
 ---
 
-You will often need to create a layout which has a number of columns, and CSS provides several ways to do this. Whether you use [Multi-column](/en-US/docs/Web/CSS/Guides/Multicol_layout), [Flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout), or [Grid](/en-US/docs/Web/CSS/Guides/Grid_layout) layout will depend on what you are trying to achieve, and in this recipe we explore these options.
+You will often need to create a layout which has a number of columns, and CSS provides several ways to do this. Whether you use [Multi-column](/css/guides/Multicol_layout), [Flexbox](/css/guides/Flexible_box_layout), or [Grid](/css/guides/Grid_layout) layout will depend on what you are trying to achieve, and in this recipe we explore these options.
 
 ![three different styles of layouts which have two columns in the container.](cookbook-multiple-columns.png)
 
@@ -231,6 +231,6 @@ Use grid:
 
 ## Resources on MDN
 
-- [Guide to Multi-column Layout](/en-US/docs/Web/CSS/Guides/Multicol_layout)
-- [Guide to flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout)
-- [Guide to CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout)
+- [Guide to Multi-column Layout](/css/guides/Multicol_layout)
+- [Guide to flexbox](/css/guides/Flexible_box_layout)
+- [Guide to CSS grid layout](/css/guides/Grid_layout)

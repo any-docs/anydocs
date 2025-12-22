@@ -35,7 +35,7 @@ The `position-try-order` property may be specified as either the keyword value `
 
 - `normal`
   - : The default. No position-try fallback options will be tried when the element is first displayed.
-- `<try-size>`
+#### `<try-size>`
   - : Defines the different try size fallback options, which specify criteria that determine what try fallback should be applied to the anchor-positioned element when it initially renders. Available values are:
     - `most-height`
       - : The position try fallback option will be applied that gives the element's containing block the most height.
@@ -54,7 +54,7 @@ The browser will test the available position-try fallback options to find which 
 
 If no position try fallback option is available that provides more width/height than the initial positioning assigned to the element, no position try option will be applied. In effect, the behavior is as if `position-try-order` was set to `normal`.
 
-For detailed information on anchor features and position try option usage, see the [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning) module landing page and the [Fallback options and conditional hiding for overflow](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding) guide.
+For detailed information on anchor features and position try option usage, see the [CSS anchor positioning](/css/guides/Anchor_positioning) module landing page and the [Fallback options and conditional hiding for overflow](/css/guides/Anchor_positioning/Try_options_hiding) guide.
 
 ## Formal definition
 
@@ -210,6 +210,6 @@ Try selecting the `most-height` order option. This has the effect of applying `-
 - {{cssxref("position-try")}}
 - {{cssxref("position-try-fallbacks")}}
 - The {{cssxref("@position-try")}} at-rule
-- [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning) module
-- [Using CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using) guide
-- [Fallback options and conditional hiding for overflow](/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding) guide
+- [CSS anchor positioning](/css/guides/Anchor_positioning) module
+- [Using CSS anchor positioning](/css/guides/Anchor_positioning/Using) guide
+- [Fallback options and conditional hiding for overflow](/css/guides/Anchor_positioning/Try_options_hiding) guide

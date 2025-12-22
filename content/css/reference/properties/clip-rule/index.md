@@ -6,7 +6,7 @@ browser-compat: css.properties.clip-rule
 sidebar: cssref
 ---
 
-The **`clip-rule`** [CSS](/en-US/docs/Web/CSS) property determines, when parts of the path overlap other parts, which pixels in a mask's box are inside the clipping shape defined by a [clip path](/en-US/docs/Web/CSS/Reference/Properties/clip-path) and which are outside.
+The **`clip-rule`** [CSS](/en-US/docs/Web/CSS) property determines, when parts of the path overlap other parts, which pixels in a mask's box are inside the clipping shape defined by a [clip path](/css/reference/properties/clip-path) and which are outside.
 
 The `clip-rule` property only applies to SVG elements that are contained within a {{SVGElement("clipPath")}} element, overriding the element's {{SVGAttr("clip-rule")}} attribute value if present. The `clip-rule` property basically works as the {{cssxref("fill-rule")}} property, except that it applies to `<clipPath>` definitions. It does not have any effect on CSS {{cssxref("basic-shape")}}s.
 
@@ -128,7 +128,7 @@ We include an SVG with two `<clipPath>` elements that define star shapes, which 
 
 #### CSS
 
-We provide the `<div>` elements with a set {{cssxref("width")}} and {{cssxref("height")}}, adding a [`conic-gradient()`](/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient) for their {{cssxref("background-image")}} value:
+We provide the `<div>` elements with a set {{cssxref("width")}} and {{cssxref("height")}}, adding a [`conic-gradient()`](/css/reference/values/gradient/conic-gradient) for their {{cssxref("background-image")}} value:
 
 ```css hidden
 body {
@@ -279,8 +279,8 @@ In this case, because the outer part of the path moves in a clockwise (left-to-r
 
 - {{cssxref("fill-rule")}}
 - {{cssxref("clip-path")}}
-- [Introduction to CSS clipping](/en-US/docs/Web/CSS/Guides/Masking/Clipping)
-- [CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
+- [Introduction to CSS clipping](/css/guides/Masking/Clipping)
+- [CSS masking](/css/guides/Masking) module
 - SVG {{SVGAttr("clip-rule")}} attribute
 - SVG {{SVGElement("clipPath")}} element
 - SVG {{SVGAttr("fill-rule")}} attribute

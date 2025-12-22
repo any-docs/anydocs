@@ -6,7 +6,7 @@ browser-compat: css.types.max
 sidebar: cssref
 ---
 
-The **`max()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) lets you set the largest (most positive) value from a list of comma-separated expressions as the value of a CSS property value. The `max()` function can be used anywhere a {{CSSxRef("&lt;length&gt;")}}, {{CSSxRef("&lt;frequency&gt;")}}, {{cssxref("angle")}}, {{CSSxRef("&lt;time&gt;")}}, {{CSSxRef("&lt;percentage&gt;")}}, {{CSSxRef("&lt;number&gt;")}}, or {{CSSxRef("&lt;integer&gt;")}} is allowed.
+The **`max()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) lets you set the largest (most positive) value from a list of comma-separated expressions as the value of a CSS property value. The `max()` function can be used anywhere a {{CSSxRef("&lt;length&gt;")}}, {{CSSxRef("&lt;frequency&gt;")}}, {{cssxref("angle")}}, {{CSSxRef("&lt;time&gt;")}}, {{CSSxRef("&lt;percentage&gt;")}}, {{CSSxRef("&lt;number&gt;")}}, or {{CSSxRef("&lt;integer&gt;")}} is allowed.
 
 {{InteractiveExample("CSS Demo: max()")}}
 
@@ -63,7 +63,7 @@ You can use different units for each value in your expression. You may also use 
 
 ## Accessibility
 
-When `max()` is used for controlling text size, make sure the text is always large enough to read. A suggestion is to use the {{cssxref("min()")}} function nested within a `max()` that has as its second value a [relative length unit](/en-US/docs/Web/CSS/Reference/Values/length#relative_length_units) that is always large enough to read. For example:
+When `max()` is used for controlling text size, make sure the text is always large enough to read. A suggestion is to use the {{cssxref("min()")}} function nested within a `max()` that has as its second value a [relative length unit](/css/reference/values/length#relative_length_units) that is always large enough to read. For example:
 
 ```css
 small {

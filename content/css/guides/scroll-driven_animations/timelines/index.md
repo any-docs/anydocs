@@ -7,13 +7,13 @@ sidebar: cssref
 
 A common UI pattern involves elements that animate as the user scrolls vertically or horizontally across a page. These _scroll-driven animations_ occur in direct response to page scrolling or an overflowing scroll container within a page.
 
-The properties defined in the [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module expand upon [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) by enabling animating property values defined in {{cssxref("@keyframes")}} animations in response to user interaction.
+The properties defined in the [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module expand upon [CSS animations](/css/guides/Animations) by enabling animating property values defined in {{cssxref("@keyframes")}} animations in response to user interaction.
 
 This guide provides an overview of using CSS to create scroll-driven animation timelines and animations.
 
 ## What is scroll-driven animation?
 
-The [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module defines properties that enable [CSS keyframe animations](/en-US/docs/Web/CSS/Guides/Animations/Using#defining_an_animation_sequence_using_keyframes) to be linked to scrolling.
+The [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module defines properties that enable [CSS keyframe animations](/css/guides/Animations/Using#defining_an_animation_sequence_using_keyframes) to be linked to scrolling.
 
 ### Timeline progression
 
@@ -25,7 +25,7 @@ CSS scroll-driven animations are performant. JavaScript scroll-driven animations
 
 ## Foundations
 
-Scroll-driven animations build upon [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) and the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API). Before creating scroll-driven animations, you must have an understanding of CSS {{cssxref("@keyframes")}} animations. See the [using CSS animations guide](/en-US/docs/Web/CSS/Guides/Animations/Using) to learn more.
+Scroll-driven animations build upon [CSS animations](/css/guides/Animations) and the [Web Animations API](/en-US/docs/Web/API/Web_Animations_API). Before creating scroll-driven animations, you must have an understanding of CSS {{cssxref("@keyframes")}} animations. See the [using CSS animations guide](/css/guides/Animations/Using) to learn more.
 
 In CSS, animations are created by attaching keyframe animations to an element using the {{cssxref("animation-name")}} property (or {{cssxref("animation")}} shorthand). By default, animations run on the default document timeline, moving from the `from` keyframe to the `to` keyframe as time passes by, with the animation lasting as long as the time defined by the {{cssxref("animation-duration")}} property value. When set to run on the default document timeline, animations play through to completion unless prevented from doing so, for example, by having the {{cssxref("animation-play-state")}} set to `paused` or by removing the `animation-name` from the element.
 
@@ -33,9 +33,9 @@ Scroll-driven animations are CSS animations that are not run on the default [Doc
 
 ## Animation timelines
 
-The {{cssxref("animation-timeline")}} property, defined in the [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module, is used to set the timeline used for the animation.
+The {{cssxref("animation-timeline")}} property, defined in the [CSS animations](/css/guides/Animations) module, is used to set the timeline used for the animation.
 
-The [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module defines features for setting the `animation-timeline` as a scroll-progress or view-progress timeline. You can explicitly [name an element as a timeline controller](#named_scroll_progress_timelines) using the `scroll-timeline-*` and `view-timeline-*` properties, then set that name as the `animation-timeline` of a descendant element. You can also define _anonymous scroll progress timelines_ and _anonymous view progress timelines_ using the [`scroll()`](#scroll_progress_timelines) and [`view()`](#view_progress_timelines)) functions.
+The [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module defines features for setting the `animation-timeline` as a scroll-progress or view-progress timeline. You can explicitly [name an element as a timeline controller](#named_scroll_progress_timelines) using the `scroll-timeline-*` and `view-timeline-*` properties, then set that name as the `animation-timeline` of a descendant element. You can also define _anonymous scroll progress timelines_ and _anonymous view progress timelines_ using the [`scroll()`](#scroll_progress_timelines) and [`view()`](#view_progress_timelines)) functions.
 
 Alternatively, the `animation-timeline` property can be used to explicitly state that the [default document timeline be used](#regular_css_animations_default_document_timeline) or to specify that the [animation doesn't have a timeline](#removing_an_animations_timeline), and therefore shouldn't occur at all.
 
@@ -177,13 +177,13 @@ Before any scrolling occurs, the container's position is at the top of the scrol
 
 #### Animation duration
 
-You may have noticed that the {{cssxref("animation-duration")}} component of the `animation` shorthand was set to `1ms`. When creating [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations), specifying an `animation-duration` value does not affect the duration of the animation, and shouldn't be necessary. However, durations can affect non-linear view progress animation timelines, and Firefox requires a non-zero `animation-duration` to apply an animation to an element. For these reasons, it is common practice to set `animation-duration` to `1ms`.
+You may have noticed that the {{cssxref("animation-duration")}} component of the `animation` shorthand was set to `1ms`. When creating [CSS scroll-driven animations](/css/guides/Scroll-driven_animations), specifying an `animation-duration` value does not affect the duration of the animation, and shouldn't be necessary. However, durations can affect non-linear view progress animation timelines, and Firefox requires a non-zero `animation-duration` to apply an animation to an element. For these reasons, it is common practice to set `animation-duration` to `1ms`.
 
 Setting `animation-duration: 1ms` ensures that the animation works in Firefox, the animation effect is consistent across all browsers, and the animation is hidden if a browser doesn't support view progress animation timelines. If the browser supports keyframe animations, the animation will not be visible to the user. However, the animation still happens, and animation events are fired.
 
 ### Anonymous scroll progress timelines
 
-You don't have to name your scroll progress timeline. Instead, you can associate an _anonymous scroll progress timeline_ with the animation. In this case, the `animation-timeline` of the element to animate is set to a {{cssxref("animation-timeline/scroll", "scroll()")}} function. The function selects the scroller that provides the scroll progress timeline and the scroll axis to use based on the optional arguments you pass to it. One parameter is a [`<scroller>`](/en-US/docs/Web/CSS/Reference/Properties/animation-timeline/scroll#scroller) keyword defining the relationship of the scroller element to the current element (`nearest`, `root`, or `self`). The other is the scrollbar [`<axis>`](/en-US/docs/Web/CSS/Reference/Properties/animation-timeline/scroll#axis) value (`block`, `inline`, `y`, or `x`).
+You don't have to name your scroll progress timeline. Instead, you can associate an _anonymous scroll progress timeline_ with the animation. In this case, the `animation-timeline` of the element to animate is set to a {{cssxref("animation-timeline/scroll", "scroll()")}} function. The function selects the scroller that provides the scroll progress timeline and the scroll axis to use based on the optional arguments you pass to it. One parameter is a [`<scroller>`](/css/reference/properties/animation-timeline/scroll#scroller) keyword defining the relationship of the scroller element to the current element (`nearest`, `root`, or `self`). The other is the scrollbar [`<axis>`](/css/reference/properties/animation-timeline/scroll#axis) value (`block`, `inline`, `y`, or `x`).
 
 This example uses all the same CSS as the previous example, except for the `animation-timeline`, which we set to a `scroll()` function. We are also overriding the size of the container to change the direction of the scroll:
 
@@ -360,5 +360,5 @@ Because the `animation` shorthand sets the `animation-timeline` to `auto`, use a
 
 ## See also
 
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations)
+- [CSS animations](/css/guides/Animations)
 - [Web Animations API](/en-US/docs/Web/API/Web_Animations_API)

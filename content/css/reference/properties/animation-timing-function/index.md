@@ -174,10 +174,10 @@ animation-timing-function: unset;
       - : Equal to `steps(1, jump-end)`
 
 > [!NOTE]
-> When you specify multiple comma-separated values on an `animation-*` property, they are applied to the animations in the order in which the {{cssxref("animation-name")}}s appear. For situations where the number of animations and `animation-*` property values do not match, see [Setting multiple animation property values](/en-US/docs/Web/CSS/Guides/Animations/Using#setting_multiple_animation_property_values).
+> When you specify multiple comma-separated values on an `animation-*` property, they are applied to the animations in the order in which the {{cssxref("animation-name")}}s appear. For situations where the number of animations and `animation-*` property values do not match, see [Setting multiple animation property values](/css/guides/Animations/Using#setting_multiple_animation_property_values).
 
 > [!NOTE]
-> `animation-timing-function` has the same effect when creating [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) as it does for regular time-based animations.
+> `animation-timing-function` has the same effect when creating [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) as it does for regular time-based animations.
 
 ## Description
 
@@ -572,9 +572,9 @@ The following image shows graphs of all the `step()` function values used in thi
 
 ## See also
 
-- [Using CSS animations](/en-US/docs/Web/CSS/Guides/Animations/Using)
+- [Using CSS animations](/css/guides/Animations/Using)
 - {{cssxref('easing-function')}}
-- [CSS easing functions](/en-US/docs/Web/CSS/Guides/Easing_functions) module
+- [CSS easing functions](/css/guides/Easing_functions) module
 - JavaScript {{domxref("AnimationEvent")}} API
 - [Cubic bézier generation tool](https://cubic-bezier.com/)
 - Other related animation properties: {{cssxref("animation")}}, {{cssxref("animation-composition")}}, {{cssxref("animation-delay")}}, {{cssxref("animation-direction")}}, {{cssxref("animation-duration")}}, {{cssxref("animation-fill-mode")}}, {{cssxref("animation-iteration-count")}}, {{cssxref("animation-name")}}, {{cssxref("animation-play-state")}}, {{cssxref("animation-timeline")}}

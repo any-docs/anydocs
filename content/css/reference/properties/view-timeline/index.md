@@ -6,7 +6,7 @@ browser-compat: css.properties.view-timeline
 sidebar: cssref
 ---
 
-The **`view-timeline`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) defines a [named view progress timeline's](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#named_view_progress_timeline) name, direction, and inset values.
+The **`view-timeline`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/css/guides/Cascade/Shorthand_properties) defines a [named view progress timeline's](/css/guides/Scroll-driven_animations/Timelines#named_view_progress_timeline) name, direction, and inset values.
 
 ## Constituent properties
 
@@ -210,5 +210,5 @@ Scroll to see the subject element being animated.
 - {{cssxref("animation-timeline")}}
 - {{cssxref("view-timeline-axis")}}, {{cssxref("view-timeline-inset")}}, {{cssxref("view-timeline-name")}}
 - {{cssxref("animation-timeline/view", "view()")}}
-- [Guide: CSS scroll driven animation timelines](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#named_view_progress_timeline)
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations)
+- [Guide: CSS scroll driven animation timelines](/css/guides/Scroll-driven_animations/Timelines#named_view_progress_timeline)
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations)

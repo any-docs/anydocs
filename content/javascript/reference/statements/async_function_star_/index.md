@@ -56,9 +56,9 @@ async function* name(param0, param1, /* …, */ paramN) {
 
 - `name`
   - : The function name.
-- `param` {{optional_inline}}
+- `param` <Badge type="info" text="Optional" />
   - : The name of a formal parameter for the function. For the parameters' syntax, see the [Functions reference](/en-US/docs/Web/JavaScript/Guide/Functions#function_parameters).
-- `statements` {{optional_inline}}
+- `statements` <Badge type="info" text="Optional" />
   - : The statements comprising the body of the function.
 
 ## Description

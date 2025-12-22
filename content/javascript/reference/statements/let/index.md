@@ -38,7 +38,7 @@ let name1 = value1, name2, /* …, */ nameN = valueN;
 
 - `nameN`
   - : The name of the variable to declare. Each must be a legal JavaScript [identifier](/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#identifiers) or a [destructuring binding pattern](/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring).
-- `valueN` {{optional_inline}}
+- `valueN` <Badge type="info" text="Optional" />
   - : Initial value of the variable. It can be any legal expression. Default value is `undefined`.
 
 ## Description

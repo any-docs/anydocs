@@ -269,6 +269,6 @@ Try navigating either by clicking the links or by scrolling. In both cases, you'
 - {{cssxref(":target-current")}}, {{cssxref(":target-before")}}
 - {{cssxref("::scroll-marker")}}
 - {{cssxref("::scroll-marker-group")}}
-- [Creating CSS carousels](/en-US/docs/Web/CSS/Guides/Overflow/Carousels)
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
+- [Creating CSS carousels](/css/guides/Overflow/Carousels)
+- [CSS overflow](/css/guides/Overflow) module
 - [CSS Carousel Gallery](https://chrome.dev/carousel/) via chrome.dev (2025)

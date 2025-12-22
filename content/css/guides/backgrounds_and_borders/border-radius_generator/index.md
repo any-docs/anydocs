@@ -12,6 +12,6 @@ This tool can be used to generate CSS {{cssxref("border-radius")}} effects.
 ## See also
 
 - Other tools:
-  - [Border-image generator](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator)
-  - [Box-shadow generator](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator)
-- [CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) module
+  - [Border-image generator](/css/guides/Backgrounds_and_borders/Border-image_generator)
+  - [Box-shadow generator](/css/guides/Backgrounds_and_borders/Box-shadow_generator)
+- [CSS backgrounds and borders](/css/guides/Backgrounds_and_borders) module

@@ -6,9 +6,9 @@ browser-compat: css.properties.color
 sidebar: cssref
 ---
 
-The **`color`** [CSS](/en-US/docs/Web/CSS) property sets the foreground [color value](/en-US/docs/Web/CSS/Reference/Values/color_value) of an element's text and [text decorations](/en-US/docs/Web/CSS/Reference/Properties/text-decoration), and sets the [`currentColor`](/en-US/docs/Web/CSS/Reference/Values/color_value#currentcolor_keyword) value. `currentColor` may be used as an indirect value on _other_ properties and is the default for other color properties, such as {{cssxref("border-color")}}.
+The **`color`** [CSS](/en-US/docs/Web/CSS) property sets the foreground [color value](/css/reference/values/color_value) of an element's text and [text decorations](/css/reference/properties/text-decoration), and sets the [`currentColor`](/css/reference/values/color_value#currentcolor_keyword) value. `currentColor` may be used as an indirect value on _other_ properties and is the default for other color properties, such as {{cssxref("border-color")}}.
 
-For an overview of using color in HTML, see [Applying color to HTML elements using CSS](/en-US/docs/Web/CSS/Guides/Colors/Applying_color).
+For an overview of using color in HTML, see [Applying color to HTML elements using CSS](/css/guides/Colors/Applying_color).
 
 {{InteractiveExample("CSS Demo: color")}}
 
@@ -117,14 +117,14 @@ Note that the value must be a uniform color. It can't be a {{cssxref("gradient")
 
 - {{cssxref("&lt;color&gt;")}}
   - : Sets the color of the textual and decorative parts of the element.
-- [`currentColor`](/en-US/docs/Web/CSS/Reference/Values/color_value#currentcolor_keyword)
+- [`currentColor`](/css/reference/values/color_value#currentcolor_keyword)
   - : Sets the color to the element's `color` property value. However, if set as the value of `color`, `currentColor` is treated as `inherit`.
 
 ## Accessibility
 
 It is important to ensure that the contrast ratio between the color of the text and the background the text is placed over is high enough that people experiencing low vision conditions will be able to read the content of the page.
 
-Color contrast ratio is determined by comparing the luminosity of the text and background color values. In order to meet current [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/), a ratio of 4.5:1 is required for text content and 3:1 for larger text such as headings. Large text is defined as 18.66px and [bold](/en-US/docs/Web/CSS/Reference/Properties/font-weight) or larger, or 24px or larger.
+Color contrast ratio is determined by comparing the luminosity of the text and background color values. In order to meet current [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/), a ratio of 4.5:1 is required for text content and 3:1 for larger text such as headings. Large text is defined as 18.66px and [bold](/css/reference/properties/font-weight) or larger, or 24px or larger.
 
 - [WebAIM: Color Contrast Checker](https://webaim.org/resources/contrastchecker/)
 - [MDN Understanding WCAG, Guideline 1.4 explanations](/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable#guideline_1.4_make_it_easier_for_users_to_see_and_hear_content_including_separating_foreground_from_background)
@@ -190,5 +190,5 @@ p {
 - Other color-related properties: {{cssxref("background-color")}}, {{cssxref("border-color")}}, {{cssxref("outline-color")}}, {{cssxref("text-decoration-color")}}, {{cssxref("text-emphasis-color")}}, {{cssxref("text-shadow")}}, {{cssxref("caret-color")}}, {{cssxref("column-rule-color")}}, and {{cssxref("print-color-adjust")}}
 - SVG {{SVGAttr("color")}} attribute
 - {{CSSXref("color_value/color")}} function
-- [Applying color to HTML elements using CSS](/en-US/docs/Web/CSS/Guides/Colors/Applying_color)
+- [Applying color to HTML elements using CSS](/css/guides/Colors/Applying_color)
 - [WCAG: color contrast](/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable/Color_contrast)

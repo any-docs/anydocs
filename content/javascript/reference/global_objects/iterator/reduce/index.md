@@ -26,7 +26,7 @@ reduce(callbackFn, initialValue)
       - : The value of the current element. On the first call, its value is the first element of the iterator if `initialValue` is specified; otherwise its value is the second element.
     - `currentIndex`
       - : The index position of `currentValue`. On the first call, its value is `0` if `initialValue` is specified, otherwise `1`.
-- `initialValue` {{optional_inline}}
+- `initialValue` <Badge type="info" text="Optional" />
   - : A value to which `accumulator` is initialized the first time the callback is called. If `initialValue` is specified, `callbackFn` starts executing with the first element as `currentValue`. If `initialValue` is _not_ specified, `accumulator` is initialized to the first element, and `callbackFn` starts executing with the second element as `currentValue`. In this case, if the iterator is empty (so that there's no first value to return as `accumulator`), an error is thrown.
 
 ### Return value

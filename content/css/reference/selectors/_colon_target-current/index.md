@@ -10,7 +10,7 @@ sidebar: cssref
 
 {{SeeCompatTable}}
 
-The **`:target-current`** [CSS](/en-US/docs/Web/CSS) [pseudo-class](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes) selects the **active** scroll marker — the scroll marker of a {{cssxref("scroll-marker-group")}} that is currently scrolled to. This [selector](/en-US/docs/Web/CSS/Guides/Selectors) can be used to style the active navigation position within a scroll marker group.
+The **`:target-current`** [CSS](/en-US/docs/Web/CSS) [pseudo-class](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes) selects the **active** scroll marker — the scroll marker of a {{cssxref("scroll-marker-group")}} that is currently scrolled to. This [selector](/css/guides/Selectors) can be used to style the active navigation position within a scroll marker group.
 
 > [!NOTE]
 > The `:target-current` pseudo-class is only valid on {{cssxref("::scroll-marker")}} pseudo-elements and elements that have been designated as scroll markers using the {{cssxref("scroll-target-group")}} property.
@@ -25,7 +25,7 @@ The **`:target-current`** [CSS](/en-US/docs/Web/CSS) [pseudo-class](/en-US/docs/
 
 ## Examples
 
-See [Creating CSS carousels](/en-US/docs/Web/CSS/Guides/Overflow/Carousels) and {{cssxref("::scroll-marker")}} for complete examples that use the `:target-current` pseudo-class.
+See [Creating CSS carousels](/css/guides/Overflow/Carousels) and {{cssxref("::scroll-marker")}} for complete examples that use the `:target-current` pseudo-class.
 
 ### Basic usage
 
@@ -54,6 +54,6 @@ See [Creating CSS carousels](/en-US/docs/Web/CSS/Guides/Overflow/Carousels) and 
 - {{cssxref(":target-before")}}, {{cssxref(":target-after")}}
 - {{cssxref("::scroll-marker")}}
 - {{cssxref("::scroll-marker-group")}}
-- [Creating CSS carousels](/en-US/docs/Web/CSS/Guides/Overflow/Carousels)
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
+- [Creating CSS carousels](/css/guides/Overflow/Carousels)
+- [CSS overflow](/css/guides/Overflow) module
 - [CSS Carousel Gallery](https://chrome.dev/carousel/) via chrome.dev (2025)

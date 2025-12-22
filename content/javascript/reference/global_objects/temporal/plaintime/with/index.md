@@ -20,9 +20,9 @@ with(info, options)
 
 - `info`
   - : An object containing at least one of the properties recognized by {{jsxref("Temporal/PlainTime/from", "Temporal.PlainTime.from()")}}: `hour`, `microsecond`, `millisecond`, `minute`, `nanosecond`, `second`. Unspecified properties use the values from the original time.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the following property:
-    - `overflow` {{optional_inline}}
+    - `overflow` <Badge type="info" text="Optional" />
       - : A string specifying the behavior when a time component is out of range. Possible values are:
         - `"constrain"` (default)
           - : The time component is clamped to the valid range.

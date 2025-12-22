@@ -36,7 +36,7 @@ padStart(targetLength, padString)
 
 - `targetLength`
   - : The length of the resulting string once the current `str` has been padded. If the value is less than or equal to `str.length`, then `str` is returned as-is.
-- `padString` {{optional_inline}}
+- `padString` <Badge type="info" text="Optional" />
   - : The string to pad the current `str` with. If `padString` is too long to stay within `targetLength`, it will be truncated from the end. The default value is the space character (U+0020).
 
 ### Return value

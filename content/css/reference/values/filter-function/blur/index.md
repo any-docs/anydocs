@@ -6,7 +6,7 @@ browser-compat: css.types.filter-function.blur
 sidebar: cssref
 ---
 
-The **`blur()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) applies a [Gaussian blur](https://en.wikipedia.org/wiki/Gaussian_blur) to the input image. Its result is a {{cssxref("filter-function")}}.
+The **`blur()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) applies a [Gaussian blur](https://en.wikipedia.org/wiki/Gaussian_blur) to the input image. Its result is a {{cssxref("filter-function")}}.
 
 {{InteractiveExample("CSS Demo: blur()")}}
 
@@ -44,7 +44,7 @@ blur(1.17rem)  /* Blur with 1.17rem radius */
 
 ### Parameters
 
-- {{cssxref("length")}} {{Optional_Inline}}
+- {{cssxref("length")}} <Badge type="info" text="Optional" />
   - : Specifies the radius of the blur. It defines the value of the standard deviation to the Gaussian function, that is, how many pixels on the screen blend into each other. Therefore, a larger value will create more blur. A value of `0` leaves the input unchanged. The initial value for {{Glossary("interpolation")}} is `0`. Percentage values are invalid. The default value is `0`.
 
 ## SVG filter
@@ -154,7 +154,7 @@ td {
 
 ## See also
 
-- [CSS filter effects](/en-US/docs/Web/CSS/Guides/Filter_effects) module
+- [CSS filter effects](/css/guides/Filter_effects) module
 - The other {{cssxref("filter-function")}} functions available to be used in values of the {{cssxref("filter")}} and {{cssxref("backdrop-filter")}} properties include:
   - {{cssxref("filter-function/brightness", "brightness()")}}
   - {{cssxref("filter-function/contrast", "contrast()")}}

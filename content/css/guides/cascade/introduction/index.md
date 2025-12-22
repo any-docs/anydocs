@@ -9,7 +9,7 @@ sidebar: cssref
 
 The **cascade** is an algorithm that defines how user agents combine property values originating from different sources. The cascade defines the origin and layer that takes precedence when declarations in more than one [origin](#origin_types), [cascade layer](/en-US/docs/Web/CSS/Reference/At-rules/@layer), or {{CSSxRef("@scope")}} block set a value for a property on an element.
 
-The cascade lies at the core of CSS, as emphasized by the name: _**Cascading**_ Style Sheets. When a [selector](/en-US/docs/Web/CSS/Guides/Selectors) matches an element, the property value from the origin with the highest precedence gets applied, even if the selector from a lower precedence origin or layer has greater [specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity).
+The cascade lies at the core of CSS, as emphasized by the name: _**Cascading**_ Style Sheets. When a [selector](/css/guides/Selectors) matches an element, the property value from the origin with the highest precedence gets applied, even if the selector from a lower precedence origin or layer has greater [specificity](/css/guides/Cascade/Specificity).
 
 This article explains what the cascade is and the order in which {{Glossary("CSS")}} [declarations](/en-US/docs/Web/API/CSSStyleDeclaration) cascade, covering cascade layers and origin type. Understanding origin precedence is key to understanding the cascade.
 
@@ -27,7 +27,7 @@ Some browsers let users modify the user-agent stylesheet, but this is rare and n
 
 Although some constraints on user-agent stylesheets are set by the HTML specification, browsers have a lot of latitude: that means some differences exist between browsers. To simplify the development process, Web developers may use a CSS reset stylesheet, such as [normalize.css](https://github.com/necolas/normalize.css), which sets common properties values to a known state for all browsers before beginning to make alterations to suit their specific needs.
 
-Unless the user-agent stylesheet includes an [`!important`](/en-US/docs/Web/CSS/Guides/Cascade/Specificity#the_!important_exception) next to a property, making it "important", styles declared by author styles, including a reset stylesheet, take precedence over the user-agent styles, regardless of the specificity of the associated selector.
+Unless the user-agent stylesheet includes an [`!important`](/css/guides/Cascade/Specificity#the_!important_exception) next to a property, making it "important", styles declared by author styles, including a reset stylesheet, take precedence over the user-agent styles, regardless of the specificity of the associated selector.
 
 ### Author stylesheets
 
@@ -61,7 +61,7 @@ The cascading algorithm determines how to find the value to apply for each prope
    | 7                              | user-agent (browser)    | `!important` |
    | 8                              | CSS transitions         |              |
 
-3. **Specificity**: In case of equality with an origin, the [specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity) of a rule is considered to choose one value or another. The specificity of the selectors are compared, and the declaration with the highest specificity wins.
+3. **Specificity**: In case of equality with an origin, the [specificity](/css/guides/Cascade/Specificity) of a rule is considered to choose one value or another. The specificity of the selectors are compared, and the declaration with the highest specificity wins.
 4. **Scoping proximity**: When two selectors in the origin layer with precedence have the same specificity, the property value within scoped rules with the smallest number of hops up the DOM hierarchy to the scope root wins. See [How `@scope` conflicts are resolved](/en-US/docs/Web/CSS/Reference/At-rules/@scope#how_scope_conflicts_are_resolved) for more details and an example.
 5. **Order of appearance**: In the origin with precedence, if there are competing values for a property that are in style block matching selectors of equal specificity and scoping proximity, the last declaration in the style order is applied.
 
@@ -74,7 +74,7 @@ The cascade is in ascending order, meaning:
 > [!NOTE]
 > **Transitions and animations**
 >
-> Property values set by animation {{cssxref('@keyframes')}} are more important than all normal styles (those with no [`!important`](/en-US/docs/Web/CSS/Guides/Cascade/Specificity#the_!important_exception) set).
+> Property values set by animation {{cssxref('@keyframes')}} are more important than all normal styles (those with no [`!important`](/css/guides/Cascade/Specificity#the_!important_exception) set).
 >
 > Property values being set in a {{cssxref('transition')}} take precedence over all other values set, even those marked with `!important`.
 
@@ -337,7 +337,7 @@ Only CSS property/value pair declarations participate in the cascade. CSS at-rul
 
 ### At-rules
 
-CSS [at-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules) containing entities other than declarations, such as a {{ cssxref("@font-face")}} rule containing _descriptors_, don't participate in the cascade.
+CSS [at-rules](/css/guides/Syntax/At-rules) containing entities other than declarations, such as a {{ cssxref("@font-face")}} rule containing _descriptors_, don't participate in the cascade.
 
 For the most part, the properties and descriptors defined in at-rules don't participate in the cascade. Only at-rules as a whole participate in the cascade. For example, within a `@font-face` rule, font names are identified by [`font-family`](/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-family) descriptors. If several `@font-face` rules with the same descriptor are defined, only the most appropriate `@font-face`, as a whole, is considered. If more than one are identically appropriate, the entire `@font-face` declarations are compared using steps 1, 2, and 4 of the algorithm (there is no specificity when it comes to at-rules).
 
@@ -359,7 +359,7 @@ Presentational attributes cannot be declared `!important`.
 
 ## CSS animations and the cascade
 
-[CSS animations](/en-US/docs/Web/CSS/Guides/Animations), using {{cssxref("@keyframes")}} at-rules, define animations between states. `@keyframes` don't cascade, meaning that at any given time CSS takes values from only one single set of `@keyframes` and never mixes multiple ones. If multiple sets of `@keyframes` are defined with the same animation name, the last defined set in the origin and layer with the greatest precedence is used. Other `@keyframes` are ignored, even if they animate different properties.
+[CSS animations](/css/guides/Animations), using {{cssxref("@keyframes")}} at-rules, define animations between states. `@keyframes` don't cascade, meaning that at any given time CSS takes values from only one single set of `@keyframes` and never mixes multiple ones. If multiple sets of `@keyframes` are defined with the same animation name, the last defined set in the origin and layer with the greatest precedence is used. Other `@keyframes` are ignored, even if they animate different properties.
 
 ```css
 p {
@@ -415,11 +415,11 @@ After your content has finished altering styles, it may find itself in a situati
 
 ## See also
 
-- [CSS cascading and inheritance](/en-US/docs/Web/CSS/Guides/Cascade) module
+- [CSS cascading and inheritance](/css/guides/Cascade) module
 - [Learn: Handling conflicts](/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts)
 - [Learn: Cascade layers](/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers)
-- [CSS syntax](/en-US/docs/Web/CSS/Guides/Syntax/Introduction)
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
-- [Inheritance](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance)
-- [At-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules)
-- Values: [initial](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value), [computed](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value), [used](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value), and [actual](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#actual_value)
+- [CSS syntax](/css/guides/Syntax/Introduction)
+- [Specificity](/css/guides/Cascade/Specificity)
+- [Inheritance](/css/guides/Cascade/Inheritance)
+- [At-rules](/css/guides/Syntax/At-rules)
+- Values: [initial](/css/guides/Cascade/Property_value_processing#initial_value), [computed](/css/guides/Cascade/Property_value_processing#computed_value), [used](/css/guides/Cascade/Property_value_processing#used_value), and [actual](/css/guides/Cascade/Property_value_processing#actual_value)

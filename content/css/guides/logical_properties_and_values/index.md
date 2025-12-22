@@ -18,13 +18,13 @@ The start of a line is not always the left side of a line. Different writing sys
 
 The logical properties defined in this module enable defining properties relative to the content's writing direction, rather than a physical direction. This means content translated into languages with different writing modes will be rendered as intended.
 
-Logical properties and values use the abstract terms _block_ and _inline_ to describe the direction in which they flow. The physical meaning of these terms depends on the [writing mode](/en-US/docs/Web/CSS/Guides/Writing_modes).
+Logical properties and values use the abstract terms _block_ and _inline_ to describe the direction in which they flow. The physical meaning of these terms depends on the [writing mode](/css/guides/Writing_modes).
 
 The **block dimension** is perpendicular to the flow of text within a line, i.e., the vertical dimension in horizontal writing modes, and the horizontal dimension in vertical writing modes. For standard English text, it is the vertical dimension.
 
 The **inline dimension** is parallel to the flow of text within a line, i.e., the horizontal dimension in horizontal writing modes, and the vertical dimension in vertical writing modes. For standard English text, it is the horizontal dimension.
 
-CSS was initially designed with only physical coordinates. The logical properties and values module defines flow–relative equivalents for many [values](/en-US/docs/Web/CSS/Guides/Values_and_units) and [properties](/en-US/docs/Glossary/Property/CSS). Properties that once only accepted physical values (`top`, `bottom`, `left`, `right`) now also accept flow-relative logical values (`block-start`, `block-end`, `inline-start`, `inline-end`).
+CSS was initially designed with only physical coordinates. The logical properties and values module defines flow–relative equivalents for many [values](/css/guides/Values_and_units) and [properties](/en-US/docs/Glossary/Property/CSS). Properties that once only accepted physical values (`top`, `bottom`, `left`, `right`) now also accept flow-relative logical values (`block-start`, `block-end`, `inline-start`, `inline-end`).
 
 ## Reference
 
@@ -104,16 +104,16 @@ CSS was initially designed with only physical coordinates. The logical propertie
 
 ## Guides
 
-- [Basic concepts of logical properties and values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Basic_concepts)
+- [Basic concepts of logical properties and values](/css/guides/Logical_properties_and_values/Basic_concepts)
   - : Overview of flow relative properties and values.
 
-- [Logical properties for sizing](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Sizing)
+- [Logical properties for sizing](/css/guides/Logical_properties_and_values/Sizing)
   - : Flow-relative mappings between physical properties and logical properties used for sizing elements on the page.
 
-- [Logical properties for margins, borders, and padding](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Margins_borders_padding)
+- [Logical properties for margins, borders, and padding](/css/guides/Logical_properties_and_values/Margins_borders_padding)
   - : Flow-relative mappings for the various margin, border, and padding properties and their shorthands.
 
-- [Logical properties for floating and positioning](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Floating_and_positioning)
+- [Logical properties for floating and positioning](/css/guides/Logical_properties_and_values/Floating_and_positioning)
   - : Details mappings between the physical and logical values for `float` and `clear`, [inset properties](/en-US/docs/Glossary/Inset_properties), and `resize`.
 
 ## Related concepts
@@ -124,19 +124,19 @@ CSS was initially designed with only physical coordinates. The logical propertie
 - {{CSSxRef("resize")}}
 - {{CSSxRef("text-align")}}
 
-[CSS box model](/en-US/docs/Web/CSS/Guides/Box_model)
+[CSS box model](/css/guides/Box_model)
 
 - {{CSSxRef("margin")}} shorthand
 - {{CSSxRef("padding")}} shorthand
 
-[CSS box sizing](/en-US/docs/Web/CSS/Guides/Box_sizing)
+[CSS box sizing](/css/guides/Box_sizing)
 
 - {{CSSxRef("max-height")}}
 - {{CSSxRef("max-width")}}
 - {{CSSxRef("min-height")}}
 - {{CSSxRef("min-width")}}
 
-[CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders)
+[CSS backgrounds and borders](/css/guides/Backgrounds_and_borders)
 
 - {{CSSxRef("border-color")}}
 - {{CSSxRef("border-style")}}
@@ -144,30 +144,30 @@ CSS was initially designed with only physical coordinates. The logical propertie
 - {{CSSxRef("border")}} shorthand
 - {{CSSxRef("border-radius")}}
 
-[CSS positioned layout](/en-US/docs/Web/CSS/Guides/Positioned_layout)
+[CSS positioned layout](/css/guides/Positioned_layout)
 
 - {{CSSxRef("top")}}
 - {{CSSxRef("right")}}
 - {{CSSxRef("bottom")}}
 - {{CSSxRef("left")}}
 
-[CSS writing modes](/en-US/docs/Web/CSS/Guides/Writing_modes)
+[CSS writing modes](/css/guides/Writing_modes)
 
 - {{CSSxRef("direction")}}
 - {{CSSxRef("text-orientation")}}
 - {{CSSxRef("writing-mode")}}
 
-[CSS containment](/en-US/docs/Web/CSS/Guides/Containment)
+[CSS containment](/css/guides/Containment)
 
 - {{CSSxRef("contain-intrinsic-block-size")}}
 - {{CSSxRef("contain-intrinsic-inline-size")}}
 
-[CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow)
+[CSS overflow](/css/guides/Overflow)
 
 - {{CSSxRef("overflow-block")}}
 - {{CSSxRef("overflow-inline")}}
 
-[CSS overscroll behavior](/en-US/docs/Web/CSS/Guides/Overscroll_behavior)
+[CSS overscroll behavior](/css/guides/Overscroll_behavior)
 
 - {{CSSxRef("overscroll-behavior-block")}}
 - {{CSSxRef("overscroll-behavior-inline")}}
@@ -178,6 +178,6 @@ CSS was initially designed with only physical coordinates. The logical propertie
 
 ## See also
 
-- [Flow layout and writing modes](/en-US/docs/Web/CSS/Guides/Display/Flow_layout_and_writing_modes)
-- [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module
-- [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) module
+- [Flow layout and writing modes](/css/guides/Display/Flow_layout_and_writing_modes)
+- [CSS flexible box layout](/css/guides/Flexible_box_layout) module
+- [CSS grid layout](/css/guides/Grid_layout) module

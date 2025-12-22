@@ -6,7 +6,7 @@ browser-compat: css.types.transform-function.translateZ
 sidebar: cssref
 ---
 
-The **`translateZ()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) repositions an element along the z-axis in 3D space, i.e.,
+The **`translateZ()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) repositions an element along the z-axis in 3D space, i.e.,
 closer to or farther away from the viewer. Its result is a {{cssxref("&lt;transform-function&gt;")}} data type.
 
 {{InteractiveExample("CSS Demo: translateZ()")}}
@@ -100,8 +100,8 @@ transform: translateZ(-3ch);
 This transformation is defined by a {{cssxref("&lt;length&gt;")}} which specifies how far inward or outward the
 element or elements move.
 
-In the above interactive examples, [`perspective: 550px;`](/en-US/docs/Web/CSS/Reference/Properties/perspective) (to
-create a 3D space) and [`transform-style: preserve-3d;`](/en-US/docs/Web/CSS/Reference/Properties/transform-style)
+In the above interactive examples, [`perspective: 550px;`](/css/reference/properties/perspective) (to
+create a 3D space) and [`transform-style: preserve-3d;`](/css/reference/properties/transform-style)
 (so the children, the 6 sides of the cube, are also positioned in the 3D space), have been set on the cube.
 
 > [!NOTE]
@@ -117,13 +117,13 @@ translateZ(tz)
 ### Values
 
 - `tz`
-  - : A {{cssxref("&lt;length&gt;")}} representing the z-component of the translating vector [0, 0, tz]. In [Cartesian coordinate system](/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates) it represents shift along z-axis. A positive value moves the
+  - : A {{cssxref("&lt;length&gt;")}} representing the z-component of the translating vector [0, 0, tz]. In [Cartesian coordinate system](/css/reference/values/transform-function#cartesian_coordinates) it represents shift along z-axis. A positive value moves the
     element towards the viewer, and a negative value farther away.
 
 <table class="standard-table">
   <thead>
     <tr>
-      <th scope="col"><a href="/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
+      <th scope="col"><a href="/css/reference/values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
       <th scope="col"><a href="https://en.wikipedia.org/wiki/Homogeneous_coordinates">Homogeneous coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_projective_plane">ℝℙ^2</a></th>
       <th scope="col">Cartesian coordinates on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^3</a></th>
       <th scope="col">Homogeneous coordinates on <a href="https://en.wikipedia.org/wiki/Real_projective_space">ℝℙ^3</a></th>
@@ -180,7 +180,7 @@ div {
 ```
 
 What really matters here is the class "moved"; let's take a look at what it does. First, the
-[`perspective()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/perspective) function positions the
+[`perspective()`](/css/reference/values/transform-function/perspective) function positions the
 viewer relative to the plane that lies where z=0 (in essence, the surface of the screen). A value of
 `500px` means the user is 500 pixels "in front of" the imagery located at z=0.
 

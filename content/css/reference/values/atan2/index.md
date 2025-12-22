@@ -6,7 +6,7 @@ browser-compat: css.types.atan2
 sidebar: cssref
 ---
 
-The **`atan2()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) is a trigonometric function that returns the inverse tangent of two values between `-infinity` and `infinity`. The function accepts two arguments and returns an {{cssxref("angle")}} between `-180deg` and `180deg`, without implying any specific unit such as radians.
+The **`atan2()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) is a trigonometric function that returns the inverse tangent of two values between `-infinity` and `infinity`. The function accepts two arguments and returns an {{cssxref("angle")}} between `-180deg` and `180deg`, without implying any specific unit such as radians.
 
 ## Syntax
 
@@ -113,4 +113,4 @@ div.box-5 {
 - {{CSSxRef("asin")}}
 - {{CSSxRef("acos")}}
 - {{CSSxRef("atan")}}
-- [Using CSS typed arithmetic](/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic)
+- [Using CSS typed arithmetic](/css/guides/Values_and_units/Using_typed_arithmetic)

@@ -99,7 +99,7 @@ To specify multiple shadows, provide a comma-separated list of shadows.
 
 ### Values
 
-- `<color>` {{optional_inline}}
+- `<color>` <Badge type="info" text="Optional" />
   - : Specifies color for the shadow. See {{cssxref("&lt;color&gt;")}} values for possible keywords and notations.
     If not specified, the value of the {{cssxref("color")}} property defined in the parent element is used.
 
@@ -113,7 +113,7 @@ To specify multiple shadows, provide a comma-separated list of shadows.
 
     - If four values are specified, the fourth value is interpreted as `<spread-radius>`. Positive values will cause the shadow to expand and grow bigger, negative values will cause the shadow to shrink. If not specified, it will be set to `0` (that is, the shadow will be the same size as the element).
 
-- `inset` {{optional_inline}}
+- `inset` <Badge type="info" text="Optional" />
   - : Changes the shadow from an outer box-shadow to an inner box-shadow (as if the content is pressed into the box). Inset shadows are drawn inside the box's border (even if the border is transparent), and they appear above the background but below the content. By default, the shadow behaves like a drop shadow, giving the appearance that the box is elevated above its content. This is the default behavior when `inset` is not specified.
 
 ### Interpolation
@@ -124,9 +124,9 @@ In interpolating multiple shadows between two comma-separated lists of multiple 
 
 ## Description
 
-The `box-shadow` property enables you to cast a drop shadow from the frame of almost any element. If a {{cssxref("border-radius")}} is specified on the element with a box shadow, the box shadow takes on the same rounded corners. The z-ordering of multiple box shadows is the same as multiple [text shadows](/en-US/docs/Web/CSS/Reference/Properties/text-shadow) (the first specified shadow is on top).
+The `box-shadow` property enables you to cast a drop shadow from the frame of almost any element. If a {{cssxref("border-radius")}} is specified on the element with a box shadow, the box shadow takes on the same rounded corners. The z-ordering of multiple box shadows is the same as multiple [text shadows](/css/reference/properties/text-shadow) (the first specified shadow is on top).
 
-[Box-shadow generator](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator) is an interactive tool allowing you to generate a `box-shadow`.
+[Box-shadow generator](/css/guides/Backgrounds_and_borders/Box-shadow_generator) is an interactive tool allowing you to generate a `box-shadow`.
 
 ## Formal definition
 
@@ -176,7 +176,7 @@ blockquote {
 
 When the `x-offset`, `y-offset`, and `blur` are all zero, the box shadow will be a solid-colored outline of equal-size on all sides. The shadows are drawn back to front, so the first shadow sits on top of subsequent shadows. When the `border-radius` is set to 0, as is the default, the corners of the shadow will be, well, corners. Had we put in a `border-radius` of any other value, the corners would have been rounded.
 
-We added a margin the size of the widest box-shadow to ensure the shadow doesn't overlap adjacent elements or go beyond the border of the containing box. A box-shadow does not impact [box model](/en-US/docs/Web/CSS/Guides/Box_model) dimensions.
+We added a margin the size of the widest box-shadow to ensure the shadow doesn't overlap adjacent elements or go beyond the border of the containing box. A box-shadow does not impact [box model](/css/guides/Box_model) dimensions.
 
 #### HTML
 
@@ -215,6 +215,6 @@ p {
 - {{cssxref("&lt;color&gt;")}}
 - {{cssxref("text-shadow")}}
 - {{cssxref("filter-function/drop-shadow", "drop-shadow()")}}
-- [Introduction to text shadows](/en-US/docs/Web/CSS/Guides/Text_decoration/Text_shadows)
-- [Applying color to HTML elements using CSS](/en-US/docs/Web/CSS/Guides/Colors/Applying_color)
-- [CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) module
+- [Introduction to text shadows](/css/guides/Text_decoration/Text_shadows)
+- [Applying color to HTML elements using CSS](/css/guides/Colors/Applying_color)
+- [CSS backgrounds and borders](/css/guides/Backgrounds_and_borders) module

@@ -75,13 +75,13 @@ The CSS backgrounds module level 4 also introduces the `background-position-bloc
 
 ## Guides
 
-- [Using multiple backgrounds](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds)
+- [Using multiple backgrounds](/css/guides/Backgrounds_and_borders/Using_multiple_backgrounds)
   - : Setting one or more backgrounds on an element.
-- [Resizing background images](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Resizing_background_images)
+- [Resizing background images](/css/guides/Backgrounds_and_borders/Resizing_background_images)
   - : Changing the size and repeating behavior of background images.
-- [Scaling SVG backgrounds](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Scaling_SVG_backgrounds)
+- [Scaling SVG backgrounds](/css/guides/Backgrounds_and_borders/Scaling_SVG_backgrounds)
   - : How SVG aspect ratio, SVG dimension values, and the CSS `background-size` property impact the scaling of SVG background images.
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
+- [Using CSS gradients](/css/guides/Images/Using_gradients)
   - : Creating CSS gradients and using them as background images.
 - [Learn CSS: background and borders](/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders)
   - : Learn how to implement decorative images using CSS background images.
@@ -113,7 +113,7 @@ The CSS backgrounds module level 4 also introduces the `background-position-bloc
 - {{cssxref("url")}} data type
 - {{cssxref("image")}} data type
 - {{cssxref("position")}} data type
-- [`currentColor`](/en-US/docs/Web/CSS/Reference/Values/color_value#currentcolor_keyword) keyword
+- [`currentColor`](/css/reference/values/color_value#currentcolor_keyword) keyword
 
 ## Examples
 
@@ -188,9 +188,9 @@ Click "Play" in the example above to see or edit the code for the animation in t
 
 - {{cssxref("filter")}}
 - {{cssxref("backdrop-filter")}}
-- [`drop-shadow()`](/en-US/docs/Web/CSS/Reference/Values/filter-function/drop-shadow) filter function
-- [Applying color to HTML elements using CSS](/en-US/docs/Web/CSS/Guides/Colors/Applying_color)
+- [`drop-shadow()`](/css/reference/values/filter-function/drop-shadow) filter function
+- [Applying color to HTML elements using CSS](/css/guides/Colors/Applying_color)
 - Tools:
-  - [Border-image generator](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator)
-  - [Border-radius generator](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator)
-  - [Box-shadow generator](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator)
+  - [Border-image generator](/css/guides/Backgrounds_and_borders/Border-image_generator)
+  - [Border-radius generator](/css/guides/Backgrounds_and_borders/Border-radius_generator)
+  - [Box-shadow generator](/css/guides/Backgrounds_and_borders/Box-shadow_generator)

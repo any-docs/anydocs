@@ -11,8 +11,8 @@ spec-urls: https://drafts.csswg.org/css-color/#typedef-hue
 sidebar: cssref
 ---
 
-The **`<hue>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents the hue angle of a color.
-It is used in the color functions that accept hue expressed as a single value, specifically [`hsl()`](/en-US/docs/Web/CSS/Reference/Values/color_value/hsl), [`hwb()`](/en-US/docs/Web/CSS/Reference/Values/color_value/hwb), [`lch()`](/en-US/docs/Web/CSS/Reference/Values/color_value/lch), and [`oklch()`](/en-US/docs/Web/CSS/Reference/Values/color_value/oklch) functional notations.
+The **`<hue>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents the hue angle of a color.
+It is used in the color functions that accept hue expressed as a single value, specifically [`hsl()`](/css/reference/values/color_value/hsl), [`hwb()`](/css/reference/values/color_value/hwb), [`lch()`](/css/reference/values/color_value/lch), and [`oklch()`](/css/reference/values/color_value/oklch) functional notations.
 
 ## Syntax
 
@@ -122,7 +122,7 @@ The following table lists typical colors at various angles in the sRGB (used by 
 
 ## Interpolation of `<hue>` values
 
-`<hue>` values are interpolated as {{cssxref("angle")}} values, and the default interpolation algorithm is [`shorter`](/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method#values). In some color-related CSS functions, this can be overridden by the {{CSSXref("&lt;hue-interpolation-method&gt;")}} component.
+`<hue>` values are interpolated as {{cssxref("angle")}} values, and the default interpolation algorithm is [`shorter`](/css/reference/values/hue-interpolation-method#values). In some color-related CSS functions, this can be overridden by the {{CSSXref("&lt;hue-interpolation-method&gt;")}} component.
 
 ## Formal syntax
 
@@ -132,7 +132,7 @@ The following table lists typical colors at various angles in the sRGB (used by 
 
 ### Changing the hue of a color using a slider
 
-The following example shows the effect of changing the `hue` value of the [`hsl()`](/en-US/docs/Web/CSS/Reference/Values/color_value/hsl) functional notation on a color.
+The following example shows the effect of changing the `hue` value of the [`hsl()`](/css/reference/values/color_value/hsl) functional notation on a color.
 
 #### HTML
 

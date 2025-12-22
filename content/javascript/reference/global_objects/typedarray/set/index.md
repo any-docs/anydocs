@@ -44,7 +44,7 @@ set(typedarray, targetOffset)
   - : If the source array is a typed array, the two arrays may share the same underlying
     {{jsxref("ArrayBuffer")}}; the JavaScript engine will intelligently
     **copy** the source range of the buffer to the destination range.
-- `targetOffset` {{optional_inline}}
+- `targetOffset` <Badge type="info" text="Optional" />
   - : The offset into the target array at which to begin writing values from the source
     array. If this value is omitted, 0 is assumed (that is, the source array will
     overwrite values in the target array starting at index 0).

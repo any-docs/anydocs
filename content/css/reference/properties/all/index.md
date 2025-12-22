@@ -6,7 +6,7 @@ browser-compat: css.properties.all
 sidebar: cssref
 ---
 
-The **`all`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property resets all of an element's properties except {{cssxref("unicode-bidi")}}, {{cssxref("direction")}}, and [CSS Custom Properties](/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties). It can set properties to their initial or inherited values, or to the values specified in another cascade layer or stylesheet origin.
+The **`all`** [shorthand](/css/guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property resets all of an element's properties except {{cssxref("unicode-bidi")}}, {{cssxref("direction")}}, and [CSS Custom Properties](/css/guides/Cascading_variables/Using_custom_properties). It can set properties to their initial or inherited values, or to the values specified in another cascade layer or stylesheet origin.
 
 {{InteractiveExample("CSS Demo: all")}}
 
@@ -65,7 +65,7 @@ all: revert;
 
 ## Constituent properties
 
-This property is a shorthand for all CSS properties except for {{cssxref("unicode-bidi")}}, {{cssxref("direction")}}, and [custom properties](/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties).
+This property is a shorthand for all CSS properties except for {{cssxref("unicode-bidi")}}, {{cssxref("direction")}}, and [custom properties](/css/guides/Cascading_variables/Using_custom_properties).
 
 ## Syntax
 
@@ -83,16 +83,16 @@ The `all` property is specified as one of the CSS global keyword values. Note th
 ### Values
 
 - {{cssxref("initial")}}
-  - : Specifies that all the element's properties should be changed to their [initial values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value).
+  - : Specifies that all the element's properties should be changed to their [initial values](/css/guides/Cascade/Property_value_processing#initial_value).
 - {{cssxref("inherit")}}
-  - : Specifies that all the element's properties should be changed to their [inherited values](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance).
+  - : Specifies that all the element's properties should be changed to their [inherited values](/css/guides/Cascade/Inheritance).
 - {{cssxref("unset")}}
   - : Specifies that all the element's properties should be changed to their inherited values if they inherit by default, or to their initial values if not.
 - {{cssxref("revert")}}
   - : Specifies behavior that depends on the stylesheet origin to which the declaration belongs:
-    - If the rule belongs to the [author origin](/en-US/docs/Web/CSS/Guides/Cascade/Introduction#author_stylesheets), the `revert` value rolls back the [cascade](/en-US/docs/Web/CSS/Guides/Cascade/Introduction) to the user level, so that the [specified values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#specified_value) are calculated as if no author-level rules were specified for the element. For purposes of `revert`, the author origin includes the Override and Animation origins.
-    - If the rule belongs to the [user origin](/en-US/docs/Web/CSS/Guides/Cascade/Introduction#user_stylesheets), the `revert` value rolls back the [cascade](/en-US/docs/Web/CSS/Guides/Cascade/Introduction) to the user-agent level, so that the [specified values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#specified_value) are calculated as if no author-level or user-level rules were specified for the element.
-    - If the rule belongs to the [user-agent origin](/en-US/docs/Web/CSS/Guides/Cascade/Introduction#user-agent_stylesheets), the `revert` value acts like `unset`.
+    - If the rule belongs to the [author origin](/css/guides/Cascade/Introduction#author_stylesheets), the `revert` value rolls back the [cascade](/css/guides/Cascade/Introduction) to the user level, so that the [specified values](/css/guides/Cascade/Property_value_processing#specified_value) are calculated as if no author-level rules were specified for the element. For purposes of `revert`, the author origin includes the Override and Animation origins.
+    - If the rule belongs to the [user origin](/css/guides/Cascade/Introduction#user_stylesheets), the `revert` value rolls back the [cascade](/css/guides/Cascade/Introduction) to the user-agent level, so that the [specified values](/css/guides/Cascade/Property_value_processing#specified_value) are calculated as if no author-level or user-level rules were specified for the element.
+    - If the rule belongs to the [user-agent origin](/css/guides/Cascade/Introduction#user-agent_stylesheets), the `revert` value acts like `unset`.
 - {{cssxref("revert-layer")}}
   - : Specifies that all the element's properties should roll back the cascade to a previous [cascade layer](/en-US/docs/Web/CSS/Reference/At-rules/@layer), if one exists. If no other cascade layer exists, the element's properties will roll back to the matching rule, if one exists, in the current layer or to a previous [style origin](/en-US/docs/Glossary/Style_origin).
 
@@ -185,7 +185,7 @@ blockquote {
 
 {{EmbedLiveSample("b._all_initial", "200", "125")}}
 
-With the `all` property set to `initial` in the `blockquote` rule, the {{HTMLElement("blockquote")}} element doesn't use the browser default styling anymore: it is an _inline_ element now (initial value), its [`background-color`](/en-US/docs/Web/CSS/Reference/Properties/background-color#formal_definition) is `transparent` (initial value), its [`font-size`](/en-US/docs/Web/CSS/Reference/Properties/font-size#formal_definition) is `medium`, and its [`color`](/en-US/docs/Web/CSS/Reference/Properties/color#formal_definition) is `black` (initial value).
+With the `all` property set to `initial` in the `blockquote` rule, the {{HTMLElement("blockquote")}} element doesn't use the browser default styling anymore: it is an _inline_ element now (initial value), its [`background-color`](/css/reference/properties/background-color#formal_definition) is `transparent` (initial value), its [`font-size`](/css/reference/properties/font-size#formal_definition) is `medium`, and its [`color`](/css/reference/properties/color#formal_definition) is `black` (initial value).
 
 #### C. `all: inherit`
 
@@ -237,7 +237,7 @@ blockquote {
 
 {{EmbedLiveSample("d._all_unset", "200", "125")}}
 
-When the `unset` value is applied to the `all` property in the `blockquote` rule, the {{HTMLElement("blockquote")}} element doesn't use the browser default styling. Because [`background-color`](/en-US/docs/Web/CSS/Reference/Properties/background-color#formal_definition) is a non-inherited property and [`font-size`](/en-US/docs/Web/CSS/Reference/Properties/font-size#formal_definition) and [`color`](/en-US/docs/Web/CSS/Reference/Properties/color#formal_definition) are inherited properties, the `<blockquote>` element is an _inline_ element now (initial value), its {{cssxref("background-color")}} is `transparent` (initial value), but its {{cssxref("font-size")}} is still `small` (inherited value), and its {{cssxref("color")}} is `blue` (inherited value).
+When the `unset` value is applied to the `all` property in the `blockquote` rule, the {{HTMLElement("blockquote")}} element doesn't use the browser default styling. Because [`background-color`](/css/reference/properties/background-color#formal_definition) is a non-inherited property and [`font-size`](/css/reference/properties/font-size#formal_definition) and [`color`](/css/reference/properties/color#formal_definition) are inherited properties, the `<blockquote>` element is an _inline_ element now (initial value), its {{cssxref("background-color")}} is `transparent` (initial value), but its {{cssxref("font-size")}} is still `small` (inherited value), and its {{cssxref("color")}} is `blue` (inherited value).
 
 #### E. `all: revert`
 

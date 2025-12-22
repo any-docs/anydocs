@@ -71,7 +71,7 @@ rgb(0, 255, 255, 50%)
 
 ### Values
 
-Below are descriptions of the allowed values for both absolute and [relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors).
+Below are descriptions of the allowed values for both absolute and [relative colors](/css/guides/Colors/Using_relative_colors).
 
 #### Absolute value syntax
 
@@ -83,11 +83,11 @@ The parameters are as follows:
 
 - `R`, `G`, `B`
   - : Each value can be represented as a {{CSSXref("&lt;number&gt;")}} between `0` and `255`, a {{CSSXref("&lt;percentage&gt;")}} between `0%` and `100%`, or the keyword `none` (equivalent to `0%` in this case). These values represent the red, green, and blue channels, respectively.
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel. If the `A` channel value is not explicitly specified, it defaults to 100%. If included, the value is preceded by a slash (`/`).
 
 > [!NOTE]
-> See [Missing color components](/en-US/docs/Web/CSS/Reference/Values/color_value#missing_color_components) for more information on the effect of `none`.
+> See [Missing color components](/css/reference/values/color_value#missing_color_components) for more information on the effect of `none`.
 
 #### Relative value syntax
 
@@ -101,11 +101,11 @@ The parameters are as follows:
   - : The keyword `from` is always included when defining a relative color, followed by a {{cssxref("&lt;color&gt;")}} value representing the **origin color**: This is the original color that the relative color is based on. The origin color can be _any_ valid {{cssxref("&lt;color&gt;")}} syntax, including another relative color.
 - `R`, `G`, `B`
   - : Each value can be represented as a {{CSSXref("&lt;number&gt;")}} between `0` and `255`, a {{CSSXref("&lt;percentage&gt;")}} between `0%` and `100%`, or the keyword `none` (equivalent to `0%` in this case). These values represent the red, green, and blue channel values of the output color, respectively.
-- `A` {{optional_inline}}
+- `A` <Badge type="info" text="Optional" />
   - : An {{CSSXref("&lt;alpha-value&gt;")}} representing the alpha channel value of the output color, where the number `0` corresponds to `0%` (fully transparent) and `1` corresponds to `100%` (fully opaque). Additionally, the keyword `none` can be used to explicitly specify no alpha channel. If the `A` channel value is not explicitly specified, it defaults to the alpha channel value of the origin color. If included, the value is preceded by a slash (`/`).
 
 > [!NOTE]
-> To fully enable the representation of the full spectrum of visible colors, the output of relative `rgb()` color functions is serialized to `color(srgb)`. That means that querying the output color value via the {{DOMxRef("HTMLElement.style")}} property or the {{DOMxRef("CSSStyleDeclaration.getPropertyValue()")}} method returns the output color as a [`color(srgb ...)`](/en-US/docs/Web/CSS/Reference/Values/color_value/color) value.
+> To fully enable the representation of the full spectrum of visible colors, the output of relative `rgb()` color functions is serialized to `color(srgb)`. That means that querying the output color value via the {{DOMxRef("HTMLElement.style")}} property or the {{DOMxRef("CSSStyleDeclaration.getPropertyValue()")}} method returns the output color as a [`color(srgb ...)`](/css/reference/values/color_value/color) value.
 
 #### Defining relative color output channel components
 
@@ -235,7 +235,7 @@ body {
 
 This example styles three {{htmlelement("div")}} elements with different background colors. The left-hand one is given the unmodified `--base-color`, while the middle and right ones are given variants of that `--base-color` that successively remove more from the red channel and add more to the blue channel.
 
-These variants are defined using relative colors — the `--base-color` [custom property](/en-US/docs/Web/CSS/Reference/Properties/--*) is passed into an `rgb()` function, and the output color has its red and blue channels modified to achieve the desired effect via `calc()` functions, while the green channel is left unchanged.
+These variants are defined using relative colors — the `--base-color` [custom property](/css/reference/properties/--*) is passed into an `rgb()` function, and the output color has its red and blue channels modified to achieve the desired effect via `calc()` functions, while the green channel is left unchanged.
 
 ```html hidden
 <div id="container">
@@ -343,6 +343,6 @@ div.comma-separated {
 ## See also
 
 - The {{CSSXref("&lt;color&gt;")}} data type for a list of all color notations
-- [Color format converter tool](/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter)
-- [Using relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors)
-- [CSS colors](/en-US/docs/Web/CSS/Guides/Colors) module
+- [Color format converter tool](/css/guides/Colors/Color_format_converter)
+- [Using relative colors](/css/guides/Colors/Using_relative_colors)
+- [CSS colors](/css/guides/Colors) module

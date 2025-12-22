@@ -6,9 +6,9 @@ page-type: guide
 sidebar: cssref
 ---
 
-The [flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module (usually referred to as flexbox) is a one-dimensional layout model for distributing space between items and includes numerous alignment capabilities. This article gives an outline of the main features of flexbox, which we will explore in more detail in the rest of these guides.
+The [flexible box layout](/css/guides/Flexible_box_layout) module (usually referred to as flexbox) is a one-dimensional layout model for distributing space between items and includes numerous alignment capabilities. This article gives an outline of the main features of flexbox, which we will explore in more detail in the rest of these guides.
 
-When we describe flexbox as being one-dimensional we are describing the fact that flexbox deals with layout in one dimension at a time — either as a row or as a column. This can be contrasted with the two-dimensional model of [CSS Grid Layout](/en-US/docs/Web/CSS/Guides/Grid_layout), which controls columns and rows together.
+When we describe flexbox as being one-dimensional we are describing the fact that flexbox deals with layout in one dimension at a time — either as a row or as a column. This can be contrasted with the two-dimensional model of [CSS Grid Layout](/css/guides/Grid_layout), which controls columns and rows together.
 
 ## The two axes of flexbox
 
@@ -43,9 +43,9 @@ If your main axis is `column` or `column-reverse` then the cross axis runs along
 
 ## Start and end lines
 
-Another vital area of understanding is how flexbox makes no assumption about the writing mode of the document. Flexbox doesn't just assume that all lines of text start at the top left of a document and run towards the right-hand side, with new lines appearing one under the other. Rather, it supports all writing modes, like other [logical properties and values](/en-US/docs/Web/CSS/Guides/Logical_properties_and_values).
+Another vital area of understanding is how flexbox makes no assumption about the writing mode of the document. Flexbox doesn't just assume that all lines of text start at the top left of a document and run towards the right-hand side, with new lines appearing one under the other. Rather, it supports all writing modes, like other [logical properties and values](/css/guides/Logical_properties_and_values).
 
-You can [read more about the relationship between flexbox and writing modes](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Relationship_with_other_layout_methods#writing_modes) in a later article; however, the following description should help explain why we do not talk about left and right and top and bottom when we describe the direction that our flex items flow in.
+You can [read more about the relationship between flexbox and writing modes](/css/guides/Flexible_box_layout/Relationship_with_other_layout_methods#writing_modes) in a later article; however, the following description should help explain why we do not talk about left and right and top and bottom when we describe the direction that our flex items flow in.
 
 If the `flex-direction` is `row` and I am working in English, then the start edge of the main axis will be on the left, the end edge on the right.
 
@@ -165,7 +165,7 @@ To cause wrapping behavior add the property {{cssxref("flex-wrap")}} with a valu
 
 {{EmbedLiveSample("flex-wrap")}}
 
-Find out more about wrapping flex items in the guide [Mastering wrapping of flex items](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Wrapping_items).
+Find out more about wrapping flex items in the guide [Mastering wrapping of flex items](/css/guides/Flexible_box_layout/Wrapping_items).
 
 ## The flex-flow shorthand
 
@@ -207,7 +207,7 @@ To control the inline-size of each flex item, we target them directly via three 
 - {{cssxref("flex-shrink")}}
 - {{cssxref("flex-basis")}}
 
-We will take a brief look at these properties below, but if you want more comprehensive information, take a look at the [Controlling ratios of flex items on the main axis](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Controlling_flex_item_ratios) guide.
+We will take a brief look at these properties below, but if you want more comprehensive information, take a look at the [Controlling ratios of flex items on the main axis](/css/guides/Flexible_box_layout/Controlling_flex_item_ratios) guide.
 
 Before we can make sense of these properties we need to consider the concept of **available space**. What we are doing when we change the value of these flex properties is to change the way that available space is distributed amongst our items. This concept of available space is also important when we come to look at aligning items.
 
@@ -233,7 +233,7 @@ Each item with a positive value consumes a portion of any available space based 
 
 Where the `flex-grow` property deals with adding space in the main axis, the `flex-shrink` property controls how it is taken away. If we do not have enough space in the container to lay out our items, and `flex-shrink` is set to a positive integer, then the item can become smaller than the `flex-basis`. As with `flex-grow`, different values can be assigned in order to cause one item to shrink faster than others — an item with a higher value set for `flex-shrink` will shrink faster than its siblings that have lower values.
 
-An item can shrink down to its {{cssxref("min-content")}} size. This minimum size is taken into account while working out the actual amount of shrinkage that will happen, which means that `flex-shrink` has the potential to appear less consistent than `flex-grow` in behavior. We'll therefore take a more detailed look at how this algorithm works in the article [Controlling ratios of items along the main axis](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Controlling_flex_item_ratios).
+An item can shrink down to its {{cssxref("min-content")}} size. This minimum size is taken into account while working out the actual amount of shrinkage that will happen, which means that `flex-shrink` has the potential to appear less consistent than `flex-grow` in behavior. We'll therefore take a more detailed look at how this algorithm works in the article [Controlling ratios of items along the main axis](/css/guides/Flexible_box_layout/Controlling_flex_item_ratios).
 
 > [!NOTE]
 > These values for `flex-grow` and `flex-shrink` are proportions. Typically if we had all of our items set to `flex: 1 1 200px` and then wanted one item to grow at twice the rate, we would set that item to `flex: 2 1 200px`. However you could also use `flex: 10 1 200px` and `flex: 20 1 200px` if you wanted.
@@ -286,7 +286,7 @@ There are also some predefined shorthand values which cover most of the use case
 - `flex: none`
 - `flex: <positive-number>`
 
-The `initial` value is a [CSS-wide keyword](/en-US/docs/Web/CSS/Reference/Values/Data_types#css-wide_keywords) that represents the initial value for a property. Setting `flex: initial` resets the item to the [initial values](#initial_values) of the three longhand properties, which is the same as `flex: 0 1 auto`. The initial value of `flex-grow` is `0`, so items will not grow larger than their `flex-basis` size. The initial value of `flex-shrink` is `1`, so items can shrink if they need to rather than overflowing. The initial value of `flex-basis` is `auto`. Items will either use any size set on the item in the main dimension, or they will get their size from the content size.
+The `initial` value is a [CSS-wide keyword](/css/reference/values/Data_types#css-wide_keywords) that represents the initial value for a property. Setting `flex: initial` resets the item to the [initial values](#initial_values) of the three longhand properties, which is the same as `flex: 0 1 auto`. The initial value of `flex-grow` is `0`, so items will not grow larger than their `flex-basis` size. The initial value of `flex-shrink` is `1`, so items can shrink if they need to rather than overflowing. The initial value of `flex-basis` is `auto`. Items will either use any size set on the item in the main dimension, or they will get their size from the content size.
 
 Using `flex: auto` is the same as using `flex: 1 1 auto`; this is similar to `flex: initial`, except that the items can grow and fill the container as well as shrink if needed.
 
@@ -425,7 +425,7 @@ Try the following values of `justify-content` in the live sample:
 
 {{EmbedLiveSample("justify-content")}}
 
-The article [Aligning items in a flex container](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items) explores these properties in more depth, in order to have a better understanding of how they work. These basic examples, however, are useful in the majority of use cases.
+The article [Aligning items in a flex container](/css/guides/Flexible_box_layout/Aligning_items) explores these properties in more depth, in order to have a better understanding of how they work. These basic examples, however, are useful in the majority of use cases.
 
 ### justify-items
 
@@ -435,8 +435,8 @@ The {{cssxref("justify-items")}} property is ignored in flexbox layouts.
 
 The {{cssxref("place-items")}} property is a shorthand property for `align-items` and `justify-items`. If set on a flex container, it will set the alignment but not the justification, as `justify-items` is ignored in flexbox.
 
-There is another shorthand property, {{cssxref("place-content")}}, that defines the {{cssxref("align-content")}} and `justify-content` properties. The `align-content` property only affects flex containers that wrap, and is discussed in [Aligning items in a flex container](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items).
+There is another shorthand property, {{cssxref("place-content")}}, that defines the {{cssxref("align-content")}} and `justify-content` properties. The `align-content` property only affects flex containers that wrap, and is discussed in [Aligning items in a flex container](/css/guides/Flexible_box_layout/Aligning_items).
 
 ## Next steps
 
-After reading this article you should have an understanding of the basic features of flexbox. In the next article, we will look at [how this specification relates to other parts of CSS](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Relationship_with_other_layout_methods).
+After reading this article you should have an understanding of the basic features of flexbox. In the next article, we will look at [how this specification relates to other parts of CSS](/css/guides/Flexible_box_layout/Relationship_with_other_layout_methods).

@@ -548,7 +548,7 @@ The gaps between flex items or flex lines depend on the direction. If the {{cssx
 
 ## See also
 
-- [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module
-- [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module
-- [Box alignment in flexbox](/en-US/docs/Web/CSS/Guides/Box_alignment/In_flexbox)
-- [Box alignment in grid layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout)
+- [CSS box alignment](/css/guides/Box_alignment) module
+- [CSS flexible box layout](/css/guides/Flexible_box_layout) module
+- [Box alignment in flexbox](/css/guides/Box_alignment/In_flexbox)
+- [Box alignment in grid layout](/css/guides/Box_alignment/In_grid_layout)

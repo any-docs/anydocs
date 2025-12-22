@@ -35,7 +35,7 @@ These are all covered in subsections below.
 
 Where a distance unit, also known as a length, is allowed as a value for a property, this is described as the {{cssxref("&lt;length&gt;")}} type. There are two types of lengths in CSS: relative and absolute. Relative length units specify a length in relation to something else.
 
-There are two types of relative lengths: font-relative lengths and viewport-percentage lengths. These both come in two types. Font-relative length units are either local font-relative or root font-relative. Viewport percentage lengths are either relative to the viewport height or width size or, as defined in the [CSS Containment module](/en-US/docs/Web/CSS/Guides/Containment), relative to a [container](/en-US/docs/Web/CSS/Guides/Containment/Container_queries#container_query_length_units).
+There are two types of relative lengths: font-relative lengths and viewport-percentage lengths. These both come in two types. Font-relative length units are either local font-relative or root font-relative. Viewport percentage lengths are either relative to the viewport height or width size or, as defined in the [CSS Containment module](/css/guides/Containment), relative to a [container](/css/guides/Containment/Container_queries#container_query_length_units).
 
 #### Local font-relative lengths
 
@@ -72,12 +72,12 @@ For example, `vw` is relative to the width of the viewport and `vh` is relative 
 
 | Unit   | Relative to                                                                                                |
 | ------ | ---------------------------------------------------------------------------------------------------------- |
-| `dvh`  | 1% of the [dynamic](/en-US/docs/Web/CSS/Reference/Values/length#dynamic_viewport_units) viewport's height. |
-| `dvw`  | 1% of the [dynamic](/en-US/docs/Web/CSS/Reference/Values/length#dynamic_viewport_units) viewport's width.  |
-| `lvh`  | 1% of the [large](/en-US/docs/Web/CSS/Reference/Values/length#large_viewport_units) viewport's height.     |
-| `lvw`  | 1% of the [large](/en-US/docs/Web/CSS/Reference/Values/length#large_viewport_units) viewport's width.      |
-| `svh`  | 1% of the [small](/en-US/docs/Web/CSS/Reference/Values/length#small_viewport_units) viewport's height.     |
-| `svw`  | 1% of the [small](/en-US/docs/Web/CSS/Reference/Values/length#small_viewport_units) viewport's width.      |
+| `dvh`  | 1% of the [dynamic](/css/reference/values/length#dynamic_viewport_units) viewport's height. |
+| `dvw`  | 1% of the [dynamic](/css/reference/values/length#dynamic_viewport_units) viewport's width.  |
+| `lvh`  | 1% of the [large](/css/reference/values/length#large_viewport_units) viewport's height.     |
+| `lvw`  | 1% of the [large](/css/reference/values/length#large_viewport_units) viewport's width.      |
+| `svh`  | 1% of the [small](/css/reference/values/length#small_viewport_units) viewport's height.     |
+| `svw`  | 1% of the [small](/css/reference/values/length#small_viewport_units) viewport's width.      |
 | `vb`   | 1% of viewport's size in the root element's [block axis](/en-US/docs/Glossary/Flow_relative_values).       |
 | `vh`   | 1% of viewport's height.                                                                                   |
 | `vi`   | 1% of viewport's size in the root element's [inline axis](/en-US/docs/Glossary/Flow_relative_values).      |
@@ -87,7 +87,7 @@ For example, `vw` is relative to the width of the viewport and `vh` is relative 
 
 #### Container units
 
-Container query length units specify a length relative to the dimensions of a [query container](/en-US/docs/Web/CSS/Guides/Containment/Container_queries).
+Container query length units specify a length relative to the dimensions of a [query container](/css/guides/Containment/Container_queries).
 For example, `cqw` is relative to the width of the query container and `cqh` is relative to the height of the query container.
 
 | Unit    | Relative to                           |
@@ -213,7 +213,7 @@ The {{cssxref("&lt;position&gt;")}} type defines 2D positioning of an object ins
 - {{cssxref("clamp()")}}
 - {{cssxref("attr()")}}
 
-[Functional notation](/en-US/docs/Web/CSS/Reference/Values/Functions) is a type of value that can represent more complex types or invoke special processing by CSS. The syntax starts with the name of the function immediately followed by a left parenthesis `(` followed by the argument(s) to the notation followed by a right parenthesis `)`. Functions can take multiple arguments, which are formatted similarly to a CSS property value.
+[Functional notation](/css/reference/values/Functions) is a type of value that can represent more complex types or invoke special processing by CSS. The syntax starts with the name of the function immediately followed by a left parenthesis `(` followed by the argument(s) to the notation followed by a right parenthesis `)`. Functions can take multiple arguments, which are formatted similarly to a CSS property value.
 
 White space is allowed, but optional inside the parentheses. (But see notes regarding whitespace within pages for `min()`, `max()`, `minmax()`, and `clamp()` functions.)
 
@@ -227,7 +227,7 @@ The spec also defines the `toggle()` function. It has not been implemented anywh
 
 ## See also
 
-- [Textual data types](/en-US/docs/Web/CSS/Guides/Values_and_units/Textual_data_types)
-- [CSS data types](/en-US/docs/Web/CSS/Reference/Values/Data_types)
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [Textual data types](/css/guides/Values_and_units/Textual_data_types)
+- [CSS data types](/css/reference/values/Data_types)
+- [CSS values and units](/css/guides/Values_and_units) module
 - [Learn: Values and units](/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units)

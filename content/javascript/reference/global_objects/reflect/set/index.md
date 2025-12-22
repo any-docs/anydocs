@@ -40,7 +40,7 @@ Reflect.set(target, propertyKey, value, receiver)
   - : The name of the property to set.
 - `value`
   - : The value to set.
-- `receiver` {{optional_inline}}
+- `receiver` <Badge type="info" text="Optional" />
   - : The value of `this` provided for the call to the setter for `propertyKey` on `target`. If provided and `target` does not have a setter for `propertyKey`, the property will be set on `receiver` instead.
 
 ### Return value

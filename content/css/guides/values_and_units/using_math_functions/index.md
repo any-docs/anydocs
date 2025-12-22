@@ -20,7 +20,7 @@ In all of these cases, we need to rely on math to achieve the desired outcomes. 
 
 In many instances, including in the examples above, **we can instead utilize math functions built directly into CSS**. This solution is often simpler to implement and faster for the browser to execute than using JavaScript.
 
-In total, developers can use a combination of [nearly two dozen CSS math functions](/en-US/docs/Web/CSS/Reference/Values/Functions#math_functions) in their stylesheets. In this guide, we'll exemplify four of the more commonly-used, and introduce those more advanced.
+In total, developers can use a combination of [nearly two dozen CSS math functions](/css/reference/values/Functions#math_functions) in their stylesheets. In this guide, we'll exemplify four of the more commonly-used, and introduce those more advanced.
 
 ## `calc()`: Basic math operations
 
@@ -316,11 +316,11 @@ div > code {
 
 When laying out and styling DOM elements, the four basic math functions {{cssxref("calc()")}}, {{cssxref("min()")}}, {{cssxref("max()")}}, and {{cssxref("clamp()")}} are often sufficient. However, for advanced uses like mathematics learning materials, 3D visualizations, or CSS animations, you may consider using:
 
-- [Stepped value functions](/en-US/docs/Web/CSS/Reference/Values/Functions#stepped_value_functions)
+- [Stepped value functions](/css/reference/values/Functions#stepped_value_functions)
   - {{cssxref("round()")}}: calculates a **value given a rounding strategy**
   - {{cssxref("mod()")}}: calculates the **remainder** of a division operation with the **same sign as the divisor**
   - {{cssxref("rem()")}}: calculates the **remainder** of a division operation with the **same sign as the dividend**
-- [Trigonometric functions](/en-US/docs/Web/CSS/Reference/Values/Functions#trigonometric_functions)
+- [Trigonometric functions](/css/reference/values/Functions#trigonometric_functions)
   - {{cssxref("sin()")}}: calculates the **trigonometric sine** of a number
   - {{cssxref("cos()")}}: calculates the **trigonometric cosine** of a number
   - {{cssxref("tan()")}}: calculates the **trigonometric tangent** of a number
@@ -328,18 +328,18 @@ When laying out and styling DOM elements, the four basic math functions {{cssxre
   - {{cssxref("acos()")}}: calculates the **trigonometric inverse** cosine of a number
   - {{cssxref("atan()")}}: calculates the **trigonometric inverse** tangent of a number
   - {{cssxref("atan2()")}}: calculates the **trigonometric inverse** tangent given two numbers
-- [Exponential functions](/en-US/docs/Web/CSS/Reference/Values/Functions#exponential_functions)
+- [Exponential functions](/css/reference/values/Functions#exponential_functions)
   - {{cssxref("pow()")}}: calculates a number **raised to the power** of another number
   - {{cssxref("sqrt()")}}: calculates the **square root** of a number
   - {{cssxref("hypot()")}}: calculates the **square root of the sum of the squares** of the given numbers
   - {{cssxref("log()")}}: calculates the **logarithm** of a number (with `e` as the default base)
   - {{cssxref("exp()")}}: calculates **`e` raised to the power** of another number
-- [Sign functions](/en-US/docs/Web/CSS/Reference/Values/Functions#sign-related_functions)
+- [Sign functions](/css/reference/values/Functions#sign-related_functions)
   - {{cssxref("abs()")}}: calculates the **absolute value** of a number
   - {{cssxref("sign()")}}: calculates the **sign (positive, negative, or zero)** of a number
 
 ## Final thoughts
 
 - You can use CSS math functions to create responsive user interfaces without writing any JavaScript code.
-- CSS math functions can sometimes be used instead of [CSS media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using) to define layout breakpoints.
+- CSS math functions can sometimes be used instead of [CSS media queries](/css/guides/Media_queries/Using) to define layout breakpoints.
 - In 2023, members of the Interop Project [selected "CSS Math Functions" as a focus area of improvement](https://github.com/web-platform-tests/interop/blob/main/2023/README.md#css-math-functions). This means that browser vendors are working together to ensure that CSS math functions perform the same across browsers and devices.

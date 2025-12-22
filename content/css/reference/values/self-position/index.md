@@ -44,6 +44,6 @@ The following keyword values are represented by the `<self-position>` grammar te
 
 - Properties that use this data type: {{cssxref("align-self")}}, {{cssxref("justify-self")}}, {{cssxref("place-self")}}, {{cssxref("align-items")}}, {{cssxref("justify-items")}}, {{cssxref("place-items")}}
 - Other box alignment data types: {{cssxref("baseline-position")}}, {{cssxref("content-distribution")}}, {{cssxref("overflow-position")}}, and {{cssxref("content-position")}}
-- [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module
-- [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module
-- [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) module
+- [CSS box alignment](/css/guides/Box_alignment) module
+- [CSS flexible box layout](/css/guides/Flexible_box_layout) module
+- [CSS grid layout](/css/guides/Grid_layout) module

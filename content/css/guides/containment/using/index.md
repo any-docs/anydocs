@@ -62,14 +62,14 @@ article {
 }
 ```
 
-Layout is normally scoped to the entire document, which means that if you move one element the entire document needs to be treated as if things could have moved anywhere. By using `contain: layout` you can tell the browser it only needs to check this element — everything inside the element is scoped to that element and does not affect the rest of the page, with the containing box establishing an independent [formatting context](/en-US/docs/Web/CSS/Guides/Display/Formatting_contexts).
+Layout is normally scoped to the entire document, which means that if you move one element the entire document needs to be treated as if things could have moved anywhere. By using `contain: layout` you can tell the browser it only needs to check this element — everything inside the element is scoped to that element and does not affect the rest of the page, with the containing box establishing an independent [formatting context](/css/guides/Display/Formatting_contexts).
 
 In addition:
 
 - {{cssxref("float")}} layout will be performed independently inside the specified element.
 - Margins won't collapse across a layout containment boundary.
-- The layout container is a [containing block](/en-US/docs/Web/CSS/Guides/Display/Containing_block) for `absolute`- and `fixed`-positioned descendants.
-- The containing box creates a [stacking context](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context), therefore {{cssxref("z-index")}} can be used.
+- The layout container is a [containing block](/css/guides/Display/Containing_block) for `absolute`- and `fixed`-positioned descendants.
+- The containing box creates a [stacking context](/css/guides/Positioned_layout/Stacking_context), therefore {{cssxref("z-index")}} can be used.
 
 > [!NOTE]
 > The `style` and `layout` values of `contain` are automatically applied when using the {{cssxref("container-type")}} and {{cssxref("container-name")}} properties.
@@ -82,7 +82,7 @@ article {
 }
 ```
 
-Paint containment essentially clips the box to the padding edge of the [principal box](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model#the_principal_box). There can be no visible overflow. The same additional notes are true for `paint` containment as `layout` containment (see above).
+Paint containment essentially clips the box to the padding edge of the [principal box](/css/guides/Display/Visual_formatting_model#the_principal_box). There can be no visible overflow. The same additional notes are true for `paint` containment as `layout` containment (see above).
 
 Another advantage is that if the element with containment applied is offscreen, the browser does not need to paint its child elements — these are also offscreen as they are contained completely by that box.
 
@@ -114,7 +114,7 @@ article {
 ```
 
 Despite the name, style containment does not provide scoped styles such as you would get with the [Shadow DOM](/en-US/docs/Web/API/Web_components/Using_shadow_DOM) or {{cssxref("@scope")}}.
-The main use case for the `style` value is to prevent situations where a [CSS counter](/en-US/docs/Web/CSS/Guides/Counter_styles/Using_counters) could be changed in an element, which could then affect the rest of the tree.
+The main use case for the `style` value is to prevent situations where a [CSS counter](/css/guides/Counter_styles/Using_counters) could be changed in an element, which could then affect the rest of the tree.
 
 Using `contain: style` ensures the {{cssxref("counter-increment")}} and {{cssxref("counter-set")}} properties create new counters scoped to that subtree only.
 
@@ -187,12 +187,12 @@ When an element skips its contents:
 This happens in both the cases mentioned above, but with `content-visibility: auto` the content can be searched, receive focus, and otherwise move from not relevant to relevant. This is not the case for `content-visibility: hidden`.
 
 > [!NOTE]
-> To animate the transition from `content-visibility: hidden` to a visible value, you will need to set {{cssxref("transition-behavior", "transition-behavior:&nbsp;allow-discrete")}} and {{cssxref("@starting-style")}} styles. See [transitioning `display` and `content-visibility`](/en-US/docs/Web/CSS/Guides/Transitions/Using#transitioning_display_and_content-visibility) to learn more.
+> To animate the transition from `content-visibility: hidden` to a visible value, you will need to set {{cssxref("transition-behavior", "transition-behavior:&nbsp;allow-discrete")}} and {{cssxref("@starting-style")}} styles. See [transitioning `display` and `content-visibility`](/css/guides/Transitions/Using#transitioning_display_and_content-visibility) to learn more.
 
 ## See also
 
-- [CSS containment module](/en-US/docs/Web/CSS/Guides/Containment)
+- [CSS containment module](/css/guides/Containment)
 - [Learn: CSS performance optimization](/en-US/docs/Learn_web_development/Extensions/Performance/CSS)
-- [CSS container queries](/en-US/docs/Web/CSS/Guides/Containment/Container_queries)
+- [CSS container queries](/css/guides/Containment/Container_queries)
 - [An Introduction to CSS Containment](https://blogs.igalia.com/mrego/2019/01/11/an-introduction-to-css-containment/) via Igalia.com (2019)
 - The {{domxref("element/contentvisibilityautostatechange_event", "contentvisibilityautostatechange")}} event

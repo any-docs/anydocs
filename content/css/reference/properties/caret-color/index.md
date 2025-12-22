@@ -62,7 +62,7 @@ caret-color: unset;
 ### Values
 
 - `auto`
-  - : Generally resolves to [`currentColor`](/en-US/docs/Web/CSS/Reference/Values/color_value#currentcolor_keyword), the {{cssxref("color")}} of the text that will be modified.
+  - : Generally resolves to [`currentColor`](/css/reference/values/color_value#currentcolor_keyword), the {{cssxref("color")}} of the text that will be modified.
 
 - {{cssxref("&lt;color&gt;")}}
   - : The color of the caret.
@@ -77,7 +77,7 @@ The `auto` value sets the insertion caret to `currentColor`, which is the {{cssx
 
 The insertion caret, and therefore this property, only applies to text or elements that can accept text input. The caret appears in focused user interface elements where users can update content, such as {{HTMLElement("input")}} elements that accept freeform text, the {{HTMLElement("textarea")}} element, and elements with the [`contenteditable`](/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable) attribute set.
 
-The caret may appear in `<input>` elements of type `password`, `text`, `search`, `tel`, and `email`. No caret exists with date, `color`, `hidden`, `radio`, or `checkbox` input types. Some browsers display a caret with the `number` input type. It is possible in some browsers to make a caret appear in elements that never have text content — for example, by setting [`appearance: none`](/en-US/docs/Web/CSS/Reference/Properties/appearance) and adding the `contenteditable` attribute. However, this is not recommended.
+The caret may appear in `<input>` elements of type `password`, `text`, `search`, `tel`, and `email`. No caret exists with date, `color`, `hidden`, `radio`, or `checkbox` input types. Some browsers display a caret with the `number` input type. It is possible in some browsers to make a caret appear in elements that never have text content — for example, by setting [`appearance: none`](/css/reference/properties/appearance) and adding the `contenteditable` attribute. However, this is not recommended.
 
 A caret may be displayed in an editable element or its descendants, provided the editability is not disabled, for example by setting a descendant element's `contentEditable` attribute to `false`. If an element is not editable or selectable, for example if {{cssxref("user-select")}} is set to `none`, the caret should not appear.
 
@@ -91,7 +91,7 @@ The mouse cursor image shown for certain {{cssxref("cursor")}} property values (
 
 ### Animating from `auto`
 
-Generally, when the `caret-color` is set to or defaults to `auto`, user agents use `currentColor`, which is animatable. However, `auto` is not an animatable value by default: when animating or transitioning the `caret-color` from `auto` to any color value, no interpolation happens. The animation is [discrete](/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties#discrete); the color switches from or to the `currentColor` color at the midpoint of the {{cssxref("animation-duration")}} or {{cssxref("transition-duration")}}.
+Generally, when the `caret-color` is set to or defaults to `auto`, user agents use `currentColor`, which is animatable. However, `auto` is not an animatable value by default: when animating or transitioning the `caret-color` from `auto` to any color value, no interpolation happens. The animation is [discrete](/css/guides/Animations/Animatable_properties#discrete); the color switches from or to the `currentColor` color at the midpoint of the {{cssxref("animation-duration")}} or {{cssxref("transition-duration")}}.
 
 ## Formal definition
 

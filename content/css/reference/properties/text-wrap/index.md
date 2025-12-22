@@ -97,7 +97,7 @@ The `text-wrap` property is specified as a single keyword chosen from the list o
 - `balance`
   - : Text is wrapped in a way that best balances the number of characters on each line, enhancing layout quality and legibility. Because counting characters and balancing them across multiple lines is computationally expensive, this value is only supported for blocks of text spanning a limited number of lines (six or less for Chromium and ten or less for Firefox).
 - `pretty`
-  - : Results in the same behavior as `wrap`, except that the user agent will use a slower algorithm that favors better layout over speed. This is intended for body copy where good typography is favored over performance (for example, when the number of [orphans](/en-US/docs/Web/CSS/Reference/Properties/orphans) should be kept to a minimum).
+  - : Results in the same behavior as `wrap`, except that the user agent will use a slower algorithm that favors better layout over speed. This is intended for body copy where good typography is favored over performance (for example, when the number of [orphans](/css/reference/properties/orphans) should be kept to a minimum).
 - `stable`
   - : Results in the same behavior as `wrap`, except that when the user is editing the content, the lines that come before the lines they are editing remain static rather than the whole block of text re-wrapping.
 
@@ -180,7 +180,7 @@ The text in the example is editable. Change the text, adding long words, to view
 
 - {{CSSxRef("white-space")}}
 - {{CSSxRef("white-space-collapse")}}
-- [CSS text module](/en-US/docs/Web/CSS/Guides/Text)
+- [CSS text module](/css/guides/Text)
 - [CSS `text-wrap: balance`](https://developer.chrome.com/docs/css-ui/css-text-wrap-balance) on developer.chrome.com (2023)
 - [CSS `text-wrap: pretty`](https://developer.chrome.com/blog/css-text-wrap-pretty/) on developer.chrome.com (2023)
 - [Balancing Japanese and Korean typography](https://ryelle.codes/2025/04/typography-troubles-balancing-in-japanese-korean/) by Kelly Choyce-Dwan (2025)

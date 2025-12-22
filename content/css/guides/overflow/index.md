@@ -256,9 +256,9 @@ The CSS overflow level 4 module also introduces the `block-ellipsis`, `continue`
 
 - [Learn: Overflowing content](/en-US/docs/Learn_web_development/Core/Styling_basics/Overflow)
   - : Learn what overflow is and how to manage it.
-- [Creating CSS carousels](/en-US/docs/Web/CSS/Guides/Overflow/Carousels)
+- [Creating CSS carousels](/css/guides/Overflow/Carousels)
   - : Create pure-CSS carousel UI features using scroll buttons, scroll markers, and generated columns.
-- [Creating a named scroll progress timeline animation](/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-name#creating_a_named_scroll_progress_timeline_animation)
+- [Creating a named scroll progress timeline animation](/css/reference/properties/scroll-timeline-name#creating_a_named_scroll_progress_timeline_animation)
   - : The CSS scroll timeline {{cssxref('scroll-timeline-name')}} and {{cssxref('scroll-timeline-axis')}} properties, along with the {{cssxref('scroll-timeline')}} shorthand, create animations tied to the scroll offset of a scroll container.
 
 ## Related concepts
@@ -294,7 +294,7 @@ The CSS overflow level 4 module also introduces the `block-ellipsis`, `continue`
 
 ## See also
 
-- [CSS scrollbars styling](/en-US/docs/Web/CSS/Guides/Scrollbars_styling) module
-- [CSS scroll snap](/en-US/docs/Web/CSS/Guides/Scroll_snap) module
-- [CSSOM view](/en-US/docs/Web/CSS/Guides/CSSOM_view) module
+- [CSS scrollbars styling](/css/guides/Scrollbars_styling) module
+- [CSS scroll snap](/css/guides/Scroll_snap) module
+- [CSSOM view](/css/guides/CSSOM_view) module
 - How to [debug scrollable overflow](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/debug_scrollable_overflow/index.html)

@@ -6,7 +6,7 @@ browser-compat: css.properties.border-image-slice
 sidebar: cssref
 ---
 
-The **`border-image-slice`** [CSS](/en-US/docs/Web/CSS) property divides the image specified by {{cssxref("border-image-source")}} into regions. These regions form the components of an element's [border image](/en-US/docs/Web/CSS/Reference/Properties/border-image).
+The **`border-image-slice`** [CSS](/en-US/docs/Web/CSS) property divides the image specified by {{cssxref("border-image-source")}} into regions. These regions form the components of an element's [border image](/css/reference/properties/border-image).
 
 {{InteractiveExample("CSS Demo: border-image-slice")}}
 
@@ -105,7 +105,7 @@ The slicing process creates nine regions in total: four corners, four edges, and
 The above diagram illustrates the location of each region.
 
 - Zones 1-4 are corner regions. Each one is used a single time to form the corners of the final border image.
-- Zones 5-8 are edge regions. These are [repeated, scaled, or otherwise modified](/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat) in the final border image to match the dimensions of the element.
+- Zones 5-8 are edge regions. These are [repeated, scaled, or otherwise modified](/css/reference/properties/border-image-repeat) in the final border image to match the dimensions of the element.
 - Zone 9 is the middle region. It is discarded by default, but is used like a background image if the keyword `fill` is set.
 
 The {{cssxref("border-image-repeat")}}, {{cssxref("border-image-width")}}, and {{cssxref("border-image-outset")}} properties determine how these regions are used to form the final border image.
@@ -220,5 +220,5 @@ sliceSlider.addEventListener("input", () => {
 
 ## See also
 
-- [Illustrated description of the 1-to-4-value syntax](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties#tricky_edge_cases)
+- [Illustrated description of the 1-to-4-value syntax](/css/guides/Cascade/Shorthand_properties#tricky_edge_cases)
 - [Border images in CSS: A key focus area for Interop 2023](/en-US/blog/border-images-interop-2023/) on MDN blog (2023)

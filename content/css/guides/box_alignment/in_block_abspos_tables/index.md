@@ -6,7 +6,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-The [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module details how alignment works in various layout methods. In this guide, we explore how box alignment works in the context of block layout, including floated, positioned, and table elements. As this guide aims to detail things which are specific to block layout and box alignment, it should be read in conjunction with the [box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment/Overview) guide, which details the common features of box alignment across layout methods.
+The [CSS box alignment](/css/guides/Box_alignment) module details how alignment works in various layout methods. In this guide, we explore how box alignment works in the context of block layout, including floated, positioned, and table elements. As this guide aims to detail things which are specific to block layout and box alignment, it should be read in conjunction with the [box alignment](/css/guides/Box_alignment/Overview) guide, which details the common features of box alignment across layout methods.
 
 ## align-content and justify-content
 
@@ -79,8 +79,8 @@ For many use cases, turning the block container into a flex item will give you t
 
 ## See also
 
-- [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module
-- [Box alignment overview](/en-US/docs/Web/CSS/Guides/Box_alignment/Overview)
-- [Box alignment in flexbox](/en-US/docs/Web/CSS/Guides/Box_alignment/In_flexbox)
-- [Box alignment in CSS grid layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout)
-- [Box alignment in multiple-column layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_multi-column_layout)
+- [CSS box alignment](/css/guides/Box_alignment) module
+- [Box alignment overview](/css/guides/Box_alignment/Overview)
+- [Box alignment in flexbox](/css/guides/Box_alignment/In_flexbox)
+- [Box alignment in CSS grid layout](/css/guides/Box_alignment/In_grid_layout)
+- [Box alignment in multiple-column layout](/css/guides/Box_alignment/In_multi-column_layout)

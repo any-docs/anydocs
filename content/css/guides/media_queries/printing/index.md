@@ -26,7 +26,7 @@ Add the following to your {{HTMLElement("head")}} tag.
 
 You can use the CSS {{cssxref("@media")}} at-rule to set different styles for your webpage when it is printed on paper or as a PDF versus when it is displayed on the screen. The `print` [media type](/en-US/docs/Web/CSS/Reference/At-rules/@media#media_types) sets the styles for printed media; these styles will only be used for printed content.
 
-Add this at the end of your stylesheet. Note that [specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity) and precedence rules still apply:
+Add this at the end of your stylesheet. Note that [specificity](/css/guides/Cascade/Specificity) and precedence rules still apply:
 
 ```css
 @media print {
@@ -93,6 +93,6 @@ document.getElementById("print_external").addEventListener("click", () => {
 - [`window.print`](/en-US/docs/Web/API/Window/print)
 - {{ domxref("window.beforeprint_event", "beforeprint") }} event
 - {{ domxref("window.afterprint_event", "afterprint") }} event
-- [Media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+- [Media queries](/css/guides/Media_queries/Using)
 - {{cssxref("@media")}}
-- [CSS paged media](/en-US/docs/Web/CSS/Guides/Paged_media) module
+- [CSS paged media](/css/guides/Paged_media) module

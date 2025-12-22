@@ -32,7 +32,7 @@ concat(value1, value2, /* …, */ valueN)
 
 ### Parameters
 
-- `value1`, …, `valueN` {{optional_inline}}
+- `value1`, …, `valueN` <Badge type="info" text="Optional" />
   - : Arrays and/or values to concatenate into a new array. If all
     `valueN` parameters are omitted, `concat` returns a
     [shallow copy](/en-US/docs/Glossary/Shallow_copy) of the existing array on which it is called. See the description below

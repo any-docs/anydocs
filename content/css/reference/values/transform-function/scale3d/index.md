@@ -6,7 +6,7 @@ browser-compat: css.types.transform-function.scale3d
 sidebar: cssref
 ---
 
-The **`scale3d()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) defines a transformation that resizes an element in 3D space.
+The **`scale3d()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) defines a transformation that resizes an element in 3D space.
 Because the amount of scaling is defined by a vector [sx, sy, sz], it can resize different dimensions at different scales. Its
 result is a {{cssxref("&lt;transform-function&gt;")}} data type.
 
@@ -124,7 +124,7 @@ scale3d(sx, sy, sz)
 <table class="standard-table">
   <thead>
     <tr>
-      <th scope="col"><a href="/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
+      <th scope="col"><a href="/css/reference/values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
       <th scope="col"><a href="https://en.wikipedia.org/wiki/Homogeneous_coordinates">Homogeneous coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_projective_plane">ℝℙ^2</a></th>
       <th scope="col">Cartesian coordinates on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^3</a></th>
       <th scope="col">Homogeneous coordinates on <a href="https://en.wikipedia.org/wiki/Real_projective_space">ℝℙ^3</a></th>
@@ -224,9 +224,9 @@ div {
 
 - {{cssxref("transform")}}
 - {{cssxref("&lt;transform-function&gt;")}}
-- [`scaleZ()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/scaleZ)
-- [`translate3d()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/translate3d)
-- [`rotate3d()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/rotate3d)
+- [`scaleZ()`](/css/reference/values/transform-function/scaleZ)
+- [`translate3d()`](/css/reference/values/transform-function/translate3d)
+- [`rotate3d()`](/css/reference/values/transform-function/rotate3d)
 - Individual transform properties:
   - {{cssxref("translate")}}
   - {{cssxref("scale")}}

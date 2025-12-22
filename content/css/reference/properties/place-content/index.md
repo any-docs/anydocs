@@ -6,7 +6,7 @@ browser-compat: css.properties.place-content
 sidebar: cssref
 ---
 
-The **`place-content`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) allows you to align content along both the block and inline directions at once (i.e., the {{CSSxRef("align-content")}} and {{CSSxRef("justify-content")}} properties) in a relevant layout system such as [Grid](/en-US/docs/Web/CSS/Guides/Grid_layout) or [Flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout).
+The **`place-content`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/css/guides/Cascade/Shorthand_properties) allows you to align content along both the block and inline directions at once (i.e., the {{CSSxRef("align-content")}} and {{CSSxRef("justify-content")}} properties) in a relevant layout system such as [Grid](/css/guides/Grid_layout) or [Flexbox](/css/guides/Flexible_box_layout).
 
 {{InteractiveExample("CSS Demo: place-content")}}
 
@@ -285,7 +285,7 @@ div > div {
 
 - {{cssxref("align-content")}}
 - {{cssxref("justify-content")}}
-- [Basic concepts of flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts)
-- [Aligning items in a flex container](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items)
-- [Box alignment in grid layout](/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout)
-- [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module
+- [Basic concepts of flexbox](/css/guides/Flexible_box_layout/Basic_concepts)
+- [Aligning items in a flex container](/css/guides/Flexible_box_layout/Aligning_items)
+- [Box alignment in grid layout](/css/guides/Box_alignment/In_grid_layout)
+- [CSS box alignment](/css/guides/Box_alignment) module

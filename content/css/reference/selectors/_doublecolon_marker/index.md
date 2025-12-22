@@ -6,7 +6,7 @@ browser-compat: css.selectors.marker
 sidebar: cssref
 ---
 
-The **`::marker`** [CSS](/en-US/docs/Web/CSS) [pseudo-element](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements) selects the marker box of a list item, which typically contains a bullet or number. It works on any element or pseudo-element set to [`display: list-item`](/en-US/docs/Web/CSS/Reference/Properties/display), such as the {{HTMLElement("li")}} and {{HTMLElement("summary")}} elements.
+The **`::marker`** [CSS](/en-US/docs/Web/CSS) [pseudo-element](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements) selects the marker box of a list item, which typically contains a bullet or number. It works on any element or pseudo-element set to [`display: list-item`](/css/reference/properties/display), such as the {{HTMLElement("li")}} and {{HTMLElement("summary")}} elements.
 
 {{InteractiveExample("CSS Demo: ::marker", "tabbed-shorter")}}
 
@@ -34,8 +34,8 @@ li::marker {
 
 The `::marker` pseudo-element supports a limited number of CSS properties, including:
 
-- All [animation](/en-US/docs/Web/CSS/Guides/Animations#properties) and [transition](/en-US/docs/Web/CSS/Guides/Transitions#properties) properties
-- All [font properties](/en-US/docs/Web/CSS/Guides/Fonts)
+- All [animation](/css/guides/Animations#properties) and [transition](/css/guides/Transitions#properties) properties
+- All [font properties](/css/guides/Fonts)
 - {{CSSxRef("color")}}
 - {{CSSxRef("content")}}
 - {{cssxref("counter-increment")}}, {{cssxref("counter-reset")}}, and {{cssxref("counter-set")}}
@@ -90,6 +90,6 @@ ul li::marker {
 ## See also
 
 - HTML elements that have marker boxes by default: {{HTMLElement("ol")}}, {{HTMLElement("li")}}, {{HTMLElement("summary")}}
-- [CSS generated content](/en-US/docs/Web/CSS/Guides/Generated_content) module
-- [CSS lists and counters](/en-US/docs/Web/CSS/Guides/Lists) module
-- [CSS counter styles](/en-US/docs/Web/CSS/Guides/Counter_styles) module
+- [CSS generated content](/css/guides/Generated_content) module
+- [CSS lists and counters](/css/guides/Lists) module
+- [CSS counter styles](/css/guides/Counter_styles) module

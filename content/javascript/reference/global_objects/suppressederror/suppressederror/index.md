@@ -28,7 +28,7 @@ SuppressedError(error, suppressed, message)
   - : The new error that results in the suppression of `suppressed`.
 - `suppressed`
   - : The error that was originally thrown and is now suppressed.
-- `message` {{optional_inline}}
+- `message` <Badge type="info" text="Optional" />
   - : An optional human-readable description of the aggregate error.
 
 > [!NOTE]

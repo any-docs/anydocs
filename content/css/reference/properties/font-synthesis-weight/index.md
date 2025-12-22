@@ -87,5 +87,5 @@ This example shows turning off synthesis of the bold typeface by the browser in 
 
 ## See also
 
-- [font-synthesis](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis) shorthand, [font-synthesis-small-caps](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-small-caps), [font-synthesis-style](/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-style)
+- [font-synthesis](/css/reference/properties/font-synthesis) shorthand, [font-synthesis-small-caps](/css/reference/properties/font-synthesis-small-caps), [font-synthesis-style](/css/reference/properties/font-synthesis-style)
 - {{cssxref("font-style")}}, {{cssxref("font-variant")}}, {{cssxref("font-weight")}}

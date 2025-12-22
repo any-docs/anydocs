@@ -13,7 +13,7 @@ sidebar: cssref
 The **`scroll-marker-group`** [CSS](/en-US/docs/Web/CSS) property controls whether a {{glossary("scroll container")}} element has a {{cssxref("::scroll-marker-group")}} pseudo-element generated. If present, the property also specifies whether the scroll marker group should be placed `before` _or_ `after` the contents of the scroll group container in the default visual and tab order.
 
 > [!NOTE]
-> To create a scroll marker group container from an existing element that contains a set of {{htmlelement("a")}} elements, use the {{cssxref("scroll-target-group")}} property. Read about the [differences in behavior](/en-US/docs/Web/CSS/Reference/Properties/scroll-target-group#differences_between_scroll-target-group_and_scroll-marker-group) between the two.
+> To create a scroll marker group container from an existing element that contains a set of {{htmlelement("a")}} elements, use the {{cssxref("scroll-target-group")}} property. Read about the [differences in behavior](/css/reference/properties/scroll-target-group#differences_between_scroll-target-group_and_scroll-marker-group) between the two.
 
 ## Syntax
 
@@ -55,7 +55,7 @@ scroll-marker-group: unset;
 
 ## Examples
 
-See [Creating CSS carousels](/en-US/docs/Web/CSS/Guides/Overflow/Carousels) for full examples that use the `scroll-marker-group` property.
+See [Creating CSS carousels](/css/guides/Overflow/Carousels) for full examples that use the `scroll-marker-group` property.
 
 ### Placement of the scroll markers
 
@@ -189,6 +189,6 @@ Note the placement of the scroll marker group container. Check out how the keybo
 - {{cssxref(":target-current")}}
 - {{cssxref(":target-before")}}
 - {{cssxref(":target-after")}}
-- [Creating CSS carousels](/en-US/docs/Web/CSS/Guides/Overflow/Carousels)
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
+- [Creating CSS carousels](/css/guides/Overflow/Carousels)
+- [CSS overflow](/css/guides/Overflow) module
 - [CSS Carousel Gallery](https://chrome.dev/carousel/) via chrome.dev (2025)

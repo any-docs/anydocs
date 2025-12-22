@@ -6,7 +6,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-In this guide, we explore the three properties that control the size and flexibility of flex items along the main axis: {{CSSxRef("flex-grow")}}, {{CSSxRef("flex-shrink")}}, and {{CSSxRef("flex-basis")}}. Fully understanding how these properties work with growing and shrinking items is the key to mastering [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout).
+In this guide, we explore the three properties that control the size and flexibility of flex items along the main axis: {{CSSxRef("flex-grow")}}, {{CSSxRef("flex-shrink")}}, and {{CSSxRef("flex-basis")}}. Fully understanding how these properties work with growing and shrinking items is the key to mastering [CSS flexible box layout](/css/guides/Flexible_box_layout).
 
 ## A first look
 

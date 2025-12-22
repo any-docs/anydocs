@@ -100,7 +100,7 @@ div::before {
 
 {{EmbedLiveSample("generated_content", "", "400px")}}
 
-The HTML for this sample is a single, empty {{HTMLElement("div")}} inside an otherwise empty {{HTMLElement("body")}}. The snowman was created with [CSS images](/en-US/docs/Web/CSS/Guides/Images) and [CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders). The carrot nose was added using generated content: an empty box with a wide orange [left border](/en-US/docs/Web/CSS/Reference/Properties/border-left) added to the {{cssxref("::before")}} pseudo-element. The text is also generated content: "only one &lt;div>" was generated with the {{cssxref("content")}} property applied to the {{cssxref("::after")}} pseudo-element.
+The HTML for this sample is a single, empty {{HTMLElement("div")}} inside an otherwise empty {{HTMLElement("body")}}. The snowman was created with [CSS images](/css/guides/Images) and [CSS backgrounds and borders](/css/guides/Backgrounds_and_borders). The carrot nose was added using generated content: an empty box with a wide orange [left border](/css/reference/properties/border-left) added to the {{cssxref("::before")}} pseudo-element. The text is also generated content: "only one &lt;div>" was generated with the {{cssxref("content")}} property applied to the {{cssxref("::after")}} pseudo-element.
 
 Click "Play" in the example above to see or edit the code in the MDN Playground.
 
@@ -115,16 +115,16 @@ The CSS generated content module also introduces four at-risk properties: `strin
 
 ### Functions
 
-The CSS generated content module introduces six yet-to-be implemented CSS functions including `content()`, `string()`, and `leader()`, and the three [`<target>`](/en-US/docs/Web/CSS/Reference/Properties/content#target) functions `target-counter()`, `target-counters()`, and `target-text()`.
+The CSS generated content module introduces six yet-to-be implemented CSS functions including `content()`, `string()`, and `leader()`, and the three [`<target>`](/css/reference/properties/content#target) functions `target-counter()`, `target-counters()`, and `target-text()`.
 
 ### Data types
 
-- [`<content-list>`](/en-US/docs/Web/CSS/Reference/Properties/content#values)
+- [`<content-list>`](/css/reference/properties/content#values)
 - `<content-replacement>` (see {{cssxref("image")}})
 - {{cssxref("image")}}
-- [`<counter>`](/en-US/docs/Web/CSS/Reference/Properties/content#counter)
-- [`<quote>`](/en-US/docs/Web/CSS/Reference/Properties/content#quote)
-- [`<target>`](/en-US/docs/Web/CSS/Reference/Properties/content#target)
+- [`<counter>`](/css/reference/properties/content#counter)
+- [`<quote>`](/css/reference/properties/content#quote)
+- [`<target>`](/css/reference/properties/content#target)
 
 ## Guides
 
@@ -136,23 +136,23 @@ The CSS generated content module introduces six yet-to-be implemented CSS functi
 
 ## Related concepts
 
-- [CSS pseudo-elements](/en-US/docs/Web/CSS/Guides/Pseudo-elements) module
+- [CSS pseudo-elements](/css/guides/Pseudo-elements) module
   - {{cssxref("::before")}} pseudo-element
   - {{cssxref("::after")}} pseudo-element
   - {{cssxref("::marker")}} pseudo-element
 
-- [CSS lists and counters](/en-US/docs/Web/CSS/Guides/Lists) module
+- [CSS lists and counters](/css/guides/Lists) module
   - {{cssxref("counter()")}} function
   - {{cssxref("counters()")}} function
   - {{cssxref("counter-increment")}} property
   - {{cssxref("counter-reset")}} property
 
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
+- [CSS overflow](/css/guides/Overflow) module
   - {{cssxref("::scroll-button()")}} pseudo-element
   - {{cssxref("::scroll-marker")}} pseudo-element
   - {{cssxref(":target-current")}} pseudo-class
 
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS values and units](/css/guides/Values_and_units) module
   - {{cssxref("attr()")}} function
   - {{cssxref("string")}} data type
   - {{cssxref("image")}} data type
@@ -163,6 +163,6 @@ The CSS generated content module introduces six yet-to-be implemented CSS functi
 
 ## See also
 
-- [CSS pseudo-elements](/en-US/docs/Web/CSS/Guides/Pseudo-elements) module
-- [CSS lists and counters](/en-US/docs/Web/CSS/Guides/Lists) module
+- [CSS pseudo-elements](/css/guides/Pseudo-elements) module
+- [CSS lists and counters](/css/guides/Lists) module
 - {{glossary("Replaced elements")}}

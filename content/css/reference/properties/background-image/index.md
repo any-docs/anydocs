@@ -75,13 +75,13 @@ To specify multiple background images, supply multiple values, separated by a co
 - `none`
   - : Is a keyword denoting the absence of images.
 - `<image>`
-  - : Is an {{cssxref("image")}} denoting the image to display. There can be several of them, separated by commas, as [multiple backgrounds](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds) are supported.
+  - : Is an {{cssxref("image")}} denoting the image to display. There can be several of them, separated by commas, as [multiple backgrounds](/css/guides/Backgrounds_and_borders/Using_multiple_backgrounds) are supported.
 
 ## Description
 
 The background images are drawn on stacking context layers on top of each other. The first layer specified is drawn as if it is closest to the user.
 
-The [borders](/en-US/docs/Web/CSS/Reference/Properties/border) of the element are then drawn on top of them, and the {{cssxref("background-color")}} is drawn beneath them. How the images are drawn relative to the box and its borders is defined by the {{cssxref("background-clip")}} and {{cssxref("background-origin")}} CSS properties.
+The [borders](/css/reference/properties/border) of the element are then drawn on top of them, and the {{cssxref("background-color")}} is drawn beneath them. How the images are drawn relative to the box and its borders is defined by the {{cssxref("background-clip")}} and {{cssxref("background-origin")}} CSS properties.
 
 If a specified image cannot be drawn (for example, when the file denoted by the specified URI cannot be loaded), browsers handle it as they would a `none` value.
 
@@ -97,7 +97,7 @@ Browsers do not provide any special information on background images to assistiv
 
 Additionally, it is important to ensure that the contrast ratio between the background image and the foreground text is high enough that people with low vision can read the page content.
 
-Color contrast ratio is determined by comparing the luminance of the text and background color values. To meet [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/), a ratio of 4.5:1 is required for body text content and 3:1 for larger text such as headings. Large text is defined as 24px or larger, or [bolded](/en-US/docs/Web/CSS/Reference/Properties/font-weight) 18.66px or larger.
+Color contrast ratio is determined by comparing the luminance of the text and background color values. To meet [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/), a ratio of 4.5:1 is required for body text content and 3:1 for larger text such as headings. Large text is defined as 24px or larger, or [bolded](/css/reference/properties/font-weight) 18.66px or larger.
 
 - [WebAIM: Color Contrast Checker](https://webaim.org/resources/contrastchecker/)
 - [Understanding WCAG, Guideline 1.4 explanation](/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable#guideline_1.4_make_it_easier_for_users_to_see_and_hear_content_including_separating_foreground_from_background)
@@ -173,9 +173,9 @@ div {
   - {{cssxref("gradient/repeating-radial-gradient", "repeating-radial-gradient()")}}
   - {{cssxref("gradient/repeating-conic-gradient", "repeating-conic-gradient()")}}
   - {{cssxref("url_value", "&lt;url&gt;")}}
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
-- [Implementing image sprites in CSS](/en-US/docs/Web/CSS/Guides/Images/Implementing_image_sprites)
-- [CSS images](/en-US/docs/Web/CSS/Guides/Images) module
+- [Using CSS gradients](/css/guides/Images/Using_gradients)
+- [Implementing image sprites in CSS](/css/guides/Images/Implementing_image_sprites)
+- [CSS images](/css/guides/Images) module
 
 - Background-related properties
   - {{cssxref("background-attachment")}}
@@ -187,6 +187,6 @@ div {
   - {{cssxref("background-size")}}
   - {{cssxref("background")}} shorthand
 - [Learn: Backgrounds and borders](/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders)
-- [Using multiple backgrounds](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds)
-- [Resizing background images](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Resizing_background_images)
-- [CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) module
+- [Using multiple backgrounds](/css/guides/Backgrounds_and_borders/Using_multiple_backgrounds)
+- [Resizing background images](/css/guides/Backgrounds_and_borders/Resizing_background_images)
+- [CSS backgrounds and borders](/css/guides/Backgrounds_and_borders) module

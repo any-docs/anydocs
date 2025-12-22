@@ -18,13 +18,13 @@ toString(options)
 
 ### Parameters
 
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing some or all of the following properties (in the order they are retrieved and validated):
-    - `fractionalSecondDigits` {{optional_inline}}
+    - `fractionalSecondDigits` <Badge type="info" text="Optional" />
       - : Either an integer from 0 to 9, or the string `"auto"`. The default is `"auto"`. If `"auto"`, then trailing zeros are removed from the fractional seconds. Otherwise, the fractional part of the second component contains this many digits, padded with zeros or rounded as necessary.
-    - `roundingMode` {{optional_inline}}
+    - `roundingMode` <Badge type="info" text="Optional" />
       - : A string specifying how to round off fractional second digits beyond `fractionalSecondDigits`. See [`Intl.NumberFormat()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat#roundingmode). Defaults to `"trunc"`.
-    - `smallestUnit` {{optional_inline}}
+    - `smallestUnit` <Badge type="info" text="Optional" />
       - : A string specifying the smallest unit to include in the output. Possible values are `"minute"`, `"second"`, `"millisecond"`, `"microsecond"`, and `"nanosecond"`, or their plural forms, which (except `"minute"`) are equivalent to `fractionalSecondDigits` values of `0`, `3`, `6`, `9`, respectively. If specified, then `fractionalSecondDigits` is ignored.
 
 ### Return value

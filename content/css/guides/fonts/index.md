@@ -93,7 +93,7 @@ The CSS fonts module also defines the {{cssxref("@font-feature-values/font-displ
 
 `font-feature-settings` type:
 
-- [`<feature-tag-value>`](/en-US/docs/Web/CSS/Reference/Properties/font-feature-settings#values)
+- [`<feature-tag-value>`](/css/reference/properties/font-feature-settings#values)
 
 `font-format` type:
 
@@ -101,7 +101,7 @@ The CSS fonts module also defines the {{cssxref("@font-feature-values/font-displ
 
 `font-stretch` type:
 
-- [`<font-stretch-css3>`](/en-US/docs/Web/CSS/Reference/Properties/font-stretch#values)
+- [`<font-stretch-css3>`](/css/reference/properties/font-stretch#values)
 
 `font-tech` types:
 
@@ -111,26 +111,26 @@ The CSS fonts module also defines the {{cssxref("@font-feature-values/font-displ
 
 `font-variant` types:
 
-- [`<font-variant-css2>`](/en-US/docs/Web/CSS/Reference/Properties/font-variant)
-- [`<east-asian-variant-values>`](/en-US/docs/Web/CSS/Reference/Properties/font-variant#values)
-- [`<east-asian-width-values>`](/en-US/docs/Web/CSS/Reference/Properties/font-variant#values)
+- [`<font-variant-css2>`](/css/reference/properties/font-variant)
+- [`<east-asian-variant-values>`](/css/reference/properties/font-variant#values)
+- [`<east-asian-width-values>`](/css/reference/properties/font-variant#values)
 
 `font-variant-ligatures` types:
 
-- [`<common-lig-values>`](/en-US/docs/Web/CSS/Reference/Properties/font-variant-ligatures#values)
-- [`<contextual-alt-values>`](/en-US/docs/Web/CSS/Reference/Properties/font-variant-ligatures#values)
-- [`<discretionary-lig-values>`](/en-US/docs/Web/CSS/Reference/Properties/font-variant-ligatures#values)
-- [`<historical-lig-values>`](/en-US/docs/Web/CSS/Reference/Properties/font-variant-ligatures#values)
+- [`<common-lig-values>`](/css/reference/properties/font-variant-ligatures#values)
+- [`<contextual-alt-values>`](/css/reference/properties/font-variant-ligatures#values)
+- [`<discretionary-lig-values>`](/css/reference/properties/font-variant-ligatures#values)
+- [`<historical-lig-values>`](/css/reference/properties/font-variant-ligatures#values)
 
 `font-variant-numeric` types:
 
-- [`<numeric-figure-values>`](/en-US/docs/Web/CSS/Reference/Properties/font-variant-numeric#values)
-- [`<numeric-fraction-values>`](/en-US/docs/Web/CSS/Reference/Properties/font-variant-numeric#values)
-- [`<numeric-spacing-values>`](/en-US/docs/Web/CSS/Reference/Properties/font-variant-numeric#values)
+- [`<numeric-figure-values>`](/css/reference/properties/font-variant-numeric#values)
+- [`<numeric-fraction-values>`](/css/reference/properties/font-variant-numeric#values)
+- [`<numeric-spacing-values>`](/css/reference/properties/font-variant-numeric#values)
 
 `font-weight` type:
 
-- [`<font-weight-absolute>`](/en-US/docs/Web/CSS/Reference/Properties/font-weight#values)
+- [`<font-weight-absolute>`](/css/reference/properties/font-weight#values)
 
 ### Interfaces
 
@@ -146,13 +146,13 @@ The CSS fonts module also defines the {{cssxref("@font-feature-values/font-displ
 - [Learn: Web fonts](/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts)
   - : This beginner's learning article explains how to use custom fonts on your web page to allow for more varied and custom text styling.
 
-- [OpenType font features](/en-US/docs/Web/CSS/Guides/Fonts/OpenType_fonts)
+- [OpenType font features](/css/guides/Fonts/OpenType_fonts)
   - : Font features or variants refer to different glyphs or character styles contained within an OpenType font. These include things like ligatures (special glyphs that combine characters like 'fi' or 'ffl'), kerning (adjustments to the spacing between specific letterform pairings), fractions, numeral styles, and a number of others. These are all referred to as OpenType Features, and are made available to use on the web via specific properties and a low-level control property — {{cssxref("font-feature-settings")}}. This article provides you with all you need to know about using OpenType font features in CSS.
 
-- [Web Open Font Format (WOFF)](/en-US/docs/Web/CSS/Guides/Fonts/WOFF)
+- [Web Open Font Format (WOFF)](/css/guides/Fonts/WOFF)
   - : WOFF uses a compressed version of the same table-based `sfnt` structure used by TrueType, OpenType, and Open Font Format, but adds metadata and private-use data structures, including predefined fields allowing foundries and vendors to provide license information if desired.
 
-- [Variable fonts](/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts)
+- [Variable fonts](/css/guides/Fonts/Variable_fonts)
   - : This article will help you get started with using variable fonts.
 
 - [Improving font performance](/en-US/docs/Learn_web_development/Extensions/Performance/CSS#improving_font_performance)
@@ -170,7 +170,7 @@ The CSS fonts module also defines the {{cssxref("@font-feature-values/font-displ
 
 ## See also
 
-- [CSS font loading](/en-US/docs/Web/CSS/Guides/Font_loading) module
+- [CSS font loading](/css/guides/Font_loading) module
 - [CSS font loading API](/en-US/docs/Web/API/CSS_Font_Loading_API)
-- [CSS text](/en-US/docs/Web/CSS/Guides/Text) module
-- [CSS writing modes](/en-US/docs/Web/CSS/Guides/Writing_modes) module
+- [CSS text](/css/guides/Text) module
+- [CSS writing modes](/css/guides/Writing_modes) module

@@ -44,7 +44,7 @@ brightness(amount)
 
 ### Values
 
-- `amount` {{Optional_Inline}}
+- `amount` <Badge type="info" text="Optional" />
   - : Brightness specified as a {{cssxref("&lt;number&gt;")}} or a {{cssxref("&lt;percentage&gt;")}}. A value less than `100%` darkens the input image or element, while a value over `100%` brightens it. A value of `0%` creates a completely black image or element, while a value of `100%` leaves the input unchanged. Other values between `0%` to `100%` have a linear multiplier effect. Values greater than `100%` are allowed, providing brighter results. The initial value for {{Glossary("interpolation")}} is `1`. Negative values are not allowed. The default value is `1`.
 
 The following are pairs of equivalent values:
@@ -242,7 +242,7 @@ svg:not(:root) {
 
 ## See also
 
-- [CSS filter effects](/en-US/docs/Web/CSS/Guides/Filter_effects) module
+- [CSS filter effects](/css/guides/Filter_effects) module
 - The other {{cssxref("filter-function")}} functions available to be used in values of the {{cssxref("filter")}} and {{cssxref("backdrop-filter")}} properties include:
   - {{cssxref("filter-function/blur", "blur()")}}
   - {{cssxref("filter-function/contrast", "contrast()")}}

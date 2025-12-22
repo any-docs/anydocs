@@ -32,9 +32,9 @@ YYYY-MM-DD T HH:mm:ss.sssssssss Z/±HH:mm
   - : The date-time separator, which can be `T`, `t`, or a space.
 - `HH`
   - : A two-digit number from `00` to `23`.
-- `mm` {{optional_inline}}
+- `mm` <Badge type="info" text="Optional" />
   - : A two-digit number from `00` to `59`. Defaults to `00`.
-- `ss.sssssssss` {{optional_inline}}
+- `ss.sssssssss` <Badge type="info" text="Optional" />
   - : A two-digit number from `00` to `59`. May optionally be followed by a `.` or `,` and one to nine digits. Defaults to `00`. The `HH`, `mm`, and `ss` components can be separated by `:` or nothing. You can omit either just `ss` or both `ss` and `mm`, so the time can be one of three forms: `HH`, `HH:mm`, or `HH:mm:ss.sssssssss`.
 - `Z/±HH:mm`
   - : Either the UTC designator `Z` or `z`, or an offset from UTC in the form `+` or `-` followed by the same format as the time component. Note that subminute precision (`:ss.sssssssss`) may be unsupported by other systems, and is accepted but never output. If an offset is provided, the time is interpreted in the specified offset.

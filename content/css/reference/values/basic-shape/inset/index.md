@@ -6,7 +6,7 @@ browser-compat: css.types.basic-shape.inset
 sidebar: cssref
 ---
 
-The **`inset()`** [CSS](/en-US/docs/Web/CSS) function defines a rectangle at the specified inset distances from each side of the reference box. It is a basic shape function used to define one of the {{cssxref("basic-shape")}} [data types](/en-US/docs/Web/CSS/Reference/Values/Data_types).
+The **`inset()`** [CSS](/en-US/docs/Web/CSS) function defines a rectangle at the specified inset distances from each side of the reference box. It is a basic shape function used to define one of the {{cssxref("basic-shape")}} [data types](/css/reference/values/Data_types).
 
 {{InteractiveExample("CSS Demo: inset()")}}
 
@@ -59,7 +59,7 @@ shape-outside: inset(20px 50px 10px 0 round 50px);
     If a pair of insets for a dimension adds up to more than 100% of that dimension, both values are proportionally reduced so their sum equals 100%. For example, the value `inset(90% 10% 60% 10%)` has a top inset of `90%` and a bottom inset of `60%`. These values are reduced proportionally to `inset(60% 10% 40% 10%)`. Shapes such as this, that enclose no area and have no {{cssxref("shape-margin")}}, do not affect wrapping.
 
 - `<border-radius>`
-  - : The optional [`<border-radius>`](/en-US/docs/Web/CSS/Reference/Properties/border-radius) argument(s) define rounded corners for the inset rectangle using the border-radius shorthand syntax.
+  - : The optional [`<border-radius>`](/css/reference/properties/border-radius) argument(s) define rounded corners for the inset rectangle using the border-radius shorthand syntax.
 
 ## Formal syntax
 
@@ -120,5 +120,5 @@ In the example below we have an `inset()` shape used to pull content over the fl
 ## See also
 
 - Properties that use this data type: {{cssxref("clip-path")}}, {{cssxref("shape-outside")}}
-- [CSS shapes](/en-US/docs/Web/CSS/Guides/Shapes) module
-- [Guide to basic shapes](/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside)
+- [CSS shapes](/css/guides/Shapes) module
+- [Guide to basic shapes](/css/guides/Shapes/Using_shape-outside)

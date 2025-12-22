@@ -22,7 +22,7 @@ setFromBase64(string, options)
 
 - `string`
   - : A base64 string encoding bytes to write into a `Uint8Array`. It has the same requirements as the [`string` parameter of `Uint8Array.fromBase64()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/fromBase64#string). Note that the string is only read up to the point where the array is filled, so any invalid base64 syntax after that point is ignored.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object customizing the base64 string interpretation process. It has the same requirements as the [`options` parameter of `Uint8Array.fromBase64()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/fromBase64#options).
 
 ### Return value

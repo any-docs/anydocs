@@ -109,7 +109,7 @@ The keywords and data types mentioned above are described in more detail below:
   - : An {{cssxref("image")}}, representing an image to display. This can be equal to a {{cssxref("url_value", "&lt;url&gt;")}}, {{cssxref("image/image-set", "image-set()")}}, or {{cssxref("gradient")}} data type, or a part of the webpage itself, defined by the {{cssxref("element()")}} function.
 
 - `<counter>`
-  - : The `<counter>` value is a [CSS counter](/en-US/docs/Web/CSS/Guides/Counter_styles/Using_counters), generally a number produced by computations defined by {{cssxref("&lt;counter-reset&gt;")}} and {{cssxref("&lt;counter-increment&gt;")}} properties. It can be displayed using either the {{cssxref("counter()")}} or {{cssxref("counters()")}} function.
+  - : The `<counter>` value is a [CSS counter](/css/guides/Counter_styles/Using_counters), generally a number produced by computations defined by {{cssxref("&lt;counter-reset&gt;")}} and {{cssxref("&lt;counter-increment&gt;")}} properties. It can be displayed using either the {{cssxref("counter()")}} or {{cssxref("counters()")}} function.
     - {{cssxref("counter()")}}
       - : The {{cssxref("counter()")}} function has two forms: 'counter(_name_)' or 'counter(_name_, style)'. The generated text is the value of the innermost counter of the given name in scope at the given pseudo-element. It is formatted in the specified {{cssxref("&lt;list-style-type&gt;")}} (`decimal` by default).
     - {{cssxref("counters()")}}
@@ -237,7 +237,7 @@ q::after {
 
 {{EmbedLiveSample('Quotes', '100%', 200)}}
 
-Note the [type of quotes generated](/en-US/docs/Web/CSS/Reference/Properties/quotes#auto_quotes) is based on the language. Browsers add open- and close-quotes before and after {{HTMLElement("q")}} elements by default, so the quotes in this example would appear without them being explicitly set. They could have been turned off by setting the respective `content` property values to `no-open-quote` and `no-close-quote`, or by setting them both to `none`. They can also be turned off by setting the {{cssxref("quotes")}} property to `none` instead.
+Note the [type of quotes generated](/css/reference/properties/quotes#auto_quotes) is based on the language. Browsers add open- and close-quotes before and after {{HTMLElement("q")}} elements by default, so the quotes in this example would appear without them being explicitly set. They could have been turned off by setting the respective `content` property values to `no-open-quote` and `no-close-quote`, or by setting them both to `none`. They can also be turned off by setting the {{cssxref("quotes")}} property to `none` instead.
 
 ### Adding text to list item counters
 
@@ -459,6 +459,6 @@ div {
 - {{cssxref("image/image-set", "image-set()")}}
 - {{cssxref("url_value", "&lt;url&gt;")}}
 - {{glossary("Replaced elements")}}
-- [CSS generated content](/en-US/docs/Web/CSS/Guides/Generated_content) module
-- [CSS lists and counters](/en-US/docs/Web/CSS/Guides/Lists) module
+- [CSS generated content](/css/guides/Generated_content) module
+- [CSS lists and counters](/css/guides/Lists) module
 - Browser accessibility panels: [Firefox Accessibility inspector](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/), [Chrome Accessibility pane](https://developer.chrome.com/docs/devtools/accessibility/reference#pane), and [Safari Accessibility tree](https://webflow.com/glossary/accessibility-tree#:~:text=To%20view%20a%20website%E2%80%99s%20accessibility%20tree%20in%20Safari)

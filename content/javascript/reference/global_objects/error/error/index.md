@@ -30,15 +30,15 @@ Error(message, fileName, lineNumber)
 
 ### Parameters
 
-- `message` {{optional_inline}}
+- `message` <Badge type="info" text="Optional" />
   - : A human-readable description of the error.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object that has the following properties:
-    - `cause` {{optional_inline}}
+    - `cause` <Badge type="info" text="Optional" />
       - : A value indicating the specific cause of the error, reflected in the {{jsxref("Error/cause", "cause")}} property. When catching and re-throwing an error with a more-specific or useful error message, this property can be used to pass the original error.
-- `fileName` {{optional_inline}} {{non-standard_inline}}
+- `fileName` <Badge type="info" text="Optional" /> {{non-standard_inline}}
   - : The path to the file that raised this error, reflected in the {{jsxref("Error/fileName", "fileName")}} property. Defaults to the name of the file containing the code that called the `Error()` constructor.
-- `lineNumber` {{optional_inline}} {{non-standard_inline}}
+- `lineNumber` <Badge type="info" text="Optional" /> {{non-standard_inline}}
   - : The line number within the file on which the error was raised, reflected in the {{jsxref("Error/lineNumber", "lineNumber")}} property. Defaults to the line number containing the `Error()` constructor invocation.
 
 ## Examples

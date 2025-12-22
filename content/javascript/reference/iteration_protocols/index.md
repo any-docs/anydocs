@@ -36,12 +36,12 @@ An object is an iterator when it implements a **`next()`** method with the follo
 
 All iterator protocol methods (`next()`, `return()`, and `throw()`) are expected to return an object implementing the `IteratorResult` interface. It must have the following properties:
 
-- `done` {{optional_inline}}
+- `done` <Badge type="info" text="Optional" />
   - : A boolean that's `false` if the iterator was able to produce the next value in the sequence. (This is equivalent to not specifying the `done` property altogether.)
 
     Has the value `true` if the iterator has completed its sequence. In this case, `value` optionally specifies the return value of the iterator.
 
-- `value` {{optional_inline}}
+- `value` <Badge type="info" text="Optional" />
   - : Any JavaScript value returned by the iterator. Can be omitted when `done` is `true`.
 
 In practice, neither property is strictly required; if an object without either property is returned, it's effectively equivalent to `{ done: false, value: undefined }`.
@@ -52,9 +52,9 @@ The `next` method can receive a value which will be made available to the method
 
 Optionally, the iterator can also implement the **`return(value)`** and **`throw(exception)`** methods, which, when called, tells the iterator that the caller is done with iterating it and can perform any necessary cleanup (such as closing database connection).
 
-- `return(value)` {{optional_inline}}
+- `return(value)` <Badge type="info" text="Optional" />
   - : A function that accepts zero or one argument and returns an object conforming to the `IteratorResult` interface, typically with `value` equal to the `value` passed in and `done` equal to `true`. Calling this method tells the iterator that the caller does not intend to make any more `next()` calls and can perform any cleanup actions. When built-in language features call `return()` for cleanup, `value` is always `undefined`.
-- `throw(exception)` {{optional_inline}}
+- `throw(exception)` <Badge type="info" text="Optional" />
   - : A function that accepts zero or one argument and returns an object conforming to the `IteratorResult` interface, typically with `done` equal to `true`. Calling this method tells the iterator that the caller detects an error condition, and `exception` is typically an {{jsxref("Error")}} instance. No built-in language feature calls `throw()` for cleanup purposes — it's a special feature of generators for the symmetry of `return`/`throw`.
 
 > [!NOTE]
@@ -110,9 +110,9 @@ An object implements the async iterator protocol when it implements the followin
 
 - `next()`
   - : A function that accepts zero or one argument and returns a promise. The promise fulfills to an object conforming to the `IteratorResult` interface, and the properties have the same semantics as those of the sync iterator's.
-- `return(value)` {{optional_inline}}
+- `return(value)` <Badge type="info" text="Optional" />
   - : A function that accepts zero or one argument and returns a promise. The promise fulfills to an object conforming to the `IteratorResult` interface, and the properties have the same semantics as those of the sync iterator's.
-- `throw(exception)` {{optional_inline}}
+- `throw(exception)` <Badge type="info" text="Optional" />
   - : A function that accepts zero or one argument and returns a promise. The promise fulfills to an object conforming to the `IteratorResult` interface, and the properties have the same semantics as those of the sync iterator's.
 
 ## Interactions between the language and iteration protocols

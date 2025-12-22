@@ -153,7 +153,7 @@ p {
 ## See also
 
 - [Drawing text in a `<canvas>`](/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text)
-- [CSS Text Decoration](/en-US/docs/Web/CSS/Guides/Text_decoration) CSS module
+- [CSS Text Decoration](/css/guides/Text_decoration) CSS module
 - Related CSS properties
   - {{cssxref("text-decoration")}} (and its longhand properties, such as {{cssxref("text-decoration-line")}}, {{cssxref("text-decoration-style")}}, and {{cssxref("text-decoration-thickness")}})
   - {{cssxref("text-emphasis")}} (and its longhand properties, including {{cssxref("text-emphasis-color")}}, {{cssxref("text-emphasis-position")}}, and {{cssxref("text-emphasis-style")}})

@@ -6,7 +6,7 @@ browser-compat: css.types.rem
 sidebar: cssref
 ---
 
-The **`rem()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) returns a remainder left over when the first parameter is divided by the second parameter, similar to the JavaScript [remainder operator (`%`)](/en-US/docs/Web/JavaScript/Reference/Operators/Remainder). The remainder is the value left over when one operand, the dividend, is divided by a second operand, the divisor. It always takes the sign of the dividend.
+The **`rem()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) returns a remainder left over when the first parameter is divided by the second parameter, similar to the JavaScript [remainder operator (`%`)](/en-US/docs/Web/JavaScript/Reference/Operators/Remainder). The remainder is the value left over when one operand, the dividend, is divided by a second operand, the divisor. It always takes the sign of the dividend.
 
 > [!NOTE]
 > To read about the unit `rem`, see the {{CSSxRef("&lt;length&gt;")}} page.
@@ -42,7 +42,7 @@ transition-duration: rem(20s / 2, 3000ms * 2); /* 4s */
 
 ### Parameters
 
-The `rem(dividend, divisor)` function accepts two comma-separated values as its parameters. Both parameters must have the same type, [number](/en-US/docs/Web/CSS/Reference/Values/number), [dimension](/en-US/docs/Web/CSS/Reference/Values/dimension), or {{cssxref("percentage")}}, for the function to be valid. While the units in the two parameters don't need to be the same, they do need of the same dimension type, such as {{cssxref("length")}}, {{cssxref("angle")}}, {{cssxref("time")}}, or {{cssxref("frequency")}} to be valid.
+The `rem(dividend, divisor)` function accepts two comma-separated values as its parameters. Both parameters must have the same type, [number](/css/reference/values/number), [dimension](/css/reference/values/dimension), or {{cssxref("percentage")}}, for the function to be valid. While the units in the two parameters don't need to be the same, they do need of the same dimension type, such as {{cssxref("length")}}, {{cssxref("angle")}}, {{cssxref("time")}}, or {{cssxref("frequency")}} to be valid.
 
 - `dividend`
   - : A calculation that resolves to a {{CSSxREF("&lt;number&gt;")}}, {{CSSxREF("&lt;dimension&gt;")}}, or {{CSSxREF("&lt;percentage&gt;")}} representing the dividend.

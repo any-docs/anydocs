@@ -38,7 +38,7 @@ setBigInt64(byteOffset, value, littleEndian)
   - : The offset, in bytes, from the start of the view to store the data in.
 - `value`
   - : The value to set as a {{jsxref("BigInt")}}. For how the value is encoded in bytes, see [Value encoding and normalization](/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray#value_encoding_and_normalization).
-- `littleEndian` {{optional_inline}}
+- `littleEndian` <Badge type="info" text="Optional" />
   - : Indicates whether the data is stored in [little- or big-endian](/en-US/docs/Glossary/Endianness) format. If `false` or `undefined`, a big-endian value is written.
 
 ### Return value

@@ -40,7 +40,7 @@ The properties introduced in this module aren't limited to the `<table>` element
 - {{cssxref("vertical-align")}} property
 - {{cssxref("text-align")}} property
 
-- [CSS box sizing](/en-US/docs/Web/CSS/Guides/Box_sizing) module
+- [CSS box sizing](/css/guides/Box_sizing) module
   - {{cssxref("box-sizing")}}
   - {{cssxref("height")}}
   - {{cssxref("max-width")}}
@@ -49,7 +49,7 @@ The properties introduced in this module aren't limited to the `<table>` element
   - {{cssxref("width")}}
   - {{cssxref("min-content")}} keyword
 
-- [CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) module
+- [CSS backgrounds and borders](/css/guides/Backgrounds_and_borders) module
   - {{cssxref("border")}} shorthand
   - {{cssxref("border-width")}}
   - {{cssxref("border-style")}}
@@ -76,7 +76,7 @@ The properties introduced in this module aren't limited to the `<table>` element
 
 ## See also
 
-- [CSS display](/en-US/docs/Web/CSS/Guides/Display) module
-- [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) module
-- [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module
-- [CSS fragmentation](/en-US/docs/Web/CSS/Guides/Fragmentation) module
+- [CSS display](/css/guides/Display) module
+- [CSS grid layout](/css/guides/Grid_layout) module
+- [CSS flexible box layout](/css/guides/Flexible_box_layout) module
+- [CSS fragmentation](/css/guides/Fragmentation) module

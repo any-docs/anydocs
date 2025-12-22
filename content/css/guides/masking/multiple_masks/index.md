@@ -16,7 +16,7 @@ CSS masks are made up of one or more mask layers. In this guide, we discuss the 
 
 You can apply CSS masking to all HTML elements and most SVG elements. A mask can consist of one or more composited mask layers. You define multiple layers using comma-separated values in the {{cssxref("mask")}} shorthand property or the {{cssxref("mask-image")}} property–even a value set to `none` counts as a layer.
 
-Each mask layer can contain a [mask image](/en-US/docs/Web/CSS/Reference/Properties/mask-image), which is positioned relative to the mask's origin box. The image can be sized, repeated, and clipped. If you include more than one mask image, you can define the way the mask layers are composited or combined. (These features are briefly introduced in this guide. For more details and examples, see the [masking properties guide](/en-US/docs/Web/CSS/Guides/Masking/Mask_properties).)
+Each mask layer can contain a [mask image](/css/reference/properties/mask-image), which is positioned relative to the mask's origin box. The image can be sized, repeated, and clipped. If you include more than one mask image, you can define the way the mask layers are composited or combined. (These features are briefly introduced in this guide. For more details and examples, see the [masking properties guide](/css/guides/Masking/Mask_properties).)
 
 ### Syntax for multiple mask layers
 
@@ -47,7 +47,7 @@ mask-border-width: auto;
 
 ### Defining mask layers with `mask-image`
 
-As long as a comma-separated {{cssxref("mask-image")}} property declaration includes at least one value other than `none`, a mask layer is created for every value in the declaration, even for the `none` values. This behavior applies whether you're using the `mask-image` property or the `mask` shorthand. These mask images can be gradients, images, or SVG sources. You can define them using a [CSS gradient](/en-US/docs/Web/CSS/Guides/Images/Using_gradients), a raster image (such as PNGs), or an SVG {{svgelement("mask")}} element.
+As long as a comma-separated {{cssxref("mask-image")}} property declaration includes at least one value other than `none`, a mask layer is created for every value in the declaration, even for the `none` values. This behavior applies whether you're using the `mask-image` property or the `mask` shorthand. These mask images can be gradients, images, or SVG sources. You can define them using a [CSS gradient](/css/guides/Images/Using_gradients), a raster image (such as PNGs), or an SVG {{svgelement("mask")}} element.
 
 ```css
 .gradient-mask {
@@ -63,7 +63,7 @@ As long as a comma-separated {{cssxref("mask-image")}} property declaration incl
 }
 ```
 
-The [introductory guide to masking](/en-US/docs/Web/CSS/Guides/Masking) introduces the different types of mask images and their modes.
+The [introductory guide to masking](/css/guides/Masking) introduces the different types of mask images and their modes.
 
 The `mask-image` property is analogous to the {{cssxref("background-image")}} property. Just as with the `background-image` property, to include multiple mask images, the image values are separated by commas.
 
@@ -121,7 +121,7 @@ If a value in the comma-separated list of values is an empty image, fails to dow
 
 No masking occurs if the entire property resolves to `none`, which makes the element fully visible. On the other hand, if the value includes multiple layers and at least one is not `none`, the `none` layers don't reveal any part of the element (or don't make any part of the element visible). In this example, the value doesn't resolve to `none`; but because all non-`none` images are invalid, masking occurs, and the element will be fully hidden.
 
-A computed value other than `none` creates a [CSS stacking context](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context).
+A computed value other than `none` creates a [CSS stacking context](/css/guides/Positioned_layout/Stacking_context).
 
 ### How mask layers affect `mask-*` properties
 
@@ -131,7 +131,7 @@ The `mask-*` properties include:
 
 - {{cssxref("mask-mode")}}: Sets the mode of each mask layer to either `alpha` or `luminance`, or allows it to default to the source's mode by setting the value to `match-source`. The default is `match-source`.
 
-- {{cssxref("mask-position")}}: Analogous to the {{cssxref("background-position")}} property with syntax that follows the [`background-position`'s `<position>` syntax](/en-US/docs/Web/CSS/Reference/Properties/background-position#position), it sets the initial position of the mask image relative to the mask layer's origin box, defined by the `mask-origin` property. You can specify one, two, or four {{cssxref("&lt;position&gt;")}} values. The default `0% 0%` positions the top-left corner of the mask at the top-left corner of the mask origin box.
+- {{cssxref("mask-position")}}: Analogous to the {{cssxref("background-position")}} property with syntax that follows the [`background-position`'s `<position>` syntax](/css/reference/properties/background-position#position), it sets the initial position of the mask image relative to the mask layer's origin box, defined by the `mask-origin` property. You can specify one, two, or four {{cssxref("&lt;position&gt;")}} values. The default `0% 0%` positions the top-left corner of the mask at the top-left corner of the mask origin box.
 
 - {{cssxref("mask-origin")}}: Analogous to the {{cssxref("background-origin")}} property, it specifies the _mask positioning area_, which is the mask origin box area within which a mask image is positioned. For example, if the `mask-position` is `top left`, this property defines whether that is relative to the border's outer edge, the padding's outer edge, or the content's outer edge.
 
@@ -145,7 +145,7 @@ The `mask-*` properties include:
 
 Each `mask-*` value in a comma-separated list of `mask` component properties applies to a separate mask layer. As stated earlier, an element can have multiple mask layers applied — the number of layers is determined by the number of comma-separated values in the `mask-image` or `mask` properties. Each `mask-*` value is matched with a mask layer, in order. If the number of values in the `mask-*` property is greater than the number of mask layers, any excess values are ignored. If the mask component property has fewer values than the number of mask layers, the `mask-*` values are repeated.
 
-To learn more about these individual properties, see [CSS mask properties](/en-US/docs/Web/CSS/Guides/Masking/Mask_properties).
+To learn more about these individual properties, see [CSS mask properties](/css/guides/Masking/Mask_properties).
 
 ## Order of shorthand component properties
 
@@ -157,7 +157,7 @@ The `mask-origin` value, listed in the syntax as `<origin>`, comes before the `m
 
 `<image> <position> / <size> <repeat> <origin> <clip> <composite> <mode>`
 
-Both accept [`<geometry-box>`](/en-US/docs/Web/CSS/Reference/Values/box-edge#geometry-box) keywords. In addition, `mask-clip` also accepts `no-clip`. Because of this, the order of these two matters when you want to set `mask-clip` to any value other than `no-clip`.
+Both accept [`<geometry-box>`](/css/reference/values/box-edge#geometry-box) keywords. In addition, `mask-clip` also accepts `no-clip`. Because of this, the order of these two matters when you want to set `mask-clip` to any value other than `no-clip`.
 
 - If one `<geometry-box>` value is present along with the `no-clip` keyword, then the `<geometry-box>` sets the `mask-origin` value, and `mask-clip` is set to `no-clip`. In this case, the order doesn't matter.
 
@@ -203,7 +203,7 @@ To include a `mask-size` in a mask layer using the `mask` shorthand, you must in
 
 ## See also
 
-- [Introduction to CSS masking](/en-US/docs/Web/CSS/Guides/Masking/Introduction)
-- [CSS mask properties](/en-US/docs/Web/CSS/Guides/Masking/Mask_properties)
-- [Introduction to CSS clipping](/en-US/docs/Web/CSS/Guides/Masking/Clipping)
-- [CSS masking](/en-US/docs/Web/CSS/Guides/Masking) module
+- [Introduction to CSS masking](/css/guides/Masking/Introduction)
+- [CSS mask properties](/css/guides/Masking/Mask_properties)
+- [Introduction to CSS clipping](/css/guides/Masking/Clipping)
+- [CSS masking](/css/guides/Masking) module

@@ -99,10 +99,10 @@ With this set, the browser won't tamper with the appearance of the element on wh
 
 ## See also
 
-- [CSS colors](/en-US/docs/Web/CSS/Guides/Colors) module
-- [Applying color to HTML elements using CSS](/en-US/docs/Web/CSS/Guides/Colors/Applying_color)
-- [CSS color values](/en-US/docs/Web/CSS/Guides/Colors/Color_values)
-- [Using relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors)
+- [CSS colors](/css/guides/Colors) module
+- [Applying color to HTML elements using CSS](/css/guides/Colors/Applying_color)
+- [CSS color values](/css/guides/Colors/Color_values)
+- [Using relative colors](/css/guides/Colors/Using_relative_colors)
 - [Understanding color and luminance](/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance)
 - [WCAG 1.4.1: Color contrast](/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable/Color_contrast)
 - [Paletton](https://paletton.com/)

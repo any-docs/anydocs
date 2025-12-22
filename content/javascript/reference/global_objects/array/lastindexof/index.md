@@ -34,7 +34,7 @@ lastIndexOf(searchElement, fromIndex)
 
 - `searchElement`
   - : Element to locate in the array.
-- `fromIndex` {{optional_inline}}
+- `fromIndex` <Badge type="info" text="Optional" />
   - : Zero-based index at which to start searching backwards, [converted to an integer](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#integer_conversion).
     - Negative index counts back from the end of the array — if `-array.length <= fromIndex < 0`, `fromIndex + array.length` is used.
     - If `fromIndex < -array.length`, the array is not searched and `-1` is returned. You can think of it conceptually as starting at a nonexistent position before the beginning of the array and going backwards from there. There are no array elements on the way, so `searchElement` is never found.

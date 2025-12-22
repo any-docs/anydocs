@@ -7,7 +7,7 @@ spec-urls: https://drafts.fxtf.org/compositing/
 sidebar: cssref
 ---
 
-The **CSS compositing and blending** module defines how an element's background layers can be blended together, how an element can be blended with its container, and whether the element must create a new [stacking context](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context).
+The **CSS compositing and blending** module defines how an element's background layers can be blended together, how an element can be blended with its container, and whether the element must create a new [stacking context](/css/guides/Positioned_layout/Stacking_context).
 
 The properties in this CSS module can be used to define the blending mode that should be used, if any, to blend an element's background images and colors into a single background image. This module provides 16 blending modes. You can also define how an element's borders, background, and content, including text, emojis, and images, should be blended with the background of its container.
 
@@ -110,7 +110,7 @@ Click "Play" in the example above to see or edit the code for the animation in t
 
 ## See also
 
-- Properties in the [CSS filter effects](/en-US/docs/Web/CSS/Guides/Filter_effects) module enable applying filters effects, such as blurring and changing color intensity, to images, backgrounds, and borders.
+- Properties in the [CSS filter effects](/css/guides/Filter_effects) module enable applying filters effects, such as blurring and changing color intensity, to images, backgrounds, and borders.
 - [Compositing And Blending In CSS](https://www.sarasoueidan.com/blog/compositing-and-blending-in-css/) (2015)
 - [Editing Images in CSS: Blend Modes](https://webdesign.tutsplus.com/editing-images-in-css-blend-modes--cms-26058t) (2022)
 - [web.dev: blend modes](https://web.dev/learn/css/blend-modes) (2021)

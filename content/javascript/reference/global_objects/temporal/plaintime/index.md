@@ -22,9 +22,9 @@ HH:mm:ss.sssssssss
 
 - `HH`
   - : A two-digit number from `00` to `23`. It may be prefixed by the time designator `T` or `t`.
-- `mm` {{optional_inline}}
+- `mm` <Badge type="info" text="Optional" />
   - : A two-digit number from `00` to `59`. Defaults to `00`.
-- `ss.sssssssss` {{optional_inline}}
+- `ss.sssssssss` <Badge type="info" text="Optional" />
   - : A two-digit number from `00` to `59`. May optionally be followed by a `.` or `,` and one to nine digits. Defaults to `00`. The `HH`, `mm`, and `ss` components can be separated by `:` or nothing. You can omit either just `ss` or both `ss` and `mm`, so the time can be one of three forms: `HH`, `HH:mm`, or `HH:mm:ss.sssssssss`.
 
 As an input, you may optionally include the date, offset, time zone identifier, and calendar, in the same format as [`PlainDateTime`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime#rfc_9557_format), but they will be ignored. A date-only string will be rejected. Other annotations in the `[key=value]` format are also ignored, and they must not have the critical flag.

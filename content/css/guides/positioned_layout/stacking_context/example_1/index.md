@@ -109,7 +109,7 @@ In terms of stacking contexts, DIV #1 and DIV #3 are assimilated into the root e
 
 ## See also
 
-- [Example: 2-level HTML hierarchy, `z-index` on all levels](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context/Example_2)
-- [Example: 3-level HTML hierarchy, `z-index` on the second level](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context/Example_3)
-- [Stacking context](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context)
-- [CSS positioned layout](/en-US/docs/Web/CSS/Guides/Positioned_layout) module
+- [Example: 2-level HTML hierarchy, `z-index` on all levels](/css/guides/Positioned_layout/Stacking_context/Example_2)
+- [Example: 3-level HTML hierarchy, `z-index` on the second level](/css/guides/Positioned_layout/Stacking_context/Example_3)
+- [Stacking context](/css/guides/Positioned_layout/Stacking_context)
+- [CSS positioned layout](/css/guides/Positioned_layout) module

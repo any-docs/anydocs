@@ -137,7 +137,7 @@ body {
 
 One issue with multicol on the web is that if the columns are taller than the viewport, the reader will need to scroll the page up and down to read, which is not a good user experience. One way to avoid this is to only apply the column properties if you know there is enough vertical space.
 
-In the example below, we used a `height` [@media query](/en-US/docs/Web/CSS/Guides/Media_queries/Using) to ensure there is enough vertical space before applying the column properties.
+In the example below, we used a `height` [@media query](/css/guides/Media_queries/Using) to ensure there is enough vertical space before applying the column properties.
 
 ```html hidden live-sample___min-height
 <div class="container">
@@ -175,4 +175,4 @@ body {
 
 ## Next steps
 
-In the final guide in this series, we will see [how fragmentation works with multicol layouts](/en-US/docs/Web/CSS/Guides/Multicol_layout/Handling_content_breaks) to give us control over how content breaks between columns.
+In the final guide in this series, we will see [how fragmentation works with multicol layouts](/css/guides/Multicol_layout/Handling_content_breaks) to give us control over how content breaks between columns.

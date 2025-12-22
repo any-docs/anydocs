@@ -185,4 +185,4 @@ img {
 
 - Other image-related CSS properties: {{cssxref("object-position")}}, {{cssxref("image-orientation")}}, {{cssxref("image-rendering")}}, {{cssxref("image-resolution")}}.
 - {{cssxref("background-size")}}
-- [Understanding aspect ratios](/en-US/docs/Web/CSS/Guides/Box_sizing/Aspect_ratios)
+- [Understanding aspect ratios](/css/guides/Box_sizing/Aspect_ratios)

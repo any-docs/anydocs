@@ -32,7 +32,7 @@ substring(indexStart, indexEnd)
 
 - `indexStart`
   - : The index of the first character to include in the returned substring.
-- `indexEnd` {{optional_inline}}
+- `indexEnd` <Badge type="info" text="Optional" />
   - : The index of the first character to exclude from the returned substring.
 
 ### Return value

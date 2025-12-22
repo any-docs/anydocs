@@ -333,7 +333,7 @@ pre#example-7 {
 
 ### Using `corner-shape` with `border-radius`
 
-When a non-`0` `border-radius` value is applied to a box corner, you can use the {{cssxref("corner-shape")}} property (or one of its [longhands and shorthands](/en-US/docs/Web/CSS/Reference/Properties/corner-shape#corner--shape_shorthands_and_longhands)) to apply custom shapes to that corner, such as a bevel, notch, or squircle. This example demonstrates `corner-shape` usage.
+When a non-`0` `border-radius` value is applied to a box corner, you can use the {{cssxref("corner-shape")}} property (or one of its [longhands and shorthands](/css/reference/properties/corner-shape#corner--shape_shorthands_and_longhands)) to apply custom shapes to that corner, such as a bevel, notch, or squircle. This example demonstrates `corner-shape` usage.
 
 #### HTML
 

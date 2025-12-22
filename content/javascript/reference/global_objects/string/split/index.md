@@ -38,7 +38,7 @@ split(separator, limit)
 
 - `separator`
   - : The pattern describing where each split should occur. Can be `undefined`, a string, or an object with a [`Symbol.split`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/split) method — the typical example being a {{jsxref("RegExp", "regular expression", "", 1)}}. Omitting `separator` or passing `undefined` causes `split()` to return an array with the calling string as a single element. All values that are not `undefined` or objects with a `[Symbol.split]()` method are [coerced to strings](/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#string_coercion).
-- `limit` {{optional_inline}}
+- `limit` <Badge type="info" text="Optional" />
   - : A non-negative integer specifying a limit on the number of substrings to be included in the array. If provided, splits the string at each occurrence of the specified `separator`, but stops when `limit` entries have been placed in the array. Any leftover text is not included in the array at all.
     - The array may contain fewer entries than `limit` if the end of the string is reached before the limit is reached.
     - If `limit` is `0`, `[]` is returned.

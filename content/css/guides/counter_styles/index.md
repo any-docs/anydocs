@@ -7,7 +7,7 @@ spec-urls: https://drafts.csswg.org/css-counter-styles/
 sidebar: cssref
 ---
 
-The **CSS counter styles** module lets you define your own counter styles to manage the appearance of [markers](/en-US/docs/Web/CSS/Reference/Selectors/::marker) in lists and counters in [generated content](/en-US/docs/Web/CSS/Guides/Generated_content). It also enables you to extend native browser list styles with your own customizations.
+The **CSS counter styles** module lets you define your own counter styles to manage the appearance of [markers](/en-US/docs/Web/CSS/Reference/Selectors/::marker) in lists and counters in [generated content](/css/guides/Generated_content). It also enables you to extend native browser list styles with your own customizations.
 
 While we think of counters as numbers, they are actually strings with components that can be incremented. The counter styles module defines the `@counter-style` rule with ten descriptors, which enable developers to precisely define how counters are converted into strings. This module enables defining which characters to use for the counter bullets, the prefix to put before the counter and postfix that comes after, along with how to handle negative values. The descriptors can also set a range to limit the values a counter style can handle, while also providing fallback styles for when the counter value falls outside the defined range or otherwise can't render the counter value. The module also enables defining how the counter is read out loud by speech synthesizers.
 
@@ -25,7 +25,7 @@ No properties are defined in this module
 
 - [`<counter-style-name>`](/en-US/docs/Web/CSS/Reference/At-rules/@counter-style#counter-style-name)
 - [`<symbol>`](/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/symbols#values)
-- [`<symbols-type>`](/en-US/docs/Web/CSS/Reference/Values/symbols#syntax)
+- [`<symbols-type>`](/css/reference/values/symbols#syntax)
 
 ### At-rules and descriptors
 
@@ -47,12 +47,12 @@ No properties are defined in this module
 
 ## Guides
 
-- [Using CSS counters](/en-US/docs/Web/CSS/Guides/Counter_styles/Using_counters)
+- [Using CSS counters](/css/guides/Counter_styles/Using_counters)
   - : Describes how to use counters to number any HTML element or to perform complex counting.
 
 ## Related concepts
 
-[CSS lists and counters](/en-US/docs/Web/CSS/Guides/Lists) module:
+[CSS lists and counters](/css/guides/Lists) module:
 
 - {{cssxref("counter-increment")}} property
 - {{cssxref("counter-reset")}} property
@@ -62,13 +62,13 @@ No properties are defined in this module
 - {{cssxref("counter()")}} function
 - {{cssxref("counters()")}} function
 
-[CSS pseudo-elements](/en-US/docs/Web/CSS/Guides/Pseudo-elements) module:
+[CSS pseudo-elements](/css/guides/Pseudo-elements) module:
 
 - {{cssxref("::after")}} pseudo-element
 - {{cssxref("::before")}} pseudo-element
 - {{cssxref("::marker")}} pseudo-element
 
-[CSS generated content](/en-US/docs/Web/CSS/Guides/Generated_content) module:
+[CSS generated content](/css/guides/Generated_content) module:
 
 - {{cssxref("content")}} property
 
@@ -78,7 +78,7 @@ No properties are defined in this module
 
 ## See also
 
-- [CSS lists and counters](/en-US/docs/Web/CSS/Guides/Lists) module
-- [CSS pseudo-elements](/en-US/docs/Web/CSS/Guides/Pseudo-elements) module
-- [CSS generated content](/en-US/docs/Web/CSS/Guides/Generated_content) module
+- [CSS lists and counters](/css/guides/Lists) module
+- [CSS pseudo-elements](/css/guides/Pseudo-elements) module
+- [CSS generated content](/css/guides/Generated_content) module
 - [Ready-made counter styles](https://w3c.github.io/predefined-counter-styles/#builtins) via W3C (2023)

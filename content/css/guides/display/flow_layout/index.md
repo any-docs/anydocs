@@ -8,7 +8,7 @@ sidebar: cssref
 
 _Normal Flow_, or Flow Layout, is the way that block and inline elements are displayed on a page before any changes are made to their layout. The flow is essentially a set of things that are all working together and know about each other in your layout. Once something is taken _out of flow_ it works independently.
 
-In normal flow, **{{Glossary("Inline-level_content", "inline")}}** elements display in the inline direction, that is in the direction words are displayed in a sentence according to the [Writing Mode](/en-US/docs/Web/CSS/Guides/Writing_modes) of the document. **{{Glossary("Block/CSS", "block")}}** elements display one after the other, as paragraphs do in the Writing Mode of that document. In English therefore, inline elements display one after the other, starting on the left, and block elements start at the top and move down the page.
+In normal flow, **{{Glossary("Inline-level_content", "inline")}}** elements display in the inline direction, that is in the direction words are displayed in a sentence according to the [Writing Mode](/css/guides/Writing_modes) of the document. **{{Glossary("Block/CSS", "block")}}** elements display one after the other, as paragraphs do in the Writing Mode of that document. In English therefore, inline elements display one after the other, starting on the left, and block elements start at the top and move down the page.
 
 ## Basic Example
 
@@ -51,8 +51,8 @@ span {
 
 ## See also
 
-- [Block and inline layout in normal flow](/en-US/docs/Web/CSS/Guides/Display/Block_and_inline_layout)
-- [In flow and out of flow](/en-US/docs/Web/CSS/Guides/Display/In_flow_and_out_of_flow)
-- [Formatting contexts explained](/en-US/docs/Web/CSS/Guides/Display/Formatting_contexts)
-- [Flow layout and writing modes](/en-US/docs/Web/CSS/Guides/Display/Flow_layout_and_writing_modes)
-- [Flow layout and overflow](/en-US/docs/Web/CSS/Guides/Display/Flow_layout_and_overflow)
+- [Block and inline layout in normal flow](/css/guides/Display/Block_and_inline_layout)
+- [In flow and out of flow](/css/guides/Display/In_flow_and_out_of_flow)
+- [Formatting contexts explained](/css/guides/Display/Formatting_contexts)
+- [Flow layout and writing modes](/css/guides/Display/Flow_layout_and_writing_modes)
+- [Flow layout and overflow](/css/guides/Display/Flow_layout_and_overflow)

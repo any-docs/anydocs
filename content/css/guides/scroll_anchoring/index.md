@@ -26,7 +26,7 @@ For scroll containers that are [snapped](/en-US/docs/Glossary/Scroll_snap) to an
 
 ## Guides
 
-- [Overview of scroll anchoring](/en-US/docs/Web/CSS/Guides/Scroll_anchoring/Overview)
+- [Overview of scroll anchoring](/css/guides/Scroll_anchoring/Overview)
   - : What is scroll anchoring, suppression triggers, and when and how to enable and disable this browser feature.
 
 ## Related concepts
@@ -39,6 +39,6 @@ For scroll containers that are [snapped](/en-US/docs/Glossary/Scroll_snap) to an
 
 ## See also
 
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
-- [CSS scroll snap](/en-US/docs/Web/CSS/Guides/Scroll_snap) module
-- [CSS overscroll behavior](/en-US/docs/Web/CSS/Guides/Overscroll_behavior) module
+- [CSS overflow](/css/guides/Overflow) module
+- [CSS scroll snap](/css/guides/Scroll_snap) module
+- [CSS overscroll behavior](/css/guides/Overscroll_behavior) module

@@ -35,7 +35,7 @@ toFixed(digits)
 
 ### Parameters
 
-- `digits` {{optional_inline}}
+- `digits` <Badge type="info" text="Optional" />
   - : The number of digits to appear after the decimal point; should be a value between `0` and `100`, inclusive. If this argument is omitted, it is treated as `0`.
 
 ### Return value

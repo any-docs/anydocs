@@ -7,7 +7,7 @@ spec-urls: https://drafts.csswg.org/selectors/
 sidebar: cssref
 ---
 
-The **CSS selectors** module defines the patterns to select elements to which a set of CSS rules are then applied along with their [specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity). The CSS selectors module provides us with more than 60 selectors and five combinators. [Other modules](#related_concepts) provide additional pseudo-class selectors and pseudo-elements.
+The **CSS selectors** module defines the patterns to select elements to which a set of CSS rules are then applied along with their [specificity](/css/guides/Cascade/Specificity). The CSS selectors module provides us with more than 60 selectors and five combinators. [Other modules](#related_concepts) provide additional pseudo-class selectors and pseudo-elements.
 
 > [!NOTE]
 > This page introduces a CSS module. To find an exhaustive list of all selectors defined by CSS specifications, see the [selectors](/en-US/docs/Web/CSS/Reference/Selectors) reference page.
@@ -107,28 +107,28 @@ The CSS selectors module also introduces the {{CSSXref(":blank")}}, {{CSSXref(":
 
 - {{glossary("Pseudo-class")}} glossary term
 - [Functional pseudo-classes](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes#functional_pseudo-classes)
-- [Combinators](/en-US/docs/Web/CSS/Guides/Selectors/Selectors_and_combinators#combinators)
-- [Simple selector](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#simple_selector)
-- [Compound selector](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#compound_selector)
-- [Complex selector](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#complex_selector)
-- [Relative selector](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#relative_selector)
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
+- [Combinators](/css/guides/Selectors/Selectors_and_combinators#combinators)
+- [Simple selector](/css/guides/Selectors/Selector_structure#simple_selector)
+- [Compound selector](/css/guides/Selectors/Selector_structure#compound_selector)
+- [Complex selector](/css/guides/Selectors/Selector_structure#complex_selector)
+- [Relative selector](/css/guides/Selectors/Selector_structure#relative_selector)
+- [Specificity](/css/guides/Cascade/Specificity)
 
 ## Guides
 
-- [CSS selectors and combinators](/en-US/docs/Web/CSS/Guides/Selectors/Selectors_and_combinators)
+- [CSS selectors and combinators](/css/guides/Selectors/Selectors_and_combinators)
   - : Overview of the different types of simple selectors and various combinators defined in the CSS selectors and the CSS pseudo modules.
 
-- [CSS selector structure](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure)
+- [CSS selector structure](/css/guides/Selectors/Selector_structure)
   - : Explanation of the structure of CSS selectors and the terminologies introduced in the CSS selectors module, ranging from "simple selector" to "forgiving relative selector list".
 
 - [Pseudo classes](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes)
   - : Lists the pseudo-classes, selectors that allow the selection of elements based on state information that is not contained in the document tree, defined in the various CSS modules and HTML.
 
-- [Using the `:target` pseudo-class in selectors](/en-US/docs/Web/CSS/Guides/Selectors/Using_:target)
+- [Using the `:target` pseudo-class in selectors](/css/guides/Selectors/Using_:target)
   - : Learn how to use the {{CSSXref(":target")}} pseudo-class to style the target element a URL's fragment identifier.
 
-- [Privacy and the `:visited` selector](/en-US/docs/Web/CSS/Guides/Selectors/Privacy_and_:visited)
+- [Privacy and the `:visited` selector](/css/guides/Selectors/Privacy_and_:visited)
   - : Explores the style limitations set on the `:visited` class for user privacy.
 
 - [CSS building blocks: CSS selectors](/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors)
@@ -143,31 +143,31 @@ The CSS selectors module also introduces the {{CSSXref(":blank")}}, {{CSSXref(":
 ## Related concepts
 
 - {{CSSXref(":state","state()")}} pseudo-class
-- [CSS nesting](/en-US/docs/Web/CSS/Guides/Nesting) module
+- [CSS nesting](/css/guides/Nesting) module
   - [`&` nesting selector](/en-US/docs/Web/CSS/Reference/Selectors/Nesting_selector)
-- [CSS scoping](/en-US/docs/Web/CSS/Guides/Scoping) module
+- [CSS scoping](/css/guides/Scoping) module
   - {{CSSXref(":host")}} pseudo-class
   - {{cssxref(":host()")}} pseudo-class
   - {{cssxref(":host-context()")}} pseudo-class
   - {{CSSXref(":has-slotted")}} pseudo-class
   - {{CSSXref("::slotted")}} pseudo-element
 
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
+- [CSS overflow](/css/guides/Overflow) module
   - {{cssxref("::scroll-button()")}}
   - {{cssxref("::scroll-marker")}}
   - {{cssxref("::scroll-marker-group")}}
   - {{cssxref(":target-current")}}
 
-- [CSS multi-column layout](/en-US/docs/Web/CSS/Guides/Multicol_layout) module
+- [CSS multi-column layout](/css/guides/Multicol_layout) module
   - {{cssxref("::column")}}
 
-- [CSS paged media](/en-US/docs/Web/CSS/Guides/Paged_media) module
+- [CSS paged media](/css/guides/Paged_media) module
   - {{CSSXref(":left")}} pseudo-class
   - {{CSSXref(":right")}} pseudo-class
   - {{CSSXref(":first")}} pseudo-class
   - `:blank` pseudo-class
 
-- [CSS pseudo-element module](/en-US/docs/Web/CSS/Guides/Pseudo-elements) (representing entities not included in HTML)
+- [CSS pseudo-element module](/css/guides/Pseudo-elements) (representing entities not included in HTML)
   - {{CSSXref("::after")}}
   - {{CSSXref("::before")}}
   - {{CSSXref("::file-selector-button")}}
@@ -180,10 +180,10 @@ The CSS selectors module also introduces the {{CSSXref(":blank")}}, {{CSSXref(":
   - {{CSSXref("::spelling-error")}}
   - {{CSSXref("::target-text")}}
 
-- [CSS shadow parts module](/en-US/docs/Web/CSS/Guides/Shadow_parts)
+- [CSS shadow parts module](/css/guides/Shadow_parts)
   - {{CSSXref("::part")}} pseudo-element
 
-- [CSS positioned layout module](/en-US/docs/Web/CSS/Guides/Positioned_layout)
+- [CSS positioned layout module](/css/guides/Positioned_layout)
   - {{CSSxRef("::backdrop")}}
 
 - Other [pseudo-elements](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements)
@@ -192,8 +192,8 @@ The CSS selectors module also introduces the {{CSSXref(":blank")}}, {{CSSXref(":
 - {{CSSXref("@namespace")}} at-rule
 
 - {{cssxref("important", "!important")}}
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
-- [Cascade](/en-US/docs/Web/CSS/Guides/Cascade/Introduction)
+- [Specificity](/css/guides/Cascade/Specificity)
+- [Cascade](/css/guides/Cascade/Introduction)
 
 - {{domxref("Document.querySelector")}} method
 - {{domxref("Document.querySelectorAll")}} method
@@ -205,7 +205,7 @@ The CSS selectors module also introduces the {{CSSXref(":blank")}}, {{CSSXref(":
 
 ## See also
 
-- [CSS pseudo-element module](/en-US/docs/Web/CSS/Guides/Pseudo-elements)
-- [CSS cascading and inheritance module](/en-US/docs/Web/CSS/Guides/Cascade)
-- [CSS nesting module](/en-US/docs/Web/CSS/Guides/Nesting)
+- [CSS pseudo-element module](/css/guides/Pseudo-elements)
+- [CSS cascading and inheritance module](/css/guides/Cascade)
+- [CSS nesting module](/css/guides/Nesting)
 - [Using shadow DOM](/en-US/docs/Web/API/Web_components/Using_shadow_DOM)

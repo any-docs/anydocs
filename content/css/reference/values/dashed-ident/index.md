@@ -6,7 +6,7 @@ spec-urls: https://drafts.csswg.org/css-values/#dashed-idents
 sidebar: cssref
 ---
 
-The **`<dashed-ident>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) denotes an arbitrary string used as an {{glossary("identifier")}}.
+The **`<dashed-ident>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) denotes an arbitrary string used as an {{glossary("identifier")}}.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ Just like {{cssxref("custom-ident")}} `<dashed-ident>`s are defined by the user,
 
 ### Using with CSS custom properties
 
-When `<dashed-ident>` is used with [CSS custom properties](/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties), the property is declared first and then used within a [CSS var() function](/en-US/docs/Web/CSS/Reference/Values/var).
+When `<dashed-ident>` is used with [CSS custom properties](/css/guides/Cascading_variables/Using_custom_properties), the property is declared first and then used within a [CSS var() function](/css/reference/values/var).
 
 ```css
 html {
@@ -47,7 +47,7 @@ h6 {
 
 ### Using with @color-profile
 
-When `<dashed-ident>` is used with the [@color-profile](/en-US/docs/Web/CSS/Reference/At-rules/@color-profile) at-rule, the at-rule is declared first and then used within a [CSS color() function](/en-US/docs/Web/CSS/Reference/Values/color_value/color).
+When `<dashed-ident>` is used with the [@color-profile](/en-US/docs/Web/CSS/Reference/At-rules/@color-profile) at-rule, the at-rule is declared first and then used within a [CSS color() function](/css/reference/values/color_value/color).
 
 ```css
 @color-profile --my-color-profile {
@@ -61,7 +61,7 @@ When `<dashed-ident>` is used with the [@color-profile](/en-US/docs/Web/CSS/Refe
 
 ### Using with @font-palette-values
 
-When `<dashed-ident>` is used with the [@font-palette-values](/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values) at-rule, the at-rule is declared first and then used as the value for the [font-palette](/en-US/docs/Web/CSS/Reference/Properties/font-palette) property.
+When `<dashed-ident>` is used with the [@font-palette-values](/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values) at-rule, the at-rule is declared first and then used as the value for the [font-palette](/css/reference/properties/font-palette) property.
 
 ```css
 @font-palette-values --my-palette {
@@ -88,5 +88,5 @@ _As this type is not a real type but a convenience type used to simplify the def
 
 ## See also
 
-- [&lt;ident&gt;](/en-US/docs/Web/CSS/Reference/Values/ident)
-- [&lt;custom-ident&gt;](/en-US/docs/Web/CSS/Reference/Values/custom-ident)
+- [&lt;ident&gt;](/css/reference/values/ident)
+- [&lt;custom-ident&gt;](/css/reference/values/custom-ident)

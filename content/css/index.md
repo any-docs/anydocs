@@ -29,18 +29,18 @@ Our [learn web development core modules](/en-US/docs/Learn_web_development/Core)
 
 The [CSS reference](/en-US/docs/Web/CSS/Reference) is an exhaustive reference for seasoned Web developers, describing every property and concept of CSS, including:
 
-- The [syntax and forms of the language](/en-US/docs/Web/CSS/Guides/Syntax/Introduction)
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity), [inheritance](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance), and [the cascade](/en-US/docs/Web/CSS/Guides/Cascade/Introduction)
-- [CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors), including [pseudo-elements](/en-US/docs/Web/CSS/Guides/Pseudo-elements), [nesting](/en-US/docs/Web/CSS/Guides/Nesting), [scoping](/en-US/docs/Web/CSS/Guides/Scoping) and [shadow parts](/en-US/docs/Web/CSS/Guides/Shadow_parts)
-- [CSS at-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules), including [media](/en-US/docs/Web/CSS/Guides/Media_queries) and [container](/en-US/docs/Web/CSS/Guides/Containment) queries
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module, including [numeric data types](/en-US/docs/Web/CSS/Guides/Values_and_units/Numeric_data_types), [textual data types](/en-US/docs/Web/CSS/Guides/Values_and_units/Textual_data_types) and [functional notations](/en-US/docs/Web/CSS/Reference/Values/Functions)
-- [Box model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction) and [margin collapse](/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing)
-- The [containing block](/en-US/docs/Web/CSS/Guides/Display/Containing_block)
-- [Stacking](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context) and [block-formatting](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context) contexts
-- [Initial](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value), [computed](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value), [used](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value), and [actual](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#actual_value) values
-- [CSS shorthand properties](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties)
-- [CSS flexible box](/en-US/docs/Web/CSS/Guides/Flexible_box_layout), [multi-column](/en-US/docs/Web/CSS/Guides/Multicol_layout) and [grid](/en-US/docs/Web/CSS/Guides/Grid_layout) layout
-- [Animation](/en-US/docs/Web/CSS/Guides/Animations), [transitions](/en-US/docs/Web/CSS/Guides/Transitions), and [transforms](/en-US/docs/Web/CSS/Guides/Transforms)
+- The [syntax and forms of the language](/css/guides/Syntax/Introduction)
+- [Specificity](/css/guides/Cascade/Specificity), [inheritance](/css/guides/Cascade/Inheritance), and [the cascade](/css/guides/Cascade/Introduction)
+- [CSS selectors](/css/guides/Selectors), including [pseudo-elements](/css/guides/Pseudo-elements), [nesting](/css/guides/Nesting), [scoping](/css/guides/Scoping) and [shadow parts](/css/guides/Shadow_parts)
+- [CSS at-rules](/css/guides/Syntax/At-rules), including [media](/css/guides/Media_queries) and [container](/css/guides/Containment) queries
+- [CSS values and units](/css/guides/Values_and_units) module, including [numeric data types](/css/guides/Values_and_units/Numeric_data_types), [textual data types](/css/guides/Values_and_units/Textual_data_types) and [functional notations](/css/reference/values/Functions)
+- [Box model](/css/guides/Box_model/Introduction) and [margin collapse](/css/guides/Box_model/Margin_collapsing)
+- The [containing block](/css/guides/Display/Containing_block)
+- [Stacking](/css/guides/Positioned_layout/Stacking_context) and [block-formatting](/css/guides/Display/Block_formatting_context) contexts
+- [Initial](/css/guides/Cascade/Property_value_processing#initial_value), [computed](/css/guides/Cascade/Property_value_processing#computed_value), [used](/css/guides/Cascade/Property_value_processing#used_value), and [actual](/css/guides/Cascade/Property_value_processing#actual_value) values
+- [CSS shorthand properties](/css/guides/Cascade/Shorthand_properties)
+- [CSS flexible box](/css/guides/Flexible_box_layout), [multi-column](/css/guides/Multicol_layout) and [grid](/css/guides/Grid_layout) layout
+- [Animation](/css/guides/Animations), [transitions](/css/guides/Transitions), and [transforms](/css/guides/Transforms)
 
 ## Cookbook
 

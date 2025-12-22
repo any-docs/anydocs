@@ -64,34 +64,34 @@ The specification also defines the `::details-content` and `::search-text` pseud
   - {{cssxref("::cue")}}
   - {{cssxref("::cue()")}}
 
-- [CSS multi-column layout](/en-US/docs/Web/CSS/Guides/Multicol_layout) module
+- [CSS multi-column layout](/css/guides/Multicol_layout) module
   - {{cssxref("::column")}}
 
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
+- [CSS overflow](/css/guides/Overflow) module
   - {{cssxref("::scroll-button()")}}
   - {{cssxref("::scroll-marker")}}
   - {{cssxref("::scroll-marker-group")}}
   - {{cssxref(":target-current")}}
 
-- [CSS scoping](/en-US/docs/Web/CSS/Guides/Scoping) module
+- [CSS scoping](/css/guides/Scoping) module
   - {{CSSXref(":host")}}
   - {{cssxref(":host()")}}
   - {{cssxref(":host-context()")}}
   - {{cssxref("::slotted()")}}
 
-- [CSS shadow parts](/en-US/docs/Web/CSS/Guides/Shadow_parts) module
+- [CSS shadow parts](/css/guides/Shadow_parts) module
   - {{CSSXref("::part")}}
 
-- [CSS view transitions](/en-US/docs/Web/CSS/Guides/View_transitions) module
+- [CSS view transitions](/css/guides/View_transitions) module
   - {{cssxref("::view-transition")}} {{Experimental_Inline}}
   - {{cssxref("::view-transition-image-pair()")}} {{Experimental_Inline}}
   - {{cssxref("::view-transition-group()")}} {{Experimental_Inline}}
   - {{cssxref("::view-transition-new()")}} {{Experimental_Inline}}
   - {{cssxref("::view-transition-old()")}} {{Experimental_Inline}}
 
-- [CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors)
+- [CSS selectors](/css/guides/Selectors)
   - [Attribute selectors](/en-US/docs/Web/CSS/Reference/Selectors/Attribute_selectors)
-  - [Combinators](/en-US/docs/Web/CSS/Guides/Selectors/Selectors_and_combinators#combinators)
+  - [Combinators](/css/guides/Selectors/Selectors_and_combinators#combinators)
   - [Class selectors](/en-US/docs/Web/CSS/Reference/Selectors/Class_selectors)
   - [ID selectors](/en-US/docs/Web/CSS/Reference/Selectors/ID_selectors)
   - [Type selectors](/en-US/docs/Web/CSS/Reference/Selectors/Type_selectors)
@@ -101,7 +101,7 @@ The specification also defines the `::details-content` and `::search-text` pseud
 - [`placeholder`](/en-US/docs/Web/HTML/Reference/Elements/input#placeholder) attribute of the `<input>` element
 - {{cssxref(":placeholder-shown")}} selector
 
-- [CSS generated content](/en-US/docs/Web/CSS/Guides/Generated_content)
+- [CSS generated content](/css/guides/Generated_content)
   - {{cssxref("content")}} property
   - {{cssxref("quotes")}} property
 
@@ -118,9 +118,9 @@ The specification also defines the `::details-content` and `::search-text` pseud
 ## See also
 
 - [List of pseudo-elements](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements)
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
-- [CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors) module
-- [CSS shadow-parts](/en-US/docs/Web/CSS/Guides/Shadow_parts) module
-- [CSS generated content](/en-US/docs/Web/CSS/Guides/Generated_content) module
-- [CSS positioned layout](/en-US/docs/Web/CSS/Guides/Positioned_layout) module
+- [Specificity](/css/guides/Cascade/Specificity)
+- [CSS selectors](/css/guides/Selectors) module
+- [CSS shadow-parts](/css/guides/Shadow_parts) module
+- [CSS generated content](/css/guides/Generated_content) module
+- [CSS positioned layout](/css/guides/Positioned_layout) module
 - [CSS custom highlight API](/en-US/docs/Web/API/CSS_Custom_Highlight_API)

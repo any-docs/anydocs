@@ -6,7 +6,7 @@ spec-urls: https://drafts.csswg.org/css-fonts/#valdef-font-size-absolute-size
 sidebar: cssref
 ---
 
-The **`<absolute-size>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) describes the absolute size keywords. This data type is used in the {{cssxref("font")}} shorthand and {{cssxref("font-size")}} properties.
+The **`<absolute-size>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) describes the absolute size keywords. This data type is used in the {{cssxref("font")}} shorthand and {{cssxref("font-size")}} properties.
 
 The font size keywords are mapped to the deprecated HTML `size` attribute. See the [HTML size attribute](#html_size_attribute) section below).
 
@@ -121,4 +121,4 @@ li {
 
 - CSS {{cssxref("relative-size")}} data type
 - CSS {{cssxref("font")}} and {{cssxref("font-size")}} properties
-- [CSS fonts](/en-US/docs/Web/CSS/Guides/Fonts) module
+- [CSS fonts](/css/guides/Fonts) module

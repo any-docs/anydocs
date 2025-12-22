@@ -6,9 +6,9 @@ page-type: guide
 sidebar: cssref
 ---
 
-The [CSS nesting](/en-US/docs/Web/CSS/Guides/Nesting) module allows you to write your stylesheets so that they are easier to read, more modular, and more maintainable. As you are not constantly repeating selectors, the file size can also be reduced.
+The [CSS nesting](/css/guides/Nesting) module allows you to write your stylesheets so that they are easier to read, more modular, and more maintainable. As you are not constantly repeating selectors, the file size can also be reduced.
 
-CSS nesting is different from CSS preprocessors such as [Sass](https://sass-lang.com/) in that it is parsed by the browser rather than being pre-compiled by a CSS preprocessor. Also, in CSS nesting, the [specificity of the `&` nesting selector](/en-US/docs/Web/CSS/Guides/Nesting/Nesting_and_specificity) is similar to the {{cssxref(':is',':is()')}} function; it is calculated using the highest specificity in the associated selector list.
+CSS nesting is different from CSS preprocessors such as [Sass](https://sass-lang.com/) in that it is parsed by the browser rather than being pre-compiled by a CSS preprocessor. Also, in CSS nesting, the [specificity of the `&` nesting selector](/css/guides/Nesting/Nesting_and_specificity) is similar to the {{cssxref(':is',':is()')}} function; it is calculated using the highest specificity in the associated selector list.
 
 This guide shows different ways to arrange nesting in CSS.
 
@@ -188,7 +188,7 @@ h2 {
 
 ## Compound selectors
 
-When using [compound selectors](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#compound_selector) in nested CSS you **have** to use the `&` nesting selector. This is because the browser will automatically add whitespace between selectors that do not use the `&` nesting selector.
+When using [compound selectors](/css/guides/Selectors/Selector_structure#compound_selector) in nested CSS you **have** to use the `&` nesting selector. This is because the browser will automatically add whitespace between selectors that do not use the `&` nesting selector.
 
 In order to target an element with `class="a b"` the `&` nesting selector is needed otherwise the whitespace will break the compound selector.
 
@@ -242,7 +242,7 @@ In this example the `&` nesting selector is used to create compound selectors to
 
 ##### CSS
 
-Styles for the `.notices` to create a column using [flexbox layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout).
+Styles for the `.notices` to create a column using [flexbox layout](/css/guides/Flexible_box_layout).
 
 ```css
 .notices {
@@ -440,7 +440,7 @@ In CSS preprocessors such as [Sass](https://sass-lang.com/), it is possible to u
 > [!WARNING]
 > This is not possible in CSS nesting: when a [combinator](/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators) is not used, the nested selector is treated as a [type selector](/en-US/docs/Web/CSS/Reference/Selectors/Type_selectors). Allowing concatenation would break this.
 
-In [compound selectors](/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure#compound_selector), the type selector must come first. Writing `&Element` (a [type selector](/en-US/docs/Web/CSS/Reference/Selectors/Type_selectors)) makes the CSS selector, and the entire selector block, invalid. As the type selector must come first, the compound selector must be written as `Element&`.
+In [compound selectors](/css/guides/Selectors/Selector_structure#compound_selector), the type selector must come first. Writing `&Element` (a [type selector](/en-US/docs/Web/CSS/Reference/Selectors/Type_selectors)) makes the CSS selector, and the entire selector block, invalid. As the type selector must come first, the compound selector must be written as `Element&`.
 
 ```css example-good
 .my-class {
@@ -475,9 +475,9 @@ In the following example, there is an invalid selector (`%` is not a valid chara
 
 ## See also
 
-- [CSS nesting](/en-US/docs/Web/CSS/Guides/Nesting) module
+- [CSS nesting](/css/guides/Nesting) module
 - [`&` nesting selector](/en-US/docs/Web/CSS/Reference/Selectors/Nesting_selector)
-- [Nesting `@` at-rules](/en-US/docs/Web/CSS/Guides/Nesting/At-rules)
-- [Nesting and specificity](/en-US/docs/Web/CSS/Guides/Nesting/Nesting_and_specificity)
+- [Nesting `@` at-rules](/css/guides/Nesting/At-rules)
+- [Nesting and specificity](/css/guides/Nesting/Nesting_and_specificity)
 - {{domxref("CSSNestedDeclarations")}}
 - [The Nested Declarations Rule](https://drafts.csswg.org/css-nesting-1/#nested-declarations-rule)

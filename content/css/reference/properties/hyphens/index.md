@@ -78,7 +78,7 @@ The `hyphens` property is specified as a single keyword value chosen from the li
 > The `auto` setting's behavior depends on the language being properly tagged to select the appropriate hyphenation rules. You must specify a language using the `lang` HTML attribute to guarantee that automatic hyphenation is applied in that language.
 
 > [!NOTE]
-> If you apply [`word-break: break-all`](/en-US/docs/Web/CSS/Reference/Properties/word-break#break-all) then no hyphens are shown, even if the word breaks at a hyphenation point.
+> If you apply [`word-break: break-all`](/css/reference/properties/word-break#break-all) then no hyphens are shown, even if the word breaks at a hyphenation point.
 
 ## Suggesting line break opportunities
 
@@ -156,4 +156,4 @@ dd.auto {
 - {{cssxref("content")}}
 - {{cssxref("overflow-wrap")}} (formerly `word-wrap`)
 - {{cssxref("word-break")}}
-- [Guide to wrapping and breaking text](/en-US/docs/Web/CSS/Guides/Text/Wrapping_breaking_text)
+- [Guide to wrapping and breaking text](/css/guides/Text/Wrapping_breaking_text)

@@ -20,7 +20,7 @@ Atomics.pause(durationHint)
 
 ### Parameters
 
-- `durationHint` {{optional_inline}}
+- `durationHint` <Badge type="info" text="Optional" />
   - : An integer that an implementation may use to determine how long to wait. For a value `n + 1`, an implementation waits at least as long as it does for a given value `n`. The exact number has no physical meaning. There may be an internal upper bound on the maximum amount of time paused on the order of tens to hundreds of nanoseconds. This can be used to implement a [backoff strategy](#backoff_strategies) by increasing the `durationHint` passed in. There is no guarantee that an implementation will make use of this hint.
 
 ### Return value

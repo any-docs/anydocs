@@ -75,4 +75,4 @@ p {
 ## See also
 
 - [@media](/en-US/docs/Web/CSS/Reference/At-rules/@media)
-- [Using media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+- [Using media queries](/css/guides/Media_queries/Using)

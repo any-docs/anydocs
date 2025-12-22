@@ -6,7 +6,7 @@ page-type: guide
 sidebar: cssref
 ---
 
-[CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) introduces a two-dimensional grid system to CSS. Grids can be used to lay out major page areas or small user interface elements. This guide introduces the CSS grid layout and the terminology that is part of the CSS grid layout specification. The features shown in this overview will then be explained in greater detail in the other guides in this series.
+[CSS grid layout](/css/guides/Grid_layout) introduces a two-dimensional grid system to CSS. Grids can be used to lay out major page areas or small user interface elements. This guide introduces the CSS grid layout and the terminology that is part of the CSS grid layout specification. The features shown in this overview will then be explained in greater detail in the other guides in this series.
 
 ## What is a grid?
 
@@ -26,13 +26,13 @@ You can define an explicit grid with grid layout. The features defined by the gr
 
 ### Alignment control
 
-CSS grid layout and [CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) features enable us to control how the items align once placed into a grid area, and how the entire grid is aligned.
+CSS grid layout and [CSS box alignment](/css/guides/Box_alignment) features enable us to control how the items align once placed into a grid area, and how the entire grid is aligned.
 
 ### Control of overlapping content
 
 More than one item can be placed into a grid cell or area and they can partially overlap each other. This layering may then be controlled with the {{cssxref("z-index")}} property.
 
-Grid is a powerful layout method that, when combined with other parts of CSS such as [flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout), can help you create layouts that are responsive, flexible, and accessible. It all starts by creating a grid in your **{{glossary("grid container")}}**.
+Grid is a powerful layout method that, when combined with other parts of CSS such as [flexbox](/css/guides/Flexible_box_layout), can help you create layouts that are responsive, flexible, and accessible. It all starts by creating a grid in your **{{glossary("grid container")}}**.
 
 ## Grid container
 
@@ -143,7 +143,7 @@ We have now created a grid with three 200-pixel-wide column tracks. The child it
 
 ### The fr unit
 
-Tracks can be defined using any length unit. Grid also introduces an additional length unit to help us create flexible grid tracks. The [`fr`](/en-US/docs/Web/CSS/Reference/Values/flex_value) unit represents a fraction of the available space in the grid container. The next grid definition would create three equal width tracks that grow and shrink according to the available space.
+Tracks can be defined using any length unit. Grid also introduces an additional length unit to help us create flexible grid tracks. The [`fr`](/css/reference/values/flex_value) unit represents a fraction of the available space in the grid container. The next grid definition would create three equal width tracks that grow and shrink according to the available space.
 
 ```html
 <div class="wrapper">
@@ -272,7 +272,7 @@ In this final example, we mix absolute sized tracks with `fr` units. The first t
 
 ### Track listings with repeat() notation
 
-Large grids with many tracks can use the [`repeat()`](/en-US/docs/Web/CSS/Reference/Values/repeat) notation, to repeat all or a section of the list of grid tracks. For example the grid definition:
+Large grids with many tracks can use the [`repeat()`](/css/reference/values/repeat) notation, to repeat all or a section of the list of grid tracks. For example the grid definition:
 
 ```css
 .wrapper {
@@ -417,11 +417,11 @@ It should be noted that when we define a grid we define the grid tracks, not the
 
 ![Diagram showing numbered grid lines.](1_diagram_numbered_grid_lines.png)
 
-Lines are numbered according to the writing mode of the document. In a left-to-right language, line 1 is on the left-hand side of the grid. In a right-to-left language, it is on the right-hand side of the grid. Lines can also be named, which is discussed in the [grid layout using named grid lines](/en-US/docs/Web/CSS/Guides/Grid_layout/Named_grid_lines) guide.
+Lines are numbered according to the writing mode of the document. In a left-to-right language, line 1 is on the left-hand side of the grid. In a right-to-left language, it is on the right-hand side of the grid. Lines can also be named, which is discussed in the [grid layout using named grid lines](/css/guides/Grid_layout/Named_grid_lines) guide.
 
 ### Positioning items against lines
 
-The following example demonstrates basic line-based placement; when placing an item, we target the line rather than the track. We explore this in greater detail in the [grid layout using line-based placement](/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement) guide.
+The following example demonstrates basic line-based placement; when placing an item, we target the line rather than the track. We explore this in greater detail in the [grid layout using line-based placement](/css/guides/Grid_layout/Line-based_placement) guide.
 
 In this example, the first two items on our three column track grid are placed using the {{cssxref("grid-column-start")}}, {{cssxref("grid-column-end")}}, {{cssxref("grid-row-start")}} and {{cssxref("grid-row-end")}} properties. Working from left to right, the first item is placed against column line 1, and spans to column line 4, which in our case is the far-right line on the grid. It begins at row line 1 and ends at row line 3, therefore spanning two row tracks.
 
@@ -781,4 +781,4 @@ We can control the order in which items stack up by using the `z-index` property
 
 ## Next steps
 
-In this overview, we took a very quick look at the possibilities of grid layouts. Explore and play with the code examples, and then move on to the guide, [relationship of grid layout with other layout methods](/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods), where we will really start to dig into the details of CSS grid layout.
+In this overview, we took a very quick look at the possibilities of grid layouts. Explore and play with the code examples, and then move on to the guide, [relationship of grid layout with other layout methods](/css/guides/Grid_layout/Relationship_with_other_layout_methods), where we will really start to dig into the details of CSS grid layout.

@@ -6,7 +6,7 @@ browser-compat: css.types.transform-function.matrix
 sidebar: cssref
 ---
 
-The **`matrix()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) defines a homogeneous 2D transformation matrix. Its result is
+The **`matrix()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) defines a homogeneous 2D transformation matrix. Its result is
 a {{cssxref("&lt;transform-function&gt;")}} data type.
 
 > [!NOTE]
@@ -59,7 +59,7 @@ parameters; the other parameters are described in the column-major order.
 <table class="standard-table">
   <thead>
     <tr>
-      <th scope="col"><a href="/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
+      <th scope="col"><a href="/css/reference/values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
       <th scope="col"><a href="https://en.wikipedia.org/wiki/Homogeneous_coordinates">Homogeneous coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_projective_plane">ℝℙ^2</a></th>
       <th scope="col">Cartesian coordinates on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^3</a></th>
       <th scope="col">Homogeneous coordinates on <a href="https://en.wikipedia.org/wiki/Real_projective_space">ℝℙ^3</a></th>
@@ -145,4 +145,4 @@ div {
   - {{cssxref("scale")}}
   - {{cssxref("rotate")}}
 - {{cssxref("&lt;transform-function&gt;")}}
-- [`matrix3d()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/matrix3d)
+- [`matrix3d()`](/css/reference/values/transform-function/matrix3d)

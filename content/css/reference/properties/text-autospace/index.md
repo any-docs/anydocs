@@ -173,5 +173,5 @@ chose.addEventListener("change", (e) => {
 ## See also
 
 - {{cssxref('text-spacing-trim')}}
-- [`ic`](/en-US/docs/Web/CSS/Guides/Values_and_units/Numeric_data_types#local_font-relative_lengths) and [`ric`](/en-US/docs/Web/CSS/Guides/Values_and_units/Numeric_data_types#root_font-relative_lengths) units
-- [CSS Text](/en-US/docs/Web/CSS/Guides/Text) module
+- [`ic`](/css/guides/Values_and_units/Numeric_data_types#local_font-relative_lengths) and [`ric`](/css/guides/Values_and_units/Numeric_data_types#root_font-relative_lengths) units
+- [CSS Text](/css/guides/Text) module

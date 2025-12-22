@@ -6,7 +6,7 @@ page-type: landing-page
 sidebar: cssref
 ---
 
-Use this **CSS reference** to browse an [alphabetical index](#index) of all of the standard [CSS](/en-US/docs/Web/CSS) [properties](/en-US/docs/Web/CSS/Reference/Properties), [pseudo-classes](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes), [pseudo-elements](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements), [data types](/en-US/docs/Web/CSS/Reference/Values/Data_types), [functional notations](/en-US/docs/Web/CSS/Reference/Values/Functions) and [at-rules](/en-US/docs/Web/CSS/Reference/At-rules). You can also browse [key CSS concepts](#concepts) and a list of [selectors organized by type](#selectors). Also included is a brief [DOM-CSS / CSSOM reference](#dom-css_cssom).
+Use this **CSS reference** to browse an [alphabetical index](#index) of all of the standard [CSS](/en-US/docs/Web/CSS) [properties](/css/reference/properties), [pseudo-classes](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes), [pseudo-elements](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements), [data types](/css/reference/values/Data_types), [functional notations](/css/reference/values/Functions) and [at-rules](/en-US/docs/Web/CSS/Reference/At-rules). You can also browse [key CSS concepts](#concepts) and a list of [selectors organized by type](#selectors). Also included is a brief [DOM-CSS / CSSOM reference](#dom-css_cssom).
 
 ## Basic rule syntax
 
@@ -44,7 +44,7 @@ div.menu-bar li:hover > ul {
 }
 ```
 
-For a beginner-level introduction to the syntax of selectors, see our [guide on CSS Selectors](/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors). Be aware that any [syntax](/en-US/docs/Web/CSS/Guides/Syntax/Introduction) error in a rule definition invalidates the entire rule. Invalid rules are ignored by the browser. Note that CSS rule definitions are entirely (Unicode) [text-based](https://drafts.csswg.org/css-syntax/#intro), whereas DOM-CSS / CSSOM (the rule management system) is [object-based](https://drafts.csswg.org/cssom/#introduction).
+For a beginner-level introduction to the syntax of selectors, see our [guide on CSS Selectors](/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors). Be aware that any [syntax](/css/guides/Syntax/Introduction) error in a rule definition invalidates the entire rule. Invalid rules are ignored by the browser. Note that CSS rule definitions are entirely (Unicode) [text-based](https://drafts.csswg.org/css-syntax/#intro), whereas DOM-CSS / CSSOM (the rule management system) is [object-based](https://drafts.csswg.org/cssom/#introduction).
 
 ### At-rule syntax
 
@@ -109,38 +109,38 @@ Combinators are selectors that establish a relationship between two or more simp
 
 ### Syntax and semantics
 
-- [CSS syntax](/en-US/docs/Web/CSS/Guides/Syntax/Introduction)
+- [CSS syntax](/css/guides/Syntax/Introduction)
 - [At-rules](/en-US/docs/Web/CSS/Reference/At-rules)
-- [Cascade](/en-US/docs/Web/CSS/Guides/Cascade/Introduction)
-- [Comments](/en-US/docs/Web/CSS/Guides/Syntax/Comments)
+- [Cascade](/css/guides/Cascade/Introduction)
+- [Comments](/css/guides/Syntax/Comments)
 - [Descriptor](/en-US/docs/Glossary/CSS_Descriptor)
-- [Inheritance](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance)
-- [Shorthand properties](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties)
-- [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
-- [Values](/en-US/docs/Web/CSS/Reference/Values)
-- [Value definition syntax](/en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax)
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units)
-- [CSS functional notations](/en-US/docs/Web/CSS/Reference/Values/Functions)
+- [Inheritance](/css/guides/Cascade/Inheritance)
+- [Shorthand properties](/css/guides/Cascade/Shorthand_properties)
+- [Specificity](/css/guides/Cascade/Specificity)
+- [Values](/css/reference/values)
+- [Value definition syntax](/css/guides/Values_and_units/Value_definition_syntax)
+- [CSS values and units](/css/guides/Values_and_units)
+- [CSS functional notations](/css/reference/values/Functions)
 
 ### Values
 
-- [Actual value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#actual_value)
-- [Computed value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value)
-- [Initial value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value)
-- [Resolved value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#resolved_value)
-- [Specified value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#specified_value)
-- [Used value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value)
+- [Actual value](/css/guides/Cascade/Property_value_processing#actual_value)
+- [Computed value](/css/guides/Cascade/Property_value_processing#computed_value)
+- [Initial value](/css/guides/Cascade/Property_value_processing#initial_value)
+- [Resolved value](/css/guides/Cascade/Property_value_processing#resolved_value)
+- [Specified value](/css/guides/Cascade/Property_value_processing#specified_value)
+- [Used value](/css/guides/Cascade/Property_value_processing#used_value)
 
 ### Layout
 
-- [Block formatting context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context)
-- [Box model](/en-US/docs/Web/CSS/Guides/Box_model/Introduction)
-- [Containing block](/en-US/docs/Web/CSS/Guides/Display/Containing_block)
+- [Block formatting context](/css/guides/Display/Block_formatting_context)
+- [Box model](/css/guides/Box_model/Introduction)
+- [Containing block](/css/guides/Display/Containing_block)
 - [Layout mode](/en-US/docs/Glossary/Layout_mode)
-- [Margin collapsing](/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing)
+- [Margin collapsing](/css/guides/Box_model/Margin_collapsing)
 - {{glossary("Replaced elements")}}
-- [Stacking context](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context)
-- [Visual formatting model](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model)
+- [Stacking context](/css/guides/Positioned_layout/Stacking_context)
+- [Visual formatting model](/css/guides/Display/Visual_formatting_model)
 
 ## DOM-CSS / CSSOM
 

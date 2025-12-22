@@ -32,9 +32,9 @@ fill(value, start, end)
 
 - `value`
   - : Value to fill the typed array with.
-- `start` {{optional_inline}}
+- `start` <Badge type="info" text="Optional" />
   - : Zero-based index at which to start filling, [converted to an integer](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#integer_conversion).
-- `end` {{optional_inline}}
+- `end` <Badge type="info" text="Optional" />
   - : Zero-based index at which to end filling, [converted to an integer](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#integer_conversion). `fill()` fills up to but not including `end`.
 
 ### Return value

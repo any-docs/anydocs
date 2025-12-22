@@ -13,11 +13,11 @@ Animations that involve transitioning between two states are often called _impli
 
 ![A CSS transition tells the browser to draw the intermediate states between the initial and final states, showing the user a smooth transitions.](transitionsprinciple.png)
 
-CSS transitions let you decide which properties to animate (by [_listing them explicitly_](/en-US/docs/Web/CSS/Reference/Properties/transition-property)), when the animation will start (by setting a [_delay_](/en-US/docs/Web/CSS/Reference/Properties/transition-delay)), how long the transition will last (by setting a [_duration_](/en-US/docs/Web/CSS/Reference/Properties/transition-duration)), and how the transition will run (by defining an [_easing function_](/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function), e.g., linearly or quick at the beginning, slow at the end).
+CSS transitions let you decide which properties to animate (by [_listing them explicitly_](/css/reference/properties/transition-property)), when the animation will start (by setting a [_delay_](/css/reference/properties/transition-delay)), how long the transition will last (by setting a [_duration_](/css/reference/properties/transition-duration)), and how the transition will run (by defining an [_easing function_](/css/reference/properties/transition-timing-function), e.g., linearly or quick at the beginning, slow at the end).
 
 ## Which CSS properties can be transitioned?
 
-The Web author can define which property has to be animated and in which way. This allows the creation of complex transitions. However, some properties are [not animatable](/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties) as it doesn't make sense to animate them.
+The Web author can define which property has to be animated and in which way. This allows the creation of complex transitions. However, some properties are [not animatable](/css/guides/Animations/Animatable_properties) as it doesn't make sense to animate them.
 
 > [!NOTE]
 > The `auto` value is often a very complex case. The specification recommends not animating from and to `auto`. Some user agents, like those based on Gecko, implement this requirement and others, like those based on WebKit, are less strict. Using animations with `auto` may lead to unpredictable results, depending on the browser and its version, and should be avoided.
@@ -33,7 +33,7 @@ You can control the individual components of the transition with the following s
 - {{cssxref("transition-duration")}}
   - : Specifies the duration over which transitions should occur. You can specify a single duration that applies to all properties during the transition, or multiple values to allow each property to transition over a different period of time.
 - {{cssxref("transition-timing-function")}}
-  - : Specifies a function to define how intermediate values for properties are computed. _Easing functions_ determine how intermediate values of the transition are calculated. Most [easing functions](/en-US/docs/Web/CSS/Reference/Values/easing-function) can be specified by providing the graph of the corresponding function, as defined by four points defining a cubic bezier. You can also choose easing from [Easing functions cheat sheet](https://easings.net/).
+  - : Specifies a function to define how intermediate values for properties are computed. _Easing functions_ determine how intermediate values of the transition are calculated. Most [easing functions](/css/reference/values/easing-function) can be specified by providing the graph of the corresponding function, as defined by four points defining a cubic bezier. You can also choose easing from [Easing functions cheat sheet](https://easings.net/).
 - {{cssxref("transition-delay")}}
   - : Defines how long to wait between the time a property is changed and the transition actually begins.
 
@@ -188,7 +188,7 @@ This CSS establishes the look of the menu, with the background and text colors b
 
 This example demonstrates how {{cssxref("display")}} and {{cssxref("content-visibility")}} can be transitioned. This behavior is useful for creating entry/exit animations where you want to for example remove a container from the DOM with `display: none`, but have it fade out with {{cssxref("opacity")}} rather than disappearing immediately.
 
-Supporting browsers transition `display` and `content-visibility` with a variation on the [discrete animation type](/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties#discrete). This generally means that properties will flip between two values 50% through animating between the two.
+Supporting browsers transition `display` and `content-visibility` with a variation on the [discrete animation type](/css/guides/Animations/Animatable_properties#discrete). This generally means that properties will flip between two values 50% through animating between the two.
 
 There is an exception, however, which is when animating to/from `display: none` or `content-visibility: hidden`. In this case, the browser will flip between the two values so that the transitioned content is shown for the entire animation duration.
 
@@ -197,7 +197,7 @@ So for example:
 - When animating `display` from `none` to `block` (or another visible `display` value), the value will flip to `block` at `0%` of the animation duration so it is visible throughout.
 - When animating `display` from `block` (or another visible `display` value) to `none`, the value will flip to `none` at `100%` of the animation duration so it is visible throughout.
 
-When transitioning these properties [`transition-behavior: allow-discrete`](/en-US/docs/Web/CSS/Reference/Properties/transition-behavior) needs to be set on the transitions. This effectively enables `display`/`content-visibility` transitions.
+When transitioning these properties [`transition-behavior: allow-discrete`](/css/reference/properties/transition-behavior) needs to be set on the transitions. This effectively enables `display`/`content-visibility` transitions.
 
 When transitioning `display`, {{cssxref("@starting-style")}} is needed to provide a set of starting values for properties set on an element that you want to transition from when the element receives its first style update. This is needed to avoid unexpected behavior. By default, CSS transitions are not triggered on elements' first style updates when they first appear in the DOM, which includes when `display` changes from `none` to another state. `content-visibility` animations do not need starting values specified in a `@starting-style` block. This is because `content-visibility` doesn't hide an element from the DOM like `display` does: it just skips rendering the element's content.
 
@@ -390,4 +390,4 @@ el.addEventListener("transitionstart", signalStart);
 ## See also
 
 - The {{domxref("TransitionEvent")}} interface and the {{domxref("Element/transitionend_event", "transitionend")}} event
-- [Using CSS animations](/en-US/docs/Web/CSS/Guides/Animations/Using)
+- [Using CSS animations](/css/guides/Animations/Using)

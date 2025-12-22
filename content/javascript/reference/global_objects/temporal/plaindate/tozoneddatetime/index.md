@@ -22,7 +22,7 @@ toZonedDateTime(info)
   - : Either a string or a {{jsxref("Temporal.ZonedDateTime")}} instance representing the [`timeZone`](#timezone_2) option. This is a convenience overload, so `toZonedDateTime(timeZone)` is equivalent to `toZonedDateTime({ timeZone })`, where `timeZone` is a string or {{jsxref("Temporal.ZonedDateTime")}}. This overload is chosen when the first argument is not an object, or the object's `timeZone` property is `undefined` (because `ZonedDateTime` instances have a {{jsxref("Temporal/ZonedDateTime/timeZoneId", "timeZoneId")}} property instead).
 - `info`
   - : An object containing some or all of the following properties (in the order they are retrieved and validated):
-    - `plainTime` {{optional_inline}}
+    - `plainTime` <Badge type="info" text="Optional" />
       - : A string, an object, or a {{jsxref("Temporal.PlainTime")}} instance representing the time component of the resulting `ZonedDateTime`. It is converted to a `Temporal.PlainTime` object using the same algorithm as {{jsxref("Temporal/PlainTime/from", "Temporal.PlainTime.from()")}}. Defaults to the first valid time in this time zone on this calendar date, which is usually `"00:00:00"`, but may be different if, for example, daylight saving time skips midnight.
     - `timeZone`
       - : Either a string or a {{jsxref("Temporal.ZonedDateTime")}} instance representing the time zone to use. If a `Temporal.ZonedDateTime` instance, its time zone is used. If a string, it can be a named time zone identifier, an offset time zone identifier, or a date-time string containing a time zone identifier or an offset (see [time zones and offsets](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime#time_zones_and_offsets) for more information).

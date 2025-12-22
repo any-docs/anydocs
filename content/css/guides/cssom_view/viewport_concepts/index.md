@@ -27,7 +27,7 @@ Documents, like this article, may be very long. Your viewport is everything that
 - On most mobile devices and when the browser is in fullscreen mode, the viewport is the entire screen.
 - In fullscreen mode, the viewport is the device screen, the window is the browser window, which can be as big as the viewport or smaller, and the document is the website, which can be much taller or wider than the viewport.
 
-For [paged media](/en-US/docs/Web/CSS/Guides/Paged_media), the initial containing block is based on the page area. The page area can be set through {{cssxref("@page")}} rules.
+For [paged media](/css/guides/Paged_media), the initial containing block is based on the page area. The page area can be set through {{cssxref("@page")}} rules.
 
 To recap, the viewport is basically the part of the document that is currently visible.
 
@@ -90,7 +90,7 @@ We got the 800 x 533 measurement when we zoomed in using the keyboard. The heade
 
 The web contains two viewports, the **layout viewport** and the **visual viewport**. The visual viewport is the part of the web page that is currently visible in the browser and can change. When the user pinch-zooms the page, pops open a dynamic keyboard, or when a previously hidden address bar becomes visible, the visual viewport shrinks but the layout viewport is unchanged.
 
-[Fixed](/en-US/docs/Web/CSS/Reference/Properties/position#fixed_positioning) sticky headers or footers, as discussed above, stick to the top and bottom of the _layout viewport_, and therefore remain in view when we zoom in with the keyboard. If you pinch-zoom, the layout viewport may not be fully visible. If you magnify from the middle of the layout viewport, the content will expand in all four directions. If you have a sticky header or footer, they will still be stuck to the top or bottom of the layout viewport, but they may not be visible at the top and bottom of the device's screen — which is the visual viewport. The visual viewport is the currently visible portion of the layout viewport. If you scroll down, you are changing the contents of the visual viewport and bringing the bottom of the layout viewport into view, displaying the sticky footer, which will then stay stuck at the bottom.
+[Fixed](/css/reference/properties/position#fixed_positioning) sticky headers or footers, as discussed above, stick to the top and bottom of the _layout viewport_, and therefore remain in view when we zoom in with the keyboard. If you pinch-zoom, the layout viewport may not be fully visible. If you magnify from the middle of the layout viewport, the content will expand in all four directions. If you have a sticky header or footer, they will still be stuck to the top or bottom of the layout viewport, but they may not be visible at the top and bottom of the device's screen — which is the visual viewport. The visual viewport is the currently visible portion of the layout viewport. If you scroll down, you are changing the contents of the visual viewport and bringing the bottom of the layout viewport into view, displaying the sticky footer, which will then stay stuck at the bottom.
 
 The visual viewport is the visual portion of a screen not including on-screen keyboards, areas outside of a pinch-zoom area, or other feature that doesn't scale with the dimensions of a page. The visual viewport is the same size as the layout viewport or smaller.
 
@@ -100,13 +100,13 @@ For a page containing iframes, objects, or external SVG, both the containing pag
 
 The layout viewport and visual viewport described above are not the only viewports you will encounter. Any sub-viewport that is fully or partially displayed within the layout viewport is considered a visual viewport.
 
-We generally think of [`width`](/en-US/docs/Web/CSS/Reference/At-rules/@media/width) and [`height`](/en-US/docs/Web/CSS/Reference/At-rules/@media/height) media queries as being relative to the width and height of the browser window. They are actually relative to the viewport, which is the window in the main document but is the intrinsic size of the element's parent in a nested browsing context like objects, iframes and SVG. In CSS, we also have [length units based on the viewport size](/en-US/docs/Web/CSS/Guides/Values_and_units/Numeric_data_types#viewport_units). A `vh` unit is 1% of the layout viewport's height. Similarly, the `vw` unit is 1% of the layout viewport's width.
+We generally think of [`width`](/en-US/docs/Web/CSS/Reference/At-rules/@media/width) and [`height`](/en-US/docs/Web/CSS/Reference/At-rules/@media/height) media queries as being relative to the width and height of the browser window. They are actually relative to the viewport, which is the window in the main document but is the intrinsic size of the element's parent in a nested browsing context like objects, iframes and SVG. In CSS, we also have [length units based on the viewport size](/css/guides/Values_and_units/Numeric_data_types#viewport_units). A `vh` unit is 1% of the layout viewport's height. Similarly, the `vw` unit is 1% of the layout viewport's width.
 
 #### `<iframe>`
 
 Inside an {{htmlelement("iframe")}}, the visual viewport is the size of the inner width and height of the iframe, rather than the parent document. You can set any height and width on an iframe, but the whole document may not be visible.
 
-If you use [viewport length units](/en-US/docs/Web/CSS/Guides/Values_and_units/Numeric_data_types#viewport_units) in your CSS within the iframe document, `1vh` will be 1% of the height of the iframe, and `1vw` will be 1% of the width of the document.
+If you use [viewport length units](/css/guides/Values_and_units/Numeric_data_types#viewport_units) in your CSS within the iframe document, `1vh` will be 1% of the height of the iframe, and `1vw` will be 1% of the width of the document.
 
 ```css
 iframe {
@@ -168,8 +168,8 @@ The `width` property controls the size of the viewport. It should preferably be 
 
 ## See also
 
-- [CSSOM view](/en-US/docs/Web/CSS/Guides/CSSOM_view) module
+- [CSSOM view](/css/guides/CSSOM_view) module
 - [CSSOM view API](/en-US/docs/Web/API/CSSOM_view_API)
 - {{HTMLElement("meta")}}, specifically [`<meta name="viewport">`](/en-US/docs/Web/HTML/Reference/Elements/meta/name/viewport)
-- [CSS viewport](/en-US/docs/Web/CSS/Guides/Viewport) module
-- [CSSOM view](/en-US/docs/Web/CSS/Guides/CSSOM_view) module
+- [CSS viewport](/css/guides/Viewport) module
+- [CSSOM view](/css/guides/CSSOM_view) module

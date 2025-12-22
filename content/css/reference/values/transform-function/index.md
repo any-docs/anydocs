@@ -6,7 +6,7 @@ browser-compat: css.types.transform-function
 sidebar: cssref
 ---
 
-The **`<transform-function>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a transformation that affects an element's appearance. Transformation [functions](/en-US/docs/Web/CSS/Reference/Values/Functions) can rotate, resize, distort, or move an element in 2D or 3D space. It is used in the {{cssxref("transform")}} property.
+The **`<transform-function>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents a transformation that affects an element's appearance. Transformation [functions](/css/reference/values/Functions) can rotate, resize, distort, or move an element in 2D or 3D space. It is used in the {{cssxref("transform")}} property.
 
 ## Syntax
 
@@ -14,62 +14,62 @@ The `<transform-function>` data type is specified using one of the transformatio
 
 ### Matrix transformation
 
-- [`matrix()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/matrix)
+- [`matrix()`](/css/reference/values/transform-function/matrix)
   - : Describes a homogeneous 2D transformation matrix.
-- [`matrix3d()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/matrix3d)
+- [`matrix3d()`](/css/reference/values/transform-function/matrix3d)
   - : Describes a 3D transformation as a 4×4 homogeneous matrix.
 
 ### Perspective
 
-- [`perspective()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/perspective)
+- [`perspective()`](/css/reference/values/transform-function/perspective)
   - : Sets the distance between the user and the z=0 plane.
 
 ### Rotation
 
-- [`rotate()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/rotate)
+- [`rotate()`](/css/reference/values/transform-function/rotate)
   - : Rotates an element around a fixed point on the 2D plane.
-- [`rotate3d()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/rotate3d)
+- [`rotate3d()`](/css/reference/values/transform-function/rotate3d)
   - : Rotates an element around a fixed axis in 3D space.
-- [`rotateX()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/rotateX)
+- [`rotateX()`](/css/reference/values/transform-function/rotateX)
   - : Rotates an element around the horizontal axis.
-- [`rotateY()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/rotateY)
+- [`rotateY()`](/css/reference/values/transform-function/rotateY)
   - : Rotates an element around the vertical axis.
-- [`rotateZ()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/rotateZ)
+- [`rotateZ()`](/css/reference/values/transform-function/rotateZ)
   - : Rotates an element around the z-axis.
 
 ### Scaling (resizing)
 
-- [`scale()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/scale)
+- [`scale()`](/css/reference/values/transform-function/scale)
   - : Scales an element up or down on the 2D plane.
-- [`scale3d()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/scale3d)
+- [`scale3d()`](/css/reference/values/transform-function/scale3d)
   - : Scales an element up or down in 3D space.
-- [`scaleX()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/scaleX)
+- [`scaleX()`](/css/reference/values/transform-function/scaleX)
   - : Scales an element up or down horizontally.
-- [`scaleY()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/scaleY)
+- [`scaleY()`](/css/reference/values/transform-function/scaleY)
   - : Scales an element up or down vertically.
-- [`scaleZ()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/scaleZ)
+- [`scaleZ()`](/css/reference/values/transform-function/scaleZ)
   - : Scales an element up or down along the z-axis.
 
 ### Skewing (distortion)
 
-- [`skew()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/skew)
+- [`skew()`](/css/reference/values/transform-function/skew)
   - : Skews an element on the 2D plane.
-- [`skewX()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/skewX)
+- [`skewX()`](/css/reference/values/transform-function/skewX)
   - : Skews an element in the horizontal direction.
-- [`skewY()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/skewY)
+- [`skewY()`](/css/reference/values/transform-function/skewY)
   - : Skews an element in the vertical direction.
 
 ### Translation (moving)
 
-- [`translate()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/translate)
+- [`translate()`](/css/reference/values/transform-function/translate)
   - : Translates an element on the 2D plane.
-- [`translate3d()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/translate3d)
+- [`translate3d()`](/css/reference/values/transform-function/translate3d)
   - : Translates an element in 3D space.
-- [`translateX()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/translateX)
+- [`translateX()`](/css/reference/values/transform-function/translateX)
   - : Translates an element horizontally.
-- [`translateY()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/translateY)
+- [`translateY()`](/css/reference/values/transform-function/translateY)
   - : Translates an element vertically.
-- [`translateZ()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/translateZ)
+- [`translateZ()`](/css/reference/values/transform-function/translateZ)
   - : Translates an element along the z-axis.
 
 ## Description

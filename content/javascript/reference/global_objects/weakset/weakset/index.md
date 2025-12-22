@@ -21,7 +21,7 @@ new WeakSet(iterable)
 
 ### Parameters
 
-- `iterable` {{optional_inline}}
+- `iterable` <Badge type="info" text="Optional" />
   - : If an [iterable object](/en-US/docs/Web/JavaScript/Reference/Statements/for...of) is passed, all of its elements will be added to the new `WeakSet`. `null` is treated as `undefined`.
 
 ## Examples

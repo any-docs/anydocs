@@ -43,7 +43,7 @@ Intl.Collator(locales, options)
 
 ### Parameters
 
-- `locales` {{optional_inline}}
+- `locales` <Badge type="info" text="Optional" />
   - : A string with a {{glossary("BCP 47 language tag")}} or an {{jsxref("Intl.Locale")}} instance, or an array of such locale identifiers. The runtime's default locale is used when `undefined` is passed or when none of the specified locale identifiers is supported. For the general form and interpretation of the `locales` argument, see [the parameter description on the `Intl` main page](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#locales_argument).
 
     The following Unicode extension keys are allowed:
@@ -56,7 +56,7 @@ Intl.Collator(locales, options)
 
     These keys can also be set with `options` (as listed below). When both are set, the `options` property takes precedence.
 
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : An object containing the following properties, in the order they are retrieved (all of them are optional):
     - `usage`
       - : Whether the comparison is for sorting a list of strings or fuzzy (for the Latin script diacritic-insensitive and case-insensitive) filtering a list of strings by key. Possible values are:

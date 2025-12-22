@@ -6,7 +6,7 @@ browser-compat: css.types.easing-function.linear-function
 sidebar: cssref
 ---
 
-The **`linear()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) creates a transition curve that progresses uniformly between points.
+The **`linear()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) creates a transition curve that progresses uniformly between points.
 As an {{cssxref("easing-function")}}, it creates transitions where the {{Glossary("interpolation")}} occurs at a constant rate from beginning to end.
 
 ## Syntax
@@ -28,7 +28,7 @@ The function accepts two or more of the following values, which represent progre
     The value `0` represents the start of the transition, and `1` represents the end.
     Values outside the `0` to `1` range are also allowed.
 
-- {{cssxref("&lt;percentage&gt;")}} {{optional_inline}}
+- {{cssxref("&lt;percentage&gt;")}} <Badge type="info" text="Optional" />
   - : Indicates when the progress `<number>` is reached during the animation timeline.
     It can be specified after any `<number>` value except the first and last and can take up to two values.
     If two percentage values are specified, they define the length of the stop: the first percentage indicates the starting point and the second percentage indicates the ending point for that segment in the animation or transition. If no `<percentage>` value is specified, the progress values are distributed evenly along the timeline.
@@ -93,5 +93,5 @@ linear(start, middle, end)
 ## See also
 
 - Other easing functions: {{cssxref("easing-function/cubic-bezier", "cubic-bezier()")}} and {{cssxref("easing-function/steps", "steps()")}}
-- [CSS easing functions](/en-US/docs/Web/CSS/Guides/Easing_functions) module
+- [CSS easing functions](/css/guides/Easing_functions) module
 - [`linear()` easing generator](https://linear-easing-generator.netlify.app/) by Jake Archibald

@@ -6,7 +6,7 @@ browser-compat: css.properties.view-timeline-axis
 sidebar: cssref
 ---
 
-The **`view-timeline-axis`** [CSS](/en-US/docs/Web/CSS) property specifies the scroll direction to be used for a [named view progress timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#named_view_progress_timeline).
+The **`view-timeline-axis`** [CSS](/en-US/docs/Web/CSS) property specifies the scroll direction to be used for a [named view progress timeline](/css/guides/Scroll-driven_animations/Timelines#named_view_progress_timeline).
 
 ## Syntax
 
@@ -34,7 +34,7 @@ view-timeline-axis: unset;
 
 ## Description
 
-The `view-timeline-axis` property specifies the direction, or `<axis>`, of [named view progress timelines](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#named_view_progress_timeline) that are based on the element's box.
+The `view-timeline-axis` property specifies the direction, or `<axis>`, of [named view progress timelines](/css/guides/Scroll-driven_animations/Timelines#named_view_progress_timeline) that are based on the element's box.
 
 By default, CSS {{cssxref("@keyframes")}} animations progress along the time-based default timeline. When you set the animation progress via a view progress timeline instead, `view-timeline-axis` specifies the direction that controls the timeline progression.
 
@@ -199,6 +199,6 @@ Scroll the horizontal bar at the bottom to see the subject element animate as yo
 - {{cssxref("animation-timeline")}}
 - {{cssxref("view-timeline")}}, {{cssxref("view-timeline-inset")}}, {{cssxref("view-timeline-name")}}
 - {{cssxref("view()")}}
-- [Guide: Scroll-driven animation timelines](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines)
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module
+- [Guide: Scroll-driven animation timelines](/css/guides/Scroll-driven_animations/Timelines)
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module
+- [CSS animations](/css/guides/Animations) module

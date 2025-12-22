@@ -34,7 +34,7 @@ The `color-mix( <color-interpolation-method>, <color> [<percentage>], <color> [<
 - {{CSSXref("&lt;color&gt;")}}
   - : A color to mix; can be any valid `<color>` value.
 
-- {{CSSXref("&lt;percentage&gt;")}} {{optional_inline}}
+- {{CSSXref("&lt;percentage&gt;")}} <Badge type="info" text="Optional" />
   - : A percentage value specifying the amount of the corresponding color to mix; can be any `<percentage>` value between `0%` and `100%`, inclusive.
 
 ### Return value
@@ -63,9 +63,9 @@ Choosing the correct color space is important for producing desired results. Giv
 The {{CSSXref("&lt;color-interpolation-method&gt;")}} specifies what interpolation method should be used to mix the colors. It consists of the `in` keyword and the color space the colors should be mixed in.
 The color space must be one of the available color spaces listed in the [formal syntax](#formal_syntax). Depending on the color space used, you can optionally direct the hue to be mixed along a longer or shorter path.
 
-The [`<rectangular-color-space>`](/en-US/docs/Web/CSS/Reference/Values/color-interpolation-method#rectangular-color-space) category includes [`srgb`](/en-US/docs/Glossary/Color_space#srgb), [`srgb-linear`](/en-US/docs/Glossary/Color_space#srgb-linear), [`display-p3`](/en-US/docs/Glossary/Color_space#display-p3), [`a98-rgb`](/en-US/docs/Glossary/Color_space#a98-rgb), [`prophoto-rgb`](/en-US/docs/Glossary/Color_space#prophoto-rgb), [`rec2020`](/en-US/docs/Glossary/Color_space#rec2020), [`lab`](/en-US/docs/Glossary/Color_space#cielab_color_spaces), [`oklab`](/en-US/docs/Glossary/Color_space#oklab), [`xyz`](/en-US/docs/Glossary/Color_space#xyz_color_spaces), [`xyz-d50`](/en-US/docs/Glossary/Color_space#xyz), and [`xyz-d65`](/en-US/docs/Glossary/Color_space#xyz-d50).
+The [`<rectangular-color-space>`](/css/reference/values/color-interpolation-method#rectangular-color-space) category includes [`srgb`](/en-US/docs/Glossary/Color_space#srgb), [`srgb-linear`](/en-US/docs/Glossary/Color_space#srgb-linear), [`display-p3`](/en-US/docs/Glossary/Color_space#display-p3), [`a98-rgb`](/en-US/docs/Glossary/Color_space#a98-rgb), [`prophoto-rgb`](/en-US/docs/Glossary/Color_space#prophoto-rgb), [`rec2020`](/en-US/docs/Glossary/Color_space#rec2020), [`lab`](/en-US/docs/Glossary/Color_space#cielab_color_spaces), [`oklab`](/en-US/docs/Glossary/Color_space#oklab), [`xyz`](/en-US/docs/Glossary/Color_space#xyz_color_spaces), [`xyz-d50`](/en-US/docs/Glossary/Color_space#xyz), and [`xyz-d65`](/en-US/docs/Glossary/Color_space#xyz-d50).
 
-The `<polar-color-space>` category includes [`hsl`](/en-US/docs/Web/CSS/Reference/Values/color_value/hsl), [`hwb`](/en-US/docs/Web/CSS/Reference/Values/color_value/hwb), [`lch`](/en-US/docs/Web/CSS/Reference/Values/color_value/lch), and [`oklch`](/en-US/docs/Web/CSS/Reference/Values/color_value/oklch). With these you can optionally follow the color space name with a {{CSSXref("&lt;hue-interpolation-method&gt;")}}. This value defaults to `shorter hue`, but can also be set to `longer hue`, `increasing hue`, or `decreasing hue`.
+The `<polar-color-space>` category includes [`hsl`](/css/reference/values/color_value/hsl), [`hwb`](/css/reference/values/color_value/hwb), [`lch`](/css/reference/values/color_value/lch), and [`oklch`](/css/reference/values/color_value/oklch). With these you can optionally follow the color space name with a {{CSSXref("&lt;hue-interpolation-method&gt;")}}. This value defaults to `shorter hue`, but can also be set to `longer hue`, `increasing hue`, or `decreasing hue`.
 
 ### Color percentages
 
@@ -78,7 +78,7 @@ The two color percentages (we'll refer to them as `p1` and `p2`) are normalized 
 - If `p2` is omitted, then `p2 = 100% - p1`.
 - If `p1 = p2 = 0%`, the function is invalid.
 - If `p1 + p2 ≠ 100%`, then `p1' = p1 / (p1 + p2)` and `p2' = p2 / (p1 + p2)`, where `p1'` and `p2'` are the normalization results.
-  - If `p1 + p2 < 100%`, then an alpha multiplier of `p1 + p2` is applied to the resulting color. This is similar to mixing in [`transparent`](/en-US/docs/Web/CSS/Reference/Values/named-color#transparent), with percentage `pt = 100% - p1 - p2`.
+  - If `p1 + p2 < 100%`, then an alpha multiplier of `p1 + p2` is applied to the resulting color. This is similar to mixing in [`transparent`](/css/reference/values/named-color#transparent), with percentage `pt = 100% - p1 - p2`.
 
 ## Formal syntax
 
@@ -161,7 +161,7 @@ The total value of both colors in a `color-mix()` function is 100%, even if the 
 
 ### Adding transparency
 
-This example demonstrates using the `color-mix()` function to add transparency to a color by mixing any color with [`transparent`](/en-US/docs/Web/CSS/Reference/Values/named-color#transparent).
+This example demonstrates using the `color-mix()` function to add transparency to a color by mixing any color with [`transparent`](/css/reference/values/named-color#transparent).
 
 #### HTML
 
@@ -178,7 +178,7 @@ This example demonstrates using the `color-mix()` function to add transparency t
 
 #### CSS
 
-The `color-mix()` function is used to add increasing percentages of `red`, which is declared using a [custom property](/en-US/docs/Web/CSS/Reference/Properties/--*) named `--base`, defined on the {{cssxref(":root")}}. The 6th {{htmlelement("li")}} doesn't include a percentage, creating an output color that is half as opaque as the `--base` color. We include a striped background on the {{htmlelement("ul")}} to make the transparency visible.
+The `color-mix()` function is used to add increasing percentages of `red`, which is declared using a [custom property](/css/reference/properties/--*) named `--base`, defined on the {{cssxref(":root")}}. The 6th {{htmlelement("li")}} doesn't include a percentage, creating an output color that is half as opaque as the `--base` color. We include a striped background on the {{htmlelement("ul")}} to make the transparency visible.
 
 ```css hidden
 ul {
@@ -242,11 +242,11 @@ li:nth-child(6) {
 
 {{EmbedLiveSample("adding transparency", "100%", 120)}}
 
-In this way, the `color-mix()` function can be used to add transparency to any color, even if the color is already non-opaque (with an alpha channel value < 1). However, `color-mix()` can't be used to make a semi-transparent color fully opaque. For this, use a [relative color](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors) with a CSS [color function](/en-US/docs/Web/CSS/Guides/Colors#functions). Relative colors can alter the value of any color channel, including increasing a color's alpha channel to render the color fully opaque.
+In this way, the `color-mix()` function can be used to add transparency to any color, even if the color is already non-opaque (with an alpha channel value < 1). However, `color-mix()` can't be used to make a semi-transparent color fully opaque. For this, use a [relative color](/css/guides/Colors/Using_relative_colors) with a CSS [color function](/css/guides/Colors#functions). Relative colors can alter the value of any color channel, including increasing a color's alpha channel to render the color fully opaque.
 
 ### Using hue interpolation in color-mix()
 
-This example demonstrates the hue interpolation methods available to the `color-mix()` function. When using hue [interpolation](/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation), the resulting hue is between the hue values of the two colors being mixed. The value will be different based on which route is taken around the color wheel.
+This example demonstrates the hue interpolation methods available to the `color-mix()` function. When using hue [interpolation](/css/reference/values/color_value#interpolation), the resulting hue is between the hue values of the two colors being mixed. The value will be different based on which route is taken around the color wheel.
 
 For more information, see {{cssxref("&lt;hue-interpolation-method&gt;")}}.
 
@@ -293,7 +293,7 @@ For more information, see {{cssxref("&lt;hue-interpolation-method&gt;")}}.
 
 The `shorter hue` interpolation method takes the shorter route around the color wheel, whereas the `longer hue` interpolation method takes the longer route. With `increasing hue`, the route starts with increasing values. With `decreasing hue` the value decreases. We mix two {{cssxref("named-color")}} values to create a series of `lch()` intermediary colors that differ based on which route is taken around the color wheel. The mixed colors include `red`, `blue`, and `yellow` with LCH hue values of approximately 41deg, 301deg, and 100deg, respectively.
 
-To reduce code redundancy, we used [CSS custom properties](/en-US/docs/Web/CSS/Reference/Properties/--*) for both colors and for the interpolation method, setting different values on each {{htmlelement("ul")}}.
+To reduce code redundancy, we used [CSS custom properties](/css/reference/properties/--*) for both colors and for the interpolation method, setting different values on each {{htmlelement("ul")}}.
 
 ```css hidden
 body {
@@ -409,4 +409,4 @@ With `longer hue` the increments or decrements between colors will always be the
 - {{CSSXref("&lt;color&gt;")}}
 - {{CSSXref("&lt;color-interpolation-method&gt;")}}
 - {{cssxref("hue")}}
-- [CSS relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors)
+- [CSS relative colors](/css/guides/Colors/Using_relative_colors)

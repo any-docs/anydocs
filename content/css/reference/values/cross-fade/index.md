@@ -6,7 +6,7 @@ browser-compat: css.types.image.cross-fade
 sidebar: cssref
 ---
 
-The **`cross-fade()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) can be used to blend two or more images at a defined transparency.
+The **`cross-fade()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) can be used to blend two or more images at a defined transparency.
 It can be used for many basic image manipulations, such as tinting an image with a solid color or highlighting a particular area of the page by combining an image with a radial gradient.
 
 ## Syntax
@@ -142,5 +142,5 @@ When using background images, make sure the contrast in color is great enough th
 - {{cssxref("image/image", "image()")}}
 - {{cssxref("image/image-set", "image-set()")}}
 - {{cssxref("element")}}
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
+- [Using CSS gradients](/css/guides/Images/Using_gradients)
 - Gradient functions: {{cssxref("gradient/linear-gradient", "linear-gradient()")}}, {{cssxref("gradient/radial-gradient", "radial-gradient()")}}, {{cssxref("gradient/repeating-linear-gradient", "repeating-linear-gradient()")}}, {{cssxref("gradient/repeating-radial-gradient", "repeating-radial-gradient()")}}, {{cssxref("gradient/conic-gradient", "conic-gradient()")}}, {{cssxref("gradient/repeating-conic-gradient", "repeating-conic-gradient()")}}

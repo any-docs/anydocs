@@ -22,7 +22,7 @@ until(other, options)
 
 - `other`
   - : A string, an object, or a {{jsxref("Temporal.PlainDateTime")}} instance representing a date-time to subtract this date-time from. It is converted to a `Temporal.PlainDateTime` object using the same algorithm as {{jsxref("Temporal/PlainDateTime/from", "Temporal.PlainDateTime.from()")}}. It must have the same calendar as `this`.
-- `options` {{optional_inline}}
+- `options` <Badge type="info" text="Optional" />
   - : The same options as [`since()`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/since#options).
 
 ### Return value

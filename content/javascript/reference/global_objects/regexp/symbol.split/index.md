@@ -35,7 +35,7 @@ regexp[Symbol.split](str, limit)
 
 - `str`
   - : The target of the split operation.
-- `limit` {{optional_inline}}
+- `limit` <Badge type="info" text="Optional" />
   - : Integer specifying a limit on the number of splits to be found. The `[Symbol.split]()` method still splits on every match of `this` RegExp pattern (or, in the Syntax above, `regexp`), until the number of split items match the `limit` or the string falls short of `this` pattern.
 
 ### Return value

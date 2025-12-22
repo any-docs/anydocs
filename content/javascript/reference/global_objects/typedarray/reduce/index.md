@@ -41,7 +41,7 @@ reduce(callbackFn, initialValue)
       - : The index position of `currentValue` in the typed array. On the first call, its value is `0` if `initialValue` is specified, otherwise `1`.
     - `array`
       - : The typed array `reduce()` was called upon.
-- `initialValue` {{optional_inline}}
+- `initialValue` <Badge type="info" text="Optional" />
   - : A value to which `accumulator` is initialized the first time the callback is called.
     If `initialValue` is specified, `callbackFn` starts executing with the first value in the typed array as `currentValue`.
     If `initialValue` is _not_ specified, `accumulator` is initialized to the first value in the typed array, and `callbackFn` starts executing with the second value in the typed array as `currentValue`. In this case, if the typed array is empty (so that there's no first value to return as `accumulator`), an error is thrown.

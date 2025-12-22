@@ -6,7 +6,7 @@ browser-compat: css.properties.math-depth
 sidebar: cssref
 ---
 
-The **`math-depth`** property describes a notion of _depth_ for each element of a mathematical formula, with respect to the top-level container of that formula. This is used to scale the computed value of the [font-size](/en-US/docs/Web/CSS/Reference/Properties/font-size) of elements when `font-size: math` is applied.
+The **`math-depth`** property describes a notion of _depth_ for each element of a mathematical formula, with respect to the top-level container of that formula. This is used to scale the computed value of the [font-size](/css/reference/properties/font-size) of elements when `font-size: math` is applied.
 
 > [!NOTE]
 > `font-size: math` is the default for `<math>` elements in the MathML Core [User Agent stylesheet](https://w3c.github.io/mathml-core/#user-agent-stylesheet), so it's not necessary to specify it explicitly.
@@ -35,7 +35,7 @@ math-depth: unset;
 ### Values
 
 - `auto-add`
-  - : Set to the inherited `math-depth` plus 1 when inherited [math-style](/en-US/docs/Web/CSS/Reference/Properties/math-style) is `compact`.
+  - : Set to the inherited `math-depth` plus 1 when inherited [math-style](/css/reference/properties/math-style) is `compact`.
 - `add({{cssxref("&lt;integer&gt;")}})`
   - : Set to the inherited `math-depth` plus the specified integer.
 - {{cssxref("&lt;integer&gt;")}}

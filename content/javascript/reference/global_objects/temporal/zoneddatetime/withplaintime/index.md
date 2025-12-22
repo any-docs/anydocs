@@ -20,7 +20,7 @@ withPlainTime(plainTime)
 
 ### Parameters
 
-- `plainTime` {{optional_inline}}
+- `plainTime` <Badge type="info" text="Optional" />
   - : A string, an object, or a {{jsxref("Temporal.PlainTime")}} instance representing the new time. It is converted to a `Temporal.PlainTime` object using the same algorithm as {{jsxref("Temporal/PlainTime/from", "Temporal.PlainTime.from()")}}. If not specified, the time part is set to the [start of the day](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/startOfDay) (which is usually `00:00:00` unless it doesn't exist due to offset transitions). [Disambiguation](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime#time_zones_and_offsets) always happens in the `"compatible"` mode; if you want to use a different mode, use the {{jsxref("Temporal/ZonedDateTime/with", "with()")}} method instead.
 
 ### Return value

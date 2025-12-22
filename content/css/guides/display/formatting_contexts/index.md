@@ -21,7 +21,7 @@ The {{HTMLElement("html")}} element is not the only element capable of creating 
 A new BFC is created in the following situations:
 
 - elements made to float using {{cssxref("float")}}
-- [absolutely positioned](/en-US/docs/Web/CSS/Reference/Properties/position#types_of_positioning) elements
+- [absolutely positioned](/css/reference/properties/position#types_of_positioning) elements
 - elements with {{cssxref("display", "display: inline-block", "#inline-block")}}
 - table cells or elements with `display: table-cell`, including anonymous table cells created when using the `display: table-*` properties
 - table captions or elements with `display: table-caption`
@@ -30,7 +30,7 @@ A new BFC is created in the following situations:
 - elements with {{cssxref("contain", "contain: layout", "#layout")}}, `content`, or `strict`
 - {{Glossary("flex item", "flex items")}}
 - grid items
-- [multicol containers](/en-US/docs/Web/CSS/Guides/Multicol_layout/Basic_concepts)
+- [multicol containers](/css/guides/Multicol_layout/Basic_concepts)
 - elements with {{cssxref("column-span")}} set to `all`
 
 This is useful because a new BFC will behave much like the outermost document in that it becomes a mini-layout inside the main layout. A BFC contains everything inside it, {{cssxref("float")}} and {{cssxref("clear")}} only apply to items inside the same formatting context, and margins only collapse between elements in the same formatting context.
@@ -39,7 +39,7 @@ This is useful because a new BFC will behave much like the outermost document in
 
 Let's have a look at a couple of these in order to see the effect creating a new BFC.
 
-In the example below, we have a floated element inside a `<div>` with a border applied. The content of that `<div>` has floated alongside the floated element. As the content of the float is taller than the content alongside it, the border of the `<div>` now runs through the float. As explained in the [guide to in-flow and out of flow elements](/en-US/docs/Web/CSS/Guides/Display/In_flow_and_out_of_flow), the float has been taken out of flow so the background and border of the div only contain the content and not the float.
+In the example below, we have a floated element inside a `<div>` with a border applied. The content of that `<div>` has floated alongside the floated element. As the content of the float is taller than the content alongside it, the border of the `<div>` now runs through the float. As explained in the [guide to in-flow and out of flow elements](/css/guides/Display/In_flow_and_out_of_flow), the float has been taken out of flow so the background and border of the div only contain the content and not the float.
 
 ```html live-sample___float
 <div class="box">
@@ -180,10 +180,10 @@ This guide covers flow layout and is therefore not referring to other possible f
 
 ## Summary
 
-In this guide, we have looked in more detail at the block and Inline formatting contexts and the important subject of creating a block formatting context (BFC). In the next guide, we will find out [how normal flow interacts with different writing modes](/en-US/docs/Web/CSS/Guides/Display/Flow_layout_and_writing_modes).
+In this guide, we have looked in more detail at the block and Inline formatting contexts and the important subject of creating a block formatting context (BFC). In the next guide, we will find out [how normal flow interacts with different writing modes](/css/guides/Display/Flow_layout_and_writing_modes).
 
 ## See also
 
-- [Block formatting context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context)
-- [Visual formatting model](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model)
-- [CSS Box Model](/en-US/docs/Web/CSS/Guides/Box_model)
+- [Block formatting context](/css/guides/Display/Block_formatting_context)
+- [Visual formatting model](/css/guides/Display/Visual_formatting_model)
+- [CSS Box Model](/css/guides/Box_model)

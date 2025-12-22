@@ -6,7 +6,7 @@ browser-compat: css.properties.animation-range
 sidebar: cssref
 ---
 
-The **`animation-range`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) is used to set the start and end of an animation's attachment range along its timeline, i.e., where along the timeline an animation will start and end.
+The **`animation-range`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/css/guides/Cascade/Shorthand_properties) is used to set the start and end of an animation's attachment range along its timeline, i.e., where along the timeline an animation will start and end.
 
 ## Constituent properties
 
@@ -64,7 +64,7 @@ The `animation-range` shorthand property is specified as one or more single anim
 
 The `animation-range` shorthand property sets the `animation-range-start` and `animation-range-end` values, defining where along the animation timeline the animation will start and end. By default, the styles defined in a keyframe animation are only applied to an element while that element is being animated. When a keyframe animation is applied to an element depends on the animation timeline of that animation. By default, animation are only applied between the timeline's range start and range end. To apply the animation outside of this range, set the {{cssxref("animation-fill-mode")}} to `backwards`, `forwards`, or `both`. These three `animation-fill-mode` values apply the first keyframe styles until range start, the last keyframe styles after the animation ends, or both before and after, respectively.
 
-The {{glossary("Scroll container", "scroll port")}} area known as the view progress visibility range is the area inside which the subject element of a [named view progress timeline](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines#view_progress_timelines) animation is deemed to be visible. By default, this is the full range of the scrollport, but it can be adjusted using the {{cssxref("view-timeline-inset")}} property.
+The {{glossary("Scroll container", "scroll port")}} area known as the view progress visibility range is the area inside which the subject element of a [named view progress timeline](/css/guides/Scroll-driven_animations/Timelines#view_progress_timelines) animation is deemed to be visible. By default, this is the full range of the scrollport, but it can be adjusted using the {{cssxref("view-timeline-inset")}} property.
 
 If two values are specified as components of the `<animation-range>` property, they will be interpreted in the order `<animation-range-start>` then `<animation-range-end>`. The value of each component is either the keyword `normal`, a {{cssxref("length-percentage")}}, or a {{cssxref("timeline-range-name")}} optionally followed by a `<length-percentage>`. These values are space-separated. Normal is equal to `0%` for start and `100%` for end. Setting `normal` with a `<length-percentage>` for either the start or end range is invalid.
 
@@ -254,7 +254,7 @@ Scroll to see the element being animated.
 
 Note how the `from`, or `0%`, keyframe property values are not applied to the animated element until the top block border edge is `10%` past the container's bottom edge; it is full size, fully opaque, and magenta. At that point, the animation is applied and it is styled with the values defined by the `0%` keyframe selector. When the `animation-range-end` is reached, 25% from the top of the scrollport, it jumps back to its original styling.
 
-Generally, you will want to set `animation-fill-mode: both` when creating [scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations). The jump to the default state occurs because we did not set the {{cssxref("animation-fill-mode")}} property on the element, which can be used to apply an animation's styles to an element before and after the animation's execution. We initially omitted the property in this example to better enable visualizing the effects of `animation-range`.
+Generally, you will want to set `animation-fill-mode: both` when creating [scroll-driven animations](/css/guides/Scroll-driven_animations). The jump to the default state occurs because we did not set the {{cssxref("animation-fill-mode")}} property on the element, which can be used to apply an animation's styles to an element before and after the animation's execution. We initially omitted the property in this example to better enable visualizing the effects of `animation-range`.
 
 Check the checkbox to apply the `animation-fill-mode` property to the animated element in then re-scroll: the animation styles should now be continuously applied.
 
@@ -275,5 +275,5 @@ Check the checkbox to apply the `animation-fill-mode` property to the animated e
 - {{cssxref("timeline-scope")}}
 - {{cssxref("view-timeline-inset")}}
 - {{cssxref("animation-fill-mode")}}
-- [CSS scroll-driven animations](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations) module
+- [CSS scroll-driven animations](/css/guides/Scroll-driven_animations) module
 - [View timeline range visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/)

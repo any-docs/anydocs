@@ -41,7 +41,7 @@ reduceRight(callbackFn, initialValue)
       - : The index position of `currentValue` in the typed array. On the first call, its value is `array.length - 1` if `initialValue` is specified, otherwise `array.length - 2`.
     - `array`
       - : The typed array `reduceRight()` was called upon.
-- `initialValue` {{optional_inline}}
+- `initialValue` <Badge type="info" text="Optional" />
   - : Value to use as accumulator to the first call of the `callbackFn`. If no initial value is supplied, the last element in the typed array will be used and skipped. Calling `reduceRight()` on an empty typed array without an initial value creates a `TypeError`.
 
 ### Return value

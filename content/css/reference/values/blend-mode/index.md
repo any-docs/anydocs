@@ -6,7 +6,7 @@ browser-compat: css.types.blend-mode
 sidebar: cssref
 ---
 
-The **`<blend-mode>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) describes how colors should appear when elements overlap. It is used in the {{cssxref("background-blend-mode")}} and {{cssxref("mix-blend-mode")}} properties.
+The **`<blend-mode>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) describes how colors should appear when elements overlap. It is used in the {{cssxref("background-blend-mode")}} and {{cssxref("mix-blend-mode")}} properties.
 
 ## Syntax
 
@@ -355,7 +355,7 @@ selectElem.addEventListener("change", () => {
 
 ## See also
 
-- The [CSS compositing and blending](/en-US/docs/Web/CSS/Guides/Compositing_and_blending) module that defines the `<blend-mode>` values.
+- The [CSS compositing and blending](/css/guides/Compositing_and_blending) module that defines the `<blend-mode>` values.
 - Properties that use this data type: {{cssxref("background-blend-mode")}}, {{cssxref("mix-blend-mode")}}
 
 Description to various blend modes on other website:

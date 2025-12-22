@@ -35,7 +35,7 @@ setMonth(monthValue, dateValue)
 
 - `monthValue`
   - : An integer representing the month: 0 for January, 1 for February, and so on.
-- `dateValue` {{optional_inline}}
+- `dateValue` <Badge type="info" text="Optional" />
   - : An integer from 1 to 31 representing the day of the month.
 
 ### Return value

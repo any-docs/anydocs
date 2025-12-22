@@ -6,7 +6,7 @@ browser-compat: css.types.angle
 sidebar: cssref
 ---
 
-The **`<angle>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in {{cssxref("gradient")}}s and in some {{cssxref("transform")}} functions.
+The **`<angle>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in {{cssxref("gradient")}}s and in some {{cssxref("transform")}} functions.
 
 {{InteractiveExample("CSS Demo: &lt;angle&gt;")}}
 
@@ -117,9 +117,9 @@ Optionally, it may be preceded by a single `+` or `-` sign. Positive numbers rep
 
 ## See also
 
-- [CSS data types](/en-US/docs/Web/CSS/Reference/Values/Data_types)
+- [CSS data types](/css/reference/values/Data_types)
 - The {{cssxref("gradient")}} type
-- CSS rotation transforms: [`rotate()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/rotate), [`rotate3d()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/rotate3d), [`rotateX()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/rotateX), [`rotateY()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/rotateY), and [`rotateZ()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/rotateZ)
-- [CSS transforms](/en-US/docs/Web/CSS/Guides/Transforms)
-- [Using CSS transforms](/en-US/docs/Web/CSS/Guides/Transforms/Using)
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
+- CSS rotation transforms: [`rotate()`](/css/reference/values/transform-function/rotate), [`rotate3d()`](/css/reference/values/transform-function/rotate3d), [`rotateX()`](/css/reference/values/transform-function/rotateX), [`rotateY()`](/css/reference/values/transform-function/rotateY), and [`rotateZ()`](/css/reference/values/transform-function/rotateZ)
+- [CSS transforms](/css/guides/Transforms)
+- [Using CSS transforms](/css/guides/Transforms/Using)
+- [Using CSS gradients](/css/guides/Images/Using_gradients)

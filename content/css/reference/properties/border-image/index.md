@@ -6,7 +6,7 @@ browser-compat: css.properties.border-image
 sidebar: cssref
 ---
 
-The **`border-image`** [CSS](/en-US/docs/Web/CSS) property draws an image around a given element. It replaces the element's regular [border](/en-US/docs/Web/CSS/Reference/Properties/border).
+The **`border-image`** [CSS](/en-US/docs/Web/CSS) property draws an image around a given element. It replaces the element's regular [border](/css/reference/properties/border).
 
 > [!NOTE]
 > You should specify a separate {{cssxref("border-style")}} in case the border image fails to load. Although the specification doesn't strictly require it, some browsers don't render the border image if {{cssxref("border-style")}} is `none` or {{cssxref("border-width")}} is `0`.
@@ -95,7 +95,7 @@ border-image: unset;
 The `border-image` property may be specified with anywhere from one to five of the values listed below.
 
 > [!NOTE]
-> If the [computed value](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value) of {{cssxref("border-image-source")}} is `none`, or if the image cannot be displayed, the {{cssxref("border-style")}} will be displayed instead.
+> If the [computed value](/css/guides/Cascade/Property_value_processing#computed_value) of {{cssxref("border-image-source")}} is `none`, or if the image cannot be displayed, the {{cssxref("border-style")}} will be displayed instead.
 
 ### Values
 

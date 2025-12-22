@@ -7,7 +7,7 @@ browser-compat: api.MediaQueryList
 sidebar: cssref
 ---
 
-The {{Glossary("DOM")}} provides features that can test the results of a {{Glossary("media query")}} programmatically, via the {{domxref("MediaQueryList")}} interface and its methods and properties. Once you've created a `MediaQueryList` object, you can check the result of the [query](/en-US/docs/Web/CSS/Guides/Media_queries/Using) or receive notifications when the result changes.
+The {{Glossary("DOM")}} provides features that can test the results of a {{Glossary("media query")}} programmatically, via the {{domxref("MediaQueryList")}} interface and its methods and properties. Once you've created a `MediaQueryList` object, you can check the result of the [query](/css/guides/Media_queries/Using) or receive notifications when the result changes.
 
 ## Creating a media query list
 
@@ -85,8 +85,8 @@ mediaQueryList.removeEventListener("change", handleOrientationChange);
 
 ## See also
 
-- [Media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
-- [CSS media queries](/en-US/docs/Web/CSS/Guides/Media_queries) module
+- [Media queries](/css/guides/Media_queries/Using)
+- [CSS media queries](/css/guides/Media_queries) module
 - [CSS object model](/en-US/docs/Web/API/CSS_Object_Model) module
 - {{domxref("window.matchMedia()")}}
 - {{domxref("MediaQueryList")}}

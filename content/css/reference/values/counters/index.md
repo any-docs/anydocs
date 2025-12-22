@@ -6,7 +6,7 @@ browser-compat: css.types.counters
 sidebar: cssref
 ---
 
-The **`counters()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) enables combining markers when nesting counters. The function returns a string that concatenates the current values of the named and nested counters, if any are present, with the string provided. The third, optional parameter enables defining the list style.
+The **`counters()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) enables combining markers when nesting counters. The function returns a string that concatenates the current values of the named and nested counters, if any are present, with the string provided. The third, optional parameter enables defining the list style.
 
 The `counters()` function is generally used within [pseudo-element](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements) through the {{cssxref("content")}} property, but theoretically, it can be used wherever a {{cssxref("string")}} value is supported.
 
@@ -62,18 +62,18 @@ counters(counter-name, '.');
 counters(counter-name, '-', upper-roman)
 ```
 
-A [counter](/en-US/docs/Web/CSS/Guides/Counter_styles/Using_counters) has no visible effect by itself. The `counters()` function (and {{cssxref("counter()")}} function) is what makes it useful by returning developer-defined content.
+A [counter](/css/guides/Counter_styles/Using_counters) has no visible effect by itself. The `counters()` function (and {{cssxref("counter()")}} function) is what makes it useful by returning developer-defined content.
 
 ### Values
 
 The `counters()` function accepts two or three parameters. The first parameter is the `<counter-name>`. The second parameter is the concatenator `<string>`. The optional third parameter is the `<counter-style>`.
 
 - `<counter-name>`
-  - : A {{cssxref("&lt;custom-ident&gt;")}} identifying the counters, which is the same case-sensitive name used for the {{cssxref("counter-reset")}} and {{cssxref("counter-increment")}} properties. The name cannot start with two dashes and can't be `none`, `unset`, `initial`, or `inherit`. Alternatively, for inline, single-use counters, the {{cssxref("symbols")}} function can be used instead of a named counter in [browsers that support `symbols()`](/en-US/docs/Web/CSS/Reference/Values/symbols#browser_compatibility).
+  - : A {{cssxref("&lt;custom-ident&gt;")}} identifying the counters, which is the same case-sensitive name used for the {{cssxref("counter-reset")}} and {{cssxref("counter-increment")}} properties. The name cannot start with two dashes and can't be `none`, `unset`, `initial`, or `inherit`. Alternatively, for inline, single-use counters, the {{cssxref("symbols")}} function can be used instead of a named counter in [browsers that support `symbols()`](/css/reference/values/symbols#browser_compatibility).
 - {{cssxref("&lt;string&gt;")}}
   - : Any number of text characters. Non-Latin characters must be encoded using their Unicode escape sequences: for example, `\000A9` represents the copyright symbol.
 - `<counter-style>`
-  - : A counter style name or a [`symbols()`](/en-US/docs/Web/CSS/Reference/Values/symbols) function. The counter style name can be a predefined style such as numeric, alphabetic, or symbolic, a complex longhand predefined style such as East Asian or Ethiopic, or another [predefined counter style](/en-US/docs/Web/CSS/Guides/Counter_styles). If omitted, the counter-style defaults to decimal.
+  - : A counter style name or a [`symbols()`](/css/reference/values/symbols) function. The counter style name can be a predefined style such as numeric, alphabetic, or symbolic, a complex longhand predefined style such as East Asian or Ethiopic, or another [predefined counter style](/css/guides/Counter_styles). If omitted, the counter-style defaults to decimal.
 
 The return value is a string containing all the values of all the counters in the element's CSS counters set named `<counter-name>` in the counter style defined by `<counter-style>` (or decimal, if omitted). The return string is sorted in outermost-first to innermost-last order, joined by the `<string>` specified.
 
@@ -208,13 +208,13 @@ li::before {
 
 ## See also
 
-- [Using CSS Counters](/en-US/docs/Web/CSS/Guides/Counter_styles/Using_counters)
+- [Using CSS Counters](/css/guides/Counter_styles/Using_counters)
 - {{cssxref("counter-set")}} property
 - {{cssxref("counter-reset")}} property
 - {{cssxref("counter-increment")}} property
 - {{cssxref("@counter-style")}} at-rule
-- CSS [`counter()`](/en-US/docs/Web/CSS/Reference/Values/counter) function
+- CSS [`counter()`](/css/reference/values/counter) function
 - {{cssxref("::marker")}} pseudo-element
-- [CSS lists and counters](/en-US/docs/Web/CSS/Guides/Lists) module
-- [CSS counter styles](/en-US/docs/Web/CSS/Guides/Counter_styles) module
-- [CSS generated content](/en-US/docs/Web/CSS/Guides/Generated_content) module
+- [CSS lists and counters](/css/guides/Lists) module
+- [CSS counter styles](/css/guides/Counter_styles) module
+- [CSS generated content](/css/guides/Generated_content) module

@@ -35,7 +35,7 @@ toString(radix)
 
 ### Parameters
 
-- `radix` {{optional_inline}}
+- `radix` <Badge type="info" text="Optional" />
   - : An integer in the range `2` through `36` specifying the base to use for representing the number value. Defaults to 10.
 
 ### Return value

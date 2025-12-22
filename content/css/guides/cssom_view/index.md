@@ -41,7 +41,7 @@ For the JavaScript API defined by this module, see the [CSSOM view API](/en-US/d
 
 - [Coordinate systems](/en-US/docs/Web/API/CSSOM_view_API/Coordinate_systems)
   - : The coordinate systems used to specify a position in a display context such as a window on a monitor, a viewport on a mobile device, or a position on a sheet of paper when printing.
-- [Viewport concepts](/en-US/docs/Web/CSS/Guides/CSSOM_view/Viewport_concepts)
+- [Viewport concepts](/css/guides/CSSOM_view/Viewport_concepts)
   - : The concept of the viewport — what it is, its impact in terms of CSS, SVG, and mobile devices — and the difference between the visual viewport and the layout viewport.
 
 ## Related concepts
@@ -63,7 +63,7 @@ For the JavaScript API defined by this module, see the [CSSOM view API](/en-US/d
 
 - [CSS Object Model (CSSOM)](/en-US/docs/Web/API/CSS_Object_Model) API
 - [CSSOM view API](/en-US/docs/Web/API/CSSOM_view_API)
-- [CSS viewport](/en-US/docs/Web/CSS/Guides/Viewport) module
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
-- [CSS overscroll behavior](/en-US/docs/Web/CSS/Guides/Overscroll_behavior) module
-- [CSS scroll snap](/en-US/docs/Web/CSS/Guides/Scroll_snap) module
+- [CSS viewport](/css/guides/Viewport) module
+- [CSS overflow](/css/guides/Overflow) module
+- [CSS overscroll behavior](/css/guides/Overscroll_behavior) module
+- [CSS scroll snap](/css/guides/Scroll_snap) module

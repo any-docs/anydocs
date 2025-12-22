@@ -6,7 +6,7 @@ browser-compat: css.types.tan
 sidebar: cssref
 ---
 
-The **`tan()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) is a trigonometric function that returns the tangent of a number, which is a value between `−infinity` and `infinity`. The function contains a single calculation that must resolve to either a {{cssxref("&lt;number&gt;")}} or an {{cssxref("angle")}} by interpreting the result of the argument as radians.
+The **`tan()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) is a trigonometric function that returns the tangent of a number, which is a value between `−infinity` and `infinity`. The function contains a single calculation that must resolve to either a {{cssxref("&lt;number&gt;")}} or an {{cssxref("angle")}} by interpreting the result of the argument as radians.
 
 ## Syntax
 
@@ -107,4 +107,4 @@ body {
 - {{CSSxRef("acos")}}
 - {{CSSxRef("atan")}}
 - {{CSSxRef("atan2")}}
-- [Using CSS typed arithmetic](/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic)
+- [Using CSS typed arithmetic](/css/guides/Values_and_units/Using_typed_arithmetic)

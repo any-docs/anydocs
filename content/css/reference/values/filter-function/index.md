@@ -6,7 +6,7 @@ browser-compat: css.types.filter-function
 sidebar: cssref
 ---
 
-The **`<filter-function>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents a graphical effect that can change the appearance of an input image. It is used in the {{cssxref("filter")}} and {{cssxref("backdrop-filter")}} properties.
+The **`<filter-function>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents a graphical effect that can change the appearance of an input image. It is used in the {{cssxref("filter")}} and {{cssxref("backdrop-filter")}} properties.
 
 ## Syntax
 

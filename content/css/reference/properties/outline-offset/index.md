@@ -6,7 +6,7 @@ browser-compat: css.properties.outline-offset
 sidebar: cssref
 ---
 
-The **`outline-offset`** [CSS](/en-US/docs/Web/CSS) property sets the amount of space between an [outline](/en-US/docs/Web/CSS/Reference/Properties/outline) and the edge or border of an element.
+The **`outline-offset`** [CSS](/en-US/docs/Web/CSS) property sets the amount of space between an [outline](/css/reference/properties/outline) and the edge or border of an element.
 
 {{InteractiveExample("CSS Demo: outline-offset")}}
 

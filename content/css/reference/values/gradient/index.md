@@ -6,7 +6,7 @@ browser-compat: css.types.gradient
 sidebar: cssref
 ---
 
-The **`<gradient>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) is a special type of {{cssxref("image")}} that consists of a progressive transition between two or more colors.
+The **`<gradient>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) is a special type of {{cssxref("image")}} that consists of a progressive transition between two or more colors.
 
 {{InteractiveExample("CSS Demo: &lt;gradient&gt;")}}
 
@@ -42,7 +42,7 @@ background: conic-gradient(#f69d3c, #3f87a6);
 }
 ```
 
-A CSS gradient has [no intrinsic dimensions](/en-US/docs/Web/CSS/Reference/Values/image#description); i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element to which it applies.
+A CSS gradient has [no intrinsic dimensions](/css/reference/values/image#description); i.e., it has no natural or preferred size, nor a preferred ratio. Its concrete size will match the size of the element to which it applies.
 
 ## Syntax
 
@@ -66,7 +66,7 @@ Repeating gradients duplicate a gradient as much as necessary to fill a given ar
 
 ## Interpolation
 
-As with any interpolation involving colors, gradients are calculated in the alpha-premultiplied color space. This prevents unexpected shades of gray from appearing when both the color and the opacity are changing. (Be aware that older browsers may not use this behavior when using the [transparent keyword](/en-US/docs/Web/CSS/Reference/Values/named-color#transparent).)
+As with any interpolation involving colors, gradients are calculated in the alpha-premultiplied color space. This prevents unexpected shades of gray from appearing when both the color and the opacity are changing. (Be aware that older browsers may not use this behavior when using the [transparent keyword](/css/reference/values/named-color#transparent).)
 
 ## Formal syntax
 
@@ -217,8 +217,8 @@ span {
 
 ## See also
 
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
+- [Using CSS gradients](/css/guides/Images/Using_gradients)
 - Gradient functions: {{cssxref("gradient/linear-gradient", "linear-gradient()")}}, {{cssxref("gradient/repeating-linear-gradient", "repeating-linear-gradient()")}}, {{cssxref("gradient/radial-gradient", "radial-gradient()")}}, {{cssxref("gradient/repeating-radial-gradient", "repeating-radial-gradient()")}}, {{cssxref("gradient/conic-gradient", "conic-gradient()")}}, {{cssxref("gradient/repeating-conic-gradient", "repeating-conic-gradient()")}}
-- [CSS Basic Data Types](/en-US/docs/Web/CSS/Reference/Values/Data_types)
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS Basic Data Types](/css/reference/values/Data_types)
+- [CSS values and units](/css/guides/Values_and_units) module
 - [Learn: Values and Units](/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units)

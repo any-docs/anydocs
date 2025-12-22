@@ -6,14 +6,14 @@ page-type: guide
 sidebar: cssref
 ---
 
-**CSS typed arithmetic** refers to permitted calculations performed with typed CSS values via functions such as {{cssxref("calc()")}}, and specifically, to the behavior defined in the [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module. CSS typed arithmetic enables dividing a value with one unit by a value with a different unit of the same data type, resulting in unitless quotients.
+**CSS typed arithmetic** refers to permitted calculations performed with typed CSS values via functions such as {{cssxref("calc()")}}, and specifically, to the behavior defined in the [CSS values and units](/css/guides/Values_and_units) module. CSS typed arithmetic enables dividing a value with one unit by a value with a different unit of the same data type, resulting in unitless quotients.
 
 These quotients can then be used as a {{cssxref("number")}} in the values of unitless properties, or converted into any numeric data type (such as a {{cssxref("length")}}, {{cssxref("percentage")}}, or {{cssxref("angle")}}) by multiplying them by a numeric typed value.
 
 This typed arithmetic behavior enables relationships to be created between different values on a page. This article explores typed arithmetic and presents several examples that make use of it.
 
 > [!NOTE]
-> Originally, the [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module limited the arguments multiplication and division operations could take to make dividing by zero detectable at parse time and avoid issues such as squared units. Typed arithmetic relaxes some of those restrictions in [supporting browsers](/en-US/docs/Web/CSS/Reference/Values/calc#browser_compatibility).
+> Originally, the [CSS values and units](/css/guides/Values_and_units) module limited the arguments multiplication and division operations could take to make dividing by zero detectable at parse time and avoid issues such as squared units. Typed arithmetic relaxes some of those restrictions in [supporting browsers](/css/reference/values/calc#browser_compatibility).
 
 ## CSS typed arithmetic rules
 
@@ -94,7 +94,7 @@ calc(100vw / 1em)
 
 If the viewport is `1000px` wide, and `1em` is equal to the browser default of `16px` at the point of calculation, the previous calculation will return `1000px / 16px` = `62.5`.
 
-It used to be the case that you couldn't divide one typed value by another, even if the two values have units of the same type. However, the specification was updated to permit this; check for [browser compatibility](/en-US/docs/Web/CSS/Reference/Values/calc#browser_compatibility).
+It used to be the case that you couldn't divide one typed value by another, even if the two values have units of the same type. However, the specification was updated to permit this; check for [browser compatibility](/css/reference/values/calc#browser_compatibility).
 
 ## Why is the behavioral update useful?
 
@@ -150,7 +150,7 @@ The HTML contains some basic text content wrapped in a {{htmlelement("div")}} el
 
 ### CSS
 
-We start by defining a [CSS custom property](/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties) called `--width-percentage` on the {{cssxref(":root")}} element, which contains the result of the calculation `100vw / 2000px`. This value represents the viewport width as a percentage of `2000px` that we will later use as an alpha channel value. When the viewport is `2000px` wide, the calculation will return `1`, which is equivalent to `100%` alpha. Anything less than a `2000px` viewport width will result in a smaller value.
+We start by defining a [CSS custom property](/css/guides/Cascading_variables/Using_custom_properties) called `--width-percentage` on the {{cssxref(":root")}} element, which contains the result of the calculation `100vw / 2000px`. This value represents the viewport width as a percentage of `2000px` that we will later use as an alpha channel value. When the viewport is `2000px` wide, the calculation will return `1`, which is equivalent to `100%` alpha. Anything less than a `2000px` viewport width will result in a smaller value.
 
 ```css
 :root {
@@ -219,7 +219,7 @@ We start off our CSS in a similar way to the previous demo, creating a unitless 
 Now on to the styling of the paragraph itself. We first give it some basic styles (a {{cssxref("border")}} and {{cssxref("text-align")}} of `center`), then set two values based on the `--viewport-in-pixels` property created earlier:
 
 1. We set the {{cssxref("font-size")}} of the paragraph to a value equal to `--viewport-in-pixels` divided by `200`, multiplied by `1em` to convert the numeric quotient into `em`s.
-2. We set the {{cssxref("background-color")}} of the paragraph to an [`lch()`](/en-US/docs/Web/CSS/Reference/Values/color_value/lch) color value. The lightness and chroma components are constant values (`75%` and `50%`, respectively), whereas the hue component is set to `--viewport-in-pixels` divided by `10`, plus `100`. We then multiply the result of that by `1deg` to ensure the value is an {{cssxref("angle")}}.
+2. We set the {{cssxref("background-color")}} of the paragraph to an [`lch()`](/css/reference/values/color_value/lch) color value. The lightness and chroma components are constant values (`75%` and `50%`, respectively), whereas the hue component is set to `--viewport-in-pixels` divided by `10`, plus `100`. We then multiply the result of that by `1deg` to ensure the value is an {{cssxref("angle")}}.
    > [!NOTE]
    > This last step is not strictly necessary, as `lch()` also accepts unitless hue values. However, a degree value may be more intuitive, and we wanted to show another example of how the unitless value can be converted into a different data type.
 
@@ -274,8 +274,8 @@ Next, we set several properties on the {{htmlelement("body")}} element:
 
 - We start by setting a `height` of `inherit`, meaning the `<body>` will inherit the `:root` element's `100%` height and therefore span the full height of the viewport.
 - Next, we horizontally center the `<body>` using {{cssxref("margin")}}, and give it a {{cssxref("max-width")}}. As you'll see later on, this upper bound is important for controlling the maximum rotation of the fan/circle shape.
-- We center the `<div>` with `class="story-circle"` horizontally and vertically inside the `<body>` using [flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout).
-- We use the {{cssxref("container-type")}} property to declare the `<body>` as an inline [size query container](/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries#container_size_queries). This is important because we want to vary the shape rotation based on the `<body>` width, and not the viewport width as we did in previous examples. Setting it as a size query container allows us to reference its size in calculations.
+- We center the `<div>` with `class="story-circle"` horizontally and vertically inside the `<body>` using [flexbox](/css/guides/Flexible_box_layout).
+- We use the {{cssxref("container-type")}} property to declare the `<body>` as an inline [size query container](/css/guides/Containment/Container_size_and_style_queries#container_size_queries). This is important because we want to vary the shape rotation based on the `<body>` width, and not the viewport width as we did in previous examples. Setting it as a size query container allows us to reference its size in calculations.
 
 ```css
 body {
@@ -338,5 +338,5 @@ To see the result, [view our animated story circle example live](https://mdn.git
 ## See also
 
 - {{cssxref("calc()")}}, {{cssxref("abs()")}}
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS values and units](/css/guides/Values_and_units) module
 - [CSS Typed Arithmetic](https://css-tricks.com/css-typed-arithmetic/) on css-tricks.com (2025)

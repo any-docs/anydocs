@@ -7,7 +7,7 @@ spec-urls: https://drafts.csswg.org/css-sizing/#aspect-ratio
 sidebar: cssref
 ---
 
-Every element rendered to the page has a height and a width, and, therefore, an {{glossary("aspect ratio")}}, which is the ratio between the width and height. The natural dimensions of a media object, which are its size without any sizing, scaling, zooming, or borders applied, are known as its natural or {{glossary("intrinsic size")}}. An element's intrinsic size is determined by the element itself, not by applying formatting such as [box sizing](/en-US/docs/Web/CSS/Guides/Box_sizing) or setting border, margin, or padding widths.
+Every element rendered to the page has a height and a width, and, therefore, an {{glossary("aspect ratio")}}, which is the ratio between the width and height. The natural dimensions of a media object, which are its size without any sizing, scaling, zooming, or borders applied, are known as its natural or {{glossary("intrinsic size")}}. An element's intrinsic size is determined by the element itself, not by applying formatting such as [box sizing](/css/guides/Box_sizing) or setting border, margin, or padding widths.
 
 When developing sites, you often want to be able to set the width of an element to a percentage of the viewport or parent container size and have the height change size proportionally, thereby maintaining a specific aspect ratio depending on the size of the viewport. For replaced elements, like images and videos, maintaining a specific aspect ratio is not only necessary for creating {{glossary("responsive web design")}}, but also a vital component of providing good user experience. Setting an asset's aspect ratio prevents loading [jank](/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia#rendering_strategy_preventing_jank_when_loading_images)—the layout shift that occurs when media loads after the page has already been painted, causing a reflow because the space for the asset has not been reserved.
 
@@ -97,7 +97,7 @@ This is a `220px` square image with no CSS applied; it is displayed at its intri
 
 If replaced content is auto-sized or you provide a size for only one dimension, such as setting a value for `width`, the browser will automatically resize the other dimension, in this case, the height, while maintaining the media's original aspect ratio.
 
-In this example, only the {{cssxref("width")}} is set on the image, so the user agent preserves its aspect ratio. The same image is repeated three times, displayed at different widths: `55px`, `110px`, and at its natural size of `220px` via the [`width: auto`](/en-US/docs/Web/CSS/Reference/Properties/width) value.
+In this example, only the {{cssxref("width")}} is set on the image, so the user agent preserves its aspect ratio. The same image is repeated three times, displayed at different widths: `55px`, `110px`, and at its natural size of `220px` via the [`width: auto`](/css/reference/properties/width) value.
 
 ```html hidden live-sample___image
 <img
@@ -368,7 +368,7 @@ In these examples, a size was explicitly set on the element itself. When working
 
 ### Creating a circle based on the container size
 
-The inline-size of non-replaced block-level elements is the size of their container's [content box](/en-US/docs/Web/CSS/Reference/Values/box-edge#content-box). Because they have a size by default, they don't need to have an explicit size set for the `aspect-ratio` property to work.
+The inline-size of non-replaced block-level elements is the size of their container's [content box](/css/reference/values/box-edge#content-box). Because they have a size by default, they don't need to have an explicit size set for the `aspect-ratio` property to work.
 
 In this example, we have a container {{htmlelement("div")}} that is `200px` wide, which includes `5px` of padding on each side. Therefore, the inline-size of the content box is `190px`. Without setting a height or width on the nested {{htmlelement("p")}} element, we know its inline-size is `190px`. With `aspect-ratio: 1` set, the paragraph will be `190px` tall, unless it has visible overflowing content causing it to be taller (which it doesn't).
 
@@ -401,7 +401,7 @@ p {
 
 {{EmbedLiveSample("circle", "100", "250")}}
 
-To make the `<div>` a circle, we can set the `height` and `width` to the same value, or set `aspect-ratio: 1` and set the `overflow` to `auto` or `hidden`. Alternatively, we can simply remove the margins on the paragraph with [`margin-block: 0`](/en-US/docs/Web/CSS/Reference/Properties/margin-block). Both these options are shown below.
+To make the `<div>` a circle, we can set the `height` and `width` to the same value, or set `aspect-ratio: 1` and set the `overflow` to `auto` or `hidden`. Alternatively, we can simply remove the margins on the paragraph with [`margin-block: 0`](/css/reference/properties/margin-block). Both these options are shown below.
 
 ```html live-sample___circle2
 <div><p>Hello world</p></div>
@@ -503,7 +503,7 @@ iframe.tiktok {
 
 ### Making grid cells square
 
-A grid of square cells can be created by defining fixed [column track sizes](/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns), ensuring each row matches the size of the column track. However, when creating responsive grids using `auto-fill` to fit as many column tracks as possible within the container, the width of each item becomes uncertain. This makes it challenging to determine the appropriate height for creating square items.
+A grid of square cells can be created by defining fixed [column track sizes](/css/reference/properties/grid-template-columns), ensuring each row matches the size of the column track. However, when creating responsive grids using `auto-fill` to fit as many column tracks as possible within the container, the width of each item becomes uncertain. This makes it challenging to determine the appropriate height for creating square items.
 
 By setting an aspect ratio on the items, we can ensure when the grid items are laid out, each grid item will be as tall as it is wide, creating square grid items regardless of the container's dimensions.
 
@@ -591,4 +591,4 @@ For the content of a grid item to not grow beyond the preferred height set by th
 
 ## See also
 
-- [CSS box sizing](/en-US/docs/Web/CSS/Guides/Box_sizing) module
+- [CSS box sizing](/css/guides/Box_sizing) module

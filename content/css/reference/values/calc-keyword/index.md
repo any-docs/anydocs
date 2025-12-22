@@ -6,11 +6,11 @@ browser-compat: css.types.calc-keyword
 sidebar: cssref
 ---
 
-The **`<calc-keyword>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) represents well-defined constants such as `e` and `pi`. Rather than require authors to manually type out several digits of these mathematical constants or calculate them, a few of them are provided directly by CSS for convenience.
+The **`<calc-keyword>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) represents well-defined constants such as `e` and `pi`. Rather than require authors to manually type out several digits of these mathematical constants or calculate them, a few of them are provided directly by CSS for convenience.
 
 ## Syntax
 
-The `<calc-keyword>` type defines numeric constants that can be used in [CSS math functions](/en-US/docs/Web/CSS/Reference/Values/Functions#math_functions).
+The `<calc-keyword>` type defines numeric constants that can be used in [CSS math functions](/css/reference/values/Functions#math_functions).
 
 ### Values
 
@@ -28,7 +28,7 @@ The `<calc-keyword>` type defines numeric constants that can be used in [CSS mat
 
 ### Notes
 
-Serializing the arguments inside [`calc()`](/en-US/docs/Web/CSS/Reference/Values/calc) follows the IEEE-754 standard for floating point math which means there's a few cases to be aware of regarding constants like `infinity` and `NaN`:
+Serializing the arguments inside [`calc()`](/css/reference/values/calc) follows the IEEE-754 standard for floating point math which means there's a few cases to be aware of regarding constants like `infinity` and `NaN`:
 
 - Dividing by zero will return positive or negative `infinity` depending on the sign of the numerator.
 - Adding, subtracting or multiplying `infinity` to anything will return `infinity` unless it produces `NaN` (see below).
@@ -54,7 +54,7 @@ Examples of how these rules apply are shown in the [Infinity, NaN, and division 
 
 ## Description
 
-Mathematical constants can only be used inside [CSS math functions](/en-US/docs/Web/CSS/Reference/Values/Functions#math_functions) for calculations. Math constants are not CSS keywords, but if they are used outside of a calculation, they're treated like any other keyword.
+Mathematical constants can only be used inside [CSS math functions](/css/reference/values/Functions#math_functions) for calculations. Math constants are not CSS keywords, but if they are used outside of a calculation, they're treated like any other keyword.
 For example:
 
 - `animation-name: pi;` refers to an animation named "pi", not the `pi` numeric constant.
@@ -97,7 +97,7 @@ NAN
 ### Using e and pi in `calc()`
 
 The following example shows how to use `e` inside `calc()` to rotate an element with an exponentially-increasing angle.
-The second box shows how to use `pi` inside a [`sin()`](/en-US/docs/Web/CSS/Reference/Values/sin) function.
+The second box shows how to use `pi` inside a [`sin()`](/css/reference/values/sin) function.
 
 ```css hidden
 #wrapper {

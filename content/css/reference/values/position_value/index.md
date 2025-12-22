@@ -6,7 +6,7 @@ browser-compat: css.types.position
 sidebar: cssref
 ---
 
-The **`<position>`** [CSS](/en-US/docs/Web/CSS) [data type](/en-US/docs/Web/CSS/Reference/Values/Data_types) denotes a two-dimensional coordinate used to set a location relative to an element box. It is used in the {{cssxref("background-position")}}, {{cssxref("object-position")}}, {{cssxref("mask-position")}} {{cssxref("offset-position")}}, {{cssxref("offset-anchor")}} and {{cssxref("transform-origin")}} properties.
+The **`<position>`** [CSS](/en-US/docs/Web/CSS) [data type](/css/reference/values/Data_types) denotes a two-dimensional coordinate used to set a location relative to an element box. It is used in the {{cssxref("background-position")}}, {{cssxref("object-position")}}, {{cssxref("mask-position")}} {{cssxref("offset-position")}}, {{cssxref("offset-anchor")}} and {{cssxref("transform-origin")}} properties.
 
 > [!NOTE]
 > The final position described by the `<position>` value does not need to be inside the element's box.
@@ -43,7 +43,7 @@ keyword value keyword value /* Each value is an offset from the keyword that pre
 
 ## Interpolation
 
-When animated, a point's abscissa and ordinate values are interpolated independently. However, because the speed of the interpolation is determined by a single [easing function](/en-US/docs/Web/CSS/Reference/Values/easing-function) for both coordinates, the point will move in a straight line.
+When animated, a point's abscissa and ordinate values are interpolated independently. However, because the speed of the interpolation is determined by a single [easing function](/css/reference/values/easing-function) for both coordinates, the point will move in a straight line.
 
 ## Formal syntax
 
@@ -83,7 +83,7 @@ bottom top
 
 ## See also
 
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS values and units](/css/guides/Values_and_units) module
 - [Learn: CSS Values and units](/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units)
 - {{cssxref("background-position")}}
 - {{cssxref("gradient/radial-gradient", "radial-gradient()")}}

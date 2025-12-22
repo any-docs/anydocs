@@ -6,7 +6,7 @@ browser-compat: css.types.transform-function.translateX
 sidebar: cssref
 ---
 
-The **`translateX()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) repositions an element horizontally on the 2D plane. Its
+The **`translateX()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) repositions an element horizontally on the 2D plane. Its
 result is a {{cssxref("&lt;transform-function&gt;")}} data type.
 
 {{InteractiveExample("CSS Demo: translateX()")}}
@@ -70,13 +70,13 @@ transform: translateX(50%);
 
 - `<length-percentage>`
   - : Is a {{cssxref("&lt;length&gt;")}} or {{cssxref("&lt;percentage&gt;")}} representing the abscissa (horizontal, x-component) of the
-    translating vector [tx, 0]. In [Cartesian coordinate system](/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates) it represents shift along x-axis. A percentage value refers to the width of the reference box defined by the
+    translating vector [tx, 0]. In [Cartesian coordinate system](/css/reference/values/transform-function#cartesian_coordinates) it represents shift along x-axis. A percentage value refers to the width of the reference box defined by the
     {{cssxref("transform-box")}} property.
 
 <table class="standard-table">
   <thead>
     <tr>
-      <th scope="col"><a href="/en-US/docs/Web/CSS/Reference/Values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
+      <th scope="col"><a href="/css/reference/values/transform-function#cartesian_coordinates">Cartesian coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^2</a></th>
       <th scope="col"><a href="https://en.wikipedia.org/wiki/Homogeneous_coordinates">Homogeneous coordinates</a> on <a href="https://en.wikipedia.org/wiki/Real_projective_plane">ℝℙ^2</a></th>
       <th scope="col">Cartesian coordinates on <a href="https://en.wikipedia.org/wiki/Real_coordinate_space">ℝ^3</a></th>
       <th scope="col">Homogeneous coordinates on <a href="https://en.wikipedia.org/wiki/Real_projective_space">ℝℙ^3</a></th>
@@ -154,8 +154,8 @@ div {
 
 ## See also
 
-- [`translate()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/translate)
-- [`translateY()`](/en-US/docs/Web/CSS/Reference/Values/transform-function/translateY)
+- [`translate()`](/css/reference/values/transform-function/translate)
+- [`translateY()`](/css/reference/values/transform-function/translateY)
 - {{cssxref("transform")}}
 - {{cssxref("&lt;transform-function&gt;")}}
 - {{cssxref("translate")}}

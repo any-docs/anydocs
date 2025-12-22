@@ -43,7 +43,7 @@ The `negative` descriptor is relevant in two cases: if counter styles have the `
 
 ### Rendering negative counters
 
-This example [extends](/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/system#extends) the [`decimal`](/en-US/docs/Web/CSS/Reference/Properties/list-style-type#decimal) list style. The `negative` descriptor is used to add `(-` and `)` before and after negative counter values.
+This example [extends](/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/system#extends) the [`decimal`](/css/reference/properties/list-style-type#decimal) list style. The `negative` descriptor is used to add `(-` and `)` before and after negative counter values.
 
 #### HTML
 
@@ -90,5 +90,5 @@ The prefix and suffix listed as the value of the `negative` descriptor are only 
 - {{cssxref("@counter-style")}} descriptors: {{cssxref("@counter-style/system","system")}}, {{cssxref("@counter-style/symbols", "symbols")}}, {{cssxref("@counter-style/additive-symbols", "additive-symbols")}}, {{cssxref("@counter-style/prefix", "prefix")}}, {{cssxref("@counter-style/suffix", "suffix")}}, {{cssxref("@counter-style/range", "range")}}, {{cssxref("@counter-style/pad", "pad")}}, {{cssxref("@counter-style/speak-as", "speak-as")}}, {{cssxref("@counter-style/fallback", "fallback")}}
 - List style properties: {{Cssxref("list-style")}}, {{Cssxref("list-style-image")}}, {{Cssxref("list-style-position")}}
 - {{cssxref("symbols()")}} function to create anonymous counter styles
-- [CSS counter styles](/en-US/docs/Web/CSS/Guides/Counter_styles) module
-- [CSS lists and counters](/en-US/docs/Web/CSS/Guides/Lists) module
+- [CSS counter styles](/css/guides/Counter_styles) module
+- [CSS lists and counters](/css/guides/Lists) module

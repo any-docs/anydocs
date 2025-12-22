@@ -33,7 +33,7 @@ getInt32(byteOffset, littleEndian)
 
 - `byteOffset`
   - : The offset, in bytes, from the start of the view to read the data from.
-- `littleEndian` {{optional_inline}}
+- `littleEndian` <Badge type="info" text="Optional" />
   - : Indicates whether the data is stored in [little- or big-endian](/en-US/docs/Glossary/Endianness) format. If `false` or `undefined`, a big-endian value is read.
 
 ### Return value

@@ -28,7 +28,7 @@ Atomics.waitAsync(typedArray, index, value, timeout)
   - : The position in the `typedArray` to wait on.
 - `value`
   - : The expected value to test.
-- `timeout` {{optional_inline}}
+- `timeout` <Badge type="info" text="Optional" />
   - : Time to wait in milliseconds. {{jsxref("NaN")}} (and values that get converted to `NaN`, such as `undefined`) becomes {{jsxref("Infinity")}}. Negative values become `0`.
 
 ### Return value

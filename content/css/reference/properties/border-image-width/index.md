@@ -6,7 +6,7 @@ browser-compat: css.properties.border-image-width
 sidebar: cssref
 ---
 
-The **`border-image-width`** [CSS](/en-US/docs/Web/CSS) property sets the width of an element's [border image](/en-US/docs/Web/CSS/Reference/Properties/border-image).
+The **`border-image-width`** [CSS](/en-US/docs/Web/CSS) property sets the width of an element's [border image](/css/reference/properties/border-image).
 
 If this property's value is greater than the element's {{cssxref("border-width")}}, the border image will extend beyond the padding (and/or content) edge.
 
@@ -153,6 +153,6 @@ p {
 
 ## See also
 
-- [Backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders)
+- [Backgrounds and borders](/css/guides/Backgrounds_and_borders)
 - [Learn CSS: Backgrounds and borders](/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders)
 - [Border images in CSS: A key focus area for Interop 2023](/en-US/blog/border-images-interop-2023/) on MDN blog (2023)

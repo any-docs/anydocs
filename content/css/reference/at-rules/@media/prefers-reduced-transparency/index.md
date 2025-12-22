@@ -63,4 +63,4 @@ This example has a translucent box by default. If the setting to reduce transpar
 ## See also
 
 - CSS [prefers-reduced-motion](/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion) media query
-- [Using media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+- [Using media queries](/css/guides/Media_queries/Using)

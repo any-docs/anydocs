@@ -16,12 +16,12 @@ By varying the color, style, and thickness of text decoration using pseudo-class
 Several features can help improve text readability:
 
 - {{cssxref("text-decoration-skip-ink")}} can increase legibility by skipping descenders.
-- {{cssxref("text-underline-offset")}} enables you to fine-tune the underline placement to better match font metrics or design aesthetics, which can be especially useful for unique [typefaces](/en-US/docs/Web/CSS/Guides/Fonts).
+- {{cssxref("text-underline-offset")}} enables you to fine-tune the underline placement to better match font metrics or design aesthetics, which can be especially useful for unique [typefaces](/css/guides/Fonts).
 - {{cssxref("text-shadow")}} colors that contrast with text {{cssxref("color")}} can make the text visually pop when placed on a background with insufficient contrast.
 
 These features all help improve legibility, and therefore, accessibility. Reducing visual noise and improving text clarity is especially helpful for users with [dyslexia](https://en.wikipedia.org/wiki/Dyslexia) or low vision.
 
-In the writing systems of some languages, [overlines](/en-US/docs/Web/CSS/Reference/Properties/text-decoration-line#overline) and [underlines](/en-US/docs/Web/CSS/Reference/Properties/text-decoration-line#underline) carry semantic meaning. CSS lets you adapt styling to cultural norms. Text decoration features are especially useful for languages that do not use Latin-based scripts and instead follow different underline placements, such as Japanese and Korean.
+In the writing systems of some languages, [overlines](/css/reference/properties/text-decoration-line#overline) and [underlines](/css/reference/properties/text-decoration-line#underline) carry semantic meaning. CSS lets you adapt styling to cultural norms. Text decoration features are especially useful for languages that do not use Latin-based scripts and instead follow different underline placements, such as Japanese and Korean.
 
 Text decoration features also enable you to follow editorial and localization standards that come from print media. For example, with a strikethrough (line-through), you can indicate the status of content. Use it to inform users that content has been removed or that prices have been halved. This feature lets you present both the original and the updated content. Overlines or double underlines are commonly used for academic and editorial annotations.
 
@@ -95,7 +95,7 @@ The specification also defines the `text-decoration-skip-box`, `text-decoration-
 
 ## Guides
 
-- [Introduction to text shadows](/en-US/docs/Web/CSS/Guides/Text_decoration/Text_shadows)
+- [Introduction to text shadows](/css/guides/Text_decoration/Text_shadows)
   - : Overview of the components of the {{cssxref("text-shadow")}} property and creating multiple text shadows
 
 ## Related concepts
@@ -119,8 +119,8 @@ The specification also defines the `text-decoration-skip-box`, `text-decoration-
 - {{HTMLElement("rp")}}
 - {{HTMLElement("sup")}}
 - {{HTMLElement("sub")}}
-- [Inline formatting context](/en-US/docs/Web/CSS/Guides/Inline_layout/Inline_formatting_context)
-- [Introduction to formatting contexts](/en-US/docs/Web/CSS/Guides/Display/Formatting_contexts#inline_formatting_contexts)
+- [Inline formatting context](/css/guides/Inline_layout/Inline_formatting_context)
+- [Introduction to formatting contexts](/css/guides/Display/Formatting_contexts#inline_formatting_contexts)
 
 ## Specifications
 
@@ -128,9 +128,9 @@ The specification also defines the `text-decoration-skip-box`, `text-decoration-
 
 ## See also
 
-- [CSS fonts](/en-US/docs/Web/CSS/Guides/Fonts) module
-- [CSS ruby layout](/en-US/docs/Web/CSS/Guides/Ruby_layout) module
-- [CSS text](/en-US/docs/Web/CSS/Guides/Text) module
-- [CSS writing modes](/en-US/docs/Web/CSS/Guides/Writing_modes) module
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
-- [CSS fonts](/en-US/docs/Web/CSS/Guides/Fonts) module
+- [CSS fonts](/css/guides/Fonts) module
+- [CSS ruby layout](/css/guides/Ruby_layout) module
+- [CSS text](/css/guides/Text) module
+- [CSS writing modes](/css/guides/Writing_modes) module
+- [CSS overflow](/css/guides/Overflow) module
+- [CSS fonts](/css/guides/Fonts) module

@@ -80,12 +80,12 @@ When wrapping is allowed (see {{CSSXRef("text-wrap-mode")}}), the `text-wrap-sty
 - `balance`
   - : Text is wrapped in a way that best balances the number of characters on each line, enhancing layout quality and legibility. Because counting characters and balancing them across multiple lines is computationally expensive, this value is only supported for blocks of text spanning a limited number of lines (six or less for Chromium and ten or less for Firefox).
 - `pretty`
-  - : Text is wrapped using a slower algorithm that favors better layout over speed. This is intended for body copy where good typography is favored over performance (for example, when the number of [orphans](/en-US/docs/Web/CSS/Reference/Properties/orphans) should be kept to a minimum).
+  - : Text is wrapped using a slower algorithm that favors better layout over speed. This is intended for body copy where good typography is favored over performance (for example, when the number of [orphans](/css/reference/properties/orphans) should be kept to a minimum).
 - `stable`
   - : Text is wrapped such that when the user is editing the content, the lines that come before the lines they are editing remain static rather than the whole block of text re-wrapping.
 
 > [!NOTE]
-> The [CSS text](/en-US/docs/Web/CSS/Guides/Text) module defines an `avoid-orphans` value for the `text-wrap-style` property to avoid excessively short last lines and expect the user agent to consider more than one line when making break decisions. This value is not yet supported in any browser.
+> The [CSS text](/css/guides/Text) module defines an `avoid-orphans` value for the `text-wrap-style` property to avoid excessively short last lines and expect the user agent to consider more than one line when making break decisions. This value is not yet supported in any browser.
 
 ## Description
 

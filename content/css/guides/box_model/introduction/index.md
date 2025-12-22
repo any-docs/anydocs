@@ -34,30 +34,30 @@ The thickness of the borders are determined by the {{cssxref("border-width")}} a
 
 The **margin area**, bounded by the margin edge, extends the border area to include an empty area used to separate the element from its neighbors. Its dimensions are the _margin box width_ and the _margin box height_.
 
-The size of the margin area is determined by the {{cssxref("margin-top")}}, {{cssxref("margin-right")}}, {{cssxref("margin-bottom")}}, {{cssxref("margin-left")}}, and shorthand {{cssxref("margin")}} properties. When [margin collapsing](/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing) occurs, the margin area is not clearly defined since margins are shared between boxes.
+The size of the margin area is determined by the {{cssxref("margin-top")}}, {{cssxref("margin-right")}}, {{cssxref("margin-bottom")}}, {{cssxref("margin-left")}}, and shorthand {{cssxref("margin")}} properties. When [margin collapsing](/css/guides/Box_model/Margin_collapsing) occurs, the margin area is not clearly defined since margins are shared between boxes.
 
 Finally, note that for non-replaced inline elements, the amount of space taken up (the contribution to the height of the line) is determined by the {{cssxref('line-height')}} property, even though the borders and padding are still displayed around the content.
 
 ## See also
 
-- [CSS box model](/en-US/docs/Web/CSS/Guides/Box_model) module
-- [Layout and the containing block](/en-US/docs/Web/CSS/Guides/Display/Containing_block)
-- [Introducing the CSS Cascade](/en-US/docs/Web/CSS/Guides/Cascade/Introduction)
+- [CSS box model](/css/guides/Box_model) module
+- [Layout and the containing block](/css/guides/Display/Containing_block)
+- [Introducing the CSS Cascade](/css/guides/Cascade/Introduction)
 - [Learn: Handling conflicts](/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts)
 - CSS key concepts:
-  - [CSS syntax](/en-US/docs/Web/CSS/Guides/Syntax/Introduction)
-  - [At-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules)
-  - [Comments](/en-US/docs/Web/CSS/Guides/Syntax/Comments)
-  - [Specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity)
-  - [Inheritance](/en-US/docs/Web/CSS/Guides/Cascade/Inheritance)
+  - [CSS syntax](/css/guides/Syntax/Introduction)
+  - [At-rules](/css/guides/Syntax/At-rules)
+  - [Comments](/css/guides/Syntax/Comments)
+  - [Specificity](/css/guides/Cascade/Specificity)
+  - [Inheritance](/css/guides/Cascade/Inheritance)
   - [Layout modes](/en-US/docs/Glossary/Layout_mode)
-  - [Visual formatting model](/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model)
-  - [Margin collapsing](/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing)
+  - [Visual formatting model](/css/guides/Display/Visual_formatting_model)
+  - [Margin collapsing](/css/guides/Box_model/Margin_collapsing)
   - Values:
-    - [Initial values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value)
-    - [Computed values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value)
-    - [Used values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#used_value)
-    - [Actual values](/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#actual_value)
-  - [Value definition syntax](/en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax)
-  - [Shorthand properties](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties)
+    - [Initial values](/css/guides/Cascade/Property_value_processing#initial_value)
+    - [Computed values](/css/guides/Cascade/Property_value_processing#computed_value)
+    - [Used values](/css/guides/Cascade/Property_value_processing#used_value)
+    - [Actual values](/css/guides/Cascade/Property_value_processing#actual_value)
+  - [Value definition syntax](/css/guides/Values_and_units/Value_definition_syntax)
+  - [Shorthand properties](/css/guides/Cascade/Shorthand_properties)
   - {{glossary("Replaced elements")}}

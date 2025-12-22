@@ -22,7 +22,7 @@ total(options)
   - : A string representing the [`unit`](#unit_2) option. This is a convenience overload, so `total(unit)` is equivalent to `total({ unit })`, where `unit` is a string.
 - `options`
   - : An object containing some or all of the following properties (in the order they are retrieved and validated):
-    - `relativeTo` {{optional_inline}}
+    - `relativeTo` <Badge type="info" text="Optional" />
       - : A zoned or plain date(time) that provides the time and calendar information to resolve [calendar durations](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration#calendar_durations) (see the link for the general interpretation of this option). Required if either `this` or `other` is a calendar duration, or `unit` is a calendar unit.
     - `unit`
       - : Any of the temporal units: `"years"`, `"months"`, `"weeks"`, `"days"`, `"hours"`, `"minutes"`, `"seconds"`, `"milliseconds"`, `"microseconds"`, `"nanoseconds"`, or their singular forms.

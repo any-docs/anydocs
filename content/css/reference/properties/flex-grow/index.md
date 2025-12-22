@@ -6,12 +6,12 @@ browser-compat: css.properties.flex-grow
 sidebar: cssref
 ---
 
-The **`flex-grow`** [CSS](/en-US/docs/Web/CSS) property sets the flex grow factor, which specifies how much of the flex container's [**positive free space**](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Controlling_flex_item_ratios), if any, should be assigned to the flex item's [main size](/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox#the_flex_model).
+The **`flex-grow`** [CSS](/en-US/docs/Web/CSS) property sets the flex grow factor, which specifies how much of the flex container's [**positive free space**](/css/guides/Flexible_box_layout/Controlling_flex_item_ratios), if any, should be assigned to the flex item's [main size](/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox#the_flex_model).
 
 When the flex-container's main size is larger than the combined main sizes of its flex items, this positive free space can be distributed among the flex items, with each item's growth being their growth factor value as a proportion of the sum total of all the flex items' flex grow factors.
 
 > [!NOTE]
-> It is recommended to use the {{cssxref("flex")}} shorthand with a keyword value like `auto` or `initial` instead of setting `flex-grow` on its own. The [keyword values](/en-US/docs/Web/CSS/Reference/Properties/flex#values) expand to reliable combinations of `flex-grow`, {{cssxref("flex-shrink")}}, and {{cssxref("flex-basis")}}, which help to achieve the commonly desired flex behaviors.
+> It is recommended to use the {{cssxref("flex")}} shorthand with a keyword value like `auto` or `initial` instead of setting `flex-grow` on its own. The [keyword values](/css/reference/properties/flex#values) expand to reliable combinations of `flex-grow`, {{cssxref("flex-shrink")}}, and {{cssxref("flex-basis")}}, which help to achieve the commonly desired flex behaviors.
 
 {{InteractiveExample("CSS Demo: flex-grow")}}
 
@@ -182,7 +182,7 @@ When the six flex items are distributed along the container's main axis, if the 
 ## See also
 
 - {{cssxref("flex")}} shorthand
-- [Basic Concepts of Flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts)
-- [Controlling Ratios of flex items along the main axis](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Controlling_flex_item_ratios)
-- [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module
+- [Basic Concepts of Flexbox](/css/guides/Flexible_box_layout/Basic_concepts)
+- [Controlling Ratios of flex items along the main axis](/css/guides/Flexible_box_layout/Controlling_flex_item_ratios)
+- [CSS flexible box layout](/css/guides/Flexible_box_layout) module
 - [`flex-grow` is weird. Or is it?](https://css-tricks.com/flex-grow-is-weird/) via CSS-Tricks (2017)

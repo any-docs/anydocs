@@ -6,7 +6,7 @@ browser-compat: css.types.calc
 sidebar: cssref
 ---
 
-The **`calc()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) lets you perform calculations when specifying CSS property values. It can be used with {{cssxref("&lt;length&gt;")}}, {{cssxref("&lt;frequency&gt;")}}, {{cssxref("angle")}}, {{cssxref("&lt;time&gt;")}}, {{cssxref("&lt;percentage&gt;")}}, {{cssxref("&lt;number&gt;")}}, {{cssxref("&lt;integer&gt;")}}, and {{cssxref("color_value", "&lt;color-function&gt;")}} values.
+The **`calc()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) lets you perform calculations when specifying CSS property values. It can be used with {{cssxref("&lt;length&gt;")}}, {{cssxref("&lt;frequency&gt;")}}, {{cssxref("angle")}}, {{cssxref("&lt;time&gt;")}}, {{cssxref("&lt;percentage&gt;")}}, {{cssxref("&lt;number&gt;")}}, {{cssxref("&lt;integer&gt;")}}, and {{cssxref("color_value", "&lt;color-function&gt;")}} values.
 
 {{InteractiveExample("CSS Demo: calc()")}}
 
@@ -115,13 +115,13 @@ Inversely, `200px / 4px` resolves to `50`, which does make sense in CSS. Therefo
 
 The quotient can then be used in the values of properties or functions that accept a {{cssxref("number")}} as a value or parameter, or converted into a different data type by multiplying it by a typed value.
 
-For a full explanation of typed arithmetic in CSS, along with examples, see [Using CSS typed arithmetic](/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic).
+For a full explanation of typed arithmetic in CSS, along with examples, see [Using CSS typed arithmetic](/css/guides/Values_and_units/Using_typed_arithmetic).
 
 ### Support for computing color channels in relative colors
 
-The `calc()` function can be used to manipulate color channels directly within the context of [relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors). This allows for dynamic adjustments of color channels in color models such as [`rgb()`](/en-US/docs/Web/CSS/Reference/Values/color_value/rgb), [`hsl()`](/en-US/docs/Web/CSS/Reference/Values/color_value/hsl), and [`lch()`](/en-US/docs/Web/CSS/Reference/Values/color_value/lch).
+The `calc()` function can be used to manipulate color channels directly within the context of [relative colors](/css/guides/Colors/Using_relative_colors). This allows for dynamic adjustments of color channels in color models such as [`rgb()`](/css/reference/values/color_value/rgb), [`hsl()`](/css/reference/values/color_value/hsl), and [`lch()`](/css/reference/values/color_value/lch).
 
-The relative color syntax defines several color-channel keywords, each of which represents the value of the color channel as a {{cssxref("&lt;number&gt;")}} (see [Channel values resolve to `<number>` values](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors#channel_values_resolve_to_number_values) for more information). The `calc()` function can use these color-channel keywords to perform dynamic adjustments on the color channels, for example, `calc(r + 10)`.
+The relative color syntax defines several color-channel keywords, each of which represents the value of the color channel as a {{cssxref("&lt;number&gt;")}} (see [Channel values resolve to `<number>` values](/css/guides/Colors/Using_relative_colors#channel_values_resolve_to_number_values) for more information). The `calc()` function can use these color-channel keywords to perform dynamic adjustments on the color channels, for example, `calc(r + 10)`.
 
 ## Formal syntax
 
@@ -129,7 +129,7 @@ The relative color syntax defines several color-channel keywords, each of which 
 
 ## Accessibility
 
-When `calc()` is used for controlling text size, be sure that one of the values includes a [relative length unit](/en-US/docs/Web/CSS/Reference/Values/length#relative_length_units), for example:
+When `calc()` is used for controlling text size, be sure that one of the values includes a [relative length unit](/css/reference/values/length#relative_length_units), for example:
 
 ```css
 h1 {
@@ -203,7 +203,7 @@ Here, the form itself is established to use 1/6 of the available window width. T
 
 ### Nesting with CSS variables
 
-You can use `calc()` with [CSS variables](/en-US/docs/Web/CSS/Guides/Cascading_variables). Consider the following code:
+You can use `calc()` with [CSS variables](/css/guides/Cascading_variables). Consider the following code:
 
 ```css
 .foo {
@@ -218,10 +218,10 @@ After all variables are expanded, `--width-c`'s value will be `calc(calc(100px /
 
 ### Adjusting color channels in relative colors
 
-The `calc()` function can be used to adjust individual color channels in [relative colors](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors) without the need for storing color channel values as variables.
+The `calc()` function can be used to adjust individual color channels in [relative colors](/css/guides/Colors/Using_relative_colors) without the need for storing color channel values as variables.
 
 In the example below, the first paragraph uses a {{cssxref("named-color")}}.
-In the paragraphs that follow, `calc()` is used with the [`rgb()`](/en-US/docs/Web/CSS/Reference/Values/color_value/rgb) and [`hsl()`](/en-US/docs/Web/CSS/Reference/Values/color_value/hsl) functions to adjust the values of each color channel relative to the original named color.
+In the paragraphs that follow, `calc()` is used with the [`rgb()`](/css/reference/values/color_value/rgb) and [`hsl()`](/css/reference/values/color_value/hsl) functions to adjust the values of each color channel relative to the original named color.
 
 ```html
 <p class="original">Original text color in rebeccapurple</p>
@@ -257,7 +257,7 @@ p {
 
 {{EmbedLiveSample('Adjusting color channels in relative colors', '700', '300')}}
 
-For another example of using the `calc()` function to derive relative colors, see the [Using math functions](/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors#using_math_functions) section on the _Using relative colors_ page.
+For another example of using the `calc()` function to derive relative colors, see the [Using math functions](/css/guides/Colors/Using_relative_colors#using_math_functions) section on the _Using relative colors_ page.
 
 ## Specifications
 
@@ -271,5 +271,5 @@ For another example of using the `calc()` function to derive relative colors, se
 
 - {{CSSxRef("&lt;calc-sum&gt;")}}
 - {{CSSxRef("&lt;calc-keyword&gt;")}}
-- [CSS functions](/en-US/docs/Web/CSS/Reference/Values/Functions)
+- [CSS functions](/css/reference/values/Functions)
 - [A Complete Guide to calc() in CSS](https://css-tricks.com/a-complete-guide-to-calc-in-css/) (CSS-Tricks)

@@ -13,7 +13,7 @@ The **CSS positioned layout** module defines the coordinate-based positioning an
 
 The positioned layout module defines the physical, logical, and shorthand {{glossary("inset properties")}}. The logical properties enable developing with internationalization and responsiveness in mind.
 
-Like all CSS modules, this module impacts and is impacted by other modules. This module describes how positioning interacts with other layout modules such as [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) and [CSS Grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout). Other modules, such as [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning), build upon this module to enable positioning elements relative to other elements and layers.
+Like all CSS modules, this module impacts and is impacted by other modules. This module describes how positioning interacts with other layout modules such as [CSS flexible box layout](/css/guides/Flexible_box_layout) and [CSS Grid layout](/css/guides/Grid_layout). Other modules, such as [CSS anchor positioning](/css/guides/Anchor_positioning), build upon this module to enable positioning elements relative to other elements and layers.
 
 ## Reference
 
@@ -40,27 +40,27 @@ Like all CSS modules, this module impacts and is impacted by other modules. This
 ### Glossary terms and definitions
 
 - [Block direction](/en-US/docs/Glossary/Flow_relative_values#block_direction)
-- [Containing block](/en-US/docs/Web/CSS/Guides/Display/Containing_block)
+- [Containing block](/css/guides/Display/Containing_block)
 - {{glossary("Flow relative values")}}
 - [Inline direction](/en-US/docs/Glossary/Flow_relative_values#inline_direction)
 - {{glossary("Inset properties")}}
 - [Positioning context](/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning#positioning_contexts)
-- [Relative position](/en-US/docs/Web/CSS/Reference/Properties/position#relative_positioning)
+- [Relative position](/css/reference/properties/position#relative_positioning)
 - {{glossary("Stacking context")}}
 - [Static positioning](/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning#static_positioning)
 - {{glossary("Top layer")}}
 
 ## Guides
 
-- [Understanding z-index](/en-US/docs/Web/CSS/Guides/Positioned_layout/Understanding_z-index)
+- [Understanding z-index](/css/guides/Positioned_layout/Understanding_z-index)
   - : Presents the notion of stacking context and explains how z-ordering works, with several examples.
-- [Stacking without the `z-index` property](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_without_z-index)
+- [Stacking without the `z-index` property](/css/guides/Positioned_layout/Stacking_without_z-index)
   - : The stacking rules that apply when `z-index` is not used.
-- [Stacking floating elements](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_floating_elements)
+- [Stacking floating elements](/css/guides/Positioned_layout/Stacking_floating_elements)
   - : How floating elements are handled with stacking.
-- [Using `z-index`](/en-US/docs/Web/CSS/Guides/Positioned_layout/Using_z-index)
+- [Using `z-index`](/css/guides/Positioned_layout/Using_z-index)
   - : How to use `z-index` to change default stacking.
-- [Stacking context](/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context)
+- [Stacking context](/css/guides/Positioned_layout/Stacking_context)
   - : CSS stacking context, the CSS features that create new stacking contexts, and nested stacking contexts.
 - [Learn: positioning](/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning)
   - : The different position values and how to use them.
@@ -74,7 +74,7 @@ Like all CSS modules, this module impacts and is impacted by other modules. This
 - [Popover API](/en-US/docs/Web/API/Popover_API)
 - {{htmlelement("dialog")}} element
 
-- [CSS anchor positioning](/en-US/docs/Web/CSS/Guides/Anchor_positioning) module
+- [CSS anchor positioning](/css/guides/Anchor_positioning) module
   - {{cssxref("position-anchor")}}
   - {{cssxref("position-area")}}
   - {{cssxref("position-try-fallbacks")}}
@@ -82,7 +82,7 @@ Like all CSS modules, this module impacts and is impacted by other modules. This
   - {{cssxref("position-try")}} shorthand
   - {{cssxref("position-visibility")}}
 
-- [CSS transforms](/en-US/docs/Web/CSS/Guides/Transforms) module
+- [CSS transforms](/css/guides/Transforms) module
   - {{cssxref("transform")}}
   - {{cssxref("transform-origin")}}
   - {{cssxref("translate")}}
@@ -106,10 +106,10 @@ Like all CSS modules, this module impacts and is impacted by other modules. This
   - {{cssxref("ruby-position")}}
   - {{cssxref("text-emphasis-position")}}
   - {{cssxref("text-underline-position")}}
-- Position-related [data types](/en-US/docs/Web/CSS/Reference/Values/Data_types)
+- Position-related [data types](/css/reference/values/Data_types)
   - {{cssxref("baseline-position")}}
   - {{cssxref("content-position")}}
   - {{cssxref("overflow-position")}}
   - {{cssxref("self-position")}}
-- [CSS Scroll Snap](/en-US/docs/Web/CSS/Guides/Scroll_snap) module
+- [CSS Scroll Snap](/css/guides/Scroll_snap) module
   - {{glossary("Snap positions")}}

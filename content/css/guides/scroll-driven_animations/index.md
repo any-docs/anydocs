@@ -7,7 +7,7 @@ spec-urls: https://drafts.csswg.org/scroll-animations-1/
 sidebar: cssref
 ---
 
-The **CSS scroll-driven animations** module provides functionality that builds on the [CSS animations module](/en-US/docs/Web/CSS/Guides/Animations) and [Web Animations API](/en-US/docs/Web/API/Web_Animations_API). It allows you to animate property values along a scroll-based timeline rather than the default time-based document timeline. This means that you can animate an element by scrolling the element, its scroll container, or its root element, rather than just by the passing of time.
+The **CSS scroll-driven animations** module provides functionality that builds on the [CSS animations module](/css/guides/Animations) and [Web Animations API](/en-US/docs/Web/API/Web_Animations_API). It allows you to animate property values along a scroll-based timeline rather than the default time-based document timeline. This means that you can animate an element by scrolling the element, its scroll container, or its root element, rather than just by the passing of time.
 
 ## Scroll-driven animations in action
 
@@ -139,15 +139,15 @@ Scroll the element in the inline direction to see its background color change. S
 
 ## Guides
 
-- [Scroll-driven animation timelines](/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines)
+- [Scroll-driven animation timelines](/css/guides/Scroll-driven_animations/Timelines)
   - : Scroll-driven animation timelines and creating scroll-driven animations.
 
 ## Related concepts
 
-- [CSS animations](/en-US/docs/Web/CSS/Guides/Animations) module
+- [CSS animations](/css/guides/Animations) module
   - {{cssxref("animation-timeline")}}
   - {{cssxref("@keyframes")}}
-- [CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
+- [CSS overflow](/css/guides/Overflow) module
   - {{glossary("Scroll container")}}
   - [Scrollport](/en-US/docs/Glossary/Scroll_container#scrollport)
 - [Web Animations](/en-US/docs/Web/API/Web_Animations_API) API

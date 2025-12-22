@@ -128,5 +128,5 @@ The rendered result looks like this:
 - {{cssxref("corner-top-shape")}}, {{cssxref("corner-bottom-shape")}}, {{cssxref("corner-left-shape")}}, and {{cssxref("corner-right-shape")}}
 - {{cssxref("border-radius")}} shorthand property
 - {{cssxref("border-start-end-radius")}} and {{cssxref("border-end-end-radius")}}
-- [CSS borders and box decorations](/en-US/docs/Web/CSS/Guides/Borders_and_box_decorations) module
-- [CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) module
+- [CSS borders and box decorations](/css/guides/Borders_and_box_decorations) module
+- [CSS backgrounds and borders](/css/guides/Backgrounds_and_borders) module

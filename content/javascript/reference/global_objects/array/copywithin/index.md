@@ -43,7 +43,7 @@ copyWithin(target, start, end)
     - Negative index counts back from the end of the array — if `-array.length <= start < 0`, `start + array.length` is used.
     - If `start < -array.length`, `0` is used.
     - If `start >= array.length`, nothing is copied.
-- `end` {{optional_inline}}
+- `end` <Badge type="info" text="Optional" />
   - : Zero-based index at which to end copying elements from, [converted to an integer](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#integer_conversion). `copyWithin()` copies up to but not including `end`.
     - Negative index counts back from the end of the array — if `-array.length <= end < 0`, `end + array.length` is used.
     - If `end < -array.length`, `0` is used.

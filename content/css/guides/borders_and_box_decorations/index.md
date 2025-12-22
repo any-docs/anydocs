@@ -7,7 +7,7 @@ spec-urls: https://drafts.csswg.org/css-borders-4/
 sidebar: cssref
 ---
 
-The **CSS borders and box decorations** module provides properties for adding borders, shaped corners, and box shadows to elements. This module extends borders and box decorations introduced in the [CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) module, adding {{cssxref("corner-shape")}} and `border-shape` properties, logical {{cssxref("border-radius")}} properties, longhand properties for the {{cssxref("box-shadow")}} property, and properties to create partial borders.
+The **CSS borders and box decorations** module provides properties for adding borders, shaped corners, and box shadows to elements. This module extends borders and box decorations introduced in the [CSS backgrounds and borders](/css/guides/Backgrounds_and_borders) module, adding {{cssxref("corner-shape")}} and `border-shape` properties, logical {{cssxref("border-radius")}} properties, longhand properties for the {{cssxref("box-shadow")}} property, and properties to create partial borders.
 
 ## Borders and box decorations in action
 
@@ -223,9 +223,9 @@ The CSS borders and box decorations module level 4 also introduces the `border-s
 - {{cssxref("&lt;color&gt;")}} data type
 - {{cssxref("image")}} data type
 - {{cssxref("&lt;position&gt;")}} data type
-- [`currentColor`](/en-US/docs/Web/CSS/Reference/Values/color_value#currentcolor_keyword) keyword
+- [`currentColor`](/css/reference/values/color_value#currentcolor_keyword) keyword
 
-[CSS backgrounds and borders](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders) module
+[CSS backgrounds and borders](/css/guides/Backgrounds_and_borders) module
 
 - {{cssxref("background-attachment")}}
 - {{cssxref("background-clip")}}
@@ -253,8 +253,8 @@ The CSS borders and box decorations module level 4 also introduces the `border-s
 
 - {{cssxref("filter")}}
 - {{cssxref("backdrop-filter")}}
-- [`drop-shadow()`](/en-US/docs/Web/CSS/Reference/Values/filter-function/drop-shadow) filter function
-- [Applying color to HTML elements using CSS](/en-US/docs/Web/CSS/Guides/Colors/Applying_color)
+- [`drop-shadow()`](/css/reference/values/filter-function/drop-shadow) filter function
+- [Applying color to HTML elements using CSS](/css/guides/Colors/Applying_color)
 - Tools:
-  - [Border-image generator](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator)
-  - [Border-radius generator](/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator)
+  - [Border-image generator](/css/guides/Backgrounds_and_borders/Border-image_generator)
+  - [Border-radius generator](/css/guides/Backgrounds_and_borders/Border-radius_generator)

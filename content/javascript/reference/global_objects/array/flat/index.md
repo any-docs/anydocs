@@ -39,7 +39,7 @@ flat(depth)
 
 ### Parameters
 
-- `depth` {{optional_inline}}
+- `depth` <Badge type="info" text="Optional" />
   - : The depth level specifying how deep a nested array structure should be flattened.
     Defaults to 1.
 

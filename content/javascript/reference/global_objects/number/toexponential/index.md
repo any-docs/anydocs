@@ -36,7 +36,7 @@ toExponential(fractionDigits)
 
 ### Parameters
 
-- `fractionDigits` {{optional_inline}}
+- `fractionDigits` <Badge type="info" text="Optional" />
   - : Optional. An integer specifying the number of digits after the decimal point.
     Defaults to as many digits as necessary to specify the number.
 

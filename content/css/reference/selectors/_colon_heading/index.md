@@ -26,7 +26,7 @@ The `:heading` pseudo-class allows you to style all headings at once, rather tha
 
 This pseudo-class matches only elements that by default are semantically recognized as headings (`<h1>` through `<h6>`). Elements with [`role="heading"`](/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/heading_role) are not matched; you can select those by using the `[role="heading"]` [attribute selector](/en-US/docs/Web/CSS/Reference/Selectors/Attribute_selectors).
 
-The `:heading` pseudo-class has the same [specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity#how_is_specificity_calculated) as a class selector, that is, `0-1-0`. So `:heading` has a specificity of `0-1-0`, whereas `h1, h2, h3, h4, h5, h6` would have a specificity of `0-0-1` and `section:heading` would have a specificity of `0-1-1`.
+The `:heading` pseudo-class has the same [specificity](/css/guides/Cascade/Specificity#how_is_specificity_calculated) as a class selector, that is, `0-1-0`. So `:heading` has a specificity of `0-1-0`, whereas `h1, h2, h3, h4, h5, h6` would have a specificity of `0-0-1` and `section:heading` would have a specificity of `0-1-1`.
 
 ## Examples
 

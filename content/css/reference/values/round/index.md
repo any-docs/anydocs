@@ -6,9 +6,9 @@ browser-compat: css.types.round
 sidebar: cssref
 ---
 
-The **`round()`** [CSS](/en-US/docs/Web/CSS) [function](/en-US/docs/Web/CSS/Reference/Values/Functions) returns a rounded number based on a selected rounding strategy.
+The **`round()`** [CSS](/en-US/docs/Web/CSS) [function](/css/reference/values/Functions) returns a rounded number based on a selected rounding strategy.
 
-Authors should use a [custom CSS property](/en-US/docs/Web/CSS/Reference/Properties/--*) (e.g., `--my-property`) for the rounding value, interval, or both; using the `round()` function is redundant if these have known values.
+Authors should use a [custom CSS property](/css/reference/properties/--*) (e.g., `--my-property`) for the rounding value, interval, or both; using the `round()` function is redundant if these have known values.
 
 ## Syntax
 
@@ -101,7 +101,7 @@ body {
 ```
 
 The CSS that is applied to all boxes is shown below.
-Note that we apply a [custom CSS property](/en-US/docs/Web/CSS/Reference/Properties/--*) named `--rounding-interval`, that we will use for the rounding interval.
+Note that we apply a [custom CSS property](/css/reference/properties/--*) named `--rounding-interval`, that we will use for the rounding interval.
 
 ```css
 div.box {

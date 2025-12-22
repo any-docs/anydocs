@@ -87,7 +87,7 @@ hr {
 }
 ```
 
-The marker will be [`currentColor`](/en-US/docs/Web/CSS/Reference/Values/color_value#currentcolor_keyword), the same as the computed [color](/en-US/docs/Web/CSS/Reference/Values/color_value) of the element it applies to.
+The marker will be [`currentColor`](/css/reference/values/color_value#currentcolor_keyword), the same as the computed [color](/css/reference/values/color_value) of the element it applies to.
 
 Only a few elements ({{HTMLElement("li")}} and {{HTMLElement("summary")}}) have a default value of `display: list-item`. However, the `list-style-type` property may be applied to any element whose {{cssxref("display")}} value is set to `list-item`. Moreover, because this property is inherited, it can be set on a parent element (commonly {{HTMLElement("ol")}} or {{HTMLElement("ul")}}) to make it apply to all list items.
 
@@ -266,7 +266,7 @@ See the [compatibility table](#browser_compatibility) to check which browsers su
 
 ## Accessibility
 
-Safari will not recognize an ordered or unordered list as a list in the accessibility tree if it has a `list-style-type` value of `none`. This can be resolved by adding `role="list"` to the list's opening tag. To learn more about this and potential workarounds, see [`list-style`](/en-US/docs/Web/CSS/Reference/Properties/list-style#accessibility).
+Safari will not recognize an ordered or unordered list as a list in the accessibility tree if it has a `list-style-type` value of `none`. This can be resolved by adding `role="list"` to the list's opening tag. To learn more about this and potential workarounds, see [`list-style`](/css/reference/properties/list-style#accessibility).
 
 ## Formal definition
 
@@ -793,5 +793,5 @@ We're not limited to the list style types defined on this page or the specificat
 - {{Cssxref("list-style-image")}} property
 - {{Cssxref("list-style-position")}} property
 - {{Cssxref("::marker")}} pseudo-element
-- [CSS lists and counters](/en-US/docs/Web/CSS/Guides/Lists) module
-- [CSS counter styles](/en-US/docs/Web/CSS/Guides/Counter_styles) module
+- [CSS lists and counters](/css/guides/Lists) module
+- [CSS counter styles](/css/guides/Counter_styles) module

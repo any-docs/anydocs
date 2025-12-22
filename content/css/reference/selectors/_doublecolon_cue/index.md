@@ -111,7 +111,7 @@ Consider the following cue text that uses the `<u>` tag to underline some text:
 Tell me, is the <u>lord of the universe</u> in?
 ```
 
-The following CSS rule customizes the text inside the `<u>` tag with a color and a [text-decoration](/en-US/docs/Web/CSS/Reference/Properties/text-decoration):
+The following CSS rule customizes the text inside the `<u>` tag with a color and a [text-decoration](/css/reference/properties/text-decoration):
 
 ```css
 ::cue(u) {

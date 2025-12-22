@@ -36,7 +36,7 @@ yield expression
 
 ### Parameters
 
-- `expression` {{optional_inline}}
+- `expression` <Badge type="info" text="Optional" />
   - : The value to yield from the generator function via [the iterator protocol](/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterator_protocol). If omitted, `undefined` is yielded.
 
 ### Return value

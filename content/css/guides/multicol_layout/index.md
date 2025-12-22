@@ -279,7 +279,7 @@ blockquote p::after {
 {{EmbedLiveSample("multicol", "", "800px")}}
 
 > [!NOTE]
-> Multiple-column layout is closely related to [paged media](/en-US/docs/Web/CSS/Guides/Paged_media). Each column box is a fragment, much like each printed page is a fragment of a document. Using the properties defined in the [CSS fragmentation](/en-US/docs/Web/CSS/Guides/Fragmentation) module, you can control how content breaks between columns and pages.
+> Multiple-column layout is closely related to [paged media](/css/guides/Paged_media). Each column box is a fragment, much like each printed page is a fragment of a document. Using the properties defined in the [CSS fragmentation](/css/guides/Fragmentation) module, you can control how content breaks between columns and pages.
 
 ## Reference
 
@@ -305,24 +305,24 @@ blockquote p::after {
 
 ## Guides
 
-- [Basic concepts of multi-column layouts](/en-US/docs/Web/CSS/Guides/Multicol_layout/Basic_concepts)
+- [Basic concepts of multi-column layouts](/css/guides/Multicol_layout/Basic_concepts)
   - : Overview of the multiple-column layout specification.
-- [Using multi-column layouts](/en-US/docs/Web/CSS/Guides/Multicol_layout/Using)
+- [Using multi-column layouts](/css/guides/Multicol_layout/Using)
   - : Guide to using multi-column properties for laying out text.
-- [Styling columns](/en-US/docs/Web/CSS/Guides/Multicol_layout/Styling_columns)
+- [Styling columns](/css/guides/Multicol_layout/Styling_columns)
   - : Guide to styling columns and managing spacing between columns.
-- [Spanning and balancing](/en-US/docs/Web/CSS/Guides/Multicol_layout/Spanning_balancing_columns)
+- [Spanning and balancing](/css/guides/Multicol_layout/Spanning_balancing_columns)
   - : How to make elements span across all columns and control the way columns are filled.
-- [Handling overflow in multi-column layout](/en-US/docs/Web/CSS/Guides/Multicol_layout/Handling_overflow)
+- [Handling overflow in multi-column layout](/css/guides/Multicol_layout/Handling_overflow)
   - : What happens when an item overflows the column it is in and what happens when there is too much columned content to fit a container.
-- [Handling content breaks in multi-column layout](/en-US/docs/Web/CSS/Guides/Multicol_layout/Handling_content_breaks)
+- [Handling content breaks in multi-column layout](/css/guides/Multicol_layout/Handling_content_breaks)
   - : Introduction to the fragmentation specification and how to control where column content breaks.
-- [Creating CSS carousels](/en-US/docs/Web/CSS/Guides/Overflow/Carousels)
+- [Creating CSS carousels](/css/guides/Overflow/Carousels)
   - : Create pure-CSS carousel UI features using scroll buttons, scroll markers, and generated columns.
 
 ## Related concepts
 
-[CSS fragmentation](/en-US/docs/Web/CSS/Guides/Fragmentation) module
+[CSS fragmentation](/css/guides/Fragmentation) module
 
 - {{cssxref("break-after")}}
 - {{cssxref("break-before")}}
@@ -330,11 +330,11 @@ blockquote p::after {
 - {{cssxref("orphans")}}
 - {{cssxref("widows")}}
 
-[CSS box alignment](/en-US/docs/Web/CSS/Guides/Box_alignment) module
+[CSS box alignment](/css/guides/Box_alignment) module
 
 - {{cssxref("gap")}}
 
-[CSS box sizing](/en-US/docs/Web/CSS/Guides/Box_sizing) module
+[CSS box sizing](/css/guides/Box_sizing) module
 
 - {{cssxref("height")}}
 - {{cssxref("max-height")}}
@@ -342,16 +342,16 @@ blockquote p::after {
 - {{cssxref("width")}}
 - {{cssxref("max-width")}}
 
-[CSS overflow](/en-US/docs/Web/CSS/Guides/Overflow) module
+[CSS overflow](/css/guides/Overflow) module
 
 - {{cssxref("overflow")}}
 - {{cssxref("::scroll-marker")}}
 - {{cssxref("::scroll-marker-group")}}
 - {{glossary("Scroll container")}} glossary term
 
-[CSS display](/en-US/docs/Web/CSS/Guides/Display) module
+[CSS display](/css/guides/Display) module
 
-- [Block formatting context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context) guide
+- [Block formatting context](/css/guides/Display/Block_formatting_context) guide
 
 ## Specifications
 
@@ -360,7 +360,7 @@ blockquote p::after {
 ## See also
 
 - [Learn: multiple-column layout](/en-US/docs/Learn_web_development/Core/CSS_layout/Multiple-column_Layout)
-- [CSS fragmentation](/en-US/docs/Web/CSS/Guides/Fragmentation) module
-- [CSS flexible box layout](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) module
-- [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) module
-- [CSS paged media](/en-US/docs/Web/CSS/Guides/Paged_media) module
+- [CSS fragmentation](/css/guides/Fragmentation) module
+- [CSS flexible box layout](/css/guides/Flexible_box_layout) module
+- [CSS grid layout](/css/guides/Grid_layout) module
+- [CSS paged media](/css/guides/Paged_media) module

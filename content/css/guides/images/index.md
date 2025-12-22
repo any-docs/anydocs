@@ -45,26 +45,26 @@ The CSS images module also defines the {{CSSxRef("image/image", "image()")}} fun
 
 ## Guides
 
-- [Using CSS gradients](/en-US/docs/Web/CSS/Guides/Images/Using_gradients)
+- [Using CSS gradients](/css/guides/Images/Using_gradients)
   - : Presents a specific type of CSS images, _gradients_, and how to create and use these.
 
-- [Implementing image sprites in CSS](/en-US/docs/Web/CSS/Guides/Images/Implementing_image_sprites)
+- [Implementing image sprites in CSS](/css/guides/Images/Implementing_image_sprites)
   - : Describes the common technique grouping several images in one single document to save download requests and speed up the availability of a page.
 
-- [Styling replaced elements](/en-US/docs/Web/CSS/Guides/Images/Replaced_element_properties)
+- [Styling replaced elements](/css/guides/Images/Replaced_element_properties)
   - : Introduces the properties that only apply to _replaced elements_.
 
-- [Understanding aspect ratios](/en-US/docs/Web/CSS/Guides/Box_sizing/Aspect_ratios)
+- [Understanding aspect ratios](/css/guides/Box_sizing/Aspect_ratios)
   - : Learn about the `aspect-ratio` property, discuss aspect ratios for replaced and non-replaced elements, and examine some common aspect ratio use cases.
 
-- [Using the CSS `object-view-box` property](/en-US/docs/Web/CSS/Guides/Images/Using_object-view-box)
+- [Using the CSS `object-view-box` property](/css/guides/Images/Using_object-view-box)
   - : Learn the CSS `object-view-box` property, including how to zoom in, zoom out, and pan across images.
 
 ## Related concepts
 
 - {{cssxref("url_value", "&lt;url&gt;")}}
 - {{cssxref("url_function", "url()")}}
-- [`<basic-shape-rect>`](/en-US/docs/Web/CSS/Reference/Values/basic-shape#syntax_for_rectangles_basic-shape-rect)
+- [`<basic-shape-rect>`](/css/reference/values/basic-shape#syntax_for_rectangles_basic-shape-rect)
 
 ## Specifications
 
@@ -72,7 +72,7 @@ The CSS images module also defines the {{CSSxRef("image/image", "image()")}} fun
 
 ## See also
 
-- [CSS filter effects](/en-US/docs/Web/CSS/Guides/Filter_effects) module
-- [CSS compositing and blending](/en-US/docs/Web/CSS/Guides/Compositing_and_blending) module
-- [CSS colors](/en-US/docs/Web/CSS/Guides/Colors) module
-- [CSS values and units](/en-US/docs/Web/CSS/Guides/Values_and_units) module
+- [CSS filter effects](/css/guides/Filter_effects) module
+- [CSS compositing and blending](/css/guides/Compositing_and_blending) module
+- [CSS colors](/css/guides/Colors) module
+- [CSS values and units](/css/guides/Values_and_units) module

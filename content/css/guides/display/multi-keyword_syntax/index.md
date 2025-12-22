@@ -6,14 +6,14 @@ page-type: guide
 sidebar: cssref
 ---
 
-The [CSS display module](/en-US/docs/Web/CSS/Guides/Display) defines a multi-keyword syntax for the CSS {{cssxref("display")}} property. This guide explains the multi-keyword syntax.
+The [CSS display module](/css/guides/Display) defines a multi-keyword syntax for the CSS {{cssxref("display")}} property. This guide explains the multi-keyword syntax.
 
 > [!NOTE]
 > Multi-keyword syntax is also referred to as "two-value syntax" or "multi-value syntax."
 
 ## What happens when we change the value of the display property?
 
-One of the first things we learn about CSS is that some elements are block-level and some are inline-level. These are their [outer](/en-US/docs/Web/CSS/Reference/Values/display-outside) display types. For example, an `<h1>` or a `<p>` are block-level by default, and a `<span>` is inline-level. Using the {{cssxref("display")}} property we can switch between block and inline. For example to make a heading inline we would use the following CSS:
+One of the first things we learn about CSS is that some elements are block-level and some are inline-level. These are their [outer](/css/reference/values/display-outside) display types. For example, an `<h1>` or a `<p>` are block-level by default, and a `<span>` is inline-level. Using the {{cssxref("display")}} property we can switch between block and inline. For example to make a heading inline we would use the following CSS:
 
 ```css
 h1 {
@@ -21,7 +21,7 @@ h1 {
 }
 ```
 
-The `display` property also lets us use [CSS grid layout](/en-US/docs/Web/CSS/Guides/Grid_layout) and [Flexbox](/en-US/docs/Web/CSS/Guides/Flexible_box_layout) when `display: grid` or `display: flex` is set. The important concept to understand is that changing an element's `display` value can change the formatting context of its direct children. When you use `display: flex` or `display: grid`, the element's children become flex or grid items and respond to the properties in grid and flexbox specifications.
+The `display` property also lets us use [CSS grid layout](/css/guides/Grid_layout) and [Flexbox](/css/guides/Flexible_box_layout) when `display: grid` or `display: flex` is set. The important concept to understand is that changing an element's `display` value can change the formatting context of its direct children. When you use `display: flex` or `display: grid`, the element's children become flex or grid items and respond to the properties in grid and flexbox specifications.
 
 What grid and flexbox demonstrate, however, is that an element has both an **outer** and an **inner** display type. The outer display type describes whether the element is block-level or inline-level. The inner display type describes how the children of that box behave.
 
@@ -142,14 +142,14 @@ There are mappings for all of the existing values of `display`; the most common 
 
 ## display: block flow-root and display: inline flow-root
 
-Regarding how this multi-value syntax helps clarify CSS layout, we can look at some values in the table above that might be less familiar to you. The multi-keyword `display: block flow-root` maps to a single value; `display: flow-root`. This value's only purpose is to create a new [Block Formatting Context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context) (BFC). A BFC ensures that everything inside your box stays inside, and things outside the box cannot intrude into it.
+Regarding how this multi-value syntax helps clarify CSS layout, we can look at some values in the table above that might be less familiar to you. The multi-keyword `display: block flow-root` maps to a single value; `display: flow-root`. This value's only purpose is to create a new [Block Formatting Context](/css/guides/Display/Block_formatting_context) (BFC). A BFC ensures that everything inside your box stays inside, and things outside the box cannot intrude into it.
 
 In the example below, two `<p>` elements, one inside a `<div>` demonstrate how display values affect formatting contexts.
 The first `<div>` element with the demo controls is hidden so we can focus on the elements that follow instead.
 The elements that we should focus on are the "parent", "child", and "sibling" `<div>` and `<p>` elements which you can differentiate by their IDs.
 
 What's notable about this layout is that there is no content between the parent and child elements, and the child element has a top margin applied.
-You might expect the top margin to effectively push the child element down within the parent element, but what happens instead is something called [_margin collapse_](/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing).
+You might expect the top margin to effectively push the child element down within the parent element, but what happens instead is something called [_margin collapse_](/css/guides/Box_model/Margin_collapsing).
 In this case, the margin of the child element extends well above the parent's bounding box and pushes the parent element further down the page.
 This is easier to see if you inspect the box model of the child element [in your browser's developer tools](/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model#using_browser_devtools_to_view_the_box_model).
 

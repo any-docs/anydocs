@@ -8,7 +8,7 @@ export default defineConfig({
   title: "AnyDocs — Your modern and beautiful all-in-one documentation",
   description: "Modern docs, beautifully designed.",
   head: [
-      ['link', {rel: 'icon', href: '/icon-512.png'}]
+      ['link', {rel: 'icon', href: '/images/icon-512.png'}]
   ],
   themeConfig: {
     siteTitle: 'AnyDocs',

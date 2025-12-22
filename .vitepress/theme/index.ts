@@ -41,6 +41,28 @@ export default {
         app.config.globalProperties.rfc = glossary;
         app.config.globalProperties.CSSXRef = glossary;
         app.config.globalProperties.svgelement = glossary;
+        app.config.globalProperties.DOMXRef = glossary;
+        app.config.globalProperties.SVGelement = glossary;
+        app.config.globalProperties.embedlivesample = glossary;
+        app.config.globalProperties.svgElement = glossary;
+        app.config.globalProperties.svgAttr = glossary;
+        app.config.globalProperties.HTMLelement = glossary;
+        app.config.globalProperties.CSSSyntaxRaw = glossary;
+        app.config.globalProperties.CSSSyntax = glossary;
+        app.config.globalProperties.DOMxref = glossary;
+        app.config.globalProperties.standard_header = glossary;
+        app.config.globalProperties.htmlElement = glossary;
+        app.config.globalProperties.csssyntax = glossary;
+        app.config.globalProperties.CSSxref = glossary;
+        app.config.globalProperties.mathmlelement = glossary;
+        app.config.globalProperties.JSxRef = glossary;
+        app.config.globalProperties.CSSxREF = glossary;
+        app.config.globalProperties.HTMLElement = glossary;
+        app.config.globalProperties.HTMLELement = glossary;
+        app.config.globalProperties.PreviousNext = glossary;
+        app.config.globalProperties.Previous = glossary;
+        app.config.globalProperties.ListSubPages = glossary;
+        app.config.globalProperties.js_property_attributes = glossary;
 
         // You could also register global components here
         // app.component('MyGlobalComponent', MyGlobalComponent);

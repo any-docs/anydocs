@@ -154,7 +154,7 @@ Nesting a `<samp>` element inside a `<kbd>` element represents input which is ba
 
 For example, you can explain how to choose the "New Document" option in the "File" menu using HTML that looks like this:
 
-```html-nolint
+```html
 <p>
   To create a new file, choose the <kbd><kbd><samp>File</samp></kbd>
   ⇒<kbd><samp>New Document</samp></kbd></kbd> menu option.

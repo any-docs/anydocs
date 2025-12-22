@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   themeConfig: {
     siteTitle: 'AnyDocs',
-    logo: '/icon-512.png',
+    logo: '/images/icon-512.png',
     search: {
       provider: 'local'
     },
@@ -24,6 +24,14 @@ export default defineConfig({
       {
         text: 'Docs',
         items: [
+          {
+            text: 'CSS',
+            link: '/css/index',
+          },
+          {
+            text: 'Javascript',
+            link: '/javascript/index',
+          },
           {
             text: 'HTML',
             link: '/html/index',
@@ -55,7 +63,6 @@ export default defineConfig({
         ]
       }]
     },
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/any-docs/anydocs' }
     ],

@@ -188,7 +188,7 @@ The CSS includes the `[open]` [attribute selector](/en-US/docs/Web/CSS/Reference
 
 #### HTML
 
-```html-nolint
+```html
 <h1>Quotes from Helen Keller</h1>
 
 <details>

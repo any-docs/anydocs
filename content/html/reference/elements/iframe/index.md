@@ -255,7 +255,7 @@ Note that when using `srcdoc`, any relative URLs in the embedded content will be
 
 #### HTML
 
-```html-nolint
+```html
 <article>
   <footer>Nine minutes ago, <i>jc</i> wrote:</footer>
   <iframe

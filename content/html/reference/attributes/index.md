@@ -1416,7 +1416,7 @@ Some content attributes (e.g., `required`, `readonly`, `disabled`) are called [b
 
 HTML defines restrictions on the allowed values of boolean attributes: If the attribute is present, its value must either be the empty string (equivalently, the attribute may have an unassigned value), or a value that is an ASCII case-insensitive match for the attribute's canonical name, with no leading or trailing whitespace. The following examples are valid ways to mark up a boolean attribute:
 
-```html-nolint
+```html
 <div itemscope>This is valid HTML but invalid XML.</div>
 <div itemscope=itemscope>This is also valid HTML but invalid XML.</div>
 <div itemscope="">This is valid HTML and also valid XML.</div>

@@ -84,7 +84,7 @@ To add links to the definitions, you create the link the same way you always do,
 
 #### HTML
 
-```html-nolint
+```html
 <p>
   The
   <strong>HTML Definition element (<dfn id="definition-dfn"><dfn></dfn>)</strong>

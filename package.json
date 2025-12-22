@@ -1,11 +1,21 @@
 {
-  "dependencies": {},
+  "dependencies": {
+    "oxc-minify": "^0.104.0"
+  },
   "devDependencies": {
     "vitepress": "^2.0.0-alpha.15"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "docs:build": "NODE_OPTIONS='--max-old-space-size=8192' vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:rolldown-vite@latest"
+    }
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@latest"
   }
 }

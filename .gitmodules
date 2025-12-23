@@ -1,0 +1,21 @@
+[submodule "docs/css"]
+	path = docs/css
+	url = https://github.com/any-docs/css.git
+[submodule "docs/main"]
+	path = docs/main
+	url = https://github.com/any-docs/main.git
+[submodule "docs/zig"]
+	path = docs/zig
+	url = https://github.com/any-docs/zig.git
+[submodule "docs/rust"]
+	path = docs/rust
+	url = https://github.com/any-docs/rust.git
+[submodule "docs/php"]
+	path = docs/php
+	url = https://github.com/any-docs/php.git
+[submodule "docs/javascript"]
+	path = docs/javascript
+	url = https://github.com/any-docs/javascript.git
+[submodule "docs/html"]
+	path = docs/html
+	url = https://github.com/any-docs/html.git

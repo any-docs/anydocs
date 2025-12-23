@@ -1,14 +1,18 @@
 {
+  "name": "core",
   "dependencies": {
     "oxc-minify": "^0.104.0"
   },
   "devDependencies": {
+    "turbo": "^2.7.1",
+    "vite-plugin-static-copy": "^3.1.4",
     "vitepress": "^2.0.0-alpha.15"
   },
   "scripts": {
-    "docs:dev": "vitepress dev",
+    "docs:dev": "bun run sync:env && turbo run docs:dev",
     "docs:build": "NODE_OPTIONS='--max-old-space-size=8192' vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "sync:env": "find docs -maxdepth 2 -name \"package.json\" -exec sh -c 'cp .env $(dirname {})/.env' \\;"
   },
   "pnpm": {
     "overrides": {
@@ -17,5 +21,9 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@latest"
-  }
+  },
+  "packageManager": "bun@1.2.0",
+  "workspaces": [
+    "docs/*"
+  ]
 }

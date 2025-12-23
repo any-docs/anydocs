@@ -10,7 +10,7 @@
   },
   "scripts": {
     "docs:dev": "bun run sync:env && turbo run docs:dev",
-    "docs:build": "NODE_OPTIONS='--max-old-space-size=8192' vitepress build",
+    "docs:build": "NODE_OPTIONS='--max-old-space-size=8192' turbo run docs:build",
     "docs:preview": "vitepress preview",
     "sync:env": "find docs -maxdepth 2 -name \"package.json\" -exec sh -c 'cp .env $(dirname {})/.env' \\;"
   },
